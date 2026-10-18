@@ -10,6 +10,7 @@ The goal of each page is that the reader can do something new by the end of it, 
 - Explanations are plain and direct. Definitions and theorems are stated precisely, in the standard wording a university course would use, so the reader also learns to read real textbooks.
 - Active voice, present tense, plain verbs: "divide", not "perform a division"; "use", not "utilize".
 - Be modest. Don't praise the material ("this beautiful result") and don't hype it.
+- Use Canadian spelling: colour, centre, labour, practise (the verb) and practice (the noun). Keep the original spelling in names and titles ("National Center for Education Research").
 
 ## How to explain
 
