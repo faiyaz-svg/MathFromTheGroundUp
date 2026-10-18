@@ -55,6 +55,38 @@
   --md-hue: 225;
 }
 
+/* Code colours in the W3Schools style (no purple) */
+:root,
+[data-md-color-scheme="default"] {
+  --md-code-hl-keyword-color: #0000cd;
+  --md-code-hl-string-color: #a52a2a;
+  --md-code-hl-number-color: #d0021b;
+  --md-code-hl-comment-color: #008000;
+  --md-code-hl-function-color: #1b1b1b;
+  --md-code-hl-name-color: #1b1b1b;
+  --md-code-hl-constant-color: #0000cd;
+  --md-code-hl-special-color: #a52a2a;
+  --md-code-hl-operator-color: #1b1b1b;
+  --md-code-hl-punctuation-color: #1b1b1b;
+  --md-code-hl-variable-color: #1b1b1b;
+  --md-code-hl-generic-color: #555b61;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-code-hl-keyword-color: #6fa8ff;
+  --md-code-hl-string-color: #e6a27a;
+  --md-code-hl-number-color: #ff8080;
+  --md-code-hl-comment-color: #6cc070;
+  --md-code-hl-function-color: #e6e6e6;
+  --md-code-hl-name-color: #e6e6e6;
+  --md-code-hl-constant-color: #6fa8ff;
+  --md-code-hl-special-color: #e6a27a;
+  --md-code-hl-operator-color: #e6e6e6;
+  --md-code-hl-punctuation-color: #e6e6e6;
+  --md-code-hl-variable-color: #e6e6e6;
+  --md-code-hl-generic-color: #a9aeb5;
+}
+
 body,
 input {
   font-family: var(--md-text-font-family);
