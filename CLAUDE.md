@@ -26,6 +26,8 @@ py -m venv .venv
 .venv/Scripts/zensical serve        # preview at http://127.0.0.1:8000/MathFromTheGroundUp/
 .venv/Scripts/zensical build --clean
 .venv/Scripts/python anki/build_decks.py
+.venv/Scripts/python tools/build_nav.py      # after adding lessons: nav, progress page, folder lesson lists
+.venv/Scripts/python tools/link_planned.py   # turn <!-- link: ... --> comments into links once targets exist
 ```
 
 ## Before committing a page
