@@ -20,7 +20,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 1. Ratios and unit rates (not written yet)
 2. Proportional relationships (not written yet)
-3. Percents (not written yet)
+3. [Percents](02-ratios-rates-percents/03-percents.md)
 4. Percent change and applications (not written yet)
 
 ### 3. Expressions, equations and inequalities
@@ -35,7 +35,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 1. Exponent rules (not written yet)
 2. Scientific notation (not written yet)
-3. Roots (not written yet)
+3. Roots, irrational numbers and types of numbers (not written yet)
 4. Estimation and sanity checks (not written yet)
 
 ### 5. Linear relationships and functions
@@ -51,7 +51,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. Area and circles (not written yet)
 3. Volume and surface area (not written yet)
 4. The Pythagorean theorem (not written yet)
-5. Transformations (not written yet)
+5. Transformations, congruence and similarity (not written yet)
 
 ### 7. Statistics and probability
 

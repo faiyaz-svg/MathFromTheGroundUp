@@ -12,7 +12,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 ### 1. Language and notation
 
 1. What is a proof (not written yet)
-2. Definitions (not written yet)
+2. Definitions, theorems, lemmas and corollaries (not written yet)
 3. Proof language: let, suppose, WLOG (not written yet) (fast path)
 4. Reading math symbols (not written yet) (fast path)
 
@@ -54,7 +54,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. Equivalence relations and partitions (not written yet)
 3. Partial orders (not written yet)
 4. Functions and well-definedness (not written yet)
-5. Injective (not written yet)
+5. Injective, surjective and bijective (not written yet) (fast path)
 6. Cardinality and countability (not written yet)
 
 ### 7. Putting it together

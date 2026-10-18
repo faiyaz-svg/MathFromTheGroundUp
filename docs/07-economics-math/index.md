@@ -34,11 +34,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. Production and cost functions (not written yet)
 3. Profit maximization and market structure (not written yet)
 4. Utility and indifference curves (not written yet)
-5. Lagrange multipliers (not written yet)
+5. Lagrange multipliers, utility and cost minimization (not written yet)
 
 ### 4. More tools
 
-1. Present value (not written yet)
+1. Present value, NPV and bond prices (not written yet)
 2. Multipliers and the AD-AS model (not written yet)
 3. Regression and econometrics intuition (not written yet)
 4. Game theory and Nash equilibrium (not written yet)

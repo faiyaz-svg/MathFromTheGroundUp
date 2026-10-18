@@ -11,7 +11,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 1. Algebra foundations
 
-1. Real numbers (not written yet)
+1. Real numbers, axioms and set notation (not written yet)
 2. Linear and literal equations (not written yet)
 3. Compound inequalities and interval notation (not written yet)
 4. Absolute value equations and inequalities (not written yet)
@@ -26,7 +26,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 1. What is a function (not written yet)
 2. Reading function graphs (not written yet)
-3. Piecewise (not written yet)
+3. Piecewise, absolute value and step functions (not written yet)
 4. Transformations of functions (not written yet)
 5. Composition and inverse functions (not written yet)
 
@@ -60,7 +60,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 8. Geometry and proof
 
-1. Definitions (not written yet)
+1. Definitions, postulates and proof (not written yet)
 2. Congruence and triangle proofs (not written yet)
 3. Similarity (not written yet)
 4. Coordinate geometry and circles (not written yet)

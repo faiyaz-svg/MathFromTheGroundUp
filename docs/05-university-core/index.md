@@ -11,15 +11,15 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 1. Limits and continuity
 
-1. Limits (not written yet)
+1. Limits, intuition and limit laws (not written yet)
 2. The epsilon-delta definition (not written yet)
-3. Continuity (not written yet)
+3. Continuity, asymptotes and the IVT (not written yet)
 
 ### 2. Derivatives
 
 1. The derivative definition (not written yet)
 2. Differentiation rules (not written yet)
-3. Chain rule (not written yet)
+3. Chain rule, implicit and inverse derivatives (not written yet)
 
 ### 3. Applications of derivatives
 
@@ -47,22 +47,22 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 6. Linear algebra
 
-1. Vectors (not written yet)
+1. Vectors, dot product and span (not written yet)
 2. Systems and Gaussian elimination (not written yet)
 3. Matrix algebra and inverses (not written yet)
-4. Linear independence (not written yet)
-5. Linear transformations (not written yet)
+4. Linear independence, basis and dimension (not written yet)
+5. Linear transformations, kernel and image (not written yet)
 6. Determinants (not written yet)
-7. Orthogonality (not written yet)
+7. Orthogonality, projections and least squares (not written yet)
 8. Eigenvalues and eigenvectors (not written yet)
 
 ### 7. Probability
 
-1. Sample spaces (not written yet)
+1. Sample spaces, events and axioms (not written yet)
 2. Conditional probability and Bayes' theorem (not written yet)
 3. Discrete random variables (not written yet)
 4. Continuous random variables and the normal distribution (not written yet)
-5. Joint distributions (not written yet)
+5. Joint distributions, covariance and sums (not written yet)
 6. The law of large numbers and the CLT (not written yet)
 
 ### 8. Statistics
@@ -74,7 +74,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 9. Multivariable calculus (light)
 
-1. Parametric (not written yet)
+1. Parametric, polar and 3D coordinates (not written yet) (optional)
 2. Partial derivatives and the gradient (not written yet)
 3. Multivariable optimization and Lagrange multipliers (not written yet)
 4. Double integrals (not written yet) (optional)

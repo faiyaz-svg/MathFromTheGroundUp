@@ -11,7 +11,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 1. Number representation
 
-1. Number bases and conversions (not written yet)
+1. [Number bases and conversions](01-number-representation/01-number-bases-and-conversions.md)
 2. Bits and information (not written yet)
 3. Binary arithmetic and two's complement (not written yet)
 4. Floating point basics (not written yet)
@@ -24,7 +24,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. GCD and Euclid's algorithm (not written yet)
 3. Primes and unique factorization (not written yet)
 4. Modular inverses and the Chinese remainder theorem (not written yet)
-5. Fermat (not written yet)
+5. Fermat, Euler and fast exponentiation (not written yet)
 6. RSA cryptography (not written yet)
 
 ### 3. Counting and discrete probability
@@ -46,8 +46,8 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 ### 5. Graphs
 
 1. Graph basics (not written yet)
-2. Paths (not written yet)
-3. Bipartite graphs (not written yet)
+2. Paths, connectivity and trees (not written yet)
+3. Bipartite graphs, coloring and planar graphs (not written yet)
 
 ### 6. Theory of computation
 
@@ -57,6 +57,6 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. Turing machines and the Church-Turing thesis (not written yet)
 5. Decidability and the halting problem (not written yet)
 6. Reductions and undecidability (not written yet)
-7. P (not written yet)
+7. P, NP and NP-completeness (not written yet)
 
 <!-- lessons:end -->

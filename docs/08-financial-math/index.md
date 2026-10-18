@@ -11,7 +11,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 ### 1. Everyday money
 
-1. Tips (not written yet)
+1. Tips, discounts and HST (not written yet)
 2. Unit price and comparison shopping (not written yet)
 3. Paycheques and budgeting (not written yet)
 
@@ -19,9 +19,9 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 
 1. Simple interest (not written yet)
 2. Compound interest (not written yet)
-3. APR (not written yet)
+3. APR, APY and the effective annual rate (not written yet)
 4. Continuous compounding and e (not written yet)
-5. Doubling time (not written yet)
+5. Doubling time, the rule of 72 and logs (not written yet)
 6. Inflation and real returns (not written yet)
 
 ### 3. Time value of money
@@ -48,7 +48,7 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 ### 6. Investing and retirement
 
 1. Investing returns and risk (not written yet)
-2. Index funds (not written yet)
+2. Index funds, fees and dollar-cost averaging (not written yet)
 3. Retirement accounts: RRSP, TFSA and FHSA (not written yet)
 
 ### 7. Taxes, insurance and planning

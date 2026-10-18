@@ -87,11 +87,18 @@ extra_css:
 nav:
   - Start here:
       - index.md
+      - "How to use this book": 00-start-here/index.md
+      - "How to read math": 00-start-here/how-to-read-math.md
+      - "How to study": 00-start-here/how-to-study.md
+      - "Problem-solving playbook": 00-start-here/problem-solving-playbook.md
       - "Progress": progress.md
   - "Elementary":
       - 01-elementary/index.md
+      - "Long division": 01-elementary/07-long-division.md
   - "Middle school":
       - 02-middle-school/index.md
+      - "Ratios, rates and percents":
+          - "Percents": 02-middle-school/02-ratios-rates-percents/03-percents.md
   - "High school":
       - 03-high-school/index.md
   - "Proofs":
@@ -100,8 +107,16 @@ nav:
       - 05-university-core/index.md
   - "CS math":
       - 06-cs-math/index.md
+      - "Number representation":
+          - "Number bases and conversions": 06-cs-math/01-number-representation/01-number-bases-and-conversions.md
   - "Economics":
       - 07-economics-math/index.md
   - "Finance":
       - 08-financial-math/index.md
+  - Reference:
+      - reference/index.md
+      - "Glossary": reference/glossary.md
+      - "Symbols and notation": reference/symbols-and-notation.md
+      - "Common mistakes": reference/common-mistakes.md
+      - "Formula index": reference/formula-index.md
 # nav:end
