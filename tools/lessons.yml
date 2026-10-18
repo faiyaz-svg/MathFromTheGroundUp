@@ -1,0 +1,469 @@
+# The lesson map for the whole book, in reading order.
+# tools/build_nav.py reads this file and updates the nav in mkdocs.yml,
+# docs/progress.md, and the lesson list in each folder's index.md.
+#
+# File paths come from the order here:
+#   flat folder:     docs/<folder>/<NN>-<slug>.md
+#   chaptered folder: docs/<folder>/<NN>-<chapter>/<NN>-<slug>.md
+# A lesson entry is [slug, title] or [slug, title, flags] where flags can
+# contain "optional" and/or "fast" (on the folder's fast path).
+
+folders:
+  - folder: 01-elementary
+    title: Elementary
+    tab: Elementary
+    summary: Whole numbers, the four operations, fractions, decimals, measurement and basic geometry. Grades 1 to 5, written compactly for an adult who knows most of it.
+    before: Nothing. This is the start.
+    lessons:
+      - [place-value-and-rounding, Place value and rounding]
+      - [addition-and-subtraction, Addition and subtraction]
+      - [multiplication-and-times-tables, Multiplication and times tables]
+      - [properties-of-operations, Properties of operations]
+      - [multi-digit-multiplication, Multi-digit multiplication]
+      - [division-facts-and-remainders, Division facts and remainders]
+      - [long-division, Long division]
+      - [factors-multiples-and-primes, Factors, multiples and primes]
+      - [fractions-and-equivalent-fractions, Fractions and equivalent fractions]
+      - [adding-and-subtracting-fractions, Adding and subtracting fractions]
+      - [multiplying-and-dividing-fractions, Multiplying and dividing fractions]
+      - [decimals-place-value-and-adding, "Decimals: place value, adding and subtracting"]
+      - [multiplying-and-dividing-decimals, Multiplying and dividing decimals]
+      - [powers-of-ten, Powers of ten]
+      - [measurement-and-unit-conversion, Measurement and unit conversion]
+      - [geometry-basics-area-perimeter-volume, "Geometry basics: area, perimeter and volume"]
+
+  - folder: 02-middle-school
+    title: Middle school
+    tab: Middle school
+    summary: Negative numbers, ratios and percents, equations and inequalities, exponents and roots, linear relationships, geometry, and first statistics. Grades 6 to 8.
+    before: Elementary.
+    chapters:
+      - slug: integers-and-rational-numbers
+        title: Integers and rational numbers
+        lessons:
+          - [negative-numbers-and-absolute-value, Negative numbers and absolute value]
+          - [integer-arithmetic-and-sign-rules, Integer arithmetic and sign rules]
+          - [rational-number-arithmetic, Rational number arithmetic]
+          - [exponents-and-order-of-operations, Exponents and order of operations]
+      - slug: ratios-rates-percents
+        title: Ratios, rates and percents
+        lessons:
+          - [ratios-and-unit-rates, Ratios and unit rates]
+          - [proportional-relationships, Proportional relationships]
+          - [percents, Percents]
+          - [percent-change-and-applications, Percent change and applications]
+      - slug: expressions-equations-inequalities
+        title: Expressions, equations and inequalities
+        lessons:
+          - [variables-and-expressions, Variables and expressions]
+          - [equivalent-expressions, Equivalent expressions]
+          - [one-and-two-step-equations, One- and two-step equations]
+          - [multi-step-equations, Multi-step equations]
+          - [inequalities, Inequalities]
+      - slug: powers-roots-and-real-numbers
+        title: Powers, roots and real numbers
+        lessons:
+          - [exponent-rules, Exponent rules]
+          - [scientific-notation, Scientific notation]
+          - [roots-irrationals-and-types-of-numbers, Roots, irrational numbers and types of numbers]
+          - [estimation-and-sanity-checks, Estimation and sanity checks]
+      - slug: linear-relationships-and-functions
+        title: Linear relationships and functions
+        lessons:
+          - [coordinate-plane, The coordinate plane]
+          - [slope-and-linear-equations, Slope and linear equations]
+          - [intro-to-functions, Introduction to functions]
+          - [systems-of-linear-equations, Systems of linear equations]
+      - slug: geometry
+        title: Geometry
+        lessons:
+          - [angles-and-triangles, Angles and triangles]
+          - [area-and-circles, Area and circles]
+          - [volume-and-surface-area, Volume and surface area]
+          - [pythagorean-theorem, The Pythagorean theorem]
+          - [transformations-congruence-similarity, Transformations, congruence and similarity]
+      - slug: statistics-and-probability
+        title: Statistics and probability
+        lessons:
+          - [describing-data, Describing data]
+          - [basic-probability, Basic probability]
+          - [scatter-plots-and-two-way-tables, Scatter plots and two-way tables]
+
+  - folder: 03-high-school
+    title: High school
+    tab: High school
+    summary: Algebra 1 and 2, functions, polynomials, exponentials and logarithms, geometry proofs, trigonometry, vectors and matrices, sequences, series and counting. Grades 9 to 12.
+    before: Middle school.
+    chapters:
+      - slug: algebra-foundations
+        title: Algebra foundations
+        lessons:
+          - [real-numbers-axioms-and-set-notation, Real numbers, axioms and set notation]
+          - [linear-and-literal-equations, Linear and literal equations]
+          - [compound-inequalities-and-interval-notation, Compound inequalities and interval notation]
+          - [absolute-value-equations-and-inequalities, Absolute value equations and inequalities]
+      - slug: linear-functions-and-systems
+        title: Linear functions and systems
+        lessons:
+          - [forms-of-linear-equations, Forms of linear equations]
+          - [systems-of-linear-equations, Systems of linear equations]
+          - [two-variable-inequalities-and-feasible-regions, Two-variable inequalities and feasible regions]
+      - slug: functions
+        title: Functions
+        lessons:
+          - [what-is-a-function, What is a function]
+          - [reading-function-graphs, Reading function graphs]
+          - [piecewise-absolute-value-and-step-functions, Piecewise, absolute value and step functions]
+          - [transformations-of-functions, Transformations of functions]
+          - [composition-and-inverse-functions, Composition and inverse functions]
+      - slug: radicals-and-polynomials
+        title: Radicals and polynomials
+        lessons:
+          - [radicals-and-rational-exponents, Radicals and rational exponents]
+          - [polynomial-arithmetic, Polynomial arithmetic]
+          - [factoring-polynomials, Factoring polynomials]
+          - [polynomial-division-and-remainder-theorem, Polynomial division and the remainder theorem]
+          - [polynomial-functions-and-graphs, Polynomial functions and graphs]
+      - slug: quadratics-and-complex-numbers
+        title: Quadratics and complex numbers
+        lessons:
+          - [quadratic-functions-and-graphs, Quadratic functions and graphs]
+          - [solving-quadratic-equations, Solving quadratic equations]
+          - [complex-numbers, Complex numbers]
+      - slug: rational-expressions-and-equations
+        title: Rational expressions and equations
+        lessons:
+          - [rational-expressions, Rational expressions]
+          - [rational-functions-and-asymptotes, Rational functions and asymptotes]
+          - [rational-and-radical-equations, Rational and radical equations]
+          - [polynomial-and-rational-inequalities, Polynomial and rational inequalities]
+      - slug: exponentials-and-logarithms
+        title: Exponentials and logarithms
+        lessons:
+          - [exponential-functions-and-growth, Exponential functions and growth]
+          - [logarithms, Logarithms]
+          - [logarithm-properties, Logarithm properties]
+          - [exponential-and-logarithmic-equations, Exponential and logarithmic equations]
+      - slug: geometry-and-proof
+        title: Geometry and proof
+        lessons:
+          - [definitions-postulates-and-proof, Definitions, postulates and proof]
+          - [congruence-and-triangle-proofs, Congruence and triangle proofs]
+          - [similarity, Similarity]
+          - [coordinate-geometry-and-circles, Coordinate geometry and circles]
+          - [conic-sections, Conic sections, [optional]]
+      - slug: trigonometry
+        title: Trigonometry
+        lessons:
+          - [right-triangle-trigonometry, Right triangle trigonometry]
+          - [radians-and-the-unit-circle, Radians and the unit circle]
+          - [graphs-of-trig-functions, Graphs of trig functions]
+          - [trig-identities-and-inverse-trig, Trig identities and inverse trig]
+          - [law-of-sines-and-cosines, Law of sines and law of cosines, [optional]]
+      - slug: vectors-and-matrices
+        title: Vectors and matrices
+        lessons:
+          - [vectors-in-the-plane, Vectors in the plane]
+          - [matrix-basics, Matrix basics]
+      - slug: sequences-series-and-counting
+        title: Sequences, series and counting
+        lessons:
+          - [sequences-and-recursion, Sequences and recursion]
+          - [summation-notation-and-series, Summation notation and series]
+          - [counting-permutations-combinations, "Counting: permutations and combinations"]
+          - [binomial-theorem, The binomial theorem]
+
+  - folder: 04-proofs-and-logic
+    title: Proofs and logic
+    tab: Proofs
+    summary: The language of mathematics, logic, sets, and how to read, find and write proofs. The bridge from high school math to university courses.
+    before: High school, especially functions, sets notation and sequences.
+    chapters:
+      - slug: language-and-notation
+        title: Language and notation
+        lessons:
+          - [what-is-a-proof, What is a proof]
+          - [definitions-theorems-lemmas-corollaries, Definitions, theorems, lemmas and corollaries]
+          - [proof-language-let-suppose-wlog, "Proof language: let, suppose, WLOG", [fast]]
+          - [reading-math-symbols, Reading math symbols, [fast]]
+      - slug: logic-and-sets
+        title: Logic and sets
+        lessons:
+          - [statements-and-connectives, Statements and connectives]
+          - [conditionals-and-biconditionals, Conditionals and biconditionals, [fast]]
+          - [truth-tables-and-logical-equivalence, Truth tables and logical equivalence]
+          - [quantifiers, Quantifiers, [fast]]
+          - [negation-and-translating-english, Negation and translating English, [fast]]
+          - [sets-and-set-operations, Sets and set operations]
+      - slug: core-proof-methods
+        title: Core proof methods
+        lessons:
+          - [direct-proof, Direct proof, [fast]]
+          - [how-to-read-a-proof, How to read a proof, [fast]]
+          - [scratch-work-and-proof-strategies, Scratch work and proof strategies, [fast]]
+          - [proof-by-cases-and-wlog, Proof by cases and WLOG]
+          - [contrapositive-proof, Contrapositive proof]
+          - [proof-by-contradiction, Proof by contradiction, [fast]]
+          - [how-to-write-a-proof, How to write a proof, [fast]]
+      - slug: more-proof-methods
+        title: More proof methods
+        lessons:
+          - [if-and-only-if-proofs, If and only if proofs]
+          - [existence-and-uniqueness-proofs, Existence and uniqueness proofs]
+          - [proofs-about-sets, Proofs about sets, [fast]]
+          - [counterexamples-and-disproof, Counterexamples and disproof]
+      - slug: induction
+        title: Induction
+        lessons:
+          - [mathematical-induction, Mathematical induction, [fast]]
+          - [strong-induction-and-well-ordering, Strong induction and well-ordering, [fast]]
+          - [recursive-definitions-and-structural-induction, Recursive definitions and structural induction]
+      - slug: relations-and-functions
+        title: Relations and functions
+        lessons:
+          - [relations-and-their-properties, Relations and their properties]
+          - [equivalence-relations-and-partitions, Equivalence relations and partitions]
+          - [partial-orders, Partial orders]
+          - [functions-and-well-definedness, Functions and well-definedness]
+          - [injective-surjective-bijective, Injective, surjective and bijective, [fast]]
+          - [cardinality-and-countability, Cardinality and countability]
+      - slug: putting-it-together
+        title: Putting it together
+        lessons:
+          - [common-proof-mistakes, Common proof mistakes, [fast]]
+          - [mixed-proof-practice, Mixed proof practice]
+
+  - folder: 05-university-core
+    title: University core
+    tab: University
+    summary: Calculus, linear algebra, probability and statistics, with a light pass of multivariable calculus and differential equations.
+    before: High school, and the proofs and logic folder for the proof-based lessons.
+    chapters:
+      - slug: limits-and-continuity
+        title: Limits and continuity
+        lessons:
+          - [limits-intuition-and-limit-laws, Limits, intuition and limit laws]
+          - [epsilon-delta-definition, The epsilon-delta definition]
+          - [continuity-asymptotes-and-ivt, Continuity, asymptotes and the IVT]
+      - slug: derivatives
+        title: Derivatives
+        lessons:
+          - [the-derivative-definition, The derivative definition]
+          - [differentiation-rules, Differentiation rules]
+          - [chain-rule-implicit-and-inverse-derivatives, Chain rule, implicit and inverse derivatives]
+      - slug: applications-of-derivatives
+        title: Applications of derivatives
+        lessons:
+          - [rates-of-change-and-marginal-analysis, Rates of change and marginal analysis]
+          - [linear-approximation-and-lhopitals-rule, "Linear approximation and L'Hopital's rule"]
+          - [mean-value-theorem-and-extrema, The mean value theorem and extrema]
+          - [concavity-and-curve-sketching, Concavity and curve sketching]
+          - [optimization, Optimization]
+      - slug: integrals
+        title: Integrals
+        lessons:
+          - [riemann-sums-and-the-definite-integral, Riemann sums and the definite integral]
+          - [fundamental-theorem-of-calculus, The fundamental theorem of calculus]
+          - [u-substitution, U-substitution]
+          - [integration-by-parts-and-trig-integrals, Integration by parts and trig integrals]
+          - [partial-fractions-and-improper-integrals, Partial fractions and improper integrals]
+          - [applications-of-integrals, Applications of integrals]
+      - slug: sequences-and-series
+        title: Sequences and series
+        lessons:
+          - [sequences-and-their-limits, Sequences and their limits]
+          - [infinite-series-basics, Infinite series basics]
+          - [convergence-tests, Convergence tests]
+          - [power-series-and-taylor-series, Power series and Taylor series]
+      - slug: linear-algebra
+        title: Linear algebra
+        lessons:
+          - [vectors-dot-product-and-span, Vectors, dot product and span]
+          - [systems-and-gaussian-elimination, Systems and Gaussian elimination]
+          - [matrix-algebra-and-inverses, Matrix algebra and inverses]
+          - [linear-independence-basis-and-dimension, Linear independence, basis and dimension]
+          - [linear-transformations-kernel-and-image, Linear transformations, kernel and image]
+          - [determinants, Determinants]
+          - [orthogonality-projections-and-least-squares, Orthogonality, projections and least squares]
+          - [eigenvalues-and-eigenvectors, Eigenvalues and eigenvectors]
+      - slug: probability
+        title: Probability
+        lessons:
+          - [sample-spaces-events-and-axioms, Sample spaces, events and axioms]
+          - [conditional-probability-and-bayes, "Conditional probability and Bayes' theorem"]
+          - [discrete-random-variables, Discrete random variables]
+          - [continuous-random-variables-and-the-normal, Continuous random variables and the normal distribution]
+          - [joint-distributions-covariance-and-sums, Joint distributions, covariance and sums]
+          - [law-of-large-numbers-and-clt, The law of large numbers and the CLT]
+      - slug: statistics
+        title: Statistics
+        lessons:
+          - [descriptive-statistics-and-study-design, Descriptive statistics and study design]
+          - [confidence-intervals, Confidence intervals]
+          - [hypothesis-testing, Hypothesis testing]
+          - [correlation-and-linear-regression, Correlation and linear regression]
+      - slug: multivariable-calculus-light
+        title: Multivariable calculus (light)
+        lessons:
+          - [parametric-polar-and-3d-coordinates, Parametric, polar and 3D coordinates, [optional]]
+          - [partial-derivatives-and-the-gradient, Partial derivatives and the gradient]
+          - [multivariable-optimization-and-lagrange-multipliers, Multivariable optimization and Lagrange multipliers]
+          - [double-integrals, Double integrals, [optional]]
+      - slug: differential-equations-light
+        title: Differential equations (light)
+        lessons:
+          - [first-order-differential-equations, First-order differential equations]
+          - [second-order-linear-equations, Second-order linear equations, [optional]]
+
+  - folder: 06-cs-math
+    title: CS math
+    tab: CS math
+    summary: Number representation, number theory, counting, recurrences and algorithm analysis, graphs, and the theory of computation.
+    before: Proofs and logic, plus the probability chapter of the university core for discrete probability.
+    chapters:
+      - slug: number-representation
+        title: Number representation
+        lessons:
+          - [number-bases-and-conversions, Number bases and conversions]
+          - [bits-and-information, Bits and information]
+          - [binary-arithmetic-and-twos-complement, "Binary arithmetic and two's complement"]
+          - [floating-point-basics, Floating point basics]
+          - [bitwise-operations-and-masks, Bitwise operations and masks]
+          - [boolean-algebra-and-logic-gates, Boolean algebra and logic gates]
+      - slug: number-theory
+        title: Number theory
+        lessons:
+          - [divisibility-and-modular-arithmetic, Divisibility and modular arithmetic]
+          - [gcd-and-euclids-algorithm, "GCD and Euclid's algorithm"]
+          - [primes-and-unique-factorization, Primes and unique factorization]
+          - [modular-inverses-and-chinese-remainder-theorem, Modular inverses and the Chinese remainder theorem]
+          - [fermat-euler-and-fast-exponentiation, Fermat, Euler and fast exponentiation]
+          - [rsa-cryptography, RSA cryptography]
+      - slug: counting-and-discrete-probability
+        title: Counting and discrete probability
+        lessons:
+          - [counting-rules, Counting rules]
+          - [permutations-and-combinations, Permutations and combinations]
+          - [binomial-theorem-and-combinatorial-proofs, The binomial theorem and combinatorial proofs]
+          - [inclusion-exclusion-and-pigeonhole, Inclusion-exclusion and the pigeonhole principle]
+          - [discrete-probability, Discrete probability]
+      - slug: sums-recurrences-and-algorithms
+        title: Sums, recurrences and algorithms
+        lessons:
+          - [sums-and-closed-forms, Sums and closed forms]
+          - [recurrences, Recurrences]
+          - [invariants-and-algorithm-correctness, Invariants and algorithm correctness]
+          - [asymptotic-notation, Asymptotic notation]
+          - [divide-and-conquer-and-master-theorem, Divide and conquer and the master theorem]
+      - slug: graphs
+        title: Graphs
+        lessons:
+          - [graph-basics, Graph basics]
+          - [paths-connectivity-and-trees, Paths, connectivity and trees]
+          - [bipartite-coloring-and-planar-graphs, Bipartite graphs, coloring and planar graphs]
+      - slug: theory-of-computation
+        title: Theory of computation
+        lessons:
+          - [finite-automata-dfa-and-nfa, "Finite automata: DFA and NFA"]
+          - [regular-expressions-and-pumping-lemma, Regular expressions and the pumping lemma]
+          - [context-free-grammars-and-pushdown-automata, Context-free grammars and pushdown automata]
+          - [turing-machines-and-church-turing-thesis, Turing machines and the Church-Turing thesis]
+          - [decidability-and-the-halting-problem, Decidability and the halting problem]
+          - [reductions-and-undecidability, Reductions and undecidability]
+          - [p-np-and-np-completeness, P, NP and NP-completeness]
+
+  - folder: 07-economics-math
+    title: Economics math
+    tab: Economics
+    summary: The math behind introductory economics. Measuring the economy, markets, firms and consumers, present value, regression and game theory, with Canadian data.
+    before: High school, plus derivatives and Lagrange multipliers from the university core for chapter 3.
+    chapters:
+      - slug: measuring-the-economy
+        title: Measuring the economy
+        lessons:
+          - [how-economists-use-math-and-graphs, How economists use math and graphs]
+          - [percent-change-vs-percentage-points, Percent change vs percentage points]
+          - [growth-rates-and-cagr, Growth rates and CAGR]
+          - [index-numbers, Index numbers]
+          - [gdp-and-the-circular-flow, GDP and the circular flow]
+          - [nominal-vs-real-gdp-and-the-deflator, Nominal vs real GDP and the deflator]
+          - [cpi-and-inflation, CPI and inflation]
+          - [unemployment-rate-and-labour-statistics, Unemployment rate and labour statistics]
+      - slug: markets
+        title: Markets
+        lessons:
+          - [opportunity-cost-and-the-ppc, Opportunity cost and the PPC]
+          - [comparative-advantage-and-gains-from-trade, Comparative advantage and gains from trade]
+          - [supply-and-demand-equilibrium-algebra, Supply and demand equilibrium algebra]
+          - [surplus-and-market-interventions, Surplus and market interventions]
+          - [elasticity, Elasticity]
+      - slug: firms-and-consumers
+        title: Firms and consumers
+        lessons:
+          - [marginal-analysis-with-derivatives, Marginal analysis with derivatives]
+          - [production-and-cost-functions, Production and cost functions]
+          - [profit-maximization-and-market-structure, Profit maximization and market structure]
+          - [utility-and-indifference-curves, Utility and indifference curves]
+          - [lagrange-multipliers-utility-and-cost-minimization, Lagrange multipliers, utility and cost minimization]
+      - slug: more-tools
+        title: More tools
+        lessons:
+          - [present-value-npv-and-bond-prices, Present value, NPV and bond prices]
+          - [multipliers-and-the-ad-as-model, Multipliers and the AD-AS model]
+          - [regression-and-econometrics-intuition, Regression and econometrics intuition]
+          - [game-theory-and-nash-equilibrium, Game theory and Nash equilibrium]
+
+  - folder: 08-financial-math
+    title: Financial math
+    tab: Finance
+    summary: Everyday money math, interest, loans, mortgages, investing, retirement accounts and income tax, using Canadian and Ontario rules.
+    before: Middle school percents and high school exponentials and logarithms. A few lessons use sums of geometric series.
+    chapters:
+      - slug: everyday-money
+        title: Everyday money
+        lessons:
+          - [tips-discounts-and-hst, Tips, discounts and HST]
+          - [unit-price-and-comparison-shopping, Unit price and comparison shopping]
+          - [paycheques-and-budgeting, Paycheques and budgeting]
+      - slug: interest-and-growth
+        title: Interest and growth
+        lessons:
+          - [simple-interest, Simple interest]
+          - [compound-interest, Compound interest]
+          - [apr-apy-and-effective-annual-rate, APR, APY and the effective annual rate]
+          - [continuous-compounding-and-e, Continuous compounding and e]
+          - [doubling-time-rule-of-72-and-logs, Doubling time, the rule of 72 and logs]
+          - [inflation-and-real-returns, Inflation and real returns]
+      - slug: time-value-of-money
+        title: Time value of money
+        lessons:
+          - [present-and-future-value, Present and future value]
+          - [annuities-and-geometric-series, Annuities and geometric series]
+          - [loan-amortization-formula, The loan amortization formula]
+      - slug: borrowing
+        title: Borrowing
+        lessons:
+          - [student-loans, Student loans]
+          - [car-loans-and-total-cost, Car loans and total cost]
+          - [lease-vs-buy-a-car, Lease vs buy a car]
+          - [credit-cards-and-the-minimum-payment-trap, Credit cards and the minimum payment trap]
+          - [credit-scores-and-paying-off-debt, Credit scores and paying off debt]
+      - slug: housing
+        title: Housing
+        lessons:
+          - [renting-vs-buying-a-home, Renting vs buying a home]
+          - [mortgage-basics, Mortgage basics]
+          - [mortgage-amortization-schedules, Mortgage amortization schedules]
+          - [canadian-mortgage-compounding, Canadian mortgage compounding]
+      - slug: investing-and-retirement
+        title: Investing and retirement
+        lessons:
+          - [investing-returns-and-risk, Investing returns and risk]
+          - [index-funds-fees-and-dollar-cost-averaging, Index funds, fees and dollar-cost averaging]
+          - [retirement-accounts, "Retirement accounts: RRSP, TFSA and FHSA"]
+      - slug: taxes-insurance-and-planning
+        title: Taxes, insurance and planning
+        lessons:
+          - [income-tax-brackets-marginal-vs-effective, "Income tax brackets: marginal vs effective"]
+          - [insurance-and-expected-value, Insurance and expected value]
+          - [spreadsheet-finance-functions-and-capstone, Spreadsheet finance functions and a capstone plan]
