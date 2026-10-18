@@ -2,7 +2,7 @@
 
 After this lesson you can divide a whole number by a one- or two-digit number on paper, write the answer as a quotient and remainder, a fraction or a decimal, and check it.
 
-Before this: division facts and remainders<!-- link: 06-division-facts-and-remainders.md --> and multi-digit multiplication<!-- link: 05-multi-digit-multiplication.md -->.
+Before this: [division facts and remainders](06-division-facts-and-remainders.md) and [multi-digit multiplication](05-multi-digit-multiplication.md).
 
 ## Quick check
 
@@ -287,7 +287,7 @@ The answer is 302. Check: $302 \times 8 = 2{,}416$, close to the estimate of 300
 
 Estimate: $800 \div 4 = 200$, so the answer is a bit under 200. Four goes into 7 once, with $7 - 4 = 3$ left. Bring down the 5 to make 35: $8 \times 4 = 32$, and $35 - 32 = 3$. Bring down the 8 to make 38: $9 \times 4 = 36$, and $38 - 36 = 2$.
 
-The quotient is 189 and the remainder is 2, so $758 = 189 \times 4 + 2$. As a mixed number the answer is $189\frac{2}{4}$, which simplifies to $189\frac{1}{2}$ (fractions and equivalent fractions<!-- link: 09-fractions-and-equivalent-fractions.md --> covers simplifying).
+The quotient is 189 and the remainder is 2, so $758 = 189 \times 4 + 2$. As a mixed number the answer is $189\frac{2}{4}$, which simplifies to $189\frac{1}{2}$ ([fractions and equivalent fractions](09-fractions-and-equivalent-fractions.md) covers simplifying).
 
 Check: $189 \times 4 = 756$ and $756 + 2 = 758$.
 
@@ -341,7 +341,7 @@ Check: $2 \times 3{,}600 + 46 \times 60 + 40 = 7{,}200 + 2{,}760 + 40 = 10{,}000
 
 </details>
 
-6\. This one reviews rounding from place value and rounding<!-- link: 01-place-value-and-rounding.md -->. Write $7 \div 12$ as a decimal, explain why the digits never stop, and round the answer to the nearest hundredth.
+6\. This one reviews rounding from [place value and rounding](01-place-value-and-rounding.md). Write $7 \div 12$ as a decimal, explain why the digits never stop, and round the answer to the nearest hundredth.
 
 <details class="solution" markdown>
 <summary>Solution</summary>

@@ -22,7 +22,7 @@ Right: $24 \div 4 \div 2 = 6 \div 2 = 3$
 
 Multiplication and division have the same rank, so they are done from left to right, and the same goes for addition and subtraction. The "DM" in BEDMAS doesn't put division first, and the "MD" in PEMDAS doesn't put multiplication first: $8 \div 2 \times 4 = 4 \times 4 = 16$, not $8 \div 8 = 1$. Division isn't associative, so moving the brackets changes the answer.
 
-Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and properties of operations<!-- link: ../01-elementary/04-properties-of-operations.md -->.
+Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and [properties of operations](../01-elementary/04-properties-of-operations.md).
 
 ### Leaving out a zero in the quotient
 
@@ -44,7 +44,7 @@ Right: $\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$
 
 Fractions can be added directly only when they count pieces of the same size, so rewrite them over a common denominator first. A size check shows the wrong answer can't be right: $\frac{2}{5}$ is less than $\frac{1}{2}$, but adding $\frac{1}{3}$ to $\frac{1}{2}$ has to give more than $\frac{1}{2}$.
 
-Taught in adding and subtracting fractions<!-- link: ../01-elementary/10-adding-and-subtracting-fractions.md -->.
+Taught in [adding and subtracting fractions](../01-elementary/10-adding-and-subtracting-fractions.md).
 
 ### Reading half a percent as one half
 

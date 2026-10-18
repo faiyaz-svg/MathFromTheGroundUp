@@ -34,7 +34,7 @@ The **codomain** of a function $f \colon A \to B$ is the set $B$ that its output
 
 A **coefficient** is a number that multiplies a variable in a term. In $3x^2 - 5x$, the coefficients are $3$ and $-5$. Taught in variables and expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md -->.
 
-A **composite** number is an integer greater than 1 that is not prime, so it has a factor other than 1 and itself. The number 12 is composite, since $12 = 3 \times 4$, and the number 1 is neither prime nor composite. Taught in factors, multiples and primes<!-- link: ../01-elementary/08-factors-multiples-and-primes.md -->.
+A **composite** number is an integer greater than 1 that is not prime, so it has a factor other than 1 and itself. The number 12 is composite, since $12 = 3 \times 4$, and the number 1 is neither prime nor composite. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
 The **conclusion** of "if P, then Q" is Q, the part that is claimed to follow. In a theorem, the conclusion is what the proof has to reach. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
 
@@ -54,7 +54,7 @@ A **counterexample** is one case that makes a statement about every case false. 
 
 A **definition** gives the exact meaning of a term. A definition worded with "if" is read as "if and only if": "an integer $n$ is even if $n = 2k$ for some integer $k$" also tells you that every even integer has that form. Taught in definitions, theorems, lemmas and corollaries<!-- link: ../04-proofs-and-logic/01-language-and-notation/02-definitions-theorems-lemmas-corollaries.md -->.
 
-The **denominator** of a fraction $\frac{a}{b}$ is the number on the bottom, $b$, which says how many equal parts the whole is cut into. It can't be 0. Taught in fractions and equivalent fractions<!-- link: ../01-elementary/09-fractions-and-equivalent-fractions.md -->.
+The **denominator** of a fraction $\frac{a}{b}$ is the number on the bottom, $b$, which says how many equal parts the whole is cut into. It can't be 0. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md).
 
 The **derivative** of a function at a point is its instantaneous rate of change there, which is the slope of the tangent line. It is defined as the limit $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$; the formal treatment is in the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
 
@@ -82,7 +82,7 @@ An **expression** is a combination of numbers, variables and operations with no 
 
 ## F
 
-A **factor** of an integer is an integer that divides it with no remainder: the positive factors of 12 are 1, 2, 3, 4, 6 and 12. In algebra, a factor is one of the pieces multiplied together in a product, such as $x - 2$ in $(x - 2)(x + 3)$. Taught in factors, multiples and primes<!-- link: ../01-elementary/08-factors-multiples-and-primes.md -->.
+A **factor** of an integer is an integer that divides it with no remainder: the positive factors of 12 are 1, 2, 3, 4, 6 and 12. In algebra, a factor is one of the pieces multiplied together in a product, such as $x - 2$ in $(x - 2)(x + 3)$. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
 A **function** from a set $A$ to a set $B$ assigns to each element of $A$ exactly one element of $B$. A rule such as $f(x) = x^2$ is one way to give a function. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->; the formal definition, as a set of ordered pairs, is in functions and well-definedness<!-- link: ../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
 
@@ -132,7 +132,7 @@ The **median** is the middle value of a list sorted in order, or the mean of the
 
 The **mode** is the value that occurs most often in a list. A list can have more than one mode. Taught in describing data<!-- link: ../02-middle-school/07-statistics-and-probability/01-describing-data.md -->.
 
-A **multiple** of an integer $n$ is $n$ times some integer, so the multiples of 4 are $\dots, -8, -4, 0, 4, 8, \dots$. Saying that $b$ is a multiple of $a$ is the same as saying that $a$ is a factor of $b$. Taught in factors, multiples and primes<!-- link: ../01-elementary/08-factors-multiples-and-primes.md -->.
+A **multiple** of an integer $n$ is $n$ times some integer, so the multiples of 4 are $\dots, -8, -4, 0, 4, 8, \dots$. Saying that $b$ is a multiple of $a$ is the same as saying that $a$ is a factor of $b$. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
 ## N
 
@@ -140,13 +140,13 @@ A **natural number** is a counting number. In this book the natural numbers are 
 
 A condition Q is **necessary** for P when P can't happen without Q, which is the statement "if P, then Q". Being even is necessary for being divisible by 4. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
 
-The **numerator** of a fraction $\frac{a}{b}$ is the number on top, $a$, which says how many of the equal parts you have. Taught in fractions and equivalent fractions<!-- link: ../01-elementary/09-fractions-and-equivalent-fractions.md -->.
+The **numerator** of a fraction $\frac{a}{b}$ is the number on top, $a$, which says how many of the equal parts you have. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md).
 
 ## P
 
 A **percent** is a ratio written per hundred: $x\%$ means $\frac{x}{100}$. So 35% is $0.35$, and 113% is $1.13$. Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md).
 
-A **prime** number is an integer greater than 1 whose only positive factors are 1 and itself, such as $2, 3, 5, 7$ and $11$. The number 1 is not prime. Taught in factors, multiples and primes<!-- link: ../01-elementary/08-factors-multiples-and-primes.md --> and primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->.
+A **prime** number is an integer greater than 1 whose only positive factors are 1 and itself, such as $2, 3, 5, 7$ and $11$. The number 1 is not prime. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md) and primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->.
 
 A **proof** is an argument that shows a statement is true, where each step follows from definitions, axioms, the hypotheses or results proved earlier. Checking many examples is not a proof. Taught in what is a proof<!-- link: ../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md -->.
 
@@ -170,7 +170,7 @@ A **rational** number is one that can be written as a fraction $\frac{a}{b}$ of 
 
 A **real number** is a point on the number line, rational or irrational. The set of real numbers is $\mathbb{R}$. Its formal properties are in real numbers, axioms and set notation<!-- link: ../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
 
-The **reciprocal** of a nonzero number $a$ is $\frac{1}{a}$, the number you multiply $a$ by to get 1. The reciprocal of $\frac{2}{3}$ is $\frac{3}{2}$, and 0 has no reciprocal. Taught in multiplying and dividing fractions<!-- link: ../01-elementary/11-multiplying-and-dividing-fractions.md -->.
+The **reciprocal** of a nonzero number $a$ is $\frac{1}{a}$, the number you multiply $a$ by to get 1. The reciprocal of $\frac{2}{3}$ is $\frac{3}{2}$, and 0 has no reciprocal. Taught in [multiplying and dividing fractions](../01-elementary/11-multiplying-and-dividing-fractions.md).
 
 **Recursion** defines something in terms of smaller versions of itself, together with a starting case. The factorial is defined recursively: $0! = 1$, and $n! = n \cdot (n - 1)!$ for $n \ge 1$. Taught in sequences and recursion<!-- link: ../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md --> and recursive definitions and structural induction<!-- link: ../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md -->.
 

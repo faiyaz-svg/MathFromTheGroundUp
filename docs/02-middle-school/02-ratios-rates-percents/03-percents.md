@@ -2,7 +2,7 @@
 
 After this lesson you can convert between fractions, decimals and percents, and find the missing number in a percent problem, such as the HST on a price or the price before tax on a receipt.
 
-Before this: fractions and equivalent fractions<!-- link: ../../01-elementary/09-fractions-and-equivalent-fractions.md -->, multiplying and dividing decimals<!-- link: ../../01-elementary/13-multiplying-and-dividing-decimals.md -->, and proportional relationships<!-- link: 02-proportional-relationships.md -->.
+Before this: [fractions and equivalent fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md), [multiplying and dividing decimals](../../01-elementary/13-multiplying-and-dividing-decimals.md), and proportional relationships<!-- link: 02-proportional-relationships.md -->.
 
 ## Quick check
 
@@ -51,7 +51,7 @@ Said more simply, the whole is the amount that counts as 100%, and it is usually
 
 ### Converting between fractions, decimals and percents
 
-Since $x\% = \frac{x}{100}$, every conversion comes down to multiplying or dividing by 100, which moves the decimal point two places (powers of ten<!-- link: ../../01-elementary/14-powers-of-ten.md -->).
+Since $x\% = \frac{x}{100}$, every conversion comes down to multiplying or dividing by 100, which moves the decimal point two places ([powers of ten](../../01-elementary/14-powers-of-ten.md)).
 
 | From | To | Method | Example |
 |---|---|---|---|
@@ -323,7 +323,7 @@ No. The tax is 13% of the price, and the total is 113% of the price, so the tax 
 
 ### Why does multiplying by 1.13 give the total?
 
-The total is the price plus 13% of the price. Factor out the price, using the distributive property<!-- link: ../../01-elementary/04-properties-of-operations.md -->:
+The total is the price plus 13% of the price. Factor out the price, using the [distributive property](../../01-elementary/04-properties-of-operations.md#distributive-property):
 
 $$
 \text{price} + 0.13 \times \text{price} = (1 + 0.13) \times \text{price} = 1.13 \times \text{price}.
@@ -442,7 +442,7 @@ Check: $1.28 \times 58.59 = 74.9952$, which is under 75. Item by item, the tax i
 
 </details>
 
-8\. (Reviews ratios<!-- link: 01-ratios-and-unit-rates.md --> and fractions<!-- link: ../../01-elementary/09-fractions-and-equivalent-fractions.md -->.) A trail mix has nuts, raisins and chocolate in the ratio $7:4:5$ by mass. (a) What percent of the mix is each ingredient? (b) How many grams of each are in a 400 g bag? (c) You add 100 g of raisins to the 400 g bag. What percent of the mix is raisins now?
+8\. (Reviews ratios<!-- link: 01-ratios-and-unit-rates.md --> and [fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md).) A trail mix has nuts, raisins and chocolate in the ratio $7:4:5$ by mass. (a) What percent of the mix is each ingredient? (b) How many grams of each are in a 400 g bag? (c) You add 100 g of raisins to the 400 g bag. What percent of the mix is raisins now?
 
 <details class="solution" markdown>
 <summary>Solution</summary>

@@ -16,12 +16,12 @@ If a symbol isn't on this page, draw it in [Detexify](https://detexify.kirelabs.
 
 | Symbol | LaTeX | How to say it | Meaning | Example | Taught in |
 |---|---|---|---|---|---|
-| $\times$ | `\times` | times | Multiplication. Algebra replaces it with $\cdot$ or writes letters side by side, so it can't be confused with $x$. | $3 \times 4 = 12$ | Multiplication and times tables<!-- link: ../01-elementary/03-multiplication-and-times-tables.md --> |
+| $\times$ | `\times` | times | Multiplication. Algebra replaces it with $\cdot$ or writes letters side by side, so it can't be confused with $x$. | $3 \times 4 = 12$ | [Multiplication and times tables](../01-elementary/03-multiplication-and-times-tables.md) |
 | $\cdot$ | `\cdot` | times | Multiplication, in algebra. Writing $3x$ means $3 \cdot x$. | $2 \cdot 5 = 10$ | Variables and expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md --> |
-| $\div$ | `\div` | divided by | Division. After middle school a fraction bar or a slash replaces it. | $12 \div 4 = 3$ | Division facts and remainders<!-- link: ../01-elementary/06-division-facts-and-remainders.md --> |
-| $/$, $\frac{a}{b}$ | `/`, `\frac{a}{b}` | a over b, a divided by b | Division, or the fraction with numerator $a$ and denominator $b$ | $7/2 = \frac{7}{2} = 3.5$ | Fractions and equivalent fractions<!-- link: ../01-elementary/09-fractions-and-equivalent-fractions.md --> |
+| $\div$ | `\div` | divided by | Division. After middle school a fraction bar or a slash replaces it. | $12 \div 4 = 3$ | [Division facts and remainders](../01-elementary/06-division-facts-and-remainders.md) |
+| $/$, $\frac{a}{b}$ | `/`, `\frac{a}{b}` | a over b, a divided by b | Division, or the fraction with numerator $a$ and denominator $b$ | $7/2 = \frac{7}{2} = 3.5$ | [Fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md) |
 | $\pm$ | `\pm` | plus or minus | Two values at once, one with $+$ and one with $-$ | $3 \pm 2$ means $5$ or $1$ | Solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md --> |
-| $\approx$ | `\approx` | is approximately equal to | Close in value but not exactly equal | $\pi \approx 3.14$ | Place value and rounding<!-- link: ../01-elementary/01-place-value-and-rounding.md --> |
+| $\approx$ | `\approx` | is approximately equal to | Close in value but not exactly equal | $\pi \approx 3.14$ | [Place value and rounding](../01-elementary/01-place-value-and-rounding.md) |
 | $\ne$ | `\ne` or `\neq` | is not equal to | The two sides have different values | $2 + 2 \ne 5$ | Inequalities<!-- link: ../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md --> |
 | $<$, $\le$ | `<`, `\le` or `\leq` | is less than; is less than or equal to | Order on the number line. The line under $\le$ allows the two sides to be equal. | $3 \le 3$ is true, $3 < 3$ is false | Inequalities<!-- link: ../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md --> |
 | $>$, $\ge$ | `>`, `\ge` or `\geq` | is greater than; is greater than or equal to | The same order, read from the other side | $x \ge 0$ means $x$ is $0$ or positive | Inequalities<!-- link: ../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md --> |
