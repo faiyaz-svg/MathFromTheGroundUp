@@ -229,6 +229,18 @@ input {
   margin-top: 0.8em;
 }
 
+/* Phones: less padding, so wide math layouts fit inside the box */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .example {
+    padding: 0.2em 0.6em 0.6em;
+  }
+
+  .md-typeset details.solution,
+  .md-typeset details.code {
+    padding: 0 0.6em;
+  }
+}
+
 /* Note and warning panels: flat colour, no icons */
 .md-typeset .note {
   background-color: var(--mf-note);
