@@ -83,8 +83,13 @@ class Folder:
 
 
 def parse_lesson(entry: list, prefix: str, number: int) -> Lesson:
+    # A title with an unquoted comma turns into extra list items, so check the shape.
+    if not 2 <= len(entry) <= 3 or (len(entry) == 3 and not isinstance(entry[2], list)):
+        raise SystemExit(f"bad lesson entry {entry!r}: quote titles that contain commas")
     slug, title = entry[0], entry[1]
     flags = list(entry[2]) if len(entry) > 2 else []
+    if not set(flags) <= {"optional", "fast"}:
+        raise SystemExit(f"bad flags in lesson entry {entry!r}")
     return Lesson(title=title, path=f"{prefix}/{number:02d}-{slug}.md", flags=flags)
 
 
