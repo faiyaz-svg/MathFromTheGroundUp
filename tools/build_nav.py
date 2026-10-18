@@ -181,7 +181,7 @@ def write_nav(folders: list[Folder]) -> None:
     pattern = re.compile(re.escape(NAV_START) + r".*?" + re.escape(NAV_END), re.S)
     if not pattern.search(text):
         raise SystemExit(f"mkdocs.yml has no '{NAV_START}' ... '{NAV_END}' block")
-    MKDOCS.write_text(pattern.sub(lambda _: build_nav(folders), text), encoding="utf-8")
+    MKDOCS.write_text(pattern.sub(lambda _: build_nav(folders), text), encoding="utf-8", newline="\n")
 
 
 def ticked_paths() -> set[str]:
@@ -226,7 +226,7 @@ def write_progress(folders: list[Folder]) -> None:
                 box = "x" if lesson.path in done else " "
                 out.append(f"- [{box}] [{lesson.title}]({lesson.path})")
             out.append("")
-    PROGRESS.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
+    PROGRESS.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8", newline="\n")
 
 
 def lesson_list(f: Folder) -> str:
@@ -273,7 +273,7 @@ def write_folder_index(f: Folder) -> None:
             block,
             "",
         ]
-        path.write_text("\n".join(stub), encoding="utf-8")
+        path.write_text("\n".join(stub), encoding="utf-8", newline="\n")
         return
     text = path.read_text(encoding="utf-8")
     pattern = re.compile(re.escape(LIST_START) + r".*?" + re.escape(LIST_END), re.S)
@@ -281,7 +281,7 @@ def write_folder_index(f: Folder) -> None:
         text = pattern.sub(lambda _: block, text)
     else:
         text = text.rstrip() + "\n\n" + block + "\n"
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def main() -> None:
