@@ -27,6 +27,10 @@ Copy the skeleton below into a new lesson file and fill it in. Read `STYLE.md` f
 
 There is no summary at the end of a lesson. The chapter's `index.md` cheat sheet collects the rules and formulas.
 
+## Numbering practice problems
+
+Each practice problem is followed by its own solution box, which breaks a Markdown numbered list, and the site would restart every problem at "1.". Write the numbers as plain text with an escaped dot instead: `4\. Problem text`. This shows "4." on the site and in VS Code.
+
 ## Links to lessons that don't exist yet
 
 Only link to pages that already exist. When you mention a planned lesson that hasn't been written, write its name in plain text and put the planned path in an HTML comment right after it, so the link can be added later with a search:
@@ -155,7 +159,7 @@ The answer, in a few sentences.
 
 ### Warm-up
 
-1. Problem.
+1\. Problem.
 
 <details class="solution" markdown>
 <summary>Solution</summary>
@@ -166,7 +170,7 @@ Full steps, then the check.
 
 ### Standard
 
-4. Problem.
+4\. Problem.
 
 <details class="solution" markdown>
 <summary>Solution</summary>
@@ -177,7 +181,7 @@ Full steps, then the check.
 
 ### Challenge
 
-7. Problem.
+7\. Problem.
 
 <details class="solution" markdown>
 <summary>Solution</summary>
