@@ -11,12 +11,16 @@ Only pages that exist are linked or added to the nav, so the site never
 has links to lessons that haven't been written.
 
 Run from the repo root:  .venv/Scripts/python tools/build_nav.py
+With --tracked, only pages committed to git count, so drafts on disk stay
+out of the nav.
 """
 
 from __future__ import annotations
 
 import json
 import re
+import subprocess
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -41,6 +45,9 @@ START_HERE = [
     ("Progress", "progress.md"),
 ]
 
+# Set by --tracked: the paths (relative to docs/) that git knows about.
+TRACKED: set[str] | None = None
+
 REFERENCE = [
     ("Reference", "reference/index.md"),
     ("Glossary", "reference/glossary.md"),
@@ -58,7 +65,7 @@ class Lesson:
 
     @property
     def exists(self) -> bool:
-        return (DOCS / self.path).is_file()
+        return exists(self.path)
 
 
 @dataclass
@@ -128,7 +135,16 @@ def load_folders() -> list[Folder]:
 
 
 def exists(path: str) -> bool:
+    if TRACKED is not None:
+        return path in TRACKED
     return (DOCS / path).is_file()
+
+
+def tracked_paths() -> set[str]:
+    out = subprocess.run(
+        ["git", "ls-files", "docs"], cwd=ROOT, capture_output=True, text=True, check=True
+    ).stdout
+    return {line.removeprefix("docs/") for line in out.splitlines()}
 
 
 def q(text: str) -> str:
@@ -290,6 +306,9 @@ def write_folder_index(f: Folder) -> None:
 
 
 def main() -> None:
+    global TRACKED
+    if "--tracked" in sys.argv[1:]:
+        TRACKED = tracked_paths()
     folders = load_folders()
     for f in folders:
         write_folder_index(f)
