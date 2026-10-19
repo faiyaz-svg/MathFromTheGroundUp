@@ -31,32 +31,32 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. [Multi-step equations](03-expressions-equations-inequalities/04-multi-step-equations.md)
 5. [Inequalities](03-expressions-equations-inequalities/05-inequalities.md)
 
-### 4. Powers, roots and real numbers
+### 4. [Powers, roots and real numbers](04-powers-roots-and-real-numbers/index.md)
 
-1. Exponent rules (not written yet)
-2. Scientific notation (not written yet)
-3. Roots, irrational numbers and types of numbers (not written yet)
-4. Estimation and sanity checks (not written yet)
+1. [Exponent rules](04-powers-roots-and-real-numbers/01-exponent-rules.md)
+2. [Scientific notation](04-powers-roots-and-real-numbers/02-scientific-notation.md)
+3. [Roots, irrational numbers and types of numbers](04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md)
+4. [Estimation and sanity checks](04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md)
 
-### 5. Linear relationships and functions
+### 5. [Linear relationships and functions](05-linear-relationships-and-functions/index.md)
 
-1. The coordinate plane (not written yet)
-2. Slope and linear equations (not written yet)
-3. Introduction to functions (not written yet)
-4. Systems of linear equations (not written yet)
+1. [The coordinate plane](05-linear-relationships-and-functions/01-coordinate-plane.md)
+2. [Slope and linear equations](05-linear-relationships-and-functions/02-slope-and-linear-equations.md)
+3. [Introduction to functions](05-linear-relationships-and-functions/03-intro-to-functions.md)
+4. [Systems of linear equations](05-linear-relationships-and-functions/04-systems-of-linear-equations.md)
 
-### 6. Geometry
+### 6. [Geometry](06-geometry/index.md)
 
-1. Angles and triangles (not written yet)
-2. Area and circles (not written yet)
-3. Volume and surface area (not written yet)
-4. The Pythagorean theorem (not written yet)
-5. Transformations, congruence and similarity (not written yet)
+1. [Angles and triangles](06-geometry/01-angles-and-triangles.md)
+2. [Area and circles](06-geometry/02-area-and-circles.md)
+3. [Volume and surface area](06-geometry/03-volume-and-surface-area.md)
+4. [The Pythagorean theorem](06-geometry/04-pythagorean-theorem.md)
+5. [Transformations, congruence and similarity](06-geometry/05-transformations-congruence-similarity.md)
 
-### 7. Statistics and probability
+### 7. [Statistics and probability](07-statistics-and-probability/index.md)
 
-1. Describing data (not written yet)
-2. Basic probability (not written yet)
-3. Scatter plots and two-way tables (not written yet)
+1. [Describing data](07-statistics-and-probability/01-describing-data.md)
+2. [Basic probability](07-statistics-and-probability/02-basic-probability.md)
+3. [Scatter plots and two-way tables](07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md)
 
 <!-- lessons:end -->

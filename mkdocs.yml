@@ -132,6 +132,30 @@ nav:
           - "One- and two-step equations": 02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md
           - "Multi-step equations": 02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md
           - "Inequalities": 02-middle-school/03-expressions-equations-inequalities/05-inequalities.md
+      - "Powers, roots and real numbers":
+          - 02-middle-school/04-powers-roots-and-real-numbers/index.md
+          - "Exponent rules": 02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md
+          - "Scientific notation": 02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md
+          - "Roots, irrational numbers and types of numbers": 02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md
+          - "Estimation and sanity checks": 02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md
+      - "Linear relationships and functions":
+          - 02-middle-school/05-linear-relationships-and-functions/index.md
+          - "The coordinate plane": 02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md
+          - "Slope and linear equations": 02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md
+          - "Introduction to functions": 02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md
+          - "Systems of linear equations": 02-middle-school/05-linear-relationships-and-functions/04-systems-of-linear-equations.md
+      - "Geometry":
+          - 02-middle-school/06-geometry/index.md
+          - "Angles and triangles": 02-middle-school/06-geometry/01-angles-and-triangles.md
+          - "Area and circles": 02-middle-school/06-geometry/02-area-and-circles.md
+          - "Volume and surface area": 02-middle-school/06-geometry/03-volume-and-surface-area.md
+          - "The Pythagorean theorem": 02-middle-school/06-geometry/04-pythagorean-theorem.md
+          - "Transformations, congruence and similarity": 02-middle-school/06-geometry/05-transformations-congruence-similarity.md
+      - "Statistics and probability":
+          - 02-middle-school/07-statistics-and-probability/index.md
+          - "Describing data": 02-middle-school/07-statistics-and-probability/01-describing-data.md
+          - "Basic probability": 02-middle-school/07-statistics-and-probability/02-basic-probability.md
+          - "Scatter plots and two-way tables": 02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md
   - "High school":
       - 03-high-school/index.md
   - "Proofs":

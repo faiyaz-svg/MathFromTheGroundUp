@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 30 of 247. New lessons appear here as they are added.
+Lessons written so far: 46 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -46,6 +46,34 @@ Lessons written so far: 30 of 247. New lessons appear here as they are added.
 - [ ] [One- and two-step equations](02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md)
 - [ ] [Multi-step equations](02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md)
 - [ ] [Inequalities](02-middle-school/03-expressions-equations-inequalities/05-inequalities.md)
+
+### Powers, roots and real numbers
+
+- [ ] [Exponent rules](02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md)
+- [ ] [Scientific notation](02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md)
+- [ ] [Roots, irrational numbers and types of numbers](02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md)
+- [ ] [Estimation and sanity checks](02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md)
+
+### Linear relationships and functions
+
+- [ ] [The coordinate plane](02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md)
+- [ ] [Slope and linear equations](02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md)
+- [ ] [Introduction to functions](02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md)
+- [ ] [Systems of linear equations](02-middle-school/05-linear-relationships-and-functions/04-systems-of-linear-equations.md)
+
+### Geometry
+
+- [ ] [Angles and triangles](02-middle-school/06-geometry/01-angles-and-triangles.md)
+- [ ] [Area and circles](02-middle-school/06-geometry/02-area-and-circles.md)
+- [ ] [Volume and surface area](02-middle-school/06-geometry/03-volume-and-surface-area.md)
+- [ ] [The Pythagorean theorem](02-middle-school/06-geometry/04-pythagorean-theorem.md)
+- [ ] [Transformations, congruence and similarity](02-middle-school/06-geometry/05-transformations-congruence-similarity.md)
+
+### Statistics and probability
+
+- [ ] [Describing data](02-middle-school/07-statistics-and-probability/01-describing-data.md)
+- [ ] [Basic probability](02-middle-school/07-statistics-and-probability/02-basic-probability.md)
+- [ ] [Scatter plots and two-way tables](02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md)
 
 ## CS math
 
