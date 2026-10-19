@@ -54,7 +54,7 @@ An **array** is an arrangement of objects in equal rows, so that every row has t
 
 A **times table**, or multiplication table, lists the products of pairs of numbers in a grid. The one below runs from $0 \times 0$ to $12 \times 12$, and each entry in it, such as $7 \times 8 = 56$, is a **multiplication fact**.
 
-A **square number**, or perfect square, is a whole number times itself, such as $49 = 7 \times 7$. The name comes from the area picture: 49 tiles make a 7 by 7 square. Later, $7 \times 7$ is written $7^2$ and read "7 squared" (exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md -->).
+A **square number**, or perfect square, is a whole number times itself, such as $49 = 7 \times 7$. The name comes from the area picture: 49 tiles make a 7 by 7 square. Later, $7 \times 7$ is written $7^2$ and read "7 squared" ([exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md)).
 
 Three rules hold for all whole numbers $a$ and $b$, and [properties of operations](04-properties-of-operations.md) collects them with the others. Multiplication is commutative, $a \times b = b \times a$, as the array shows. Multiplying by 1 changes nothing: $a \times 1 = a$. Multiplying by 0 gives 0: $a \times 0 = 0$.
 

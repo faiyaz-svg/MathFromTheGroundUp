@@ -73,7 +73,7 @@ The two blocks hold all 21 dots, so $3 \times 7 = 3 \times 5 + 3 \times 2 = 15 +
 
 ## Definitions
 
-In this section $a$, $b$ and $c$ stand for numbers. Every property here holds for all whole numbers, and it keeps holding for the fractions, decimals and negative numbers of later lessons. The usual order applies: work inside brackets first, then multiply, then add and subtract, so $a \times b + a \times c$ means $(a \times b) + (a \times c)$. The full order of operations is in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md -->.
+In this section $a$, $b$ and $c$ stand for numbers. Every property here holds for all whole numbers, and it keeps holding for the fractions, decimals and negative numbers of later lessons. The usual order applies: work inside brackets first, then multiply, then add and subtract, so $a \times b + a \times c$ means $(a \times b) + (a \times c)$. The full order of operations is in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md).
 
 ### Commutative properties
 
@@ -227,7 +227,7 @@ Step 4 says not to regroup across a subtraction, and this is why. Grouping the l
 
 Two moves are safe. You can collect everything that is taken away, since taking away 30 and then 20 is taking away 50: $100 - 30 - 20 = 100 - (30 + 20) = 50$. And you can reorder, as long as each minus sign stays attached to the number after it. For example, $100 - 30 + 50 = 100 + 50 - 30 = 120$, because the 30 is still taken away and the 50 is still added. Check: left to right, $100 - 30 + 50 = 70 + 50 = 120$.
 
-Algebra makes this precise by treating $-30$ as a number you add: integer arithmetic and sign rules<!-- link: ../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md -->.
+Algebra makes this precise by treating $-30$ as a number you add: [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md).
 
 </div>
 
@@ -397,6 +397,6 @@ Check: the estimate $3 \times 4{,}500 = 13{,}500$ is close to 13,716. This calcu
 
 ## Where this shows up
 
-- Algebra runs on these properties. Expanding $2 \times (x + 3) = 2x + 6$ is the distributive property, and collecting like terms, $3x + 5x = (3 + 5)x = 8x$, is the same property read from right to left: equivalent expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md -->.
+- Algebra runs on these properties. Expanding $2 \times (x + 3) = 2x + 6$ is the distributive property, and collecting like terms, $3x + 5x = (3 + 5)x = 8x$, is the same property read from right to left: [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md).
 - The next lesson, [multi-digit multiplication](05-multi-digit-multiplication.md), uses the distributive property once for each place value.
 - In code, check before you rearrange. Floating-point addition is not associative: in Python, `(0.1 + 0.2) + 0.3` gives `0.6000000000000001`, while `0.1 + (0.2 + 0.3)` gives `0.6` (floating point basics<!-- link: ../06-cs-math/01-number-representation/04-floating-point-basics.md -->). Joining strings is associative but not commutative, and so is matrix multiplication (matrix algebra and inverses<!-- link: ../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md -->).

@@ -52,7 +52,7 @@ $$
 \text{part} = \text{percent} \times \text{whole}, \qquad \text{percent change} = \frac{\text{new} - \text{old}}{\text{old}} \times 100\%
 $$
 
-Write the percent as a decimal first, so 15% of 80 is $0.15 \times 80 = 12$. A price with 13% HST added is $1.13 \times \text{price}$. Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and percent change and applications<!-- link: ../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md -->; collected in the ratios, rates and percents cheat sheet<!-- link: ../02-middle-school/02-ratios-rates-percents/index.md -->.
+Write the percent as a decimal first, so 15% of 80 is $0.15 \times 80 = 12$. A price with 13% HST added is $1.13 \times \text{price}$. Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md); collected in the [ratios, rates and percents cheat sheet](../02-middle-school/02-ratios-rates-percents/index.md).
 
 ### Exponent rules
 

@@ -12,7 +12,7 @@ Right: $-3^2 = -9$, and $(-3)^2 = 9$
 
 Exponents come before negation, so $-3^2$ means $-(3^2)$. To square the negative number, put it in brackets. Calculators and Python follow the same rule: `-3**2` is `-9`.
 
-Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md -->.
+Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md).
 
 ### Dividing from right to left
 
@@ -22,7 +22,7 @@ Right: $24 \div 4 \div 2 = 6 \div 2 = 3$
 
 Multiplication and division have the same rank, so they are done from left to right, and the same goes for addition and subtraction. The "DM" in BEDMAS doesn't put division first, and the "MD" in PEMDAS doesn't put multiplication first: $8 \div 2 \times 4 = 4 \times 4 = 16$, not $8 \div 8 = 1$. Division isn't associative, so moving the brackets changes the answer.
 
-Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and [properties of operations](../01-elementary/04-properties-of-operations.md).
+Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and [properties of operations](../01-elementary/04-properties-of-operations.md).
 
 ### Leaving out a zero in the quotient
 
@@ -64,7 +64,7 @@ Right: the price before tax was $113 \div 1.13 = 100$, that is, \$100.00
 
 The 13% was taken of the price before tax, not of the total, so the total is 113% of the price. Divide by $1.13$ to undo multiplying by $1.13$. Adding the tax back on shows the error: $1.13 \times 98.31 = 111.09$, which is not the total.
 
-Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and percent change and applications<!-- link: ../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md -->.
+Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md).
 
 ### Adding percent changes
 
@@ -74,7 +74,7 @@ Right: $100 \times 1.10 \times 0.90 = 99$, so the price ends 1% lower
 
 Each change is a percent of a different whole: on a \$100 price, the rise is 10% of \$100 and the fall is 10% of \$110. Percent changes combine by multiplying their factors, $1.10 \times 0.90 = 0.99$, and adding the percents skips that step.
 
-Taught in percent change and applications<!-- link: ../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md -->.
+Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md).
 
 ### Confusing percent change with percentage points
 
@@ -168,7 +168,7 @@ Right: $5 - (x + 2) = 5 - x - 2 = 3 - x$
 
 The minus sign in front of the brackets multiplies every term inside by $-1$. Test with $x = 0$: the original is $5 - 2 = 3$, the right version gives $3 - 0 = 3$, and the wrong version gives $5 - 0 + 2 = 7$.
 
-Taught in equivalent expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md -->.
+Taught in [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md).
 
 ## Equations and inequalities
 
@@ -180,7 +180,7 @@ Right: $-2x < 6$, so $x > -3$
 
 Multiplying or dividing both sides by a negative number reverses the order, just as $2 < 3$ but $-2 > -3$. Check with a number from the right answer: $x = 0$ satisfies $0 > -3$, and $-2 \cdot 0 = 0 < 6$ is true.
 
-Taught in inequalities<!-- link: ../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md -->.
+Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md).
 
 ### Dividing both sides by a variable that might be zero
 

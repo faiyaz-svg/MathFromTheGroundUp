@@ -14,7 +14,7 @@ An **axiom** is a statement accepted without proof as a starting point for a the
 
 ## B
 
-The **base** has two meanings. In a power $b^n$, the base is the number being multiplied, $b$; a logarithm $\log_b x$ has a base in the same sense. In a number system, the base is the number of digits and the factor between neighbouring places: base 10 for decimal, base 2 for binary. Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md).
+The **base** has two meanings. In a power $b^n$, the base is the number being multiplied, $b$; a logarithm $\log_b x$ has a base in the same sense. In a number system, the base is the number of digits and the factor between neighbouring places: base 10 for decimal, base 2 for binary. Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md).
 
 A **basis** of a vector space is a set of vectors that are linearly independent and span the space, so every vector in the space is a linear combination of them in exactly one way. The vectors $(1, 0)$ and $(0, 1)$ form a basis of $\mathbb{R}^2$. The formal definition is in linear independence, basis and dimension<!-- link: ../05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md -->.
 
@@ -32,7 +32,7 @@ The **cardinality** of a set is the number of elements in it, written $\lvert A 
 
 The **codomain** of a function $f \colon A \to B$ is the set $B$ that its outputs are allowed to land in. It can be bigger than the range, which is the set of outputs that actually occur. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->.
 
-A **coefficient** is a number that multiplies a variable in a term. In $3x^2 - 5x$, the coefficients are $3$ and $-5$. Taught in variables and expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md -->.
+A **coefficient** is a number that multiplies a variable in a term. In $3x^2 - 5x$, the coefficients are $3$ and $-5$. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md).
 
 A **composite** number is an integer greater than 1 that is not prime, so it has a factor other than 1 and itself. The number 12 is composite, since $12 = 3 \times 4$, and the number 1 is neither prime nor composite. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
@@ -72,13 +72,13 @@ An **element** of a set is one of the objects in it. Writing $x \in A$ says that
 
 The **empty set**, written $\emptyset$, is the set with no elements. It is a subset of every set, and its cardinality is 0. Taught in sets and set operations<!-- link: ../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md -->.
 
-An **equation** is a statement that two expressions are equal, such as $2x + 1 = 7$. Solving it means finding every value of the variable that makes it true. Taught in one- and two-step equations<!-- link: ../02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md -->.
+An **equation** is a statement that two expressions are equal, such as $2x + 1 = 7$. Solving it means finding every value of the variable that makes it true. Taught in [one- and two-step equations](../02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md).
 
 The **expected value** $E[X]$ of a random variable is its long-run average: each value weighted by its probability, $\sum x \, P(X = x)$. One roll of a fair die has expected value 3.5, even though no roll shows 3.5. Taught in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->.
 
-The **exponent** in $b^n$ is $n$, the number of times the base is used as a factor. Negative and fractional exponents extend the idea, so that $b^{-1} = \frac{1}{b}$ and $b^{1/2} = \sqrt{b}$. Taught in exponents and order of operations<!-- link: ../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+The **exponent** in $b^n$ is $n$, the number of times the base is used as a factor. Negative and fractional exponents extend the idea, so that $b^{-1} = \frac{1}{b}$ and $b^{1/2} = \sqrt{b}$. Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
 
-An **expression** is a combination of numbers, variables and operations with no equals sign, such as $3x^2 - 5x$. An expression has a value, while an equation is true or false. Taught in variables and expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md -->.
+An **expression** is a combination of numbers, variables and operations with no equals sign, such as $3x^2 - 5x$. An expression has a value, while an equation is true or false. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md).
 
 ## F
 
@@ -94,13 +94,13 @@ The **hypothesis** of "if P, then Q" is P, the part that is assumed. The hypothe
 
 ## I
 
-An **identity** is an equation that is true for every value of its variables, such as $(a + b)^2 = a^2 + 2ab + b^2$. The word also names something that changes nothing: $0$ for addition, $1$ for multiplication, the identity matrix $I$ and the identity function $x \mapsto x$. Taught in equivalent expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md -->.
+An **identity** is an equation that is true for every value of its variables, such as $(a + b)^2 = a^2 + 2ab + b^2$. The word also names something that changes nothing: $0$ for addition, $1$ for multiplication, the identity matrix $I$ and the identity function $x \mapsto x$. Taught in [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md).
 
 **Iff** is short for "if and only if". "P iff Q" means that P and Q imply each other, so they are true together or false together. A proof of an iff statement usually has two parts, one for each direction. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md --> and if and only if proofs<!-- link: ../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md -->.
 
 **Induction**, or mathematical induction, proves a statement for every natural number in two parts. The base case proves it for the first value, usually $n = 0$ or $n = 1$, and the inductive step shows that the statement for $k$ implies the statement for $k + 1$. Taught in mathematical induction<!-- link: ../04-proofs-and-logic/05-induction/01-mathematical-induction.md -->.
 
-An **inequality** compares two expressions with $<$, $\le$, $>$ or $\ge$, such as $2x + 1 < 7$. Its solution is usually a whole interval of numbers rather than a single value. Taught in inequalities<!-- link: ../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md -->.
+An **inequality** compares two expressions with $<$, $\le$, $>$ or $\ge$, such as $2x + 1 < 7$. Its solution is usually a whole interval of numbers rather than a single value. Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md).
 
 A function is **injective**, or one-to-one, when different inputs always give different outputs: $f(a_1) = f(a_2)$ implies $a_1 = a_2$. The squaring function on $\mathbb{R}$ is not injective, since $(-2)^2 = 2^2$. Taught in injective, surjective and bijective functions<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
 
@@ -162,9 +162,9 @@ A **random variable** is a number whose value depends on the outcome of a random
 
 The **range** of a function is the set of outputs that actually occur, $\{f(a) : a \in A\}$, also called the image. Some books use "range" to mean the codomain, so check which one is meant. In statistics, the range of a data set is its largest value minus its smallest. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->.
 
-A **rate** is a ratio of two quantities with different units, such as 90 km per hour or \$18 per hour. A unit rate gives the amount for one unit of the second quantity. Taught in ratios and unit rates<!-- link: ../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md -->.
+A **rate** is a ratio of two quantities with different units, such as 90 km per hour or \$18 per hour. A unit rate gives the amount for one unit of the second quantity. Taught in [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md).
 
-A **ratio** compares two quantities by division. A recipe with 2 cups of flour for every 3 cups of milk has a flour-to-milk ratio of $2 : 3$, which is the fraction $\frac{2}{3}$. Taught in ratios and unit rates<!-- link: ../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md -->.
+A **ratio** compares two quantities by division. A recipe with 2 cups of flour for every 3 cups of milk has a flour-to-milk ratio of $2 : 3$, which is the fraction $\frac{2}{3}$. Taught in [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md).
 
 A **rational** number is one that can be written as a fraction $\frac{a}{b}$ of integers with $b \ne 0$. Every decimal that ends or repeats is rational: $0.75 = \frac{3}{4}$ and $0.333\ldots = \frac{1}{3}$. Taught in roots, irrationals and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.
 
@@ -198,7 +198,7 @@ A function $f \colon A \to B$ is **surjective**, or onto, when every element of 
 
 ## T
 
-A **term** is one of the pieces added together in an expression: $3x^2 - 5x + 2$ has the three terms $3x^2$, $-5x$ and $2$. A term of a sequence is one of its entries. Taught in variables and expressions<!-- link: ../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md -->.
+A **term** is one of the pieces added together in an expression: $3x^2 - 5x + 2$ has the three terms $3x^2$, $-5x$ and $2$. A term of a sequence is one of its entries. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md).
 
 A **theorem** is a statement that has been proved, usually one important enough to be named or used often. Taught in definitions, theorems, lemmas and corollaries<!-- link: ../04-proofs-and-logic/01-language-and-notation/02-definitions-theorems-lemmas-corollaries.md -->.
 

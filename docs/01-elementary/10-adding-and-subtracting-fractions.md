@@ -188,7 +188,7 @@ Watch out when a whole number has no fraction part. To work out $4 - 1\frac{2}{5
 
 An answer can be a whole number or 0, and that is fine: $\frac{3}{8} + \frac{5}{8} = \frac{8}{8} = 1$, and $\frac{5}{6} - \frac{10}{12} = 0$, because the two fractions are equivalent.
 
-Subtracting a bigger fraction from a smaller one gives a negative answer: $\frac{1}{3} - \frac{1}{2} = \frac{2}{6} - \frac{3}{6} = -\frac{1}{6}$. That is a correct answer too, and rational number arithmetic<!-- link: ../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md --> covers negative fractions. With mixed numbers, such as $1\frac{1}{2} - 2\frac{1}{3}$, Method B has nothing to regroup from, so use Method A: $\frac{3}{2} - \frac{7}{3} = \frac{9}{6} - \frac{14}{6} = -\frac{5}{6}$.
+Subtracting a bigger fraction from a smaller one gives a negative answer: $\frac{1}{3} - \frac{1}{2} = \frac{2}{6} - \frac{3}{6} = -\frac{1}{6}$. That is a correct answer too, and [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md) covers negative fractions. With mixed numbers, such as $1\frac{1}{2} - 2\frac{1}{3}$, Method B has nothing to regroup from, so use Method A: $\frac{3}{2} - \frac{7}{3} = \frac{9}{6} - \frac{14}{6} = -\frac{5}{6}$.
 
 For three or more fractions, the LCD is the LCM of all the denominators, and the steps don't change (Practice problem 6 has one).
 

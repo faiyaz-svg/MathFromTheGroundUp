@@ -2,7 +2,7 @@
 
 After this lesson you can convert between fractions, decimals and percents, and find the missing number in a percent problem, such as the HST on a price or the price before tax on a receipt.
 
-Before this: [fractions and equivalent fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md), [multiplying and dividing decimals](../../01-elementary/13-multiplying-and-dividing-decimals.md), and proportional relationships<!-- link: 02-proportional-relationships.md -->.
+Before this: [fractions and equivalent fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md), [multiplying and dividing decimals](../../01-elementary/13-multiplying-and-dividing-decimals.md), and [proportional relationships](02-proportional-relationships.md).
 
 ## Quick check
 
@@ -97,7 +97,7 @@ $$
 
 Put in the two numbers you know and cross-multiply. For "12 is 15% of what number?" the proportion is $\frac{12}{\text{whole}} = \frac{15}{100}$, so $15 \times \text{whole} = 1200$ and the whole is 80. Both methods are the same equation rearranged, so use whichever you set up faster.
 
-Questions about change, such as "by what percent did the rent go up?", measure the change against the old value and get their own lesson: percent change and applications<!-- link: 04-percent-change-and-applications.md -->.
+Questions about change, such as "by what percent did the rent go up?", measure the change against the old value and get their own lesson: [percent change and applications](04-percent-change-and-applications.md).
 
 ## Worked examples
 
@@ -442,7 +442,7 @@ Check: $1.28 \times 58.59 = 74.9952$, which is under 75. Item by item, the tax i
 
 </details>
 
-8\. (Reviews ratios<!-- link: 01-ratios-and-unit-rates.md --> and [fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md).) A trail mix has nuts, raisins and chocolate in the ratio $7:4:5$ by mass. (a) What percent of the mix is each ingredient? (b) How many grams of each are in a 400 g bag? (c) You add 100 g of raisins to the 400 g bag. What percent of the mix is raisins now?
+8\. (Reviews [ratios](01-ratios-and-unit-rates.md) and [fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md).) A trail mix has nuts, raisins and chocolate in the ratio $7:4:5$ by mass. (a) What percent of the mix is each ingredient? (b) How many grams of each are in a 400 g bag? (c) You add 100 g of raisins to the 400 g bag. What percent of the mix is raisins now?
 
 <details class="solution" markdown>
 <summary>Solution</summary>
@@ -463,6 +463,6 @@ Check: (a) $43.75 + 25 + 31.25 = 100$. (b) $175 + 100 + 125 = 400$. (c) The othe
 
 ## Where this shows up
 
-- The next lesson, percent change and applications<!-- link: 04-percent-change-and-applications.md -->, measures changes against an old value. Interest is a percent of a balance: simple interest<!-- link: ../../08-financial-math/02-interest-and-growth/01-simple-interest.md --> takes it on the starting amount, and compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> takes it again on each new balance.
+- The next lesson, [percent change and applications](04-percent-change-and-applications.md), measures changes against an old value. Interest is a percent of a balance: simple interest<!-- link: ../../08-financial-math/02-interest-and-growth/01-simple-interest.md --> takes it on the starting amount, and compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> takes it again on each new balance.
 - Economics reports growth and inflation as percents of an earlier value (growth rates and CAGR<!-- link: ../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md -->). Probabilities are often written as percents too: a 30% chance of rain is a probability of 0.3 (basic probability<!-- link: ../07-statistics-and-probability/02-basic-probability.md -->).
 - Computing is full of percents (CPU usage, test coverage, cache hit rates, battery level), and each one is the part divided by the whole, times 100. The first question is still "percent of what?": depending on the tool, a process at 100% CPU may be using one core fully or every core.

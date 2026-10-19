@@ -2,7 +2,7 @@
 
 After this lesson you can convert whole numbers between decimal, binary, octal and hexadecimal by hand, and say how many values a given number of bits can hold.
 
-Before this: [place value](../../01-elementary/01-place-value-and-rounding.md), exponents<!-- link: ../../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md --> and [long division](../../01-elementary/07-long-division.md).
+Before this: [place value](../../01-elementary/01-place-value-and-rounding.md), [exponents](../../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and [long division](../../01-elementary/07-long-division.md).
 
 ## Quick check
 

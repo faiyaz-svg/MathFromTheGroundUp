@@ -55,7 +55,7 @@ Two fractions are **equivalent** when they are equal as numbers, so they mark th
 
 A fraction is in **simplest form**, or lowest terms, when its numerator and denominator have no common factor except 1, that is, when $\gcd(a, b) = 1$. So $\frac{3}{4}$ is in simplest form, while $\frac{6}{8}$ is not, because 6 and 8 share the factor 2.
 
-In this lesson numerators and denominators are whole numbers. Negative fractions come in rational number arithmetic<!-- link: ../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md -->.
+In this lesson numerators and denominators are whole numbers. Negative fractions come in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md).
 
 ## How to do it
 

@@ -70,7 +70,7 @@ To write a fraction as a decimal:
 1. If the denominator is a factor of 10, 100 or 1,000 (such as 2, 4, 5, 8, 20, 25 or 125), scale the fraction to that denominator: $\frac{7}{20} = \frac{35}{100} = 0.35$.
 2. Otherwise, divide the numerator by the denominator and continue into decimals, as in Example 4 of [long division](07-long-division.md): $\frac{3}{8} = 3 \div 8 = 0.375$.
 
-Some fractions never finish. The division $1 \div 3$ leaves a remainder of 1 at every step, so $\frac{1}{3} = 0.333\ldots$, written $0.\overline{3}$, and no decimal with a fixed number of places equals it exactly; 0.33 is $\frac{1}{300}$ short. [Multiplying and dividing decimals](13-multiplying-and-dividing-decimals.md) explains which fractions repeat and why, and repeating decimals come back in rational number arithmetic<!-- link: ../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md -->.
+Some fractions never finish. The division $1 \div 3$ leaves a remainder of 1 at every step, so $\frac{1}{3} = 0.333\ldots$, written $0.\overline{3}$, and no decimal with a fixed number of places equals it exactly; 0.33 is $\frac{1}{300}$ short. [Multiplying and dividing decimals](13-multiplying-and-dividing-decimals.md) explains which fractions repeat and why, and repeating decimals come back in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md).
 
 ### Comparing decimals
 

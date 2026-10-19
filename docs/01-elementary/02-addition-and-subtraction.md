@@ -33,7 +33,7 @@ Both work one place at a time, ones with ones and tens with tens. A place that r
 
 In $a + b = c$, the numbers $a$ and $b$ are the **addends** and $c$ is their **sum**. In $47 + 38 = 85$, the sum is 85.
 
-For whole numbers $a$ and $b$ with $a \ge b$, the **difference** $a - b$ is the whole number $c$ such that $b + c = a$. Here $\ge$ means "is greater than or equal to". In plain words, $52 - 18$ is the number you add to 18 to get 52, which is 34. When $a$ is less than $b$, no whole number works: $3 - 7$ would have to be a number that gives 3 when added to 7. That number is $-4$, a negative number, the subject of negative numbers and absolute value<!-- link: ../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md -->.
+For whole numbers $a$ and $b$ with $a \ge b$, the **difference** $a - b$ is the whole number $c$ such that $b + c = a$. Here $\ge$ means "is greater than or equal to". In plain words, $52 - 18$ is the number you add to 18 to get 52, which is 34. When $a$ is less than $b$, no whole number works: $3 - 7$ would have to be a number that gives 3 when added to 7. That number is $-4$, a negative number, the subject of [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md).
 
 Two operations are **inverse operations** when each one undoes the other. Subtraction is the inverse of addition: adding 18 and then subtracting 18 gets you back where you started, and so does subtracting first and then adding. That is why a subtraction can be checked by adding back.
 
