@@ -25,6 +25,15 @@ The site should feel like W3Schools: flat, plain, quick to scan, with the conten
 
 One dark colour (the tab bar and footer), one accent (green), and gray neutrals. Links are dark green and underlined. Inline code is dark red on light gray. Dark mode uses the same layout with dark grays and a slightly lighter green; no neon and no glow.
 
+## Figures
+
+Function plots and geometry figures are SVG files drawn with matplotlib. Each lesson that needs them has a script, `tools/figures/<folder>/<lesson-slug>.py`, which imports `tools/figures/figstyle.py` for the colours and fonts and writes to `docs/assets/figures/<folder>/<lesson-slug>-<name>.svg`. Re-run the script after changing it and commit the script with the SVG.
+
+- Embed with a relative image link and alt text that says what the figure shows: `![The line y = 2x + 1 crossing the y-axis at 1](../../assets/figures/02-middle-school/slope-and-linear-equations-intercept.svg)`.
+- Label points, lines and angles inside the figure, next to what they name. Keep the legend off the data.
+- Use the palette in `figstyle.py` (green first, then blue, red, orange). No titles inside the figure; the text around it says what it is.
+- Mermaid stays the tool for trees, flowcharts, graphs (vertices and edges) and automata.
+
 ## Things to avoid
 
 These are common signs of AI-generated web design. Don't add any of them.
