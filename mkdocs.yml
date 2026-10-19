@@ -113,6 +113,7 @@ nav:
       - "Geometry basics: area, perimeter and volume": 01-elementary/16-geometry-basics-area-perimeter-volume.md
   - "Middle school":
       - 02-middle-school/index.md
+      - Diagnostic: 02-middle-school/diagnostic.md
       - "Integers and rational numbers":
           - 02-middle-school/01-integers-and-rational-numbers/index.md
           - "Negative numbers and absolute value": 02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md
