@@ -1,0 +1,108 @@
+id	front	back	tags
+
+# Place value and rounding
+place-value-places	What are the place values of a whole number from the ones up to the millions, and what is a period?	Ones 1, tens 10, hundreds 100, thousands 1,000, ten thousands 10,000, hundred thousands 100,000, millions 1,000,000. Each place is worth 10 times the place to its right. A period is a group of three digits split off by commas from the right: 4,072,519 has the periods 4, then 072, then 519.	place-value
+rounding-rule	How do you round a whole number to a given place?	Look only at the next digit to the right. If it is 5 to 9, add 1 to the rounding digit; if it is 0 to 4, leave it. Then replace every digit to its right with 0. A 9 that becomes 10 writes 0 and carries 1, so 2,996 to the nearest ten is 3,000.	rounding
+rounding-one-step	Round 1,449 to the nearest hundred. Why is rounding in a chain (to 1,450, then to 1,500) wrong?	1,400, from the tens digit 4. Round once, from the original number: 1,449 is 49 from 1,400 and 51 from 1,500.	rounding common-mistake
+rounding-half-to-even	What does Python's <code>round(2450, -2)</code> return?	2400. Python rounds an exact half to the even neighbour (round half to even, or banker's rounding), so <code>round(2550, -2)</code> is 2600. This book rounds halves up.	rounding python
+
+# Addition and subtraction
+subtraction-difference	What is the difference $a - b$, and how do you check a subtraction?	For whole numbers with $a \ge b$, it is the whole number $c$ with $b + c = a$. So check by adding back: $52 - 18 = 34$ because $34 + 18 = 52$.	subtraction definition
+subtraction-borrow-across-zeros	Work out $5{,}003 - 1{,}768$. What happens to the zeros when you borrow?	3,235. Borrow from the 5, which becomes 4; each 0 you pass becomes 9 (not 10), and the 3 becomes 13. Check: $3{,}235 + 1{,}768 = 5{,}003$.	subtraction borrowing
+subtraction-smaller-from-larger	A classmate writes $6{,}030 - 2{,}457 = 4{,}427$. What went wrong?	They took the smaller digit from the larger in every column. A column whose top digit is smaller has to borrow. The answer is 3,573; check: $3{,}573 + 2{,}457 = 6{,}030$.	subtraction borrowing common-mistake
+
+# Multiplication and times tables
+times-6x7	$6 \times 7$	42. Route: the 5s fact plus one more 7, $35 + 7$.	times-tables
+times-6x8	$6 \times 8$	48. Six times an even number ends in that number and starts with half of it: half of 8 is 4, then 8.	times-tables
+times-7x7	$7 \times 7$	49	times-tables squares
+times-7x8	$7 \times 8$	56. Say "5, 6, 7, 8": $56 = 7 \times 8$.	times-tables
+times-8x7	$8 \times 7$	56. Double 7 three times: 14, 28, 56.	times-tables
+times-8x8	$8 \times 8$	64	times-tables squares
+times-9x7	$9 \times 7$	63, from $70 - 7$. The digits of $9 \times n$ add to 9 for $n$ from 1 to 10.	times-tables
+times-6x9	$6 \times 9$	54, from $60 - 6$. Don't confuse it with $7 \times 8 = 56$.	times-tables
+times-7x12	$7 \times 12$	84: the 10s plus the 2s, $70 + 14$.	times-tables
+times-12x12	$12 \times 12$	144	times-tables squares
+
+# Properties of operations
+prop-commutative	State the commutative properties. Do they hold for subtraction and division?	They say that $a + b = b + a$ and $a \times b = b \times a$ for all numbers $a$ and $b$. They fail for subtraction and division: $10 - 3 = 7$ but $3 - 10 = -7$.	properties definition
+prop-associative	State the associative properties, and give a counterexample for division.	They say that $(a + b) + c = a + (b + c)$ and $(a \times b) \times c = a \times (b \times c)$: the order stays and only the brackets move. Division is not associative: $(24 \div 4) \div 2 = 3$ but $24 \div (4 \div 2) = 12$.	properties definition
+prop-identity-zero	State the identity properties and the zero property of multiplication.	The identity properties say $a + 0 = a$ and $a \times 1 = a$, so 0 is the identity for addition and 1 is the identity for multiplication. The zero property is $a \times 0 = 0$, so $0 \times 7$ is 0, not 7.	properties definition
+prop-distributive	State the distributive property, and use it to work out $7 \times 98$.	It says $a \times (b + c) = a \times b + a \times c$, and the same over subtraction. So $7 \times 98 = 7 \times (100 - 2) = 700 - 14 = 686$.	properties definition
+prop-distribute-every-term	What is wrong with $3 \times (4 + 5) = 3 \times 4 + 5$?	The 3 has to multiply every term in the brackets: $3 \times 4 + 3 \times 5 = 12 + 15 = 27$, which matches $3 \times 9 = 27$.	properties common-mistake
+
+# Multi-digit multiplication
+mdm-shifted-row	In the column method for $47 \times 36$, why does the second row start with a 0?	The 3 stands for 30, so the row is $47 \times 30 = 1{,}410$, not $47 \times 3 = 141$. The answer is $282 + 1{,}410 = 1{,}692$. Leaving out the shift makes the answer far too small, which the estimate $50 \times 40 = 2{,}000$ catches.	multiplication multi-digit common-mistake
+mdm-casting-out-nines	How does casting out nines check a product, and what can it miss?	Reduce each factor to one digit by repeated digit sums, multiply those digits and reduce again. The answer must reduce to the same digit, or it is wrong. A pass doesn't prove it right: errors by a multiple of 9, such as swapped digits or a missing shift, still pass.	multiplication multi-digit checking
+
+# Division facts and remainders
+div-terms	In $26 \div 4 = 6$ remainder 2, name the four numbers. What must be true of the remainder?	26 is the dividend, 4 the divisor, 6 the quotient and 2 the remainder, with $26 = 6 \times 4 + 2$. The remainder must be less than the divisor: $38 \div 5$ is 7 remainder 3, not 6 remainder 8.	division definition
+div-remainder-word-problems	Since $75 \div 12 = 6$ remainder 3: how many 12-seat vans do 75 people need, how many cartons of 12 do 75 eggs fill, and how much is each share of \$75 split 12 ways?	7 vans (round up: everyone needs a seat), 6 full cartons (round down: only full ones count), and \$6.25 each (money can be split, so keep dividing).	division remainders
+div-remainder-not-decimal	Is $75 \div 12 = 6$ remainder 3 the same as 6.3?	No. The 3 left over is $\frac{3}{12} = \frac{1}{4}$ of a whole, so the decimal is 6.25. Check: $6.3 \times 12 = 75.6$, not 75.	division remainders common-mistake
+div-by-zero	What are $0 \div 5$, $5 \div 0$ and $0 \div 0$?	Zero divided by 5 is 0, because $0 \times 5 = 0$. Both $5 \div 0$ and $0 \div 0$ are undefined: no number times 0 gives 5, and every number times 0 gives 0, so there is no single answer.	division zero
+div-rules-last-digits	Give the divisibility rules for 2, 4, 5, 8 and 10.	A number is divisible by 2 when its last digit is even, by 5 when it ends in 0 or 5, and by 10 when it ends in 0. It is divisible by 4 when its last two digits make a multiple of 4, and by 8 when its last three digits make a multiple of 8, because $100 = 25 \times 4$ and $1{,}000 = 125 \times 8$.	divisibility
+div-rules-3-6-9	Give the divisibility rules for 3, 6 and 9.	A number is divisible by 3 when its digit sum is, and by 9 when its digit sum is a multiple of 9. It is divisible by 6 when it is divisible by both 2 and 3. Rules combine only when the divisors share no factor: 12 is divisible by 2 and by 4 but not by 8.	divisibility
+
+# Long division
+ld-division-algorithm	State the division algorithm.	For integers $n$ and $d$ with $d > 0$, there exist unique integers $q$ and $r$ with $n = qd + r$ and $0 \le r < d$. For example, $47 = 9 \times 5 + 2$.	division long-division theorem
+ld-loop	Which steps repeat in long division?	Divide, Multiply, Subtract, Compare (the difference must be less than the divisor), Bring down: once for each digit of the quotient. Memory aid: Dad, Mom, Sister, Cousin, Brother.	division long-division
+ld-zero-in-quotient	Work out $618 \div 6$. Where does a zero go missing?	103. After 6 into 6, the 1 brought down is smaller than 6, so write 0 in the quotient before bringing down the 8. Skipping it gives 13. Every digit brought down needs a quotient digit above it.	division long-division common-mistake
+
+# Factors, multiples and primes
+fmp-factor-multiple	When is $a$ a factor of $b$, and what are two other ways to say it?	When $b = ka$ for some whole number $k$. Then $b$ is a multiple of $a$, and $a$ divides $b$, written $a \mid b$. For example, 4 is a factor of 12, since $12 = 3 \times 4$.	factors definition
+fmp-prime-composite	Define prime number and composite number. Are 0, 1 and 2 prime?	A prime is a whole number greater than 1 whose only factors are 1 and itself. A composite number is a whole number greater than 1 that is not prime. The numbers 0 and 1 are neither. The number 2 is prime, and it is the only even prime.	primes definition
+fmp-primes-under-100	List the 25 primes under 100.	2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.	primes
+fmp-fundamental-theorem	State the fundamental theorem of arithmetic. Why does it mean 1 is not called prime?	Every whole number greater than 1 can be written as a product of primes in exactly one way, apart from the order of the factors: $360 = 2^3 \times 3^2 \times 5$. If 1 were prime, $2 \times 3$ and $1 \times 2 \times 3$ would be two different factorizations of 6.	primes theorem
+fmp-prime-test	To test whether a number $n$ is prime, which divisors must you try? Is 91 prime?	Only the primes $p$ with $p \times p \le n$. For 91 that means 2, 3, 5 and 7, and $91 = 7 \times 13$, so it is not prime. Odd numbers such as 51, 57 and 91 often look prime and aren't.	primes common-mistake
+fmp-gcf-lcm	How do you find the GCF and the LCM from prime factorizations? Try 84 and 360.	GCF: each shared prime with the smaller exponent. LCM: each prime in either number with the larger exponent. Since $84 = 2^2 \times 3 \times 7$ and $360 = 2^3 \times 3^2 \times 5$, the GCF is $2^2 \times 3 = 12$ and the LCM is $2^3 \times 3^2 \times 5 \times 7 = 2{,}520$.	gcf lcm
+fmp-gcd-times-lcm	For positive whole numbers $a$ and $b$, what is $\gcd(a, b) \times \operatorname{lcm}(a, b)$?	It equals $a \times b$. For 18 and 24: $6 \times 72 = 432 = 18 \times 24$. It fails for three numbers: 2, 3 and 4 have GCF 1 and LCM 12, but their product is 24.	gcf lcm theorem
+
+# Fractions and equivalent fractions
+frac-numerator-denominator	In $\frac{3}{8}$, what do the numerator and the denominator say?	The denominator, 8, says the whole is cut into 8 equal parts; the numerator, 3, counts how many of them you have. The fraction is also the number $3 \div 8 = 0.375$.	fractions definition
+frac-equivalent	How do you make an equivalent fraction, and how do you test whether two fractions are equivalent?	Multiply or divide the numerator and the denominator by the same nonzero number: $\frac{a}{b} = \frac{a \times c}{b \times c}$. Test: $\frac{a}{b} = \frac{c}{d}$ exactly when $a \times d = c \times b$. Adding the same number to both parts changes the value: $\frac{1}{2} \ne \frac{2}{3}$.	fractions equivalent
+frac-simplest-form	Write $\frac{180}{252}$ in simplest form.	The GCF of 180 and 252 is 36, so $\frac{180}{252} = \frac{5}{7}$. Stopping at $\frac{15}{21}$ is too soon: 3 still divides both.	fractions simplest-form
+frac-compare-cross-multiply	Which is bigger, $\frac{5}{8}$ or $\frac{7}{11}$?	Cross-multiply: $5 \times 11 = 55$ and $7 \times 8 = 56$. The bigger product holds the numerator of $\frac{7}{11}$, so $\frac{7}{11}$ is bigger.	fractions comparing
+frac-mixed-improper	Write $\frac{47}{6}$ as a mixed number, and $3\frac{2}{5}$ as an improper fraction.	Since $47 = 7 \times 6 + 5$, the fraction $\frac{47}{6}$ is $7\frac{5}{6}$. And $3\frac{2}{5} = \frac{3 \times 5 + 2}{5} = \frac{17}{5}$.	fractions mixed-numbers
+
+# Adding and subtracting fractions
+fracadd-lcd	What is the least common denominator? Use it to work out $\frac{3}{4} + \frac{5}{6}$.	The LCM of the denominators. For 4 and 6 it is 12, so $\frac{3}{4} + \frac{5}{6} = \frac{9}{12} + \frac{10}{12} = \frac{19}{12} = 1\frac{7}{12}$. The product 24 also works but needs more simplifying.	fractions adding
+fracadd-tops-and-bottoms	Why is $\frac{1}{2} + \frac{1}{3} = \frac{2}{5}$ wrong?	Numerators and denominators don't add separately. The sum must be more than $\frac{1}{2}$, and $\frac{2}{5}$ is less. Over 6: $\frac{3}{6} + \frac{2}{6} = \frac{5}{6}$.	fractions adding common-mistake
+fracadd-regroup	Work out $5\frac{1}{4} - 2\frac{2}{3}$.	Over 12 it is $5\frac{3}{12} - 2\frac{8}{12}$. Regroup 1 as $\frac{12}{12}$: $4\frac{15}{12} - 2\frac{8}{12} = 2\frac{7}{12}$. Regrouping adds the denominator to the numerator, not 10.	fractions subtracting mixed-numbers
+
+# Multiplying and dividing fractions
+fracmul-rule	How do you multiply two fractions? What does "of" mean?	Multiply the numerators and multiply the denominators: $\frac{a}{b} \times \frac{c}{d} = \frac{a \times c}{b \times d}$. No common denominator is needed. "Of" means multiply: $\frac{3}{4}$ of 20 is 15.	fractions multiplying
+fracmul-reciprocal	What is the reciprocal of a number? Give the reciprocals of $\frac{3}{8}$, 5 and $2\frac{1}{2}$.	The number whose product with it is 1, so the reciprocal of $\frac{a}{b}$ is $\frac{b}{a}$. The reciprocals are $\frac{8}{3}$, $\frac{1}{5}$ and $\frac{2}{5}$ (convert $2\frac{1}{2} = \frac{5}{2}$ first). Zero has no reciprocal.	fractions reciprocal definition
+fracmul-divide	How do you divide by a fraction? Work out $2\frac{1}{4} \div \frac{3}{8}$.	Multiply by the reciprocal of the divisor (keep, change, flip): $\frac{9}{4} \times \frac{8}{3} = 6$. Check: $6 \times \frac{3}{8} = \frac{9}{4}$. Dividing by a number less than 1 gives a bigger answer.	fractions dividing
+fracmul-cancel	Which numbers may you cancel before multiplying fractions?	A numerator with a denominator, from the same fraction or different ones: $\frac{4}{9} \times \frac{15}{8} = \frac{1 \times 5}{3 \times 2} = \frac{5}{6}$. Never two numerators, and never across $+$ or $-$.	fractions multiplying common-mistake
+fracmul-mixed-numbers	Why is $2\frac{1}{2} \times 3\frac{1}{3}$ not $6\frac{1}{6}$?	A mixed number is a sum, so multiplying the whole parts and the fraction parts separately drops two of the four products. Convert first: $\frac{5}{2} \times \frac{10}{3} = \frac{25}{3} = 8\frac{1}{3}$.	fractions multiplying mixed-numbers common-mistake
+
+# Decimals: place value, adding and subtracting
+dec-place-names	Name the first three places after the decimal point, and read 24.375 in full.	Tenths ($\frac{1}{10}$), hundredths ($\frac{1}{100}$) and thousandths ($\frac{1}{1000}$). The number 24.375 is "twenty-four and three hundred seventy-five thousandths".	decimals place-value
+dec-to-fraction	Write 0.45 and 2.125 as fractions in simplest form.	As fractions, $0.45 = \frac{45}{100} = \frac{9}{20}$ and $2.125 = 2\frac{125}{1000} = 2\frac{1}{8}$.	decimals fractions
+dec-longer-not-bigger	Which is bigger, 0.45 or 0.5?	0.5. Pad to the same number of places: 0.45 and 0.50, which are 45 and 50 hundredths. More digits after the point doesn't mean bigger.	decimals comparing common-mistake
+dec-line-up-points	What must line up when you add $14.3 + 2.75$?	The decimal points. Pad 14.3 to 14.30, and the sum is 17.05. Lining up the last digits gives 4.18, which the estimate $14 + 3 = 17$ rules out.	decimals adding common-mistake
+
+# Multiplying and dividing decimals
+decmul-place-point	How do you place the decimal point in a product? Work out $0.4 \times 0.2$.	Multiply as whole numbers, then count the decimal places in both factors together and place the point that many digits from the right. Here $4 \times 2 = 8$ with 2 places gives 0.08 (tenths times tenths are hundredths), not 0.8.	decimals multiplying common-mistake
+decdiv-move-both-points	How do you work out $52.80 \div 1.65$?	Move both points two places right, so the divisor is a whole number: $5{,}280 \div 165 = 32$. Moving only the divisor's point gives 0.32, which is 100 times too small. Check: $32 \times 1.65 = 52.80$.	decimals dividing common-mistake
+dec-terminating-repeating	Which fractions give terminating decimals?	A fraction in simplest form terminates exactly when its denominator has no prime factors other than 2 and 5. So $\frac{3}{40} = 0.075$ terminates and $\frac{5}{12} = 0.41\overline{6}$ repeats. Every fraction either terminates or repeats.	decimals fractions
+dec-float	Why does <code>0.1 + 0.2 == 0.3</code> give <code>False</code> in Python?	A float is a fraction whose denominator is a power of 2. Since $\frac{1}{10}$ has a 5 in its denominator, it repeats forever in binary and is stored rounded. Compare floats with <code>math.isclose</code>, and use <code>Decimal</code> for money.	decimals python floating-point
+
+# Powers of ten
+pow-exponent	In $10^3$, what are the base and the exponent, and what is its value?	The base is 10 and the exponent is 3, which counts how many 10s are multiplied: $10^3 = 10 \times 10 \times 10 = 1000$, not $10 \times 3 = 30$.	powers-of-ten exponents definition
+pow-zero-negative	What are $10^0$ and $10^{-2}$?	Ten to the power 0 is 1, and $10^{-2} = \frac{1}{100} = 0.01$. A negative exponent divides, so every power of 10 is positive: $10^{-2}$ is not $-100$.	powers-of-ten exponents
+pow-move-point	Which way does the decimal point move when you multiply or divide by 10, 100, 1000, 0.1 or 0.01?	Multiplying by 10, 100 or 1000 moves it right 1, 2 or 3 places, and dividing moves it left. Multiplying by 0.1 or 0.01 is dividing by 10 or 100, so it moves left; dividing by them moves it right. Fill empty places with zeros: $45 \div 1000 = 0.045$.	powers-of-ten decimals
+pow-metric-prefixes	Give the power of ten and the symbol for giga, mega, kilo, centi and milli.	giga (G) $10^9$, mega (M) $10^6$, kilo (k) $10^3$, centi (c) $10^{-2}$ and milli (m) $10^{-3}$. The symbols are case-sensitive: 1 MW is a billion times 1 mW.	powers-of-ten metric-prefixes
+
+# Measurement and unit conversion
+meas-metric-direction	When converting metric units, when do you multiply and when do you divide? Convert 450 mg to grams.	Going to a smaller unit, multiply; going to a bigger unit, divide. A gram is bigger than a milligram, so $450 \div 1000 = 0.45$ g, not 450,000 g. The smaller unit always has the bigger number.	measurement unit-conversion common-mistake
+meas-capacity-volume	How are millilitres, litres and cubic centimetres related?	A millilitre is a cubic centimetre, $1\ \text{mL} = 1\ \text{cm}^3$, so $1\ \text{L} = 1000\ \text{cm}^3$. A litre of water has a mass of about 1 kg.	measurement volume
+meas-area-volume-units	How many square centimetres are in a square metre, and how many cubic centimetres in a cubic metre?	A square metre is $100 \times 100 = 10{,}000\ \text{cm}^2$ (not 100), and a cubic metre is $100^3 = 1{,}000{,}000\ \text{cm}^3$, which is 1000 L.	measurement area volume common-mistake
+meas-kmh-to-ms	Convert 72 km/h to m/s with conversion factors.	Use factors that cancel the km and the h: $72\ \frac{\text{km}}{\text{h}} \times \frac{1000\ \text{m}}{1\ \text{km}} \times \frac{1\ \text{h}}{3600\ \text{s}} = 20\ \frac{\text{m}}{\text{s}}$. Shortcut: divide km/h by 3.6 to get m/s.	measurement unit-conversion dimensional-analysis
+meas-decimal-hours	Is 3 h 40 min the same as 3.40 h?	No. Minutes are sixtieths of an hour: 40 min is $\frac{2}{3}$ h, so 3 h 40 min is about 3.67 h. And 0.40 h is $0.4 \times 60 = 24$ min.	measurement time common-mistake
+meas-temperature	Give the formulas between Celsius and Fahrenheit, and convert 25°C and 50°F.	The formulas are $\text{Fahrenheit} = \frac{9}{5} \times \text{Celsius} + 32$ and $\text{Celsius} = \frac{5}{9} \times (\text{Fahrenheit} - 32)$. So 25°C is 77°F, and 50°F is 10°C. Subtract the 32 before multiplying by $\frac{5}{9}$.	measurement temperature
+
+# Geometry basics
+geo-angles	What sizes are acute, right, obtuse and straight angles?	An acute angle is less than $90^\circ$, a right angle is exactly $90^\circ$, an obtuse angle is more than $90^\circ$ and less than $180^\circ$, and a straight angle is exactly $180^\circ$. A full turn is $360^\circ$.	geometry angles definition
+geo-rectangle	What are the perimeter and area of a rectangle $l$ by $w$, and of a square with side $s$?	A rectangle has perimeter $2l + 2w = 2(l + w)$ and area $lw$; a square has perimeter $4s$ and area $s^2$. An 8 cm by 5 cm rectangle has perimeter 26 cm (not 13) and area $40\ \text{cm}^2$.	geometry area perimeter
+geo-triangle-parallelogram	What are the areas of a triangle and a parallelogram with base $b$ and height $h$, and what is the height?	The triangle has area $\frac{1}{2}bh$ and the parallelogram $bh$. The height is the perpendicular distance from the base to the opposite vertex or side, not a slanted side: a parallelogram with base 8, slanted sides 5 and height 4 has area 32, not 40.	geometry area common-mistake
+geo-box-volume	What is the volume of a rectangular box? Find it in litres for a box 60 cm by 40 cm by 50 cm.	The volume is $V = lwh$. Here $60 \times 40 \times 50 = 120{,}000\ \text{cm}^3$, which is 120 L, since $1\ \text{L} = 1000\ \text{cm}^3$.	geometry volume
