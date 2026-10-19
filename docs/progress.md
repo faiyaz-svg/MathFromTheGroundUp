@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 46 of 247. New lessons appear here as they are added.
+Lessons written so far: 66 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -74,6 +74,43 @@ Lessons written so far: 46 of 247. New lessons appear here as they are added.
 - [ ] [Describing data](02-middle-school/07-statistics-and-probability/01-describing-data.md)
 - [ ] [Basic probability](02-middle-school/07-statistics-and-probability/02-basic-probability.md)
 - [ ] [Scatter plots and two-way tables](02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md)
+
+## High school
+
+### Algebra foundations
+
+- [ ] [Real numbers, axioms and set notation](03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md)
+- [ ] [Linear and literal equations](03-high-school/01-algebra-foundations/02-linear-and-literal-equations.md)
+- [ ] [Compound inequalities and interval notation](03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md)
+- [ ] [Absolute value equations and inequalities](03-high-school/01-algebra-foundations/04-absolute-value-equations-and-inequalities.md)
+
+### Linear functions and systems
+
+- [ ] [Forms of linear equations](03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md)
+- [ ] [Systems of linear equations](03-high-school/02-linear-functions-and-systems/02-systems-of-linear-equations.md)
+- [ ] [Two-variable inequalities and feasible regions](03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md)
+
+### Functions
+
+- [ ] [What is a function](03-high-school/03-functions/01-what-is-a-function.md)
+- [ ] [Reading function graphs](03-high-school/03-functions/02-reading-function-graphs.md)
+- [ ] [Piecewise, absolute value and step functions](03-high-school/03-functions/03-piecewise-absolute-value-and-step-functions.md)
+- [ ] [Transformations of functions](03-high-school/03-functions/04-transformations-of-functions.md)
+- [ ] [Composition and inverse functions](03-high-school/03-functions/05-composition-and-inverse-functions.md)
+
+### Radicals and polynomials
+
+- [ ] [Radicals and rational exponents](03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md)
+- [ ] [Polynomial arithmetic](03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md)
+- [ ] [Factoring polynomials](03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md)
+- [ ] [Polynomial division and the remainder theorem](03-high-school/04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md)
+- [ ] [Polynomial functions and graphs](03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md)
+
+### Quadratics and complex numbers
+
+- [ ] [Quadratic functions and graphs](03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md)
+- [ ] [Solving quadratic equations](03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md)
+- [ ] [Complex numbers](03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md)
 
 ## CS math
 

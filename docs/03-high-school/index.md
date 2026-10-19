@@ -9,40 +9,40 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Algebra foundations
+### 1. [Algebra foundations](01-algebra-foundations/index.md)
 
-1. Real numbers, axioms and set notation (not written yet)
-2. Linear and literal equations (not written yet)
-3. Compound inequalities and interval notation (not written yet)
-4. Absolute value equations and inequalities (not written yet)
+1. [Real numbers, axioms and set notation](01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md)
+2. [Linear and literal equations](01-algebra-foundations/02-linear-and-literal-equations.md)
+3. [Compound inequalities and interval notation](01-algebra-foundations/03-compound-inequalities-and-interval-notation.md)
+4. [Absolute value equations and inequalities](01-algebra-foundations/04-absolute-value-equations-and-inequalities.md)
 
-### 2. Linear functions and systems
+### 2. [Linear functions and systems](02-linear-functions-and-systems/index.md)
 
-1. Forms of linear equations (not written yet)
-2. Systems of linear equations (not written yet)
-3. Two-variable inequalities and feasible regions (not written yet)
+1. [Forms of linear equations](02-linear-functions-and-systems/01-forms-of-linear-equations.md)
+2. [Systems of linear equations](02-linear-functions-and-systems/02-systems-of-linear-equations.md)
+3. [Two-variable inequalities and feasible regions](02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md)
 
-### 3. Functions
+### 3. [Functions](03-functions/index.md)
 
-1. What is a function (not written yet)
-2. Reading function graphs (not written yet)
-3. Piecewise, absolute value and step functions (not written yet)
-4. Transformations of functions (not written yet)
-5. Composition and inverse functions (not written yet)
+1. [What is a function](03-functions/01-what-is-a-function.md)
+2. [Reading function graphs](03-functions/02-reading-function-graphs.md)
+3. [Piecewise, absolute value and step functions](03-functions/03-piecewise-absolute-value-and-step-functions.md)
+4. [Transformations of functions](03-functions/04-transformations-of-functions.md)
+5. [Composition and inverse functions](03-functions/05-composition-and-inverse-functions.md)
 
-### 4. Radicals and polynomials
+### 4. [Radicals and polynomials](04-radicals-and-polynomials/index.md)
 
-1. Radicals and rational exponents (not written yet)
-2. Polynomial arithmetic (not written yet)
-3. Factoring polynomials (not written yet)
-4. Polynomial division and the remainder theorem (not written yet)
-5. Polynomial functions and graphs (not written yet)
+1. [Radicals and rational exponents](04-radicals-and-polynomials/01-radicals-and-rational-exponents.md)
+2. [Polynomial arithmetic](04-radicals-and-polynomials/02-polynomial-arithmetic.md)
+3. [Factoring polynomials](04-radicals-and-polynomials/03-factoring-polynomials.md)
+4. [Polynomial division and the remainder theorem](04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md)
+5. [Polynomial functions and graphs](04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md)
 
-### 5. Quadratics and complex numbers
+### 5. [Quadratics and complex numbers](05-quadratics-and-complex-numbers/index.md)
 
-1. Quadratic functions and graphs (not written yet)
-2. Solving quadratic equations (not written yet)
-3. Complex numbers (not written yet)
+1. [Quadratic functions and graphs](05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md)
+2. [Solving quadratic equations](05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md)
+3. [Complex numbers](05-quadratics-and-complex-numbers/03-complex-numbers.md)
 
 ### 6. Rational expressions and equations
 
