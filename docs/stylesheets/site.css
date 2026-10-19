@@ -400,3 +400,18 @@ input {
 .mf-progress-count {
   color: var(--mf-muted);
 }
+
+/* Figures from tools/figures are drawn on white. Centre them, keep them
+   inside the column on phones, and give them a white panel in dark mode. */
+.md-typeset img[src*="assets/figures/"] {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img[src*="assets/figures/"] {
+  background: #fff;
+  border-radius: 5px;
+  padding: 6px;
+}
