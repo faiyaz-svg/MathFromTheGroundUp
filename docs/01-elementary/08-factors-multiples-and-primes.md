@@ -67,7 +67,7 @@ Factors come in pairs: when $a$ is a factor of $n$, so is $n \div a$, and the tw
 
 1. Write down the pair $1 \times n$.
 2. Try 2, 3, 4 and so on, in order. Each time the trial number divides $n$ with remainder 0, write down the trial number and its partner, $n$ divided by the trial number.
-3. Stop as soon as the trial number times itself is bigger than $n$. (That stopping point is the square root of $n$, written $\sqrt{n}$, which comes back in roots, irrationals and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.)
+3. Stop as soon as the trial number times itself is bigger than $n$. (That stopping point is the square root of $n$, written $\sqrt{n}$, which comes back in [roots, irrationals and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).)
 4. Collect the factors: the trial numbers going up, then the partners going down. If some trial number $a$ has $a \times a = n$, write it only once.
 
 Stopping at step 3 never misses a factor. If $n = a \times b$ with $a \le b$, then $a \times a \le a \times b = n$, so the smaller number of every pair is a trial number you reach before stopping, and the bigger one turns up as its partner.

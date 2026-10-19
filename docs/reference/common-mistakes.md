@@ -444,7 +444,7 @@ Right: $2^3 \cdot 2^4 = 2^{3+4} = 2^7 = 128$
 
 The product is three 2s times four 2s, which is seven 2s, so the base stays $2$ and the exponents add. The wrong answer, $4^7 = 16{,}384$, is far too big. Powers with different bases and the same exponent combine the other way: $2^3 \cdot 5^3 = 10^3$.
 
-Taught in exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 ### Treating a negative exponent as a negative number
 
@@ -454,7 +454,7 @@ Right: $2^{-1} = \frac{1}{2}$
 
 A negative exponent means a reciprocal: $a^{-n} = \frac{1}{a^n}$ for $a \ne 0$. The pattern $2^2 = 4$, $2^1 = 2$, $2^0 = 1$ halves at each step, so the next value is $2^{-1} = \frac{1}{2}$. Every power of a positive base is positive, so $10^{-2}$ is $0.01$, not $-100$.
 
-Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#edge-cases-and-common-mistakes) and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#edge-cases-and-common-mistakes) and [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 ### Splitting a square root over a sum
 
@@ -484,7 +484,7 @@ Right: $\sqrt{9} = 3$, and $x^2 = 9$ means $x = 3$ or $x = -3$
 
 The symbol $\sqrt{9}$ names one number, the non-negative one. The equation $x^2 = 9$ asks for every number whose square is $9$, and there are two of them. When you solve, write $x = \pm\sqrt{9} = \pm 3$.
 
-Taught in roots, irrational numbers and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md --> and solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md -->.
+Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md) and solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md -->.
 
 ## Algebra
 

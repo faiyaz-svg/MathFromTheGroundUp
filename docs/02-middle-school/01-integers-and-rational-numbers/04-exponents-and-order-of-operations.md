@@ -187,7 +187,7 @@ Watch out: $-3^2$ is $-9$, not 9. The exponent is attached to the 3, and the min
 
 <div class="warning" markdown>
 
-Watch out: an exponent doesn't split over a sum. For example, $(3 + 4)^2 = 7^2 = 49$, but $3^2 + 4^2 = 9 + 16 = 25$. Multiplying out $(3 + 4) \times (3 + 4)$ with the distributive property gives $9 + 12 + 12 + 16 = 49$, and the two middle products are what $3^2 + 4^2$ leaves out. The general version, $(a + b)^2 = a^2 + 2ab + b^2$, is in polynomial arithmetic<!-- link: ../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->. An exponent does split over a product, $(2 \times 3)^2 = 36 = 2^2 \times 3^2$, which is one of the exponent rules<!-- link: ../04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+Watch out: an exponent doesn't split over a sum. For example, $(3 + 4)^2 = 7^2 = 49$, but $3^2 + 4^2 = 9 + 16 = 25$. Multiplying out $(3 + 4) \times (3 + 4)$ with the distributive property gives $9 + 12 + 12 + 16 = 49$, and the two middle products are what $3^2 + 4^2$ leaves out. The general version, $(a + b)^2 = a^2 + 2ab + b^2$, is in polynomial arithmetic<!-- link: ../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->. An exponent does split over a product, $(2 \times 3)^2 = 36 = 2^2 \times 3^2$, which is one of the [exponent rules](../04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 </div>
 
@@ -205,7 +205,7 @@ Watch out for the base of a power. In $2 \times 3^2$ only the 3 is squared, so t
 
 The exponent is a count, not a factor, as in [powers of ten](../../01-elementary/14-powers-of-ten.md#edge-cases-and-common-mistakes): $3^4 = 3 \times 3 \times 3 \times 3 = 81$, not $3 \times 4 = 12$.
 
-Zero needs care. For every positive integer $n$, $0^n = 0$. For every $b \ne 0$, $b^0 = 1$, so $(-7)^0 = 1$, while $-7^0 = -(7^0) = -1$. The expression $0^0$ is left undefined in this lesson; Python gives `0**0` as 1, and the question comes back in exponent rules<!-- link: ../04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+Zero needs care. For every positive integer $n$, $0^n = 0$. For every $b \ne 0$, $b^0 = 1$, so $(-7)^0 = 1$, while $-7^0 = -(7^0) = -1$. The expression $0^0$ is left undefined in this lesson; Python gives `0**0` as 1, and the question comes back in [exponent rules](../04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 Squaring doesn't always make a number bigger. For a number between 0 and 1 the square is smaller, as in $0.5^2 = 0.25$. For a negative number the square is positive, so it is bigger than the number: $(-0.5)^2 = 0.25 > -0.5$.
 
@@ -413,6 +413,6 @@ Check: 347 is 3 hundreds, 4 tens and 7 ones; 0.25 is 2 tenths and 5 hundredths; 
 
 ## Where this shows up
 
-- Exponent rules<!-- link: ../04-powers-roots-and-real-numbers/01-exponent-rules.md --> and scientific notation<!-- link: ../04-powers-roots-and-real-numbers/02-scientific-notation.md --> build on powers. [Variables and expressions](../03-expressions-equations-inequalities/01-variables-and-expressions.md) evaluates expressions such as $3x^2 - 5x$ by putting in a number and following this order, and a negative value needs brackets: for $x = -2$, the first term is $3 \times (-2)^2 = 12$.
+- [Exponent rules](../04-powers-roots-and-real-numbers/01-exponent-rules.md) and [scientific notation](../04-powers-roots-and-real-numbers/02-scientific-notation.md) build on powers. [Variables and expressions](../03-expressions-equations-inequalities/01-variables-and-expressions.md) evaluates expressions such as $3x^2 - 5x$ by putting in a number and following this order, and a negative value needs brackets: for $x = -2$, the first term is $3 \times (-2)^2 = 12$.
 - Every programming language has a precedence table, and a parser uses it to turn a line of code into a tree of operations. Context-free grammars and pushdown automata<!-- link: ../../06-cs-math/06-theory-of-computation/03-context-free-grammars-and-pushdown-automata.md --> shows how a grammar builds the order of operations into its rules.
 - Compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> uses the formula from Practice problem 6, a starting amount times $(1 + r)^n$, where the exponent applies to the growth factor alone.

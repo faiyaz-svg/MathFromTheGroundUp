@@ -72,7 +72,7 @@ The **converse** of "if P, then Q" is "if Q, then P". It is a different statemen
 
 A **conversion factor** is a fraction whose numerator and denominator are the same amount written in two units, such as $\frac{1000\ \text{m}}{1\ \text{km}}$, so the fraction equals 1. Multiplying by it changes the units without changing the amount. Taught in [measurement and unit conversion](../01-elementary/15-measurement-and-unit-conversion.md#definitions).
 
-The **coordinate plane** is a flat grid made by two number lines, the horizontal $x$-axis and the vertical $y$-axis, which cross at their zeros, a point called the origin. Each point has coordinates $(x, y)$, written in that order: the point $(3, 2)$ is 3 units right of the origin and 2 units up. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#shapes-on-a-grid) and the coordinate plane<!-- link: ../02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md -->.
+The **coordinate plane** is a flat grid made by two number lines, the horizontal $x$-axis and the vertical $y$-axis, which cross at their zeros, a point called the origin. Each point has coordinates $(x, y)$, written in that order: the point $(3, 2)$ is 3 units right of the origin and 2 units up. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#shapes-on-a-grid) and [the coordinate plane](../02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md).
 
 A **corollary** is a result that follows quickly from a theorem that was just proved. Taught in definitions, theorems, lemmas and corollaries<!-- link: ../04-proofs-and-logic/01-language-and-notation/02-definitions-theorems-lemmas-corollaries.md -->.
 
@@ -122,7 +122,7 @@ An **equation** is a statement that two expressions are equal, such as $2x + 1 =
 
 The word **equivalent** has a precise meaning for each kind of object. Two fractions are equivalent when they are equal as numbers, as $\frac{1}{4}$ and $\frac{2}{8}$ are, and two ratios are equivalent when one is the other with every term multiplied by the same nonzero number, as with $1:3$ and $2:6$. Two expressions are equivalent when they have the same value for every value of their variables. Two equations, or two inequalities, are equivalent when they have the same solution set. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md#definitions), [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md#definitions), [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#definitions) and [one- and two-step equations](../02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md#definitions).
 
-An **estimate** is an approximate answer, usually worked out from rounded numbers: $389 + 412 \approx 400 + 400 = 800$, where $\approx$ means "is approximately equal to". Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions) and estimation and sanity checks<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md -->.
+An **estimate** is an approximate answer, usually worked out from rounded numbers: $389 + 412 \approx 400 + 400 = 800$, where $\approx$ means "is approximately equal to". Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions) and [estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md).
 
 To **evaluate** an expression is to replace each variable with a given number and work out the value. Evaluating $5 + 0.40t$ at $t = 20$ gives 13. Replacing a variable with a number, or with another expression, is called substitution. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md#definitions).
 
@@ -132,7 +132,7 @@ The **expanded form** of a number writes it as the sum of the values of its digi
 
 The **expected value** $E[X]$ of a random variable is its long-run average: each value weighted by its probability, $\sum x \, P(X = x)$. One roll of a fair die has expected value 3.5, even though no roll shows 3.5. Taught in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->.
 
-The **exponent** in $b^n$ is $n$, the number of times the base is used as a factor. Negative and fractional exponents extend the idea, so that $b^{-1} = \frac{1}{b}$ and $b^{1/2} = \sqrt{b}$. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#definitions), [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+The **exponent** in $b^n$ is $n$, the number of times the base is used as a factor. Negative and fractional exponents extend the idea, so that $b^{-1} = \frac{1}{b}$ and $b^{1/2} = \sqrt{b}$. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#definitions), [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md) and [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 An **expression** is a combination of numbers, variables and operations with no equals sign, such as $3x^2 - 5x$. An expression has a value, while an equation is true or false. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md).
 
@@ -176,7 +176,7 @@ An **inequality** compares two expressions with $<$, $\le$, $>$ or $\ge$, such a
 
 A function is **injective**, or one-to-one, when different inputs always give different outputs: $f(a_1) = f(a_2)$ implies $a_1 = a_2$. The squaring function on $\mathbb{R}$ is not injective, since $(-2)^2 = 2^2$. Taught in injective, surjective and bijective<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
 
-An **integer** is a whole number or the opposite of one: $\dots, -2, -1, 0, 1, 2, \dots$. The set of integers is $\mathbb{Z}$. Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#definitions) and roots, irrational numbers and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.
+An **integer** is a whole number or the opposite of one: $\dots, -2, -1, 0, 1, 2, \dots$. The set of integers is $\mathbb{Z}$. Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#definitions) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
 The definite **integral** $\int_a^b f(x)\,dx$ is the signed area between the graph of $f$ and the $x$-axis from $a$ to $b$, defined as a limit of sums of thin rectangles. The indefinite integral $\int f(x)\,dx$ is the family of antiderivatives of $f$. The formal definition is in Riemann sums and the definite integral<!-- link: ../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md -->.
 
@@ -186,7 +186,7 @@ Two operations are **inverse operations** when each one undoes the other: subtra
 
 Two quantities are **inversely proportional** when their product is constant, so $y = \frac{k}{x}$, and doubling one halves the other. On a 240 km drive the time is $\frac{240}{\text{speed}}$: 4 h at 60 km/h, and 2 h at 120 km/h. Taught in [proportional relationships](../02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md#what-is-inverse-proportion).
 
-An **irrational** number is a real number that is not rational, so it can't be written as a fraction of two integers. Its decimal expansion never ends and never repeats. Two examples are $\sqrt{2}$ and $\pi$. Taught in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md#not-every-number-is-rational) and roots, irrational numbers and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.
+An **irrational** number is a real number that is not rational, so it can't be written as a fraction of two integers. Its decimal expansion never ends and never repeats. Two examples are $\sqrt{2}$ and $\pi$. Taught in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md#not-every-number-is-rational) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
 ## L
 
@@ -212,9 +212,9 @@ A **markup** is the amount a store adds to its cost to get the selling price, us
 
 A **matrix** is a rectangular grid of numbers. One with $m$ rows and $n$ columns is an $m \times n$ matrix. A matrix can hold the coefficients of a system of equations, or describe a linear transformation. Taught in matrix basics<!-- link: ../03-high-school/10-vectors-and-matrices/02-matrix-basics.md -->.
 
-The **mean** of a list of numbers is their sum divided by how many there are, the ordinary average. The mean of 2, 4 and 9 is $\frac{15}{3} = 5$. Taught in describing data<!-- link: ../02-middle-school/07-statistics-and-probability/01-describing-data.md -->.
+The **mean** of a list of numbers is their sum divided by how many there are, the ordinary average. The mean of 2, 4 and 9 is $\frac{15}{3} = 5$. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md).
 
-The **median** is the middle value of a list sorted in order, or the mean of the two middle values when the list has an even number of entries. Extreme values move it less than they move the mean: the median of 2, 4 and 90 is 4, while the mean is 32. Taught in describing data<!-- link: ../02-middle-school/07-statistics-and-probability/01-describing-data.md -->.
+The **median** is the middle value of a list sorted in order, or the mean of the two middle values when the list has an even number of entries. Extreme values move it less than they move the mean: the median of 2, 4 and 90 is 4, while the mean is 32. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md).
 
 A **metric prefix** is a word put in front of a unit to multiply it by a power of ten: kilo is $10^3$, centi is $10^{-2}$ and milli is $10^{-3}$, so a kilometre is 1000 m. The symbols are case-sensitive, since M is mega ($10^6$) and m is milli. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#metric-prefixes) and [measurement and unit conversion](../01-elementary/15-measurement-and-unit-conversion.md#definitions).
 
@@ -222,7 +222,7 @@ A **mixed number** is a whole number followed by a proper fraction, and it means
 
 **Mod**, short for modulo, has two related uses. As an operation, $a \bmod n$ is the remainder when $a$ is divided by $n$, so $17 \bmod 5 = 2$. As a relation, $a \equiv b \pmod{n}$ says that $a$ and $b$ leave the same remainder, and $n$ is called the **modulus**. (The modulus of a complex number is something else, its absolute value.) Taught in divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
 
-The **mode** is the value that occurs most often in a list. A list can have more than one mode. Taught in describing data<!-- link: ../02-middle-school/07-statistics-and-probability/01-describing-data.md -->.
+The **mode** is the value that occurs most often in a list. A list can have more than one mode. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md).
 
 A **multiple** of an integer $n$ is $n$ times some integer, so the multiples of 4 are $\dots, -8, -4, 0, 4, 8, \dots$. Saying that $b$ is a multiple of $a$ is the same as saying that $a$ is a factor of $b$. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
@@ -230,7 +230,7 @@ The **multiplier** of a percent change, also called the growth factor, is $1 + r
 
 ## N
 
-A **natural number** is a counting number. In this book the natural numbers are $\mathbb{N} = \{0, 1, 2, \dots\}$, but many books start at 1, so check the definition in whatever you are reading. Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#definitions) and roots, irrational numbers and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.
+A **natural number** is a counting number. In this book the natural numbers are $\mathbb{N} = \{0, 1, 2, \dots\}$, but many books start at 1, so check the definition in whatever you are reading. Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#definitions) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
 A condition Q is **necessary** for P when P can't happen without Q, which is the statement "if P, then Q". Being even is necessary for being divisible by 4. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
 
@@ -268,7 +268,7 @@ The **place value** of a position in a number is what one unit in that position 
 
 A **polygon** is a closed flat shape made of straight line segments, called its sides, that meet only at their endpoints. A regular polygon has all its sides the same length and all its angles the same size, as a stop sign does. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#polygons).
 
-A **power** of a number $b$ is $b^n$, the product of $n$ copies of the base $b$, read "$b$ to the power $n$". The powers of ten are $10^1 = 10$, $10^2 = 100$ and so on, and the pattern continues down to $10^0 = 1$ and $10^{-1} = 0.1$. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#definitions) and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+A **power** of a number $b$ is $b^n$, the product of $n$ copies of the base $b$, read "$b$ to the power $n$". The powers of ten are $10^1 = 10$, $10^2 = 100$ and so on, and the pattern continues down to $10^0 = 1$ and $10^{-1} = 0.1$. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#definitions) and [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 A **prime** number is an integer greater than 1 whose only positive factors are 1 and itself, such as $2, 3, 5, 7$ and $11$. The number 1 is not prime. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md) and primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->.
 
@@ -296,7 +296,7 @@ A **rate** is a ratio of two quantities with different units, such as 90 km per 
 
 A **ratio** compares two quantities by division. A recipe with 2 cups of flour for every 3 cups of milk has a flour-to-milk ratio of $2 : 3$, which is the fraction $\frac{2}{3}$. The numbers 2 and 3 are the terms of the ratio, and their order matters. That ratio is part-to-part, since it compares two parts of the mix; the part-to-whole ratio of flour to mix is $2 : 5$, so flour is $\frac{2}{5}$ of the mix. Taught in [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md#definitions).
 
-A **rational** number is one that can be written as a fraction $\frac{a}{b}$ of integers with $b \ne 0$, such as $-\frac{9}{20}$ or $7 = \frac{7}{1}$. The set of rational numbers is $\mathbb{Q}$. Every decimal that ends or repeats is rational: $0.75 = \frac{3}{4}$ and $0.333\ldots = \frac{1}{3}$. Taught in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md#definitions) and roots, irrational numbers and types of numbers<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->.
+A **rational** number is one that can be written as a fraction $\frac{a}{b}$ of integers with $b \ne 0$, such as $-\frac{9}{20}$ or $7 = \frac{7}{1}$. The set of rational numbers is $\mathbb{Q}$. Every decimal that ends or repeats is rational: $0.75 = \frac{3}{4}$ and $0.333\ldots = \frac{1}{3}$. Taught in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md#definitions) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
 A **real number** is a point on the number line, rational or irrational. The set of real numbers is $\mathbb{R}$. Its formal properties are in real numbers, axioms and set notation<!-- link: ../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
 

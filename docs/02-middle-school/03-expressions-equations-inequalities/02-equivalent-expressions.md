@@ -303,7 +303,7 @@ The last line finds the counterexample $x = 3$ from [The idea](#the-idea). For p
 
 ### Why isn't checking a few values enough?
 
-An equivalence is a claim about infinitely many values, and checking some of them leaves the rest unchecked: $x^2 + 2$ and $3x$ agree twice and still differ. There is one special case worth knowing. Expressions of the form $ax + b$ graph as straight lines (slope and linear equations<!-- link: ../05-linear-relationships-and-functions/02-slope-and-linear-equations.md -->), and two different lines cross at most once, so two such expressions that agree at two different values are equivalent. More generally, two polynomials of degree at most $n$ that agree at $n + 1$ different values are equivalent (polynomial functions and graphs<!-- link: ../../03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md -->). Since $x^2 + 2$ has degree 2, two agreements were not enough.
+An equivalence is a claim about infinitely many values, and checking some of them leaves the rest unchecked: $x^2 + 2$ and $3x$ agree twice and still differ. There is one special case worth knowing. Expressions of the form $ax + b$ graph as straight lines ([slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md)), and two different lines cross at most once, so two such expressions that agree at two different values are equivalent. More generally, two polynomials of degree at most $n$ that agree at $n + 1$ different values are equivalent (polynomial functions and graphs<!-- link: ../../03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md -->). Since $x^2 + 2$ has degree 2, two agreements were not enough.
 
 ### Is simplifying the same as solving?
 

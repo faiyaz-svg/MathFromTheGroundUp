@@ -87,10 +87,10 @@ Looking back, the steps also run backwards: if $ad = bc$, dividing both sides by
 ### Testing whether two quantities are proportional
 
 1. From a table: divide $y$ by $x$ in every row where $x \ne 0$. If every quotient is the same number, $y$ is proportional to $x$, and that number is $k$. A row with $x = 0$ must have $y = 0$.
-2. From a graph: plot each pair as a point, with $x$ across and $y$ up, as in the coordinate plane<!-- link: ../05-linear-relationships-and-functions/01-coordinate-plane.md -->. The quantities are proportional exactly when the points lie on a straight line through the origin, the point $(0, 0)$ where the axes cross. A straight line that misses the origin, or a curve, means they are not.
+2. From a graph: plot each pair as a point, with $x$ across and $y$ up, as in [the coordinate plane](../05-linear-relationships-and-functions/01-coordinate-plane.md). The quantities are proportional exactly when the points lie on a straight line through the origin, the point $(0, 0)$ where the axes cross. A straight line that misses the origin, or a curve, means they are not.
 3. From an equation: the relationship is proportional when it has the form $y = kx$, with nothing added on. The taxi fare, $y = 2x + 4.5$, has 4.5 added, so it is not.
 
-The graph of $y = kx$ passes through the origin because $x = 0$ gives $y = k \times 0 = 0$. It is straight because each step of 1 to the right adds the same amount, $k$, to $y$. That steady climb is the slope of the line, the subject of slope and linear equations<!-- link: ../05-linear-relationships-and-functions/02-slope-and-linear-equations.md -->.
+The graph of $y = kx$ passes through the origin because $x = 0$ gives $y = k \times 0 = 0$. It is straight because each step of 1 to the right adds the same amount, $k$, to $y$. That steady climb is the slope of the line, the subject of [slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md).
 
 ### Scale drawings and map scales
 
@@ -277,7 +277,7 @@ Two quantities are inversely proportional when their product is constant, so $y 
 
 ### Is every straight-line graph a proportional relationship?
 
-No. Every proportional relationship has a straight-line graph through the origin, but the taxi fare is a straight line that misses the origin. Straight-line relationships in general are linear, with equations of the form $y = mx + b$, where $m$ is the slope and $b$ is where the line crosses the vertical axis (slope and linear equations<!-- link: ../05-linear-relationships-and-functions/02-slope-and-linear-equations.md -->). A proportional relationship is the linear case with $b = 0$.
+No. Every proportional relationship has a straight-line graph through the origin, but the taxi fare is a straight line that misses the origin. Straight-line relationships in general are linear, with equations of the form $y = mx + b$, where $m$ is the slope and $b$ is where the line crosses the vertical axis ([slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md)). A proportional relationship is the linear case with $b = 0$.
 
 ## Practice
 
@@ -403,6 +403,6 @@ Check: in 10 minutes, $600 \times 40 = 24{,}000$ megabits arrive, and $24{,}000 
 
 ## Where this shows up
 
-- The constant $k$ is the slope of the line $y = kx$ (slope and linear equations<!-- link: ../05-linear-relationships-and-functions/02-slope-and-linear-equations.md -->), and the [percents](03-percents.md) lesson writes $\frac{\text{part}}{\text{whole}} = \frac{x}{100}$ as a proportion. Scale drawings lead to similar shapes in transformations, congruence and similarity<!-- link: ../06-geometry/05-transformations-congruence-similarity.md -->.
+- The constant $k$ is the slope of the line $y = kx$ ([slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md)), and the [percents](03-percents.md) lesson writes $\frac{\text{part}}{\text{whole}} = \frac{x}{100}$ as a proportion. Scale drawings lead to similar shapes in transformations, congruence and similarity<!-- link: ../06-geometry/05-transformations-congruence-similarity.md -->.
 - In economics, a cost that is the same for every unit makes total cost proportional to output, and a fixed cost makes it linear but not proportional, like the taxi's base fare (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->).
 - An algorithm that does the same amount of work per item runs in time roughly proportional to the size of its input, so doubling the input about doubles the time. Asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md --> makes "roughly" precise.

@@ -76,7 +76,7 @@ Read the pattern below from the top down. Each line divides the one above it by 
 | $10^{-2}$ | 0.01 |
 | $10^{-3}$ | 0.001 |
 
-After $10^1 = 10$, one more division gives $10 \div 10 = 1$, so the next line is $10^0 = 1$. This is a definition, because "multiply zero copies of 10" gives no instructions, and 1 is the only value that keeps the pattern going. Exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md --> uses the same definition for every base: $b^0 = 1$ for every number $b \ne 0$, where $\ne$ means "is not equal to".
+After $10^1 = 10$, one more division gives $10 \div 10 = 1$, so the next line is $10^0 = 1$. This is a definition, because "multiply zero copies of 10" gives no instructions, and 1 is the only value that keeps the pattern going. [Exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md) uses the same definition for every base: $b^0 = 1$ for every number $b \ne 0$, where $\ne$ means "is not equal to".
 
 Going further down gives negative exponents, which this lesson only previews. For a positive integer $n$,
 
@@ -194,7 +194,7 @@ The exponent is the number of places. In $3.2 \times 10^4$ the point moves 4 pla
 
 In $7 \times 10^{-3}$, multiplying by $10^{-3} = 0.001$ is dividing by 1000, so the point moves 3 places left: 0.7, 0.07, 0.007. So $7 \times 10^{-3} = 0.007$.
 
-Check: $10^4 = 10{,}000$ and $3.2 \times 10{,}000 = 32{,}000$; and $0.007 \times 1000 = 7$. Writing a number as a decimal times a power of ten like this is the start of scientific notation<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md -->.
+Check: $10^4 = 10{,}000$ and $3.2 \times 10{,}000 = 32{,}000$; and $0.007 \times 1000 = 7$. Writing a number as a decimal times a power of ten like this is the start of [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md).
 
 </div>
 
@@ -224,7 +224,7 @@ Zeros inside a number stay where they are. In $4.05 \times 100 = 405$, the 0 is 
 
 ## Tricks and shortcuts
 
-To multiply numbers that end in zeros, multiply the front parts and then write all the zeros at the end. For $300 \times 4000$, work out $3 \times 4 = 12$, then attach the $2 + 3 = 5$ zeros: 1,200,000. This works because $300 \times 4000 = 3 \times 4 \times 100 \times 1000$, and $100 \times 1000 = 10^2 \times 10^3 = 10^5$. When you multiply powers of ten, the exponents add, which is the first of the exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md -->.
+To multiply numbers that end in zeros, multiply the front parts and then write all the zeros at the end. For $300 \times 4000$, work out $3 \times 4 = 12$, then attach the $2 + 3 = 5$ zeros: 1,200,000. This works because $300 \times 4000 = 3 \times 4 \times 100 \times 1000$, and $100 \times 1000 = 10^2 \times 10^3 = 10^5$. When you multiply powers of ten, the exponents add, which is the first of the [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 To divide, cross off the same number of end zeros from both numbers. In $36{,}000 \div 900$, cross off two from each to get $360 \div 9 = 40$. Dividing both numbers by 100 doesn't change the quotient, for the same reason that $\frac{36000}{900}$ and $\frac{360}{9}$ are [equivalent fractions](09-fractions-and-equivalent-fractions.md).
 
@@ -332,6 +332,6 @@ Check: $0.03 \div 0.05 = 0.6$, since $0.05 \times 0.6 = 0.03$, and $12 \times 0.
 
 ## Where this shows up
 
-- Scientific notation<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md --> writes very large and very small numbers as a decimal times a power of ten, such as $3.2 \times 10^4$, and exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md --> extends $10^2 \times 10^3 = 10^5$ to every base.
+- [Scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md) writes very large and very small numbers as a decimal times a power of ten, such as $3.2 \times 10^4$, and [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md) extends $10^2 \times 10^3 = 10^5$ to every base.
 - The next lesson, [measurement and unit conversion](15-measurement-and-unit-conversion.md), converts between metric units by moving the decimal point.
 - In binary each place is worth twice the one to its right, so multiplying by 2 moves every digit one place left, which is the bit shift `x << 1` in code ([number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md)). Python writes $3.2 \times 10^4$ as `3.2e4` and $10^3$ as `10**3`.

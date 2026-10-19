@@ -99,7 +99,7 @@ One result is that every terminating decimal has a second decimal form, ending i
 
 ### Not every number is rational
 
-The decimal of a fraction always stops or repeats. So a decimal that does neither is not a fraction of integers. You can write one down: $0.101001000100001\ldots$, where each run of zeros is one longer than the one before it. It never settles into a block that repeats, so it is not rational. Two famous examples are $\sqrt{2} = 1.41421\ldots$ and $\pi = 3.14159\ldots$, whose digits also never stop or repeat. Numbers like these are called irrational, and they are the subject of roots, irrational numbers and types of numbers<!-- link: ../04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md -->. Showing that a particular number such as $\sqrt{2}$ is irrational takes a proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->.
+The decimal of a fraction always stops or repeats. So a decimal that does neither is not a fraction of integers. You can write one down: $0.101001000100001\ldots$, where each run of zeros is one longer than the one before it. It never settles into a block that repeats, so it is not rational. Two famous examples are $\sqrt{2} = 1.41421\ldots$ and $\pi = 3.14159\ldots$, whose digits also never stop or repeat. Numbers like these are called irrational, and they are the subject of [roots, irrational numbers and types of numbers](../04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md). Showing that a particular number such as $\sqrt{2}$ is irrational takes a proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->.
 
 ## Worked examples
 

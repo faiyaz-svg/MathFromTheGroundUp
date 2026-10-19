@@ -65,7 +65,7 @@ a^{1/n} &= \sqrt[n]{a} & a^{m/n} &= \left(\sqrt[n]{a}\right)^m
 \end{aligned}
 $$
 
-The first three rows hold for $a, b \ne 0$ and integer exponents $m$ and $n$. The last row needs $a > 0$ and $n \ge 1$. Taught in exponent rules<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md --> and radicals and rational exponents<!-- link: ../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->; collected in the powers, roots and real numbers cheat sheet<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/index.md -->.
+The first three rows hold for $a, b \ne 0$ and integer exponents $m$ and $n$. The last row needs $a > 0$ and $n \ge 1$. Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md) and radicals and rational exponents<!-- link: ../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->; collected in the [powers, roots and real numbers cheat sheet](../02-middle-school/04-powers-roots-and-real-numbers/index.md).
 
 ### Quadratic formula
 
@@ -85,7 +85,7 @@ $$
 m = \frac{y_2 - y_1}{x_2 - x_1}, \qquad y = mx + b
 $$
 
-Here $b$ is the $y$-intercept. The line through $(1, 2)$ and $(4, 8)$ has slope $\frac{8 - 2}{4 - 1} = 2$. Taught in slope and linear equations<!-- link: ../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md --> and forms of linear equations<!-- link: ../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md -->; collected in the linear relationships and functions cheat sheet<!-- link: ../02-middle-school/05-linear-relationships-and-functions/index.md -->.
+Here $b$ is the $y$-intercept. The line through $(1, 2)$ and $(4, 8)$ has slope $\frac{8 - 2}{4 - 1} = 2$. Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md) and forms of linear equations<!-- link: ../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md -->; collected in the [linear relationships and functions cheat sheet](../02-middle-school/05-linear-relationships-and-functions/index.md).
 
 ### Distance between two points
 
@@ -178,4 +178,4 @@ E[X] &= \sum_x x \, P(X = x) & \operatorname{Var}(X) &= E[X^2] - (E[X])^2
 \end{aligned}
 $$
 
-When the data are a whole population rather than a sample, divide by $n$ instead of $n - 1$. The standard deviation is the square root of the variance. For the data 2, 4 and 9, $\bar{x} = 5$ and $s^2 = \frac{9 + 1 + 16}{2} = 13$. Taught in describing data<!-- link: ../02-middle-school/07-statistics-and-probability/01-describing-data.md -->, descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md --> and discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->; collected in the probability<!-- link: ../05-university-core/07-probability/index.md --> and statistics<!-- link: ../05-university-core/08-statistics/index.md --> cheat sheets.
+When the data are a whole population rather than a sample, divide by $n$ instead of $n - 1$. The standard deviation is the square root of the variance. For the data 2, 4 and 9, $\bar{x} = 5$ and $s^2 = \frac{9 + 1 + 16}{2} = 13$. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md), descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md --> and discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->; collected in the probability<!-- link: ../05-university-core/07-probability/index.md --> and statistics<!-- link: ../05-university-core/08-statistics/index.md --> cheat sheets.

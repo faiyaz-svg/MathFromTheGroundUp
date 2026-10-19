@@ -251,7 +251,7 @@ Test with numbers that aren't special. The values 0 and 1 hide mistakes, because
 
 Check the sign before you check the number, as in Example 1. If every term is positive, a negative answer means an arithmetic slip, and you know before you redo the arithmetic.
 
-To see how a quantity changes, evaluate the expression at evenly spaced values and make a table. The car-share cost $5 + 0.40t$ at 10, 20, 30 and 40 minutes is 9, 13, 17 and 21 dollars. Each extra 10 minutes adds $0.40 \times 10 = 4$ dollars, the coefficient times the step. This steady change is the slope of slope and linear equations<!-- link: ../05-linear-relationships-and-functions/02-slope-and-linear-equations.md -->.
+To see how a quantity changes, evaluate the expression at evenly spaced values and make a table. The car-share cost $5 + 0.40t$ at 10, 20, 30 and 40 minutes is 9, 13, 17 and 21 dollars. Each extra 10 minutes adds $0.40 \times 10 = 4$ dollars, the coefficient times the step. This steady change is the slope of [slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md).
 
 ## In code
 
@@ -423,4 +423,4 @@ Check with decimals: $0.5 \div 3 \approx 0.1667$ and $-0.6667 \div 4 \approx -0.
 
 - The next lesson, [equivalent expressions](02-equivalent-expressions.md), rewrites an expression without changing its value for any number, and [one- and two-step equations](03-one-and-two-step-equations.md) finds the value of an unknown.
 - Economics writes costs the same way as the car-share fare: a fixed part plus a part per unit. A firm with \$500 of fixed costs and \$12 of cost per unit has total cost $500 + 12n$ for $n$ units (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->).
-- In code, a function parameter is a variable in the "varies" sense: `def cost(t): return 5 + 0.40 * t` is the car-share expression with a name. Substituting an expression for a variable, brackets and all, comes back in function notation such as $f(x + h)$ (introduction to functions<!-- link: ../05-linear-relationships-and-functions/03-intro-to-functions.md -->).
+- In code, a function parameter is a variable in the "varies" sense: `def cost(t): return 5 + 0.40 * t` is the car-share expression with a name. Substituting an expression for a variable, brackets and all, comes back in function notation such as $f(x + h)$ ([introduction to functions](../05-linear-relationships-and-functions/03-intro-to-functions.md)).

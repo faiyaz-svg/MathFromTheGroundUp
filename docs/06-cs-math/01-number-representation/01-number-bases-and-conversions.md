@@ -100,7 +100,7 @@ The place values in binary are the powers of 2. Learn at least the ones up to $2
 | 4 | 16 | 10 | 1,024 | 16 | 65,536 |
 | 5 | 32 | 11 | 2,048 | | |
 
-Since $2^{10} = 1{,}024$, we have $2^{10} \approx 10^3$, where $\approx$ means "is about". So $2^{20}$ is about a million and $2^{30}$ is about a billion. This near miss is why "kilo" in computing sometimes means 1,024; scientific notation<!-- link: ../../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md --> sorts out the prefixes.
+Since $2^{10} = 1{,}024$, we have $2^{10} \approx 10^3$, where $\approx$ means "is about". So $2^{20}$ is about a million and $2^{30}$ is about a billion. This near miss is why "kilo" in computing sometimes means 1,024; [scientific notation](../../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md) sorts out the prefixes.
 
 ## How to do it
 

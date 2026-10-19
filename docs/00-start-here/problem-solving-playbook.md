@@ -226,7 +226,7 @@ Check the size another way: $100$ Mbit/s is $12.5$ megabytes per second, and $40
 
 </div>
 
-Here GB means $10^9$ bytes. The difference between GB and GiB comes up in scientific notation<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md -->, and estimation gets its own lesson in estimation and sanity checks<!-- link: ../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md -->.
+Here GB means $10^9$ bytes. The difference between GB and GiB comes up in [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md), and estimation gets its own lesson in [estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md).
 
 ### Ask whether you have used all the information
 

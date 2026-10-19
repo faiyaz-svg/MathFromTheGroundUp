@@ -127,7 +127,7 @@ For a box, a single layer of unit cubes on the bottom has $l \times w$ cubes, an
 
 ### Shapes on a grid
 
-The **coordinate plane** is a flat grid with a horizontal number line, the $x$-axis, and a vertical one, the $y$-axis, which cross at their zeros. The crossing point is the **origin**. Each point has **coordinates** $(x, y)$, written in that order: start at the origin, go $x$ units right, then $y$ units up. The point $(3, 2)$ is 3 right and 2 up. In this lesson every coordinate is 0 or positive, so the points lie in the top right part of the plane, called the **first quadrant**; the whole plane comes in the coordinate plane<!-- link: ../02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md -->.
+The **coordinate plane** is a flat grid with a horizontal number line, the $x$-axis, and a vertical one, the $y$-axis, which cross at their zeros. The crossing point is the **origin**. Each point has **coordinates** $(x, y)$, written in that order: start at the origin, go $x$ units right, then $y$ units up. The point $(3, 2)$ is 3 right and 2 up. In this lesson every coordinate is 0 or positive, so the points lie in the top right part of the plane, called the **first quadrant**; the whole plane comes in [the coordinate plane](../02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md).
 
 On the grid, the length of a horizontal or vertical segment is a subtraction. From $(1, 1)$ to $(5, 1)$ the $x$-coordinate goes from 1 to 5, so the segment is $5 - 1 = 4$ units long. The rectangle with corners $(1, 1)$, $(5, 1)$, $(5, 4)$ and $(1, 4)$ is therefore 4 units wide and $4 - 1 = 3$ units tall, with an area of 12 square units: the bedroom floor, drawn on a grid.
 
