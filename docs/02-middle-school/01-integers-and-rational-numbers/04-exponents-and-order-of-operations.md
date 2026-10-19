@@ -187,7 +187,7 @@ Watch out: $-3^2$ is $-9$, not 9. The exponent is attached to the 3, and the min
 
 <div class="warning" markdown>
 
-Watch out: an exponent doesn't split over a sum. For example, $(3 + 4)^2 = 7^2 = 49$, but $3^2 + 4^2 = 9 + 16 = 25$. Multiplying out $(3 + 4) \times (3 + 4)$ with the distributive property gives $9 + 12 + 12 + 16 = 49$, and the two middle products are what $3^2 + 4^2$ leaves out. The general version, $(a + b)^2 = a^2 + 2ab + b^2$, is in polynomial arithmetic<!-- link: ../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->. An exponent does split over a product, $(2 \times 3)^2 = 36 = 2^2 \times 3^2$, which is one of the [exponent rules](../04-powers-roots-and-real-numbers/01-exponent-rules.md).
+Watch out: an exponent doesn't split over a sum. For example, $(3 + 4)^2 = 7^2 = 49$, but $3^2 + 4^2 = 9 + 16 = 25$. Multiplying out $(3 + 4) \times (3 + 4)$ with the distributive property gives $9 + 12 + 12 + 16 = 49$, and the two middle products are what $3^2 + 4^2$ leaves out. The general version, $(a + b)^2 = a^2 + 2ab + b^2$, is in [polynomial arithmetic](../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md). An exponent does split over a product, $(2 \times 3)^2 = 36 = 2^2 \times 3^2$, which is one of the [exponent rules](../04-powers-roots-and-real-numbers/01-exponent-rules.md).
 
 </div>
 

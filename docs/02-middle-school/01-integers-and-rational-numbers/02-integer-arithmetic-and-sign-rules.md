@@ -153,7 +153,7 @@ Look back: the proof used only the rules you already accept for whole numbers, p
 
 <div class="note" markdown>
 
-A university course builds arithmetic this way. It takes the commutative, associative, identity and distributive properties as axioms, and then proves facts such as the zero property and the sign rules from them. Practice problem 5 of [properties of operations](../../01-elementary/04-properties-of-operations.md#practice) proves the zero property that way, and this section did the same for the sign rules. The full list of axioms is in real numbers, axioms and set notation<!-- link: ../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
+A university course builds arithmetic this way. It takes the commutative, associative, identity and distributive properties as axioms, and then proves facts such as the zero property and the sign rules from them. Practice problem 5 of [properties of operations](../../01-elementary/04-properties-of-operations.md#practice) proves the zero property that way, and this section did the same for the sign rules. The full list of axioms is in [real numbers, axioms and set notation](../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md).
 
 </div>
 

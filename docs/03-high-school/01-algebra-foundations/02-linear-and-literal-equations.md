@@ -305,7 +305,7 @@ In a real situation it usually isn't, and then the restriction is automatic. In 
 
 ### What if the target letter is squared or under a root?
 
-Then the equation isn't linear in that letter, and the steps here are not enough. For $A = \pi r^2$ solved for $r$, you divide by $\pi$ and then take a square root, which gives two candidates, $\pm\sqrt{A/\pi}$, and a sign to decide from the context. Quadratics and radicals are the next big topics: solving quadratic equations<!-- link: ../05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md --> and radicals and rational exponents<!-- link: ../04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->.
+Then the equation isn't linear in that letter, and the steps here are not enough. For $A = \pi r^2$ solved for $r$, you divide by $\pi$ and then take a square root, which gives two candidates, $\pm\sqrt{A/\pi}$, and a sign to decide from the context. Quadratics and radicals are the next big topics: [solving quadratic equations](../05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) and [radicals and rational exponents](../04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### How is solving for $x$ related to inverse functions?
 

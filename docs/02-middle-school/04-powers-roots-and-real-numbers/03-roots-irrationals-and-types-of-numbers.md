@@ -79,7 +79,7 @@ So an irrational number has a decimal expansion that never ends and never settle
 
 ### The real numbers and their subsets
 
-The **real numbers** are all the numbers on the number line, rational and irrational. Each one has a decimal expansion, and each decimal expansion names a real number. The set of real numbers is written $\mathbb{R}$. A careful definition from axioms comes in real numbers, axioms and set notation<!-- link: ../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
+The **real numbers** are all the numbers on the number line, rational and irrational. Each one has a decimal expansion, and each decimal expansion names a real number. The set of real numbers is written $\mathbb{R}$. A careful definition from axioms comes in [real numbers, axioms and set notation](../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md).
 
 The **natural numbers** are the counting numbers starting from 0: $\mathbb{N} = \{0, 1, 2, 3, \ldots\}$. Many books start at 1 instead, so check the definition in whatever you read ([symbols and notation](../../reference/symbols-and-notation.md#number-sets)).
 
@@ -209,7 +209,7 @@ Work out (a) $\sqrt{(-6)^2}$, (b) $\sqrt[3]{-64}$, (c) $-\sqrt{16}$, and (d) say
 - (a) Brackets first: $(-6)^2 = 36$, and $\sqrt{36} = 6$. The answer is 6, which is $\lvert -6 \rvert$, not $-6$.
 - (b) $(-4)^3 = -64$, so $\sqrt[3]{-64} = -4$. Cube roots of negative numbers are negative.
 - (c) The minus sign is outside the root: $-\sqrt{16} = -4$.
-- (d) No real number squares to $-16$, so $\sqrt{-16}$ is not a real number. Complex numbers<!-- link: ../../03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md --> give it a meaning, $4i$, later.
+- (d) No real number squares to $-16$, so $\sqrt{-16}$ is not a real number. [Complex numbers](../../03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md) give it a meaning, $4i$, later.
 
 Check (b): $(-4) \times (-4) \times (-4) = 16 \times (-4) = -64$.
 
@@ -474,6 +474,6 @@ Check (a): $0.6667^2 = 0.4445$, close to $0.4444$.
 
 ## Where this shows up
 
-- [The Pythagorean theorem](../06-geometry/04-pythagorean-theorem.md) finds lengths with square roots, and the distance between two points is a square root of a sum of squares. Radicals and rational exponents<!-- link: ../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md --> writes $\sqrt{a}$ as $a^{1/2}$, and solving quadratic equations<!-- link: ../../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md --> uses both square roots at once, $\pm\sqrt{\ }$.
+- [The Pythagorean theorem](../06-geometry/04-pythagorean-theorem.md) finds lengths with square roots, and the distance between two points is a square root of a sum of squares. [Radicals and rational exponents](../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md) writes $\sqrt{a}$ as $a^{1/2}$, and [solving quadratic equations](../../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) uses both square roots at once, $\pm\sqrt{\ }$.
 - The proof by contradiction here is the model for many proofs in proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->, and the sets $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R}$ are the default domains of every university course.
 - In statistics the standard deviation is the square root of an average of squares (descriptive statistics and study design<!-- link: ../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->). In code, a float stores a rational approximation of $\sqrt{2}$, which is why `math.sqrt(2) ** 2` misses 2 (floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->).

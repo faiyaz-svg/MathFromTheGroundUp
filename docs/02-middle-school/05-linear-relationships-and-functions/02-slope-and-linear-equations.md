@@ -137,7 +137,7 @@ $$
 y - (-1) = -2(x - 3), \quad \text{so} \quad y + 1 = -2x + 6, \quad \text{so} \quad y = -2x + 5.
 $$
 
-Forms of linear equations<!-- link: ../../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md --> uses point-slope form more. In this lesson Step 2 of the method above does the same job.
+[Forms of linear equations](../../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md) uses point-slope form more. In this lesson Step 2 of the method above does the same job.
 
 ### Proportional is the case $b = 0$
 
@@ -477,6 +477,6 @@ Check (a) with the other job: $75(4) + 60 = 360$.
 
 ## Where this shows up
 
-- The next lesson treats $y = mx + b$ as a linear function, $f(x) = mx + b$ ([introduction to functions](03-intro-to-functions.md)), and [systems of linear equations](04-systems-of-linear-equations.md) finds where two lines meet. Forms of linear equations<!-- link: ../../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md --> adds standard form, such as $2x + 3y = 12$, and more on point-slope form.
+- The next lesson treats $y = mx + b$ as a linear function, $f(x) = mx + b$ ([introduction to functions](03-intro-to-functions.md)), and [systems of linear equations](04-systems-of-linear-equations.md) finds where two lines meet. [Forms of linear equations](../../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md) adds standard form, such as $2x + 3y = 12$, and more on point-slope form.
 - In calculus, the derivative is the slope of the line that touches a curve at one point (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->), and linear regression fits the line $y = mx + b$ that best matches a cloud of data points (correlation and linear regression<!-- link: ../../05-university-core/08-statistics/04-correlation-and-linear-regression.md -->).
 - In economics, the slope of a total cost line is the cost of one more unit, called marginal cost, and the intercept is the fixed cost (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->). Supply and demand curves are often drawn as lines, and their slopes say how strongly quantity responds to price.

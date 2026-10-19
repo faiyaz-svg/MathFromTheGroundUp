@@ -197,7 +197,7 @@ Decide whether each pair is equivalent: (a) $2(x - 1) + 4$ and $2x + 2$, (b) $\f
 
 (b) Test $x = 6$: the first gives $3 + 2 = 5$, while the second gives $\frac{12}{5} = 2.4$. They differ, so they are not equivalent, and $x = 6$ is a counterexample. The second expression adds the numerators and the denominators, the mistake from [adding and subtracting fractions](../../01-elementary/10-adding-and-subtracting-fractions.md#edge-cases-and-common-mistakes). Combining like terms gives the right sum, $\frac{1}{2}x + \frac{1}{3}x = \frac{5}{6}x$, which is 5 at $x = 6$.
 
-(c) Test $x = 1$: the first gives $4^2 = 16$ and the second gives $1 + 9 = 10$, so they are not equivalent. A counterexample settles this before you know how to expand a square (the expansion, $x^2 + 6x + 9$, is in polynomial arithmetic<!-- link: ../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->). At $x = 0$ both expressions are 9, which is why Step 1 avoids 0.
+(c) Test $x = 1$: the first gives $4^2 = 16$ and the second gives $1 + 9 = 10$, so they are not equivalent. A counterexample settles this before you know how to expand a square (the expansion, $x^2 + 6x + 9$, is in [polynomial arithmetic](../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md)). At $x = 0$ both expressions are 9, which is why Step 1 avoids 0.
 
 </div>
 
@@ -273,7 +273,7 @@ Expanding reads the areas off the side lengths, and factoring finds the side len
 
 Carry the sign with the number when you distribute. Read $5 - 3(x - 4)$ as $5 + (-3)(x - 4)$, then multiply $-3$ by each term. Most sign errors come from distributing a 3 and attaching the minus sign afterwards.
 
-Factored form shows things that expanded form hides. The expression $6(2x - 3)$ is a multiple of 6 for every integer $x$, which $12x - 18$ doesn't show at a glance, and in high school the factored form of a polynomial shows where it equals 0 (factoring polynomials<!-- link: ../../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md -->).
+Factored form shows things that expanded form hides. The expression $6(2x - 3)$ is a multiple of 6 for every integer $x$, which $12x - 18$ doesn't show at a glance, and in high school the factored form of a polynomial shows where it equals 0 ([factoring polynomials](../../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md)).
 
 ## In code
 
@@ -303,7 +303,7 @@ The last line finds the counterexample $x = 3$ from [The idea](#the-idea). For p
 
 ### Why isn't checking a few values enough?
 
-An equivalence is a claim about infinitely many values, and checking some of them leaves the rest unchecked: $x^2 + 2$ and $3x$ agree twice and still differ. There is one special case worth knowing. Expressions of the form $ax + b$ graph as straight lines ([slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md)), and two different lines cross at most once, so two such expressions that agree at two different values are equivalent. More generally, two polynomials of degree at most $n$ that agree at $n + 1$ different values are equivalent (polynomial functions and graphs<!-- link: ../../03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md -->). Since $x^2 + 2$ has degree 2, two agreements were not enough.
+An equivalence is a claim about infinitely many values, and checking some of them leaves the rest unchecked: $x^2 + 2$ and $3x$ agree twice and still differ. There is one special case worth knowing. Expressions of the form $ax + b$ graph as straight lines ([slope and linear equations](../05-linear-relationships-and-functions/02-slope-and-linear-equations.md)), and two different lines cross at most once, so two such expressions that agree at two different values are equivalent. More generally, two polynomials of degree at most $n$ that agree at $n + 1$ different values are equivalent ([polynomial functions and graphs](../../03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md)). Since $x^2 + 2$ has degree 2, two agreements were not enough.
 
 ### Is simplifying the same as solving?
 

@@ -358,6 +358,6 @@ Check: $0.58 \times 12 = 6.96$, just under 7, as it should be after rounding dow
 
 ## Where this shows up
 
-- In high school, polynomial long division runs the same loop (divide, multiply, subtract, bring down) with powers of $x$ in place of tens and hundreds: polynomial division and the remainder theorem<!-- link: ../03-high-school/04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md -->.
+- In high school, polynomial long division runs the same loop (divide, multiply, subtract, bring down) with powers of $x$ in place of tens and hundreds: [polynomial division and the remainder theorem](../03-high-school/04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md).
 - Modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md --> keeps only the remainder. In code, `n // d` is the quotient, `n % d` is the remainder, and Python's `divmod(n, d)` returns both.
 - Writing a number in binary is repeated division by 2, keeping the remainders: see [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md).

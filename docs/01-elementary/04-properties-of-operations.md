@@ -164,7 +164,7 @@ Look back: the second line uses the distributive property with $c$ in the place 
 
 <div class="note" markdown>
 
-These properties are where algebra and proofs start. A university course on the real numbers takes the commutative, associative, identity and distributive properties as axioms, statements accepted without proof, and then proves everything else from them, including facts that seem too basic to need a proof. The zero property is one of those facts: it can be proved from the others, and Practice problem 5 does it. The full list of axioms is in real numbers, axioms and set notation<!-- link: ../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
+These properties are where algebra and proofs start. A university course on the real numbers takes the commutative, associative, identity and distributive properties as axioms, statements accepted without proof, and then proves everything else from them, including facts that seem too basic to need a proof. The zero property is one of those facts: it can be proved from the others, and Practice problem 5 does it. The full list of axioms is in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md).
 
 </div>
 

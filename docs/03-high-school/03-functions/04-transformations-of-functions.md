@@ -95,7 +95,7 @@ Horizontal and vertical changes don't interfere with each other: you can do any 
 
 ### The three parents
 
-For $x^2$, the form $a(x - h)^2 + k$ is the vertex form of a parabola. Its vertex is $(h, k)$, it opens up if $a > 0$ and down if $a < 0$, and it is narrower for a larger $\lvert a \rvert$. Quadratic functions and graphs<!-- link: ../05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md --> builds on this.
+For $x^2$, the form $a(x - h)^2 + k$ is the vertex form of a parabola. Its vertex is $(h, k)$, it opens up if $a > 0$ and down if $a < 0$, and it is narrower for a larger $\lvert a \rvert$. [Quadratic functions and graphs](../05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md) builds on this.
 
 For $\lvert x \rvert$, the form $a\lvert x - h \rvert + k$ is a V with its corner at $(h, k)$ and slopes $\pm a$.
 
@@ -413,6 +413,6 @@ Check: the coldest point $(3, -10)$ goes to $(3, -18 + 32) = (3, 14)$, below the
 
 ## Where this shows up
 
-- The next lesson, [composition and inverse functions](05-composition-and-inverse-functions.md), builds new functions by chaining. A transformation is a composition: $g = a \cdot f(b(x - h)) + k$ is $f$ with simple linear functions applied to its input and output. Quadratic functions and graphs<!-- link: ../05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md --> uses vertex form, and graphs of trig functions<!-- link: ../09-trigonometry/03-graphs-of-trig-functions.md --> need amplitude, period and phase shift, which are $a$, $b$ and $h$ for sine and cosine.
+- The next lesson, [composition and inverse functions](05-composition-and-inverse-functions.md), builds new functions by chaining. A transformation is a composition: $g = a \cdot f(b(x - h)) + k$ is $f$ with simple linear functions applied to its input and output. [Quadratic functions and graphs](../05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md) uses vertex form, and graphs of trig functions<!-- link: ../09-trigonometry/03-graphs-of-trig-functions.md --> need amplitude, period and phase shift, which are $a$, $b$ and $h$ for sine and cosine.
 - In computer graphics, a shift, scale or flip of an image is the same kind of rule on coordinates, written with matrices (matrix basics<!-- link: ../10-vectors-and-matrices/02-matrix-basics.md -->). Normalizing data, subtracting a mean and dividing by a standard deviation, is a shift and a scale.
 - In economics, a change in income moves a demand curve sideways, while a tax added to a price moves a supply curve up (supply and demand equilibrium algebra<!-- link: ../../07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md -->).

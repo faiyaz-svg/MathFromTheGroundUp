@@ -205,7 +205,7 @@ Forgetting to raise the number inside a bracket is flagged in Example 1. Here ar
 
 <div class="warning" markdown>
 
-Watch out: an exponent doesn't split over a sum. $(a + b)^2$ is not $a^2 + b^2$. With $a = 3$ and $b = 4$, $(3 + 4)^2 = 49$ while $3^2 + 4^2 = 25$. The power of a product rule is about $(ab)^n$, a product inside the bracket; for a sum, multiply out $(a + b)(a + b)$ instead, which gives $a^2 + 2ab + b^2$ (polynomial arithmetic<!-- link: ../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->).
+Watch out: an exponent doesn't split over a sum. $(a + b)^2$ is not $a^2 + b^2$. With $a = 3$ and $b = 4$, $(3 + 4)^2 = 49$ while $3^2 + 4^2 = 25$. The power of a product rule is about $(ab)^n$, a product inside the bracket; for a sum, multiply out $(a + b)(a + b)$ instead, which gives $a^2 + 2ab + b^2$ ([polynomial arithmetic](../../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md)).
 
 </div>
 
@@ -294,7 +294,7 @@ No. Brackets on the left mean the power of a power, $(2^3)^2 = 8^2 = 64 = 2^6$. 
 
 ### What about exponents that are fractions, such as 2 to the power one half?
 
-The rules decide that too. If $2^{1/2}$ is to obey the power of a power rule, then $(2^{1/2})^2 = 2^1 = 2$, so $2^{1/2}$ has to be a number whose square is 2, which is $\sqrt{2}$. Square roots come in [roots, irrational numbers and types of numbers](03-roots-irrationals-and-types-of-numbers.md), and fractional exponents in general in radicals and rational exponents<!-- link: ../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->.
+The rules decide that too. If $2^{1/2}$ is to obey the power of a power rule, then $(2^{1/2})^2 = 2^1 = 2$, so $2^{1/2}$ has to be a number whose square is 2, which is $\sqrt{2}$. Square roots come in [roots, irrational numbers and types of numbers](03-roots-irrationals-and-types-of-numbers.md), and fractional exponents in general in [radicals and rational exponents](../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### Do the rules work for negative bases?
 
@@ -430,6 +430,6 @@ Check: $(0.5 + 0.3333) \div 0.16667 \approx 5.0$.
 
 ## Where this shows up
 
-- [Scientific notation](02-scientific-notation.md) multiplies and divides huge and tiny numbers with the product and quotient rules for base 10. Fractional exponents and roots follow in [roots, irrational numbers and types of numbers](03-roots-irrationals-and-types-of-numbers.md) and radicals and rational exponents<!-- link: ../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->, and the logarithm properties<!-- link: ../../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md --> are these rules read backwards.
+- [Scientific notation](02-scientific-notation.md) multiplies and divides huge and tiny numbers with the product and quotient rules for base 10. Fractional exponents and roots follow in [roots, irrational numbers and types of numbers](03-roots-irrationals-and-types-of-numbers.md) and [radicals and rational exponents](../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md), and the logarithm properties<!-- link: ../../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md --> are these rules read backwards.
 - In CS, $2^n$ counts what $n$ bits can hold (bits and information<!-- link: ../../06-cs-math/01-number-representation/02-bits-and-information.md -->), and algorithm analysis uses facts such as $2^{n+1} = 2 \cdot 2^n$ and $4^n = (2^n)^2$ all the time (asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->).
 - In finance, $(1 + r)^n$ moves money forward $n$ periods and $(1 + r)^{-n}$ moves it back, which is the whole idea of compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> and present and future value<!-- link: ../../08-financial-math/03-time-value-of-money/01-present-and-future-value.md -->.

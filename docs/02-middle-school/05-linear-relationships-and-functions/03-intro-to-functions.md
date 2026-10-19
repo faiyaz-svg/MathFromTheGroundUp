@@ -35,7 +35,7 @@ A **function** is a rule that assigns to each input exactly one output. The set 
 
 In plain words, a function is a machine: put in an allowed input and exactly one output comes out, the same one every time. The squaring function takes $3$ to $9$ and $-3$ to $9$. Its domain is every real number, and its range is every number that is 0 or more, since a square is never negative.
 
-This is the working definition for now. The formal definition, which builds a function out of sets of ordered pairs and names a set the outputs are allowed to land in (the codomain), comes in what is a function<!-- link: ../../03-high-school/03-functions/01-what-is-a-function.md --> and in functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+This is the working definition for now. The formal definition, which builds a function out of sets of ordered pairs and names a set the outputs are allowed to land in (the codomain), comes in [what is a function](../../03-high-school/03-functions/01-what-is-a-function.md) and in functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
 
 Functions are named with letters, usually $f$, $g$ and $h$. The notation $f(x)$, read "$f$ of $x$", means the output of the function $f$ at the input $x$. If $f(x) = 2x - 1$, then $f(3) = 2(3) - 1 = 5$: the output of $f$ at 3 is 5. The brackets in $f(x)$ hold the input; they do not mean multiplication.
 
@@ -258,7 +258,7 @@ To test whether something is a function, ask the question "what is the output wh
 
 When you evaluate, write the empty brackets first, $f(\;)$, and then fill them. It feels slow, but it prevents almost every sign error with negative inputs.
 
-For a quick linearity check on a table with equally spaced inputs, write the differences between neighbouring outputs underneath. Constant differences mean linear. For $x^2$ the differences are $1, 3, 5, 7, \dots$ and they change by 2 each time; that pattern comes back in quadratic functions and graphs<!-- link: ../../03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md -->.
+For a quick linearity check on a table with equally spaced inputs, write the differences between neighbouring outputs underneath. Constant differences mean linear. For $x^2$ the differences are $1, 3, 5, 7, \dots$ and they change by 2 each time; that pattern comes back in [quadratic functions and graphs](../../03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md).
 
 ## In code
 
@@ -309,7 +309,7 @@ The notation names the function and its input together. With $y$ you can't easil
 
 ### Does a function have to have a formula?
 
-No. A table, a graph, a rule in words or a computer program can define a function, as long as each input gets exactly one output. A postal rate chart, the tax owed on an income, and a lookup table are all functions without a single tidy formula. Some are given in pieces, one formula for each range of inputs, as in piecewise, absolute value and step functions<!-- link: ../../03-high-school/03-functions/03-piecewise-absolute-value-and-step-functions.md -->.
+No. A table, a graph, a rule in words or a computer program can define a function, as long as each input gets exactly one output. A postal rate chart, the tax owed on an income, and a lookup table are all functions without a single tidy formula. Some are given in pieces, one formula for each range of inputs, as in [piecewise, absolute value and step functions](../../03-high-school/03-functions/03-piecewise-absolute-value-and-step-functions.md).
 
 ## Practice
 
@@ -437,6 +437,6 @@ Check the ends: $f(-2) = -12$ and $f(4) = 6$, and $f(2) = 0$, which is not great
 
 ## Where this shows up
 
-- What is a function<!-- link: ../../03-high-school/03-functions/01-what-is-a-function.md --> gives the formal definition with domain and codomain, and functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md --> builds functions from sets of ordered pairs. The next lesson, [systems of linear equations](04-systems-of-linear-equations.md), asks when two linear functions have the same output.
+- [What is a function](../../03-high-school/03-functions/01-what-is-a-function.md) gives the formal definition with domain and codomain, and functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md --> builds functions from sets of ordered pairs. The next lesson, [systems of linear equations](04-systems-of-linear-equations.md), asks when two linear functions have the same output.
 - Calculus is the study of how functions change: the derivative $f'(x)$ is itself a function (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->).
 - Economics writes models as functions: quantity demanded as a function of price, cost as a function of output (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->). In computing, a hash map is a function stored as a table, and functional programming builds programs out of pure functions.

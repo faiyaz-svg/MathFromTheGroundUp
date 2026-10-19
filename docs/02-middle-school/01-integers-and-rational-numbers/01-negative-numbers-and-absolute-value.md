@@ -154,7 +154,7 @@ Check (d) by counting: from 3 to 8 on the number line is 5 steps, which is the d
 
 (d) List every integer $x$ with $\lvert x \rvert \le 2$. These are the integers within 2 steps of 0: $-2$, $-1$, $0$, $1$ and $2$.
 
-Check (a): $\lvert 5 \rvert = 5$, and $\lvert -5 \rvert = -(-5) = 5$ by the second line of the definition. Equations and inequalities like these come back, with harder insides, in absolute value equations and inequalities<!-- link: ../../03-high-school/01-algebra-foundations/04-absolute-value-equations-and-inequalities.md -->.
+Check (a): $\lvert 5 \rvert = 5$, and $\lvert -5 \rvert = -(-5) = 5$ by the second line of the definition. Equations and inequalities like these come back, with harder insides, in [absolute value equations and inequalities](../../03-high-school/01-algebra-foundations/04-absolute-value-equations-and-inequalities.md).
 
 </div>
 

@@ -46,7 +46,7 @@ The **cardinality** of a set is the number of elements in it, written $\lvert A 
 
 **Clearing fractions** means multiplying both sides of an equation by a common denominator of all its fractions, usually the least common denominator, so that no fractions remain. Every term gets multiplied, including the ones with no fraction. Taught in [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#definitions).
 
-The **codomain** of a function $f \colon A \to B$ is the set $B$ that its outputs are allowed to land in. It can be bigger than the range, which is the set of outputs that actually occur. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->.
+The **codomain** of a function $f \colon A \to B$ is the set $B$ that its outputs are allowed to land in. It can be bigger than the range, which is the set of outputs that actually occur. Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md).
 
 A **coefficient** is a number that multiplies a variable in a term. In $3x^2 - 5x$, the coefficients are $3$ and $-5$. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md).
 
@@ -56,7 +56,7 @@ The **commutative property** says that order doesn't matter in a sum or a produc
 
 A **composite** number is an integer greater than 1 that is not prime, so it has a factor other than 1 and itself. The number 12 is composite, since $12 = 3 \times 4$, and the number 1 is neither prime nor composite. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md).
 
-A **compound inequality** is two inequalities joined by "and" or "or". The statement $-2 < x \le 5$ means "$-2 < x$ and $x \le 5$", the numbers between $-2$ and 5 with 5 included. Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md#compound-inequalities-a-preview) and compound inequalities and interval notation<!-- link: ../03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md -->.
+A **compound inequality** is two inequalities joined by "and" or "or". The statement $-2 < x \le 5$ means "$-2 < x$ and $x \le 5$", the numbers between $-2$ and 5 with 5 included. Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md#compound-inequalities-a-preview) and [compound inequalities and interval notation](../03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md).
 
 The **conclusion** of "if P, then Q" is Q, the part that is claimed to follow. In a theorem, the conclusion is what the proof has to reach. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
 
@@ -108,7 +108,7 @@ The **division algorithm** is the theorem that for integers $n$ and $d$ with $d 
 
 The **divisor** in $n \div d$ is $d$, the number you divide by. In number theory, a divisor of $n$ is an integer $d$ with $d \mid n$, so there the word means the same as "factor". Taught in [division facts and remainders](../01-elementary/06-division-facts-and-remainders.md#definitions), [long division](../01-elementary/07-long-division.md) and divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
 
-The **domain** of a function is its set of allowed inputs, the set $A$ in $f \colon A \to B$. When a formula such as $\frac{1}{x}$ comes with no stated domain, the domain is taken to be every real number the formula works for, here every $x \ne 0$. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->.
+The **domain** of a function is its set of allowed inputs, the set $A$ in $f \colon A \to B$. When a formula such as $\frac{1}{x}$ comes with no stated domain, the domain is taken to be every real number the formula works for, here every $x \ne 0$. Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md).
 
 ## E
 
@@ -144,7 +144,7 @@ A **factor** of an integer is an integer that divides it with no remainder: the 
 
 For whole numbers $a$ and $b$ with $b \ne 0$, the **fraction** $\frac{a}{b}$ is the number $a \div b$. The denominator $b$ says how many equal parts the whole is cut into, and the numerator $a$ says how many of those parts you have. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md#definitions).
 
-A **function** from a set $A$ to a set $B$ assigns to each element of $A$ exactly one element of $B$. A rule such as $f(x) = x^2$ is one way to give a function. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->; the formal definition, as a set of ordered pairs, is in functions and well-definedness<!-- link: ../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+A **function** from a set $A$ to a set $B$ assigns to each element of $A$ exactly one element of $B$. A rule such as $f(x) = x^2$ is one way to give a function. Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md); the formal definition, as a set of ordered pairs, is in functions and well-definedness<!-- link: ../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
 
 The **fundamental theorem of arithmetic** says that every whole number greater than 1 can be written as a product of primes in exactly one way, apart from the order of the factors, as in $360 = 2^3 \times 3^2 \times 5$. It is the reason 1 is not called prime. Taught in [factors, multiples and primes](../01-elementary/08-factors-multiples-and-primes.md#definitions) and primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->.
 
@@ -290,7 +290,7 @@ The **quotient** is the result of a division. In division with a remainder, $n =
 
 A **random variable** is a number whose value depends on the outcome of a random experiment, such as the total of two dice. Formally it is a function from the sample space to $\mathbb{R}$; the details are in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->.
 
-The **range** of a function is the set of outputs that actually occur, $\{f(a) : a \in A\}$, also called the image. Some books use "range" to mean the codomain, so check which one is meant. In statistics, the range of a data set is its largest value minus its smallest. Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md -->.
+The **range** of a function is the set of outputs that actually occur, $\{f(a) : a \in A\}$, also called the image. Some books use "range" to mean the codomain, so check which one is meant. In statistics, the range of a data set is its largest value minus its smallest. Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md).
 
 A **rate** is a ratio of two quantities with different units, such as 90 km per hour or \$18 per hour. A unit rate gives the amount for one unit of the second quantity, and a unit price is the price for a fixed amount, such as per kilogram or per 100 g. Taught in [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md#definitions).
 
@@ -298,7 +298,7 @@ A **ratio** compares two quantities by division. A recipe with 2 cups of flour f
 
 A **rational** number is one that can be written as a fraction $\frac{a}{b}$ of integers with $b \ne 0$, such as $-\frac{9}{20}$ or $7 = \frac{7}{1}$. The set of rational numbers is $\mathbb{Q}$. Every decimal that ends or repeats is rational: $0.75 = \frac{3}{4}$ and $0.333\ldots = \frac{1}{3}$. Taught in [rational number arithmetic](../02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md#definitions) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
-A **real number** is a point on the number line, rational or irrational. The set of real numbers is $\mathbb{R}$. Its formal properties are in real numbers, axioms and set notation<!-- link: ../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md -->.
+A **real number** is a point on the number line, rational or irrational. The set of real numbers is $\mathbb{R}$. Its formal properties are in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md).
 
 The **reciprocal** of a nonzero number $a$ is $\frac{1}{a}$, the number you multiply $a$ by to get 1. It is also called the multiplicative inverse. The reciprocal of $\frac{2}{3}$ is $\frac{3}{2}$, and 0 has no reciprocal. Taught in [multiplying and dividing fractions](../01-elementary/11-multiplying-and-dividing-fractions.md#definitions).
 

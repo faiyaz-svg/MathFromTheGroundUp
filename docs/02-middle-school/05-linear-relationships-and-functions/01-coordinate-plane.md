@@ -306,7 +306,7 @@ They use their own conventions, and they trip up many programmers. On a computer
 
 ### Is $(3, 4)$ a point or an interval?
 
-The same notation means two things. In this chapter $(3, 4)$ is an ordered pair, a point. In interval notation, $(3, 4)$ means every number strictly between 3 and 4 on the number line (compound inequalities and interval notation<!-- link: ../../03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md -->). The context tells you which one is meant.
+The same notation means two things. In this chapter $(3, 4)$ is an ordered pair, a point. In interval notation, $(3, 4)$ means every number strictly between 3 and 4 on the number line ([compound inequalities and interval notation](../../03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md)). The context tells you which one is meant.
 
 ### How do I find the distance between two points that aren't lined up?
 

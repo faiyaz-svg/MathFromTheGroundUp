@@ -358,7 +358,7 @@ Take $Ax + By = C$ with $A$ and $B$ both nonzero. The line has slope $-\frac{A}{
 
 ### Can I always use $y = mx + b$?
 
-For every line except a vertical one. If a problem might involve a vertical line, such as two points with the same $x$-coordinate, standard form is the safe choice. Functions<!-- link: ../03-functions/01-what-is-a-function.md --> can't have vertical lines as graphs, which is one reason slope-intercept form is the usual way to write a linear function.
+For every line except a vertical one. If a problem might involve a vertical line, such as two points with the same $x$-coordinate, standard form is the safe choice. [Functions](../03-functions/01-what-is-a-function.md) can't have vertical lines as graphs, which is one reason slope-intercept form is the usual way to write a linear function.
 
 ## Practice
 

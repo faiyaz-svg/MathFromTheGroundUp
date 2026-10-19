@@ -65,7 +65,7 @@ a^{1/n} &= \sqrt[n]{a} & a^{m/n} &= \left(\sqrt[n]{a}\right)^m
 \end{aligned}
 $$
 
-The first three rows hold for $a, b \ne 0$ and integer exponents $m$ and $n$. The last row needs $a > 0$ and $n \ge 1$. Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md) and radicals and rational exponents<!-- link: ../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->; collected in the [powers, roots and real numbers cheat sheet](../02-middle-school/04-powers-roots-and-real-numbers/index.md).
+The first three rows hold for $a, b \ne 0$ and integer exponents $m$ and $n$. The last row needs $a > 0$ and $n \ge 1$. Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md) and [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md); collected in the [powers, roots and real numbers cheat sheet](../02-middle-school/04-powers-roots-and-real-numbers/index.md).
 
 ### Quadratic formula
 
@@ -75,7 +75,7 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-The discriminant $b^2 - 4ac$ says how many real solutions there are: two if it is positive, one if it is zero, and none if it is negative. Taught in solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md -->; collected in the quadratics and complex numbers cheat sheet<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/index.md -->.
+The discriminant $b^2 - 4ac$ says how many real solutions there are: two if it is positive, one if it is zero, and none if it is negative. Taught in [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md); collected in the [quadratics and complex numbers cheat sheet](../03-high-school/05-quadratics-and-complex-numbers/index.md).
 
 ### Slope and lines
 
@@ -85,7 +85,7 @@ $$
 m = \frac{y_2 - y_1}{x_2 - x_1}, \qquad y = mx + b
 $$
 
-Here $b$ is the $y$-intercept. The line through $(1, 2)$ and $(4, 8)$ has slope $\frac{8 - 2}{4 - 1} = 2$. Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md) and forms of linear equations<!-- link: ../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md -->; collected in the [linear relationships and functions cheat sheet](../02-middle-school/05-linear-relationships-and-functions/index.md).
+Here $b$ is the $y$-intercept. The line through $(1, 2)$ and $(4, 8)$ has slope $\frac{8 - 2}{4 - 1} = 2$. Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md) and [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md); collected in the [linear relationships and functions cheat sheet](../02-middle-school/05-linear-relationships-and-functions/index.md).
 
 ### Distance between two points
 

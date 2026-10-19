@@ -464,7 +464,7 @@ Right: $\sqrt{a + b}$ doesn't simplify in general. Products do split: $\sqrt{ab}
 
 Test with numbers: $\sqrt{9 + 16} = \sqrt{25} = 5$, while $\sqrt{9} + \sqrt{16} = 3 + 4 = 7$. A root, like a power, works with multiplication and not with addition.
 
-Taught in radicals and rational exponents<!-- link: ../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->.
+Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### Writing the square root of x squared as x
 
@@ -474,7 +474,7 @@ Right: $\sqrt{x^2} = \lvert x \rvert$
 
 A square root is never negative, so it can't give back $x$ when $x$ is negative. With $x = -3$, the left side is $\sqrt{(-3)^2} = \sqrt{9} = 3$, which is $\lvert -3 \rvert$ and not $-3$. Watch for this step in any proof that takes the square root of both sides.
 
-Taught in radicals and rational exponents<!-- link: ../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md -->.
+Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### Mixing up a square root with the solutions of a square
 
@@ -484,7 +484,7 @@ Right: $\sqrt{9} = 3$, and $x^2 = 9$ means $x = 3$ or $x = -3$
 
 The symbol $\sqrt{9}$ names one number, the non-negative one. The equation $x^2 = 9$ asks for every number whose square is $9$, and there are two of them. When you solve, write $x = \pm\sqrt{9} = \pm 3$.
 
-Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md) and solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md -->.
+Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
 
 ## Algebra
 
@@ -516,7 +516,7 @@ Right: $(a + b)^2 = a^2 + 2ab + b^2$
 
 Squaring means multiplying $(a + b)(a + b)$, and the two cross products $ab$ and $ba$ make the middle term. Test with $a = b = 1$: the left side is $2^2 = 4$, but $a^2 + b^2 = 2$. With numbers, $(3 + 4)^2 = 49$, while $3^2 + 4^2 = 25$.
 
-Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#edge-cases-and-common-mistakes) and polynomial arithmetic<!-- link: ../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md -->.
+Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#edge-cases-and-common-mistakes) and [polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md).
 
 ### Cancelling terms instead of factors
 
@@ -618,7 +618,7 @@ Right: $x^2 - 3x = 0$, so $x(x - 3) = 0$, and $x = 0$ or $x = 3$
 
 Dividing by $x$ is allowed only when $x \ne 0$, so it throws away the solution $x = 0$. Move every term to one side and factor instead. Both answers check: $0^2 = 3 \cdot 0$ and $3^2 = 3 \cdot 3$. The same slip turns $5x = 3x$ into $5 = 3$, which seems to say there is no solution, though $x = 0$ works.
 
-Taught in [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero) and solving quadratic equations<!-- link: ../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md -->.
+Taught in [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
 
 ### Keeping every solution after squaring both sides
 
@@ -650,7 +650,7 @@ Right: $f^{-1}$ undoes $f$, so $f^{-1}(y) = x$ exactly when $f(x) = y$
 
 For $f(x) = 2x$ the inverse is $f^{-1}(x) = \frac{x}{2}$, so $f^{-1}(4) = 2$, while $\frac{1}{f(4)} = \frac{1}{8}$. The notation invites the mix-up, because $\sin^2 x$ means $(\sin x)^2$ but $\sin^{-1} x$ means the inverse function $\arcsin x$. When you mean the reciprocal, write $\frac{1}{f(x)}$ or $(f(x))^{-1}$.
 
-Taught in composition and inverse functions<!-- link: ../03-high-school/03-functions/05-composition-and-inverse-functions.md -->.
+Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md).
 
 ### Adding h outside the function
 
@@ -660,7 +660,7 @@ Right: replace every $x$ in the rule with $(x + h)$. For $f(x) = x^2$, that give
 
 Test with $x = 3$ and $h = 1$: $f(4) = 16$, while $f(3) + 1 = 10$. The input has changed, so the whole rule applies to the new input. This substitution is the first step of every derivative worked from the definition.
 
-Taught in what is a function<!-- link: ../03-high-school/03-functions/01-what-is-a-function.md --> and the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md) and the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
 
 ### Shifting a graph the wrong way
 
@@ -670,7 +670,7 @@ Right: it is moved 2 units right
 
 The new graph reaches each height when $x - 2$ equals the old input, which happens 2 units further right. The lowest point of $y = (x - 2)^2$ is at $x = 2$, where $x - 2 = 0$. Subtracting inside the function moves the graph right; subtracting outside, as in $y = x^2 - 2$, moves it down.
 
-Taught in transformations of functions<!-- link: ../03-high-school/03-functions/04-transformations-of-functions.md -->.
+Taught in [transformations of functions](../03-high-school/03-functions/04-transformations-of-functions.md).
 
 ## Logarithms
 

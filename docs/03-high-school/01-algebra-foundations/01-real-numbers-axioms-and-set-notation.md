@@ -221,7 +221,7 @@ We know O1, O2, M4 and the sign-rules theorem $(-a)(-a) = a \cdot a$, proved in 
 
 *Proof.* Since $a \ne 0$, O2 says that $a \in P$ or $-a \in P$. If $a \in P$, then $a \cdot a \in P$ by O1. If $-a \in P$, then $(-a)(-a) \in P$ by O1, and $(-a)(-a) = a \cdot a$, so again $a \cdot a \in P$. In both cases $a \cdot a - 0 = a \cdot a$ is in $P$, which means $a \cdot a > 0$. For the last claim, $1 \ne 0$ by M4, and $1 = 1 \cdot 1$, so $1 > 0$. $\blacksquare$
 
-Look back: with Theorem 2 this says that $a^2 \ge 0$ for every real $a$, with equality only for $a = 0$. So $x^2 + 1 \ge 1$ for every real $x$, and the equation $x^2 = -1$ has no real solution. That is the gap that complex numbers<!-- link: ../05-quadratics-and-complex-numbers/03-complex-numbers.md --> are built to fill.
+Look back: with Theorem 2 this says that $a^2 \ge 0$ for every real $a$, with equality only for $a = 0$. So $x^2 + 1 \ge 1$ for every real $x$, and the equation $x^2 = -1$ has no real solution. That is the gap that [complex numbers](../05-quadratics-and-complex-numbers/03-complex-numbers.md) are built to fill.
 
 ## Worked examples
 
