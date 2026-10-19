@@ -313,7 +313,7 @@ A trinomial like $x^2 + 10x + 25$ is a perfect square, $(x + 5)^2$, which happen
 
 ## In code
 
-The quadratic formula is easy to code, and it has a flaw that shows up when $b$ is large compared with $a$ and $c$. Adding or subtracting two nearly equal numbers cancels the leading digits, and floating-point arithmetic ([floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md)) cannot get them back. The fix uses the product of the roots, $\frac{c}{a}$, to find the small root without subtracting.
+The quadratic formula is easy to code, and it has a flaw that shows up when $b$ is large compared with $a$ and $c$. Adding or subtracting two nearly equal numbers cancels the leading digits, and floating-point arithmetic (floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->) cannot get them back. The fix uses the product of the roots, $\frac{c}{a}$, to find the small root without subtracting.
 
 <details class="code" markdown>
 <summary>In code</summary>
