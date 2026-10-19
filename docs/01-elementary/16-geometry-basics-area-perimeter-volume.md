@@ -121,7 +121,7 @@ A rectangle $l$ units long and $w$ units wide holds $w$ rows of $l$ unit squares
 
 For a parallelogram, cut and rearrange. Picture one with a horizontal base $b$ and height $h$, leaning to the right. Cut straight down from its top left corner to the base, at a right angle, which cuts off a right triangle on the left. Slide that triangle to the right end, where its slanted side fits exactly against the parallelogram's right side. The pieces now form a rectangle $b$ long and $h$ tall, and nothing was added or thrown away, so the area of the parallelogram is $bh$.
 
-For a triangle, take two copies of it and turn one upside down. The two fit together into a parallelogram with the same base and height, so one triangle is half of it: $A = \frac{1}{2}bh$. Both arguments get a full treatment, with pictures, in area and circles<!-- link: ../02-middle-school/06-geometry/02-area-and-circles.md -->.
+For a triangle, take two copies of it and turn one upside down. The two fit together into a parallelogram with the same base and height, so one triangle is half of it: $A = \frac{1}{2}bh$. Both arguments get a full treatment, with pictures, in [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md).
 
 For a box, a single layer of unit cubes on the bottom has $l \times w$ cubes, and there are $h$ layers stacked up, so the box holds $l \times w \times h$ cubes. A cube with edges of length $s$ has volume $s^3$, "$s$ cubed".
 
@@ -329,6 +329,6 @@ Check: the empty 5 cm at the top is $60 \times 30 \times 5 = 9{,}000\ \text{cm}^
 
 ## Where this shows up
 
-- Middle school geometry continues with angles and triangles<!-- link: ../02-middle-school/06-geometry/01-angles-and-triangles.md -->, area and circles<!-- link: ../02-middle-school/06-geometry/02-area-and-circles.md --> and volume and surface area<!-- link: ../02-middle-school/06-geometry/03-volume-and-surface-area.md -->.
+- Middle school geometry continues with [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md), [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md) and [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md).
 - In calculus, the area under a curve is found by adding up the areas of thin rectangles, each one base times height: Riemann sums and the definite integral<!-- link: ../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md -->.
 - On a supply and demand graph, a firm's revenue (price times quantity) is the area of a rectangle, and consumer surplus is the area of a triangle: surplus and market interventions<!-- link: ../07-economics-math/02-markets/04-surplus-and-market-interventions.md -->.

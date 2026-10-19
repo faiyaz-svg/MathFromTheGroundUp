@@ -44,7 +44,7 @@ $$
 \end{aligned}
 $$
 
-Here $l$, $w$ and $h$ are the length, width and height, $b$ is the base of the triangle, $r$ is the radius, $C$ is the circumference, and $c$ is the hypotenuse, the side opposite the right angle. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md), area and circles<!-- link: ../02-middle-school/06-geometry/02-area-and-circles.md -->, volume and surface area<!-- link: ../02-middle-school/06-geometry/03-volume-and-surface-area.md --> and the Pythagorean theorem<!-- link: ../02-middle-school/06-geometry/04-pythagorean-theorem.md -->; collected on the [elementary folder page](../01-elementary/index.md) and in the middle school geometry cheat sheet<!-- link: ../02-middle-school/06-geometry/index.md -->.
+Here $l$, $w$ and $h$ are the length, width and height, $b$ is the base of the triangle, $r$ is the radius, $C$ is the circumference, and $c$ is the hypotenuse, the side opposite the right angle. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md), [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md), [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md) and [the Pythagorean theorem](../02-middle-school/06-geometry/04-pythagorean-theorem.md); collected on the [elementary folder page](../01-elementary/index.md) and in the middle school geometry cheat sheet<!-- link: ../02-middle-school/06-geometry/index.md -->.
 
 ### Percents
 
