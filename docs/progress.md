@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 18 of 247. New lessons appear here as they are added.
+Lessons written so far: 30 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -25,9 +25,27 @@ Lessons written so far: 18 of 247. New lessons appear here as they are added.
 
 ## Middle school
 
+### Integers and rational numbers
+
+- [ ] [Negative numbers and absolute value](02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md)
+- [ ] [Integer arithmetic and sign rules](02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md)
+- [ ] [Rational number arithmetic](02-middle-school/01-integers-and-rational-numbers/03-rational-number-arithmetic.md)
+- [ ] [Exponents and order of operations](02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md)
+
 ### Ratios, rates and percents
 
+- [ ] [Ratios and unit rates](02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md)
+- [ ] [Proportional relationships](02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md)
 - [ ] [Percents](02-middle-school/02-ratios-rates-percents/03-percents.md)
+- [ ] [Percent change and applications](02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md)
+
+### Expressions, equations and inequalities
+
+- [ ] [Variables and expressions](02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md)
+- [ ] [Equivalent expressions](02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md)
+- [ ] [One- and two-step equations](02-middle-school/03-expressions-equations-inequalities/03-one-and-two-step-equations.md)
+- [ ] [Multi-step equations](02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md)
+- [ ] [Inequalities](02-middle-school/03-expressions-equations-inequalities/05-inequalities.md)
 
 ## CS math
 

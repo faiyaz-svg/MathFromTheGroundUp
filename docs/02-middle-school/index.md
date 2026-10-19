@@ -9,27 +9,27 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Integers and rational numbers
+### 1. [Integers and rational numbers](01-integers-and-rational-numbers/index.md)
 
-1. Negative numbers and absolute value (not written yet)
-2. Integer arithmetic and sign rules (not written yet)
-3. Rational number arithmetic (not written yet)
-4. Exponents and order of operations (not written yet)
+1. [Negative numbers and absolute value](01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md)
+2. [Integer arithmetic and sign rules](01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md)
+3. [Rational number arithmetic](01-integers-and-rational-numbers/03-rational-number-arithmetic.md)
+4. [Exponents and order of operations](01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md)
 
-### 2. Ratios, rates and percents
+### 2. [Ratios, rates and percents](02-ratios-rates-percents/index.md)
 
-1. Ratios and unit rates (not written yet)
-2. Proportional relationships (not written yet)
+1. [Ratios and unit rates](02-ratios-rates-percents/01-ratios-and-unit-rates.md)
+2. [Proportional relationships](02-ratios-rates-percents/02-proportional-relationships.md)
 3. [Percents](02-ratios-rates-percents/03-percents.md)
-4. Percent change and applications (not written yet)
+4. [Percent change and applications](02-ratios-rates-percents/04-percent-change-and-applications.md)
 
-### 3. Expressions, equations and inequalities
+### 3. [Expressions, equations and inequalities](03-expressions-equations-inequalities/index.md)
 
-1. Variables and expressions (not written yet)
-2. Equivalent expressions (not written yet)
-3. One- and two-step equations (not written yet)
-4. Multi-step equations (not written yet)
-5. Inequalities (not written yet)
+1. [Variables and expressions](03-expressions-equations-inequalities/01-variables-and-expressions.md)
+2. [Equivalent expressions](03-expressions-equations-inequalities/02-equivalent-expressions.md)
+3. [One- and two-step equations](03-expressions-equations-inequalities/03-one-and-two-step-equations.md)
+4. [Multi-step equations](03-expressions-equations-inequalities/04-multi-step-equations.md)
+5. [Inequalities](03-expressions-equations-inequalities/05-inequalities.md)
 
 ### 4. Powers, roots and real numbers
 
