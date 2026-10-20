@@ -77,5 +77,7 @@ def save(fig, folder: str, name: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(path, format="svg", metadata={"Date": None, "Creator": None})
     plt.close(fig)
+    # Matplotlib writes CRLF on Windows; the repo stores LF.
+    path.write_bytes(path.read_bytes().replace(b"\r\n", b"\n"))
     print("wrote", path.relative_to(ROOT).as_posix())
     return path
