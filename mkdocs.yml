@@ -189,6 +189,42 @@ nav:
           - "Quadratic functions and graphs": 03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md
           - "Solving quadratic equations": 03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md
           - "Complex numbers": 03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md
+      - "Rational expressions and equations":
+          - 03-high-school/06-rational-expressions-and-equations/index.md
+          - "Rational expressions": 03-high-school/06-rational-expressions-and-equations/01-rational-expressions.md
+          - "Rational functions and asymptotes": 03-high-school/06-rational-expressions-and-equations/02-rational-functions-and-asymptotes.md
+          - "Rational and radical equations": 03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md
+          - "Polynomial and rational inequalities": 03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md
+      - "Exponentials and logarithms":
+          - 03-high-school/07-exponentials-and-logarithms/index.md
+          - "Exponential functions and growth": 03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md
+          - "Logarithms": 03-high-school/07-exponentials-and-logarithms/02-logarithms.md
+          - "Logarithm properties": 03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md
+          - "Exponential and logarithmic equations": 03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md
+      - "Geometry and proof":
+          - 03-high-school/08-geometry-and-proof/index.md
+          - "Definitions, postulates and proof": 03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md
+          - "Congruence and triangle proofs": 03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md
+          - "Similarity": 03-high-school/08-geometry-and-proof/03-similarity.md
+          - "Coordinate geometry and circles": 03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md
+          - "Conic sections": 03-high-school/08-geometry-and-proof/05-conic-sections.md
+      - "Trigonometry":
+          - 03-high-school/09-trigonometry/index.md
+          - "Right triangle trigonometry": 03-high-school/09-trigonometry/01-right-triangle-trigonometry.md
+          - "Radians and the unit circle": 03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md
+          - "Graphs of trig functions": 03-high-school/09-trigonometry/03-graphs-of-trig-functions.md
+          - "Trig identities and inverse trig": 03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md
+          - "Law of sines and law of cosines": 03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md
+      - "Vectors and matrices":
+          - 03-high-school/10-vectors-and-matrices/index.md
+          - "Vectors in the plane": 03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md
+          - "Matrix basics": 03-high-school/10-vectors-and-matrices/02-matrix-basics.md
+      - "Sequences, series and counting":
+          - 03-high-school/11-sequences-series-and-counting/index.md
+          - "Sequences and recursion": 03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md
+          - "Summation notation and series": 03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md
+          - "Counting: permutations and combinations": 03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md
+          - "The binomial theorem": 03-high-school/11-sequences-series-and-counting/04-binomial-theorem.md
   - "Proofs":
       - 04-proofs-and-logic/index.md
   - "University":

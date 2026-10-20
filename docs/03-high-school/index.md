@@ -44,46 +44,46 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Solving quadratic equations](05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md)
 3. [Complex numbers](05-quadratics-and-complex-numbers/03-complex-numbers.md)
 
-### 6. Rational expressions and equations
+### 6. [Rational expressions and equations](06-rational-expressions-and-equations/index.md)
 
-1. Rational expressions (not written yet)
-2. Rational functions and asymptotes (not written yet)
-3. Rational and radical equations (not written yet)
-4. Polynomial and rational inequalities (not written yet)
+1. [Rational expressions](06-rational-expressions-and-equations/01-rational-expressions.md)
+2. [Rational functions and asymptotes](06-rational-expressions-and-equations/02-rational-functions-and-asymptotes.md)
+3. [Rational and radical equations](06-rational-expressions-and-equations/03-rational-and-radical-equations.md)
+4. [Polynomial and rational inequalities](06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md)
 
-### 7. Exponentials and logarithms
+### 7. [Exponentials and logarithms](07-exponentials-and-logarithms/index.md)
 
-1. Exponential functions and growth (not written yet)
-2. Logarithms (not written yet)
-3. Logarithm properties (not written yet)
-4. Exponential and logarithmic equations (not written yet)
+1. [Exponential functions and growth](07-exponentials-and-logarithms/01-exponential-functions-and-growth.md)
+2. [Logarithms](07-exponentials-and-logarithms/02-logarithms.md)
+3. [Logarithm properties](07-exponentials-and-logarithms/03-logarithm-properties.md)
+4. [Exponential and logarithmic equations](07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md)
 
-### 8. Geometry and proof
+### 8. [Geometry and proof](08-geometry-and-proof/index.md)
 
-1. Definitions, postulates and proof (not written yet)
-2. Congruence and triangle proofs (not written yet)
-3. Similarity (not written yet)
-4. Coordinate geometry and circles (not written yet)
-5. Conic sections (not written yet) (optional)
+1. [Definitions, postulates and proof](08-geometry-and-proof/01-definitions-postulates-and-proof.md)
+2. [Congruence and triangle proofs](08-geometry-and-proof/02-congruence-and-triangle-proofs.md)
+3. [Similarity](08-geometry-and-proof/03-similarity.md)
+4. [Coordinate geometry and circles](08-geometry-and-proof/04-coordinate-geometry-and-circles.md)
+5. [Conic sections](08-geometry-and-proof/05-conic-sections.md) (optional)
 
-### 9. Trigonometry
+### 9. [Trigonometry](09-trigonometry/index.md)
 
-1. Right triangle trigonometry (not written yet)
-2. Radians and the unit circle (not written yet)
-3. Graphs of trig functions (not written yet)
-4. Trig identities and inverse trig (not written yet)
-5. Law of sines and law of cosines (not written yet) (optional)
+1. [Right triangle trigonometry](09-trigonometry/01-right-triangle-trigonometry.md)
+2. [Radians and the unit circle](09-trigonometry/02-radians-and-the-unit-circle.md)
+3. [Graphs of trig functions](09-trigonometry/03-graphs-of-trig-functions.md)
+4. [Trig identities and inverse trig](09-trigonometry/04-trig-identities-and-inverse-trig.md)
+5. [Law of sines and law of cosines](09-trigonometry/05-law-of-sines-and-cosines.md) (optional)
 
-### 10. Vectors and matrices
+### 10. [Vectors and matrices](10-vectors-and-matrices/index.md)
 
-1. Vectors in the plane (not written yet)
-2. Matrix basics (not written yet)
+1. [Vectors in the plane](10-vectors-and-matrices/01-vectors-in-the-plane.md)
+2. [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md)
 
-### 11. Sequences, series and counting
+### 11. [Sequences, series and counting](11-sequences-series-and-counting/index.md)
 
-1. Sequences and recursion (not written yet)
-2. Summation notation and series (not written yet)
-3. Counting: permutations and combinations (not written yet)
-4. The binomial theorem (not written yet)
+1. [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md)
+2. [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md)
+3. [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md)
+4. [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md)
 
 <!-- lessons:end -->
