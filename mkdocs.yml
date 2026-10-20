@@ -159,6 +159,7 @@ nav:
           - "Scatter plots and two-way tables": 02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md
   - "High school":
       - 03-high-school/index.md
+      - Diagnostic: 03-high-school/diagnostic.md
       - "Algebra foundations":
           - 03-high-school/01-algebra-foundations/index.md
           - "Real numbers, axioms and set notation": 03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md
