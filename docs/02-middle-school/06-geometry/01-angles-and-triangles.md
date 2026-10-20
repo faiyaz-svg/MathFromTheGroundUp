@@ -390,7 +390,7 @@ No. Start at the North Pole, go straight down to the equator, turn $90^\circ$ an
 
 ### Why prove it, if every triangle I measure gives 180 degrees?
 
-Measuring checks one triangle, and only to the accuracy of your protractor: a measured sum of $179^\circ$ or $181^\circ$ doesn't tell you which is the truth. A proof covers every triangle at once, exactly, including ones you will never draw. It also tells you why, which is what let us see that the fact fails on a globe. What is a proof<!-- link: ../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md --> comes back to this.
+Measuring checks one triangle, and only to the accuracy of your protractor: a measured sum of $179^\circ$ or $181^\circ$ doesn't tell you which is the truth. A proof covers every triangle at once, exactly, including ones you will never draw. It also tells you why, which is what let us see that the fact fails on a globe. [What is a proof](../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md) comes back to this.
 
 ### Why is a full turn 360 degrees?
 

@@ -53,7 +53,7 @@ The image of the whole domain, $f(A)$, is the **range** of $f$. It is always a s
 
 ![A mapping diagram for f(x) = x squared from the domain with elements -2, -1, 0, 1 and 2 to the codomain with elements 0, 1, 2, 3, 4 and 5; arrows go to 4, 1, 0, 1 and 4, so the range is 0, 1 and 4, shown in green, while 2, 3 and 5 are in the codomain but never reached](../../assets/figures/03-high-school/what-is-a-function-codomain-range.svg)
 
-A function can also be written as a set of pairs. The **Cartesian product** $A \times B$ is the set of all ordered pairs $(a, b)$ with $a \in A$ and $b \in B$; it is covered in sets and set operations<!-- link: ../../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md -->. The **graph** of $f \colon A \to B$ is the set of pairs
+A function can also be written as a set of pairs. The **Cartesian product** $A \times B$ is the set of all ordered pairs $(a, b)$ with $a \in A$ and $b \in B$; it is covered in [sets and set operations](../../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md). The **graph** of $f \colon A \to B$ is the set of pairs
 
 $$
 \{ (a, f(a)) : a \in A \} \subseteq A \times B.

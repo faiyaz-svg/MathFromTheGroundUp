@@ -222,7 +222,7 @@ Examples: the even integers, because $2j + 2k = 2(j + k)$ is even. The set $\{0\
 
 Non-example: the odd integers, because $1 + 1 = 2$ is not odd. A smaller one is $\{0, 1\}$, because $1 + 1 = 2$ is not in the set.
 
-The empty set is closed under addition. It has no elements, so there is no pair $a$, $b$ that could fail the condition. A statement of the form "for every element of $S$, ..." is true when $S$ is empty; this is called vacuous truth, and it comes back in the quantifiers<!-- link: ../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md --> lesson.
+The empty set is closed under addition. It has no elements, so there is no pair $a$, $b$ that could fail the condition. A statement of the form "for every element of $S$, ..." is true when $S$ is empty; this is called vacuous truth, and it comes back in the [quantifiers](../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md) lesson.
 
 </details>
 

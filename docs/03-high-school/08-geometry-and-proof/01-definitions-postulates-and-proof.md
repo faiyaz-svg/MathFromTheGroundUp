@@ -66,7 +66,7 @@ This book writes $AB$ for a segment and also for its length, and $\angle A = \an
 
 ### Postulates and theorems
 
-A **postulate** (also called an **axiom**) is a statement we accept without proof, as one of the rules of the game. A **theorem** is a statement that has been proved from definitions, postulates and earlier theorems. A **lemma** is a theorem proved mainly to help prove a bigger one, and a **corollary** is a theorem that follows quickly from one just proved. The proofs and logic part of this book spends a whole chapter on these words, starting with what is a proof<!-- link: ../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md -->. The paragraph above is all you need here.
+A **postulate** (also called an **axiom**) is a statement we accept without proof, as one of the rules of the game. A **theorem** is a statement that has been proved from definitions, postulates and earlier theorems. A **lemma** is a theorem proved mainly to help prove a bigger one, and a **corollary** is a theorem that follows quickly from one just proved. The proofs and logic part of this book spends a whole chapter on these words, starting with [what is a proof](../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md). The paragraph above is all you need here.
 
 Here is the list of postulates and properties this chapter allows as reasons. Different textbooks arrange the list differently, but all agree on what can be proved from it.
 
@@ -109,7 +109,7 @@ Many statements hide the "if" in their wording. "Vertical angles are equal" mean
 
 Swapping the two parts gives the **converse**: "If $Q$, then $P$". The converse of the dog statement is "If an animal is a mammal, then it is a dog", which is false, since a cat is a mammal. A true statement can have a false converse, and mixing the two up is the most common error in a first proof course. "If a figure is a square, then it is a rectangle" is true, and its converse "If a figure is a rectangle, then it is a square" is false.
 
-Two related statements are worth a name. The **contrapositive** of "if $P$, then $Q$" is "if not $Q$, then not $P$". It is true exactly when the original is true: if every dog is a mammal, then an animal that is not a mammal cannot be a dog. The inverse, "if not $P$, then not $Q$", is the converse of the contrapositive and has the same truth value as the converse. The full story, with truth tables, is in conditionals and biconditionals<!-- link: ../../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
+Two related statements are worth a name. The **contrapositive** of "if $P$, then $Q$" is "if not $Q$, then not $P$". It is true exactly when the original is true: if every dog is a mammal, then an animal that is not a mammal cannot be a dog. The inverse, "if not $P$, then not $Q$", is the converse of the contrapositive and has the same truth value as the converse. The full story, with truth tables, is in [conditionals and biconditionals](../../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md).
 
 When a statement and its converse are both true, they combine into a **biconditional**, "$P$ if and only if $Q$". Definitions are biconditionals: "$M$ is the midpoint of $AB$ if and only if $M$ is on $AB$ and $AM = MB$".
 
@@ -504,5 +504,5 @@ Check: a $3$-$4$-$5$ triangle has acute angles of about $36.9^\circ$ and $53.1^\
 ## Where this shows up
 
 - The next lessons in this chapter use this layout throughout: [congruence and triangle proofs](02-congruence-and-triangle-proofs.md), [similarity](03-similarity.md) and [coordinate geometry and circles](04-coordinate-geometry-and-circles.md).
-- Every proof course, from discrete math to analysis, uses hypotheses and conclusions, converses and counterexamples. They are developed further in what is a proof<!-- link: ../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md --> and counterexamples and disproof<!-- link: ../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+- Every proof course, from discrete math to analysis, uses hypotheses and conclusions, converses and counterexamples. They are developed further in [what is a proof](../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md) and counterexamples and disproof<!-- link: ../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
 - In computer science, a postulate is an axiom of a formal system, and a proof checker accepts a proof only when each line follows from earlier lines by a stated rule, which is the two-column layout made precise.

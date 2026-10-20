@@ -49,7 +49,7 @@ In plain words, once the brackets are expanded, the variable appears only to the
 
 **Clearing fractions** means multiplying both sides of an equation by a common denominator of all its fractions, usually the least common denominator (LCD), so that no fractions remain. It is the both-sides rule with $c$ equal to the LCD, which is not 0, so the new equation has the same solutions.
 
-An equation with no solution has an empty solution set, written $\emptyset$, the set with no elements (sets and set operations<!-- link: ../../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md -->). An equation that every number solves is an identity, as defined in [equivalent expressions](02-equivalent-expressions.md#definitions).
+An equation with no solution has an empty solution set, written $\emptyset$, the set with no elements ([sets and set operations](../../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md)). An equation that every number solves is an identity, as defined in [equivalent expressions](02-equivalent-expressions.md#definitions).
 
 ## How to do it
 
