@@ -94,6 +94,16 @@ The 3 left over is 3 out of a divisor of 12, so it stands for $\frac{3}{12} = \f
 
 Taught in [division facts and remainders](../01-elementary/06-division-facts-and-remainders.md#edge-cases-and-common-mistakes) and [long division](../01-elementary/07-long-division.md#example-1-dividing-745-by-3).
 
+### Not converting units in an estimate
+
+Wrong: a car at 100 km/h covers about $100 \times 3 = 300$ m in 3 seconds
+
+Right: it covers about 83 m, since $100\ \text{km/h} = \frac{100{,}000}{3600} \approx 27.8$ m/s and $27.8 \times 3 \approx 83$
+
+The 100 is in kilometres per hour and the 3 is in seconds, so the product has no meaning until the units match. A sanity check on size catches it: 300 m in 3 seconds would be a speed of 360 km/h. Convert first, then estimate.
+
+Taught in [estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md#worked-examples).
+
 ## Negative numbers
 
 ### Ordering negative numbers by their digits
@@ -144,7 +154,7 @@ Right: $\lvert 3 - 8 \rvert = \lvert -5 \rvert = 5$
 
 Absolute value bars are grouping symbols, so work out what is inside them first. An absolute value is never negative, so $-5$ can't be right. Products do split, $\lvert ab \rvert = \lvert a \rvert \lvert b \rvert$, but sums and differences don't.
 
-Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#edge-cases-and-common-mistakes) and [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#definitions).
+Taught in [absolute value equations and inequalities](../03-high-school/01-algebra-foundations/04-absolute-value-equations-and-inequalities.md#edge-cases-and-common-mistakes),[negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#edge-cases-and-common-mistakes) and [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#definitions).
 
 ### Putting the minus sign of a mixed number on the whole part only
 
@@ -308,7 +318,7 @@ Right: the price before tax was $113 \div 1.13 = 100$, that is, \$100.00
 
 The 13% was taken of the price before tax, not of the total, so the total is 113% of the price. Divide by $1.13$ to undo multiplying by $1.13$. Adding the tax back on shows the error: $1.13 \times 98.31 = 111.09$, which is not the total.
 
-Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md).
+Taught in [estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md#worked-examples),[percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md).
 
 ### Dividing by the new value in a percent change
 
@@ -402,7 +412,7 @@ Right: $1\ \text{m}^2 = 10{,}000\ \text{cm}^2$
 
 A square 1 m on each side is 100 cm by 100 cm, so it holds 100 rows of 100 small squares. Area units convert with the square of the length factor and volume units with its cube, so $1\ \text{m}^3 = 1{,}000{,}000\ \text{cm}^3$. Scale drawings work the same way: at $1:50$, lengths scale by 50 but areas by $50^2 = 2500$.
 
-Taught in [measurement and unit conversion](../01-elementary/15-measurement-and-unit-conversion.md#edge-cases-and-common-mistakes) and [proportional relationships](../02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md#edge-cases-and-common-mistakes).
+Taught in [transformations, congruence and similarity](../02-middle-school/06-geometry/05-transformations-congruence-similarity.md#edge-cases-and-common-mistakes),[measurement and unit conversion](../01-elementary/15-measurement-and-unit-conversion.md#edge-cases-and-common-mistakes) and [proportional relationships](../02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md#edge-cases-and-common-mistakes).
 
 ### Writing minutes as hundredths of an hour
 
@@ -423,6 +433,56 @@ Right: its area is base times height, $8 \times 4 = 32\ \text{cm}^2$
 The height is the perpendicular distance from the base to the opposite side, measured at a right angle to the base. A slanted path between the two sides is always longer than the straight one, so using it makes the area too big. A triangle's area, $\frac{1}{2}bh$, uses the height in the same sense.
 
 Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#example-2-a-parallelogram-and-a-slanted-side).
+
+### Using n times 180 for the interior angle sum
+
+Wrong: the interior angles of a hexagon add to $6 \times 180^\circ = 1080^\circ$
+
+Right: they add to $(6 - 2) \times 180^\circ = 720^\circ$, so each angle of a regular hexagon is $120^\circ$
+
+A polygon with $n$ sides splits into $n - 2$ triangles from one vertex, and each triangle contributes $180^\circ$.
+
+Taught in [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md#edge-cases-and-common-mistakes).
+
+### Using the diameter in the circle area formula
+
+Wrong: a circle of diameter 10 cm has area $\pi \times 10^2 = 100\pi\ \text{cm}^2$
+
+Right: the radius is 5 cm, so the area is $25\pi \approx 78.5\ \text{cm}^2$
+
+The formula $\pi r^2$ uses the radius. Halve the diameter first. Squaring the product, as in $(\pi r)^2$, is a related slip: at $r = 5$ it gives about 246.7, over three times too big.
+
+Taught in [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md#edge-cases-and-common-mistakes).
+
+### Using the slant height in a volume formula
+
+Wrong: the volume of a cone uses the slant height as $h$
+
+Right: the volume uses the perpendicular height, from the apex straight down to the base
+
+A slanted path down a side is longer than the straight one, so the volume would come out too big. For a cone with $r = 3$ and slant height 5, the perpendicular height is 4, and $V = \frac{1}{3}\pi \cdot 3^2 \cdot 4 = 12\pi$.
+
+Taught in [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md#edge-cases-and-common-mistakes).
+
+### Adding the squares when the hypotenuse is given
+
+Wrong: a ladder 13 m long leans against a wall with its foot 5 m out, so it reaches $\sqrt{13^2 + 5^2} \approx 13.9$ m up
+
+Right: it reaches $\sqrt{13^2 - 5^2} = 12$ m up
+
+The theorem is $a^2 + b^2 = c^2$ with $c$ the hypotenuse. When the hypotenuse is known, subtract. A leg can never be longer than the hypotenuse, which rules out 13.9.
+
+Taught in [the Pythagorean theorem](../02-middle-school/06-geometry/04-pythagorean-theorem.md#edge-cases-and-common-mistakes).
+
+### Turning the wrong way under a rotation rule
+
+Wrong: a $90^\circ$ counterclockwise turn about the origin sends $(x, y)$ to $(y, -x)$
+
+Right: it sends $(x, y)$ to $(-y, x)$
+
+Test on $(1, 0)$, which should end up at $(0, 1)$ after a quarter turn counterclockwise. The wrong rule sends it to $(0, -1)$, a clockwise turn.
+
+Taught in [transformations, congruence and similarity](../02-middle-school/06-geometry/05-transformations-congruence-similarity.md#edge-cases-and-common-mistakes).
 
 ## Exponents and roots
 
@@ -464,7 +524,7 @@ Right: $\sqrt{a + b}$ doesn't simplify in general. Products do split: $\sqrt{ab}
 
 Test with numbers: $\sqrt{9 + 16} = \sqrt{25} = 5$, while $\sqrt{9} + \sqrt{16} = 3 + 4 = 7$. A root, like a power, works with multiplication and not with addition.
 
-Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
+Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md#edge-cases-and-common-mistakes) and[radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### Writing the square root of x squared as x
 
@@ -474,7 +534,7 @@ Right: $\sqrt{x^2} = \lvert x \rvert$
 
 A square root is never negative, so it can't give back $x$ when $x$ is negative. With $x = -3$, the left side is $\sqrt{(-3)^2} = \sqrt{9} = 3$, which is $\lvert -3 \rvert$ and not $-3$. Watch for this step in any proof that takes the square root of both sides.
 
-Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
+Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md#edge-cases-and-common-mistakes) and[radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md).
 
 ### Mixing up a square root with the solutions of a square
 
@@ -485,6 +545,76 @@ Right: $\sqrt{9} = 3$, and $x^2 = 9$ means $x = 3$ or $x = -3$
 The symbol $\sqrt{9}$ names one number, the non-negative one. The equation $x^2 = 9$ asks for every number whose square is $9$, and there are two of them. When you solve, write $x = \pm\sqrt{9} = \pm 3$.
 
 Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
+
+### Raising only part of a product to the outer power
+
+Wrong: $(2x^3)^4 = 2x^{12}$
+
+Right: $(2x^3)^4 = 2^4 x^{12} = 16x^{12}$
+
+The outer exponent applies to every factor inside the brackets, the coefficient as well as the variable. Test with $x = 1$: the left side is $2^4 = 16$, but the wrong answer is 2.
+
+Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md#worked-examples).
+
+### Adding exponents in a sum of powers
+
+Wrong: $2^3 + 2^4 = 2^7 = 128$, and $2 \times 10^3 + 3 \times 10^3 = 5 \times 10^6$
+
+Right: $2^3 + 2^4 = 8 + 16 = 24$, and $2 \times 10^3 + 3 \times 10^3 = 5 \times 10^3$
+
+Exponents add when powers are multiplied, not when they are added. In a sum of numbers in scientific notation with the same power of ten, add the coefficients and keep the power.
+
+Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md#edge-cases-and-common-mistakes) and [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md#worked-examples).
+
+### Counting zeros instead of places in scientific notation
+
+Wrong: $93{,}000{,}000 = 9.3 \times 10^6$, because the number has six zeros
+
+Right: $93{,}000{,}000 = 9.3 \times 10^7$
+
+The exponent is the number of places the decimal point moves, here from after the last 0 to after the 9. Count the places, not the zeros. The check is to expand: $9.3 \times 10^7$ is 9.3 times ten million.
+
+Taught in [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md#worked-examples).
+
+### Using the caret for a power in Python
+
+Wrong: `2 * 10^3` for 2000
+
+Right: `2 * 10**3`, or the literal `2e3`
+
+In Python, `^` is bitwise XOR and not a power. Because `*` ranks above `^`, the wrong line works out `(2 * 10) ^ 3`, which is 23. Excel and many calculators do use `^` for a power, so the habit carries over without warning.
+
+Taught in [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md#edge-cases-and-common-mistakes).
+
+### Taking the cube root of a negative number with a fractional power
+
+Wrong: `(-8) ** (1/3)` to get $-2$
+
+Right: `math.cbrt(-8)`, which gives `-2.0`
+
+The fractional power of a negative float returns a complex number, about `1+1.732j`. The exponent `1/3` is also not exactly one third in floating point. `math.cbrt` (Python 3.11 and later) takes a real cube root directly.
+
+Taught in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md#in-code).
+
+### Reading a rational exponent as a fraction of the power
+
+Wrong: $8^{2/3} = \frac{8^2}{3} = \frac{64}{3}$
+
+Right: $8^{2/3} = \left(\sqrt[3]{8}\right)^2 = 2^2 = 4$
+
+In $a^{m/n}$ the denominator is the index of the root and the numerator is the power. Take the root first when the number is a perfect power, since it keeps the numbers small.
+
+Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md#worked-examples).
+
+### Averaging growth by dividing the total change
+
+Wrong: a balance that grows from \$1,000 to \$1,331 in 3 years has grown by $\frac{33.1\%}{3} \approx 11.0\%$ a year
+
+Right: the yearly growth factor is $\left(\frac{1331}{1000}\right)^{1/3} = 1.1$, so the growth is 10% a year
+
+Growth compounds, so the yearly factors multiply and the right average is the root of the total factor. Check by compounding: $1000 \times 1.1^3 = 1331$, while $1000 \times 1.11^3 \approx 1367$.
+
+Taught in [radicals and rational exponents](../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md#worked-examples).
 
 ## Algebra
 
@@ -506,7 +636,7 @@ Right: $3x + 2$ is already simplified
 
 Only like terms, with the same variables raised to the same powers, combine into one term. Test at $x = 2$: $3x + 2 = 8$, while $5x = 10$. In the same way, $x^2 + x$ is neither $x^3$ nor $2x^2$.
 
-Taught in [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#edge-cases-and-common-mistakes).
+Taught in [polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md#edge-cases-and-common-mistakes) and[equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#edge-cases-and-common-mistakes).
 
 ### Squaring a sum term by term
 
@@ -516,7 +646,7 @@ Right: $(a + b)^2 = a^2 + 2ab + b^2$
 
 Squaring means multiplying $(a + b)(a + b)$, and the two cross products $ab$ and $ba$ make the middle term. Test with $a = b = 1$: the left side is $2^2 = 4$, but $a^2 + b^2 = 2$. With numbers, $(3 + 4)^2 = 49$, while $3^2 + 4^2 = 25$.
 
-Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#edge-cases-and-common-mistakes) and [polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md).
+Taught in [exponent rules](../02-middle-school/04-powers-roots-and-real-numbers/01-exponent-rules.md#edge-cases-and-common-mistakes),[exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#edge-cases-and-common-mistakes) and [polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md).
 
 ### Cancelling terms instead of factors
 
@@ -536,7 +666,7 @@ Right: $5 - (x + 2) = 5 - x - 2 = 3 - x$
 
 The minus sign in front of the brackets multiplies every term inside by $-1$. Test with $x = 0$: the original is $5 - 2 = 3$, the right version gives $3 - 0 = 3$, and the wrong version gives $5 - 0 + 2 = 7$. A number in front of brackets has to reach every term too: $2(x + 3) = 2x + 6$, not $2x + 3$, and $3 \times (4 + 5) = 27$, not $3 \times 4 + 5 = 17$.
 
-Taught in [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md) and [properties of operations](../01-elementary/04-properties-of-operations.md#edge-cases-and-common-mistakes).
+Taught in [polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md#edge-cases-and-common-mistakes),[equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md) and [properties of operations](../01-elementary/04-properties-of-operations.md#edge-cases-and-common-mistakes).
 
 ### Distributing over a product
 
@@ -547,6 +677,122 @@ Right: $2(xy) = 2xy$
 The distributive property spreads a multiplication over a sum, never over a product. A product is regrouped with the associative property, so the 2 multiplies only once. Test at $x = 3$ and $y = 5$: $2xy = 30$, while $(2x)(2y) = 60$.
 
 Taught in [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#edge-cases-and-common-mistakes).
+
+## Polynomials
+
+### Stopping before a polynomial is factored completely
+
+Wrong: $2x^4 - 32 = 2(x^2 - 4)(x^2 + 4)$
+
+Right: $2x^4 - 32 = 2(x - 2)(x + 2)(x^2 + 4)$
+
+The factor $x^2 - 4$ is a difference of squares, so it factors again. Factoring is finished when every factor is prime over the integers. The sum $x^2 + 4$ stays.
+
+Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#worked-examples).
+
+### Using the zero-product property when the right side is not zero
+
+Wrong: $x(x - 3) = 10$ gives $x = 10$ or $x - 3 = 10$
+
+Right: move 10 across to get $x^2 - 3x - 10 = 0$, so $(x - 5)(x + 2) = 0$ and $x = 5$ or $x = -2$
+
+A product forces a factor to be zero only when the product is zero. Many pairs of numbers multiply to 10. Check: $5 \cdot 2 = 10$ and $(-2)(-5) = 10$.
+
+Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#edge-cases-and-common-mistakes) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md#edge-cases-and-common-mistakes).
+
+### Treating a sum of squares or cubes like a perfect power
+
+Wrong: $x^2 + 9 = (x + 3)^2$, and $x^3 + 27 = (x + 3)^3$
+
+Right: $(x + 3)^2 = x^2 + 6x + 9$, so $x^2 + 9$ is prime over the real numbers, and $x^3 + 27 = (x + 3)(x^2 - 3x + 9)$
+
+The middle terms don't cancel in a sum of squares, and a sum of cubes has its own pattern. Expanding the claimed answer is the check.
+
+Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#edge-cases-and-common-mistakes).
+
+### Concluding that there is no zero because the signs match
+
+Wrong: $f(x) = (x - 1)(x - 2)$ is positive at $x = 0$ and at $x = 3$, so it has no zero between them
+
+Right: it has two zeros between them, at 1 and 2
+
+A sign change guarantees an odd number of zeros between two points. Matching signs say only that the number of zeros between is even, which includes 2.
+
+Taught in [polynomial functions and graphs](../03-high-school/04-radicals-and-polynomials/05-polynomial-functions-and-graphs.md#worked-examples).
+
+## Quadratics and complex numbers
+
+### Reading the vertex with the wrong sign
+
+Wrong: the vertex of $2(x + 3)^2 - 8$ is $(3, -8)$
+
+Right: it is $(-3, -8)$
+
+The form is $a(x - h)^2 + k$, and $x + 3 = x - (-3)$, so $h = -3$. The vertex is where the bracket is zero.
+
+Taught in [quadratic functions and graphs](../03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md#edge-cases-and-common-mistakes).
+
+### Forgetting to multiply the subtracted square by the leading coefficient
+
+Wrong: $2x^2 + 8x + 3 = 2(x + 2)^2 - 1$
+
+Right: $2x^2 + 8x + 3 = 2(x + 2)^2 - 5$
+
+Adding and subtracting 4 inside the bracket means subtracting $2 \cdot 4 = 8$ outside it. Expanding the answer is the check: at $x = 0$ the original is 3, the right form gives $8 - 5 = 3$, and the wrong form gives 7.
+
+Taught in [quadratic functions and graphs](../03-high-school/05-quadratics-and-complex-numbers/01-quadratic-functions-and-graphs.md#edge-cases-and-common-mistakes).
+
+### Computing the discriminant with the wrong sign
+
+Wrong: for $x^2 - 3x - 5$, $D = 9 - 20 = -11$
+
+Right: $D = (-3)^2 - 4(1)(-5) = 9 + 20 = 29$
+
+When $c$ is negative, $-4ac$ is positive. Put the numbers in brackets before you square or multiply. A positive discriminant here means two real solutions, and $-11$ would have claimed there were none.
+
+Taught in [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md#edge-cases-and-common-mistakes).
+
+### Forgetting that i squared is minus 1 when multiplying
+
+Wrong: $(2 + 3i)^2 = 4 + 12i + 9 = 13 + 12i$
+
+Right: $(2 + 3i)^2 = 4 + 12i + 9i^2 = -5 + 12i$
+
+The term $9i^2$ is $-9$, not $+9$. A check with the modulus: $\lvert 2 + 3i \rvert^2 = 13$ and $\lvert -5 + 12i \rvert = 13$, which agree, since the modulus of a square is the square of the modulus.
+
+Taught in [complex numbers](../03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md#edge-cases-and-common-mistakes).
+
+### Using the product rule for roots with negative numbers
+
+Wrong: $\sqrt{-4}\,\sqrt{-9} = \sqrt{36} = 6$
+
+Right: $\sqrt{-4}\,\sqrt{-9} = (2i)(3i) = 6i^2 = -6$
+
+The rule $\sqrt{a}\sqrt{b} = \sqrt{ab}$ needs $a, b \ge 0$. Write each root with $i$ first, then multiply.
+
+Taught in [complex numbers](../03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md#edge-cases-and-common-mistakes).
+
+## Rational expressions and equations
+
+### Calling a cancelled factor a vertical asymptote
+
+Wrong: $f(x) = \frac{(x - 2)(x + 1)}{x - 2}$ has a vertical asymptote at $x = 2$
+
+Right: it has a hole at $x = 2$, at height 3, and no vertical asymptote
+
+Cancel first, then look at the denominator that is left. A zero of the reduced denominator is a vertical asymptote, and a cancelled factor leaves a hole.
+
+Taught in [rational functions and asymptotes](../03-high-school/06-rational-expressions-and-equations/02-rational-functions-and-asymptotes.md#edge-cases-and-common-mistakes).
+
+### Averaging two speeds over equal distances
+
+Wrong: driving 60 km/h out and 40 km/h back averages $\frac{60 + 40}{2} = 50$ km/h
+
+Right: the average is $\frac{2(60)(40)}{60 + 40} = 48$ km/h
+
+More time goes to the slow leg, so the slow speed counts for more. For a 240 km leg each way, the trip takes $4 + 6 = 10$ hours for 480 km, and $\frac{480}{10} = 48$.
+
+Taught in [rational and radical equations](../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md#edge-cases-and-common-mistakes).
 
 ## Equations and inequalities
 
@@ -598,7 +844,7 @@ Right: $-2x < 6$, so $x > -3$
 
 Multiplying or dividing both sides by a negative number reverses the order, just as $2 < 3$ but $-2 > -3$. Check with a number from the right answer: $x = 0$ satisfies $0 > -3$, and $-2 \cdot 0 = 0 < 6$ is true.
 
-Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md).
+Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md#edge-cases-and-common-mistakes) and[inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md).
 
 ### Flipping an inequality because a negative number appears
 
@@ -618,7 +864,7 @@ Right: $x^2 - 3x = 0$, so $x(x - 3) = 0$, and $x = 0$ or $x = 3$
 
 Dividing by $x$ is allowed only when $x \ne 0$, so it throws away the solution $x = 0$. Move every term to one side and factor instead. Both answers check: $0^2 = 3 \cdot 0$ and $3^2 = 3 \cdot 3$. The same slip turns $5x = 3x$ into $5 = 3$, which seems to say there is no solution, though $x = 0$ works.
 
-Taught in [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
+Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#edge-cases-and-common-mistakes),[multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
 
 ### Keeping every solution after squaring both sides
 
@@ -628,7 +874,7 @@ Right: only $x = 2$ is a solution
 
 Squaring gives $x + 2 = x^2$, so $x^2 - x - 2 = 0$ and $(x - 2)(x + 1) = 0$. Squaring can add solutions, because $a = b$ and $a = -b$ both turn into $a^2 = b^2$, so check each candidate in the original equation. For $x = -1$ the left side is $\sqrt{1} = 1$ and the right side is $-1$, so $-1$ is an extraneous root.
 
-Taught in [rational and radical equations](../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md).
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#edge-cases-and-common-mistakes) and[rational and radical equations](../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md).
 
 ### Multiplying an inequality by an expression of unknown sign
 
@@ -640,6 +886,130 @@ Multiplying by $x$ keeps the order only when $x > 0$. For $x < 0$ the order flip
 
 Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md).
 
+## Sets, intervals and absolute value
+
+### Writing an element as a subset
+
+Wrong: $2 \subseteq \{1, 2, 3\}$
+
+Right: $2 \in \{1, 2, 3\}$, and $\{2\} \subseteq \{1, 2, 3\}$
+
+The symbol $\in$ connects an element to a set, and $\subseteq$ connects two sets. The number 2 is not a set, so $2 \subseteq \{1, 2, 3\}$ is not even a statement.
+
+Taught in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#edge-cases-and-common-mistakes).
+
+### Using a union for "and"
+
+Wrong: $x > 1$ and $x < 3$ is $(1, \infty) \cup (-\infty, 3)$
+
+Right: it is $(1, 3)$
+
+"And" means intersection, so only the numbers in both sets count. The union of the two rays is every real number, since each number is in at least one of them. Test $x = 10$: it is not less than 3.
+
+Taught in [compound inequalities and interval notation](../03-high-school/01-algebra-foundations/03-compound-inequalities-and-interval-notation.md#edge-cases-and-common-mistakes).
+
+### Splitting an absolute value equation before isolating it
+
+Wrong: $\lvert x - 1 \rvert + 3 = 7$ gives $x - 1 + 3 = \pm 7$
+
+Right: isolate first, $\lvert x - 1 \rvert = 4$, so $x - 1 = 4$ or $x - 1 = -4$, and $x = 5$ or $x = -3$
+
+The $\pm$ applies to the whole absolute value, so the bars have to stand alone on one side before you split. Check: $\lvert 5 - 1 \rvert + 3 = 7$ and $\lvert -3 - 1 \rvert + 3 = 7$.
+
+Taught in [absolute value equations and inequalities](../03-high-school/01-algebra-foundations/04-absolute-value-equations-and-inequalities.md#edge-cases-and-common-mistakes).
+
+## Lines and systems of equations
+
+### Plotting the coordinates in the wrong order
+
+Wrong: plot $(2, 5)$ by going up 2 and across 5
+
+Right: go across 2, then up 5
+
+The first number of an ordered pair is the horizontal position. The pairs $(2, 5)$ and $(5, 2)$ are different points.
+
+Taught in [the coordinate plane](../02-middle-school/05-linear-relationships-and-functions/01-coordinate-plane.md#edge-cases-and-common-mistakes).
+
+### Subtracting the coordinates in a different order on top and bottom
+
+Wrong: the slope through $(1, 2)$ and $(4, 8)$ is $\frac{8 - 2}{1 - 4} = -2$
+
+Right: $\frac{8 - 2}{4 - 1} = 2$
+
+Whichever point comes first on the top has to come first on the bottom. The sign is a check: the line rises from left to right, so the slope is positive.
+
+Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md#worked-examples).
+
+### Reading the slope and intercept off standard form
+
+Wrong: $2x + 3y = 12$ has slope $\frac{2}{3}$ and $y$-intercept 12
+
+Right: it has slope $-\frac{2}{3}$ and $y$-intercept 4
+
+Solve for $y$ first: $y = 4 - \frac{2}{3}x$. In general, $Ax + By = C$ has slope $-\frac{A}{B}$ and $y$-intercept $\frac{C}{B}$.
+
+Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md#edge-cases-and-common-mistakes) and [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Mixing up zero slope and undefined slope
+
+Wrong: a vertical line has slope 0
+
+Right: a horizontal line has slope 0 and the equation $y = c$; a vertical line has no slope (the run is 0) and the equation $x = c$
+
+Between $(3, 1)$ and $(3, 7)$ the slope would be $\frac{6}{0}$, which is undefined. A vertical line is not the graph of a function of $x$.
+
+Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md#edge-cases-and-common-mistakes) and [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Using the sign of the point in point-slope form
+
+Wrong: the line through $(-2, 5)$ with slope $m$ is $y - 5 = m(x - 2)$
+
+Right: $y - 5 = m(x + 2)$
+
+The form is $y - y_1 = m(x - x_1)$, and $x - (-2) = x + 2$. Check that the point satisfies the equation: at $x = -2$ the right side is 0, so $y = 5$.
+
+Taught in [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Forgetting to flip and negate for a perpendicular slope
+
+Wrong: a line perpendicular to one of slope $\frac{3}{4}$ has slope $\frac{4}{3}$ or $-\frac{3}{4}$
+
+Right: its slope is $-\frac{4}{3}$
+
+The slopes of perpendicular lines multiply to $-1$, so take the reciprocal and change the sign. Check: $\frac{3}{4} \cdot \left(-\frac{4}{3}\right) = -1$.
+
+Taught in [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Reading an always-true result in a system as the solution zero
+
+Wrong: elimination leaves $0 = 0$, so the solution is $(0, 0)$
+
+Right: the two equations describe the same line, so there are infinitely many solutions; a false result such as $0 = 5$ means no solution
+
+The result $0 = 0$ says that the equations agree everywhere. It doesn't give values for $x$ and $y$. For example, $2x + 3y = 12$ and $4x + 6y = 24$ are one line.
+
+Taught in [systems of linear equations](../02-middle-school/05-linear-relationships-and-functions/04-systems-of-linear-equations.md#worked-examples) and [systems of linear equations](../03-high-school/02-linear-functions-and-systems/02-systems-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Checking a solution in only one equation
+
+Wrong: $(5, 2)$ solves $x + y = 7$ and $x - y = 1$, because $5 + 2 = 7$
+
+Right: $5 - 2 = 3$, not 1, so $(5, 2)$ fails the second equation; the solution is $(4, 3)$
+
+A solution of a system has to satisfy every equation. A point that satisfies one equation lies on one line only.
+
+Taught in [systems of linear equations](../02-middle-school/05-linear-relationships-and-functions/04-systems-of-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Shading by the look of the inequality symbol
+
+Wrong: $-2y < 6$ is shaded below the line, because the symbol is $<$
+
+Right: dividing by $-2$ reverses the symbol, giving $y > -3$, so the region above the line is shaded
+
+Don't trust the symbol before the inequality is solved for $y$. A test point settles it: $(0, 0)$ gives $0 < 6$, which is true, and $(0, 0)$ is above the line $y = -3$.
+
+Taught in [two-variable inequalities and feasible regions](../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md#worked-examples).
+
 ## Functions and graphs
 
 ### Reading the inverse function as a reciprocal
@@ -650,7 +1020,7 @@ Right: $f^{-1}$ undoes $f$, so $f^{-1}(y) = x$ exactly when $f(x) = y$
 
 For $f(x) = 2x$ the inverse is $f^{-1}(x) = \frac{x}{2}$, so $f^{-1}(4) = 2$, while $\frac{1}{f(4)} = \frac{1}{8}$. The notation invites the mix-up, because $\sin^2 x$ means $(\sin x)^2$ but $\sin^{-1} x$ means the inverse function $\arcsin x$. When you mean the reciprocal, write $\frac{1}{f(x)}$ or $(f(x))^{-1}$.
 
-Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md).
+Taught in [right triangle trigonometry](../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md#edge-cases-and-common-mistakes) and[composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md).
 
 ### Adding h outside the function
 
@@ -660,7 +1030,7 @@ Right: replace every $x$ in the rule with $(x + h)$. For $f(x) = x^2$, that give
 
 Test with $x = 3$ and $h = 1$: $f(4) = 16$, while $f(3) + 1 = 10$. The input has changed, so the whole rule applies to the new input. This substitution is the first step of every derivative worked from the definition.
 
-Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md) and the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#edge-cases-and-common-mistakes),[what is a function](../03-high-school/03-functions/01-what-is-a-function.md) and the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
 
 ### Shifting a graph the wrong way
 
@@ -672,6 +1042,98 @@ The new graph reaches each height when $x - 2$ equals the old input, which happe
 
 Taught in [transformations of functions](../03-high-school/03-functions/04-transformations-of-functions.md).
 
+### Taking the range from the arrow in the signature
+
+Wrong: $f \colon \mathbb{R} \to \mathbb{R}$ with $f(x) = x^2$ has range $\mathbb{R}$
+
+Right: the range is $[0, \infty)$
+
+The set after the arrow is the codomain, the set the outputs are allowed to land in. The range is the set of outputs that actually occur, and no square is negative.
+
+Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#edge-cases-and-common-mistakes).
+
+### Treating a cancelled formula as the same function
+
+Wrong: $f(x) = \frac{x^2 - 4}{x - 2}$ is the same function as $g(x) = x + 2$
+
+Right: they agree for $x \ne 2$, but $f(2)$ is undefined
+
+Two functions are equal only when they have the same domain and the same outputs. Cancelling the factor $x - 2$ is valid only for $x \ne 2$, so the domain of $f$ stays without 2.
+
+Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#edge-cases-and-common-mistakes).
+
+### Rounding a negative number toward zero for the floor function
+
+Wrong: $\lfloor -3.7 \rfloor = -3$
+
+Right: $\lfloor -3.7 \rfloor = -4$
+
+The floor is the greatest integer that is less than or equal to the number, and $-4 < -3.7 < -3$. Dropping the decimal part gives the ceiling for a negative number. Python's `//` floors too, so `-7 // 2` is `-4`.
+
+Taught in [piecewise, absolute value and step functions](../03-high-school/03-functions/03-piecewise-absolute-value-and-step-functions.md#edge-cases-and-common-mistakes).
+
+### Taxing all income at the top bracket rate
+
+Wrong: with a 10% rate up to \$50,000 and 20% above, an income of \$60,000 pays $0.20 \times 60{,}000 = \$12{,}000$
+
+Right: it pays $0.10 \times 50{,}000 + 0.20 \times 10{,}000 = \$7{,}000$
+
+A marginal rate applies only to the income above its bracket limit. The average rate, $\frac{7000}{60000} \approx 11.7\%$, is lower than the top marginal rate. The brackets here are made up for practice.
+
+Taught in [piecewise, absolute value and step functions](../03-high-school/03-functions/03-piecewise-absolute-value-and-step-functions.md#edge-cases-and-common-mistakes).
+
+### Stretching when the input is multiplied
+
+Wrong: the graph of $f(2x)$ is the graph of $f(x)$ stretched horizontally by 2
+
+Right: it is compressed horizontally by a factor of 2
+
+The graph of $f(2x)$ reaches each height at half the old input, because the doubled input gets there twice as fast. In the same way, $\lvert 2x - 6 \rvert$ is shifted 3 units right, not 6, since $\lvert 2x - 6 \rvert = 2\lvert x - 3 \rvert$. Factor out the coefficient of $x$ before you read a shift.
+
+Taught in [transformations of functions](../03-high-school/03-functions/04-transformations-of-functions.md#edge-cases-and-common-mistakes).
+
+### Composing functions in the wrong order
+
+Wrong: $f \circ g = g \circ f$
+
+Right: in general the two compositions differ
+
+Take $f(x) = x + 1$ and $g(x) = 2x$. Then $f(g(2)) = 5$, while $g(f(2)) = 6$. The expression $(f \circ g)(x)$ applies $g$ first.
+
+Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#edge-cases-and-common-mistakes).
+
+### Undoing steps in the order they were applied
+
+Wrong: the inverse of "multiply by 2, then add 3" is $y \mapsto \frac{y}{2} - 3$
+
+Right: undo the last step first, $y \mapsto \frac{y - 3}{2}$
+
+Check by composing: $f(1) = 5$, and the right inverse gives $\frac{5 - 3}{2} = 1$, while the wrong one gives $\frac{5}{2} - 3 = -0.5$.
+
+Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#edge-cases-and-common-mistakes).
+
+## Exponential growth and decay
+
+### Adding percent growth over several periods
+
+Wrong: 8% growth for 10 years is 80% growth in total
+
+Right: it is $1.08^{10} \approx 2.159$ times the starting amount, a growth of about 115.9%
+
+Each year's growth is a percent of a bigger amount, so the yearly factors multiply. Adding the percents is the simple-interest answer.
+
+Taught in [exponential functions and growth](../03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md#edge-cases-and-common-mistakes).
+
+### Mixing a monthly rate with years
+
+Wrong: a balance growing 2% a month for $t$ years is $A_0 \cdot 1.02^t$
+
+Right: it is $A_0 \cdot 1.02^{12t}$
+
+The exponent has to count periods, and the rate is per month, so $t$ years is $12t$ months. The yearly factor is $1.02^{12} \approx 1.268$, not 1.02.
+
+Taught in [exponential functions and growth](../03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md#edge-cases-and-common-mistakes).
+
 ## Logarithms
 
 ### Splitting a logarithm over a sum
@@ -682,7 +1144,7 @@ Right: $\log(ab) = \log a + \log b$, and $\log(a + b)$ doesn't simplify
 
 A logarithm turns multiplication into addition, because exponents add when you multiply powers of the same base. Test with base-10 logarithms: $\log(10 + 10) = \log 20 \approx 1.301$, while $\log 10 + \log 10 = 2$, which is $\log 100$.
 
-Taught in [logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md).
+Taught in [exponential and logarithmic equations](../03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md#edge-cases-and-common-mistakes) and[logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md).
 
 ### Treating a quotient of logarithms as one logarithm
 
@@ -694,6 +1156,138 @@ A quotient of two logarithms is the change-of-base formula, $\log_b x = \frac{\l
 
 Taught in [logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md).
 
+### Taking the logarithm of zero or a negative number
+
+Wrong: $\log_2(-8) = -3$
+
+Right: $\log_2(-8)$ is undefined in the real numbers
+
+Every power of a positive base is positive, so no exponent gives 0 or a negative number. This matters when you solve: any answer that makes the argument of a logarithm zero or negative is rejected.
+
+Taught in [logarithms](../03-high-school/07-exponentials-and-logarithms/02-logarithms.md#edge-cases-and-common-mistakes).
+
+### Swapping the base and the result
+
+Wrong: $\log_5 125 = 3$ means $3^5 = 125$
+
+Right: it means $5^3 = 125$
+
+The base of the logarithm stays the base of the power: $\log_b x = y$ means $b^y = x$. Check: $3^5 = 243$.
+
+Taught in [logarithms](../03-high-school/07-exponentials-and-logarithms/02-logarithms.md#edge-cases-and-common-mistakes).
+
+### Assuming the logarithm function in a program is base 10
+
+Wrong: `math.log(100)` gives 2
+
+Right: it gives about 4.605, the natural logarithm; `math.log10(100)` gives 2.0
+
+Most languages use `log` for the natural logarithm. Use `log10` or `log2` for those bases, or divide by the logarithm of the base.
+
+Taught in [logarithms](../03-high-school/07-exponentials-and-logarithms/02-logarithms.md#edge-cases-and-common-mistakes).
+
+### Taking logarithms of each term in an equation with a sum
+
+Wrong: $2^x + 3 = 11$ gives $x\log 2 + \log 3 = \log 11$
+
+Right: isolate the power first, $2^x = 8$, and then $x = \log_2 8 = 3$
+
+A logarithm of a sum has no rule, so the term-by-term step is not valid. Isolate the exponential, then take the logarithm of both sides.
+
+Taught in [exponential and logarithmic equations](../03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md#edge-cases-and-common-mistakes).
+
+### Rounding a logarithm before dividing
+
+Wrong: rounding $\ln 1.003333 \approx 0.003$ gives a doubling time of $\frac{\ln 2}{12 \cdot 0.003} \approx 19.25$ years
+
+Right: keep six or more digits, which gives $\frac{\ln 2}{12 \ln 1.003333} \approx 17.36$ years
+
+A small number in a denominator magnifies its rounding error. Keep full precision through the calculation and round the final answer.
+
+Taught in [exponential and logarithmic equations](../03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md#edge-cases-and-common-mistakes).
+
+### Keeping a solution that makes a logarithm undefined
+
+Wrong: $\log_2 x + \log_2(x - 2) = 3$ gives $x(x - 2) = 8$, so $x = 4$ or $x = -2$
+
+Right: only $x = 4$ works
+
+Combining the logarithms enlarged the domain: the original equation needs $x > 2$. For $x = -2$, the term $\log_2(-2)$ is undefined. Check every candidate in the original equation.
+
+Taught in [exponential and logarithmic equations](../03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md#worked-examples).
+
+## Trigonometry
+
+### Leaving the calculator in the wrong angle mode
+
+Wrong: `sin(30)` gives $-0.988$, so $\sin 30^\circ = -0.988$
+
+Right: in degree mode `sin(30)` gives 0.5
+
+A calculator or a program reads the number as degrees or radians according to its mode, and Python's `math.sin` always uses radians. Check against a value you know: $\sin 30^\circ = 0.5$.
+
+Taught in [right triangle trigonometry](../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md#edge-cases-and-common-mistakes).
+
+### Using degrees in an arc length formula
+
+Wrong: an arc of $60^\circ$ on a circle of radius 3 has length $3 \times 60 = 180$
+
+Right: convert to radians first, $60^\circ = \frac{\pi}{3}$, so the length is $3 \cdot \frac{\pi}{3} = \pi \approx 3.14$
+
+The formulas $s = r\theta$ and $A = \frac{1}{2}r^2\theta$ need $\theta$ in radians. In degrees, the arc is the fraction $\frac{60}{360}$ of the circumference $2\pi \cdot 3$, which is also $\pi$.
+
+Taught in [radians and the unit circle](../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md#edge-cases-and-common-mistakes).
+
+### Taking the calculator's inverse as the angle in every quadrant
+
+Wrong: $\tan\theta = \frac{3}{4}$ with $\theta$ in quadrant III, so $\theta = \tan^{-1}\frac{3}{4} \approx 36.87^\circ$
+
+Right: $\theta = 180^\circ + 36.87^\circ = 216.87^\circ$
+
+An inverse function returns one angle, the reference angle or principal value. Look at the quadrant, then add or subtract to land there.
+
+Taught in [radians and the unit circle](../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md#edge-cases-and-common-mistakes).
+
+### Reading the phase shift before factoring out the coefficient
+
+Wrong: the graph of $y = \sin(2x - \pi)$ is shifted $\pi$ units right
+
+Right: it is shifted $\frac{\pi}{2}$ units right
+
+Factor out the coefficient of $x$ first: $\sin(2x - \pi) = \sin\left(2\left(x - \frac{\pi}{2}\right)\right)$.
+
+Taught in [graphs of trig functions](../03-high-school/09-trigonometry/03-graphs-of-trig-functions.md#edge-cases-and-common-mistakes).
+
+### Distributing a trig function over a sum
+
+Wrong: $\sin(a + b) = \sin a + \sin b$
+
+Right: $\sin(a + b) = \sin a\cos b + \cos a\sin b$
+
+Test with $a = b = 30^\circ$: $\sin 60^\circ \approx 0.866$, while $\sin 30^\circ + \sin 30^\circ = 1$.
+
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#edge-cases-and-common-mistakes).
+
+### Assuming the inverse sine undoes the sine everywhere
+
+Wrong: $\arcsin(\sin x) = x$ for every $x$
+
+Right: it holds only for $x$ from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$; for example $\arcsin(\sin\pi) = 0$, not $\pi$
+
+The inverse is defined on a restricted domain so that it is one-to-one, and it returns an angle in that range.
+
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#edge-cases-and-common-mistakes).
+
+### Taking only the acute angle in the ambiguous case
+
+Wrong: $\sin B = 0.8$, so $B = 53.13^\circ$ and there is one triangle
+
+Right: also test $B = 180^\circ - 53.13^\circ = 126.87^\circ$, which gives a second triangle if the angles still sum to less than $180^\circ$
+
+Sine takes the same value at an angle and at its supplement. The data (two sides and a non-included angle) can give no triangle, one or two.
+
+Taught in [law of sines and law of cosines](../03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md#edge-cases-and-common-mistakes).
+
 ## Logic and proofs
 
 ### Confusing a statement with its converse
@@ -704,7 +1298,7 @@ Right: the converse is a different statement and needs its own proof. Here it is
 
 The converse of "if P, then Q" is "if Q, then P", and knowing one tells you nothing about the other. Only the contrapositive, "if not Q, then not P", is equivalent to the original.
 
-Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
+Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#edge-cases-and-common-mistakes) and[conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md).
 
 ### Using the inverse in place of the contrapositive
 
@@ -714,7 +1308,7 @@ Right: it is equivalent to its contrapositive, "if $x^2 \le 4$, then $x \le 2$"
 
 The statement in the wrong line is the inverse, and it fails at $x = -3$, where $x \le 2$ but $(-3)^2 = 9 > 4$. The contrapositive negates both parts and swaps them; the inverse negates them without swapping. A proof by contrapositive has to start from "not Q".
 
-Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md --> and contrapositive proof<!-- link: ../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md -->.
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and contrapositive proof<!-- link: ../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md -->.
 
 ### Negating a statement about every case
 
@@ -724,7 +1318,7 @@ Right: the negation is "some student did not pass"
 
 A statement about every case is false as soon as one case fails, so its negation says that a failing case exists. In symbols, $\neg(\forall x\ P(x)) \equiv \exists x\ \neg P(x)$, and $\neg(\exists x\ P(x)) \equiv \forall x\ \neg P(x)$. The sentence "no student passed" claims much more than the negation does, and it is usually false as well.
 
-Taught in negation and translating English<!-- link: ../04-proofs-and-logic/02-logic-and-sets/05-negation-and-translating-english.md -->.
+Taught in [negation and translating English](../04-proofs-and-logic/02-logic-and-sets/05-negation-and-translating-english.md).
 
 ### Proving a general claim with examples
 
@@ -734,7 +1328,7 @@ Right: examples can't prove a claim about every $n$. This claim is false: for $n
 
 The formula gives a prime for every $n$ from $0$ to $39$ and still fails at $40$. To prove a claim for every $n$, take an arbitrary $n$ and argue from the definitions. Examples do settle the opposite question, since one counterexample disproves a claim about every case. The same holds for algebra: $x^2 + 2$ and $3x$ agree at $x = 1$ and $x = 2$, but they are not equivalent expressions.
 
-Taught in [properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division), [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#why-isnt-checking-a-few-values-enough), common proof mistakes<!-- link: ../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md --> and counterexamples and disproof<!-- link: ../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#edge-cases-and-common-mistakes),[properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division), [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#why-isnt-checking-a-few-values-enough), common proof mistakes<!-- link: ../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md --> and counterexamples and disproof<!-- link: ../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
 
 ### Assuming what you want to prove
 
@@ -744,7 +1338,7 @@ Right: start from a known fact, $(a - b)^2 \ge 0$, expand it to $a^2 - 2ab + b^2
 
 Reaching a true statement from the claim proves nothing, because a false claim can lead to a true one: $-1 = 1$ is false, but squaring both sides gives $1 = 1$. Working backward is fine as scratch work for finding the steps. The written proof has to run forward from known facts, with each step following from the ones before it.
 
-Taught in scratch work and proof strategies<!-- link: ../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md -->.
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#why-not-do-the-same-to-both-sides) andscratch work and proof strategies<!-- link: ../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md -->.
 
 ### Skipping the base case in induction
 
@@ -756,6 +1350,160 @@ Induction needs both parts. The inductive step only says that each case passes i
 
 Taught in mathematical induction<!-- link: ../04-proofs-and-logic/05-induction/01-mathematical-induction.md -->.
 
+## Proof and logic in geometry
+
+### Reading sizes and angles off a drawing
+
+Wrong: the angles in a diagram look equal, so write "$\angle A = \angle B$" as a step
+
+Right: use only facts that are marked, given or already proved
+
+A drawing is a sketch, and it can mislead. In a proof, a statement holds because of a reason, such as a given, a definition, a postulate or an earlier theorem.
+
+Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#edge-cases-and-common-mistakes).
+
+### Citing SSA as a congruence test
+
+Wrong: two sides and a non-included angle are equal, so the triangles are congruent
+
+Right: use SSS, SAS, ASA, AAS or HL; SSA is not a test
+
+With two sides and a non-included angle, the third vertex can sit at two different places, where a circle meets a ray twice. The right-triangle case, HL, is the exception.
+
+Taught in [congruence and triangle proofs](../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md#edge-cases-and-common-mistakes).
+
+### Using CPCTC before the triangles are proved congruent
+
+Wrong: use "corresponding parts are equal" as a step to prove that the triangles are congruent
+
+Right: first prove the congruence by SSS, SAS, ASA, AAS or HL, and only then use CPCTC for the parts
+
+CPCTC is the definition of congruent triangles read in the other direction. Using it before the congruence is established is circular.
+
+Taught in [congruence and triangle proofs](../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md#edge-cases-and-common-mistakes).
+
+### Mixing part-to-part and part-to-whole in a similarity proportion
+
+Wrong: for a line $DE$ parallel to $BC$ in $\triangle ABC$, $\frac{AD}{DB} = \frac{DE}{BC}$
+
+Right: $\frac{AD}{AB} = \frac{DE}{BC}$, or $\frac{AD}{DB} = \frac{AE}{EC}$
+
+The left side compares the piece $AD$ with the other piece $DB$, while the right side compares $DE$ with the whole side $BC$. Compare a piece with its whole on both sides, or a piece with a piece on both sides.
+
+Taught in [similarity](../03-high-school/08-geometry-and-proof/03-similarity.md#edge-cases-and-common-mistakes).
+
+### Concluding similarity from two matching ratios
+
+Wrong: two pairs of sides are in the ratio $1:2$, so the triangles are similar
+
+Right: all three pairs must match (SSS), or two pairs must match with the included angles equal (SAS)
+
+Two proportional sides leave the third side free. A $3, 4, 5$ triangle and a $6, 8, 9$ triangle have two ratios equal to 2, and they are not similar.
+
+Taught in [similarity](../03-high-school/08-geometry-and-proof/03-similarity.md#edge-cases-and-common-mistakes).
+
+### Reading the centre of a circle with the wrong signs
+
+Wrong: the circle $(x + 2)^2 + (y - 3)^2 = 16$ has centre $(2, -3)$ and radius 16
+
+Right: it has centre $(-2, 3)$ and radius 4
+
+The equation has the form $(x - h)^2 + (y - k)^2 = r^2$, and $x + 2 = x - (-2)$. The right side is $r^2$, so the radius is the square root.
+
+Taught in [coordinate geometry and circles](../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md#edge-cases-and-common-mistakes).
+
+## Statistics and data
+
+### Averaging grade components without weights
+
+Wrong: components worth 25%, 25%, 40% and 10% with marks 88, 71, 62 and 95 average $\frac{88 + 71 + 62 + 95}{4} = 79$
+
+Right: the weighted mean is $0.25(88) + 0.25(71) + 0.40(62) + 0.10(95) = 74.05$
+
+Components that count differently need weights. The plain mean treats the 10% component like the 40% one.
+
+Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md#edge-cases-and-common-mistakes).
+
+### Taking the median without sorting
+
+Wrong: the median of 12, 3, 10, 8 is $\frac{3 + 10}{2} = 6.5$
+
+Right: sort first, 3, 8, 10, 12, and the median is $\frac{8 + 10}{2} = 9$
+
+The median is the middle of the sorted list. Taking the two values in the middle of the list as given gives a number that depends on how the data happened to be written.
+
+Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md#edge-cases-and-common-mistakes).
+
+### Treating the sums of two dice as equally likely
+
+Wrong: the sums 2 to 12 are 11 outcomes, so each has probability $\frac{1}{11}$
+
+Right: the 36 equally likely pairs give a sum of 7 six ways and a sum of 2 one way, so $P(7) = \frac{1}{6}$ and $P(2) = \frac{1}{36}$
+
+Equally likely outcomes are the pairs, not the sums. Count the cells of the 6 by 6 table.
+
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples).
+
+### Adding probabilities for "at least one"
+
+Wrong: the chance of at least one six in 4 rolls is $4 \times \frac{1}{6} = \frac{4}{6}$
+
+Right: it is $1 - \left(\frac{5}{6}\right)^4 = \frac{671}{1296} \approx 0.518$
+
+Adding counts the cases with two or more sixes more than once. Take the complement instead: the chance of no six at all, subtracted from 1.
+
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples).
+
+### Treating draws without replacement as independent
+
+Wrong: the chance of two reds from a bag of 2 red and 3 blue marbles is $\left(\frac{2}{5}\right)^2 = \frac{4}{25}$
+
+Right: after one red is drawn, 1 red is left among 4, so the chance is $\frac{2}{5} \cdot \frac{1}{4} = \frac{2}{20} = \frac{1}{10}$
+
+Removing a marble changes the next draw, so the draws are not independent and the probabilities can't be squared.
+
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes).
+
+### Believing a streak makes the opposite result due
+
+Wrong: after five heads in a row, tails is more likely on the next flip
+
+Right: the next flip is still heads with probability $\frac{1}{2}$
+
+The flips are independent, so the coin has no memory. Over many flips the proportion of heads settles toward $\frac{1}{2}$ because the early streak gets diluted, not because later flips compensate.
+
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes).
+
+### Reading association as causation
+
+Wrong: towns with more libraries have more car accidents, so libraries cause accidents
+
+Right: look for a confounding variable; here a larger population drives both counts
+
+Two variables can move together because a third variable affects both. A scatter plot shows association, and a study design is needed to show causation.
+
+Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes).
+
+### Extrapolating a line far beyond the data
+
+Wrong: a fitted line predicts 147 out of 100 on a test after 20 hours of study
+
+Right: don't use the line far outside the hours in the data
+
+The line describes the range the data covers. Outside it the relationship can bend, level off or hit a limit, and a score above the maximum is the clue.
+
+Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes).
+
+### Mixing up row and column percents in a two-way table
+
+Wrong: 30% of computer science students use Linux, so 30% of Linux users study computer science
+
+Right: the two percents have different wholes: one is a share of a row, the other a share of a column
+
+Ask "percent of what?" before reading a table. Comparing counts across groups of different sizes has the same problem, which is why row or column relative frequencies are used.
+
+Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes).
+
 ## Counting and probability
 
 ### Multiplying probabilities of events that are not independent
@@ -766,7 +1514,7 @@ Right: $P(A \cap B) = P(A)\,P(B \mid A)$ always, and $P(A \cap B) = P(A)\,P(B)$ 
 
 Roll one die, and let $A$ be "even" and $B$ be "at least 4". Then $A \cap B = \{4, 6\}$, so $P(A \cap B) = \frac{2}{6} = \frac{1}{3}$, while $P(A)\,P(B) = \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$. Knowing the roll is even makes "at least 4" more likely ($\frac{2}{3}$ instead of $\frac{1}{2}$), so the events are not independent.
 
-Taught in conditional probability and Bayes' theorem<!-- link: ../05-university-core/07-probability/02-conditional-probability-and-bayes.md -->.
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) andconditional probability and Bayes' theorem<!-- link: ../05-university-core/07-probability/02-conditional-probability-and-bayes.md -->.
 
 ### Swapping the two sides of a conditional probability
 
@@ -797,6 +1545,140 @@ Right: there are $10 - 3 + 1 = 8$
 Subtracting counts the gaps between the numbers, and there is one more number than there are gaps, just as a fence with 7 gaps needs 8 posts. In general there are $b - a + 1$ integers from $a$ to $b$, inclusive. Python's `range(3, 11)` has 8 elements because it leaves out its upper end.
 
 Taught in counting rules<!-- link: ../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md -->.
+
+### Counting a case twice in an "at least one" count
+
+Wrong: a committee of 3 from 6 people must include Ana or Ben, so choose one of them (2 ways) and then 2 others from the remaining 5, giving $2 \cdot \binom{5}{2} = 20$
+
+Right: $\binom{6}{3} - \binom{4}{3} = 20 - 4 = 16$
+
+Committees containing both Ana and Ben are counted twice in the first method, once for each way of calling one of them "first". The complement is cleaner: all committees, minus those with neither.
+
+Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md#edge-cases-and-common-mistakes).
+
+### Writing zero factorial as zero
+
+Wrong: $0! = 0$
+
+Right: $0! = 1$
+
+The recurrence $n! = n \cdot (n-1)!$ gives $1! = 1 \cdot 0!$, so $0!$ must be 1. It also matches the count: there is one way to arrange nothing. In the same way $\binom{n}{0} = 1$.
+
+Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md#edge-cases-and-common-mistakes).
+
+## Sequences and series
+
+### Trusting a pattern from a few terms
+
+Wrong: points on a circle joined by chords cut it into $1, 2, 4, 8, 16$ regions, so six points give 32
+
+Right: six points give 31 regions
+
+A formula that fits the first five cases can fail on the sixth. A guessed pattern needs a proof, and the proof is usually induction.
+
+Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#edge-cases-and-common-mistakes).
+
+### Off-by-one errors in the index of a term
+
+Wrong: the tenth term of a list that starts at index 0 is $a_{10}$
+
+Right: it is $a_9$, because $a_{10}$ is the eleventh term
+
+Decide the starting index before you write a formula, and check the formula on the first term. A list of 10 terms starting at index 0 ends at $a_9$.
+
+Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#edge-cases-and-common-mistakes).
+
+### Counting the terms of a sum as the upper bound minus the lower
+
+Wrong: $\sum_{k=3}^{7} 4$ has $7 - 3 = 4$ terms, so it equals 16
+
+Right: it has $7 - 3 + 1 = 5$ terms, so it equals 20
+
+The sum from $m$ to $n$ has $n - m + 1$ terms. The same slip puts the wrong exponent in the geometric formula: $\sum_{k=0}^{9} 2^k$ has 10 terms, so it is $\frac{1 - 2^{10}}{1 - 2} = 1023$, not 511.
+
+Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#edge-cases-and-common-mistakes).
+
+### Using the formula for the first n whole numbers from a different start
+
+Wrong: $\sum_{k=5}^{20} k = \frac{20 \cdot 21}{2} = 210$
+
+Right: $210 - \sum_{k=1}^{4} k = 210 - 10 = 200$
+
+The formula $\frac{n(n+1)}{2}$ assumes the sum starts at 1. Subtract the part you don't want, and check by the average rule: 16 terms with ends 5 and 20 give $16 \cdot \frac{25}{2} = 200$.
+
+Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#edge-cases-and-common-mistakes).
+
+### Applying the infinite geometric formula when the ratio is too big
+
+Wrong: $1 + 2 + 4 + 8 + \cdots = \frac{1}{1 - 2} = -1$
+
+Right: the series has no sum, because the partial sums $1, 3, 7, 15, \dots$ grow without bound
+
+The formula $\frac{a}{1 - r}$ needs $\lvert r \rvert < 1$. A series with $r = -1$, such as $1 - 1 + 1 - 1 + \cdots$, has partial sums $1, 0, 1, 0, \dots$ and also has no sum.
+
+Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#edge-cases-and-common-mistakes).
+
+## Vectors and matrices
+
+### Adding the lengths of vectors to get the length of the sum
+
+Wrong: $\mathbf{u} = (3, 0)$ and $\mathbf{v} = (0, 4)$ give $\lVert \mathbf{u} + \mathbf{v} \rVert = 3 + 4 = 7$
+
+Right: $\lVert (3, 4) \rVert = 5$
+
+The lengths add only when the vectors point the same way. Otherwise the sum is shorter, because one side of a triangle is shorter than the other two together.
+
+Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#edge-cases-and-common-mistakes).
+
+### Taking the direction angle from the arctangent alone
+
+Wrong: the direction of $(-3, 4)$ is $\arctan\frac{4}{-3} \approx -53.1^\circ$
+
+Right: the vector is in the second quadrant, so the angle is $-53.1^\circ + 180^\circ = 126.9^\circ$
+
+The arctangent of a ratio loses the signs of the components. Look at the signs, or use `math.atan2(b, a)`, which gets the quadrant.
+
+Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#edge-cases-and-common-mistakes).
+
+### Treating the dot product like a vector
+
+Wrong: $\mathbf{u} \cdot \mathbf{v} = \mathbf{u} \cdot \mathbf{w}$ implies $\mathbf{v} = \mathbf{w}$
+
+Right: the dot product is a number, and equal dot products don't make equal vectors
+
+For $\mathbf{u} = (1, 0)$, both $(2, 5)$ and $(2, -7)$ give 2. For the same reason $(\mathbf{u} \cdot \mathbf{v}) \cdot \mathbf{w}$ makes no sense, since it dots a number with a vector.
+
+Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#edge-cases-and-common-mistakes).
+
+### Multiplying matrices entry by entry
+
+Wrong: $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ 3 & 0 \end{pmatrix}$
+
+Right: each entry is a row times a column, and the first entry is $1 \cdot 0 + 2 \cdot 1 = 2$
+
+Entry-by-entry multiplication exists, but it is a different operation and it doesn't compose substitutions. The sizes also decide whether the product exists at all.
+
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
+
+### Assuming that matrix multiplication commutes
+
+Wrong: $AB = BA$, so $(A + B)^2 = A^2 + 2AB + B^2$
+
+Right: in general $AB \ne BA$, and $(A + B)^2 = A^2 + AB + BA + B^2$
+
+This is the one rule of number arithmetic that fails. Whenever you rearrange a product of matrices, check that you haven't swapped two factors.
+
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
+
+### Cancelling a matrix factor
+
+Wrong: $AB = 0$ implies $A = 0$ or $B = 0$
+
+Right: the product of two nonzero matrices can be zero
+
+For example, $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$ is the zero matrix. Cancelling works only with an invertible matrix, by multiplying both sides by its inverse.
+
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
 
 ## Calculus
 
