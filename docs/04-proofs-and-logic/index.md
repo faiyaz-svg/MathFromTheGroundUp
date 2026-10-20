@@ -9,21 +9,21 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Language and notation
+### 1. [Language and notation](01-language-and-notation/index.md)
 
-1. What is a proof (not written yet)
-2. Definitions, theorems, lemmas and corollaries (not written yet)
-3. Proof language: let, suppose, WLOG (not written yet) (fast path)
-4. Reading math symbols (not written yet) (fast path)
+1. [What is a proof](01-language-and-notation/01-what-is-a-proof.md)
+2. [Definitions, theorems, lemmas and corollaries](01-language-and-notation/02-definitions-theorems-lemmas-corollaries.md)
+3. [Proof language: let, suppose, WLOG](01-language-and-notation/03-proof-language-let-suppose-wlog.md) (fast path)
+4. [Reading math symbols](01-language-and-notation/04-reading-math-symbols.md) (fast path)
 
-### 2. Logic and sets
+### 2. [Logic and sets](02-logic-and-sets/index.md)
 
-1. Statements and connectives (not written yet)
-2. Conditionals and biconditionals (not written yet) (fast path)
-3. Truth tables and logical equivalence (not written yet)
-4. Quantifiers (not written yet) (fast path)
-5. Negation and translating English (not written yet) (fast path)
-6. Sets and set operations (not written yet)
+1. [Statements and connectives](02-logic-and-sets/01-statements-and-connectives.md)
+2. [Conditionals and biconditionals](02-logic-and-sets/02-conditionals-and-biconditionals.md) (fast path)
+3. [Truth tables and logical equivalence](02-logic-and-sets/03-truth-tables-and-logical-equivalence.md)
+4. [Quantifiers](02-logic-and-sets/04-quantifiers.md) (fast path)
+5. [Negation and translating English](02-logic-and-sets/05-negation-and-translating-english.md) (fast path)
+6. [Sets and set operations](02-logic-and-sets/06-sets-and-set-operations.md)
 
 ### 3. Core proof methods
 
