@@ -23,7 +23,7 @@ An $n$-th root of $a$ is a number $b$ with $b^n = a$. The principal root $\sqrt[
 
 - Product and quotient rules: $\sqrt[n]{ab} = \sqrt[n]{a}\sqrt[n]{b}$ and $\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$ (for even $n$, with $a, b \ge 0$). There is no rule for a sum.
 - To simplify, divide each exponent in the radicand by the index: the quotient comes out and the remainder stays. For $\sqrt{50x^6y^3}$ with $y \ge 0$ the answer is $5\lvert x^3 \rvert y\sqrt{2y}$.
-- Only radicals with the same index and radicand add: $\sqrt{75} - 2\sqrt{12} = 3\sqrt{3}$.
+- Only radicals with the same index and radicand add: $\sqrt{75} - 2\sqrt{12} + \sqrt{27} = 4\sqrt{3}$.
 - Rationalize $\frac{a}{\sqrt{b}}$ by multiplying top and bottom by $\sqrt{b}$. For $\frac{1}{\sqrt{3} - 1}$, multiply by the conjugate $\sqrt{3} + 1$ to get $\frac{\sqrt{3} + 1}{2}$.
 - Average growth rate over $n$ periods: $\left(\frac{\text{end}}{\text{start}}\right)^{1/n} - 1$.
 
