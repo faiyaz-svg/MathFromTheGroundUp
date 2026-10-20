@@ -70,7 +70,7 @@ Triangles are named by their vertices: $\triangle ABC$ is the triangle with vert
 
 So a triangle with angles $90^\circ$, $45^\circ$ and $45^\circ$ is a right isosceles triangle. Under the "at least two" definition, every equilateral triangle is also isosceles. Drawings mark equal sides with matching tick marks.
 
-Two facts about isosceles triangles get used constantly. The angles opposite the two equal sides, called the base angles, are equal, and if two angles of a triangle are equal, the sides opposite them are equal. More generally, the longest side of a triangle is opposite its largest angle. These are proved in congruence and triangle proofs<!-- link: ../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md -->; this lesson uses them as facts.
+Two facts about isosceles triangles get used constantly. The angles opposite the two equal sides, called the base angles, are equal, and if two angles of a triangle are equal, the sides opposite them are equal. More generally, the longest side of a triangle is opposite its largest angle. These are proved in [congruence and triangle proofs](../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md); this lesson uses them as facts.
 
 ### Polygon angles
 
@@ -122,7 +122,7 @@ This part starts from one fact we accept without proof.
 
 *Corresponding angles postulate.* If a transversal crosses two parallel lines, then the corresponding angles are equal. Conversely, if a transversal crosses two lines and makes a pair of equal corresponding angles, then the lines are parallel.
 
-A postulate (or axiom) is a starting assumption. This one says the same thing as Euclid's parallel postulate: through a point not on a line, there is exactly one line parallel to it. You can't prove it from the other basic facts of flat geometry; definitions, postulates and proof<!-- link: ../../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md --> explains why a theory needs starting points like this. The other parallel-line facts follow from it.
+A postulate (or axiom) is a starting assumption. This one says the same thing as Euclid's parallel postulate: through a point not on a line, there is exactly one line parallel to it. You can't prove it from the other basic facts of flat geometry; [definitions, postulates and proof](../../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md) explains why a theory needs starting points like this. The other parallel-line facts follow from it.
 
 *Theorem.* If a transversal crosses two parallel lines, then (a) alternate interior angles are equal, and (b) co-interior angles are supplementary.
 
@@ -394,7 +394,7 @@ Measuring checks one triangle, and only to the accuracy of your protractor: a me
 
 ### Why is a full turn 360 degrees?
 
-It is a convention, kept because 360 divides evenly by 2, 3, 4, 5, 6, 8, 9, 10, 12 and more, so common fractions of a turn are whole numbers of degrees. Nothing in the proofs depends on it: in a unit where a full turn is 1, the triangle sum would be $\frac{1}{2}$. Calculus uses a different unit, the radian, in which a full turn is $2\pi$ (radians and the unit circle<!-- link: ../../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md -->).
+It is a convention, kept because 360 divides evenly by 2, 3, 4, 5, 6, 8, 9, 10, 12 and more, so common fractions of a turn are whole numbers of degrees. Nothing in the proofs depends on it: in a unit where a full turn is 1, the triangle sum would be $\frac{1}{2}$. Calculus uses a different unit, the radian, in which a full turn is $2\pi$ ([radians and the unit circle](../../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md)).
 ## Practice
 
 ### Warm-up
@@ -519,6 +519,6 @@ Check: $40 + 60 + 80 = 180$, and $40 : 60 : 80$ simplifies to $2 : 3 : 4$ by div
 
 ## Where this shows up
 
-- The angle facts are the tools for the rest of this chapter: [area and circles](02-area-and-circles.md), the proof of [the Pythagorean theorem](04-pythagorean-theorem.md), and similar triangles in [transformations, congruence and similarity](05-transformations-congruence-similarity.md). High school geometry turns the proofs here into two-column proofs (congruence and triangle proofs<!-- link: ../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md -->), and trigonometry starts from the fact that a right triangle's acute angles are complementary (right triangle trigonometry<!-- link: ../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md -->).
+- The angle facts are the tools for the rest of this chapter: [area and circles](02-area-and-circles.md), the proof of [the Pythagorean theorem](04-pythagorean-theorem.md), and similar triangles in [transformations, congruence and similarity](05-transformations-congruence-similarity.md). High school geometry turns the proofs here into two-column proofs ([congruence and triangle proofs](../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md)), and trigonometry starts from the fact that a right triangle's acute angles are complementary ([right triangle trigonometry](../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md)).
 - Computer graphics draws every surface as triangles. A convex polygon with $n$ vertices splits into $n - 2$ triangles exactly as in the proof above, which is how a renderer fills it. The triangle inequality is also one of the rules that every distance function must obey, which matters for nearest-neighbour search and clustering.
 - A robot or a turtle-graphics program that draws a regular $n$-gon turns $360^\circ \div n$ at each corner: the exterior angle sum, used as an algorithm.

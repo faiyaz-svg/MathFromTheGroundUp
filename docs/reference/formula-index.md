@@ -95,7 +95,7 @@ $$
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-It is the Pythagorean theorem applied to the horizontal and vertical gaps. The distance from $(1, 2)$ to $(4, 6)$ is $\sqrt{9 + 16} = 5$. Taught in coordinate geometry and circles<!-- link: ../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md -->; collected in the geometry and proof cheat sheet<!-- link: ../03-high-school/08-geometry-and-proof/index.md -->.
+It is the Pythagorean theorem applied to the horizontal and vertical gaps. The distance from $(1, 2)$ to $(4, 6)$ is $\sqrt{9 + 16} = 5$. Taught in [coordinate geometry and circles](../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md); collected in the [geometry and proof cheat sheet](../03-high-school/08-geometry-and-proof/index.md).
 
 ### Logarithm rules
 
@@ -109,7 +109,7 @@ b^{\log_b x} &= x & \log_b(b^c) &= c
 \end{aligned}
 $$
 
-There is no rule for $\log_b(x + y)$. Taught in logarithms<!-- link: ../03-high-school/07-exponentials-and-logarithms/02-logarithms.md --> and logarithm properties<!-- link: ../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md -->; collected in the exponentials and logarithms cheat sheet<!-- link: ../03-high-school/07-exponentials-and-logarithms/index.md -->.
+There is no rule for $\log_b(x + y)$. Taught in [logarithms](../03-high-school/07-exponentials-and-logarithms/02-logarithms.md) and [logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md); collected in the [exponentials and logarithms cheat sheet](../03-high-school/07-exponentials-and-logarithms/index.md).
 
 ### Arithmetic and geometric series
 
@@ -122,7 +122,7 @@ a + ar + ar^2 + \dots &= \frac{a}{1 - r} && (\lvert r \rvert < 1)
 \end{aligned}
 $$
 
-In the geometric series, $a$ is the first term and $r$ is the common ratio. For example, $2 + 5 + 8 + 11 + 14 = \frac{5(2 + 14)}{2} = 40$, and $1 + \frac{1}{2} + \frac{1}{4} + \dots = \frac{1}{1 - 1/2} = 2$. Taught in summation notation and series<!-- link: ../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md --> and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->; collected in the sequences, series and counting cheat sheet<!-- link: ../03-high-school/11-sequences-series-and-counting/index.md -->.
+In the geometric series, $a$ is the first term and $r$ is the common ratio. For example, $2 + 5 + 8 + 11 + 14 = \frac{5(2 + 14)}{2} = 40$, and $1 + \frac{1}{2} + \frac{1}{4} + \dots = \frac{1}{1 - 1/2} = 2$. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md) and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->; collected in the [sequences, series and counting cheat sheet](../03-high-school/11-sequences-series-and-counting/index.md).
 
 ### Binomial coefficient
 
@@ -132,7 +132,7 @@ $$
 \binom{n}{k} = \frac{n!}{k!\,(n - k)!}
 $$
 
-When order matters, the count is $\frac{n!}{(n - k)!}$ instead. Choosing 2 people from 5 gives $\binom{5}{2} = 10$ pairs, and $\frac{5!}{3!} = 20$ ordered pairs. Taught in counting: permutations and combinations<!-- link: ../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md -->; collected in the sequences, series and counting cheat sheet<!-- link: ../03-high-school/11-sequences-series-and-counting/index.md -->.
+When order matters, the count is $\frac{n!}{(n - k)!}$ instead. Choosing 2 people from 5 gives $\binom{5}{2} = 10$ pairs, and $\frac{5!}{3!} = 20$ ordered pairs. Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md); collected in the [sequences, series and counting cheat sheet](../03-high-school/11-sequences-series-and-counting/index.md).
 
 ### Compound interest
 

@@ -63,7 +63,7 @@ Two figures are **similar** when there is a sequence of rigid motions and dilati
 
 The parts that land on each other are **corresponding** parts. The order of the letters records the match: $\triangle ABC \sim \triangle DEF$ says that $A$ goes to $D$, $B$ to $E$ and $C$ to $F$, so side $AB$ corresponds to $DE$, and $\angle B$ to $\angle E$.
 
-For triangles, a few measurements are enough to decide. These facts are proved in congruence and triangle proofs<!-- link: ../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md --> and similarity<!-- link: ../../03-high-school/08-geometry-and-proof/03-similarity.md -->; this lesson uses them.
+For triangles, a few measurements are enough to decide. These facts are proved in [congruence and triangle proofs](../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md) and [similarity](../../03-high-school/08-geometry-and-proof/03-similarity.md); this lesson uses them.
 
 | Test | Two triangles are | when |
 |---|---|---|
@@ -294,7 +294,7 @@ print()
 print([dilate(q, 2) for q in [(1, 1), (3, 1), (1, 2)]])  # [(2, 2), (6, 2), (2, 4)]
 ```
 
-The second line checks Example 2: the side $BC$ has length $\sqrt{13} \approx 3.606$ before and after. In linear algebra, rotations, reflections and dilations about the origin are written as matrices, and composing them becomes matrix multiplication (matrix basics<!-- link: ../../03-high-school/10-vectors-and-matrices/02-matrix-basics.md -->).
+The second line checks Example 2: the side $BC$ has length $\sqrt{13} \approx 3.606$ before and after. In linear algebra, rotations, reflections and dilations about the origin are written as matrices, and composing them becomes matrix multiplication ([matrix basics](../../03-high-school/10-vectors-and-matrices/02-matrix-basics.md)).
 
 </details>
 
@@ -430,6 +430,6 @@ Check with the numbers: the old area is $10 \times 15 = 150\ \text{cm}^2$, and t
 
 ## Where this shows up
 
-- High school geometry proves the congruence and similarity tests (congruence and triangle proofs<!-- link: ../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md -->, similarity<!-- link: ../../03-high-school/08-geometry-and-proof/03-similarity.md -->), and trigonometry rests on similarity: every right triangle with a $30^\circ$ angle has the same side ratios (right triangle trigonometry<!-- link: ../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md -->). Shifting and stretching graphs uses the same moves ([transformations of functions](../../03-high-school/03-functions/04-transformations-of-functions.md)).
+- High school geometry proves the congruence and similarity tests ([congruence and triangle proofs](../../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md), [similarity](../../03-high-school/08-geometry-and-proof/03-similarity.md)), and trigonometry rests on similarity: every right triangle with a $30^\circ$ angle has the same side ratios ([right triangle trigonometry](../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md)). Shifting and stretching graphs uses the same moves ([transformations of functions](../../03-high-school/03-functions/04-transformations-of-functions.md)).
 - In linear algebra, rotations, reflections and dilations about the origin are linear transformations, written as matrices (linear transformations, kernel and image<!-- link: ../../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md -->). Every 2D and 3D graphics program, game engine and image editor applies them to millions of points.
 - Scaling is behind unit pricing of packages and economies of scale ([volume and surface area](03-volume-and-surface-area.md#faq)), and behind reading maps and floor plans ([proportional relationships](../02-ratios-rates-percents/02-proportional-relationships.md)).

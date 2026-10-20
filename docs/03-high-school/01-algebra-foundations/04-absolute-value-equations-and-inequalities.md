@@ -288,7 +288,7 @@ Distance gives the reason. Being closer than $r$ to $a$ means being on the right
 
 ### Can I solve by squaring both sides?
 
-Sometimes. Since $\lvert u \rvert^2 = u^2$, the equation $\lvert u \rvert = \lvert v \rvert$ is equivalent to $u^2 = v^2$, and that gives the same two cases after factoring. For an inequality like $\lvert 2x - 1 \rvert < 3$, squaring to $(2x - 1)^2 < 9$ is valid but needs quadratic inequalities, which come later in polynomial and rational inequalities<!-- link: ../06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md -->. The case method here is simpler.
+Sometimes. Since $\lvert u \rvert^2 = u^2$, the equation $\lvert u \rvert = \lvert v \rvert$ is equivalent to $u^2 = v^2$, and that gives the same two cases after factoring. For an inequality like $\lvert 2x - 1 \rvert < 3$, squaring to $(2x - 1)^2 < 9$ is valid but needs quadratic inequalities, which come later in [polynomial and rational inequalities](../06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md). The case method here is simpler.
 
 ### Why is the distance between two points $\lvert x - a \rvert$ and not just $x - a$?
 

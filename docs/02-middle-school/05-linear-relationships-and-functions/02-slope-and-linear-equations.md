@@ -336,7 +336,7 @@ No, as long as you use the same order on the top and the bottom. Swapping the po
 
 ### What about perpendicular lines?
 
-Two lines that meet at a right angle, neither of them vertical, have slopes that multiply to $-1$. So if one slope is $m$, the other is $-\frac{1}{m}$, the negative reciprocal. The lines $y = 2x + 1$ and $y = -\frac{1}{2}x + 3$ are perpendicular, since $2 \times (-\frac{1}{2}) = -1$. A horizontal line and a vertical line are also perpendicular, which the rule can't express because the vertical slope is undefined. The proof uses the Pythagorean theorem, in coordinate geometry and circles<!-- link: ../../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md -->.
+Two lines that meet at a right angle, neither of them vertical, have slopes that multiply to $-1$. So if one slope is $m$, the other is $-\frac{1}{m}$, the negative reciprocal. The lines $y = 2x + 1$ and $y = -\frac{1}{2}x + 3$ are perpendicular, since $2 \times (-\frac{1}{2}) = -1$. A horizontal line and a vertical line are also perpendicular, which the rule can't express because the vertical slope is undefined. The proof uses the Pythagorean theorem, in [coordinate geometry and circles](../../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md).
 
 ### Is $y = 3$ a linear equation, even with no $x$ in it?
 

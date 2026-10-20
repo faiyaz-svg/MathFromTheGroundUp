@@ -52,7 +52,7 @@ $$
 \end{aligned}
 $$
 
-The digit $d_i$ sits in position $i$, counting from 0 at the right, and $b^i$ is the **place value** of that position. The symbol $\Sigma$, a capital Greek sigma, means "add up": $\sum_{i=0}^{k} d_i b^i$ says to work out $d_i b^i$ for each $i$ from 0 to $k$ and add the results. Summation notation<!-- link: ../../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md --> covers it properly.
+The digit $d_i$ sits in position $i$, counting from 0 at the right, and $b^i$ is the **place value** of that position. The symbol $\Sigma$, a capital Greek sigma, means "add up": $\sum_{i=0}^{k} d_i b^i$ says to work out $d_i b^i$ for each $i$ from 0 to $k$ and add the results. [Summation notation](../../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md) covers it properly.
 
 In plain words, the base says how much bigger each place is than the one to its right, and each digit says how many of that place you have. Positions start at 0 so that the exponent matches the position, and the rightmost digit counts ones because $b^0 = 1$. For example, $(1011)_2 = 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 11$.
 
@@ -512,4 +512,4 @@ Check: the place values in base 7 are 1, 7, 49, 343 and 2,401, and $2{,}401 + 0 
 
 - Programmers read raw data in hex: memory addresses, bytes in a file, and web colours, where #FF8800 is red 255, green 136 and blue 0 (orange). Octal lives on in Unix permissions such as `chmod 755`.
 - The next lesson, bits and information<!-- link: 02-bits-and-information.md -->, measures information in bits. Later in this chapter binary is the base for two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, floating point<!-- link: 04-floating-point-basics.md --> and bit masks<!-- link: 05-bitwise-operations-and-masks.md -->.
-- Questions like Practice 6 are base-2 logarithms in disguise, and logarithms<!-- link: ../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md --> turns the table lookup into a formula.
+- Questions like Practice 6 are base-2 logarithms in disguise, and [logarithms](../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md) turns the table lookup into a formula.

@@ -461,7 +461,7 @@ With $n$ rolls, $P(\text{at least one six}) = 1 - \left(\frac{5}{6}\right)^n$, s
 
 So you need 13 rolls. Twelve rolls fall just short, at about 0.888.
 
-Check: $0.1122 \times \frac{5}{6} = 0.0935$, which matches the next row. Logarithms solve $\left(\frac{5}{6}\right)^n < 0.1$ without trying values, in logarithms<!-- link: ../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md -->.
+Check: $0.1122 \times \frac{5}{6} = 0.0935$, which matches the next row. Logarithms solve $\left(\frac{5}{6}\right)^n < 0.1$ without trying values, in [logarithms](../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md).
 
 </details>
 
@@ -484,6 +484,6 @@ Check: going back from each ratio, $\frac{1}{1 + 4} = 0.2$ and $\frac{1}{1 + 5} 
 
 ## Where this shows up
 
-- Conditional probability and Bayes' theorem<!-- link: ../../05-university-core/07-probability/02-conditional-probability-and-bayes.md --> handles events that are not independent, such as draws without replacement and medical tests. Counting large sample spaces uses counting: permutations and combinations<!-- link: ../../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md -->, and the averages from [describing data](01-describing-data.md) return as expected values in discrete random variables<!-- link: ../../05-university-core/07-probability/03-discrete-random-variables.md -->.
+- Conditional probability and Bayes' theorem<!-- link: ../../05-university-core/07-probability/02-conditional-probability-and-bayes.md --> handles events that are not independent, such as draws without replacement and medical tests. Counting large sample spaces uses [counting: permutations and combinations](../../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md), and the averages from [describing data](01-describing-data.md) return as expected values in discrete random variables<!-- link: ../../05-university-core/07-probability/03-discrete-random-variables.md -->.
 - In CS, the "at least one" calculation measures system reliability, the chance of a hash collision and the success rate of a randomized algorithm repeated several times (discrete probability<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md -->). Simulations like the one in [In code](#in-code) are how many such probabilities are estimated in practice.
 - Insurance prices and lottery tickets are probability times money, in insurance and expected value<!-- link: ../../08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md -->.

@@ -158,7 +158,7 @@ $$
 \end{array}\right].
 $$
 
-The last row says $24s = 168$, so $s = 7$. The staircase of zeros is the goal, and substituting back up the stairs finishes the job: row 2 gives $m + 21 = 25$, so $m = 4$, and row 1 gives $2c + 12 + 7 = 25$, so $c = 3$. Doing this for any number of equations is Gaussian elimination. Matrix basics<!-- link: ../10-vectors-and-matrices/02-matrix-basics.md --> introduces matrices properly, and systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md --> reads the three cases off the staircase.
+The last row says $24s = 168$, so $s = 7$. The staircase of zeros is the goal, and substituting back up the stairs finishes the job: row 2 gives $m + 21 = 25$, so $m = 4$, and row 1 gives $2c + 12 + 7 = 25$, so $c = 3$. Doing this for any number of equations is Gaussian elimination. [Matrix basics](../10-vectors-and-matrices/02-matrix-basics.md) introduces matrices properly, and systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md --> reads the three cases off the staircase.
 
 ### Applications
 

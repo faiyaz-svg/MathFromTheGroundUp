@@ -267,7 +267,7 @@ Checking only the boundary is not enough. The boundary number makes the two side
 
 When the variable counts whole things, round in the direction the inequality allows, not to the nearest whole number. If $n \le 38.75$ boxes fit in an elevator, then 38 boxes fit and 39 don't. If you need $t \ge 42.9$ hours of work, then you need 43 hours. Practice problems 6 and 8 have both cases.
 
-Multiplying both sides by an expression that contains the variable is a trap, because you don't know its sign, so you don't know whether to reverse. For example, $\frac{1}{x} < 2$ is not the same as $1 < 2x$: the number $x = -1$ satisfies the first, since $-1 < 2$, but not the second. Inequalities of that kind are solved by cases in polynomial and rational inequalities<!-- link: ../../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md -->.
+Multiplying both sides by an expression that contains the variable is a trap, because you don't know its sign, so you don't know whether to reverse. For example, $\frac{1}{x} < 2$ is not the same as $1 < 2x$: the number $x = -1$ satisfies the first, since $-1 < 2$, but not the second. Inequalities of that kind are solved by cases in [polynomial and rational inequalities](../../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md).
 
 A chain such as $3 < x > 5$ is not a compound inequality and has no standard meaning. A chain is written with both symbols pointing the same way, as in $3 < x < 5$, so that it reads as one stretch of the number line.
 

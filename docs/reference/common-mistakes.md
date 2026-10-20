@@ -526,7 +526,7 @@ Right: $\frac{x + 3}{x} = \frac{x}{x} + \frac{3}{x} = 1 + \frac{3}{x}$, for $x \
 
 Cancelling divides the numerator and the denominator by the same number, so it works only on a factor of the whole numerator. Here $x$ is a term of the numerator, not a factor of it. Test with $x = 1$: $\frac{1 + 3}{1} = 4$, not $3$. By contrast, $\frac{3x}{x} = 3$ for $x \ne 0$, because $x$ is a factor of $3x$. The same rule holds for numbers: in $\frac{2}{3} + \frac{3}{5}$ the two 3s don't cancel, because a sum is not a product.
 
-Taught in [multiplying and dividing fractions](../01-elementary/11-multiplying-and-dividing-fractions.md#edge-cases-and-common-mistakes) and rational expressions<!-- link: ../03-high-school/06-rational-expressions-and-equations/01-rational-expressions.md -->.
+Taught in [multiplying and dividing fractions](../01-elementary/11-multiplying-and-dividing-fractions.md#edge-cases-and-common-mistakes) and [rational expressions](../03-high-school/06-rational-expressions-and-equations/01-rational-expressions.md).
 
 ### Subtracting only the first term in brackets
 
@@ -628,7 +628,7 @@ Right: only $x = 2$ is a solution
 
 Squaring gives $x + 2 = x^2$, so $x^2 - x - 2 = 0$ and $(x - 2)(x + 1) = 0$. Squaring can add solutions, because $a = b$ and $a = -b$ both turn into $a^2 = b^2$, so check each candidate in the original equation. For $x = -1$ the left side is $\sqrt{1} = 1$ and the right side is $-1$, so $-1$ is an extraneous root.
 
-Taught in rational and radical equations<!-- link: ../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md -->.
+Taught in [rational and radical equations](../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md).
 
 ### Multiplying an inequality by an expression of unknown sign
 
@@ -638,7 +638,7 @@ Right: $\frac{1}{x} < 2$ exactly when $x < 0$ or $x > \frac{1}{2}$
 
 Multiplying by $x$ keeps the order only when $x > 0$. For $x < 0$ the order flips and gives $1 > 2x$, which every negative $x$ satisfies. Test $x = -1$: $\frac{1}{-1} = -1 < 2$, so it is a solution the wrong method lost. Split into cases by sign, or move every term to one side and use a sign chart.
 
-Taught in polynomial and rational inequalities<!-- link: ../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md -->.
+Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md).
 
 ## Functions and graphs
 
@@ -682,7 +682,7 @@ Right: $\log(ab) = \log a + \log b$, and $\log(a + b)$ doesn't simplify
 
 A logarithm turns multiplication into addition, because exponents add when you multiply powers of the same base. Test with base-10 logarithms: $\log(10 + 10) = \log 20 \approx 1.301$, while $\log 10 + \log 10 = 2$, which is $\log 100$.
 
-Taught in logarithm properties<!-- link: ../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md -->.
+Taught in [logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md).
 
 ### Treating a quotient of logarithms as one logarithm
 
@@ -692,7 +692,7 @@ Right: $\frac{\log 8}{\log 2} = \log_2 8 = 3$
 
 A quotient of two logarithms is the change-of-base formula, $\log_b x = \frac{\log x}{\log b}$. The rule $\log \frac{x}{y} = \log x - \log y$ is about the logarithm of a quotient, which is a different thing. Check: $\log 4 \approx 0.602$ in base 10, but $\frac{\log 8}{\log 2} = 3$ in every base, since $2^3 = 8$.
 
-Taught in logarithm properties<!-- link: ../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md -->.
+Taught in [logarithm properties](../03-high-school/07-exponentials-and-logarithms/03-logarithm-properties.md).
 
 ## Logic and proofs
 
@@ -786,7 +786,7 @@ Right: it is $\binom{5}{2} = \frac{5 \times 4}{2} = 10$
 
 The count $5 \times 4$ lists each committee twice, once as (Ana, Ben) and once as (Ben, Ana). Ask whether swapping two choices gives a different outcome. If it does, as with choosing a president and a vice-president, order matters and $20$ is right; if not, divide out the orderings.
 
-Taught in counting: permutations and combinations<!-- link: ../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md -->.
+Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md).
 
 ### Counting the integers in a range off by one
 

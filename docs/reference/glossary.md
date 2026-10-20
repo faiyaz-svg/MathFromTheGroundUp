@@ -210,7 +210,7 @@ A store's **margin**, or gross margin, is its profit written as a percent of the
 
 A **markup** is the amount a store adds to its cost to get the selling price, usually written as a percent of the cost. The item bought for \$40 and sold for \$50 has a markup of $\frac{10}{40} = 25\%$, while its margin is 20%, because the margin divides the same profit by the bigger price. Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md#definitions).
 
-A **matrix** is a rectangular grid of numbers. One with $m$ rows and $n$ columns is an $m \times n$ matrix. A matrix can hold the coefficients of a system of equations, or describe a linear transformation. Taught in matrix basics<!-- link: ../03-high-school/10-vectors-and-matrices/02-matrix-basics.md -->.
+A **matrix** is a rectangular grid of numbers. One with $m$ rows and $n$ columns is an $m \times n$ matrix. A matrix can hold the coefficients of a system of equations, or describe a linear transformation. Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md).
 
 The **mean** of a list of numbers is their sum divided by how many there are, the ordinary average. The mean of 2, 4 and 9 is $\frac{15}{3} = 5$. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md).
 
@@ -302,7 +302,7 @@ A **real number** is a point on the number line, rational or irrational. The set
 
 The **reciprocal** of a nonzero number $a$ is $\frac{1}{a}$, the number you multiply $a$ by to get 1. It is also called the multiplicative inverse. The reciprocal of $\frac{2}{3}$ is $\frac{3}{2}$, and 0 has no reciprocal. Taught in [multiplying and dividing fractions](../01-elementary/11-multiplying-and-dividing-fractions.md#definitions).
 
-**Recursion** defines something in terms of smaller versions of itself, together with a starting case. The factorial is defined recursively: $0! = 1$, and $n! = n \cdot (n - 1)!$ for $n \ge 1$. Taught in sequences and recursion<!-- link: ../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md --> and recursive definitions and structural induction<!-- link: ../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md -->.
+**Recursion** defines something in terms of smaller versions of itself, together with a starting case. The factorial is defined recursively: $0! = 1$, and $n! = n \cdot (n - 1)!$ for $n \ge 1$. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md) and recursive definitions and structural induction<!-- link: ../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md -->.
 
 **Regrouping** is the step in column arithmetic that changes how a number is split among its places without changing the number, as in 52 = 5 tens + 2 ones = 4 tens + 12 ones. In addition it is called carrying, when a column adds up to 10 or more, and in subtraction it is called borrowing, when a top digit is too small. Taught in [addition and subtraction](../01-elementary/02-addition-and-subtraction.md#definitions).
 
@@ -318,9 +318,9 @@ To **round** a number to a given place is to replace it with the nearest number 
 
 A **scale drawing** is a drawing in which every length is the same multiple of the matching real length, and its scale is the ratio of a length in the drawing to the real length. A map scale of $1:50{,}000$ means that 1 cm on the map stands for 50,000 cm, or 0.5 km, on the ground. Taught in [proportional relationships](../02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md#definitions).
 
-A **sequence** is an ordered list of numbers $a_1, a_2, a_3, \dots$, finite or infinite. Formally it is a function whose domain is a set of natural numbers. Taught in sequences and recursion<!-- link: ../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md -->.
+A **sequence** is an ordered list of numbers $a_1, a_2, a_3, \dots$, finite or infinite. Formally it is a function whose domain is a set of natural numbers. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md).
 
-A **series** is the sum of the terms of a sequence, such as $1 + \frac{1}{2} + \frac{1}{4} + \dots$. An infinite series has a value only when its partial sums approach a limit, and this one approaches 2. Taught in summation notation and series<!-- link: ../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md --> and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->.
+A **series** is the sum of the terms of a sequence, such as $1 + \frac{1}{2} + \frac{1}{4} + \dots$. An infinite series has a value only when its partial sums approach a limit, and this one approaches 2. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md) and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->.
 
 A **set** is a collection of distinct objects, called its elements, in which order and repeats don't matter. Most of university math is built on sets. Taught in sets and set operations<!-- link: ../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md -->.
 
@@ -348,7 +348,7 @@ A set $A$ is a **subset** of a set $B$, written $A \subseteq B$, when every elem
 
 A condition P is **sufficient** for Q when P guarantees Q, which is the statement "if P, then Q". Being divisible by 4 is sufficient for being even. Taught in conditionals and biconditionals<!-- link: ../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md -->.
 
-**Summation** notation writes a long sum compactly: $\sum_{i=1}^{n} a_i$ means $a_1 + a_2 + \dots + a_n$. Taught in summation notation and series<!-- link: ../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md -->.
+**Summation** notation writes a long sum compactly: $\sum_{i=1}^{n} a_i$ means $a_1 + a_2 + \dots + a_n$. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md).
 
 A function $f \colon A \to B$ is **surjective**, or onto, when every element of $B$ is the output of at least one input, so the range equals the codomain. The squaring function from $\mathbb{R}$ to $\mathbb{R}$ is not surjective, since no real number squares to $-1$. Taught in injective, surjective and bijective<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
 
@@ -376,7 +376,7 @@ A **variable** is a symbol, usually a letter, that stands for a number. The numb
 
 The **variance** measures how spread out values are: it is the average squared distance from the mean. For a random variable, $\operatorname{Var}(X) = E[(X - \mu)^2]$, and its square root is the standard deviation. Taught in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md --> and descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
 
-A **vector** is a quantity with a size and a direction, written as a list of numbers such as $(3, 4)$. In linear algebra the word covers every element of a vector space. Taught in vectors in the plane<!-- link: ../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md -->.
+A **vector** is a quantity with a size and a direction, written as a list of numbers such as $(3, 4)$. In linear algebra the word covers every element of a vector space. Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md).
 
 The **volume** of a solid is the number of unit cubes that fill it, measured in cubic units such as $\text{cm}^3$. A rectangular box has volume length times width times height. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#perimeter-area-and-volume) and [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md).
 

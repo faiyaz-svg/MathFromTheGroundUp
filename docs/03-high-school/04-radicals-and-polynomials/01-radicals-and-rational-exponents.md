@@ -332,7 +332,7 @@ Mostly for a standard form. Two expressions are easy to compare, add and check w
 
 ### What does an irrational exponent such as 2 to the power square root of 2 mean?
 
-It is the number that the values $2^{1.4}$, $2^{1.41}$, $2^{1.414}$, and so on get closer and closer to. Each of those has a rational exponent, so each is a root of a power: $2^{1.4} = \sqrt[5]{2^7}$. The exponent rules still hold for the limit. Exponential functions and growth<!-- link: ../07-exponentials-and-logarithms/01-exponential-functions-and-growth.md --> uses this to define $b^x$ for every real $x$.
+It is the number that the values $2^{1.4}$, $2^{1.41}$, $2^{1.414}$, and so on get closer and closer to. Each of those has a rational exponent, so each is a root of a power: $2^{1.4} = \sqrt[5]{2^7}$. The exponent rules still hold for the limit. [Exponential functions and growth](../07-exponentials-and-logarithms/01-exponential-functions-and-growth.md) uses this to define $b^x$ for every real $x$.
 
 ### Python says the cube root of $-8$ is complex. Is $-2$ wrong?
 
@@ -340,7 +340,7 @@ No. The number $-8$ has three cube roots among the complex numbers, namely $-2$ 
 
 ### Is the $n$-th root the only way to undo a power?
 
-For the power function $x \mapsto x^n$ on the positive numbers, yes. The root is its inverse, as the reflection picture shows. For other situations the inverse is a different function: to undo $2^x$ you need a logarithm, which is the topic of logarithms<!-- link: ../07-exponentials-and-logarithms/02-logarithms.md -->.
+For the power function $x \mapsto x^n$ on the positive numbers, yes. The root is its inverse, as the reflection picture shows. For other situations the inverse is a different function: to undo $2^x$ you need a logarithm, which is the topic of [logarithms](../07-exponentials-and-logarithms/02-logarithms.md).
 
 ## Practice
 
@@ -469,6 +469,6 @@ Look back and check: the argument depends on 2 not being a perfect cube. For $\s
 
 ## Where this shows up
 
-- The next lesson, [polynomial arithmetic](02-polynomial-arithmetic.md), starts from the exponents here: a polynomial only has whole-number exponents, and $\sqrt{x} = x^{1/2}$ is not one. [Solving quadratic equations](../05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) uses $\pm\sqrt{\ }$ in the quadratic formula, and rational and radical equations<!-- link: ../06-rational-expressions-and-equations/03-rational-and-radical-equations.md --> solves equations such as $\sqrt{x + 2} = x$ by squaring both sides.
-- In CS, trial division tests whether $n$ is prime using only the divisors up to $\sqrt{n}$, so it takes about $n^{1/2}$ steps instead of $n$. Distance and vector length are square roots of sums of squares (vectors in the plane<!-- link: ../10-vectors-and-matrices/01-vectors-in-the-plane.md -->).
+- The next lesson, [polynomial arithmetic](02-polynomial-arithmetic.md), starts from the exponents here: a polynomial only has whole-number exponents, and $\sqrt{x} = x^{1/2}$ is not one. [Solving quadratic equations](../05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) uses $\pm\sqrt{\ }$ in the quadratic formula, and [rational and radical equations](../06-rational-expressions-and-equations/03-rational-and-radical-equations.md) solves equations such as $\sqrt{x + 2} = x$ by squaring both sides.
+- In CS, trial division tests whether $n$ is prime using only the divisors up to $\sqrt{n}$, so it takes about $n^{1/2}$ steps instead of $n$. Distance and vector length are square roots of sums of squares ([vectors in the plane](../10-vectors-and-matrices/01-vectors-in-the-plane.md)).
 - In finance and economics, an average growth rate over $n$ periods is $\left(\frac{\text{end}}{\text{start}}\right)^{1/n} - 1$, which is the formula in Example 4 (compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> and growth rates and CAGR<!-- link: ../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md -->).

@@ -80,7 +80,7 @@ The first identity also has a picture proof. A square of side $a + b$ has area $
 
 The four areas are $a^2 + ab + ab + b^2$, which is $a^2 + 2ab + b^2$. The picture shows what the algebra hides: the middle term $2ab$ is there because there are two rectangles, and a missing middle term, the common error $(a + b)^2 = a^2 + b^2$, leaves two of the four pieces out. It works for positive $a$ and $b$; the algebra proof works for all numbers.
 
-Cubing a binomial follows from the square: $(a + b)^3 = (a^2 + 2ab + b^2)(a + b) = a^3 + 3a^2b + 3ab^2 + b^3$. The coefficients $1, 3, 3, 1$ continue in a pattern that the binomial theorem<!-- link: ../11-sequences-series-and-counting/04-binomial-theorem.md --> explains for every power.
+Cubing a binomial follows from the square: $(a + b)^3 = (a^2 + 2ab + b^2)(a + b) = a^3 + 3a^2b + 3ab^2 + b^3$. The coefficients $1, 3, 3, 1$ continue in a pattern that [the binomial theorem](../11-sequences-series-and-counting/04-binomial-theorem.md) explains for every power.
 
 ## How to do it
 
@@ -300,7 +300,7 @@ Because $0 = 0x^k$ for every $k$, so there is no largest exponent with a nonzero
 
 ### Is $\frac{1}{x}$ a polynomial? What about $x^{-2}$?
 
-No. A polynomial has only whole-number exponents, so every term is a number times a power like $x^0, x^1, x^2, \ldots$ An expression with a variable in a denominator, such as $\frac{1}{x}$, is a rational expression, and it behaves differently: for example, it has no value at $x = 0$, while every polynomial has a value at every real number. Rational expressions<!-- link: ../06-rational-expressions-and-equations/01-rational-expressions.md --> comes later. Expressions with fractional exponents such as $x^{1/2}$ are covered in the [previous lesson](01-radicals-and-rational-exponents.md).
+No. A polynomial has only whole-number exponents, so every term is a number times a power like $x^0, x^1, x^2, \ldots$ An expression with a variable in a denominator, such as $\frac{1}{x}$, is a rational expression, and it behaves differently: for example, it has no value at $x = 0$, while every polynomial has a value at every real number. [Rational expressions](../06-rational-expressions-and-equations/01-rational-expressions.md) comes later. Expressions with fractional exponents such as $x^{1/2}$ are covered in the [previous lesson](01-radicals-and-rational-exponents.md).
 
 ### Why does the box method give the right answer?
 
@@ -444,6 +444,6 @@ Check: $2000 + 1300 + 190 + 20 = 3510 = 234 \times 15$.
 
 ## Where this shows up
 
-- The next lesson, [factoring polynomials](03-factoring-polynomials.md), reverses the special products, and the one after divides polynomials. [Polynomial functions and graphs](05-polynomial-functions-and-graphs.md) uses degree and leading coefficient to describe a graph. The binomial theorem<!-- link: ../11-sequences-series-and-counting/04-binomial-theorem.md --> extends the cube of a binomial to every power.
+- The next lesson, [factoring polynomials](03-factoring-polynomials.md), reverses the special products, and the one after divides polynomials. [Polynomial functions and graphs](05-polynomial-functions-and-graphs.md) uses degree and leading coefficient to describe a graph. [The binomial theorem](../11-sequences-series-and-counting/04-binomial-theorem.md) extends the cube of a binomial to every power.
 - In CS, Horner's method evaluates polynomial hashes, such as the string hash in the code above. Multiplying two $n$-digit numbers is multiplying two polynomials of about $n$ coefficients, which takes about $n^2$ coefficient products the way this lesson does it, and faster methods such as Karatsuba's algorithm and the fast Fourier transform use this link to multiply larger numbers.
 - In economics, revenue is price times quantity. If demand is $p = 100 - 2q$, revenue is $q(100 - 2q) = 100q - 2q^2$, a quadratic polynomial, and profit is revenue minus cost, a subtraction of polynomials like Example 2.

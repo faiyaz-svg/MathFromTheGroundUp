@@ -116,7 +116,7 @@ Looking back: the proof used the theorem itself on a triangle we built, which is
 | $a^2 + b^2 > c^2$ | acute (so the triangle is acute) | 6, 7, 9: $36 + 49 = 85 > 81$ |
 | $a^2 + b^2 < c^2$ | obtuse | 6, 8, 11: $36 + 64 = 100 < 121$ |
 
-The second and third rows are stated here without proof; the law of cosines proves them (law of sines and law of cosines<!-- link: ../../03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md -->). They make sense: opening the angle between $a$ and $b$ wider than $90^\circ$ pushes their ends apart, so $c$ gets longer.
+The second and third rows are stated here without proof; the law of cosines proves them ([law of sines and law of cosines](../../03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md)). They make sense: opening the angle between $a$ and $b$ wider than $90^\circ$ pushes their ends apart, so $c$ gets longer.
 
 ### The distance between two points
 
@@ -312,7 +312,7 @@ The search compares integers with `==`, which is exact. Testing `math.sqrt(a*a +
 
 ### Does it work for triangles that aren't right?
 
-Not as $a^2 + b^2 = c^2$. For other triangles, the law of cosines adds a correction term that depends on the angle between $a$ and $b$, and the term is zero exactly when that angle is $90^\circ$. So the Pythagorean theorem is the special case of the law of cosines for a right angle (law of sines and law of cosines<!-- link: ../../03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md -->).
+Not as $a^2 + b^2 = c^2$. For other triangles, the law of cosines adds a correction term that depends on the angle between $a$ and $b$, and the term is zero exactly when that angle is $90^\circ$. So the Pythagorean theorem is the special case of the law of cosines for a right angle ([law of sines and law of cosines](../../03-high-school/09-trigonometry/05-law-of-sines-and-cosines.md)).
 
 ### Why is the rearrangement a proof and not just a picture?
 
@@ -433,7 +433,7 @@ $$
 
 Then the area is $\frac{1}{2} \times s \times \frac{\sqrt{3}}{2}s = \frac{\sqrt{3}}{4}s^2$. $\blacksquare$
 
-Looking back: for $s = 2$, the height is $\sqrt{3} \approx 1.73$, a little less than the side, as it should be. The right triangles in the halves have angles $30^\circ$, $60^\circ$ and $90^\circ$ and sides in the ratio $1 : \sqrt{3} : 2$, which comes back in right triangle trigonometry<!-- link: ../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md -->.
+Looking back: for $s = 2$, the height is $\sqrt{3} \approx 1.73$, a little less than the side, as it should be. The right triangles in the halves have angles $30^\circ$, $60^\circ$ and $90^\circ$ and sides in the ratio $1 : \sqrt{3} : 2$, which comes back in [right triangle trigonometry](../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md).
 
 </details>
 
@@ -454,6 +454,6 @@ Check: the $16:9$ screen is about $43.6 \times 24.5$ inches, and $43.6^2 + 24.5^
 
 ## Where this shows up
 
-- [Transformations, congruence and similarity](05-transformations-congruence-similarity.md) uses the distance formula to show that moving a shape doesn't change its lengths. Coordinate geometry and circles<!-- link: ../../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md --> turns the distance formula into the equation of a circle, and trigonometry is built on right triangles (right triangle trigonometry<!-- link: ../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md -->).
+- [Transformations, congruence and similarity](05-transformations-congruence-similarity.md) uses the distance formula to show that moving a shape doesn't change its lengths. [Coordinate geometry and circles](../../03-high-school/08-geometry-and-proof/04-coordinate-geometry-and-circles.md) turns the distance formula into the equation of a circle, and trigonometry is built on right triangles ([right triangle trigonometry](../../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md)).
 - The length of a vector, $\lVert \mathbf{v} \rVert = \sqrt{v_1^2 + \dots + v_n^2}$, is the distance formula in $n$ dimensions (vectors, dot product and span<!-- link: ../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md -->). Machine learning uses this Euclidean distance in nearest-neighbour search and clustering, and least squares regression minimizes a sum of squared distances.
 - In statistics, the standard deviation of a sum of independent quantities adds like the sides of a right triangle: $\sigma^2 = \sigma_1^2 + \sigma_2^2$. That is why the risk of a mix of investments can be less than the risks added up (investing returns and risk<!-- link: ../../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md -->).

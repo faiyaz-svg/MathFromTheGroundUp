@@ -507,5 +507,5 @@ Check: every other point of the line has squared distance $5(x + 2)^2 + 5 > 5$, 
 ## Where this shows up
 
 - The next lesson, [conic sections](05-conic-sections.md), extends the circle equation to ellipses, parabolas and hyperbolas. In trigonometry, the circle $x^2 + y^2 = 1$ defines sine and cosine ([radians and the unit circle](../09-trigonometry/02-radians-and-the-unit-circle.md)).
-- In linear algebra, the distance formula becomes the length of a vector, and "perpendicular" becomes "dot product equal to 0" (vectors in the plane<!-- link: ../10-vectors-and-matrices/01-vectors-in-the-plane.md -->). In machine learning, the distance between points is how nearest-neighbour methods decide what is close.
+- In linear algebra, the distance formula becomes the length of a vector, and "perpendicular" becomes "dot product equal to 0" ([vectors in the plane](../10-vectors-and-matrices/01-vectors-in-the-plane.md)). In machine learning, the distance between points is how nearest-neighbour methods decide what is close.
 - Collision detection in games and maps tests whether the distance between two centres is less than the sum of the radii, which is the circle equation used as an inequality.
