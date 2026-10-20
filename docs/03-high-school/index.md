@@ -4,7 +4,59 @@ Algebra 1 and 2, functions, polynomials, exponentials and logarithms, geometry p
 
 Before this folder: Middle school.
 
-The diagnostic quiz and the cheat sheet for this folder are written together with its lessons.
+## How to use this folder
+
+Take the [diagnostic](diagnostic.md) first, without notes or a calculator. It asks two questions on each of the 42 core lessons and one on each of the 2 optional ones, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
+
+The [Anki deck for this folder](../downloads/anki/03-high-school.apkg) holds the formulas, definitions and theorems that are easy to mix up, such as the quadratic formula, the transformation rules, the logarithm rules, the congruence tests, the unit circle values, the matrix rules and the counting formulas. In Anki desktop choose File, then Import, and [Anki decks](../00-start-here/index.md#anki-decks) covers phones.
+
+## Fast path for a CS student
+
+If you are short on time, these lessons carry the most weight in the later proofs, CS math, university core and economics folders. They are listed in reading order, so each one only needs the ones above it.
+
+| Lesson | Where it comes back |
+|---|---|
+| [Real numbers, axioms and set notation](01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md) | the language of every proof, and sets in discrete math |
+| [Compound inequalities and interval notation](01-algebra-foundations/03-compound-inequalities-and-interval-notation.md) | domains, loop conditions and the limit definitions in calculus |
+| [Absolute value equations and inequalities](01-algebra-foundations/04-absolute-value-equations-and-inequalities.md) | distance and error bounds, and the epsilon-delta definition of a limit |
+| [Systems of linear equations](02-linear-functions-and-systems/02-systems-of-linear-equations.md) | Gaussian elimination in linear algebra, and supply and demand |
+| [Two-variable inequalities and feasible regions](02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md) | linear programming and budget constraints in economics |
+| [What is a function](03-functions/01-what-is-a-function.md) | functions as sets of pairs in proofs, and types in programs |
+| [Composition and inverse functions](03-functions/05-composition-and-inverse-functions.md) | the chain rule, one-to-one and onto maps, and invertible code |
+| [Factoring polynomials](04-radicals-and-polynomials/03-factoring-polynomials.md) | every algebra step in calculus and in solving equations |
+| [Polynomial division and the remainder theorem](04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md) | Horner's method, and the roots of the characteristic equation in linear algebra |
+| [Solving quadratic equations](05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) | optimization, the discriminant, and eigenvalues of a $2 \times 2$ matrix |
+| [Complex numbers](05-quadratics-and-complex-numbers/03-complex-numbers.md) | eigenvalues, the Fourier transform and roots of polynomials |
+| [Exponential functions and growth](07-exponentials-and-logarithms/01-exponential-functions-and-growth.md) | compound interest, running times and exponential growth in calculus |
+| [Logarithms](07-exponentials-and-logarithms/02-logarithms.md) | bits, binary search, $O(\log n)$ and information |
+| [Logarithm properties](07-exponentials-and-logarithms/03-logarithm-properties.md) | log probabilities, log scales and the proofs of algorithm bounds |
+| [Exponential and logarithmic equations](07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md) | solving for time in finance and for the size of an input |
+| [Definitions, postulates and proof](08-geometry-and-proof/01-definitions-postulates-and-proof.md) | the form of a proof, converses and contrapositives |
+| [Radians and the unit circle](09-trigonometry/02-radians-and-the-unit-circle.md) | calculus with trig functions, rotations and graphics |
+| [Vectors in the plane](10-vectors-and-matrices/01-vectors-in-the-plane.md) | the dot product and length in linear algebra and machine learning |
+| [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md) | the whole of linear algebra, and transformations in graphics |
+| [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) | recurrences, induction proofs and the analysis of recursive code |
+| [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) | counting loop steps, geometric series in finance and in calculus |
+| [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) | discrete math, probability and the size of a search space |
+| [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md) | combinatorial proofs, probability distributions and Taylor series |
+
+Chapters 8 and 9 can be skimmed apart from the lessons above, and the two optional lessons (conic sections, and the law of sines and cosines) can be skipped. The rational expressions chapter and the polynomial graphs lesson matter for calculus, so skim them only if the diagnostic questions on them were easy.
+
+## Cheat sheet
+
+Each chapter has a cheat sheet with the rules, tables and common mistakes of its lessons. This is the map.
+
+- [Algebra foundations](01-algebra-foundations/index.md#cheat-sheet) covers set notation, the field axioms, literal equations, interval notation and absolute value.
+- [Linear functions and systems](02-linear-functions-and-systems/index.md#cheat-sheet) covers the forms of a line, systems in two and three unknowns, and feasible regions.
+- [Functions](03-functions/index.md#cheat-sheet) covers domain and range, reading graphs, piecewise functions, transformations, composition and inverses.
+- [Radicals and polynomials](04-radicals-and-polynomials/index.md#cheat-sheet) covers rational exponents, polynomial arithmetic, factoring, division and the remainder theorem, and polynomial graphs.
+- [Quadratics and complex numbers](05-quadratics-and-complex-numbers/index.md#cheat-sheet) covers the forms of a parabola, the quadratic formula and discriminant, and complex arithmetic.
+- [Rational expressions and equations](06-rational-expressions-and-equations/index.md#cheat-sheet) covers simplifying and combining fractions of polynomials, asymptotes, equations with fractions and roots, and sign charts.
+- [Exponentials and logarithms](07-exponentials-and-logarithms/index.md#cheat-sheet) covers growth and decay, the logarithm rules, and solving for an exponent.
+- [Geometry and proof](08-geometry-and-proof/index.md#cheat-sheet) covers postulates and proof form, congruence and similarity tests, coordinate geometry, circles and conics.
+- [Trigonometry](09-trigonometry/index.md#cheat-sheet) covers right triangles, radians and the unit circle, sine and cosine graphs, identities and inverse trig.
+- [Vectors and matrices](10-vectors-and-matrices/index.md#cheat-sheet) covers vector operations, the dot product, matrix products, determinants and inverses.
+- [Sequences, series and counting](11-sequences-series-and-counting/index.md#cheat-sheet) covers arithmetic and geometric sequences, sums, permutations and combinations, and the binomial theorem.
 
 <!-- lessons:start -->
 ## Lessons
