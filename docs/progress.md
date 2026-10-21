@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 139 of 247. New lessons appear here as they are added.
+Lessons written so far: 143 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -239,6 +239,13 @@ Lessons written so far: 139 of 247. New lessons appear here as they are added.
 - [ ] [Integration by parts and trig integrals](05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md)
 - [ ] [Partial fractions and improper integrals](05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md)
 - [ ] [Applications of integrals](05-university-core/04-integrals/06-applications-of-integrals.md)
+
+### Sequences and series
+
+- [ ] [Sequences and their limits](05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md)
+- [ ] [Infinite series basics](05-university-core/05-sequences-and-series/02-infinite-series-basics.md)
+- [ ] [Convergence tests](05-university-core/05-sequences-and-series/03-convergence-tests.md)
+- [ ] [Power series and Taylor series](05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md)
 
 ## CS math
 

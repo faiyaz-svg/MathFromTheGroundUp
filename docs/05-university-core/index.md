@@ -38,12 +38,12 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. [Partial fractions and improper integrals](04-integrals/05-partial-fractions-and-improper-integrals.md)
 6. [Applications of integrals](04-integrals/06-applications-of-integrals.md)
 
-### 5. Sequences and series
+### 5. [Sequences and series](05-sequences-and-series/index.md)
 
-1. Sequences and their limits (not written yet)
-2. Infinite series basics (not written yet)
-3. Convergence tests (not written yet)
-4. Power series and Taylor series (not written yet)
+1. [Sequences and their limits](05-sequences-and-series/01-sequences-and-their-limits.md)
+2. [Infinite series basics](05-sequences-and-series/02-infinite-series-basics.md)
+3. [Convergence tests](05-sequences-and-series/03-convergence-tests.md)
+4. [Power series and Taylor series](05-sequences-and-series/04-power-series-and-taylor-series.md)
 
 ### 6. Linear algebra
 
