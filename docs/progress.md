@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 120 of 247. New lessons appear here as they are added.
+Lessons written so far: 126 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -203,6 +203,20 @@ Lessons written so far: 120 of 247. New lessons appear here as they are added.
 - [ ] [Functions and well-definedness](04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md)
 - [ ] [Injective, surjective and bijective](04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md)
 - [ ] [Cardinality and countability](04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md)
+
+## University core
+
+### Limits and continuity
+
+- [ ] [Limits, intuition and limit laws](05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md)
+- [ ] [The epsilon-delta definition](05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md)
+- [ ] [Continuity, asymptotes and the IVT](05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md)
+
+### Derivatives
+
+- [ ] [The derivative definition](05-university-core/02-derivatives/01-the-derivative-definition.md)
+- [ ] [Differentiation rules](05-university-core/02-derivatives/02-differentiation-rules.md)
+- [ ] [Chain rule, implicit and inverse derivatives](05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md)
 
 ## CS math
 

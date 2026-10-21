@@ -272,6 +272,16 @@ nav:
           - "Cardinality and countability": 04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md
   - "University":
       - 05-university-core/index.md
+      - "Limits and continuity":
+          - 05-university-core/01-limits-and-continuity/index.md
+          - "Limits, intuition and limit laws": 05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md
+          - "The epsilon-delta definition": 05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md
+          - "Continuity, asymptotes and the IVT": 05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md
+      - "Derivatives":
+          - 05-university-core/02-derivatives/index.md
+          - "The derivative definition": 05-university-core/02-derivatives/01-the-derivative-definition.md
+          - "Differentiation rules": 05-university-core/02-derivatives/02-differentiation-rules.md
+          - "Chain rule, implicit and inverse derivatives": 05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md
   - "CS math":
       - 06-cs-math/index.md
       - "Number representation":

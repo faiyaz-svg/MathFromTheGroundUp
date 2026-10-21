@@ -9,17 +9,17 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Limits and continuity
+### 1. [Limits and continuity](01-limits-and-continuity/index.md)
 
-1. Limits, intuition and limit laws (not written yet)
-2. The epsilon-delta definition (not written yet)
-3. Continuity, asymptotes and the IVT (not written yet)
+1. [Limits, intuition and limit laws](01-limits-and-continuity/01-limits-intuition-and-limit-laws.md)
+2. [The epsilon-delta definition](01-limits-and-continuity/02-epsilon-delta-definition.md)
+3. [Continuity, asymptotes and the IVT](01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md)
 
-### 2. Derivatives
+### 2. [Derivatives](02-derivatives/index.md)
 
-1. The derivative definition (not written yet)
-2. Differentiation rules (not written yet)
-3. Chain rule, implicit and inverse derivatives (not written yet)
+1. [The derivative definition](02-derivatives/01-the-derivative-definition.md)
+2. [Differentiation rules](02-derivatives/02-differentiation-rules.md)
+3. [Chain rule, implicit and inverse derivatives](02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md)
 
 ### 3. Applications of derivatives
 
