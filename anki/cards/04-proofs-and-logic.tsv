@@ -1,0 +1,150 @@
+id	front	back	tags
+# Language and notation
+pf-proof-definition	What is a proof?	A finite sequence of statements ending in the claim. Each statement is a hypothesis, a definition or axiom, or follows from earlier ones by a step the reader accepts.	proof-basics
+pf-examples-vs-universal	What can examples do for a "for every" claim, and for a "there exists" claim?	For "for every": one counterexample disproves it, and examples never prove it. For "there exists": one checked example proves it, and a failed example disproves nothing.	proof-basics examples
+pf-pattern-breaks	The expression $n^2 + n + 41$ is prime for $n = 0, \dots, 39$. What happens at $n = 40$?	It equals $41^2 = 1681$, which is composite. A pattern that holds for 40 cases is not a proof.	proof-basics counterexample common-mistake
+pf-reuse-letter	What goes wrong in "let $m = 2k$ and $n = 2k$ be even integers"?	Both numbers are forced to be equal, so the proof covers only $m = n$. Different objects get different letters: $m = 2j$ and $n = 2k$.	proof-basics common-mistake
+pf-defn-even-odd	Define "even" and "odd" for an integer $n$.	Even: $n = 2k$ for some integer $k$. Odd: $n = 2k + 1$ for some integer $k$. So $0$ is even and $-7$ is odd.	definitions parity
+pf-defn-divides	Define $a \mid b$ for integers $a$ and $b$.	$b = ak$ for some integer $k$. So $a \mid 0$ for every $a$, and $0 \mid b$ only when $b = 0$.	definitions divisibility
+pf-divides-direction	Is $3 \mid 12$ the same statement as $12 \mid 3$?	No. The statement $3 \mid 12$ is true ($12 = 3 \cdot 4$) and $12 \mid 3$ is false. The divisor is on the left.	definitions divisibility common-mistake
+pf-defn-prime	Define "prime", and say which of $0$, $1$, $2$ and $-7$ are prime.	An integer $p > 1$ whose only positive divisors are 1 and $p$. Only $2$ is prime.	definitions primes common-mistake
+pf-lemma-vs-corollary	What is the difference between a lemma, a corollary and a conjecture?	A lemma is a proved result used to prove a bigger one. A corollary follows quickly from a result just proved. A conjecture is believed but not proved.	definitions terminology
+pf-defn-if-means-iff	In a definition, what does "if" mean? What does it mean in a theorem?	In a definition, "if" means "if and only if". In a theorem, "if" is one-way.	definitions terminology
+pf-divisibility-chain	If $a \mid b$ and $a \mid c$, what follows about $bx + cy$? And if $a \mid b$ and $b \mid c$?	$a \mid bx + cy$ for all integers $x$ and $y$ (so $a \mid b + c$ and $a \mid b - c$). And $a \mid c$.	divisibility theorems
+pf-arbitrary-vs-specific	What is the difference between "Let $n$ be an integer" and "Let $n = 3$" in a proof?	The first picks an arbitrary integer and covers every integer. The second covers one value only and proves a special case.	proof-language common-mistake
+pf-first-line-by-shape	What is the first line of a proof of a "for every" claim, an "if $P$ then $Q$" claim and a "there exists" claim?	"Let $x$ be ..." (an arbitrary element); "Suppose $P$"; and a choice of witness, "Take $x = \dots$".	proof-language first-lines
+pf-wlog-condition	When is "without loss of generality" allowed?	Only when the claim is unchanged by swapping the objects (a symmetry), and you say why. Prove the one case fully. It is not allowed for "if $ab$ is even, then $a$ is even".	proof-language wlog common-mistake
+pf-type-error	What is a type error in $3 \mid 12 = 4$?	$3 \mid 12$ is a statement, and a statement cannot be equal to a number. Operations build objects and relations build statements.	notation common-mistake
+pf-composition-order	In $f \circ g$, which function is applied first?	$g$. With $f(x) = x + 1$ and $g(x) = 2x$, $(f \circ g)(3) = 7$ and $(g \circ f)(3) = 8$.	notation functions common-mistake
+pf-implies-not-therefore	Is $\Rightarrow$ the same as "therefore"?	No. The expression $P \Rightarrow Q$ is a statement that can be false. "Therefore" says that the line follows from earlier lines.	notation common-mistake
+
+# Logic and sets
+pf-statement-def	What is a statement, and is "$x > 2$" one?	A sentence that is true or false. "$x > 2$" is an open sentence, not a statement, until $x$ is given a value or quantified.	logic statements
+pf-or-inclusive	In math, does "$P$ or $Q$" allow both to be true?	Yes, it is inclusive. "Exactly one" is the exclusive or $P \oplus Q$.	logic connectives common-mistake
+pf-conditional-false-when	When is $P \Rightarrow Q$ false?	Only when $P$ is true and $Q$ is false. In the other three rows it is true.	logic conditionals
+pf-vacuous-truth	Why is "if $1 = 2$, then the moon is cheese" true?	A conditional with a false hypothesis is true (vacuously), because it is only false when $P$ is true and $Q$ is false.	logic conditionals
+pf-only-if	What does "$P$ only if $Q$" say?	$P \Rightarrow Q$, not $Q \Rightarrow P$. "Enter only if you have a ticket" means: if you enter, you have a ticket.	logic conditionals common-mistake
+pf-necessary-sufficient	In $P \Rightarrow Q$, which of $P$ and $Q$ is sufficient and which is necessary?	$P$ is sufficient for $Q$, and $Q$ is necessary for $P$.	logic conditionals
+pf-contrapositive-def	What is the contrapositive of $P \Rightarrow Q$, and how does it compare with the original?	$\neg Q \Rightarrow \neg P$. It is logically equivalent to the original.	logic conditionals contrapositive
+pf-converse-vs-contrapositive	Which of the converse $Q \Rightarrow P$ and the contrapositive $\neg Q \Rightarrow \neg P$ is equivalent to $P \Rightarrow Q$?	The contrapositive. The converse can differ: "if $n$ is divisible by 4, then $n$ is even" is true and its converse is false.	logic conditionals contrapositive common-mistake
+pf-affirming-consequent	From $P \Rightarrow Q$ and $Q$, can you conclude $P$?	No. This is affirming the consequent. If it rains the grass is wet, but wet grass does not mean it rained.	logic conditionals common-mistake
+pf-biconditional-def	What does $P \Leftrightarrow Q$ mean?	$(P \Rightarrow Q) \wedge (Q \Rightarrow P)$: it is true when $P$ and $Q$ have the same truth value. Definitions are biconditionals.	logic conditionals
+pf-tautology	What are a tautology, a contradiction and a satisfiable statement?	A tautology is true in every row of its truth table, a contradiction in none, and a satisfiable statement in at least one row.	logic truth-tables
+pf-logical-equivalence-def	When are two statements logically equivalent?	When their truth-table columns agree in every row. One row where they differ shows they are not equivalent.	logic truth-tables
+pf-de-morgan	State De Morgan's laws for $\neg(P \wedge Q)$ and $\neg(P \vee Q)$.	$\neg(P \wedge Q) \equiv \neg P \vee \neg Q$ and $\neg(P \vee Q) \equiv \neg P \wedge \neg Q$. Flip the connective.	logic equivalences negation common-mistake
+pf-conditional-as-or	Write $P \Rightarrow Q$ using only $\neg$ and $\vee$.	$\neg P \vee Q$.	logic equivalences
+pf-negated-conditional	What is $\neg(P \Rightarrow Q)$?	$P \wedge \neg Q$. The negation of an if-then is an "and", not another if-then.	logic equivalences negation common-mistake
+pf-distributive-logic	State the two distributive laws of $\wedge$ and $\vee$.	$P \wedge (Q \vee R) \equiv (P \wedge Q) \vee (P \wedge R)$ and $P \vee (Q \wedge R) \equiv (P \vee Q) \wedge (P \vee R)$.	logic equivalences
+pf-equiv-vs-iff	What is the difference between $\equiv$ and $\Leftrightarrow$?	The expression $P \Leftrightarrow Q$ is a statement that can be true or false. The claim $P \equiv Q$ says that this statement is true in every row.	logic equivalences common-mistake
+pf-forall-prove	How do you prove $\forall x \in D,\ P(x)$?	Let $x$ be an arbitrary element of $D$ and prove $P(x)$. Checking examples proves nothing.	quantifiers methods
+pf-exists-prove	How do you prove $\exists x \in D,\ P(x)$?	Name one $x$ in $D$ (a witness) and check that $P(x)$ holds.	quantifiers methods
+pf-forall-disprove	How do you show $\forall x\,P(x)$ is false?	Give one counterexample: an $x$ in the domain with $P(x)$ false.	quantifiers methods
+pf-exists-disprove	How do you show $\exists x\,P(x)$ is false?	Show that $P(x)$ fails for an arbitrary $x$. One failed example is not enough.	quantifiers methods common-mistake
+pf-restricted-quantifier-pairing	Which connective goes with a restricted $\forall$, and which with a restricted $\exists$?	$\forall x\,(P(x) \Rightarrow Q(x))$ and $\exists x\,(P(x) \wedge Q(x))$. Writing $\exists x\,(P \Rightarrow Q)$ for "some $P$ is $Q$" is a mistake.	quantifiers common-mistake
+pf-quantifier-order	Compare $\forall x\,\exists y\,(y > x)$ and $\exists y\,\forall x\,(y > x)$ over $\mathbb{R}$.	The first is true ($y = x + 1$) and the second is false. In $\forall x\,\exists y$ the $y$ may depend on $x$.	quantifiers common-mistake
+pf-domain-matters	Is $\forall x,\ x^2 \ge x$ true on $\mathbb{N}$? On $\mathbb{R}$?	True on $\mathbb{N}$, false on $\mathbb{R}$ (at $x = \frac{1}{2}$). The domain is part of the statement.	quantifiers
+pf-negate-forall	Negate $\forall x\,P(x)$.	$\exists x\,\neg P(x)$.	negation quantifiers
+pf-negate-exists	Negate $\exists x\,P(x)$.	$\forall x\,\neg P(x)$.	negation quantifiers
+pf-negate-forall-conditional	Negate $\forall x\,(P(x) \Rightarrow Q(x))$.	$\exists x\,(P(x) \wedge \neg Q(x))$.	negation quantifiers
+pf-negate-limit-form	Negate $\forall \varepsilon\,\exists \delta\,\forall x\,(\dots \Rightarrow \text{error} < \varepsilon)$.	$\exists \varepsilon\,\forall \delta\,\exists x\,(\dots \wedge \text{error} \ge \varepsilon)$. Flip each quantifier, keep the order, and the last comparison flips.	negation quantifiers
+pf-not-all	What is the negation of "all students passed"?	"Some student did not pass", not "no student passed".	negation quantifiers common-mistake
+pf-no-a-is-b	Translate "no $A$ is $B$" and "only $A$'s are $B$'s".	$\forall x\,(A(x) \Rightarrow \neg B(x))$ and $\forall x\,(B(x) \Rightarrow A(x))$.	negation translation
+pf-set-ops-logic	Which logical connective matches $\cup$, $\cap$, $\setminus$, $\subseteq$ and complement?	$\cup$ is $\vee$, $\cap$ is $\wedge$, $A \setminus B$ is $\wedge \neg$, $\subseteq$ is $\Rightarrow$, and the complement is $\neg$.	sets logic
+pf-subset-vs-element	For $S = \{1, \{1\}\}$, which are true: $1 \in S$, $\{1\} \in S$, $\{1\} \subseteq S$?	All three. Elements go with $\in$ and sets with $\subseteq$, but a set can be both an element and a subset. For $T = \{\{1\}, 2\}$, $1 \in T$ is false.	sets common-mistake
+pf-empty-vs-singleton	How do $\emptyset$, $\{\emptyset\}$ and $\{0\}$ differ?	$\emptyset$ has no elements, $\{\emptyset\}$ has one element (the empty set) and $\{0\}$ has one element (the number 0). They are three different sets.	sets common-mistake
+pf-power-set-size	How many elements does $\mathcal{P}(A)$ have if $\lvert A \rvert = n$?	$2^n$, not $2n$. It includes $\emptyset$ and $A$ itself.	sets counting common-mistake
+pf-set-de-morgan	State De Morgan's laws for sets.	$(A \cup B)^c = A^c \cap B^c$ and $(A \cap B)^c = A^c \cup B^c$. A complement needs a universe.	sets equivalences
+
+# Core proof methods
+pf-direct-template	How does a direct proof of "if $P$, then $Q$" start and end?	Start with "Suppose $P$" (with fresh letters for the objects), unpack the definitions, and end with $Q$ in the words of the claim.	direct-proof methods first-lines
+pf-amgm	State the AM-GM inequality for two numbers and the one-line proof.	For $a, b \ge 0$, $\frac{a + b}{2} \ge \sqrt{ab}$, from $(\sqrt{a} - \sqrt{b})^2 \ge 0$. Equality exactly when $a = b$.	direct-proof inequalities
+pf-euclid-hidden-lemma	In Euclid's proof of infinitely many primes, is $p_1 p_2 \cdots p_n + 1$ prime?	Not always: $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 59 \cdot 509$. The proof uses that it has a prime divisor not on the list.	reading-proofs contradiction common-mistake
+pf-composite-divides-product	Is "if $a \mid bc$, then $a \mid b$ or $a \mid c$" true?	Only for prime $a$. For $a = 6$, $6 \mid 2 \cdot 3$ but $6 \nmid 2$ and $6 \nmid 3$.	reading-proofs divisibility counterexample common-mistake
+pf-equality-case-square	How does an equality case help find a proof of $x + \frac{4}{x} \ge 4$?	Equality at $x = 2$ points to the square $(x - 2)^2$: $x + \frac{4}{x} - 4 = \frac{(x - 2)^2}{x}$.	scratch-work inequalities
+pf-cases-steps	What are the steps of a proof by cases?	Choose a split that makes the definitions concrete, say why the cases cover everything, prove each case under its own assumption, then conclude for all.	cases methods
+pf-squares-mod	What remainders can a square leave modulo 3 and modulo 4?	Only 0 or 1 in both cases.	cases modular-arithmetic
+pf-missing-case	A proof of "$x^2 \ge x$ for all real $x$" covers $x \ge 1$ and $x \le 0$. What is wrong?	The cases miss $0 < x < 1$, and the claim is false there ($x = \frac{1}{2}$). Cases must cover everything.	cases common-mistake
+pf-contrapositive-opening	What is the opening line of a contrapositive proof of "if $P$, then $Q$"?	"We prove the contrapositive: if not $Q$, then not $P$." Then suppose not $Q$ and derive not $P$.	contrapositive first-lines
+pf-contrapositive-when	When is the contrapositive a good choice?	When the conclusion is a negative or an "or", or the hypothesis is negative or is about a function of the variable, such as "$n^2$ is even".	contrapositive strategy
+pf-contrapositive-negations	What are the negations of "$n$ is even" (for an integer), "$x$ is rational" and "$P$ or $Q$"?	"$n$ is odd"; "$x$ is irrational"; "not $P$ and not $Q$".	contrapositive negation
+pf-contrapositive-wrong-way	A proof of "if $n^2$ is even, then $n$ is even" starts "Suppose $n$ is even". What did it prove?	The converse. A contrapositive proof starts from "$n$ is odd" and shows that $n^2$ is odd.	contrapositive common-mistake
+pf-contradiction-assume	What do you assume to prove "if $P$, then $Q$" by contradiction?	$P$ and not $Q$. For a plain claim, assume its negation.	contradiction methods
+pf-contradiction-opening	What is the opening line of a proof by contradiction?	"Suppose, for contradiction, that ..." followed by the exact negation of the claim.	contradiction first-lines
+pf-sqrt2-sketch	Outline the proof that $\sqrt{2}$ is irrational.	Suppose $\sqrt{2} = \frac{a}{b}$ in lowest terms. Then $a^2 = 2b^2$, so $a$ is even, then $b$ is even, which contradicts lowest terms.	contradiction irrational
+pf-infinitely-many-primes	Outline the proof that there are infinitely many primes.	For a finite list $p_1, \dots, p_n$, the number $N = p_1 \cdots p_n + 1$ has a prime divisor. It is not on the list, because a listed prime would divide 1.	contradiction primes
+pf-halting-sketch	Outline the proof that no program decides halting.	Given a decider $H$, build $D$ that does the opposite of what $H$ says about $D$ run on its own code. Either answer of $H$ is wrong.	contradiction computability
+pf-contradiction-vs-contrapositive	How do contradiction and the contrapositive differ in their target?	The contrapositive aims at a known target (not $P$). Contradiction aims at any false statement, and you must name both halves of the contradiction.	contradiction contrapositive
+pf-write-open-close	Give the opening and closing lines for a direct proof, a contrapositive proof and a proof by contradiction.	"Let $x$ be ..." and "So ..., as claimed"; "We prove the contrapositive: ..." and "This is the contrapositive, so the claim holds"; "Suppose, for contradiction, ..." and "This contradicts ...; so the claim holds".	writing first-lines
+pf-circular-reasoning	What is circular reasoning in a proof?	Using the claim as a reason for a step. Repair it by starting from something known, such as $(x - y)^2 \ge 0$ to prove $x^2 + y^2 \ge 2xy$.	writing common-mistake
+
+# More proof methods
+pf-iff-halves	What do you assume and show in each half of a proof of $P \Leftrightarrow Q$?	($\Rightarrow$) assume $P$, show $Q$. ($\Leftarrow$) assume $Q$, show $P$. Each half starts from its own hypothesis and may use its own method.	iff methods
+pf-iff-reversible	Which algebra moves are reversible in a chain of equivalences?	Adding or subtracting a number, multiplying or dividing by a nonzero number, and applying a function with an inverse. Squaring (unless both sides are nonnegative) and multiplying by something that can be 0 are not.	iff methods
+pf-iff-squaring	Squaring $\sqrt{2x + 3} = x$ gives $x = 3$ or $x = -1$. Which solves the equation?	Only $x = 3$. At $x = -1$ the left side is $1$ and the right side is $-1$. Squaring is not reversible, so check.	iff extraneous common-mistake
+pf-existence-constructive	What is a constructive existence proof, and what are the non-constructive ones?	Constructive: name a witness and check it. Non-constructive: contradiction, pigeonhole or the intermediate value theorem, with no witness named.	existence methods
+pf-pigeonhole	State the pigeonhole principle.	If more than $k$ objects go into $k$ boxes, some box holds at least two. Among any 5 integers, two differ by a multiple of 4.	existence pigeonhole
+pf-uniqueness-template	How do you prove that at most one $x$ has a property?	Suppose $x$ and $y$ both have it and show $x = y$. "Exactly one" needs an existence part and a uniqueness part.	uniqueness methods
+pf-division-algorithm	State the division algorithm.	For integers $n$ and $d > 0$ there is exactly one pair $q$, $r$ with $n = qd + r$ and $0 \le r < d$. For example, $-17 = 5(-4) + 3$. The remainder is never negative.	existence uniqueness division-algorithm
+pf-set-subset-template	How does a proof of $A \subseteq B$ start?	"Let $x \in A$." Unpack what that means, then reach "$x \in B$". Starting from $x \in B$ proves the wrong direction.	sets methods first-lines common-mistake
+pf-set-equality-template	How does a proof of $A = B$ start?	"We show $A \subseteq B$ and $B \subseteq A$", or a chain of equivalences in which every step is reversible.	sets methods first-lines
+pf-set-venn-not-proof	Is a Venn diagram a proof of a set identity?	No. It finds the answer. A proof takes an arbitrary $x$ and uses the logic laws.	sets methods common-mistake
+pf-set-false-identity	Is $\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(B)$?	No. Take $A = \{1\}$ and $B = \{2\}$: the set $\{1, 2\}$ is in the left side and not in the right.	sets counterexample common-mistake
+pf-counterexample-implication	To disprove "for every $x$, if $P(x)$ then $Q(x)$", what must a counterexample do?	Make $P$ true and $Q$ false. A value where $P$ is false is not a counterexample: $n = 3$ does not refute "if $n$ is even then $4 \mid n^2$".	counterexample common-mistake
+pf-counterexample-existence	How do you disprove "there exists $x$ with $P(x)$"?	Prove that $P$ fails for every $x$. Examples are not enough, and a failed computer search proves nothing.	counterexample common-mistake
+
+# Induction
+pf-induction-principle	State the principle of mathematical induction.	If $P(n_0)$ is true, and $P(k) \Rightarrow P(k + 1)$ for every $k \ge n_0$, then $P(n)$ is true for every $n \ge n_0$.	induction definitions
+pf-induction-template	Give the template of an induction proof.	Claim; "By induction on $n$"; base case (check $n = n_0$); inductive step (let $k \ge n_0$ and suppose $P(k)$, then show $P(k + 1)$); conclusion.	induction first-lines
+pf-induction-hypothesis	What is the inductive hypothesis?	The statement $P(k)$ for one arbitrary $k$, not for all $k$. Write $P(k)$ and $P(k + 1)$ on their own lines.	induction common-mistake
+pf-induction-start-point	For which $n$ is $2^n > n^2$, and where does the induction start?	It holds for $n = 0, 1$, fails for $n = 2, 3, 4$, and holds for all $n \ge 5$. Start at $n = 5$.	induction inequalities
+pf-induction-no-base	The step for "$3 \mid 4^n + 1$" is valid. Is the claim true?	No. The step $4^{k+1} + 1 = 4(4^k + 1) - 3$ works, but $n = 0$ gives 2. A correct step with no base case proves nothing.	induction common-mistake
+pf-induction-loop-invariant	How does induction prove a loop correct?	State an invariant. It is true before the loop (base case), each pass keeps it true (step), and when the loop stops it gives the result.	induction algorithms
+pf-strong-induction-def	What does strong induction assume in the step?	$P(j)$ for every $j$ with $n_0 \le j \le k$, and then it proves $P(k + 1)$.	strong-induction definitions
+pf-strong-base-cases	How do you count the base cases in strong induction?	Find the smallest $k + 1$ where every case cited by the step is at least $n_0$. A step using $P(k)$ and $P(k - 1)$ needs 2 base cases.	strong-induction common-mistake
+pf-postage-bound	With coprime stamps $a < b$, what is the largest unreachable amount?	$ab - a - b$. For stamps of 4 and 5 it is 11, so the claim starts at 12, with 4 base cases.	strong-induction postage
+pf-well-ordering	State the well-ordering principle.	Every nonempty set of natural numbers has a least element. It fails for the integers and for the positive reals.	strong-induction well-ordering
+pf-smallest-counterexample	Outline a smallest counterexample proof.	Suppose the set of failures is nonempty and take its least element $m$. Show $m$ is not a base case, then use the truth of everything below $m$ to reach a contradiction.	well-ordering methods
+pf-structural-induction-def	How does structural induction work?	Prove $P$ for each basis element, and for each clause prove that $P$ for the parts gives $P$ for the new object.	structural-induction methods
+pf-structural-clauses	What is the common error in a structural induction?	Missing a clause, or assuming $P$ for the new object instead of its parts. Handle every clause.	structural-induction common-mistake
+pf-tree-leaves	A full binary tree has $i$ internal nodes. How many leaves?	$i + 1$. In the step, $\ell = \ell_1 + \ell_2 = (i_1 + 1) + (i_2 + 1) = i + 1$, since $i = i_1 + i_2 + 1$.	structural-induction trees
+pf-balanced-counts	Are equal numbers of "(" and ")" enough for a balanced string?	No. The string `)(` has equal counts and is not balanced. Balanced strings have equal counts, but the converse is false.	structural-induction strings common-mistake
+
+# Relations and functions
+pf-relation-def	What is a relation on a set $A$?	A subset $R \subseteq A \times A$. Write $a \mathrel{R} b$ for $(a, b) \in R$.	relations definitions
+pf-reflexive	Define reflexive, and how do you disprove it?	$a \mathrel{R} a$ for all $a \in A$. Disprove it with one $a$ for which $a \not\mathrel{R} a$.	relations properties
+pf-symmetric	Define symmetric.	$a \mathrel{R} b$ implies $b \mathrel{R} a$. Prove it starting with "Suppose $a \mathrel{R} b$".	relations properties
+pf-antisymmetric	Define antisymmetric.	If $a \mathrel{R} b$ and $b \mathrel{R} a$, then $a = b$. Disprove it with two different elements related both ways.	relations properties
+pf-transitive	Define transitive.	If $a \mathrel{R} b$ and $b \mathrel{R} c$, then $a \mathrel{R} c$. Disprove it with a chain that has no shortcut.	relations properties
+pf-antisymmetric-not-symmetric	Is antisymmetric the opposite of symmetric?	No. Equality is both. A one-way arrow plus a two-way pair makes a relation neither.	relations properties common-mistake
+pf-divides-antisymmetric	Is divisibility antisymmetric?	On the positive integers, yes. On $\mathbb{Z}$, no: $2 \mid -2$ and $-2 \mid 2$. The set matters.	relations properties common-mistake
+pf-equivalence-def	Define equivalence relation and equivalence class.	Reflexive, symmetric and transitive. The class of $a$ is $[a] = \{x : x \sim a\}$.	equivalence-relations definitions
+pf-equivalence-class-facts	State the main facts about equivalence classes.	$[a] = [b]$ exactly when $a \sim b$, and two classes are equal or disjoint. The classes form a partition of $A$.	equivalence-relations partitions
+pf-partition-def	Define a partition of $A$.	A set of nonempty blocks that do not overlap and cover $A$. Partitions and equivalence relations on $A$ correspond to each other.	partitions definitions
+pf-class-not-element	Does $[a] = [b]$ mean $a = b$?	No. Modulo 3, $[1] = [4]$. A class is a set of elements, not an element.	equivalence-relations common-mistake
+pf-congruence-classes	How many classes does congruence modulo $n$ have, and where is $-7$ modulo 3?	Exactly $n$ classes, $[0], \dots, [n - 1]$. Since $-7 = 3(-3) + 2$, it is in $[2]$.	equivalence-relations modular-arithmetic
+pf-near-not-equivalence	Is "$\lvert x - y \rvert < 1$" an equivalence relation on $\mathbb{R}$?	No, it is not transitive: $0$ is near $0.6$ and $0.6$ is near $1.2$, but $0$ is not near $1.2$.	equivalence-relations common-mistake
+pf-partial-order-def	Define partial order and total order.	A partial order is reflexive, antisymmetric and transitive. It is total when every two elements are comparable.	partial-orders definitions
+pf-minimal-vs-least	What is the difference between a minimal and a least element?	Minimal: nothing is strictly below it. Least: it is below everything. A least element is minimal, but not the other way round: 2 and 3 are minimal in $\{2, 3, 4, 6\}$ under divisibility, and there is no least.	partial-orders common-mistake
+pf-function-def	Define a function $f \colon A \to B$ as a set of pairs.	A subset of $A \times B$ in which every $a \in A$ has exactly one partner. Equal functions have the same domain, the same codomain and the same values.	functions definitions
+pf-well-defined-test	How do you check that a rule on equivalence classes is well defined?	Take two names for one input and show the outputs agree. The rule $f\!\left(\frac{a}{b}\right) = a + b$ fails: $\frac{1}{2}$ gives 3 and $\frac{2}{4}$ gives 6.	functions well-defined common-mistake
+pf-image-preimage	What is the difference between $f(S)$ and $f^{-1}(T)$?	The image $f(S) = \{f(x) : x \in S\}$ is a set of outputs. The preimage $f^{-1}(T) = \{x : f(x) \in T\}$ is a set of inputs and exists for every function, with no inverse function needed.	functions common-mistake
+pf-injective-def	Define injective and give the proof template.	$f(a) = f(a')$ implies $a = a'$. "Suppose $f(a) = f(a')$ ... so $a = a'$."	injective-surjective definitions
+pf-injective-start-trap	Why is "suppose $a = a'$" the wrong start for injectivity?	It is true for every function and proves nothing. Start from $f(a) = f(a')$.	injective-surjective first-lines common-mistake
+pf-surjective-def	Define surjective and give the proof template.	Every $b \in B$ has an $a \in A$ with $f(a) = b$. "Let $b \in B$. Solve $f(a) = b$; check $a \in A$ and $f(a) = b$."	injective-surjective definitions
+pf-injective-vs-surjective	How do injective and surjective differ, in words?	Injective: different inputs give different outputs (no two inputs share an output). Surjective: every element of the codomain is an output.	injective-surjective common-mistake
+pf-bijective-inverse	When does $f$ have an inverse?	Exactly when $f$ is bijective (injective and surjective), and then the inverse is unique.	injective-surjective inverse
+pf-codomain-matters	Is $f(x) = x^2$ surjective from $\mathbb{R}$ to $\mathbb{R}$?	No, but it is surjective onto $[0, \infty)$. The codomain is part of the question. It is not injective either, since $f(2) = f(-2)$.	injective-surjective common-mistake
+pf-composition-properties	What does injectivity of $g \circ f$ imply, and what does surjectivity of $g \circ f$ imply?	If $g \circ f$ is injective, then $f$ is injective. If $g \circ f$ is surjective, then $g$ is surjective.	injective-surjective composition
+pf-cardinality-def	When do two sets have the same cardinality, and what does $\lvert A \rvert \le \lvert B \rvert$ mean?	When a bijection $A \to B$ exists. And $\lvert A \rvert \le \lvert B \rvert$ means an injection $A \to B$ exists.	cardinality definitions
+pf-countable-def	Define countable.	Finite, or the same size as $\mathbb{N}$: it can be listed with every element at a finite position.	cardinality definitions
+pf-infinite-part-whole	Is the set of even numbers smaller than $\mathbb{N}$?	No. The map $n \mapsto 2n$ is a bijection, so they have the same size. "Part of" does not mean "smaller" for infinite sets.	cardinality common-mistake
+pf-countable-examples	Which of $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{N} \times \mathbb{N}$ and the finite binary strings are countable?	All of them. List $\mathbb{Z}$ as $0, -1, 1, -2, 2, \dots$, and list $\mathbb{Q}$ by a zigzag that skips fractions not in lowest terms.	cardinality countable
+pf-countable-methods	How do you show a set is countable?	List it, or inject it into a countable set. Subsets of countable sets are countable.	cardinality countable
+pf-diagonal-argument	Describe Cantor's diagonal argument.	Given a list of infinite binary sequences, flip the diagonal: $d_n = 1 - s^{(n)}_n$. The new sequence differs from row $n$ at position $n$, so it is on no row.	cardinality diagonal
+pf-cantor-theorem	State Cantor's theorem.	No function $A \to \mathcal{P}(A)$ is onto, because $D = \{a : a \notin f(a)\}$ is missed. So $\lvert A \rvert < \lvert \mathcal{P}(A) \rvert$.	cardinality diagonal
+pf-uncountable-problems	Why do some decision problems have no program?	Programs are finite strings, so there are countably many. Decision problems are subsets of $\Sigma^*$, so there are uncountably many.	cardinality computability
+
+# Putting it together
+pf-mistake-converse	How do you tell that a proof has proved the converse?	It assumes the conclusion of the claim and derives the hypothesis.	proof-checking contrapositive common-mistake
+pf-mistake-one-inclusion	A proof of a set equality shows only $A \subseteq B$. What is wrong?	Equality needs both inclusions. An unused hypothesis often points to the missing half.	proof-checking sets common-mistake
+pf-method-by-shape	What first line fits each: a "for every" claim, a negative claim, an $A = B$ claim and a claim about every $n \ge n_0$?	"Let $x$ be arbitrary"; "Suppose, for contradiction, that ..."; "We show $A \subseteq B$ and $B \subseteq A$"; "By induction on $n$. Base case, $n = n_0$."	proof-strategy first-lines
