@@ -21,22 +21,22 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Differentiation rules](02-derivatives/02-differentiation-rules.md)
 3. [Chain rule, implicit and inverse derivatives](02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md)
 
-### 3. Applications of derivatives
+### 3. [Applications of derivatives](03-applications-of-derivatives/index.md)
 
-1. Rates of change and marginal analysis (not written yet)
-2. Linear approximation and L'Hopital's rule (not written yet)
-3. The mean value theorem and extrema (not written yet)
-4. Concavity and curve sketching (not written yet)
-5. Optimization (not written yet)
+1. [Rates of change and marginal analysis](03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md)
+2. [Linear approximation and L'Hopital's rule](03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md)
+3. [The mean value theorem and extrema](03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md)
+4. [Concavity and curve sketching](03-applications-of-derivatives/04-concavity-and-curve-sketching.md)
+5. [Optimization](03-applications-of-derivatives/05-optimization.md)
 
-### 4. Integrals
+### 4. [Integrals](04-integrals/index.md)
 
-1. Riemann sums and the definite integral (not written yet)
-2. The fundamental theorem of calculus (not written yet)
-3. U-substitution (not written yet)
-4. Integration by parts and trig integrals (not written yet)
-5. Partial fractions and improper integrals (not written yet)
-6. Applications of integrals (not written yet)
+1. [Riemann sums and the definite integral](04-integrals/01-riemann-sums-and-the-definite-integral.md)
+2. [The fundamental theorem of calculus](04-integrals/02-fundamental-theorem-of-calculus.md)
+3. [U-substitution](04-integrals/03-u-substitution.md)
+4. [Integration by parts and trig integrals](04-integrals/04-integration-by-parts-and-trig-integrals.md)
+5. [Partial fractions and improper integrals](04-integrals/05-partial-fractions-and-improper-integrals.md)
+6. [Applications of integrals](04-integrals/06-applications-of-integrals.md)
 
 ### 5. Sequences and series
 

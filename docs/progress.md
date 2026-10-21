@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 128 of 247. New lessons appear here as they are added.
+Lessons written so far: 139 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -222,6 +222,23 @@ Lessons written so far: 128 of 247. New lessons appear here as they are added.
 - [ ] [The derivative definition](05-university-core/02-derivatives/01-the-derivative-definition.md)
 - [ ] [Differentiation rules](05-university-core/02-derivatives/02-differentiation-rules.md)
 - [ ] [Chain rule, implicit and inverse derivatives](05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md)
+
+### Applications of derivatives
+
+- [ ] [Rates of change and marginal analysis](05-university-core/03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md)
+- [ ] [Linear approximation and L'Hopital's rule](05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md)
+- [ ] [The mean value theorem and extrema](05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md)
+- [ ] [Concavity and curve sketching](05-university-core/03-applications-of-derivatives/04-concavity-and-curve-sketching.md)
+- [ ] [Optimization](05-university-core/03-applications-of-derivatives/05-optimization.md)
+
+### Integrals
+
+- [ ] [Riemann sums and the definite integral](05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md)
+- [ ] [The fundamental theorem of calculus](05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md)
+- [ ] [U-substitution](05-university-core/04-integrals/03-u-substitution.md)
+- [ ] [Integration by parts and trig integrals](05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md)
+- [ ] [Partial fractions and improper integrals](05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md)
+- [ ] [Applications of integrals](05-university-core/04-integrals/06-applications-of-integrals.md)
 
 ## CS math
 
