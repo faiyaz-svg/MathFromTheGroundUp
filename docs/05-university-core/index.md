@@ -45,16 +45,16 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 3. [Convergence tests](05-sequences-and-series/03-convergence-tests.md)
 4. [Power series and Taylor series](05-sequences-and-series/04-power-series-and-taylor-series.md)
 
-### 6. Linear algebra
+### 6. [Linear algebra](06-linear-algebra/index.md)
 
-1. Vectors, dot product and span (not written yet)
-2. Systems and Gaussian elimination (not written yet)
-3. Matrix algebra and inverses (not written yet)
-4. Linear independence, basis and dimension (not written yet)
-5. Linear transformations, kernel and image (not written yet)
-6. Determinants (not written yet)
-7. Orthogonality, projections and least squares (not written yet)
-8. Eigenvalues and eigenvectors (not written yet)
+1. [Vectors, dot product and span](06-linear-algebra/01-vectors-dot-product-and-span.md)
+2. [Systems and Gaussian elimination](06-linear-algebra/02-systems-and-gaussian-elimination.md)
+3. [Matrix algebra and inverses](06-linear-algebra/03-matrix-algebra-and-inverses.md)
+4. [Linear independence, basis and dimension](06-linear-algebra/04-linear-independence-basis-and-dimension.md)
+5. [Linear transformations, kernel and image](06-linear-algebra/05-linear-transformations-kernel-and-image.md)
+6. [Determinants](06-linear-algebra/06-determinants.md)
+7. [Orthogonality, projections and least squares](06-linear-algebra/07-orthogonality-projections-and-least-squares.md)
+8. [Eigenvalues and eigenvectors](06-linear-algebra/08-eigenvalues-and-eigenvectors.md)
 
 ### 7. Probability
 

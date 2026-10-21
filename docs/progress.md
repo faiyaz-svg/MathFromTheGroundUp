@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 143 of 247. New lessons appear here as they are added.
+Lessons written so far: 151 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -246,6 +246,17 @@ Lessons written so far: 143 of 247. New lessons appear here as they are added.
 - [ ] [Infinite series basics](05-university-core/05-sequences-and-series/02-infinite-series-basics.md)
 - [ ] [Convergence tests](05-university-core/05-sequences-and-series/03-convergence-tests.md)
 - [ ] [Power series and Taylor series](05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md)
+
+### Linear algebra
+
+- [ ] [Vectors, dot product and span](05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md)
+- [ ] [Systems and Gaussian elimination](05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md)
+- [ ] [Matrix algebra and inverses](05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md)
+- [ ] [Linear independence, basis and dimension](05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md)
+- [ ] [Linear transformations, kernel and image](05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md)
+- [ ] [Determinants](05-university-core/06-linear-algebra/06-determinants.md)
+- [ ] [Orthogonality, projections and least squares](05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md)
+- [ ] [Eigenvalues and eigenvectors](05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md)
 
 ## CS math
 
