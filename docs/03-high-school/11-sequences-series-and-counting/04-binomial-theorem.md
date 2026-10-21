@@ -360,7 +360,7 @@ The row sums are the powers of 2, the probabilities of the coin-flip counts add 
 
 ### Does the binomial theorem work when the exponent is not a whole number?
 
-In a different form, yes. For a real exponent $\alpha$ and $\lvert x \rvert < 1$, $(1+x)^\alpha$ equals an infinite sum $1 + \alpha x + \frac{\alpha(\alpha-1)}{2}x^2 + \cdots$, where the coefficients are built from the product form of $\binom{n}{k}$. It is why $(1+x)^{1/2} \approx 1 + \frac{x}{2}$ for small $x$: the first-order estimate holds for every exponent. The infinite version is part of power series and Taylor series<!-- link: ../../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md -->.
+In a different form, yes. For a real exponent $\alpha$ and $\lvert x \rvert < 1$, $(1+x)^\alpha$ equals an infinite sum $1 + \alpha x + \frac{\alpha(\alpha-1)}{2}x^2 + \cdots$, where the coefficients are built from the product form of $\binom{n}{k}$. It is why $(1+x)^{1/2} \approx 1 + \frac{x}{2}$ for small $x$: the first-order estimate holds for every exponent. The infinite version is part of [power series and Taylor series](../../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md).
 
 ### Why are the rows of Pascal's triangle symmetric?
 

@@ -122,7 +122,7 @@ a + ar + ar^2 + \dots &= \frac{a}{1 - r} && (\lvert r \rvert < 1)
 \end{aligned}
 $$
 
-In the geometric series, $a$ is the first term and $r$ is the common ratio. For example, $2 + 5 + 8 + 11 + 14 = \frac{5(2 + 14)}{2} = 40$, and $1 + \frac{1}{2} + \frac{1}{4} + \dots = \frac{1}{1 - 1/2} = 2$. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md) and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->; collected in the [sequences, series and counting cheat sheet](../03-high-school/11-sequences-series-and-counting/index.md).
+In the geometric series, $a$ is the first term and $r$ is the common ratio. For example, $2 + 5 + 8 + 11 + 14 = \frac{5(2 + 14)}{2} = 40$, and $1 + \frac{1}{2} + \frac{1}{4} + \dots = \frac{1}{1 - 1/2} = 2$. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md) and [infinite series basics](../05-university-core/05-sequences-and-series/02-infinite-series-basics.md); collected in the [sequences, series and counting cheat sheet](../03-high-school/11-sequences-series-and-counting/index.md).
 
 ### Binomial coefficient
 

@@ -176,7 +176,7 @@ $$
 \forall \varepsilon > 0\ \exists N\ \forall n \ge N\ \bigl(\lvert a_n - L \rvert < \varepsilon\bigr).
 $$
 
-This has the same shape as the limit of a function. The input is now the index $n$, "close to the target" is "large enough", and the window size $\delta$ is replaced by the cutoff index $N$. For example, $\frac{1}{n} \to 0$. Given $\varepsilon > 0$, choose an integer $N > \frac{1}{\varepsilon}$. If $n \ge N$, then $\frac{1}{n} \le \frac{1}{N} < \varepsilon$, so $\left\lvert \frac{1}{n} - 0 \right\rvert < \varepsilon$. The sequences chapter<!-- link: ../05-sequences-and-series/01-sequences-and-their-limits.md --> develops this.
+This has the same shape as the limit of a function. The input is now the index $n$, "close to the target" is "large enough", and the window size $\delta$ is replaced by the cutoff index $N$. For example, $\frac{1}{n} \to 0$. Given $\varepsilon > 0$, choose an integer $N > \frac{1}{\varepsilon}$. If $n \ge N$, then $\frac{1}{n} \le \frac{1}{N} < \varepsilon$, so $\left\lvert \frac{1}{n} - 0 \right\rvert < \varepsilon$. The [sequences chapter](../05-sequences-and-series/01-sequences-and-their-limits.md) develops this.
 
 The two ideas connect through a useful fact, which this chapter states without proof: $\lim_{x \to a} f(x) = L$ exactly when, for every sequence of inputs $x_n$ with $x_n \ne a$ and $x_n \to a$, the outputs satisfy $f(x_n) \to L$. In particular, if two sequences of inputs closing in on $a$ give outputs with different limits, then $\lim_{x \to a} f(x)$ does not exist. That is how to prove, as Example 4 does, that $\sin\frac{1}{x}$ has no limit at 0.
 

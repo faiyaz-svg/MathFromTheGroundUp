@@ -165,7 +165,7 @@ Look back: the same idea is behind the factoring identity $1 - r^n = (1 - r)(1 +
 
 Suppose $\lvert r \rvert < 1$. The partial sum after $n$ terms is $S_n = a\,\frac{1 - r^n}{1 - r}$. The only part that changes with $n$ is $r^n$, and for $\lvert r \rvert < 1$ the power $r^n$ gets closer to 0 as $n$ grows: $0.9^{10} \approx 0.35$, $0.9^{50} \approx 0.005$ and $0.9^{100} \approx 0.00003$. So $S_n$ gets closer and closer to $\frac{a}{1 - r}$.
 
-An **infinite series** $\sum_{k=0}^{\infty} a_k$ means the number that the partial sums $S_n$ approach as $n$ grows without bound, when there is such a number. In that case the series **converges** to that number, and otherwise it **diverges**. (The word "approach" is left informal here. Sequences and their limits<!-- link: ../../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md --> and infinite series basics<!-- link: ../../05-university-core/05-sequences-and-series/02-infinite-series-basics.md --> make it precise.) For the geometric series, we get:
+An **infinite series** $\sum_{k=0}^{\infty} a_k$ means the number that the partial sums $S_n$ approach as $n$ grows without bound, when there is such a number. In that case the series **converges** to that number, and otherwise it **diverges**. (The word "approach" is left informal here. [Sequences and their limits](../../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md) and [infinite series basics](../../05-university-core/05-sequences-and-series/02-infinite-series-basics.md) make it precise.) For the geometric series, we get:
 
 $$
 \sum_{k=0}^{\infty} a r^k = \frac{a}{1 - r} \qquad \text{for } \lvert r \rvert < 1.

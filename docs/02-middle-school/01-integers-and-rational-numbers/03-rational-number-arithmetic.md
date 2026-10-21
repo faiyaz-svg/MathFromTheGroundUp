@@ -93,7 +93,7 @@ Apply the method to $x = 0.999\ldots$, whose block is one digit long. Then $10x 
 
 A second argument gives the same answer. Long division shows $\frac{1}{3} = 0.333\ldots$, and multiplying both sides by 3 gives $1 = 0.999\ldots$, since each digit 3 becomes a 9 with nothing to carry.
 
-Both arguments take for granted that an infinite decimal can be multiplied by 10 by shifting it, and that two infinite decimals can be subtracted digit by digit. Both facts are true. The full proof treats $0.999\ldots$ as the infinite sum $\frac{9}{10} + \frac{9}{100} + \frac{9}{1000} + \cdots$, which is done in infinite series basics<!-- link: ../../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->. The FAQ below gives an argument that uses only distance.
+Both arguments take for granted that an infinite decimal can be multiplied by 10 by shifting it, and that two infinite decimals can be subtracted digit by digit. Both facts are true. The full proof treats $0.999\ldots$ as the infinite sum $\frac{9}{10} + \frac{9}{100} + \frac{9}{1000} + \cdots$, which is done in [infinite series basics](../../05-university-core/05-sequences-and-series/02-infinite-series-basics.md). The FAQ below gives an argument that uses only distance.
 
 One result is that every terminating decimal has a second decimal form, ending in repeating 9s: $0.5 = 0.4\overline{9}$, and $2.37 = 2.36\overline{9}$. This book always writes the terminating one.
 
