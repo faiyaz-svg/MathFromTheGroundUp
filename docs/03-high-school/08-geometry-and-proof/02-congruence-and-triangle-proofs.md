@@ -506,4 +506,4 @@ Check: $8^2 + 15^2 = 64 + 225 = 289 = 17^2$.
 
 - The next lesson, [similarity](03-similarity.md), uses the same proof layout with ratios of lengths in place of equal lengths. The SSA case returns in [the law of sines and cosines](../09-trigonometry/05-law-of-sines-and-cosines.md), where it is the ambiguous case.
 - In computer graphics and engineering, rigid motions keep every side and angle, which is what congruence describes. Triangles are the building block of 3D meshes and of bridge trusses because three side lengths fix the shape, which is SSS.
-- Every later proof course reuses the habit of saying what you know, what you want and the plan before the steps, as in how to read a proof<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md -->.
+- Every later proof course reuses the habit of saying what you know, what you want and the plan before the steps, as in [how to read a proof](../../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md).

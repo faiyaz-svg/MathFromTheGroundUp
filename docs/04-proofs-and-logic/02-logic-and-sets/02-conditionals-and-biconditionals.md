@@ -111,7 +111,7 @@ The **biconditional** $P \Leftrightarrow Q$ (read "$P$ if and only if $Q$", ofte
 
 Compare with the table above: the column is T, F, F, T, which is the column of $(P \Rightarrow Q) \wedge (Q \Rightarrow P)$. In plain words, "$P$ if and only if $Q$" packs two statements into one: "$P$ if $Q$" (that is, $Q \Rightarrow P$) and "$P$ only if $Q$" (that is, $P \Rightarrow Q$). So $P$ is both necessary and sufficient for $Q$, and each one implies the other.
 
-Definitions are biconditionals, even when they are written with a plain "if". The definition "an integer is even if it is $2k$ for some integer $k$" means "if and only if", as the geometry lesson noted for midpoints. A theorem that is a biconditional needs a proof in two directions, which is the subject of if and only if proofs<!-- link: ../04-more-proof-methods/01-if-and-only-if-proofs.md -->.
+Definitions are biconditionals, even when they are written with a plain "if". The definition "an integer is even if it is $2k$ for some integer $k$" means "if and only if", as the geometry lesson noted for midpoints. A theorem that is a biconditional needs a proof in two directions, which is the subject of [if and only if proofs](../04-more-proof-methods/01-if-and-only-if-proofs.md).
 
 ## How to do it
 
@@ -310,7 +310,7 @@ Yes, by convention. When a book says "a number is called even if it is twice an 
 
 ### Why is the contrapositive worth so much attention?
 
-Because a statement can be hard to prove as it stands and easy to prove through its contrapositive. To prove "if $n^2$ is even, then $n$ is even", it is simpler to assume $n$ is odd and show $n^2$ is odd. The two proofs are equivalent as a matter of logic, and contrapositive proof<!-- link: ../03-core-proof-methods/05-contrapositive-proof.md --> builds on the table in this lesson.
+Because a statement can be hard to prove as it stands and easy to prove through its contrapositive. To prove "if $n^2$ is even, then $n$ is even", it is simpler to assume $n$ is odd and show $n^2$ is odd. The two proofs are equivalent as a matter of logic, and [contrapositive proof](../03-core-proof-methods/05-contrapositive-proof.md) builds on the table in this lesson.
 
 ## Practice
 
@@ -451,5 +451,5 @@ Check the last point: for $x = -4$, the original has hypothesis T and conclusion
 ## Where this shows up
 
 - The next lesson, [truth tables and logical equivalence](03-truth-tables-and-logical-equivalence.md), proves the equivalences used here, including $P \Rightarrow Q \equiv \neg P \vee Q$. [Negation and translating English](05-negation-and-translating-english.md) negates a conditional.
-- Nearly every theorem is a conditional, so the proof methods use this lesson directly: direct proof<!-- link: ../03-core-proof-methods/01-direct-proof.md --> assumes the hypothesis and derives the conclusion, contrapositive proof<!-- link: ../03-core-proof-methods/05-contrapositive-proof.md --> proves the equivalent contrapositive, and counterexamples and disproof<!-- link: ../04-more-proof-methods/04-counterexamples-and-disproof.md --> breaks a conditional with the one false row.
+- Nearly every theorem is a conditional, so the proof methods use this lesson directly: [direct proof](../03-core-proof-methods/01-direct-proof.md) assumes the hypothesis and derives the conclusion, [contrapositive proof](../03-core-proof-methods/05-contrapositive-proof.md) proves the equivalent contrapositive, and [counterexamples and disproof](../04-more-proof-methods/04-counterexamples-and-disproof.md) breaks a conditional with the one false row.
 - In programming, a loop invariant is a conditional that must hold before and after each step, and a precondition and postcondition pair says "if the input satisfies the precondition, then the output satisfies the postcondition". In economics, "if the price rises, quantity demanded falls" is a conditional that a model must either assume or prove.

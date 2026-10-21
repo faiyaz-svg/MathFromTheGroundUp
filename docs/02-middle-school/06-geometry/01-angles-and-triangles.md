@@ -484,7 +484,7 @@ Check with the interior sum: $(15 - 2) \times 180^\circ = 2340^\circ$, and $2340
 <details class="solution" markdown>
 <summary>Solution</summary>
 
-This proof uses contradiction: we assume the statement is false and show that the assumption leads to something impossible (proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md --> covers the method).
+This proof uses contradiction: we assume the statement is false and show that the assumption leads to something impossible ([proof by contradiction](../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md) covers the method).
 
 What we know: the three angles of a triangle add to $180^\circ$, and each angle is greater than $0^\circ$.
 

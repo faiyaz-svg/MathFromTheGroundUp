@@ -155,7 +155,7 @@ When $y = kx$, the number $k$ is the **constant of proportionality**. It is the 
 
 A **constant term** is a term with no variable, such as the 7 in $4x^2 - x + 7$. Its value stays the same whatever the variable is. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md#definitions).
 
-The **contrapositive** of "if P, then Q" is "if not Q, then not P". It is logically equivalent to the original, so proving one proves the other. Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements) and [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and contrapositive proof<!-- link: ../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md -->.
+The **contrapositive** of "if P, then Q" is "if not Q, then not P". It is logically equivalent to the original, so proving one proves the other. Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements) and [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and [contrapositive proof](../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md).
 
 A series **converges** when its partial sums approach a limit, and it diverges otherwise. An infinite geometric series converges to $\frac{a}{1 - r}$ exactly when $\lvert r \rvert < 1$, which is why $0.999\ldots = 1$. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#the-infinite-geometric-series) and infinite series basics<!-- link: ../05-university-core/05-sequences-and-series/02-infinite-series-basics.md -->.
 
@@ -177,7 +177,7 @@ The **cosine** of an acute angle in a right triangle is the adjacent side divide
 
 A set is **countable** when its elements can be listed in a sequence $a_0, a_1, a_2, \dots$, which may be finite. The integers and the rational numbers are countable, and the real numbers are not. Some books use "countable" only for infinite sets; the formal definition is in cardinality and countability<!-- link: ../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md -->.
 
-A **counterexample** is one case that makes a statement about every case false. The number 2 is a counterexample to "every prime is odd", and $3 - 10 \ne 10 - 3$ is a counterexample to "subtraction is commutative". Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements), [properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division) and counterexamples and disproof<!-- link: ../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+A **counterexample** is one case that makes a statement about every case false. The number 2 is a counterexample to "every prime is odd", and $3 - 10 \ne 10 - 3$ is a counterexample to "subtraction is commutative". Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements), [properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division) and [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md).
 
 **CPCTC** stands for "corresponding parts of congruent triangles are congruent". It is the definition of congruent triangles read in the other direction, and it can be cited only after the triangles are proved congruent. Taught in [congruence and triangle proofs](../03-high-school/08-geometry-and-proof/02-congruence-and-triangle-proofs.md#definitions).
 
@@ -367,7 +367,7 @@ An **identity** is an equation that is true for every value of its variables, su
 
 The **identity matrix** $I$ is the square matrix with 1 on the diagonal from top left to bottom right and 0 elsewhere. It satisfies $AI = IA = A$, so it plays the role of the number 1. Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#definitions).
 
-**Iff** is short for "if and only if". "P iff Q" means that P and Q imply each other, so they are true together or false together. A proof of an iff statement usually has two parts, one for each direction. Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and if and only if proofs<!-- link: ../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md -->.
+**Iff** is short for "if and only if". "P iff Q" means that P and Q imply each other, so they are true together or false together. A proof of an iff statement usually has two parts, one for each direction. Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and [if and only if proofs](../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md).
 
 The **image** of a figure under a transformation is the figure it is moved to. For a function $f$, the image of a set $S$ of inputs is the set $f(S)$ of their outputs, and the image of the whole domain is the range. Taught in [transformations, congruence and similarity](../02-middle-school/06-geometry/05-transformations-congruence-similarity.md#definitions) and [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#definitions).
 
@@ -897,7 +897,7 @@ A definition is **well-defined** when it gives exactly one result and doesn't de
 
 The **whole numbers** are 0, 1, 2, 3 and so on: the counting numbers together with zero. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 
-**WLOG** is short for "without loss of generality". It means the proof handles one case because the other cases work the same way, often after renaming: "WLOG, assume $a \le b$". Taught in [proof language: let, suppose, WLOG](../04-proofs-and-logic/01-language-and-notation/03-proof-language-let-suppose-wlog.md) and proof by cases and WLOG<!-- link: ../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md -->.
+**WLOG** is short for "without loss of generality". It means the proof handles one case because the other cases work the same way, often after renaming: "WLOG, assume $a \le b$". Taught in [proof language: let, suppose, WLOG](../04-proofs-and-logic/01-language-and-notation/03-proof-language-let-suppose-wlog.md) and [proof by cases and WLOG](../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md).
 
 ## Z
 

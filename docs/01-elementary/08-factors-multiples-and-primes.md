@@ -112,7 +112,7 @@ These are the 25 primes under 100:
 
 The primes thin out as numbers grow (there are 25 under 100, but only 21 from 100 to 200), yet they never run out: there are infinitely many primes.
 
-We want to show that no finite list contains every prime. Euclid's argument is a proof by contradiction<!-- link: ../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->: it assumes the opposite and shows that this leads to something impossible. Suppose some finite list held every prime. Multiply all the primes on it together and add 1, and call the result $N$. Dividing $N$ by any prime on the list leaves remainder 1, so no prime on the list is a factor of $N$. But $N$ is bigger than 1, so it has a prime factorization, which needs a prime that is not on the list, and that contradicts the assumption.
+We want to show that no finite list contains every prime. Euclid's argument is a [proof by contradiction](../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md): it assumes the opposite and shows that this leads to something impossible. Suppose some finite list held every prime. Multiply all the primes on it together and add 1, and call the result $N$. Dividing $N$ by any prime on the list leaves remainder 1, so no prime on the list is a factor of $N$. But $N$ is bigger than 1, so it has a prime factorization, which needs a prime that is not on the list, and that contradicts the assumption.
 
 Watch out: the argument doesn't say that $N$ is prime. For the list 2, 3, 5, 7, 11, 13 it gives $N = 30{,}031 = 59 \times 509$, and both of those are primes missing from the list.
 

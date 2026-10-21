@@ -72,7 +72,7 @@ Steps 1 to 3 change the expressions on each side into equivalent expressions, an
 2. no solution, if $a = 0$ and $b \ne 0$,
 3. every number as a solution, if $a = 0$ and $b = 0$.
 
-We know the both-sides theorem from [one- and two-step equations](03-one-and-two-step-equations.md#why-the-same-operation-on-both-sides-keeps-the-solutions) and the zero property, $0 \cdot x = 0$ for every $x$. We want the solution set of $ax = b$ in every case. The plan is a proof by cases: either $a \ne 0$ or $a = 0$, and proving the result in each case covers every possibility (proof by cases and WLOG<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md -->).
+We know the both-sides theorem from [one- and two-step equations](03-one-and-two-step-equations.md#why-the-same-operation-on-both-sides-keeps-the-solutions) and the zero property, $0 \cdot x = 0$ for every $x$. We want the solution set of $ax = b$ in every case. The plan is a proof by cases: either $a \ne 0$ or $a = 0$, and proving the result in each case covers every possibility ([proof by cases and WLOG](../../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md)).
 
 *Proof.* Suppose first that $a \ne 0$. Then dividing both sides by $a$ is allowed, and it gives the equivalent equation $x = \frac{b}{a}$. Its only solution is $\frac{b}{a}$, so the same is true of $ax = b$.
 

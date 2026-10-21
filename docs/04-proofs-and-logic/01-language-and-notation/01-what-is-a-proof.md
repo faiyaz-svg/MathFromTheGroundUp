@@ -78,7 +78,7 @@ Two more words. A proof is **rigorous** when every step can be justified by a de
 
 ### A method for a first proof
 
-Many of the first claims you will prove have the shape "if $P$, then $Q$", where $P$ is the hypothesis and $Q$ the conclusion, as in [conditional statements](../../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements). The method below handles these. The lesson on direct proof<!-- link: ../03-core-proof-methods/01-direct-proof.md --> gives it a full treatment.
+Many of the first claims you will prove have the shape "if $P$, then $Q$", where $P$ is the hypothesis and $Q$ the conclusion, as in [conditional statements](../../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements). The method below handles these. The lesson on [direct proof](../03-core-proof-methods/01-direct-proof.md) gives it a full treatment.
 
 1. Write down the claim in the form "if $P$, then $Q$", and say which part is the hypothesis and which the conclusion. Test it on one or two small cases, to see that it is plausible and to see what the numbers look like.
 2. Introduce the objects. Name each thing the hypothesis talks about with a letter, and say what kind of thing it is: "Let $m$ and $n$ be even integers."
@@ -467,6 +467,6 @@ Check: $n = 387$ has digit sum $18 = 9 \times 2$, and $387 = 9 \times 43$. The f
 
 ## Where this shows up
 
-- The next lesson, [definitions, theorems, lemmas and corollaries](02-definitions-theorems-lemmas-corollaries.md), names the parts of a mathematical text, and [proof language](03-proof-language-let-suppose-wlog.md) lists the phrases you used in the proofs above. The method of this lesson is developed in direct proof<!-- link: ../03-core-proof-methods/01-direct-proof.md -->, and a proof that fails to cover every case is the first thing to look for in common proof mistakes<!-- link: ../07-putting-it-together/01-common-proof-mistakes.md -->.
+- The next lesson, [definitions, theorems, lemmas and corollaries](02-definitions-theorems-lemmas-corollaries.md), names the parts of a mathematical text, and [proof language](03-proof-language-let-suppose-wlog.md) lists the phrases you used in the proofs above. The method of this lesson is developed in [direct proof](../03-core-proof-methods/01-direct-proof.md), and a proof that fails to cover every case is the first thing to look for in common proof mistakes<!-- link: ../07-putting-it-together/01-common-proof-mistakes.md -->.
 - In CS courses, invariants and algorithm correctness<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md --> proves that a loop or a recursive function is right for every input, and reductions and undecidability<!-- link: ../../06-cs-math/06-theory-of-computation/06-reductions-and-undecidability.md --> proves that one problem is as hard as another. The loop-invariant argument above is mathematical induction<!-- link: ../05-induction/01-mathematical-induction.md --> in disguise.
 - In economics, results are proved from stated assumptions: profit maximization and market structure<!-- link: ../../07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md --> derives the best price or quantity, and the proof shows which assumption it depends on.

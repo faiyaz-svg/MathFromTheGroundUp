@@ -78,7 +78,7 @@ Step 5: this theorem has no natural converse to test, so here is a smaller one. 
 
 </div>
 
-A proof is read the same way, one line at a time, with one more question at each line: which hypothesis or earlier result does this line use? The lesson how to read a proof<!-- link: ../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md --> in 04-proofs-and-logic practises this.
+A proof is read the same way, one line at a time, with one more question at each line: which hypothesis or earlier result does this line use? The lesson [how to read a proof](../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md) in 04-proofs-and-logic practises this.
 
 ## Reading notation
 

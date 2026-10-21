@@ -374,7 +374,7 @@ So the answer is no. One counterexample is enough to disprove a statement that b
 
 Check: $41 \times 43 = 1763$, and $41^2 + 82 = 1681 + 82 = 1763$.
 
-Moves used: small cases (which mislead here), and a special case chosen from the structure. The lesson on counterexamples and disproof<!-- link: ../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md --> comes back to this.
+Moves used: small cases (which mislead here), and a special case chosen from the structure. The lesson on [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md) comes back to this.
 
 </details>
 

@@ -312,7 +312,7 @@ They are signposts for the reader. A theorem is the result you should remember, 
 
 ### Why does a definition not need a proof?
 
-A definition is a decision about how to use a word, not a claim about the world, so nothing in it can be true or false. What does need checking is that a definition makes sense. For instance, a definition that says "the number $x$ such that $x^2 = 4$" is faulty, because there are two such numbers, 2 and $-2$. A definition that picks a single object has to show that one exists and that only one does, which is the topic of existence and uniqueness proofs<!-- link: ../04-more-proof-methods/02-existence-and-uniqueness-proofs.md -->.
+A definition is a decision about how to use a word, not a claim about the world, so nothing in it can be true or false. What does need checking is that a definition makes sense. For instance, a definition that says "the number $x$ such that $x^2 = 4$" is faulty, because there are two such numbers, 2 and $-2$. A definition that picks a single object has to show that one exists and that only one does, which is the topic of [existence and uniqueness proofs](../04-more-proof-methods/02-existence-and-uniqueness-proofs.md).
 
 ### Why is 1 not prime?
 

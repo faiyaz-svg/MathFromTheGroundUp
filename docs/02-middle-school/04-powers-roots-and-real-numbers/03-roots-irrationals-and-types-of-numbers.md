@@ -118,7 +118,7 @@ The guess in Step 3 comes from $(n + h)^2 = n^2 + 2nh + h^2$. When $h$ is small,
 
 We know the definition of a rational number, and that every fraction can be written in simplest form, with numerator and denominator sharing no factor other than 1 ([fractions and equivalent fractions](../../01-elementary/09-fractions-and-equivalent-fractions.md)). We want to show that no fraction of integers equals $\sqrt{2}$.
 
-This is a proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->. We can't check every fraction one by one, since there are infinitely many. So we assume the opposite, that $\sqrt{2}$ is a fraction, and follow that assumption step by step until it says something impossible. An assumption that leads to something impossible must be false.
+This is a [proof by contradiction](../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md). We can't check every fraction one by one, since there are infinitely many. So we assume the opposite, that $\sqrt{2}$ is a fraction, and follow that assumption step by step until it says something impossible. An assumption that leads to something impossible must be false.
 
 First, one fact about even numbers. An integer $n$ is even when $n = 2k$ for some integer $k$, and odd when $n = 2k + 1$.
 
@@ -475,5 +475,5 @@ Check (a): $0.6667^2 = 0.4445$, close to $0.4444$.
 ## Where this shows up
 
 - [The Pythagorean theorem](../06-geometry/04-pythagorean-theorem.md) finds lengths with square roots, and the distance between two points is a square root of a sum of squares. [Radicals and rational exponents](../../03-high-school/04-radicals-and-polynomials/01-radicals-and-rational-exponents.md) writes $\sqrt{a}$ as $a^{1/2}$, and [solving quadratic equations](../../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) uses both square roots at once, $\pm\sqrt{\ }$.
-- The proof by contradiction here is the model for many proofs in proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->, and the sets $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R}$ are the default domains of every university course.
+- The proof by contradiction here is the model for many proofs in [proof by contradiction](../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md), and the sets $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R}$ are the default domains of every university course.
 - In statistics the standard deviation is the square root of an average of squares (descriptive statistics and study design<!-- link: ../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->). In code, a float stores a rational approximation of $\sqrt{2}$, which is why `math.sqrt(2) ** 2` misses 2 (floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->).

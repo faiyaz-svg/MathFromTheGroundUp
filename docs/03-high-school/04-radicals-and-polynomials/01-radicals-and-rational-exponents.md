@@ -450,7 +450,7 @@ Check: $27^{2/3} = 9$ and $(-27)^{2/3} = (-3)^2 = 9$. For (b), $4^{3/2} = 8$.
 
 </details>
 
-8\. (Reviews [roots, irrational numbers and types of numbers](../../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).) Prove that $\sqrt[3]{2}$ is irrational. First prove that if $n^3$ is even then $n$ is even, then imitate the proof for $\sqrt{2}$ (a proof by contradiction<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md -->).
+8\. (Reviews [roots, irrational numbers and types of numbers](../../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).) Prove that $\sqrt[3]{2}$ is irrational. First prove that if $n^3$ is even then $n$ is even, then imitate the proof for $\sqrt{2}$ (a [proof by contradiction](../../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md)).
 
 <details class="solution" markdown>
 <summary>Solution</summary>

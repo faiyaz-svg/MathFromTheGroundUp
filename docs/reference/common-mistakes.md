@@ -1308,7 +1308,7 @@ Right: it is equivalent to its contrapositive, "if $x^2 \le 4$, then $x \le 2$"
 
 The statement in the wrong line is the inverse, and it fails at $x = -3$, where $x \le 2$ but $(-3)^2 = 9 > 4$. The contrapositive negates both parts and swaps them; the inverse negates them without swapping. A proof by contrapositive has to start from "not Q".
 
-Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and contrapositive proof<!-- link: ../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md -->.
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md) and [contrapositive proof](../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md).
 
 ### Negating a statement about every case
 
@@ -1328,7 +1328,7 @@ Right: examples can't prove a claim about every $n$. This claim is false: for $n
 
 The formula gives a prime for every $n$ from $0$ to $39$ and still fails at $40$. To prove a claim for every $n$, take an arbitrary $n$ and argue from the definitions. Examples do settle the opposite question, since one counterexample disproves a claim about every case. The same holds for algebra: $x^2 + 2$ and $3x$ agree at $x = 1$ and $x = 2$, but they are not equivalent expressions.
 
-Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#edge-cases-and-common-mistakes),[properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division), [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#why-isnt-checking-a-few-values-enough), common proof mistakes<!-- link: ../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md --> and counterexamples and disproof<!-- link: ../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#edge-cases-and-common-mistakes),[properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division), [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#why-isnt-checking-a-few-values-enough), common proof mistakes<!-- link: ../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md --> and [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md).
 
 ### Assuming what you want to prove
 
@@ -1338,7 +1338,7 @@ Right: start from a known fact, $(a - b)^2 \ge 0$, expand it to $a^2 - 2ab + b^2
 
 Reaching a true statement from the claim proves nothing, because a false claim can lead to a true one: $-1 = 1$ is false, but squaring both sides gives $1 = 1$. Working backward is fine as scratch work for finding the steps. The written proof has to run forward from known facts, with each step following from the ones before it.
 
-Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#why-not-do-the-same-to-both-sides) andscratch work and proof strategies<!-- link: ../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md -->.
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#why-not-do-the-same-to-both-sides) and[scratch work and proof strategies](../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md).
 
 ### Skipping the base case in induction
 

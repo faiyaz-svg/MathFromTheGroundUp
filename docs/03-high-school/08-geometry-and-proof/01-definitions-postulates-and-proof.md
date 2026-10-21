@@ -504,5 +504,5 @@ Check: a $3$-$4$-$5$ triangle has acute angles of about $36.9^\circ$ and $53.1^\
 ## Where this shows up
 
 - The next lessons in this chapter use this layout throughout: [congruence and triangle proofs](02-congruence-and-triangle-proofs.md), [similarity](03-similarity.md) and [coordinate geometry and circles](04-coordinate-geometry-and-circles.md).
-- Every proof course, from discrete math to analysis, uses hypotheses and conclusions, converses and counterexamples. They are developed further in [what is a proof](../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md) and counterexamples and disproof<!-- link: ../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+- Every proof course, from discrete math to analysis, uses hypotheses and conclusions, converses and counterexamples. They are developed further in [what is a proof](../../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md) and [counterexamples and disproof](../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md).
 - In computer science, a postulate is an axiom of a formal system, and a proof checker accepts a proof only when each line follows from earlier lines by a stated rule, which is the two-column layout made precise.

@@ -374,7 +374,7 @@ If a test passes for many random values, it is evidence and not proof. A functio
 
 ### Why can't I square both sides to prove an identity?
 
-Because squaring loses information: $a$ and $-a$ have the same square, so from $a^2 = b^2$ you can only conclude $a = \pm b$. A proof must be a chain where each statement follows from the last and the last is what you wanted. If you start from the claim, your chain ends at something true, and that shows only that the claim implies something true, which many false claims do. The details are in [Why not do the same to both sides](#why-not-do-the-same-to-both-sides) above; the proof methods here connect to direct proof<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md --> in the proofs chapter.
+Because squaring loses information: $a$ and $-a$ have the same square, so from $a^2 = b^2$ you can only conclude $a = \pm b$. A proof must be a chain where each statement follows from the last and the last is what you wanted. If you start from the claim, your chain ends at something true, and that shows only that the claim implies something true, which many false claims do. The details are in [Why not do the same to both sides](#why-not-do-the-same-to-both-sides) above; the proof methods here connect to [direct proof](../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md) in the proofs chapter.
 
 ### Why is the inverse sine's range $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ and not $[0, \pi]$?
 

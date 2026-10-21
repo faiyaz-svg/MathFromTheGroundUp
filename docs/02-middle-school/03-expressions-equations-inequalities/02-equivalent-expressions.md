@@ -119,7 +119,7 @@ We know the properties in the table above. We want to show that $3(x + 4) - 2x$ 
 | $\qquad = 1x + 12$ | arithmetic: $3 + (-2) = 1$ |
 | $\qquad = x + 12$ | identity property of multiplication |
 
-Look back: no step used a particular value of $x$, so the equation holds for every $x$, and it is an identity. With practice you will merge several rows into one line, as the worked examples below do, but each merged line still rests on rules like these. University proofs are written in sentences rather than tables; direct proof<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md --> shows how.
+Look back: no step used a particular value of $x$, so the equation holds for every $x$, and it is an identity. With practice you will merge several rows into one line, as the worked examples below do, but each merged line still rests on rules like these. University proofs are written in sentences rather than tables; [direct proof](../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md) shows how.
 
 ### Testing whether two expressions are equivalent
 
@@ -440,5 +440,5 @@ Check (a) at $p = 40$: a 25% increase gives 50, and 20% off 50 gives 40. Check (
 ## Where this shows up
 
 - Every step of solving an equation replaces one side with an equivalent expression or one equation with an equivalent equation, starting in the next lesson, [one- and two-step equations](03-one-and-two-step-equations.md).
-- A chain of equalities with a reason for each link is the shape of many university proofs, such as proofs of trigonometric identities and of formulas for sums (direct proof<!-- link: ../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md -->). Disproving a claim with one value is counterexamples and disproof<!-- link: ../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md -->.
+- A chain of equalities with a reason for each link is the shape of many university proofs, such as proofs of trigonometric identities and of formulas for sums ([direct proof](../../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md)). Disproving a claim with one value is [counterexamples and disproof](../../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md).
 - Compilers rewrite expressions to make code faster, such as `x*2 + x*3` into `x*5`, and each rewrite must be equivalent for every input. Floating-point numbers break some of the properties, so GCC won't regroup floating-point sums unless a flag such as `-ffast-math` allows it (floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->).

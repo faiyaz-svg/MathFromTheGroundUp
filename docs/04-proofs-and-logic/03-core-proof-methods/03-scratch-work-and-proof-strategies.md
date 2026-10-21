@@ -71,15 +71,15 @@ Write the final proof as a new document. Don't copy the scratch work, and never 
 | The claim has the shape | Usual first move | Taught in |
 |---|---|---|
 | for every $x$ in $S$, $P(x)$ | Let $x$ be an arbitrary element of $S$, and prove $P(x)$. | [direct proof](01-direct-proof.md) |
-| there exists $x$ with $P(x)$ | Find a witness, then check it. If you can't build one, argue indirectly. | existence and uniqueness proofs<!-- link: ../04-more-proof-methods/02-existence-and-uniqueness-proofs.md --> |
+| there exists $x$ with $P(x)$ | Find a witness, then check it. If you can't build one, argue indirectly. | [existence and uniqueness proofs](../04-more-proof-methods/02-existence-and-uniqueness-proofs.md) |
 | if $P$, then $Q$ | Suppose $P$ and derive $Q$. If $P$ gives little to use, try the contrapositive. | [direct proof](01-direct-proof.md), [contrapositive proof](05-contrapositive-proof.md) |
 | not $P$, or a negative word ("irrational", "no", "does not divide") | Assume $P$ is true and look for something false. | [proof by contradiction](06-proof-by-contradiction.md) |
 | $P$ or $Q$ | Assume $P$ is false and prove $Q$, or split into cases. | [proof by cases](04-proof-by-cases-and-wlog.md) |
 | $P$ and $Q$ | Prove each part separately. | any of the methods above |
-| $P$ if and only if $Q$ | Prove "if $P$ then $Q$", then "if $Q$ then $P$", or chain equivalences. | if and only if proofs<!-- link: ../04-more-proof-methods/01-if-and-only-if-proofs.md --> |
-| there is exactly one $x$ | Prove that one exists, then assume two exist and show they are equal. | existence and uniqueness proofs<!-- link: ../04-more-proof-methods/02-existence-and-uniqueness-proofs.md --> |
-| $A \subseteq B$, or $A = B$ | Let $x$ be in $A$ and show $x$ is in $B$ (and the reverse for equality). | proofs about sets<!-- link: ../04-more-proof-methods/03-proofs-about-sets.md --> |
-| the statement is false (you must disprove it) | Find one example where the hypothesis holds and the conclusion fails. | counterexamples and disproof<!-- link: ../04-more-proof-methods/04-counterexamples-and-disproof.md --> |
+| $P$ if and only if $Q$ | Prove "if $P$ then $Q$", then "if $Q$ then $P$", or chain equivalences. | [if and only if proofs](../04-more-proof-methods/01-if-and-only-if-proofs.md) |
+| there is exactly one $x$ | Prove that one exists, then assume two exist and show they are equal. | [existence and uniqueness proofs](../04-more-proof-methods/02-existence-and-uniqueness-proofs.md) |
+| $A \subseteq B$, or $A = B$ | Let $x$ be in $A$ and show $x$ is in $B$ (and the reverse for equality). | [proofs about sets](../04-more-proof-methods/03-proofs-about-sets.md) |
+| the statement is false (you must disprove it) | Find one example where the hypothesis holds and the conclusion fails. | [counterexamples and disproof](../04-more-proof-methods/04-counterexamples-and-disproof.md) |
 | for every $n \ge 1$, a claim built step by step | Prove the first case, and prove that each case gives the next. | mathematical induction<!-- link: ../05-induction/01-mathematical-induction.md --> |
 
 A claim often has more than one shape. "For every integer $n$, if $n^2$ is even, then $n$ is even" is a "for every" statement whose body is an "if-then", and the body is the part that needs a method.

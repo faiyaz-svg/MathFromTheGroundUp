@@ -241,7 +241,7 @@ The shape of the claim tells you what the first line of the proof is. Write that
 | $P$ or $Q$ | "Suppose $P$ is false" and prove $Q$, or split into cases. |
 | $P$ if and only if $Q$ | "Forward direction: suppose $P$ ..." and then "Backward direction: suppose $Q$ ..." |
 
-The last two rows are developed in proof by cases and WLOG<!-- link: ../03-core-proof-methods/04-proof-by-cases-and-wlog.md --> and if and only if proofs<!-- link: ../04-more-proof-methods/01-if-and-only-if-proofs.md -->.
+The last two rows are developed in [proof by cases and WLOG](../03-core-proof-methods/04-proof-by-cases-and-wlog.md) and [if and only if proofs](../04-more-proof-methods/01-if-and-only-if-proofs.md).
 
 A reader-friendly habit: end every proof with a sentence that repeats the claim in the words of the theorem ("So $mn$ is odd"), and then the end mark. It lets the reader check that you proved what you set out to prove.
 
@@ -424,6 +424,6 @@ Check: $5 + 5 = 10$, and each sentence in the paragraph matches one row of the o
 
 ## Where this shows up
 
-- The next lesson, [reading math symbols](04-reading-math-symbols.md), turns the same phrases into symbols, and the core methods start with direct proof<!-- link: ../03-core-proof-methods/01-direct-proof.md --> and how to write a proof<!-- link: ../03-core-proof-methods/07-how-to-write-a-proof.md -->, which apply this phrasebook to whole proofs. Proof by cases and WLOG<!-- link: ../03-core-proof-methods/04-proof-by-cases-and-wlog.md --> returns to the last phrase in detail.
+- The next lesson, [reading math symbols](04-reading-math-symbols.md), turns the same phrases into symbols, and the core methods start with [direct proof](../03-core-proof-methods/01-direct-proof.md) and [how to write a proof](../03-core-proof-methods/07-how-to-write-a-proof.md), which apply this phrasebook to whole proofs. [Proof by cases and WLOG](../03-core-proof-methods/04-proof-by-cases-and-wlog.md) returns to the last phrase in detail.
 - Proof assistants such as Lean use the same moves as commands: introducing an arbitrary object (`intro`), taking a witness out of an existence statement (`obtain`), and splitting into cases. A formal proof is a written proof in which every "let", "suppose" and "so" is checked by a program.
 - In economics, "without loss of generality, normalize the price of good 2 to 1" is a WLOG. It is valid when multiplying every price by the same positive number changes no choice, so one price can be fixed at 1 without losing any case.

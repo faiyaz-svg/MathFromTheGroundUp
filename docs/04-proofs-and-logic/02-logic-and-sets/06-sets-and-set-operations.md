@@ -27,7 +27,7 @@ A university registrar has two lists: the students taking CS 101 and the student
 
 Sets give a precise language for such lists, and the language is closely tied to the logic of the first lessons in this chapter. A student is in the "both" list when "taking CS and taking economics" is true of them. A student is in the "at least one" list when the "or" statement is true, and in the "neither" list when "not (CS or economics)" is true. Every operation on sets is a connective in disguise, which is why De Morgan's laws for statements come back as De Morgan's laws for sets, with the same proof.
 
-This lesson sets up the vocabulary (union, intersection, difference, complement, power set, product), and then uses the link to logic to prove identities about sets. The harder proofs about sets, with subsets and equality, get their own lesson later (proofs about sets<!-- link: ../04-more-proof-methods/03-proofs-about-sets.md -->).
+This lesson sets up the vocabulary (union, intersection, difference, complement, power set, product), and then uses the link to logic to prove identities about sets. The harder proofs about sets, with subsets and equality, get their own lesson later ([proofs about sets](../04-more-proof-methods/03-proofs-about-sets.md)).
 
 ## Definitions
 
@@ -518,6 +518,6 @@ Check: $2 \in \{1, 2, 3\}$ and $2 \notin \{1, 3, 5\}$, so that example needs onl
 
 ## Where this shows up
 
-- The next chapter uses sets all the time: proofs about sets<!-- link: ../04-more-proof-methods/03-proofs-about-sets.md --> develops the element arguments of this lesson into a full method, and relations and their properties<!-- link: ../06-relations-and-functions/01-relations-and-their-properties.md --> defines a relation as a subset of a Cartesian product. Functions and well-definedness<!-- link: ../06-relations-and-functions/04-functions-and-well-definedness.md --> uses the same idea for a function.
+- The next chapter uses sets all the time: [proofs about sets](../04-more-proof-methods/03-proofs-about-sets.md) develops the element arguments of this lesson into a full method, and relations and their properties<!-- link: ../06-relations-and-functions/01-relations-and-their-properties.md --> defines a relation as a subset of a Cartesian product. Functions and well-definedness<!-- link: ../06-relations-and-functions/04-functions-and-well-definedness.md --> uses the same idea for a function.
 - Counting and probability are built on this lesson. Events in probability are subsets of a sample space, and the formula for $\lvert A \cup B \rvert$ becomes $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ in sample spaces, events and axioms<!-- link: ../../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md -->.
 - In programming, Python sets and the set operations in databases (SQL's `UNION`, `INTERSECT` and `EXCEPT`) are the operations of this lesson, and a SQL `JOIN` builds a subset of a Cartesian product. In economics, a consumer's budget set (the bundles of goods they can afford) is a set, and the bundles they like at least as much as a given one form another set; their intersection is the set of affordable bundles that are at least as good.
