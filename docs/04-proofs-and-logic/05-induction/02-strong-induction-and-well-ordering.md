@@ -313,7 +313,7 @@ It sometimes does, as Example 2 showed. The "strong" part only enlarges the hypo
 
 ### Is well-ordering a theorem or an assumption?
 
-Either, depending on the course. If you start from the axiom of ordinary induction, well-ordering is a theorem, and the circle of three principles shows that each can serve as the axiom. In a first proofs course it is usually stated and used without proof.
+Either, depending on the course. If you start from the axiom of ordinary induction, well-ordering is a theorem, and the circle of three principles shows that any one of them can be taken as the axiom. In a first proofs course it is usually stated and used without proof.
 
 ### Does a smallest counterexample proof have to be written as a contradiction?
 

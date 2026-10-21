@@ -346,7 +346,7 @@ Watch out for a missing base case. Let $P(n)$ be "$4^n + 1$ is divisible by 3". 
 
 <div class="warning" markdown>
 
-Watch out for a base case that doesn't support the step. The step must work for every $k$ from the base case on, starting with $k = n_0$ itself. In Example 5, the step is valid from $k = 3$, but the base case is $n = 5$ because $P(3)$ and $P(4)$ are false. The opposite slip is worse: a step that quietly needs $k \ge 2$, attached to a base case at $n = 1$, leaves the jump from 1 to 2 unproved. Practice problem 7 (the horses) is a famous false proof with exactly this gap.
+Watch out for a base case that doesn't support the step. The step must work for every $k$ from the base case on, starting with $k = n_0$ itself. In Example 5, the step is valid from $k = 3$, but the base case is $n = 5$ because $P(3)$ and $P(4)$ are false. The opposite slip is worse: a step that secretly needs $k \ge 2$, attached to a base case at $n = 1$, leaves the jump from 1 to 2 unproved. Practice problem 7 (the horses) is a famous false proof with exactly this gap.
 
 </div>
 
