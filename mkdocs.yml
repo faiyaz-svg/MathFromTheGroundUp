@@ -228,6 +228,7 @@ nav:
           - "The binomial theorem": 03-high-school/11-sequences-series-and-counting/04-binomial-theorem.md
   - "Proofs":
       - 04-proofs-and-logic/index.md
+      - Diagnostic: 04-proofs-and-logic/diagnostic.md
       - "Language and notation":
           - 04-proofs-and-logic/01-language-and-notation/index.md
           - "What is a proof": 04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md
