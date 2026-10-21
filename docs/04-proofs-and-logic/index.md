@@ -25,22 +25,22 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. [Negation and translating English](02-logic-and-sets/05-negation-and-translating-english.md) (fast path)
 6. [Sets and set operations](02-logic-and-sets/06-sets-and-set-operations.md)
 
-### 3. Core proof methods
+### 3. [Core proof methods](03-core-proof-methods/index.md)
 
-1. Direct proof (not written yet) (fast path)
-2. How to read a proof (not written yet) (fast path)
-3. Scratch work and proof strategies (not written yet) (fast path)
-4. Proof by cases and WLOG (not written yet)
-5. Contrapositive proof (not written yet)
-6. Proof by contradiction (not written yet) (fast path)
-7. How to write a proof (not written yet) (fast path)
+1. [Direct proof](03-core-proof-methods/01-direct-proof.md) (fast path)
+2. [How to read a proof](03-core-proof-methods/02-how-to-read-a-proof.md) (fast path)
+3. [Scratch work and proof strategies](03-core-proof-methods/03-scratch-work-and-proof-strategies.md) (fast path)
+4. [Proof by cases and WLOG](03-core-proof-methods/04-proof-by-cases-and-wlog.md)
+5. [Contrapositive proof](03-core-proof-methods/05-contrapositive-proof.md)
+6. [Proof by contradiction](03-core-proof-methods/06-proof-by-contradiction.md) (fast path)
+7. [How to write a proof](03-core-proof-methods/07-how-to-write-a-proof.md) (fast path)
 
-### 4. More proof methods
+### 4. [More proof methods](04-more-proof-methods/index.md)
 
-1. If and only if proofs (not written yet)
-2. Existence and uniqueness proofs (not written yet)
-3. Proofs about sets (not written yet) (fast path)
-4. Counterexamples and disproof (not written yet)
+1. [If and only if proofs](04-more-proof-methods/01-if-and-only-if-proofs.md)
+2. [Existence and uniqueness proofs](04-more-proof-methods/02-existence-and-uniqueness-proofs.md)
+3. [Proofs about sets](04-more-proof-methods/03-proofs-about-sets.md) (fast path)
+4. [Counterexamples and disproof](04-more-proof-methods/04-counterexamples-and-disproof.md)
 
 ### 5. Induction
 

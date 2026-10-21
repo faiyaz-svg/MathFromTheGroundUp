@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 100 of 247. New lessons appear here as they are added.
+Lessons written so far: 111 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -171,6 +171,23 @@ Lessons written so far: 100 of 247. New lessons appear here as they are added.
 - [ ] [Quantifiers](04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md)
 - [ ] [Negation and translating English](04-proofs-and-logic/02-logic-and-sets/05-negation-and-translating-english.md)
 - [ ] [Sets and set operations](04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md)
+
+### Core proof methods
+
+- [ ] [Direct proof](04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md)
+- [ ] [How to read a proof](04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md)
+- [ ] [Scratch work and proof strategies](04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md)
+- [ ] [Proof by cases and WLOG](04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md)
+- [ ] [Contrapositive proof](04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md)
+- [ ] [Proof by contradiction](04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md)
+- [ ] [How to write a proof](04-proofs-and-logic/03-core-proof-methods/07-how-to-write-a-proof.md)
+
+### More proof methods
+
+- [ ] [If and only if proofs](04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md)
+- [ ] [Existence and uniqueness proofs](04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md)
+- [ ] [Proofs about sets](04-proofs-and-logic/04-more-proof-methods/03-proofs-about-sets.md)
+- [ ] [Counterexamples and disproof](04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md)
 
 ## CS math
 
