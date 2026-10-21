@@ -61,7 +61,7 @@ A **basis** of a vector space is a set of vectors that are linearly independent 
 
 A **biconditional** is the statement "$P$ if and only if $Q$", which says that "if $P$, then $Q$" and its converse are both true. A definition is a biconditional. Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements).
 
-A function is **bijective**, or a bijection, when it is both injective and surjective: every element of the codomain is the output of exactly one input. A bijection pairs up the domain and the codomain one to one, so it has an inverse. Taught in injective, surjective and bijective<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
+A function is **bijective**, or a bijection, when it is both injective and surjective: every element of the codomain is the output of exactly one input. A bijection pairs up the domain and the codomain one to one, so it has an inverse. Taught in [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md).
 
 **Binary** is base 2: numbers written with only the digits 0 and 1, where the places are worth $1, 2, 4, 8, \dots$ from the right. Computers store all data in binary. Taught in [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md).
 
@@ -83,7 +83,7 @@ A **byte** is 8 bits, enough for $2^8 = 256$ different values, from 0 to 255. Ta
 
 ## C
 
-The **cardinality** of a set is the number of elements in it, written $\lvert A \rvert$. For infinite sets it is defined by comparing sets with bijections; the formal version is in cardinality and countability<!-- link: ../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md -->.
+The **cardinality** of a set is the number of elements in it, written $\lvert A \rvert$. For infinite sets it is defined by comparing sets with bijections; the formal version is in [cardinality and countability](../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md).
 
 The **Cartesian product** $A \times B$ of two sets is the set of all ordered pairs $(a, b)$ with $a$ in $A$ and $b$ in $B$. A function from $A$ to $B$ is a subset of $A \times B$ in which each $a$ appears exactly once. Taught in [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#definitions).
 
@@ -175,7 +175,7 @@ A **corollary** is a result that follows quickly from a theorem that was just pr
 
 The **cosine** of an acute angle in a right triangle is the adjacent side divided by the hypotenuse. For any angle $\theta$, it is the $x$-coordinate of the point at angle $\theta$ on the unit circle. Taught in [right triangle trigonometry](../03-high-school/09-trigonometry/01-right-triangle-trigonometry.md#definitions) and [radians and the unit circle](../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md#definitions).
 
-A set is **countable** when its elements can be listed in a sequence $a_0, a_1, a_2, \dots$, which may be finite. The integers and the rational numbers are countable, and the real numbers are not. Some books use "countable" only for infinite sets; the formal definition is in cardinality and countability<!-- link: ../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md -->.
+A set is **countable** when its elements can be listed in a sequence $a_0, a_1, a_2, \dots$, which may be finite. The integers and the rational numbers are countable, and the real numbers are not. Some books use "countable" only for infinite sets; the formal definition is in [cardinality and countability](../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md).
 
 A **counterexample** is one case that makes a statement about every case false. The number 2 is a counterexample to "every prime is odd", and $3 - 10 \ne 10 - 3$ is a counterexample to "subtraction is commutative". Taught in [definitions, postulates and proof](../03-high-school/08-geometry-and-proof/01-definitions-postulates-and-proof.md#conditional-statements), [properties of operations](../01-elementary/04-properties-of-operations.md#what-fails-for-subtraction-and-division) and [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md).
 
@@ -315,7 +315,7 @@ The **floor** of a number $x$, written $\lfloor x \rfloor$, is the greatest inte
 
 For whole numbers $a$ and $b$ with $b \ne 0$, the **fraction** $\frac{a}{b}$ is the number $a \div b$. The denominator $b$ says how many equal parts the whole is cut into, and the numerator $a$ says how many of those parts you have. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md#definitions).
 
-A **function** from a set $A$ to a set $B$ assigns to each element of $A$ exactly one element of $B$. A rule such as $f(x) = x^2$ is one way to give a function. Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#definitions) and [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#definitions); the formal definition, as a set of ordered pairs, is in functions and well-definedness<!-- link: ../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+A **function** from a set $A$ to a set $B$ assigns to each element of $A$ exactly one element of $B$. A rule such as $f(x) = x^2$ is one way to give a function. Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#definitions) and [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#definitions); the formal definition, as a set of ordered pairs, is in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md).
 
 The **fundamental theorem of algebra** says that every polynomial of degree at least 1 has a zero among the complex numbers, so a polynomial of degree $n$ has $n$ complex zeros when they are counted with multiplicity. Taught in [complex numbers](../03-high-school/05-quadratics-and-complex-numbers/03-complex-numbers.md#why-complex-numbers-are-worth-having).
 
@@ -383,11 +383,11 @@ Two events are **independent** when knowing that one happened doesn't change the
 
 The **independent variable** of a function is the input, usually $x$, whose value you choose. The output $y = f(x)$ is the dependent variable, because its value depends on the input. Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#definitions).
 
-**Induction**, or mathematical induction, proves a statement for every natural number in two parts. The base case proves it for the first value, usually $n = 0$ or $n = 1$, and the inductive step shows that the statement for $k$ implies the statement for $k + 1$. Taught in mathematical induction<!-- link: ../04-proofs-and-logic/05-induction/01-mathematical-induction.md -->.
+**Induction**, or mathematical induction, proves a statement for every natural number in two parts. The base case proves it for the first value, usually $n = 0$ or $n = 1$, and the inductive step shows that the statement for $k$ implies the statement for $k + 1$. Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md).
 
 An **inequality** compares two expressions with $<$, $\le$, $>$ or $\ge$, such as $2x + 1 < 7$. Its solution is usually a whole interval of numbers rather than a single value. Taught in [inequalities](../02-middle-school/03-expressions-equations-inequalities/05-inequalities.md) and [two-variable inequalities and feasible regions](../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md#definitions).
 
-A function is **injective**, or one-to-one, when different inputs always give different outputs: $f(a_1) = f(a_2)$ implies $a_1 = a_2$. The squaring function on $\mathbb{R}$ is not injective, since $(-2)^2 = 2^2$. Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#definitions) (as one-to-one) and injective, surjective and bijective<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
+A function is **injective**, or one-to-one, when different inputs always give different outputs: $f(a_1) = f(a_2)$ implies $a_1 = a_2$. The squaring function on $\mathbb{R}$ is not injective, since $(-2)^2 = 2^2$. Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#definitions) (as one-to-one) and [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md).
 
 An **integer** is a whole number or the opposite of one: $\dots, -2, -1, 0, 1, 2, \dots$. The set of integers is $\mathbb{Z}$. Taught in [negative numbers and absolute value](../02-middle-school/01-integers-and-rational-numbers/01-negative-numbers-and-absolute-value.md#definitions) and [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).
 
@@ -681,7 +681,7 @@ The **reciprocal trig functions** are cosecant, $\csc\theta = \frac{1}{\sin\thet
 
 A **recurrence relation** gives each term of a sequence from earlier ones, and it comes with initial conditions that fix the starting terms: $a_0 = 100$ and $a_{n+1} = 1.02\,a_n$. A rule that looks back two terms needs two initial conditions. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#definitions).
 
-**Recursion** defines something in terms of smaller versions of itself, together with a starting case. The factorial is defined recursively: $0! = 1$, and $n! = n \cdot (n - 1)!$ for $n \ge 1$. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md) and recursive definitions and structural induction<!-- link: ../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md -->.
+**Recursion** defines something in terms of smaller versions of itself, together with a starting case. The factorial is defined recursively: $0! = 1$, and $n! = n \cdot (n - 1)!$ for $n \ge 1$. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md) and [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md).
 
 The **reference angle** of an angle is the acute angle between its terminal side and the $x$-axis. The trigonometric ratios of the angle equal those of its reference angle, up to sign. Taught in [radians and the unit circle](../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md#definitions).
 
@@ -807,7 +807,7 @@ Two angles are **supplementary** when their measures add to $180^\circ$. Taught 
 
 The **surface area** of a solid is the total area of its outer faces, measured in square units. Taught in [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md#definitions).
 
-A function $f \colon A \to B$ is **surjective**, or onto, when every element of $B$ is the output of at least one input, so the range equals the codomain. The squaring function from $\mathbb{R}$ to $\mathbb{R}$ is not surjective, since no real number squares to $-1$. Taught in injective, surjective and bijective<!-- link: ../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
+A function $f \colon A \to B$ is **surjective**, or onto, when every element of $B$ is the output of at least one input, so the range equals the codomain. The squaring function from $\mathbb{R}$ to $\mathbb{R}$ is not surjective, since no real number squares to $-1$. Taught in [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md).
 
 **Synthetic division** divides a polynomial by $x - c$ using only its coefficients, and it is the same arithmetic as Horner's method. The number to use is $c$, so dividing by $x + 2$ uses $c = -2$. Taught in [polynomial division and the remainder theorem](../03-high-school/04-radicals-and-polynomials/04-polynomial-division-and-remainder-theorem.md#how-to-do-it).
 
@@ -893,7 +893,7 @@ The **volume** of a solid is the number of unit cubes that fill it, measured in 
 
 A **weighted mean** gives each value $x_i$ a weight $w_i$ and divides by the total weight: $\frac{\sum w_i x_i}{\sum w_i}$. A course grade with components worth different percents is a weighted mean. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md#definitions).
 
-A definition is **well-defined** when it gives exactly one result and doesn't depend on choices that shouldn't matter. The rule "send the fraction $\frac{a}{b}$ to $a$" is not well-defined, because $\frac{1}{2} = \frac{2}{4}$ would be sent to both 1 and 2. The formal treatment is in functions and well-definedness<!-- link: ../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+A definition is **well-defined** when it gives exactly one result and doesn't depend on choices that shouldn't matter. The rule "send the fraction $\frac{a}{b}$ to $a$" is not well-defined, because $\frac{1}{2} = \frac{2}{4}$ would be sent to both 1 and 2. The formal treatment is in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md).
 
 The **whole numbers** are 0, 1, 2, 3 and so on: the counting numbers together with zero. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 

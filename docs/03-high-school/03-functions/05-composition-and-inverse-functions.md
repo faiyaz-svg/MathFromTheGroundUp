@@ -55,7 +55,7 @@ $$
 
 The function $g$ is written $f^{-1}$. In plain words, an inverse undoes $f$, and $f$ undoes it. The $-1$ is a label and not an exponent: $f^{-1}(x)$ is not $\frac{1}{f(x)}$. For $f(x) = 2x$, the inverse is $f^{-1}(x) = \frac{x}{2}$, while $\frac{1}{f(x)} = \frac{1}{2x}$.
 
-A function $f$ is **one-to-one** (or injective) when different inputs always give different outputs: if $f(x_1) = f(x_2)$, then $x_1 = x_2$. On a graph, this is the **horizontal line test**: every horizontal line meets the graph at most once. In plain words, no output is shared by two inputs. A function with an inverse must be one-to-one, as the theorem below shows. The word for a function that is both one-to-one and onto its codomain is bijective, covered in injective, surjective and bijective<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->.
+A function $f$ is **one-to-one** (or injective) when different inputs always give different outputs: if $f(x_1) = f(x_2)$, then $x_1 = x_2$. On a graph, this is the **horizontal line test**: every horizontal line meets the graph at most once. In plain words, no output is shared by two inputs. A function with an inverse must be one-to-one, as the theorem below shows. The word for a function that is both one-to-one and onto its codomain is bijective, covered in [injective, surjective and bijective](../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md).
 
 For a one-to-one function, the domain of $f^{-1}$ is the range of $f$, and the range of $f^{-1}$ is the domain of $f$: the inverse swaps the two sets.
 
@@ -285,7 +285,7 @@ Because the inverse takes the old output as its input. If $y = f(x)$, then $x = 
 
 ### Can a function have two different inverses?
 
-No. If $g$ and $h$ both undo $f$, then $g = g \circ (f \circ h) = (g \circ f) \circ h = h$, as noted above. When $f$ is not one-to-one, there is no inverse, but you can still ask for all the inputs that give a chosen output: the set $\{x : f(x) = c\}$, called a preimage, covered in functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->. For $x^2$ and the output 4, it is $\{-2, 2\}$.
+No. If $g$ and $h$ both undo $f$, then $g = g \circ (f \circ h) = (g \circ f) \circ h = h$, as noted above. When $f$ is not one-to-one, there is no inverse, but you can still ask for all the inputs that give a chosen output: the set $\{x : f(x) = c\}$, called a preimage, covered in [functions and well-definedness](../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md). For $x^2$ and the output 4, it is $\{-2, 2\}$.
 
 ### How do I know which half of a parabola to keep?
 

@@ -390,7 +390,7 @@ $$
 
 (c) First, $a^2 \ge 0$ for every $a$. If $a$ is positive or negative, $a^2 = a \times a$ is a product of two numbers with the same sign, which is positive by the sign rules; if $a = 0$, then $a^2 = 0$. The expression $-a^2$ means $-(a^2)$, the opposite of a number that is positive or 0, so it is negative or 0, never positive.
 
-Look back: the same steps, repeated, show that $(-a)^n = a^n$ for every even $n$ and $(-a)^n = -a^n$ for every odd $n$. Proving that for every $n$ at once takes mathematical induction<!-- link: ../../04-proofs-and-logic/05-induction/01-mathematical-induction.md -->. Check with $a = 2$: $(-2)^2 = 4 = 2^2$, and $(-2)^3 = -8 = -(2^3)$.
+Look back: the same steps, repeated, show that $(-a)^n = a^n$ for every even $n$ and $(-a)^n = -a^n$ for every odd $n$. Proving that for every $n$ at once takes [mathematical induction](../../04-proofs-and-logic/05-induction/01-mathematical-induction.md). Check with $a = 2$: $(-2)^2 = 4 = 2^2$, and $(-2)^3 = -8 = -(2^3)$.
 
 </details>
 

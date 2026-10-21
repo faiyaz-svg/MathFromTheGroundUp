@@ -54,7 +54,7 @@ Do not write the assumption as if it were a fact. After the conclusion, the assu
 
 ### Two lemmas the proofs below need
 
-The proofs of Examples 1 and 2 each use a fact that textbooks tend to state without proof. Both are short contradiction proofs, and they use the well-ordering principle: every nonempty set of positive integers has a smallest member (proved and used further in strong induction and well-ordering<!-- link: ../05-induction/02-strong-induction-and-well-ordering.md -->).
+The proofs of Examples 1 and 2 each use a fact that textbooks tend to state without proof. Both are short contradiction proofs, and they use the well-ordering principle: every nonempty set of positive integers has a smallest member (proved and used further in [strong induction and well-ordering](../05-induction/02-strong-induction-and-well-ordering.md)).
 
 *Lemma 1.* Every rational number $r$ can be written $r = \frac{a}{b}$ with integers $a$ and $b$, $b > 0$, and no common divisor of $a$ and $b$ greater than 1 (lowest terms).
 

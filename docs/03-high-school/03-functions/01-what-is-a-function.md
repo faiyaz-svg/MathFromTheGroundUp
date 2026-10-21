@@ -284,7 +284,7 @@ The last line tests that $f$ and $g$ agree at 11 inputs. That is evidence, not p
 
 ### If the range is what actually occurs, why bother with a codomain?
 
-Because the codomain is a choice, and the choice changes what you can say. The function $x \mapsto x^2$ from $\mathbb{R}$ to $[0, \infty)$ has every element of its codomain as an output, and the same rule into $\mathbb{R}$ doesn't. That difference is exactly what separates "onto" from "not onto" in injective, surjective and bijective<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md -->. In code, the codomain is the return type, which is declared before anyone computes the range.
+Because the codomain is a choice, and the choice changes what you can say. The function $x \mapsto x^2$ from $\mathbb{R}$ to $[0, \infty)$ has every element of its codomain as an output, and the same rule into $\mathbb{R}$ doesn't. That difference is exactly what separates "onto" from "not onto" in [injective, surjective and bijective](../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md). In code, the codomain is the return type, which is declared before anyone computes the range.
 
 ### Is $f(x)$ the function, or a number?
 
@@ -292,7 +292,7 @@ The symbol $f$ is the function, and $f(x)$ is its output at the input $x$, a sin
 
 ### Can the inputs and outputs be things other than numbers?
 
-Yes. A function can take a string and return its length, take a graph and return its number of edges, or take a person and return a birthday. The definition only asks for two sets and a rule. Later lessons use functions between sets of numbers, and the proofs folder uses functions between arbitrary sets, as in functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+Yes. A function can take a string and return its length, take a graph and return its number of edges, or take a person and return a birthday. The definition only asks for two sets and a rule. Later lessons use functions between sets of numbers, and the proofs folder uses functions between arbitrary sets, as in [functions and well-definedness](../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md).
 
 ### The number 4 has two square roots. Does that break the idea of a function?
 
@@ -422,5 +422,5 @@ Check: $f(2) = -6 + 13 = 7$, $f(5) = -15 + 13 = -2$, and $f(\frac{13}{3}) = -13 
 ## Where this shows up
 
 - The next lesson, [reading function graphs](02-reading-function-graphs.md), reads the domain, the range and more off a drawn graph. [Composition and inverse functions](05-composition-and-inverse-functions.md) needs the codomain: an inverse exists only when every codomain element is reached exactly once.
-- The proofs folder rebuilds this lesson on sets: functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md --> treats a function as a set of ordered pairs, and injective, surjective and bijective<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md --> classifies functions by how their range sits in the codomain.
+- The proofs folder rebuilds this lesson on sets: [functions and well-definedness](../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md) treats a function as a set of ordered pairs, and [injective, surjective and bijective](../../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md) classifies functions by how their range sits in the codomain.
 - In programming, a type signature is a domain and a codomain, a pure function is a function, and a partial function is the reason for exceptions and `None` values. In economics, a demand function takes a price in a stated domain and returns a quantity, and the domain matters: negative prices and quantities usually make no sense.

@@ -35,7 +35,7 @@ A **function** is a rule that assigns to each input exactly one output. The set 
 
 In plain words, a function is a machine: put in an allowed input and exactly one output comes out, the same one every time. The squaring function takes $3$ to $9$ and $-3$ to $9$. Its domain is every real number, and its range is every number that is 0 or more, since a square is never negative.
 
-This is the working definition for now. The formal definition, which builds a function out of sets of ordered pairs and names a set the outputs are allowed to land in (the codomain), comes in [what is a function](../../03-high-school/03-functions/01-what-is-a-function.md) and in functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md -->.
+This is the working definition for now. The formal definition, which builds a function out of sets of ordered pairs and names a set the outputs are allowed to land in (the codomain), comes in [what is a function](../../03-high-school/03-functions/01-what-is-a-function.md) and in [functions and well-definedness](../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md).
 
 Functions are named with letters, usually $f$, $g$ and $h$. The notation $f(x)$, read "$f$ of $x$", means the output of the function $f$ at the input $x$. If $f(x) = 2x - 1$, then $f(3) = 2(3) - 1 = 5$: the output of $f$ at 3 is 5. The brackets in $f(x)$ hold the input; they do not mean multiplication.
 
@@ -437,6 +437,6 @@ Check the ends: $f(-2) = -12$ and $f(4) = 6$, and $f(2) = 0$, which is not great
 
 ## Where this shows up
 
-- [What is a function](../../03-high-school/03-functions/01-what-is-a-function.md) gives the formal definition with domain and codomain, and functions and well-definedness<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md --> builds functions from sets of ordered pairs. The next lesson, [systems of linear equations](04-systems-of-linear-equations.md), asks when two linear functions have the same output.
+- [What is a function](../../03-high-school/03-functions/01-what-is-a-function.md) gives the formal definition with domain and codomain, and [functions and well-definedness](../../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md) builds functions from sets of ordered pairs. The next lesson, [systems of linear equations](04-systems-of-linear-equations.md), asks when two linear functions have the same output.
 - Calculus is the study of how functions change: the derivative $f'(x)$ is itself a function (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->).
 - Economics writes models as functions: quantity demanded as a function of price, cost as a function of output (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->). In computing, a hash map is a function stored as a table, and functional programming builds programs out of pure functions.

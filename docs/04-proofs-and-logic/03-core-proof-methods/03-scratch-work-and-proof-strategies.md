@@ -80,7 +80,7 @@ Write the final proof as a new document. Don't copy the scratch work, and never 
 | there is exactly one $x$ | Prove that one exists, then assume two exist and show they are equal. | [existence and uniqueness proofs](../04-more-proof-methods/02-existence-and-uniqueness-proofs.md) |
 | $A \subseteq B$, or $A = B$ | Let $x$ be in $A$ and show $x$ is in $B$ (and the reverse for equality). | [proofs about sets](../04-more-proof-methods/03-proofs-about-sets.md) |
 | the statement is false (you must disprove it) | Find one example where the hypothesis holds and the conclusion fails. | [counterexamples and disproof](../04-more-proof-methods/04-counterexamples-and-disproof.md) |
-| for every $n \ge 1$, a claim built step by step | Prove the first case, and prove that each case gives the next. | mathematical induction<!-- link: ../05-induction/01-mathematical-induction.md --> |
+| for every $n \ge 1$, a claim built step by step | Prove the first case, and prove that each case gives the next. | [mathematical induction](../05-induction/01-mathematical-induction.md) |
 
 A claim often has more than one shape. "For every integer $n$, if $n^2$ is even, then $n$ is even" is a "for every" statement whose body is an "if-then", and the body is the part that needs a method.
 
@@ -308,7 +308,7 @@ Check: $x = -1$ is also a root in (b), since $1 + 2 - 3 = 0$, so the witness is 
 
 The sums are $1, 4, 9, 16, 25, 36$. These are the perfect squares, so the guess is $n^2$.
 
-It is not proved: six cases support the pattern and don't establish it for every $n$. A proof by induction<!-- link: ../05-induction/01-mathematical-induction.md --> is the standard tool.
+It is not proved: six cases support the pattern and don't establish it for every $n$. [A proof by induction](../05-induction/01-mathematical-induction.md) is the standard tool.
 
 Check: for $n = 6$, $1 + 3 + 5 + 7 + 9 + 11 = 36 = 6^2$.
 

@@ -1348,7 +1348,7 @@ Right: that inductive step is valid, but the claim is false, because the base ca
 
 Induction needs both parts. The inductive step only says that each case passes its truth on to the next one, and the base case is what starts the chain. Without it, the argument above would prove a statement that is false for every $n$.
 
-Taught in mathematical induction<!-- link: ../04-proofs-and-logic/05-induction/01-mathematical-induction.md -->.
+Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md).
 
 ## Proof and logic in geometry
 

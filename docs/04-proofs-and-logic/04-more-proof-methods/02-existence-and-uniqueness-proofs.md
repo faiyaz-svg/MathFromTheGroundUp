@@ -96,7 +96,7 @@ Write two labelled parts. Under "Existence" prove that there is an object, usual
 
 ### The division algorithm
 
-The lesson on [long division](../../01-elementary/07-long-division.md) stated the division algorithm and proved it for $n \ge 0$ by walking up the multiples of $d$. Here is the version for every integer $n$, with a proof that has an existence half and a uniqueness half. The existence half uses the well-ordering principle: every nonempty set of nonnegative integers has a least element. We accept it as part of the integers, and a later lesson, strong induction and well-ordering<!-- link: ../05-induction/02-strong-induction-and-well-ordering.md -->, examines it.
+The lesson on [long division](../../01-elementary/07-long-division.md) stated the division algorithm and proved it for $n \ge 0$ by walking up the multiples of $d$. Here is the version for every integer $n$, with a proof that has an existence half and a uniqueness half. The existence half uses the well-ordering principle: every nonempty set of nonnegative integers has a least element. We accept it as part of the integers, and a later lesson, [strong induction and well-ordering](../05-induction/02-strong-induction-and-well-ordering.md), examines it.
 
 *Theorem 1 (division algorithm).* Let $n$ and $d$ be integers with $d > 0$. Then there exists exactly one pair of integers $q$ and $r$ such that
 

@@ -264,7 +264,7 @@ Because the converse is a different statement. It can be false while the origina
 
 ### Does injectivity use a contrapositive?
 
-Yes. A function $f$ is one-to-one if different inputs give different outputs: if $x \ne y$, then $f(x) \ne f(y)$. Its contrapositive is: if $f(x) = f(y)$, then $x = y$. The second form has an equation as its hypothesis, so it is the one used in proofs. This is the same idea, and it comes up again in injective, surjective and bijective<!-- link: ../06-relations-and-functions/05-injective-surjective-bijective.md -->.
+Yes. A function $f$ is one-to-one if different inputs give different outputs: if $x \ne y$, then $f(x) \ne f(y)$. Its contrapositive is: if $f(x) = f(y)$, then $x = y$. The second form has an equation as its hypothesis, so it is the one used in proofs. This is the same idea, and it comes up again in [injective, surjective and bijective](../06-relations-and-functions/05-injective-surjective-bijective.md).
 
 ## Practice
 

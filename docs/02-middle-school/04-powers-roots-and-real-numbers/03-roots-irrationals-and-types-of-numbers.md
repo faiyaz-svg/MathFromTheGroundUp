@@ -335,7 +335,7 @@ In this book, yes: $\mathbb{N} = \{0, 1, 2, \ldots\}$, which is the usual choice
 
 ### Are there more irrational numbers than rational ones?
 
-Yes, in a precise sense. The rational numbers can be listed in a single infinite sequence, and the real numbers can't, so most real numbers are irrational even though the irrational numbers you meet by name are few. Cardinality and countability<!-- link: ../../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md --> proves both facts.
+Yes, in a precise sense. The rational numbers can be listed in a single infinite sequence, and the real numbers can't, so most real numbers are irrational even though the irrational numbers you meet by name are few. [Cardinality and countability](../../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md) proves both facts.
 
 ### If the square root of 2 is irrational, how can it be a length?
 

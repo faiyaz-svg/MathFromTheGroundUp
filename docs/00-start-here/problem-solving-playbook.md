@@ -280,7 +280,7 @@ Draw a picture to see why. Take a $4 \times 4$ square of dots. The dot in the to
 
 Check: for $n = 5$, the sum $1 + 3 + 5 + 7 + 9$ is $25 = 5^2$.
 
-Moves used: small cases and a picture. A proof by induction<!-- link: ../04-proofs-and-logic/05-induction/01-mathematical-induction.md --> turns the picture into a formal argument.
+Moves used: small cases and a picture. [A proof by induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md) turns the picture into a formal argument.
 
 </details>
 
