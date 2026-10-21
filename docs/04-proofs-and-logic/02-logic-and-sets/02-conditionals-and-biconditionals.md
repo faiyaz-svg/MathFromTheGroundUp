@@ -255,7 +255,7 @@ A conditional $P \Rightarrow Q$ can be restated without a symbol as $\neg P \vee
 
 A program that is correct must pass its test suite, so passing the tests is necessary for correctness. It is not sufficient: a suite can miss a case. In symbols, "correct $\Rightarrow$ passes the tests", and the converse is false. Edsger Dijkstra's remark that testing shows the presence of bugs and never their absence is this fact. What a test does prove is the contrapositive: "fails a test $\Rightarrow$ not correct".
 
-In calculus, if a function has a maximum or minimum at an interior point $c$ and is differentiable there, then $f'(c) = 0$. So $f'(c) = 0$ is necessary for an interior extremum, but not sufficient: $f(x) = x^3$ has $f'(0) = 0$ and no extremum at 0. This is why optimization<!-- link: ../../05-university-core/03-applications-of-derivatives/05-optimization.md --> checks the critical points instead of stopping at them.
+In calculus, if a function has a maximum or minimum at an interior point $c$ and is differentiable there, then $f'(c) = 0$. So $f'(c) = 0$ is necessary for an interior extremum, but not sufficient: $f(x) = x^3$ has $f'(0) = 0$ and no extremum at 0. This is why [optimization](../../05-university-core/03-applications-of-derivatives/05-optimization.md) checks the critical points instead of stopping at them.
 
 In economics, every Giffen good (a good whose quantity demanded rises when its price rises) is an inferior good (one that people buy less of when their income rises), but most inferior goods are not Giffen goods. So being inferior is necessary for being a Giffen good and not sufficient, which is the same pattern as "tests pass" and "correct".
 

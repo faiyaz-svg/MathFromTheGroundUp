@@ -510,6 +510,6 @@ Check: $f^{-1}(2) = \sin^{-1}\left(\frac{1}{2}\right) = \frac{\pi}{6}$, and $f\l
 
 ## Where this shows up
 
-- Integration by parts and trig integrals<!-- link: ../../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md --> uses the double-angle formulas to integrate $\sin^2 x$ and $\cos^2 x$, and inverse trig functions appear as antiderivatives, for example of $\frac{1}{1 + x^2}$.
+- [Integration by parts and trig integrals](../../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md) uses the double-angle formulas to integrate $\sin^2 x$ and $\cos^2 x$, and inverse trig functions appear as antiderivatives, for example of $\frac{1}{1 + x^2}$.
 - The sum formulas are the multiplication rule for rotations: turning by $a$ and then by $b$ is turning by $a + b$. In [complex numbers](../05-quadratics-and-complex-numbers/03-complex-numbers.md) this becomes multiplying the angles, and in graphics it is the composition of rotation matrices.
 - The last lesson in the chapter, the optional [law of sines and law of cosines](05-law-of-sines-and-cosines.md), uses the identities from this lesson. Signals and waves (sound, radio) combine sines with different phases, and the sum formulas turn $\sin(\omega t + \varphi)$ into a mix of sine and cosine.

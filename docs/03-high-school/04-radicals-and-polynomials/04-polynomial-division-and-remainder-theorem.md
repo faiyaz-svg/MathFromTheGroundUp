@@ -427,6 +427,6 @@ Check: $(x - 1)(x + 1) + 2 = x^2 - 1 + 2 = x^2 + 1$.
 
 ## Where this shows up
 
-- The next lesson, [polynomial functions and graphs](05-polynomial-functions-and-graphs.md), uses the zeros and factors found here to sketch graphs. [Rational expressions](../06-rational-expressions-and-equations/01-rational-expressions.md) divides polynomials again to find the slanted asymptote of a rational function, and partial fractions<!-- link: ../../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md --> uses polynomial long division in calculus.
+- The next lesson, [polynomial functions and graphs](05-polynomial-functions-and-graphs.md), uses the zeros and factors found here to sketch graphs. [Rational expressions](../06-rational-expressions-and-equations/01-rational-expressions.md) divides polynomials again to find the slanted asymptote of a rational function, and [partial fractions](../../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md) uses polynomial long division in calculus.
 - In CS, a CRC checksum is the remainder of a long division of polynomials whose coefficients are bits (arithmetic mod 2), and polynomial hashing evaluates a polynomial with Horner's method.
 - In linear algebra, finding the eigenvalues of a 3 by 3 matrix means finding the zeros of a cubic, which is done with the rational root theorem and synthetic division (eigenvalues and eigenvectors<!-- link: ../../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md -->).

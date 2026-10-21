@@ -202,7 +202,7 @@ Watch out: the same perimeter can enclose different areas. Every rectangle below
 | 6 cm | 4 cm | 20 cm | $24\ \text{cm}^2$ |
 | 5 cm | 5 cm | 20 cm | $25\ \text{cm}^2$ |
 
-The long thin rectangle has the least area and the square has the most. In fact, of all the rectangles with a given perimeter, the square always encloses the most; optimization<!-- link: ../05-university-core/03-applications-of-derivatives/05-optimization.md --> proves it with calculus. It works the other way too: rectangles with an area of $12\ \text{cm}^2$ can be 1 by 12, 2 by 6 or 3 by 4 (in cm), with perimeters of 26, 16 and 14 cm. Neither number tells you the other; each needs the side lengths and its own formula.
+The long thin rectangle has the least area and the square has the most. In fact, of all the rectangles with a given perimeter, the square always encloses the most; [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md) proves it with calculus. It works the other way too: rectangles with an area of $12\ \text{cm}^2$ can be 1 by 12, 2 by 6 or 3 by 4 (in cm), with perimeters of 26, 16 and 14 cm. Neither number tells you the other; each needs the side lengths and its own formula.
 
 </div>
 
@@ -330,5 +330,5 @@ Check: the empty 5 cm at the top is $60 \times 30 \times 5 = 9{,}000\ \text{cm}^
 ## Where this shows up
 
 - Middle school geometry continues with [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md), [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md) and [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md).
-- In calculus, the area under a curve is found by adding up the areas of thin rectangles, each one base times height: Riemann sums and the definite integral<!-- link: ../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md -->.
+- In calculus, the area under a curve is found by adding up the areas of thin rectangles, each one base times height: [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md).
 - On a supply and demand graph, a firm's revenue (price times quantity) is the area of a rectangle, and consumer surplus is the area of a triangle: surplus and market interventions<!-- link: ../07-economics-math/02-markets/04-surplus-and-market-interventions.md -->.

@@ -125,7 +125,7 @@ $$
 
 So the shape is nearly a parallelogram with base $\pi r$ and height $r$, and its area is nearly $\pi r \times r = \pi r^2$.
 
-Looking back: with 16 sectors the edges are still bumpy and the sides still slant. With 100 or 1,000 thinner sectors, the bumps flatten, the height gets closer to $r$, and the shape gets closer to a rectangle $\pi r$ by $r$. The area of the circle never changes while this happens, and the only number the shapes approach is $\pi r^2$, so the circle's area is exactly $\pi r^2$. "Gets closer and closer to" is the idea of a limit, which calculus makes precise (Riemann sums and the definite integral<!-- link: ../../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md -->). For now, treat this as a convincing argument rather than a full proof.
+Looking back: with 16 sectors the edges are still bumpy and the sides still slant. With 100 or 1,000 thinner sectors, the bumps flatten, the height gets closer to $r$, and the shape gets closer to a rectangle $\pi r$ by $r$. The area of the circle never changes while this happens, and the only number the shapes approach is $\pi r^2$, so the circle's area is exactly $\pi r^2$. "Gets closer and closer to" is the idea of a limit, which calculus makes precise ([Riemann sums and the definite integral](../../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md)). For now, treat this as a convincing argument rather than a full proof.
 
 ### Arcs and sectors
 
@@ -480,5 +480,5 @@ Check: $225\pi \approx 706.9$ and $306.25\pi \approx 962.1$, and $962.1 \div 706
 ## Where this shows up
 
 - [Volume and surface area](03-volume-and-surface-area.md) uses these areas as the base of prisms and cylinders, and the sector formula gives the curved surface of a cone. Arcs are measured in radians, not degrees, from [radians and the unit circle](../../03-high-school/09-trigonometry/02-radians-and-the-unit-circle.md) on, where the arc formula becomes $r\theta$.
-- In calculus, the area under a curve is found the way the circle's was here: cut it into thin pieces, add them up, and let the pieces get thinner (Riemann sums and the definite integral<!-- link: ../../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md -->). The trapezoid rule for estimating such areas uses the trapezoid formula from this lesson.
+- In calculus, the area under a curve is found the way the circle's was here: cut it into thin pieces, add them up, and let the pieces get thinner ([Riemann sums and the definite integral](../../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md)). The trapezoid rule for estimating such areas uses the trapezoid formula from this lesson.
 - On a supply and demand graph, consumer surplus and the deadweight loss of a tax are triangle and trapezoid areas (surplus and market interventions<!-- link: ../../07-economics-math/02-markets/04-surplus-and-market-interventions.md -->).

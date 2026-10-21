@@ -380,7 +380,7 @@ No. For a circle that works, and that is where the word comes from, but it fails
 
 ### If $f'(a) = 0$, is the function constant near $a$?
 
-No. The derivative at one point says only that the tangent line is horizontal there. For $f(x) = x^2$, we have $f'(0) = 0$, and the function is not constant near 0. A function whose derivative is 0 on a whole interval is constant on it, and that is a theorem proved in The mean value theorem and extrema<!-- link: ../03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md -->.
+No. The derivative at one point says only that the tangent line is horizontal there. For $f(x) = x^2$, we have $f'(0) = 0$, and the function is not constant near 0. A function whose derivative is 0 on a whole interval is constant on it, and that is a theorem proved in [The mean value theorem and extrema](../03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md).
 
 ## Practice
 
@@ -473,7 +473,7 @@ Check: with $2x - 1$, the right-hand quotient is $\frac{2(1 + h) - 1 - 1}{h} = 2
 
 (b) The same steps at a general $x$ give $\frac{(x + h)^2 - 4(x + h) - x^2 + 4x}{h} = 2x - 4 + h$, so $f'(x) = 2x - 4$. Solving $2x - 4 = 1$ gives $x = 2.5$.
 
-(c) Yes, $2.5$ lies between 1 and 4. The tangent at $x = 2.5$ is parallel to the secant from $x = 1$ to $x = 4$. For every smooth curve there is such a point somewhere between the endpoints, a fact called the mean value theorem and proved in The mean value theorem and extrema<!-- link: ../03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md -->.
+(c) Yes, $2.5$ lies between 1 and 4. The tangent at $x = 2.5$ is parallel to the secant from $x = 1$ to $x = 4$. For every smooth curve there is such a point somewhere between the endpoints, a fact called the mean value theorem and proved in [The mean value theorem and extrema](../03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md).
 
 Check: $f'(2.5) = 5 - 4 = 1$. The vertex of $x^2 - 4x$ is at $x = 2$, where $2 \cdot 2 - 4 = 0$, as found in (a).
 
@@ -517,6 +517,6 @@ Check: $f(0.001) = 0.000001$, so the slope of the secant from 0 is $0.001$, clos
 
 ## Where this shows up
 
-- The next lesson, [differentiation rules](02-differentiation-rules.md), builds shortcuts so that you never need the limit again for ordinary functions. The applications chapter uses the derivative for marginal analysis, linear approximation, and finding maxima and minima (rates of change and marginal analysis<!-- link: ../03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md -->).
+- The next lesson, [differentiation rules](02-differentiation-rules.md), builds shortcuts so that you never need the limit again for ordinary functions. The applications chapter uses the derivative for marginal analysis, linear approximation, and finding maxima and minima ([rates of change and marginal analysis](../03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md)).
 - In computer science, the same difference quotient checks the gradients of a machine-learning model: a numerical gradient check compares the formula's answer with a central difference. Floating-point rounding is why the step can't be too small.
-- In economics, marginal cost, marginal revenue and marginal utility are all derivatives (marginal analysis with derivatives<!-- link: ../../07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md -->). A tangent line to a curve is also the best linear model near a point, the idea behind Linear approximation and L'Hopital's rule<!-- link: ../03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md -->.
+- In economics, marginal cost, marginal revenue and marginal utility are all derivatives (marginal analysis with derivatives<!-- link: ../../07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md -->). A tangent line to a curve is also the best linear model near a point, the idea behind [Linear approximation and L'Hopital's rule](../03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md).

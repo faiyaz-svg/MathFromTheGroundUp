@@ -415,4 +415,4 @@ Check: both methods give 9.0 m. This is the same idea as the proof in [Definitio
 
 - The next lesson, [radians and the unit circle](02-radians-and-the-unit-circle.md), removes the restriction to acute angles. The one after, [graphs of trig functions](03-graphs-of-trig-functions.md), shows these ratios as waves.
 - Computer graphics, robotics and games use sine and cosine to turn an angle and a length into $x$ and $y$ positions: a point at distance $r$ and angle $\theta$ is at $(r\cos\theta, r\sin\theta)$. Navigation and surveying use the same triangles to find distances that can't be measured directly.
-- The small-angle idea from the tricks section, $\sin\theta \approx \theta$ for a small angle in radians, returns in linear approximation and L'Hopital's rule<!-- link: ../../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md -->.
+- The small-angle idea from the tricks section, $\sin\theta \approx \theta$ for a small angle in radians, returns in [linear approximation and L'Hopital's rule](../../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md).

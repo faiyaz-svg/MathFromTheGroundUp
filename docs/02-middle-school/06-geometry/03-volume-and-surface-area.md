@@ -93,7 +93,7 @@ $$
 V = \frac{1}{3}s^3 = \frac{1}{3} \times s^2 \times s = \frac{1}{3}Bh.
 $$
 
-That shows the one-third for one particular pyramid. Cavalieri's principle and stretching extend it to every pyramid: sliding the apex sideways doesn't change the slices, and stretching a solid in one direction multiplies both its volume and $Bh$ by the same factor. A cone is a pyramid whose base has so many sides that it is a circle, so its volume is $\frac{1}{3}\pi r^2 h$. You can also check it with water: three full cones pour exactly into the cylinder with the same base and height. Calculus proves the general case in applications of integrals<!-- link: ../../05-university-core/04-integrals/06-applications-of-integrals.md -->.
+That shows the one-third for one particular pyramid. Cavalieri's principle and stretching extend it to every pyramid: sliding the apex sideways doesn't change the slices, and stretching a solid in one direction multiplies both its volume and $Bh$ by the same factor. A cone is a pyramid whose base has so many sides that it is a circle, so its volume is $\frac{1}{3}\pi r^2 h$. You can also check it with water: three full cones pour exactly into the cylinder with the same base and height. Calculus proves the general case in [applications of integrals](../../05-university-core/04-integrals/06-applications-of-integrals.md).
 
 ### Surface area from nets
 
@@ -125,7 +125,7 @@ $$
 V = \frac{2}{3} \times \pi r^2 \times 2r = \frac{4}{3}\pi r^3, \qquad S = 2\pi r \times 2r = 4\pi r^2.
 $$
 
-The proofs need calculus (applications of integrals<!-- link: ../../05-university-core/04-integrals/06-applications-of-integrals.md -->), so take these as facts for now. One way to remember $4\pi r^2$: it is exactly four times the area of a circle through the sphere's centre.
+The proofs need calculus ([applications of integrals](../../05-university-core/04-integrals/06-applications-of-integrals.md)), so take these as facts for now. One way to remember $4\pi r^2$: it is exactly four times the area of a circle through the sphere's centre.
 
 ### Scaling a solid
 
@@ -428,6 +428,6 @@ Check: $\pi \times 318.3 \approx 999.97$, close to 1000. Each centimetre of pipe
 
 ## Where this shows up
 
-- [The Pythagorean theorem](04-pythagorean-theorem.md) finds slant heights and the longest rod that fits in a box, and [transformations, congruence and similarity](05-transformations-congruence-similarity.md) proves the $k^2$ and $k^3$ scaling rules for similar shapes. Applications of integrals<!-- link: ../../05-university-core/04-integrals/06-applications-of-integrals.md --> proves the cone and sphere formulas by adding up slices.
+- [The Pythagorean theorem](04-pythagorean-theorem.md) finds slant heights and the longest rod that fits in a box, and [transformations, congruence and similarity](05-transformations-congruence-similarity.md) proves the $k^2$ and $k^3$ scaling rules for similar shapes. [Applications of integrals](../../05-university-core/04-integrals/06-applications-of-integrals.md) proves the cone and sphere formulas by adding up slices.
 - In economics, the FAQ's reasoning is one source of economies of scale: when the cost of a tank, pipe or warehouse follows its surface area and its capacity follows its volume, bigger ones cost less per unit stored (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->).
 - 3D graphics, games and 3D printing all compute volumes and surface areas from triangle meshes, and physics engines use a solid's volume to get its mass.

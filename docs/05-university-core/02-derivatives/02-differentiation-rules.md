@@ -532,7 +532,7 @@ Check (a) at $x = \frac{\pi}{2}$: the formula gives $\frac{1}{1 + 0} = 1$, and a
 
 (c) $P(q) = R(q) - C(q) = -0.6q^2 + 180q - 500$. Then $P(150) = 13{,}000$, $P(149) = 12{,}999.40$ and $P(151) = 12{,}999.40$. So the profit at 150 units, \$13,000, is the largest of the three.
 
-Check: $R(150) = 30000 - 11250 = 18750$ and $C(150) = 500 + 3000 + 2250 = 5750$, so $P(150) = 13000$. Setting marginal revenue equal to marginal cost is the first step of profit maximization, which Optimization<!-- link: ../03-applications-of-derivatives/05-optimization.md --> develops properly.
+Check: $R(150) = 30000 - 11250 = 18750$ and $C(150) = 500 + 3000 + 2250 = 5750$, so $P(150) = 13000$. Setting marginal revenue equal to marginal cost is the first step of profit maximization, which [Optimization](../03-applications-of-derivatives/05-optimization.md) develops properly.
 
 </details>
 
@@ -576,6 +576,6 @@ Check: the same pattern holds for every order (it is called the Leibniz rule), a
 
 ## Where this shows up
 
-- The next lesson, [chain rule, implicit and inverse derivatives](03-chain-rule-implicit-and-inverse-derivatives.md), adds composition and the derivatives of $\ln x$, $b^x$ and the inverse trig functions. The applications chapter uses these rules to find maxima and minima (Optimization<!-- link: ../03-applications-of-derivatives/05-optimization.md -->).
+- The next lesson, [chain rule, implicit and inverse derivatives](03-chain-rule-implicit-and-inverse-derivatives.md), adds composition and the derivatives of $\ln x$, $b^x$ and the inverse trig functions. The applications chapter uses these rules to find maxima and minima ([Optimization](../03-applications-of-derivatives/05-optimization.md)).
 - In economics, marginal revenue, marginal cost and profit maximization all use the product, sum and power rules (marginal analysis with derivatives<!-- link: ../../07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md -->).
 - In CS, automatic differentiation in machine-learning libraries applies exactly these rules mechanically to every operation in a program, which is why a model can report its gradient to floating-point accuracy. The functions $e^x$, $\sin x$ and $\cos x$ solve the equations $y' = y$ and $y'' = -y$, the building blocks of differential equations (First-order differential equations<!-- link: ../10-differential-equations-light/01-first-order-differential-equations.md -->).
