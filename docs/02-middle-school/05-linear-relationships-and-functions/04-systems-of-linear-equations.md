@@ -305,7 +305,7 @@ print(linsolve([2*x - y - 3, 4*x - 2*y - 5], x, y))      # EmptySet
 print(linsolve([x + 3*y - 6, 2*x + 6*y - 12], x, y))     # {(6 - 3*y, y)}
 ```
 
-The last answer describes the infinitely many solutions in terms of $y$: for every number $y$, the pair $(6 - 3y, y)$ is a solution. With $y = 1$ it gives $(3, 1)$, one of the points from Example 3. Solving large systems this way, with many equations and unknowns, is the subject of systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md -->.
+The last answer describes the infinitely many solutions in terms of $y$: for every number $y$, the pair $(6 - 3y, y)$ is a solution. With $y = 1$ it gives $(3, 1)$, one of the points from Example 3. Solving large systems this way, with many equations and unknowns, is the subject of [systems and Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md).
 
 </details>
 
@@ -321,7 +321,7 @@ No. Two different points fix a line, so if two lines share two points, they shar
 
 ### What about three equations, or three unknowns?
 
-With three unknowns $x$, $y$ and $z$, each linear equation describes a flat plane in space, and you usually need three equations to pin down one point. Elimination still works: use two pairs of equations to eliminate the same unknown, which leaves two equations in two unknowns. Systems with many unknowns are solved with matrices in systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md -->.
+With three unknowns $x$, $y$ and $z$, each linear equation describes a flat plane in space, and you usually need three equations to pin down one point. Elimination still works: use two pairs of equations to eliminate the same unknown, which leaves two equations in two unknowns. Systems with many unknowns are solved with matrices in [systems and Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md).
 
 ### Why is it called a "system"?
 
@@ -467,6 +467,6 @@ Check: $0.03 \times 2700 = 81$ and $0.05 \times 2300 = 115$, and $81 + 115 = 196
 
 ## Where this shows up
 
-- [Systems of linear equations](../../03-high-school/02-linear-functions-and-systems/02-systems-of-linear-equations.md) in high school adds larger systems and word problems, and [two-variable inequalities and feasible regions](../../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md) replaces the equations with inequalities. In linear algebra, systems with many unknowns are solved by Gaussian elimination, and the three cases come back as the three outcomes of that method (systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md -->).
+- [Systems of linear equations](../../03-high-school/02-linear-functions-and-systems/02-systems-of-linear-equations.md) in high school adds larger systems and word problems, and [two-variable inequalities and feasible regions](../../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md) replaces the equations with inequalities. In linear algebra, systems with many unknowns are solved by Gaussian elimination, and the three cases come back as the three outcomes of that method ([systems and Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md)).
 - In economics, the market price is where the supply line and the demand line cross, found by solving a system (supply and demand equilibrium algebra<!-- link: ../../07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md -->), and a firm's break-even point is the crossing of its cost and revenue lines, as in Example 4.
-- In computing, fitting a line to data by least squares ends in a small linear system (orthogonality, projections and least squares<!-- link: ../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md -->), and graphics code solves a two-by-two system to find where two line segments cross.
+- In computing, fitting a line to data by least squares ends in a small linear system ([orthogonality, projections and least squares](../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md)), and graphics code solves a two-by-two system to find where two line segments cross.

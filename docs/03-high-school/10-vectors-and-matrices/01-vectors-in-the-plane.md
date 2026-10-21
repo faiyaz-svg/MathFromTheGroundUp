@@ -377,7 +377,7 @@ Because the definition says a vector is only its components. "3 right and 4 up" 
 
 ### What changes in three dimensions?
 
-Almost nothing. A vector has three components $(a, b, c)$, the length is $\sqrt{a^2 + b^2 + c^2}$, the dot product multiplies and adds three pairs, and the angle formula is the same. The proof above used a triangle, and any two vectors in space lie in one plane, so it still applies. You can't draw the angle $\theta$ from the $x$-axis any more, since a direction needs two angles. Higher dimensions are covered in vectors, dot product and span<!-- link: ../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md -->.
+Almost nothing. A vector has three components $(a, b, c)$, the length is $\sqrt{a^2 + b^2 + c^2}$, the dot product multiplies and adds three pairs, and the angle formula is the same. The proof above used a triangle, and any two vectors in space lie in one plane, so it still applies. You can't draw the angle $\theta$ from the $x$-axis any more, since a direction needs two angles. Higher dimensions are covered in [vectors, dot product and span](../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md).
 
 ## Practice
 
@@ -510,6 +510,6 @@ Look back: the proof used equal side lengths and nothing else. Check with number
 
 ## Where this shows up
 
-- The next lesson, [matrix basics](02-matrix-basics.md), builds matrices from the same ideas: multiplying a matrix by a vector is a list of dot products. Vectors, dot product and span<!-- link: ../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md --> extends everything here to any number of components, and the gradient in partial derivatives and the gradient<!-- link: ../../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md --> is a vector that points uphill.
+- The next lesson, [matrix basics](02-matrix-basics.md), builds matrices from the same ideas: multiplying a matrix by a vector is a list of dot products. [Vectors, dot product and span](../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md) extends everything here to any number of components, and the gradient in partial derivatives and the gradient<!-- link: ../../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md --> is a vector that points uphill.
 - In computing, a vector is a list of numbers. Game engines and graphics code add and scale position and velocity vectors every frame, and the dot product tests which way a surface faces. Machine learning represents words, images and users as vectors, and cosine similarity compares them.
 - In economics, a shopping basket is a vector of quantities and the prices form another vector, so the total cost is a dot product: for prices \$3, \$4 and \$7 and quantities $(2, 5, 1)$ it is $3 \cdot 2 + 4 \cdot 5 + 7 \cdot 1 = 33$ dollars.

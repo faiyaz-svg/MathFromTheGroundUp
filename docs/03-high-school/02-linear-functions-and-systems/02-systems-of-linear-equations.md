@@ -91,7 +91,7 @@ a_2x + b_2y &= c_2,
 \end{aligned}
 $$
 
-where each equation has at least one nonzero coefficient on the left. Let $D = a_1b_2 - a_2b_1$. This number is the determinant of the coefficient matrix. Its general form is in determinants<!-- link: ../../05-university-core/06-linear-algebra/06-determinants.md -->.
+where each equation has at least one nonzero coefficient on the left. Let $D = a_1b_2 - a_2b_1$. This number is the determinant of the coefficient matrix. Its general form is in [determinants](../../05-university-core/06-linear-algebra/06-determinants.md).
 
 *Theorem.* (i) If $D \ne 0$, the system has exactly one solution,
 
@@ -158,7 +158,7 @@ $$
 \end{array}\right].
 $$
 
-The last row says $24s = 168$, so $s = 7$. The staircase of zeros is the goal, and substituting back up the stairs finishes the job: row 2 gives $m + 21 = 25$, so $m = 4$, and row 1 gives $2c + 12 + 7 = 25$, so $c = 3$. Doing this for any number of equations is Gaussian elimination. [Matrix basics](../10-vectors-and-matrices/02-matrix-basics.md) introduces matrices properly, and systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md --> reads the three cases off the staircase.
+The last row says $24s = 168$, so $s = 7$. The staircase of zeros is the goal, and substituting back up the stairs finishes the job: row 2 gives $m + 21 = 25$, so $m = 4$, and row 1 gives $2c + 12 + 7 = 25$, so $c = 3$. Doing this for any number of equations is Gaussian elimination. [Matrix basics](../10-vectors-and-matrices/02-matrix-basics.md) introduces matrices properly, and [systems and Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md) reads the three cases off the staircase.
 
 ### Applications
 
@@ -526,6 +526,6 @@ Check: $2000 + 6000 + 2000 = 10000$, and the interest is $0.02(2000) + 0.03(6000
 
 ## Where this shows up
 
-- The next lesson, [two-variable inequalities and feasible regions](03-two-variable-inequalities-and-feasible-regions.md), replaces each equation by an inequality, and finds the corners of the feasible region by solving systems like these. In linear algebra, the augmented matrix and the row operations become Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md -->, and the determinant test for $D$ generalizes to square matrices of any size (determinants<!-- link: ../../05-university-core/06-linear-algebra/06-determinants.md -->).
-- In computing, solving $A\mathbf{x} = \mathbf{b}$ is one of the most common numerical jobs: circuit analysis, balancing network flow, intersecting lines and planes in graphics, and the normal equations of least squares (orthogonality, projections and least squares<!-- link: ../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md -->) all end up as a linear system.
+- The next lesson, [two-variable inequalities and feasible regions](03-two-variable-inequalities-and-feasible-regions.md), replaces each equation by an inequality, and finds the corners of the feasible region by solving systems like these. In linear algebra, the augmented matrix and the row operations become [Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md), and the determinant test for $D$ generalizes to square matrices of any size ([determinants](../../05-university-core/06-linear-algebra/06-determinants.md)).
+- In computing, solving $A\mathbf{x} = \mathbf{b}$ is one of the most common numerical jobs: circuit analysis, balancing network flow, intersecting lines and planes in graphics, and the normal equations of least squares ([orthogonality, projections and least squares](../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md)) all end up as a linear system.
 - In economics, market equilibrium is the solution of a two-equation system (supply and demand equilibrium algebra<!-- link: ../../07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md -->), and models with several markets or sectors are larger systems solved the same way.

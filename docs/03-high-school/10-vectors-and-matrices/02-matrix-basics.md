@@ -292,7 +292,7 @@ $$
 QP = \begin{pmatrix} 1 & 2 \\ 3 & 7 \end{pmatrix}.
 $$
 
-The two products are different, even though every entry of $P$ and $Q$ is a small whole number. Check by the determinants: $\det P = 1$, $\det Q = 1$, and both products have determinant $7 \cdot 1 - 2 \cdot 3 = 1$ and $1 \cdot 7 - 2 \cdot 3 = 1$. (In general, $\det(AB) = \det A \cdot \det B$, which is shown in determinants<!-- link: ../../05-university-core/06-linear-algebra/06-determinants.md -->, so both orders must give $1 \cdot 1 = 1$.)
+The two products are different, even though every entry of $P$ and $Q$ is a small whole number. Check by the determinants: $\det P = 1$, $\det Q = 1$, and both products have determinant $7 \cdot 1 - 2 \cdot 3 = 1$ and $1 \cdot 7 - 2 \cdot 3 = 1$. (In general, $\det(AB) = \det A \cdot \det B$, which is shown in [determinants](../../05-university-core/06-linear-algebra/06-determinants.md), so both orders must give $1 \cdot 1 = 1$.)
 
 </details>
 
@@ -579,6 +579,6 @@ Check: the graph has one triangle, $\{0, 1, 2\}$, and the diagonal entry for ver
 
 ## Where this shows up
 
-- The next steps in linear algebra, matrix algebra and inverses<!-- link: ../../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md -->, systems and Gaussian elimination<!-- link: ../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md --> and linear transformations, kernel and image<!-- link: ../../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md -->, build on this lesson, and the determinant returns in its general form in determinants<!-- link: ../../05-university-core/06-linear-algebra/06-determinants.md -->.
+- The next steps in linear algebra, [matrix algebra and inverses](../../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md), [systems and Gaussian elimination](../../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md) and [linear transformations, kernel and image](../../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md), build on this lesson, and the determinant returns in its general form in [determinants](../../05-university-core/06-linear-algebra/06-determinants.md).
 - In computing, graphics code turns a model by multiplying every point by a rotation matrix, and a neural network layer computes a matrix times a vector. A graph is stored as an adjacency matrix, and the powers of the matrix count walks, as in graph basics<!-- link: ../../06-cs-math/05-graphs/01-graph-basics.md -->. Images are matrices of pixels, and the NumPy `@` operator is the product from this lesson.
 - In economics, an input-output model writes how much each industry needs from the others as a matrix, and its inverse answers questions such as how much each industry must produce to meet a given demand. A market with several goods has one equation per good, which is the system $A\mathbf{x} = \mathbf{b}$.

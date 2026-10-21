@@ -354,7 +354,7 @@ It is a convention, so that two people who write the same line get the same equa
 
 ### Why do $A$ and $B$ point at right angles to the line?
 
-Take $Ax + By = C$ with $A$ and $B$ both nonzero. The line has slope $-\frac{A}{B}$. The arrow from the origin to the point $(A, B)$ has slope $\frac{B}{A}$, and $-\frac{A}{B} \cdot \frac{B}{A} = -1$. By the theorem above, the arrow is perpendicular to the line. An arrow like this is called a normal vector, and it returns in the dot product<!-- link: ../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md --> in linear algebra.
+Take $Ax + By = C$ with $A$ and $B$ both nonzero. The line has slope $-\frac{A}{B}$. The arrow from the origin to the point $(A, B)$ has slope $\frac{B}{A}$, and $-\frac{A}{B} \cdot \frac{B}{A} = -1$. By the theorem above, the arrow is perpendicular to the line. An arrow like this is called a normal vector, and it returns in [the dot product](../../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md) in linear algebra.
 
 ### Can I always use $y = mx + b$?
 

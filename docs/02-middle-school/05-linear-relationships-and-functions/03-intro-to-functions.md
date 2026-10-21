@@ -416,7 +416,7 @@ Increasing the input by $h$ always increases the output by $3h$, the slope times
 
 (b) $f(x_1 + x_2) = 3x_1 + 3x_2 - 5$, while $f(x_1) + f(x_2) = (3x_1 - 5) + (3x_2 - 5) = 3x_1 + 3x_2 - 10$. They differ by 5 for every pair of inputs, so they are never equal. For example, $f(1 + 2) = f(3) = 4$, but $f(1) + f(2) = -2 + 1 = -1$.
 
-(c) In general $f(x_1 + x_2) = mx_1 + mx_2 + b$ and $f(x_1) + f(x_2) = mx_1 + mx_2 + 2b$. These are equal exactly when $b = 2b$, that is, when $b = 0$. So only the proportional functions $f(x) = mx$ have this property. Linear algebra uses the word "linear" in this stricter sense (linear transformations, kernel and image<!-- link: ../../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md -->).
+(c) In general $f(x_1 + x_2) = mx_1 + mx_2 + b$ and $f(x_1) + f(x_2) = mx_1 + mx_2 + 2b$. These are equal exactly when $b = 2b$, that is, when $b = 0$. So only the proportional functions $f(x) = mx$ have this property. Linear algebra uses the word "linear" in this stricter sense ([linear transformations, kernel and image](../../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md)).
 
 Check (c) with $f(x) = 3x$: $f(1 + 2) = 9$ and $f(1) + f(2) = 3 + 6 = 9$.
 
