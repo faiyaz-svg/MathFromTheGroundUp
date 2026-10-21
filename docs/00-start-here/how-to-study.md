@@ -36,7 +36,7 @@ The book builds spacing in for you. Anki brings each card back after a growing g
 
 Rohrer and Taylor (2007) taught 18 college students to find the volumes of four unfamiliar solids. One group practised in blocks, with four problems on one solid followed by four on the next. The other group did the same problems interleaved. During practice, the block group scored higher, 89% against 60%. On a test one week later, the interleaved group scored 63% and the block group 20%. This was a small study, and Dunlosky et al. rate interleaved practice as moderate utility.
 
-Expect interleaving to feel worse while you do it: you make more mistakes and move more slowly. In the study above, the group that did worse in practice did far better on the test. In this book, each lesson's challenge tier mixes in an earlier lesson, the diagnostics mix a whole folder, and 04-proofs-and-logic ends with a mixed proof practice<!-- link: ../04-proofs-and-logic/07-putting-it-together/02-mixed-proof-practice.md --> lesson.
+Expect interleaving to feel worse while you do it: you make more mistakes and move more slowly. In the study above, the group that did worse in practice did far better on the test. In this book, each lesson's challenge tier mixes in an earlier lesson, the diagnostics mix a whole folder, and 04-proofs-and-logic ends with a [mixed proof practice](../04-proofs-and-logic/07-putting-it-together/02-mixed-proof-practice.md) lesson.
 
 ## Worked examples for new topics
 
