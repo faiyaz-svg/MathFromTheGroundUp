@@ -375,4 +375,4 @@ Check: $-2\sin\left(\frac{1}{2} \cdot \frac{3\pi}{2} - \frac{\pi}{4}\right) + 1 
 
 - The next lesson, [trig identities and inverse trig](04-trig-identities-and-inverse-trig.md), solves equations such as $\sin x = \frac{1}{2}$, which asks where a horizontal line meets the wave, and it uses the symmetries of these graphs.
 - Signals are sums of sinusoids: audio, radio and image compression all describe data by amplitude, frequency and phase (Fourier analysis, in later courses). In economics, seasonal patterns such as monthly retail sales or electricity demand are often modelled with a sinusoid on top of a trend.
-- In calculus, you will differentiate and integrate these functions, and the derivative of $\sin x$ being $\cos x$ is why the two graphs are shifted copies of each other (differentiation rules<!-- link: ../../05-university-core/02-derivatives/02-differentiation-rules.md -->).
+- In calculus, you will differentiate and integrate these functions, and the derivative of $\sin x$ being $\cos x$ is why the two graphs are shifted copies of each other ([differentiation rules](../../05-university-core/02-derivatives/02-differentiation-rules.md)).

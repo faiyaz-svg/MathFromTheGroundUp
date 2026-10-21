@@ -37,7 +37,7 @@ The factored form $x(30 - 2x)(20 - 2x)$ tells you where the graph meets the axis
 
 ## Definitions
 
-A **polynomial function** is a function given by a polynomial, $f(x) = a_nx^n + \cdots + a_1x + a_0$, with $x$ any real number. Its graph is the set of points $(x, f(x))$. The graph has no breaks, no jumps and no corners: it is one smooth curve. Calculus proves this (continuity, asymptotes and the IVT<!-- link: ../../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md -->); here it is used as a fact.
+A **polynomial function** is a function given by a polynomial, $f(x) = a_nx^n + \cdots + a_1x + a_0$, with $x$ any real number. Its graph is the set of points $(x, f(x))$. The graph has no breaks, no jumps and no corners: it is one smooth curve. Calculus proves this ([continuity, asymptotes and the IVT](../../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md)); here it is used as a fact.
 
 A **zero** of $f$ is a number $c$ with $f(c) = 0$, so the point $(c, 0)$ is an $x$-intercept of the graph. If $c$ is a zero, then $(x - c)$ is a factor ([the factor theorem](04-polynomial-division-and-remainder-theorem.md#definitions)). The **multiplicity** of a zero $c$ is the number $k$ such that $(x - c)^k$ divides $f(x)$ but $(x - c)^{k+1}$ does not. Equivalently, $f(x) = (x - c)^k g(x)$ with $g(c) \ne 0$. In plain words, the multiplicity counts how many times the factor $x - c$ appears. In $x^2(x - 3)^3(x + 1)$ the zero 0 has multiplicity 2, the zero 3 has multiplicity 3 and the zero $-1$ has multiplicity 1.
 
@@ -72,7 +72,7 @@ Four facts hold for every polynomial of degree $n \ge 1$.
 1. It has at most $n$ zeros, since a nonzero polynomial of degree $n$ has at most $n$ ([the corollary of the factor theorem](04-polynomial-division-and-remainder-theorem.md#definitions)). Counted with multiplicity, a polynomial that factors completely into linear factors has exactly $n$.
 2. Sign changes locate zeros. If $f(a)$ and $f(b)$ have opposite signs, the graph goes from one side of the axis to the other without a gap, so there is at least one zero between $a$ and $b$. This is the intermediate value theorem, stated here in the form we need. The statement is true for polynomials because their graphs are unbroken, and it is proved in calculus.
 3. If $n$ is odd, there is at least one real zero. The ends go in opposite directions, so for some $a$ the value $f(a)$ is negative and for some $b$ it is positive, and fact 2 gives a zero between them. For even $n$ this can fail: $x^4 + 1$ has no real zero.
-4. It has at most $n - 1$ turning points. The cubic $x^3$ has none, and $x^3 - 3x$ has two. The reason comes from calculus: turning points happen where the slope is 0, and the slope of a polynomial of degree $n$ is a polynomial of degree $n - 1$, which has at most $n - 1$ zeros (differentiation rules<!-- link: ../../05-university-core/02-derivatives/02-differentiation-rules.md -->). This lesson uses fact 4 without proving it.
+4. It has at most $n - 1$ turning points. The cubic $x^3$ has none, and $x^3 - 3x$ has two. The reason comes from calculus: turning points happen where the slope is 0, and the slope of a polynomial of degree $n$ is a polynomial of degree $n - 1$, which has at most $n - 1$ zeros ([differentiation rules](../../05-university-core/02-derivatives/02-differentiation-rules.md)). This lesson uses fact 4 without proving it.
 
 ## How to do it
 
@@ -299,7 +299,7 @@ A polynomial is built from the variable using only addition and multiplication, 
 
 ### Why does the number of turning points have an upper limit?
 
-Because each turning point is a place where the slope is 0, and the slope of a polynomial of degree $n$ is a polynomial of degree $n - 1$. A polynomial of degree $n - 1$ has at most $n - 1$ zeros, so there are at most $n - 1$ places where the slope is 0. The slope of a polynomial is its derivative; differentiation rules<!-- link: ../../05-university-core/02-derivatives/02-differentiation-rules.md --> shows how to find it.
+Because each turning point is a place where the slope is 0, and the slope of a polynomial of degree $n$ is a polynomial of degree $n - 1$. A polynomial of degree $n - 1$ has at most $n - 1$ zeros, so there are at most $n - 1$ places where the slope is 0. The slope of a polynomial is its derivative; [differentiation rules](../../05-university-core/02-derivatives/02-differentiation-rules.md) shows how to find it.
 
 ### If a polynomial can pass through any $n + 1$ points, why not always do that?
 

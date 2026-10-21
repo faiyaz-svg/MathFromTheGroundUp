@@ -344,7 +344,7 @@ Because the slope keeps changing. Between $x$ and $x + 1$ the slope is $2ax + a 
 
 ### Why is the vertex at $-\frac{b}{2a}$?
 
-The proof above gives one reason. Here is a second, from symmetry. The function $ax^2 + bx = x(ax + b)$ has zeros at $0$ and $-\frac{b}{a}$, so its axis is halfway between them, at $-\frac{b}{2a}$. Adding $c$ lifts the whole graph without moving it sideways, so $ax^2 + bx + c$ has the same axis. Calculus gives a third reason: the slope $2ax + b$ is zero exactly at $x = -\frac{b}{2a}$ (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->).
+The proof above gives one reason. Here is a second, from symmetry. The function $ax^2 + bx = x(ax + b)$ has zeros at $0$ and $-\frac{b}{a}$, so its axis is halfway between them, at $-\frac{b}{2a}$. Adding $c$ lifts the whole graph without moving it sideways, so $ax^2 + bx + c$ has the same axis. Calculus gives a third reason: the slope $2ax + b$ is zero exactly at $x = -\frac{b}{2a}$ ([the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md)).
 
 ### What if the vertex isn't at a nice number?
 

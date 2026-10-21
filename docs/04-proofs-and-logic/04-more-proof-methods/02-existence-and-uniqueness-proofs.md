@@ -79,7 +79,7 @@ Continuity. A continuous function cannot jump over a value. This is the intermed
 
 *Proof.* Let $f(x) = x^3 + x - 1$. It is continuous, with $f(0) = -1 < 0$ and $f(1) = 1 > 0$. By the intermediate value theorem, there is $c$ with $0 < c < 1$ and $f(c) = 0$. $\blacksquare$
 
-The proof gives no formula for $c$. It still points to a method: halve the interval, keep the half where the sign changes, and repeat. After a few dozen halvings this finds $c \approx 0.6823$, and the proof is what tells you the search will succeed. The intermediate value theorem is proved from the completeness axiom in [real numbers, axioms and set notation](../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#the-completeness-axiom); the lesson on continuity and the IVT<!-- link: ../../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md --> uses it.
+The proof gives no formula for $c$. It still points to a method: halve the interval, keep the half where the sign changes, and repeat. After a few dozen halvings this finds $c \approx 0.6823$, and the proof is what tells you the search will succeed. The intermediate value theorem is proved from the completeness axiom in [real numbers, axioms and set notation](../../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#the-completeness-axiom); [the lesson on continuity and the IVT](../../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md) uses it.
 
 ### Proving uniqueness
 

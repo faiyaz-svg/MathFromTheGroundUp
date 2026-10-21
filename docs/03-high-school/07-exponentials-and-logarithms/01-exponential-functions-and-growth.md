@@ -178,7 +178,7 @@ $$
 
 describes continuous growth for $k > 0$ and continuous decay for $k < 0$. The constant $k$ is the continuous growth rate. Every exponential function can be written this way, because $b^x = (e^k)^x = e^{kx}$ when $e^k = b$. For example, $1.08^x = e^{kx}$ with $k = \ln 1.08 \approx 0.0770$, where $\ln$ is the logarithm that [the next lesson](02-logarithms.md) defines. So $e^{0.0770} \approx 1.08$: a continuous rate of about 7.7% per year gives the same growth as 8% compounded once a year.
 
-Why use $e$ at all, when $b$ could be anything? In calculus, the function $e^x$ is its own derivative, and that makes the formulas for rates of change simplest in base $e$ (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->). Many science and economics formulas are written with $e$ for that reason.
+Why use $e$ at all, when $b$ could be anything? In calculus, the function $e^x$ is its own derivative, and that makes the formulas for rates of change simplest in base $e$ ([the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md)). Many science and economics formulas are written with $e$ for that reason.
 
 ### Linear and exponential growth side by side
 

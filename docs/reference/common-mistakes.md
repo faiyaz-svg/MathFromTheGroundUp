@@ -1030,7 +1030,7 @@ Right: replace every $x$ in the rule with $(x + h)$. For $f(x) = x^2$, that give
 
 Test with $x = 3$ and $h = 1$: $f(4) = 16$, while $f(3) + 1 = 10$. The input has changed, so the whole rule applies to the new input. This substitution is the first step of every derivative worked from the definition.
 
-Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#edge-cases-and-common-mistakes),[what is a function](../03-high-school/03-functions/01-what-is-a-function.md) and the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#edge-cases-and-common-mistakes),[what is a function](../03-high-school/03-functions/01-what-is-a-function.md) and [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md).
 
 ### Shifting a graph the wrong way
 
@@ -1690,7 +1690,7 @@ Right: factor first. For $x \ne 2$, $\frac{x^2 - 4}{x - 2} = \frac{(x - 2)(x + 2
 
 The form $\frac{0}{0}$ only says that substitution failed to give an answer. A limit depends on the values near $2$ and never on the value at $2$, so cancelling the factor $x - 2$, which is nonzero near $2$, is allowed.
 
-Taught in limits, intuition and limit laws<!-- link: ../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md -->.
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md).
 
 ### Multiplying derivatives for the derivative of a product
 
@@ -1700,7 +1700,7 @@ Right: $\frac{d}{dx}(fg) = f'g + fg'$
 
 Test with $f(x) = g(x) = x$: the product is $x^2$, whose derivative is $2x$, but $f'g' = 1 \cdot 1 = 1$. The product rule gives $1 \cdot x + x \cdot 1 = 2x$. Quotients have their own rule as well, and $\left(\frac{f}{g}\right)'$ is not $\frac{f'}{g'}$.
 
-Taught in differentiation rules<!-- link: ../05-university-core/02-derivatives/02-differentiation-rules.md -->.
+Taught in [differentiation rules](../05-university-core/02-derivatives/02-differentiation-rules.md).
 
 ### Forgetting the chain rule
 
@@ -1710,7 +1710,7 @@ Right: $\frac{d}{dx} \sin(3x) = 3\cos(3x)$
 
 When a function is applied to something other than plain $x$, multiply by the derivative of the inside: $\frac{d}{dx} f(g(x)) = f'(g(x))\,g'(x)$. The inside here is $3x$, with derivative $3$. In the same way, $\frac{d}{dx}(x^2 + 1)^5 = 5(x^2 + 1)^4 \cdot 2x$.
 
-Taught in chain rule, implicit and inverse derivatives<!-- link: ../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md -->.
+Taught in [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md).
 
 ### Forgetting the constant of integration
 

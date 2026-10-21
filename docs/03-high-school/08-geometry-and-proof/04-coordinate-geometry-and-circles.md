@@ -376,7 +376,7 @@ Yes. Moving or turning a figure doesn't change distances, midpoints or whether l
 
 ### Is a tangent line always perpendicular to the radius?
 
-For a circle, yes, at every point of contact. The proof above works for any point $P$. For other curves, a tangent is defined differently, and the idea of "perpendicular to the radius" has no meaning, but the tangent to a smooth curve is still the line that just touches it. This is the starting point of the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+For a circle, yes, at every point of contact. The proof above works for any point $P$. For other curves, a tangent is defined differently, and the idea of "perpendicular to the radius" has no meaning, but the tangent to a smooth curve is still the line that just touches it. This is the starting point of [the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md).
 
 ### What if the equation has an $xy$ term?
 

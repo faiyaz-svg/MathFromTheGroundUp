@@ -123,7 +123,7 @@ Check: the original claims that every prime is odd. A false universal statement 
 
 ### Example 2: negating a limit statement
 
-The definition of a limit, which the epsilon-delta definition<!-- link: ../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md --> lesson takes slowly, says that $\lim_{x \to a} f(x) = L$ when
+The definition of a limit, which [the epsilon-delta definition](../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md) lesson takes slowly, says that $\lim_{x \to a} f(x) = L$ when
 
 $$
 \forall \varepsilon > 0,\ \exists \delta > 0,\ \forall x,\ \bigl(0 < \lvert x - a \rvert < \delta \Rightarrow \lvert f(x) - L \rvert < \varepsilon\bigr).

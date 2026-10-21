@@ -294,7 +294,7 @@ The list `turns` holds the days where the change in price switches sign, which a
 
 ### Why is the average rate of change the slope of the secant?
 
-Because slope is rise over run, and the rise from $(a, f(a))$ to $(b, f(b))$ is $f(b) - f(a)$ while the run is $b - a$. The word secant just names the line through two points of a curve. If you let the second point slide toward the first, the secant tilts toward the line that touches the curve at one point, called the tangent line. Its slope is the instantaneous rate of change, the subject of the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+Because slope is rise over run, and the rise from $(a, f(a))$ to $(b, f(b))$ is $f(b) - f(a)$ while the run is $b - a$. The word secant just names the line through two points of a curve. If you let the second point slide toward the first, the secant tilts toward the line that touches the curve at one point, called the tangent line. Its slope is the instantaneous rate of change, the subject of [the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md).
 
 ### Can a function be increasing at a single point?
 

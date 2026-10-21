@@ -165,7 +165,7 @@ $$
 \end{aligned}
 $$
 
-The power rule also holds for every real exponent when $x > 0$, the quotient rule needs $g \ne 0$, and $c$ is a constant. The last line is the chain rule. Taught in differentiation rules<!-- link: ../05-university-core/02-derivatives/02-differentiation-rules.md --> and the chain rule<!-- link: ../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md -->; collected in the derivatives cheat sheet<!-- link: ../05-university-core/02-derivatives/index.md -->.
+The power rule also holds for every real exponent when $x > 0$, the quotient rule needs $g \ne 0$, and $c$ is a constant. The last line is the chain rule. Taught in [differentiation rules](../05-university-core/02-derivatives/02-differentiation-rules.md) and [the chain rule](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md); collected in the [derivatives cheat sheet](../05-university-core/02-derivatives/index.md).
 
 ### Mean and variance
 

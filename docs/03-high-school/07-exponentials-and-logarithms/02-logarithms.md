@@ -317,7 +317,7 @@ The worst case matches $\lfloor \log_2 n \rfloor + 1$ every time. Note that 1,02
 
 ### Why is $\ln$ called the "natural" logarithm?
 
-It is the logarithm that calculus makes simplest: the rate of change of $\ln x$ at $x$ is exactly $\frac{1}{x}$, with no extra constant, and the inverse $e^x$ is its own rate of change (the derivative definition<!-- link: ../../05-university-core/02-derivatives/01-the-derivative-definition.md -->). A logarithm in any other base carries an extra constant factor. You don't need calculus yet to use $\ln$: it behaves like every other logarithm, and the base $e \approx 2.718$ came from continuous compounding in [exponential functions and growth](01-exponential-functions-and-growth.md#the-number-e).
+It is the logarithm that calculus makes simplest: the rate of change of $\ln x$ at $x$ is exactly $\frac{1}{x}$, with no extra constant, and the inverse $e^x$ is its own rate of change ([the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md)). A logarithm in any other base carries an extra constant factor. You don't need calculus yet to use $\ln$: it behaves like every other logarithm, and the base $e \approx 2.718$ came from continuous compounding in [exponential functions and growth](01-exponential-functions-and-growth.md#the-number-e).
 
 ### What about logarithms of negative numbers?
 

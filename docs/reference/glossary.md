@@ -201,7 +201,7 @@ The **degree** of a nonzero polynomial is the largest exponent that has a nonzer
 
 The **denominator** of a fraction $\frac{a}{b}$ is the number on the bottom, $b$, which says how many equal parts the whole is cut into. It can't be 0. Taught in [fractions and equivalent fractions](../01-elementary/09-fractions-and-equivalent-fractions.md).
 
-The **derivative** of a function at a point is its instantaneous rate of change there, which is the slope of the tangent line. It is defined as the limit $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$; the formal treatment is in the derivative definition<!-- link: ../05-university-core/02-derivatives/01-the-derivative-definition.md -->.
+The **derivative** of a function at a point is its instantaneous rate of change there, which is the slope of the tangent line. It is defined as the limit $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$; the formal treatment is in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md).
 
 The **determinant** of a $2 \times 2$ matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $ad - bc$. The matrix has an inverse exactly when its determinant is not 0. Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#definitions).
 
@@ -441,7 +441,7 @@ A **lemma** is a smaller result, proved mainly as a step toward a theorem. A few
 
 **Like terms** have the same variables, each raised to the same power, so only their coefficients differ: $3x^2$ and $-5x^2$ are like terms, but $3x^2$ and $3x$ are not. Only like terms combine into one term, as in $3x + 5x = 8x$. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md#definitions) and [equivalent expressions](../02-middle-school/03-expressions-equations-inequalities/02-equivalent-expressions.md#the-properties-behind-each-step).
 
-The **limit** of $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ gets as close as you like to when $x$ is close enough to $a$, whatever happens at $a$ itself. The intuition is in limits, intuition and limit laws<!-- link: ../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md -->, and the formal version is in the epsilon-delta definition<!-- link: ../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md -->.
+The **limit** of $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ gets as close as you like to when $x$ is close enough to $a$, whatever happens at $a$ itself. The intuition is in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md), and the formal version is in [the epsilon-delta definition](../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md).
 
 A **line of best fit** is a line drawn through the middle of a scatter plot that models a linear trend. Its slope is the predicted change in $y$ for each extra unit of $x$. Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#definitions).
 

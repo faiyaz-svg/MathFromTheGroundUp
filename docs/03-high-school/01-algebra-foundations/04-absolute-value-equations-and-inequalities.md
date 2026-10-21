@@ -37,7 +37,7 @@ A picture explains the whole lesson. Take the centre 3 and the distance 2. The n
 
 So "equals" gives two points, "less than" gives the middle, and "greater than" gives the outside. The algebra in this lesson gets the same answers when the inside is more complicated, such as $\lvert 2x - 3 \rvert$ or $\lvert 5 - 2x \rvert$.
 
-Closeness is the idea behind limits in calculus. "The values $f(x)$ get close to $L$" is made exact with the statement $\lvert f(x) - L \rvert < \varepsilon$, and that is what the epsilon-delta definition<!-- link: ../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md --> will use. Practice problem 7 is a first taste.
+Closeness is the idea behind limits in calculus. "The values $f(x)$ get close to $L$" is made exact with the statement $\lvert f(x) - L \rvert < \varepsilon$, and that is what [the epsilon-delta definition](../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md) will use. Practice problem 7 is a first taste.
 
 ## Definitions
 
@@ -379,7 +379,7 @@ Check: $330 - 16.5 = 313.5$ and $330 + 16.5 = 346.5$. The values 312 and 347 are
 
 ### Challenge
 
-7\. This is a first look at the epsilon-delta definition<!-- link: ../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md -->. (a) Show that $\lvert 3x - 6 \rvert < 0.3$ is the same as $\lvert x - 2 \rvert < 0.1$. (b) For a general number $\varepsilon > 0$, find a number $\delta > 0$ such that $\lvert x - 2 \rvert < \delta$ guarantees $\lvert 3x - 6 \rvert < \varepsilon$. (c) Find the largest $\delta$ that keeps $\lvert 4x - 12 \rvert < 0.2$ whenever $\lvert x - 3 \rvert < \delta$.
+7\. This is a first look at [the epsilon-delta definition](../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md). (a) Show that $\lvert 3x - 6 \rvert < 0.3$ is the same as $\lvert x - 2 \rvert < 0.1$. (b) For a general number $\varepsilon > 0$, find a number $\delta > 0$ such that $\lvert x - 2 \rvert < \delta$ guarantees $\lvert 3x - 6 \rvert < \varepsilon$. (c) Find the largest $\delta$ that keeps $\lvert 4x - 12 \rvert < 0.2$ whenever $\lvert x - 3 \rvert < \delta$.
 
 <details class="solution" markdown>
 <summary>Solution</summary>
@@ -412,5 +412,5 @@ Check: 7.5% of 2.4 is 0.18, and 8.3% is more than 7.5%, consistent with (b).
 ## Where this shows up
 
 - The next chapter's [piecewise, absolute value and step functions](../03-functions/03-piecewise-absolute-value-and-step-functions.md) graphs $y = \lvert x \rvert$, a V with its point at the origin, and shifts and stretches it. Solving $\lvert 2x - 3 \rvert = 7$ is finding where the V crosses a horizontal line.
-- The epsilon-delta definition<!-- link: ../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md --> writes "close" as $\lvert x - a \rvert < \delta$ and $\lvert f(x) - L \rvert < \varepsilon$, as in Practice problem 7. A confidence interval is "estimate plus or minus a margin", which is $\lvert \mu - \bar{x} \rvert \le m$ (confidence intervals<!-- link: ../../05-university-core/08-statistics/02-confidence-intervals.md -->).
+- [The epsilon-delta definition](../../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md) writes "close" as $\lvert x - a \rvert < \delta$ and $\lvert f(x) - L \rvert < \varepsilon$, as in Practice problem 7. A confidence interval is "estimate plus or minus a margin", which is $\lvert \mu - \bar{x} \rvert \le m$ (confidence intervals<!-- link: ../../05-university-core/08-statistics/02-confidence-intervals.md -->).
 - In computing, comparing floats means testing $\lvert a - b \rvert \le \text{tolerance}$, and a numerical method such as Newton's method stops when the change is smaller than a tolerance. In economics, a target band such as the Bank of Canada's 1% to 3% is a tolerance around 2%.

@@ -320,7 +320,7 @@ A right triangle can have only acute angles, so the definition by sides can't de
 
 ### Why is the derivative of sine only $\cos x$ in radians?
 
-Because the derivative is a limit that involves $\frac{\sin h}{h}$ as $h \to 0$, and that limit is 1 only in radians. If you measure in degrees, $\sin(x^\circ) = \sin\left(\frac{\pi x}{180}\right)$, and the chain rule adds the factor $\frac{\pi}{180}$: the derivative becomes $\frac{\pi}{180}\cos(x^\circ)$. Calculus would still work, but every formula would carry the extra constant, and radians remove it. The details are in differentiation rules<!-- link: ../../05-university-core/02-derivatives/02-differentiation-rules.md -->.
+Because the derivative is a limit that involves $\frac{\sin h}{h}$ as $h \to 0$, and that limit is 1 only in radians. If you measure in degrees, $\sin(x^\circ) = \sin\left(\frac{\pi x}{180}\right)$, and the chain rule adds the factor $\frac{\pi}{180}$: the derivative becomes $\frac{\pi}{180}\cos(x^\circ)$. Calculus would still work, but every formula would carry the extra constant, and radians remove it. The details are in [differentiation rules](../../05-university-core/02-derivatives/02-differentiation-rules.md).
 
 ## Practice
 
@@ -435,4 +435,4 @@ Check: $\cos 5.3559 = 0.6$ and $\sin 5.3559 = -0.8$ in radian mode. The angle is
 
 - The next lesson, [graphs of trig functions](03-graphs-of-trig-functions.md), plots $\sin\theta$ and $\cos\theta$ against the angle in radians. [Trig identities and inverse trig](04-trig-identities-and-inverse-trig.md) builds on the identity proved above.
 - Complex numbers have a polar form, $r(\cos\theta + i\sin\theta)$, that is the unit circle again (see [complex numbers](../05-quadratics-and-complex-numbers/03-complex-numbers.md)). Rotations in graphics and robotics use the matrix with entries $\cos\theta$ and $\sin\theta$ ([matrix basics](../10-vectors-and-matrices/02-matrix-basics.md)).
-- Every language's trig functions take radians, so unit mistakes (degrees passed to `sin`) are a common source of bugs in graphics and simulation code. Calculus uses radians throughout, starting with differentiation rules<!-- link: ../../05-university-core/02-derivatives/02-differentiation-rules.md -->.
+- Every language's trig functions take radians, so unit mistakes (degrees passed to `sin`) are a common source of bugs in graphics and simulation code. Calculus uses radians throughout, starting with [differentiation rules](../../05-university-core/02-derivatives/02-differentiation-rules.md).
