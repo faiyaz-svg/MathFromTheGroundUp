@@ -216,7 +216,7 @@ Right: $-17 = 5 \times (-4) + 3$, so the quotient is $-4$ and the remainder is 3
 
 The division algorithm asks for $0 \le r < d$, so the remainder is never negative. Take the largest multiple of 5 that is not bigger than $-17$, which is $-20$. Python agrees, since `divmod(-17, 5)` is `(-4, 3)`. C, C++ and Java round the quotient toward 0 instead, so their `-17 % 5` is `-2`.
 
-Taught in [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#challenge) and divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+Taught in [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#challenge), [existence and uniqueness proofs](../04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md#edge-cases-and-common-mistakes) and divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
 
 ## Fractions, decimals and percents
 
@@ -864,7 +864,7 @@ Right: $x^2 - 3x = 0$, so $x(x - 3) = 0$, and $x = 0$ or $x = 3$
 
 Dividing by $x$ is allowed only when $x \ne 0$, so it throws away the solution $x = 0$. Move every term to one side and factor instead. Both answers check: $0^2 = 3 \cdot 0$ and $3^2 = 3 \cdot 3$. The same slip turns $5x = 3x$ into $5 = 3$, which seems to say there is no solution, though $x = 0$ works.
 
-Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#edge-cases-and-common-mistakes),[multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero) and [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md).
+Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#edge-cases-and-common-mistakes), [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#dividing-by-an-expression-that-might-be-zero), [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md) and [if and only if proofs](../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md#edge-cases-and-common-mistakes), where dividing by a variable is an irreversible step in a chain.
 
 ### Keeping every solution after squaring both sides
 
@@ -884,7 +884,7 @@ Right: $\frac{1}{x} < 2$ exactly when $x < 0$ or $x > \frac{1}{2}$
 
 Multiplying by $x$ keeps the order only when $x > 0$. For $x < 0$ the order flips and gives $1 > 2x$, which every negative $x$ satisfies. Test $x = -1$: $\frac{1}{-1} = -1 < 2$, so it is a solution the wrong method lost. Split into cases by sign, or move every term to one side and use a sign chart.
 
-Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md).
+Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md) and [direct proof](../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md#edge-cases-and-common-mistakes), where "$\frac{x}{y} \ge 2$, so $x \ge 2y$" is valid only for $y > 0$.
 
 ## Sets, intervals and absolute value
 
@@ -896,7 +896,7 @@ Right: $2 \in \{1, 2, 3\}$, and $\{2\} \subseteq \{1, 2, 3\}$
 
 The symbol $\in$ connects an element to a set, and $\subseteq$ connects two sets. The number 2 is not a set, so $2 \subseteq \{1, 2, 3\}$ is not even a statement.
 
-Taught in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#edge-cases-and-common-mistakes).
+Taught in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#edge-cases-and-common-mistakes), [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#edge-cases-and-common-mistakes) and [proofs about sets](../04-proofs-and-logic/04-more-proof-methods/03-proofs-about-sets.md#edge-cases-and-common-mistakes).
 
 ### Using a union for "and"
 
@@ -1338,7 +1338,267 @@ Right: start from a known fact, $(a - b)^2 \ge 0$, expand it to $a^2 - 2ab + b^2
 
 Reaching a true statement from the claim proves nothing, because a false claim can lead to a true one: $-1 = 1$ is false, but squaring both sides gives $1 = 1$. Working backward is fine as scratch work for finding the steps. The written proof has to run forward from known facts, with each step following from the ones before it.
 
-Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#why-not-do-the-same-to-both-sides) and[scratch work and proof strategies](../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md).
+Taught in [trig identities and inverse trig](../03-high-school/09-trigonometry/04-trig-identities-and-inverse-trig.md#why-not-do-the-same-to-both-sides), [scratch work and proof strategies](../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md#edge-cases-and-common-mistakes), [direct proof](../04-proofs-and-logic/03-core-proof-methods/01-direct-proof.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-logic).
+
+### Running a conditional backward from its conclusion
+
+Wrong: "If it rains, the ground is wet. The ground is wet, so it rained."
+
+Right: nothing follows about the rain. From "the ground is dry" you may conclude "it did not rain".
+
+Going from $P \Rightarrow Q$ and $Q$ to $P$ is the fallacy of affirming the consequent, and a sprinkler also makes the ground wet. The contrapositive is the one valid way to use a conditional in reverse.
+
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md#edge-cases-and-common-mistakes).
+
+### Concluding the negation of the conclusion from the negation of the hypothesis
+
+Wrong: "If a number is divisible by 6, it is even. The number 4 is not divisible by 6, so it is not even."
+
+Right: the number 4 is even, and the conditional says nothing about it
+
+From $P \Rightarrow Q$ and $\neg P$ nothing follows about $Q$, which is the fallacy of denying the antecedent. The conditional only says what happens when $P$ holds.
+
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md#edge-cases-and-common-mistakes).
+
+### Reading "only if" backward
+
+Wrong: "You pass only if you hand in the project" means that handing in the project makes you pass
+
+Right: it means "if you pass, then you handed in the project"
+
+To test a reading, ask what would make the speaker a liar. A student who handed in the project and failed didn't. A student who passed without handing it in did. "$P$ only if $Q$" is $P \Rightarrow Q$.
+
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md#edge-cases-and-common-mistakes).
+
+### Reading the "if" of a theorem as "if and only if"
+
+Wrong: a theorem says "$n$ is even if $n = 4k$", so every even $n$ has the form $4k$
+
+Right: the theorem gives one direction only. The number 6 is even and is not of the form $4k$.
+
+A definition's "if" means "if and only if", but a theorem's "if" does not, so read the exact wording before treating a statement as a characterization.
+
+Taught in [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md#edge-cases-and-common-mistakes) and [if and only if proofs](../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md#edge-cases-and-common-mistakes).
+
+### Moving a negation through a bracket without flipping the connective
+
+Wrong: $\neg(P \wedge Q) \equiv \neg P \wedge \neg Q$, so the negation of "$x > 3$ and $x$ is even" is "$x \le 3$ and $x$ is odd"
+
+Right: $\neg(P \wedge Q) \equiv \neg P \vee \neg Q$, so the negation is "$x \le 3$ or $x$ is odd"
+
+A "not" that enters a bracket flips the connective and negates each part. Test with $x = 2$: the original is false, so its negation must be true. The "or" version is true there, and the "and" version is false.
+
+Taught in [truth tables and logical equivalence](../04-proofs-and-logic/02-logic-and-sets/03-truth-tables-and-logical-equivalence.md#edge-cases-and-common-mistakes) and [statements and connectives](../04-proofs-and-logic/02-logic-and-sets/01-statements-and-connectives.md#edge-cases-and-common-mistakes).
+
+### Negating a conditional by negating only its conclusion
+
+Wrong: the negation of "if it rains, the match is cancelled" is "if it rains, the match is not cancelled"
+
+Right: the negation is "it rains and the match is not cancelled", which is $P \wedge \neg Q$
+
+The original and the wrong version are both true on every sunny day, so they can't be opposites. A statement and its negation never have the same truth value.
+
+Taught in [negation and translating English](../04-proofs-and-logic/02-logic-and-sets/05-negation-and-translating-english.md#edge-cases-and-common-mistakes).
+
+### Flipping only some of the quantifiers when negating
+
+Wrong: the negation of $\forall \varepsilon\ \exists \delta\ (\dots)$ is $\forall \varepsilon\ \forall \delta\ \neg(\dots)$
+
+Right: the negation is $\exists \varepsilon\ \forall \delta\ \neg(\dots)$
+
+Every quantifier in front flips, in the same order, and the statement inside is negated. Leaving one unflipped gives a statement that is not the opposite of the original.
+
+Taught in [negation and translating English](../04-proofs-and-logic/02-logic-and-sets/05-negation-and-translating-english.md#edge-cases-and-common-mistakes).
+
+### Using an arrow to mean "therefore"
+
+Wrong: $x^2 = 9 \Rightarrow x = 3 \Rightarrow x + 1 = 4$
+
+Right: $x^2 = 9$ gives $x = 3$ or $x = -3$, so $x + 1$ is 4 or $-2$
+
+The expression $P \Rightarrow Q$ is one statement, and it can be false: the first arrow above is. When you mean "so", write "so" or "therefore". A chain of formulas joined by arrows with few words hides the reasons, which is why it is called symbol soup.
+
+Taught in [reading math symbols](../04-proofs-and-logic/01-language-and-notation/04-reading-math-symbols.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-writing).
+
+### Pairing the wrong connective with a quantifier
+
+Wrong: "some student is a CS major who likes math" is $\exists x\,(C(x) \Rightarrow M(x))$
+
+Right: it is $\exists x\,(C(x) \wedge M(x))$, and "every CS major likes math" is $\forall x\,(C(x) \Rightarrow M(x))$
+
+The wrong version is true as soon as one student is not a CS major, since the conditional then holds vacuously. In the same way, $\forall x\,(C(x) \wedge M(x))$ would say that everybody is a CS major.
+
+Taught in [quantifiers](../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md#edge-cases-and-common-mistakes).
+
+### Swapping the order of quantifiers
+
+Wrong: to prove "there is a natural number $N$ with $n \le N$ for every natural number $n$", let $n$ be given and take $N = n + 1$
+
+Right: that proves "for every $n$ there is an $N$ with $n \le N$", a different and true statement. The original claim is false.
+
+In $\forall x\,\exists y$ the number $y$ may depend on $x$, and in $\exists y\,\forall x$ one $y$ must work for every $x$. On the integers, "for every $x$ there is a $y$ with $y > x$" is true, and "there is a $y$ with $y > x$ for every $x$" is false.
+
+Taught in [quantifiers](../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-logic).
+
+### Disproving a "there exists" claim with one failed example
+
+Wrong: $x = 1$ doesn't satisfy $x^2 = 4$, so no $x$ does
+
+Right: to disprove an existence claim you must show failure for every element of the domain. Here $x = 2$ works, so the claim is true.
+
+One example settles a "there exists" claim only in the true direction: a single witness proves it.
+
+Taught in [quantifiers](../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md#edge-cases-and-common-mistakes) and [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md#edge-cases-and-common-mistakes).
+
+### Using one letter for two different integers
+
+Wrong: in a proof about two even integers, "$m = 2k$ and $n = 2k$"
+
+Right: $m = 2j$ and $n = 2k$, a new letter for each integer
+
+Using $k$ twice forces $m = n$, so the proof covers only equal numbers. Each new integer needs its own letter.
+
+Taught in [what is a proof](../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md#edge-cases-and-common-mistakes) and [proof language: let, suppose, WLOG](../04-proofs-and-logic/01-language-and-notation/03-proof-language-let-suppose-wlog.md#edge-cases-and-common-mistakes).
+
+### Proving a special case
+
+Wrong: "Let $m = 4$ and $n = 6$. Then $m + n = 10 = 2 \times 5$, which is even", offered as a proof that a sum of two even integers is even
+
+Right: "Let $m$ and $n$ be even integers", and then argue with letters
+
+A particular pair proves a fact about that pair. A specific number is the right choice only when the claim is about that number, or when you are giving a witness or a counterexample.
+
+Taught in [what is a proof](../04-proofs-and-logic/01-language-and-notation/01-what-is-a-proof.md#edge-cases-and-common-mistakes) and [proof language: let, suppose, WLOG](../04-proofs-and-logic/01-language-and-notation/03-proof-language-let-suppose-wlog.md#edge-cases-and-common-mistakes).
+
+### Proving the converse instead of the claim
+
+Wrong: to prove "if $n^2$ is divisible by 4, then $n$ is even", suppose $n = 2k$ and show that $n^2 = 4k^2$ is divisible by 4
+
+Right: prove the contrapositive. Suppose $n$ is odd, $n = 2k + 1$. Then $n^2 = 4(k^2 + k) + 1$ leaves remainder 1, so $4 \nmid n^2$.
+
+Every line of the wrong version is true, and it proves the converse. Compare the first line of a contrapositive proof with "not $Q$" and its last line with "not $P$".
+
+Taught in [contrapositive proof](../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-logic).
+
+### Writing a negation wrongly in a contrapositive
+
+Wrong: the contrapositive of "if $ab$ is even, then $a$ is even or $b$ is even" starts "suppose $a$ is odd or $b$ is odd"
+
+Right: it starts "suppose $a$ and $b$ are both odd"
+
+The negation of an "or" is an "and" of the negations. The wrong version is not equivalent to the claim: $a = 3$ and $b = 2$ make it fail.
+
+Taught in [contrapositive proof](../04-proofs-and-logic/03-core-proof-methods/05-contrapositive-proof.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-logic).
+
+### Using WLOG on a claim that is not symmetric
+
+Wrong: to prove "if $ab$ is even, then $a$ is even", say that one of $a$ and $b$ is even, and without loss of generality it is $a$
+
+Right: swapping $a$ and $b$ changes this claim, so WLOG is not allowed. The claim is false ($a = 3$, $b = 2$). The symmetric claim "then $a$ is even or $b$ is even" is true.
+
+WLOG is a promise that the other case is the same argument with the names swapped. The promise is true only when the claim looks the same after the swap.
+
+Taught in [proof language: let, suppose, WLOG](../04-proofs-and-logic/01-language-and-notation/03-proof-language-let-suppose-wlog.md#edge-cases-and-common-mistakes) and [proof by cases and WLOG](../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md#edge-cases-and-common-mistakes).
+
+### Cases that miss a value
+
+Wrong: to prove "for every real $x$, $x^2 \ge x$", treat $x > 1$ and $x < 0$ and stop
+
+Right: the cases leave out $0 \le x \le 1$, where the claim fails: $x = \frac{1}{2}$ gives $\frac{1}{4} < \frac{1}{2}$
+
+A proof by cases needs the cases to be exhaustive, so state why they cover everything. Splitting an integer by remainder on division by 3 needs three cases, and handling only two of them leaves the third unproved.
+
+Taught in [proof by cases and WLOG](../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-method).
+
+### Reaching a "contradiction" that is not one
+
+Wrong: suppose there are finitely many primes, multiply them and add 1 to get $N$, observe that $N$ is not on the list so $N$ is not prime, and call that a contradiction
+
+Right: "$N$ is not prime" clashes with nothing, since $N$ can be composite: $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. Take a prime divisor $q$ of $N$. It is on the list, so it divides the product, and it divides $N$, so it divides 1.
+
+A contradiction is a statement and its negation, both derived. If you can't name both halves of the clash, you haven't reached one.
+
+Taught in [proof by contradiction](../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-method).
+
+### A proof by contradiction that never uses its assumption
+
+Wrong: to prove "if $m$ and $n$ are even, then $m + n$ is even", assume they are even and $m + n$ is odd, derive that $m + n = 2(j + k)$ is even, and call that a contradiction
+
+Right: delete the assumption that $m + n$ is odd and the last sentence. What remains is a direct proof.
+
+If a proof ends by contradicting its own extra assumption, with no use of that assumption in between, rewrite it directly.
+
+Taught in [proof by contradiction](../04-proofs-and-logic/03-core-proof-methods/06-proof-by-contradiction.md#edge-cases-and-common-mistakes).
+
+### Proving only one direction of an if-and-only-if
+
+Wrong: "Suppose $n$ is odd, so $n^2$ is odd. Hence $n$ is odd if and only if $n^2$ is odd."
+
+Right: also prove the other direction, which is a different statement: if $n^2$ is odd, then $n$ is odd
+
+A converse can be false even when the forward half is true. Every multiple of 4 is even, and not every even number is a multiple of 4.
+
+Taught in [if and only if proofs](../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md#edge-cases-and-common-mistakes).
+
+### Taking a uniqueness proof for an existence proof
+
+Wrong: "Let $N$ be the largest integer. If $M$ is also the largest integer, then $M \le N$ and $N \le M$, so $M = N$", offered as a proof that a largest integer exists
+
+Right: the argument shows there is at most one largest integer. None exists.
+
+Uniqueness talks only about objects you are given. Existence is separate work, and a claim of "exactly one" needs both.
+
+Taught in [existence and uniqueness proofs](../04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md#edge-cases-and-common-mistakes).
+
+### Offering a witness that is outside the domain
+
+Wrong: the integer $x = \frac{5}{2}$ is a witness for "there is an integer $x$ with $2x = 5$"
+
+Right: $\frac{5}{2}$ is not an integer, so it proves nothing, and no integer solves $2x = 5$
+
+A witness has to satisfy every condition. For "a prime $p$ with $p + 2$ and $p + 6$ both prime", the value $p = 3$ gives 5 and 9, and 9 fails.
+
+Taught in [existence and uniqueness proofs](../04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md#edge-cases-and-common-mistakes).
+
+### A counterexample that breaks the hypothesis
+
+Wrong: $n = 3$ is a counterexample to "if $n$ is even, then $n^2$ is even", since $3^2 = 9$ is odd
+
+Right: $n = 3$ is not even, so it is not a counterexample, and the claim is true
+
+A counterexample passes two checks: the hypothesis is true, and the conclusion is false. Write both checks out.
+
+Taught in [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md#edge-cases-and-common-mistakes).
+
+### Disproving the converse instead of the claim
+
+Wrong: $n = 2$ is even and not divisible by 4, so "if $n$ is divisible by 4, then $n$ is even" is false
+
+Right: $n = 2$ refutes the converse, "if $n$ is even, then $n$ is divisible by 4". The original claim is true.
+
+A counterexample to the converse says nothing about the original statement.
+
+Taught in [counterexamples and disproof](../04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md#edge-cases-and-common-mistakes).
+
+### Circular reasoning
+
+Wrong: the sum of two rationals is rational because the rationals are closed under addition
+
+Right: write $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$, an integer over a nonzero integer
+
+"Closed under addition" is the claim itself, so it can't be the reason. A proof may use earlier results, but not the statement it is proving or one equivalent to it.
+
+Taught in [how to write a proof](../04-proofs-and-logic/03-core-proof-methods/07-how-to-write-a-proof.md#definitions) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-logic).
+
+### A filler word in place of the argument
+
+Wrong: $n^3 - n = (n - 1)n(n + 1)$, which is divisible by 6 as the reader can see
+
+Right: say why. Among three consecutive integers one is even and one is a multiple of 3, and $\gcd(2, 3) = 1$, so the product is divisible by 6.
+
+In a textbook a word such as this means the author skipped a routine step. In a graded proof it means the grader will not give credit for it.
+
+Taught in [how to read a proof](../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-the-writing).
 
 ### Skipping the base case in induction
 
@@ -1348,7 +1608,261 @@ Right: that inductive step is valid, but the claim is false, because the base ca
 
 Induction needs both parts. The inductive step only says that each case passes its truth on to the next one, and the base case is what starts the chain. Without it, the argument above would prove a statement that is false for every $n$.
 
-Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md).
+Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-induction).
+
+## Induction
+
+### Proving the inductive step backward
+
+Wrong: for $\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$, suppose the formula holds for $k + 1$, subtract $k + 1$ from both sides, and arrive at the formula for $k$
+
+Right: start from the formula for $k$ and add the new term: $\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k + 1) = \frac{(k+1)(k+2)}{2}$
+
+The wrong version shows that $P(k + 1)$ implies $P(k)$, and induction needs $P(k)$ implies $P(k + 1)$. It starts from a statement nobody has shown to be true.
+
+Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-induction).
+
+### Treating checked cases as the inductive step
+
+Wrong: $P(1), P(2), P(3)$ and $P(4)$ are true, so $P(k)$ implies $P(k + 1)$
+
+Right: examples are evidence, and the step has to be an argument about an arbitrary $k$. The expression $n^2 + n + 41$ is prime for $n = 0, 1, \dots, 39$ and fails at $n = 40$, where it equals $41^2 = 1681$.
+
+Checking cases can't replace the step.
+
+Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#edge-cases-and-common-mistakes).
+
+### A base case that does not support the step
+
+Wrong: prove $n^2 < 2^n$ for every $n \ge 1$ by checking $n = 1$, where $1 < 2$, and giving an inductive step
+
+Right: the claim fails at $n = 2, 3, 4$ (for example $16 = 2^4$ at $n = 4$), and the step works only from $k \ge 3$, so the proof has to start at the base case $n = 5$, where $25 < 32$
+
+The step has to work for every $k$ from the base case on. A step that needs $k \ge 2$ without saying so, attached to a base case at 1, leaves the jump from 1 to 2 unproved.
+
+Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#edge-cases-and-common-mistakes).
+
+### Too few base cases in strong induction
+
+Wrong: every $n \ge 8$ is a sum of 3s and 5s: the base case is $8 = 3 + 5$, and for $n \ge 9$ the number $n - 3$ is a sum of 3s and 5s by the hypothesis, so $n = (n - 3) + 3$ is too
+
+Right: use three base cases, $8 = 3 + 5$, $9 = 3 + 3 + 3$ and $10 = 5 + 5$
+
+For $n = 9$ the step calls on 6, and for $n = 10$ on 7, both below the starting value 8. The number 7 is not a sum of 3s and 5s, so the step leans on a false case. A step that reaches back three places needs three base cases.
+
+Taught in [strong induction and well-ordering](../04-proofs-and-logic/05-induction/02-strong-induction-and-well-ordering.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-in-induction).
+
+### Skipping a clause in a structural induction
+
+Wrong: to show "every nonempty balanced string has the form $(x)$ with $x$ balanced", check the clause that builds $(x)$ from $x$, call the empty string irrelevant, and stop
+
+Right: check every clause. The clause that joins two balanced strings gives $()()$, which cannot be written as $(x)$ with $x$ balanced, since the inside would be $)($. The claim is false.
+
+A proof by structural induction has to treat the basis and every recursive clause.
+
+Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#edge-cases-and-common-mistakes).
+
+### Assuming the property for the new object
+
+Wrong: in the recursive step for full binary trees, assume the property for the tree $T$ that is being built
+
+Right: assume it for the two parts $T_1$ and $T_2$, and prove it for the tree $T$ built from them
+
+Assuming the property for $T$ is assuming the conclusion.
+
+Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#edge-cases-and-common-mistakes).
+
+### Defining a function by recursion on an object with two constructions
+
+Wrong: on balanced strings, define $f(\varepsilon) = 0$, $f((x)) = f(x) + 1$ and $f(xy) = 2f(x) + f(y)$
+
+Right: this does not define a function. The string $()()()$ is $xy$ with $x = ()$ and $y = ()()$, which gives $f = 5$, and also $xy$ with $x = ()()$ and $y = ()$, which gives $f = 7$.
+
+Structural induction is still valid on such a set, because it only needs every object to be built somehow. A recursive definition of a function needs each object to have exactly one construction, as full binary trees and strings built by appending do.
+
+Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#edge-cases-and-common-mistakes).
+
+### Leaving out the closure clause
+
+Wrong: "$0 \in E$, and if $x \in E$ then $x + 2 \in E$", so every element of $E$ is even
+
+Right: add the clause "nothing else is in $E$". Without it, $E$ could also contain 1 and every odd number.
+
+The closure clause is what makes the induction cover everything in the set.
+
+Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#edge-cases-and-common-mistakes).
+
+## Sets, relations and functions
+
+### Proving only one inclusion for a set equality
+
+Wrong: to show $A \cap B = A$ when $A \subseteq B$, let $x \in A \cap B$; then $x \in A$ and $x \in B$, so $x \in A$
+
+Right: that proves $A \cap B \subseteq A$, which is true for all sets. Add $A \subseteq A \cap B$: if $x \in A$, then $x \in B$ because $A \subseteq B$, so $x \in A \cap B$.
+
+A set equality needs two inclusions. An unused hypothesis is a sign that one of them is missing.
+
+Taught in [proofs about sets](../04-proofs-and-logic/04-more-proof-methods/03-proofs-about-sets.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-with-sets-and-functions).
+
+### Proving a set identity from a Venn diagram
+
+Wrong: a Venn diagram with three overlapping circles shows $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$, so the identity is proved
+
+Right: use the diagram to guess, and prove with an element argument or a full truth table
+
+A diagram shows one arrangement of the sets. It hides the cases where a region is empty, two sets are equal, or one set sits inside another.
+
+Taught in [proofs about sets](../04-proofs-and-logic/04-more-proof-methods/03-proofs-about-sets.md#edge-cases-and-common-mistakes) and [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#edge-cases-and-common-mistakes).
+
+### Taking a complement without a universe
+
+Wrong: the complement of $\{1, 2\}$ is $\{3, 4, 5, 6\}$
+
+Right: it depends on the universe. It is $\{3, 4, 5, 6\}$ when $U = \{1, \dots, 6\}$, and the set of all other integers when $U = \mathbb{Z}$.
+
+Write the universe down before you start, even as a single line such as "$U = \mathbb{Z}$".
+
+Taught in [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#edge-cases-and-common-mistakes).
+
+### Counting the subsets of a finite set as twice its size
+
+Wrong: a set with $n$ elements has $2n$ subsets
+
+Right: it has $2^n$, because each element is either in or out. A one-element set has two subsets, $\emptyset$ and itself.
+
+The sets $\emptyset$, $\{\emptyset\}$ and $\{0\}$ are three different sets: the first has no elements, and the other two have one element each.
+
+Taught in [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#edge-cases-and-common-mistakes).
+
+### Using an element where a subset belongs
+
+Wrong: if $A \in B$ and $B \subseteq C$, then $A \subseteq C$
+
+Right: the true conclusion is $A \in C$. With $A = \{1\}$, $B = \{\{1\}\}$ and $C = \{\{1\}, 2\}$, we have $A \in B$ and $B \subseteq C$, but $1 \notin C$.
+
+The hypothesis $A \in B$ says that $A$ is one element of $B$. It does not say that the elements of $A$ are in $B$.
+
+Taught in [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-with-sets-and-functions).
+
+### Calling antisymmetric the opposite of symmetric
+
+Wrong: a relation that is not symmetric is antisymmetric
+
+Right: the two properties are independent. Equality is both, and $\{(1, 2), (2, 1), (1, 3)\}$ is neither.
+
+Symmetric says that every arrow is two-way. Antisymmetric says that a two-way arrow can only be a loop.
+
+Taught in [relations and their properties](../04-proofs-and-logic/06-relations-and-functions/01-relations-and-their-properties.md#edge-cases-and-common-mistakes).
+
+### Looking for a chain before calling a relation transitive
+
+Wrong: $R = \{(1, 2), (3, 4)\}$ is not transitive, because there is no pattern to check
+
+Right: no pair ends where another starts, so there is nothing to break and $R$ is transitive
+
+Transitivity says that if both hypotheses hold, then the conclusion holds. It does not say that a chain exists.
+
+Taught in [relations and their properties](../04-proofs-and-logic/06-relations-and-functions/01-relations-and-their-properties.md#edge-cases-and-common-mistakes).
+
+### Treating an equivalence class as an element
+
+Wrong: $[3]_5 = 3$, and $[1] = [4]$ under congruence mod 3 means $1 = 4$
+
+Right: $[3]_5$ is the set $\{\dots, -2, 3, 8, \dots\}$, which contains 3. The classes $[1]$ and $[4]$ are equal because $1 \sim 4$.
+
+Different names for the same class are the normal case. The test for equal classes is $a \sim b$, not $a = b$.
+
+Taught in [equivalence relations and partitions](../04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md#edge-cases-and-common-mistakes).
+
+### Assuming symmetry and transitivity give reflexivity
+
+Wrong: $a \sim b$ and $b \sim a$ give $a \sim a$
+
+Right: the relation $\{(1, 1), (2, 2)\}$ on $\{1, 2, 3\}$ is symmetric and transitive but not reflexive, and the element 3 is in no class
+
+The argument assumes that $a$ is related to something.
+
+Taught in [equivalence relations and partitions](../04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md#edge-cases-and-common-mistakes).
+
+### Treating minimal as least
+
+Wrong: a minimal element is the smallest element
+
+Right: minimal means nothing is below it, and least means it is below everything. Among $\{2, 3, 4, 6, 12\}$ under divisibility, both 2 and 3 are minimal and there is no least element.
+
+The mistake comes from total orders, where the two ideas coincide.
+
+Taught in [partial orders](../04-proofs-and-logic/06-relations-and-functions/03-partial-orders.md#edge-cases-and-common-mistakes).
+
+### Treating divisibility on the integers as a partial order
+
+Wrong: "$a \mid b$" is a partial order on $\mathbb{Z}$
+
+Right: antisymmetry fails, since $2 \mid -2$ and $-2 \mid 2$ but $2 \ne -2$. Divisibility is a partial order on the positive integers.
+
+When the set changes, check the properties again.
+
+Taught in [partial orders](../04-proofs-and-logic/06-relations-and-functions/03-partial-orders.md#edge-cases-and-common-mistakes).
+
+### A piecewise rule with overlapping cases
+
+Wrong: $f(x) = x + 1$ for $x \ge 0$ and $f(x) = x - 1$ for $x \le 0$ defines a function
+
+Right: at $x = 0$ both rules apply and they disagree, since $f(0)$ would be both 1 and $-1$. Use $x < 0$ for the second rule.
+
+A function gives exactly one output for each input, so cases must agree where they overlap, or not overlap. They must also cover the whole domain.
+
+Taught in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-with-sets-and-functions).
+
+### A rule on classes that depends on the representative
+
+Wrong: $F([a]) = a$ defines a function on the classes mod 6
+
+Right: the class $[1]_6 = [7]_6$ would go to both 1 and 7, so the rule is not well defined
+
+Always ask: if I use a different name for the same input, do I get the same answer?
+
+Taught in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md#edge-cases-and-common-mistakes).
+
+### Reading a preimage as an inverse function
+
+Wrong: for $f(x) = x^2$, the notation $f^{-1}(\{4\})$ means nothing, because $f$ has no inverse function
+
+Right: it is the preimage, the set of inputs that land in $\{4\}$, which is $\{-2, 2\}$
+
+The preimage of a set always exists, whether or not $f$ has an inverse function.
+
+Taught in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md#edge-cases-and-common-mistakes).
+
+### Starting an injectivity proof from equal inputs
+
+Wrong: to show that $f(x) = 5x - 2$ is injective, suppose $a = a'$; then $5a - 2 = 5a' - 2$
+
+Right: suppose $f(a) = f(a')$. Then $5a = 5a'$, and dividing by 5 gives $a = a'$.
+
+Equal inputs give equal outputs for every function, so the wrong version proves nothing. Injective means the reverse: equal outputs force equal inputs.
+
+Taught in [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md#edge-cases-and-common-mistakes) and [common proof mistakes](../04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md#mistakes-with-sets-and-functions).
+
+### A surjectivity solution outside the domain
+
+Wrong: $f(x) = \frac{1}{x}$ from $\mathbb{R} \setminus \{0\}$ to $\mathbb{R}$ is onto, because $\frac{1}{x} = y$ gives $x = \frac{1}{y}$
+
+Right: at $y = 0$ there is no solution, so $f$ is not onto $\mathbb{R}$. It is onto $\mathbb{R} \setminus \{0\}$.
+
+A surjectivity proof has to show that the $x$ it finds is an allowed input.
+
+Taught in [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md#edge-cases-and-common-mistakes).
+
+### Comparing infinite sets by part and whole
+
+Wrong: the even numbers are only part of $\mathbb{N}$, so there are fewer of them
+
+Right: $n \mapsto 2n$ is a bijection from $\mathbb{N}$ onto the even numbers, so the two sets have the same size
+
+An infinite set can have the same size as a proper part of itself. Use a bijection to show equal sizes.
+
+Taught in [cardinality and countability](../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md#edge-cases-and-common-mistakes).
 
 ## Proof and logic in geometry
 
@@ -1680,6 +2194,118 @@ For example, $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}\begin{pmatrix} 0 & 0 
 
 Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
 
+## Limits and continuity
+
+### Reading the limit as the value at the point
+
+Wrong: $f(x) = \frac{x^2 - 1}{x - 1}$ is undefined at 1, so it has no limit there. If $f(1)$ were defined to be 7, the limit would be 7.
+
+Right: the limit at 1 is 2 in both cases
+
+The limit never looks at $x = 1$ itself. It describes the values near 1, so changing or removing the value at 1 changes nothing. Limit and value agree only for continuous functions.
+
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#edge-cases-and-common-mistakes).
+
+### Reading a 0/0 form as a number
+
+Wrong: $\frac{0}{0} = 0$, or $\frac{0}{0} = 1$
+
+Right: a $\frac{0}{0}$ form can come out as anything. At 0, the limit of $\frac{x^2}{x}$ is 0, the limit of $\frac{3x}{x}$ is 3, and $\frac{x}{x^2}$ has no limit because the sides disagree.
+
+The form $\frac{0}{0}$ is a signal that the formula needs work. Only the cancellation tells you the answer. By contrast, $\frac{c}{0}$ with $c \ne 0$ always means a blow-up or a failed limit.
+
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#edge-cases-and-common-mistakes).
+
+### Using a limit law when a piece has no limit
+
+Wrong: $x \cdot \frac{1}{x}$ has no limit at 0, because $\frac{1}{x}$ has none
+
+Right: for $x \ne 0$ the product equals 1, so its limit at 0 is 1
+
+The limit laws run one way: if the pieces have limits, the combination follows the formula. They don't say that a combination of pieces without limits has none. In the same way, $\sin\frac{1}{x} + \left(-\sin\frac{1}{x}\right)$ is 0 for every $x \ne 0$, although neither piece has a limit at 0.
+
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#edge-cases-and-common-mistakes).
+
+### Trusting a table on an oscillating function
+
+Wrong: the values of $\sin\frac{1}{x}$ at $x = \frac{1}{n\pi}$ are all 0, so the limit at 0 is 0
+
+Right: at $x = \frac{1}{2n\pi + \pi/2}$ the values are all 1. Two input sequences that close in on 0 give different answers, so the limit does not exist.
+
+A table can support a guess but never proves one.
+
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#edge-cases-and-common-mistakes).
+
+### Doing arithmetic with infinity
+
+Wrong: $\lim_{x \to \infty}(x^2 - x) = \infty - \infty = 0$
+
+Right: factor it as $x(x - 1)$, a product of two large positive numbers, so the limit is $\infty$
+
+The symbol $\infty$ is not a number, so "$\infty - \infty$" and "$0 \cdot \infty$" have no answer until the expression is rewritten.
+
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#edge-cases-and-common-mistakes).
+
+### Letting delta depend on x
+
+Wrong: to prove $\lim_{x \to 3} x^2 = 9$, take $\delta = \frac{\varepsilon}{\lvert x + 3 \rvert}$
+
+Right: choose $\delta$ from $\varepsilon$ alone, by bounding the factor $\lvert x + 3 \rvert$ on a fixed window around 3
+
+The window size $\delta$ is chosen first, and the challenger picks $x$ afterwards, so a formula for $\delta$ that mentions $x$ names something that doesn't exist yet.
+
+Taught in [the epsilon-delta definition](../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md#edge-cases-and-common-mistakes).
+
+### Checking one epsilon
+
+Wrong: for $\lim_{x \to 1} 2x = 2$, the choice $\delta = 0.05$ works for $\varepsilon = 0.1$, so the limit is proved
+
+Right: give a rule that turns every $\varepsilon$ into a working $\delta$, here $\delta = \frac{\varepsilon}{2}$, and show that it works
+
+Checking one $\varepsilon$ is a good test of the idea, but the definition says "for every $\varepsilon$".
+
+Taught in [the epsilon-delta definition](../05-university-core/01-limits-and-continuity/02-epsilon-delta-definition.md#edge-cases-and-common-mistakes).
+
+### Calling a hole continuous
+
+Wrong: $f(x) = \frac{x^2 - 4}{x - 2}$ is continuous at 2, because its limit there is 4
+
+Right: $f(2)$ is undefined, so $f$ is discontinuous at 2 (a removable discontinuity)
+
+Continuity needs three things: the value exists, the limit exists, and they are equal. A function with a hole is discontinuous at the hole, even when the hole can be filled.
+
+Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#edge-cases-and-common-mistakes).
+
+### Using the intermediate value theorem across a break
+
+Wrong: $f(x) = \frac{1}{x}$ is negative at $-1$ and positive at 1, so it has a zero between them
+
+Right: $f$ is not continuous on $[-1, 1]$, and it never equals 0
+
+The theorem needs continuity on the whole closed interval. In the same way, $\lfloor x \rfloor$ goes from 0 to 1 on $[0.5, 1.5]$ and never equals $\frac{1}{2}$. A sign change on its own guarantees nothing.
+
+Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#edge-cases-and-common-mistakes).
+
+### Reversing the intermediate value theorem
+
+Wrong: a function that takes every value between $f(a)$ and $f(b)$ must be continuous
+
+Right: let $f(x) = \sin\frac{1}{x}$ for $x \ne 0$ and $f(0) = 0$. On $[-1, 1]$ it takes every value between $-1$ and 1, and it is discontinuous at 0.
+
+The theorem says that continuity implies no skipped values, not the other way round.
+
+Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#edge-cases-and-common-mistakes).
+
+### Using the extreme value theorem on an open interval
+
+Wrong: $\frac{1}{x}$ is continuous on $(0, 1]$, so it has a maximum there
+
+Right: the interval is not closed, and $\frac{1}{x}$ grows without bound near 0, so there is no maximum
+
+Both conditions of the theorem matter: continuity and a closed interval $[a, b]$.
+
+Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#the-extreme-value-theorem).
+
 ## Calculus
 
 ### Giving up on a limit that gives zero over zero
@@ -1712,6 +2338,106 @@ When a function is applied to something other than plain $x$, multiply by the de
 
 Taught in [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md).
 
+### Putting in h equals 0 too early
+
+Wrong: $\frac{(x + h)^2 - x^2}{h}$ at $h = 0$ is $\frac{0}{0}$, so the derivative does not exist
+
+Right: simplify first. The quotient is $\frac{2xh + h^2}{h} = 2x + h$, and letting $h \to 0$ gives $2x$.
+
+A limit is about what happens as $h$ gets close to 0, not at 0. If an $h$ is still in the denominator after your algebra, you are not done.
+
+Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#edge-cases-and-common-mistakes).
+
+### Substituting the point before differentiating
+
+Wrong: for $f(x) = x^2$, $f(3) = 9$ is a constant, so $f'(3) = 0$
+
+Right: differentiate first, $f'(x) = 2x$, and then substitute: $f'(3) = 6$
+
+The number $f'(3)$ means "find $f'(x)$, then put in $x = 3$". Substituting first and then differentiating gives the derivative of a constant.
+
+Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#edge-cases-and-common-mistakes).
+
+### Assuming that continuous means differentiable
+
+Wrong: the graph of $\lvert x \rvert$ has no gaps, so it has a derivative at 0
+
+Right: it has a corner at 0 and no tangent line there
+
+Differentiable implies continuous. The implication does not go the other way.
+
+Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#differentiable-implies-continuous).
+
+### Counting an infinite slope as a derivative
+
+Wrong: $f(x) = x^{1/3}$ has derivative $\infty$ at 0
+
+Right: the difference quotient tends to $\infty$, which is not a real number, so $f'(0)$ does not exist. The graph has a vertical tangent there.
+
+The definition of the derivative asks for a real-number limit.
+
+Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#where-a-derivative-does-not-exist).
+
+### Writing the quotient rule numerator in the wrong order
+
+Wrong: $\left(\frac{f}{g}\right)' = \frac{fg' - f'g}{g^2}$
+
+Right: $\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}$
+
+Test with $f = 1$: the right formula gives $\left(\frac{1}{g}\right)' = -\frac{g'}{g^2}$, with a minus sign and no $f'$ term. The wrong order gives the opposite sign.
+
+Taught in [differentiation rules](../05-university-core/02-derivatives/02-differentiation-rules.md#edge-cases-and-common-mistakes).
+
+### Using the power rule on an exponential
+
+Wrong: $\frac{d}{dx}\,2^x = x \cdot 2^{x-1}$
+
+Right: $\frac{d}{dx}\,2^x = 2^x \ln 2$
+
+The power rule is for a variable base and a constant exponent. In $2^x$ the variable is in the exponent. At $x = 2$ the right derivative is $4 \ln 2 \approx 2.77$, and the wrong formula gives 4. For $x^x$, with the variable in both places, neither rule works, and logarithmic differentiation is used.
+
+Taught in [differentiation rules](../05-university-core/02-derivatives/02-differentiation-rules.md#edge-cases-and-common-mistakes) and [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md#edge-cases-and-common-mistakes).
+
+### Getting the sign of the cosine derivative wrong
+
+Wrong: $\frac{d}{dx}\cos x = \sin x$
+
+Right: $\frac{d}{dx}\cos x = -\sin x$
+
+The cosine falls just after $x = 0$, where $\sin x$ is positive, so its derivative must be negative there. These formulas hold in radians only.
+
+Taught in [differentiation rules](../05-university-core/02-derivatives/02-differentiation-rules.md#edge-cases-and-common-mistakes).
+
+### Dropping the factor dy/dx in implicit differentiation
+
+Wrong: $\frac{d}{dx}\,y^3 = 3y^2$
+
+Right: $\frac{d}{dx}\,y^3 = 3y^2\,\frac{dy}{dx}$
+
+Every term with $y$ gets a factor $\frac{dy}{dx}$, because $y$ depends on $x$. A term with $x$ alone gets none. On the circle $x^2 + y^2 = 25$, the equation $2x + 2y\frac{dy}{dx} = 0$ gives slope $-\frac{3}{4}$ at $(3, 4)$.
+
+Taught in [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md#edge-cases-and-common-mistakes).
+
+### Putting the derivative of the inside into the outer function
+
+Wrong: $\frac{d}{dx}\sin(x^2) = \cos(2x)$
+
+Right: $\frac{d}{dx}\sin(x^2) = \cos(x^2) \cdot 2x$
+
+The expression $f'(g(x))$ means "differentiate $f$, then put $g(x)$ in". Putting $g'$ inside gives a different function.
+
+Taught in [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md#edge-cases-and-common-mistakes).
+
+### Using the slope of the original function at the wrong point
+
+Wrong: for $f(x) = x^5 + x + 1$, $\left(f^{-1}\right)'(3) = \frac{1}{f'(3)}$
+
+Right: find the input $a$ with $f(a) = 3$, which is $a = 1$, and use $\frac{1}{f'(1)} = \frac{1}{6}$
+
+The slope of the inverse at $b$ comes from the slope of $f$ at the matching point $a$, where $f(a) = b$. The graph of $f$ near $(1, 3)$ is steep, so the reflected graph near $(3, 1)$ should be flat.
+
+Taught in [chain rule, implicit and inverse derivatives](../05-university-core/02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md#edge-cases-and-common-mistakes).
+
 ### Forgetting the constant of integration
 
 Wrong: $\int 2x\,dx = x^2$
@@ -1720,7 +2446,7 @@ Right: $\int 2x\,dx = x^2 + C$, where $C$ stands for an arbitrary constant
 
 Every function $x^2 + C$ has derivative $2x$ (for example $x^2 + 7$), so the indefinite integral is the whole family. The constant matters when a condition fixes it: if $F'(x) = 2x$ and $F(0) = 5$, then $F(x) = x^2 + 5$. A definite integral has no $+C$, because it cancels in $F(b) - F(a)$.
 
-Taught in the fundamental theorem of calculus<!-- link: ../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md -->.
+Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md).
 
 ## Number bases
 
