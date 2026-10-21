@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 126 of 247. New lessons appear here as they are added.
+Lessons written so far: 128 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -203,6 +203,11 @@ Lessons written so far: 126 of 247. New lessons appear here as they are added.
 - [ ] [Functions and well-definedness](04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md)
 - [ ] [Injective, surjective and bijective](04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md)
 - [ ] [Cardinality and countability](04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md)
+
+### Putting it together
+
+- [ ] [Common proof mistakes](04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md)
+- [ ] [Mixed proof practice](04-proofs-and-logic/07-putting-it-together/02-mixed-proof-practice.md)
 
 ## University core
 

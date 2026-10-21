@@ -270,6 +270,10 @@ nav:
           - "Functions and well-definedness": 04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md
           - "Injective, surjective and bijective": 04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md
           - "Cardinality and countability": 04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md
+      - "Putting it together":
+          - 04-proofs-and-logic/07-putting-it-together/index.md
+          - "Common proof mistakes": 04-proofs-and-logic/07-putting-it-together/01-common-proof-mistakes.md
+          - "Mixed proof practice": 04-proofs-and-logic/07-putting-it-together/02-mixed-proof-practice.md
   - "University":
       - 05-university-core/index.md
       - "Limits and continuity":

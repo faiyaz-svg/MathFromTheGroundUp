@@ -57,9 +57,9 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. [Injective, surjective and bijective](06-relations-and-functions/05-injective-surjective-bijective.md) (fast path)
 6. [Cardinality and countability](06-relations-and-functions/06-cardinality-and-countability.md)
 
-### 7. Putting it together
+### 7. [Putting it together](07-putting-it-together/index.md)
 
-1. Common proof mistakes (not written yet) (fast path)
-2. Mixed proof practice (not written yet)
+1. [Common proof mistakes](07-putting-it-together/01-common-proof-mistakes.md) (fast path)
+2. [Mixed proof practice](07-putting-it-together/02-mixed-proof-practice.md)
 
 <!-- lessons:end -->
