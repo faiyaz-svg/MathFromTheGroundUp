@@ -188,7 +188,7 @@ Check: $(-4, 3)$ has $16 + 9 = 25$, so $(-4, 3) \sim (3, 4)$ and $[(-4, 3)] = [(
 
 On $A = \{1, 2, \dots, 12\}$, let $a \sim b$ mean that $a$ and $b$ have the same number of positive divisors. Find the classes.
 
-This is the kernel of the function $d(n) = $ the number of divisors of $n$, so it is an equivalence relation. Compute $d$: $d(1) = 1$; $d(2) = d(3) = d(5) = d(7) = d(11) = 2$ (primes); $d(4) = d(9) = 3$ (divisors $1, 2, 4$ and $1, 3, 9$); $d(6) = d(8) = d(10) = 4$ (divisors $1, 2, 3, 6$; $1, 2, 4, 8$; $1, 2, 5, 10$); and $d(12) = 6$. Group by the value:
+This is the kernel of the function $d$, where $d(n)$ is the number of divisors of $n$, so it is an equivalence relation. Compute $d$: $d(1) = 1$; $d(2) = d(3) = d(5) = d(7) = d(11) = 2$ (primes); $d(4) = d(9) = 3$ (divisors $1, 2, 4$ and $1, 3, 9$); $d(6) = d(8) = d(10) = 4$ (divisors $1, 2, 3, 6$; $1, 2, 4, 8$; $1, 2, 5, 10$); and $d(12) = 6$. Group by the value:
 
 $$
 \{1\}, \quad \{2, 3, 5, 7, 11\}, \quad \{4, 9\}, \quad \{6, 8, 10\}, \quad \{12\}.
