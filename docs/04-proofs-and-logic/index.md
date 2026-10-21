@@ -42,20 +42,20 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 3. [Proofs about sets](04-more-proof-methods/03-proofs-about-sets.md) (fast path)
 4. [Counterexamples and disproof](04-more-proof-methods/04-counterexamples-and-disproof.md)
 
-### 5. Induction
+### 5. [Induction](05-induction/index.md)
 
-1. Mathematical induction (not written yet) (fast path)
-2. Strong induction and well-ordering (not written yet) (fast path)
-3. Recursive definitions and structural induction (not written yet)
+1. [Mathematical induction](05-induction/01-mathematical-induction.md) (fast path)
+2. [Strong induction and well-ordering](05-induction/02-strong-induction-and-well-ordering.md) (fast path)
+3. [Recursive definitions and structural induction](05-induction/03-recursive-definitions-and-structural-induction.md)
 
-### 6. Relations and functions
+### 6. [Relations and functions](06-relations-and-functions/index.md)
 
-1. Relations and their properties (not written yet)
-2. Equivalence relations and partitions (not written yet)
-3. Partial orders (not written yet)
-4. Functions and well-definedness (not written yet)
-5. Injective, surjective and bijective (not written yet) (fast path)
-6. Cardinality and countability (not written yet)
+1. [Relations and their properties](06-relations-and-functions/01-relations-and-their-properties.md)
+2. [Equivalence relations and partitions](06-relations-and-functions/02-equivalence-relations-and-partitions.md)
+3. [Partial orders](06-relations-and-functions/03-partial-orders.md)
+4. [Functions and well-definedness](06-relations-and-functions/04-functions-and-well-definedness.md)
+5. [Injective, surjective and bijective](06-relations-and-functions/05-injective-surjective-bijective.md) (fast path)
+6. [Cardinality and countability](06-relations-and-functions/06-cardinality-and-countability.md)
 
 ### 7. Putting it together
 

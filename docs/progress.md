@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 111 of 247. New lessons appear here as they are added.
+Lessons written so far: 120 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -188,6 +188,21 @@ Lessons written so far: 111 of 247. New lessons appear here as they are added.
 - [ ] [Existence and uniqueness proofs](04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md)
 - [ ] [Proofs about sets](04-proofs-and-logic/04-more-proof-methods/03-proofs-about-sets.md)
 - [ ] [Counterexamples and disproof](04-proofs-and-logic/04-more-proof-methods/04-counterexamples-and-disproof.md)
+
+### Induction
+
+- [ ] [Mathematical induction](04-proofs-and-logic/05-induction/01-mathematical-induction.md)
+- [ ] [Strong induction and well-ordering](04-proofs-and-logic/05-induction/02-strong-induction-and-well-ordering.md)
+- [ ] [Recursive definitions and structural induction](04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md)
+
+### Relations and functions
+
+- [ ] [Relations and their properties](04-proofs-and-logic/06-relations-and-functions/01-relations-and-their-properties.md)
+- [ ] [Equivalence relations and partitions](04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md)
+- [ ] [Partial orders](04-proofs-and-logic/06-relations-and-functions/03-partial-orders.md)
+- [ ] [Functions and well-definedness](04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md)
+- [ ] [Injective, surjective and bijective](04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md)
+- [ ] [Cardinality and countability](04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md)
 
 ## CS math
 
