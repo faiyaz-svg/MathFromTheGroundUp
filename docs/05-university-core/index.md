@@ -65,12 +65,12 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. [Joint distributions, covariance and sums](07-probability/05-joint-distributions-covariance-and-sums.md)
 6. [The law of large numbers and the CLT](07-probability/06-law-of-large-numbers-and-clt.md)
 
-### 8. Statistics
+### 8. [Statistics](08-statistics/index.md)
 
-1. Descriptive statistics and study design (not written yet)
-2. Confidence intervals (not written yet)
-3. Hypothesis testing (not written yet)
-4. Correlation and linear regression (not written yet)
+1. [Descriptive statistics and study design](08-statistics/01-descriptive-statistics-and-study-design.md)
+2. [Confidence intervals](08-statistics/02-confidence-intervals.md)
+3. [Hypothesis testing](08-statistics/03-hypothesis-testing.md)
+4. [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md)
 
 ### 9. Multivariable calculus (light)
 

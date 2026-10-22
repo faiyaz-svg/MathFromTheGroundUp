@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 157 of 247. New lessons appear here as they are added.
+Lessons written so far: 161 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -266,6 +266,13 @@ Lessons written so far: 157 of 247. New lessons appear here as they are added.
 - [ ] [Continuous random variables and the normal distribution](05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md)
 - [ ] [Joint distributions, covariance and sums](05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md)
 - [ ] [The law of large numbers and the CLT](05-university-core/07-probability/06-law-of-large-numbers-and-clt.md)
+
+### Statistics
+
+- [ ] [Descriptive statistics and study design](05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md)
+- [ ] [Confidence intervals](05-university-core/08-statistics/02-confidence-intervals.md)
+- [ ] [Hypothesis testing](05-university-core/08-statistics/03-hypothesis-testing.md)
+- [ ] [Correlation and linear regression](05-university-core/08-statistics/04-correlation-and-linear-regression.md)
 
 ## CS math
 
