@@ -27,13 +27,13 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. Fermat, Euler and fast exponentiation (not written yet)
 6. RSA cryptography (not written yet)
 
-### 3. Counting and discrete probability
+### 3. [Counting and discrete probability](03-counting-and-discrete-probability/index.md)
 
-1. Counting rules (not written yet)
-2. Permutations and combinations (not written yet)
-3. The binomial theorem and combinatorial proofs (not written yet)
-4. Inclusion-exclusion and the pigeonhole principle (not written yet)
-5. Discrete probability (not written yet)
+1. [Counting rules](03-counting-and-discrete-probability/01-counting-rules.md)
+2. [Permutations and combinations](03-counting-and-discrete-probability/02-permutations-and-combinations.md)
+3. [The binomial theorem and combinatorial proofs](03-counting-and-discrete-probability/03-binomial-theorem-and-combinatorial-proofs.md)
+4. [Inclusion-exclusion and the pigeonhole principle](03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md)
+5. [Discrete probability](03-counting-and-discrete-probability/05-discrete-probability.md)
 
 ### 4. Sums, recurrences and algorithms
 
@@ -43,11 +43,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. Asymptotic notation (not written yet)
 5. Divide and conquer and the master theorem (not written yet)
 
-### 5. Graphs
+### 5. [Graphs](05-graphs/index.md)
 
-1. Graph basics (not written yet)
-2. Paths, connectivity and trees (not written yet)
-3. Bipartite graphs, coloring and planar graphs (not written yet)
+1. [Graph basics](05-graphs/01-graph-basics.md)
+2. [Paths, connectivity and trees](05-graphs/02-paths-connectivity-and-trees.md)
+3. [Bipartite graphs, colouring and planar graphs](05-graphs/03-bipartite-coloring-and-planar-graphs.md)
 
 ### 6. Theory of computation
 

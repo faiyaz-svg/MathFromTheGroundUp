@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 167 of 247. New lessons appear here as they are added.
+Lessons written so far: 175 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -291,3 +291,17 @@ Lessons written so far: 167 of 247. New lessons appear here as they are added.
 ### Number representation
 
 - [ ] [Number bases and conversions](06-cs-math/01-number-representation/01-number-bases-and-conversions.md)
+
+### Counting and discrete probability
+
+- [ ] [Counting rules](06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md)
+- [ ] [Permutations and combinations](06-cs-math/03-counting-and-discrete-probability/02-permutations-and-combinations.md)
+- [ ] [The binomial theorem and combinatorial proofs](06-cs-math/03-counting-and-discrete-probability/03-binomial-theorem-and-combinatorial-proofs.md)
+- [ ] [Inclusion-exclusion and the pigeonhole principle](06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md)
+- [ ] [Discrete probability](06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md)
+
+### Graphs
+
+- [ ] [Graph basics](06-cs-math/05-graphs/01-graph-basics.md)
+- [ ] [Paths, connectivity and trees](06-cs-math/05-graphs/02-paths-connectivity-and-trees.md)
+- [ ] [Bipartite graphs, colouring and planar graphs](06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md)
