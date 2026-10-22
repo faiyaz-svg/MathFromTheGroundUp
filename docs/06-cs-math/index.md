@@ -9,23 +9,23 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Number representation
+### 1. [Number representation](01-number-representation/index.md)
 
 1. [Number bases and conversions](01-number-representation/01-number-bases-and-conversions.md)
-2. Bits and information (not written yet)
-3. Binary arithmetic and two's complement (not written yet)
-4. Floating point basics (not written yet)
-5. Bitwise operations and masks (not written yet)
-6. Boolean algebra and logic gates (not written yet)
+2. [Bits and information](01-number-representation/02-bits-and-information.md)
+3. [Binary arithmetic and two's complement](01-number-representation/03-binary-arithmetic-and-twos-complement.md)
+4. [Floating point basics](01-number-representation/04-floating-point-basics.md)
+5. [Bitwise operations and masks](01-number-representation/05-bitwise-operations-and-masks.md)
+6. [Boolean algebra and logic gates](01-number-representation/06-boolean-algebra-and-logic-gates.md)
 
-### 2. Number theory
+### 2. [Number theory](02-number-theory/index.md)
 
-1. Divisibility and modular arithmetic (not written yet)
-2. GCD and Euclid's algorithm (not written yet)
-3. Primes and unique factorization (not written yet)
-4. Modular inverses and the Chinese remainder theorem (not written yet)
-5. Fermat, Euler and fast exponentiation (not written yet)
-6. RSA cryptography (not written yet)
+1. [Divisibility and modular arithmetic](02-number-theory/01-divisibility-and-modular-arithmetic.md)
+2. [GCD and Euclid's algorithm](02-number-theory/02-gcd-and-euclids-algorithm.md)
+3. [Primes and unique factorization](02-number-theory/03-primes-and-unique-factorization.md)
+4. [Modular inverses and the Chinese remainder theorem](02-number-theory/04-modular-inverses-and-chinese-remainder-theorem.md)
+5. [Fermat, Euler and fast exponentiation](02-number-theory/05-fermat-euler-and-fast-exponentiation.md)
+6. [RSA cryptography](02-number-theory/06-rsa-cryptography.md)
 
 ### 3. [Counting and discrete probability](03-counting-and-discrete-probability/index.md)
 

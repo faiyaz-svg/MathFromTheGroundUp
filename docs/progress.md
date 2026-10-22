@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 184 of 247. New lessons appear here as they are added.
+Lessons written so far: 203 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -291,6 +291,20 @@ Lessons written so far: 184 of 247. New lessons appear here as they are added.
 ### Number representation
 
 - [ ] [Number bases and conversions](06-cs-math/01-number-representation/01-number-bases-and-conversions.md)
+- [ ] [Bits and information](06-cs-math/01-number-representation/02-bits-and-information.md)
+- [ ] [Binary arithmetic and two's complement](06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md)
+- [ ] [Floating point basics](06-cs-math/01-number-representation/04-floating-point-basics.md)
+- [ ] [Bitwise operations and masks](06-cs-math/01-number-representation/05-bitwise-operations-and-masks.md)
+- [ ] [Boolean algebra and logic gates](06-cs-math/01-number-representation/06-boolean-algebra-and-logic-gates.md)
+
+### Number theory
+
+- [ ] [Divisibility and modular arithmetic](06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md)
+- [ ] [GCD and Euclid's algorithm](06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md)
+- [ ] [Primes and unique factorization](06-cs-math/02-number-theory/03-primes-and-unique-factorization.md)
+- [ ] [Modular inverses and the Chinese remainder theorem](06-cs-math/02-number-theory/04-modular-inverses-and-chinese-remainder-theorem.md)
+- [ ] [Fermat, Euler and fast exponentiation](06-cs-math/02-number-theory/05-fermat-euler-and-fast-exponentiation.md)
+- [ ] [RSA cryptography](06-cs-math/02-number-theory/06-rsa-cryptography.md)
 
 ### Counting and discrete probability
 
@@ -316,9 +330,25 @@ Lessons written so far: 184 of 247. New lessons appear here as they are added.
 
 ## Economics math
 
+### Markets
+
+- [ ] [Opportunity cost and the PPC](07-economics-math/02-markets/01-opportunity-cost-and-the-ppc.md)
+- [ ] [Comparative advantage and gains from trade](07-economics-math/02-markets/02-comparative-advantage-and-gains-from-trade.md)
+- [ ] [Supply and demand equilibrium algebra](07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md)
+- [ ] [Surplus and market interventions](07-economics-math/02-markets/04-surplus-and-market-interventions.md)
+- [ ] [Elasticity](07-economics-math/02-markets/05-elasticity.md)
+
 ### More tools
 
 - [ ] [Present value, NPV and bond prices](07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md)
 - [ ] [Multipliers and the AD-AS model](07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md)
 - [ ] [Regression and econometrics intuition](07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md)
 - [ ] [Game theory and Nash equilibrium](07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md)
+
+## Financial math
+
+### Everyday money
+
+- [ ] [Tips, discounts and HST](08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md)
+- [ ] [Unit price and comparison shopping](08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md)
+- [ ] [Paycheques and budgeting](08-financial-math/01-everyday-money/03-paycheques-and-budgeting.md)

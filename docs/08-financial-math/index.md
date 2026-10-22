@@ -9,11 +9,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Everyday money
+### 1. [Everyday money](01-everyday-money/index.md)
 
-1. Tips, discounts and HST (not written yet)
-2. Unit price and comparison shopping (not written yet)
-3. Paycheques and budgeting (not written yet)
+1. [Tips, discounts and HST](01-everyday-money/01-tips-discounts-and-hst.md)
+2. [Unit price and comparison shopping](01-everyday-money/02-unit-price-and-comparison-shopping.md)
+3. [Paycheques and budgeting](01-everyday-money/03-paycheques-and-budgeting.md)
 
 ### 2. Interest and growth
 

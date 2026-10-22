@@ -20,13 +20,13 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 7. CPI and inflation (not written yet)
 8. Unemployment rate and labour statistics (not written yet)
 
-### 2. Markets
+### 2. [Markets](02-markets/index.md)
 
-1. Opportunity cost and the PPC (not written yet)
-2. Comparative advantage and gains from trade (not written yet)
-3. Supply and demand equilibrium algebra (not written yet)
-4. Surplus and market interventions (not written yet)
-5. Elasticity (not written yet)
+1. [Opportunity cost and the PPC](02-markets/01-opportunity-cost-and-the-ppc.md)
+2. [Comparative advantage and gains from trade](02-markets/02-comparative-advantage-and-gains-from-trade.md)
+3. [Supply and demand equilibrium algebra](02-markets/03-supply-and-demand-equilibrium-algebra.md)
+4. [Surplus and market interventions](02-markets/04-surplus-and-market-interventions.md)
+5. [Elasticity](02-markets/05-elasticity.md)
 
 ### 3. Firms and consumers
 
