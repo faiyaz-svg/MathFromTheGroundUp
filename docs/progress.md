@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 161 of 247. New lessons appear here as they are added.
+Lessons written so far: 167 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -273,6 +273,18 @@ Lessons written so far: 161 of 247. New lessons appear here as they are added.
 - [ ] [Confidence intervals](05-university-core/08-statistics/02-confidence-intervals.md)
 - [ ] [Hypothesis testing](05-university-core/08-statistics/03-hypothesis-testing.md)
 - [ ] [Correlation and linear regression](05-university-core/08-statistics/04-correlation-and-linear-regression.md)
+
+### Multivariable calculus (light)
+
+- [ ] [Parametric, polar and 3D coordinates](05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md)
+- [ ] [Partial derivatives and the gradient](05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md)
+- [ ] [Multivariable optimization and Lagrange multipliers](05-university-core/09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md)
+- [ ] [Double integrals](05-university-core/09-multivariable-calculus-light/04-double-integrals.md)
+
+### Differential equations (light)
+
+- [ ] [First-order differential equations](05-university-core/10-differential-equations-light/01-first-order-differential-equations.md)
+- [ ] [Second-order linear equations](05-university-core/10-differential-equations-light/02-second-order-linear-equations.md)
 
 ## CS math
 

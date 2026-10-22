@@ -72,16 +72,16 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 3. [Hypothesis testing](08-statistics/03-hypothesis-testing.md)
 4. [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md)
 
-### 9. Multivariable calculus (light)
+### 9. [Multivariable calculus (light)](09-multivariable-calculus-light/index.md)
 
-1. Parametric, polar and 3D coordinates (not written yet) (optional)
-2. Partial derivatives and the gradient (not written yet)
-3. Multivariable optimization and Lagrange multipliers (not written yet)
-4. Double integrals (not written yet) (optional)
+1. [Parametric, polar and 3D coordinates](09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md) (optional)
+2. [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md)
+3. [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md)
+4. [Double integrals](09-multivariable-calculus-light/04-double-integrals.md) (optional)
 
-### 10. Differential equations (light)
+### 10. [Differential equations (light)](10-differential-equations-light/index.md)
 
-1. First-order differential equations (not written yet)
-2. Second-order linear equations (not written yet) (optional)
+1. [First-order differential equations](10-differential-equations-light/01-first-order-differential-equations.md)
+2. [Second-order linear equations](10-differential-equations-light/02-second-order-linear-equations.md) (optional)
 
 <!-- lessons:end -->
