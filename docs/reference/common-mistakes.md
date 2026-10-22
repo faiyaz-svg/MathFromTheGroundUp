@@ -1956,7 +1956,7 @@ Right: the 36 equally likely pairs give a sum of 7 six ways and a sum of 2 one w
 
 Equally likely outcomes are the pairs, not the sums. Count the cells of the 6 by 6 table.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples).
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples) and [sample spaces, events and axioms](../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md#edge-cases-and-common-mistakes).
 
 ### Adding probabilities for "at least one"
 
@@ -1966,7 +1966,7 @@ Right: it is $1 - \left(\frac{5}{6}\right)^4 = \frac{671}{1296} \approx 0.518$
 
 Adding counts the cases with two or more sixes more than once. Take the complement instead: the chance of no six at all, subtracted from 1.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples).
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#worked-examples) and [sample spaces, events and axioms](../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md#edge-cases-and-common-mistakes).
 
 ### Treating draws without replacement as independent
 
@@ -1976,7 +1976,7 @@ Right: after one red is drawn, 1 red is left among 4, so the chance is $\frac{2}
 
 Removing a marble changes the next draw, so the draws are not independent and the probabilities can't be squared.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes).
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) and [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md#edge-cases-and-common-mistakes).
 
 ### Believing a streak makes the opposite result due
 
@@ -1986,7 +1986,7 @@ Right: the next flip is still heads with probability $\frac{1}{2}$
 
 The flips are independent, so the coin has no memory. Over many flips the proportion of heads settles toward $\frac{1}{2}$ because the early streak gets diluted, not because later flips compensate.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes).
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) and [the law of large numbers and the CLT](../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md#edge-cases-and-common-mistakes).
 
 ### Reading association as causation
 
@@ -1996,7 +1996,7 @@ Right: look for a confounding variable; here a larger population drives both cou
 
 Two variables can move together because a third variable affects both. A scatter plot shows association, and a study design is needed to show causation.
 
-Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes).
+Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes) and [joint distributions, covariance and sums](../05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md#edge-cases-and-common-mistakes) and [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
 
 ### Extrapolating a line far beyond the data
 
@@ -2006,7 +2006,7 @@ Right: don't use the line far outside the hours in the data
 
 The line describes the range the data covers. Outside it the relationship can bend, level off or hit a limit, and a score above the maximum is the clue.
 
-Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes).
+Taught in [scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#edge-cases-and-common-mistakes) and [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
 
 ### Mixing up row and column percents in a two-way table
 
@@ -2028,7 +2028,7 @@ Right: $P(A \cap B) = P(A)\,P(B \mid A)$ always, and $P(A \cap B) = P(A)\,P(B)$ 
 
 Roll one die, and let $A$ be "even" and $B$ be "at least 4". Then $A \cap B = \{4, 6\}$, so $P(A \cap B) = \frac{2}{6} = \frac{1}{3}$, while $P(A)\,P(B) = \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$. Knowing the roll is even makes "at least 4" more likely ($\frac{2}{3}$ instead of $\frac{1}{2}$), so the events are not independent.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) and[conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md).
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) and[conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md) and [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md#edge-cases-and-common-mistakes).
 
 ### Swapping the two sides of a conditional probability
 
@@ -2038,7 +2038,7 @@ Right: $P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)}$, which is Bayes' theorem, 
 
 Draw one card from a standard deck. The probability that it is a king, given that it is a face card, is $\frac{4}{12} = \frac{1}{3}$; the probability that it is a face card, given that it is a king, is $1$. The same mistake misleads people about medical tests: a test that catches most sick people can still give mostly false alarms when the disease is rare.
 
-Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md).
+Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md) and [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md#edge-cases-and-common-mistakes).
 
 ### Counting ordered choices when order doesn't matter
 
@@ -2130,7 +2130,7 @@ Right: the series has no sum, because the partial sums $1, 3, 7, 15, \dots$ grow
 
 The formula $\frac{a}{1 - r}$ needs $\lvert r \rvert < 1$. A series with $r = -1$, such as $1 - 1 + 1 - 1 + \cdots$, has partial sums $1, 0, 1, 0, \dots$ and also has no sum.
 
-Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#edge-cases-and-common-mistakes).
+Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#edge-cases-and-common-mistakes) and [infinite series basics](../05-university-core/05-sequences-and-series/02-infinite-series-basics.md#edge-cases-and-common-mistakes).
 
 ## Vectors and matrices
 
@@ -2142,7 +2142,7 @@ Right: $\lVert (3, 4) \rVert = 5$
 
 The lengths add only when the vectors point the same way. Otherwise the sum is shorter, because one side of a triangle is shorter than the other two together.
 
-Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#edge-cases-and-common-mistakes).
+Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#edge-cases-and-common-mistakes) and [vectors, dot product and span](../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md#edge-cases-and-common-mistakes).
 
 ### Taking the direction angle from the arctangent alone
 
@@ -2172,7 +2172,7 @@ Right: each entry is a row times a column, and the first entry is $1 \cdot 0 + 2
 
 Entry-by-entry multiplication exists, but it is a different operation and it doesn't compose substitutions. The sizes also decide whether the product exists at all.
 
-Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes) and [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
 
 ### Assuming that matrix multiplication commutes
 
@@ -2182,7 +2182,7 @@ Right: in general $AB \ne BA$, and $(A + B)^2 = A^2 + AB + BA + B^2$
 
 This is the one rule of number arithmetic that fails. Whenever you rearrange a product of matrices, check that you haven't swapped two factors.
 
-Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes) and [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
 
 ### Cancelling a matrix factor
 
@@ -2192,7 +2192,7 @@ Right: the product of two nonzero matrices can be zero
 
 For example, $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$ is the zero matrix. Cancelling works only with an invertible matrix, by multiplying both sides by its inverse.
 
-Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes).
+Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes) and [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
 
 ## Limits and continuity
 
@@ -2304,7 +2304,7 @@ Right: the interval is not closed, and $\frac{1}{x}$ grows without bound near 0,
 
 Both conditions of the theorem matter: continuity and a closed interval $[a, b]$.
 
-Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#the-extreme-value-theorem).
+Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#the-extreme-value-theorem) and [the mean value theorem and extrema](../05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md#edge-cases-and-common-mistakes).
 
 ## Calculus
 
@@ -2316,7 +2316,7 @@ Right: factor first. For $x \ne 2$, $\frac{x^2 - 4}{x - 2} = \frac{(x - 2)(x + 2
 
 The form $\frac{0}{0}$ only says that substitution failed to give an answer. A limit depends on the values near $2$ and never on the value at $2$, so cancelling the factor $x - 2$, which is nonzero near $2$, is allowed.
 
-Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md).
+Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md) and [linear approximation and L'Hopital's rule](../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md#lhopitals-rule).
 
 ### Multiplying derivatives for the derivative of a product
 
@@ -2446,7 +2446,1103 @@ Right: $\int 2x\,dx = x^2 + C$, where $C$ stands for an arbitrary constant
 
 Every function $x^2 + C$ has derivative $2x$ (for example $x^2 + 7$), so the indefinite integral is the whole family. The constant matters when a condition fixes it: if $F'(x) = 2x$ and $F(0) = 5$, then $F(x) = x^2 + 5$. A definite integral has no $+C$, because it cancels in $F(b) - F(a)$.
 
-Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md).
+Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md) and [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md#edge-cases-and-common-mistakes).
+
+## Applications of derivatives
+
+### Substituting the numbers of the instant before differentiating
+
+Wrong: a 13 m ladder with its foot 5 m out and its top 12 m up gives $5^2 + y^2 = 169$, so $2y\frac{dy}{dt} = 0$ and the top does not move
+
+Right: keep $x$ as a letter, $x^2 + y^2 = 169$, differentiate to get $2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0$, and then put in $x = 5$ and $y = 12$. If the foot moves out at 2 m/s, $\frac{dy}{dt} = -\frac{5}{12} \cdot 2 = -\frac{5}{6}$ m/s
+
+The foot's position changes with time, so it is a variable until the derivative has been taken. Substituting first turns it into a constant, and its derivative disappears.
+
+Taught in [rates of change and marginal analysis](../05-university-core/03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md#edge-cases-and-common-mistakes).
+
+### Losing the sign of a rate
+
+Wrong: a tank draining at 0.5 m$^3$ per minute has $\frac{dV}{dt} = 0.5$
+
+Right: $\frac{dV}{dt} = -0.5$
+
+A quantity that is falling has a negative rate. If the answer for a falling level comes out positive, a sign was lost somewhere. Also convert every quantity to one system of units before differentiating.
+
+Taught in [rates of change and marginal analysis](../05-university-core/03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md#edge-cases-and-common-mistakes).
+
+### Using the average cost as the cost of the next unit
+
+Wrong: with $C(q) = 1000 + 10q + 0.05q^2$, the next unit after 100 costs $\frac{C(100)}{100} = \$25$
+
+Right: the next unit costs about $C'(100) = \$20$, and $C(101) - C(100) = \$20.05$
+
+The average cost spreads the whole bill, including the fixed cost, over all the units. The marginal cost looks only at the next unit. They are equal only at the minimum of the average cost.
+
+Taught in [rates of change and marginal analysis](../05-university-core/03-applications-of-derivatives/01-rates-of-change-and-marginal-analysis.md#edge-cases-and-common-mistakes).
+
+### Applying L'Hopital's rule when the form is not indeterminate
+
+Wrong: $\lim_{x \to 0}\frac{x + 1}{x + 2}$ is $\lim_{x \to 0}\frac{1}{1} = 1$
+
+Right: the limit is $\frac{1}{2}$, by direct substitution
+
+The rule applies only to $\frac{0}{0}$ or $\frac{\infty}{\infty}$. Check the form first. The same limit also shows the next mistake: the rule differentiates the top and the bottom separately, so the new quotient is $\frac{f'}{g'}$ and not $\left(\frac{f}{g}\right)'$.
+
+Taught in [linear approximation and L'Hopital's rule](../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md#edge-cases-and-common-mistakes).
+
+### Concluding that a limit does not exist because the limit of the derivatives does not
+
+Wrong: $\frac{1 + \cos x}{1}$ has no limit as $x \to \infty$, so $\lim_{x \to \infty}\frac{x + \sin x}{x}$ does not exist
+
+Right: the rule gives no answer in that case, and the limit is 1, since $\frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}$
+
+L'Hopital's rule says that if the second limit exists, then the first equals it. It does not say anything when the second limit fails to exist.
+
+Taught in [linear approximation and L'Hopital's rule](../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md#edge-cases-and-common-mistakes).
+
+### Treating $1^\infty$ as 1
+
+Wrong: $\lim_{x \to \infty}\left(1 + \frac{1}{x}\right)^x = 1^\infty = 1$
+
+Right: the limit is $e$
+
+The base tends to 1 but the exponent tends to infinity, and neither one decides the answer. Take the logarithm to turn the power into a product, find that limit, and then undo the logarithm. The forms $0 \cdot \infty$ and $\infty - \infty$ also need rewriting.
+
+Taught in [linear approximation and L'Hopital's rule](../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md#the-other-indeterminate-forms).
+
+### Using a linearization far from its base point, or in degrees
+
+Wrong: $\sin x \approx x$ gives $\sin 1 \approx 1$, and $\sin 5^\circ \approx 5$
+
+Right: $\sin 1 = 0.841$, and $\sin 5^\circ \approx 0.0873$ because $5^\circ$ is $0.0873$ radians
+
+The tangent line is a good approximation only near the base point, and the formula $\sin x \approx x$ is for $x$ in radians. Convert degrees first.
+
+Taught in [linear approximation and L'Hopital's rule](../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md#edge-cases-and-common-mistakes).
+
+### Skipping the endpoints when finding absolute extrema
+
+Wrong: the critical points of $f$ on $[0, 3.5]$ are all inside, so the maximum is at one of them
+
+Right: compare the values at the critical points and at both endpoints
+
+On a closed interval, the maximum and minimum are often at an end, where the derivative need not be 0.
+
+Taught in [the mean value theorem and extrema](../05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md#edge-cases-and-common-mistakes).
+
+### Believing that a zero derivative means an extremum
+
+Wrong: $f'(0) = 0$ for $f(x) = x^3$, so $f$ has a local extremum at 0
+
+Right: $f'(c) = 0$ marks a candidate. Test it with the sign of $f'$ on each side, or with $f''$
+
+The function $x^3$ rises straight through its flat spot. A candidate list should also include the points where $f'$ does not exist, such as the corner of $\lvert x \rvert$ and the cusp of $x^{2/3}$ at 0, which solving $f'(x) = 0$ never finds.
+
+Taught in [the mean value theorem and extrema](../05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md#edge-cases-and-common-mistakes).
+
+### Using the mean value theorem without checking its conditions
+
+Wrong: $f(x) = \lvert x \rvert$ on $[-1, 2]$ has a number $c$ with $f'(c) = \frac{f(2) - f(-1)}{3} = \frac{1}{3}$
+
+Right: $f$ is not differentiable at 0, so the theorem does not apply, and no such $c$ exists
+
+Both conditions are required: continuous on the closed interval and differentiable on the open one. The theorem also says only that some $c$ exists. It does not say where it is, or that it is unique.
+
+Taught in [the mean value theorem and extrema](../05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md#edge-cases-and-common-mistakes).
+
+### Calling every point with a zero second derivative an inflection point
+
+Wrong: $f(x) = x^4$ has $f''(0) = 0$, so $(0, 0)$ is an inflection point
+
+Right: an inflection point needs the sign of $f''$ to change, and $x^4$ is concave up on both sides of 0
+
+The condition $f''(c) = 0$ gives a candidate only. The second derivative test also says nothing when $f''(c) = 0$: it cannot separate $x^4$, $-x^4$ and $x^3$, so use the sign chart of $f'$. Conversely, an inflection point can occur where $f''$ does not exist, as for $x^{1/3}$ at 0.
+
+Taught in [concavity and curve sketching](../05-university-core/03-applications-of-derivatives/04-concavity-and-curve-sketching.md#edge-cases-and-common-mistakes).
+
+### Leaving two variables in the objective function
+
+Wrong: differentiate $A = xy$ with the fence constraint $2x + y = 200$ unused
+
+Right: solve the constraint for $y = 200 - 2x$, substitute to get $A = x(200 - 2x)$, and then differentiate
+
+A one-variable method needs a one-variable function. Substitute the constraint first, and note the allowed range of $x$.
+
+Taught in [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md#edge-cases-and-common-mistakes).
+
+### Accepting a critical point outside the feasible interval
+
+Wrong: both roots of $V'(x) = 0$ are candidates, including $x = 12.74$ in the box problem
+
+Right: only a root inside the feasible interval is a candidate, and the endpoints of that interval are candidates too
+
+A root that gives a negative width, or a length longer than the material, is not an allowed choice. If no critical point is allowed, the answer is at an endpoint.
+
+Taught in [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md#edge-cases-and-common-mistakes).
+
+### Assuming that marginal revenue equal to marginal cost gives a maximum
+
+Wrong: $R'(q) = C'(q)$ at $q^*$, so profit is largest at $q^*$
+
+Right: check the sign of $P''(q^*)$, or the sign of $P'$ on each side
+
+The condition $R' = C'$ also holds at a minimum of profit. It is the first-order condition and finds candidates only.
+
+Taught in [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md#edge-cases-and-common-mistakes).
+
+### Choosing a learning rate that is too large
+
+Wrong: use a big step in $w_{n+1} = w_n - \eta f'(w_n)$ so that it converges faster
+
+Right: lower $\eta$ when the loss rises. For $f(w) = \frac{\lambda}{2}w^2$ the iteration settles down only when $\eta < \frac{2}{\lambda}$
+
+Gradient descent does not fail loudly: the values just grow. Print the loss at each step.
+
+Taught in [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md#edge-cases-and-common-mistakes).
+
+## Integrals
+
+### Reading the integral as the area when the function changes sign
+
+Wrong: $\int_0^{2\pi}\sin x\,dx$ is the area of the two arches, which is 4
+
+Right: the integral is the signed area, and it is 0, because the arch below the axis cancels the arch above it
+
+For the total area, split the interval where the function changes sign and integrate $\lvert f \rvert$. The distance travelled is likewise the integral of the speed, not of the velocity.
+
+Taught in [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md#edge-cases-and-common-mistakes).
+
+### Forgetting to divide by $n$ in a Riemann sum
+
+Wrong: $\Delta x = b - a$, or adding all $n + 1$ points $x_0, \dots, x_n$ in a left or right sum
+
+Right: $\Delta x = \frac{b - a}{n}$, and the left sum uses $x_0, \dots, x_{n-1}$ while the right sum uses $x_1, \dots, x_n$
+
+The $n$ rectangles each have width $\frac{b - a}{n}$. A left sum skips the right end and a right sum skips the left end.
+
+Taught in [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md#edge-cases-and-common-mistakes).
+
+### Splitting the integral of a product
+
+Wrong: $\int_0^1 x \cdot x\,dx = \int_0^1 x\,dx \cdot \int_0^1 x\,dx = \frac{1}{4}$
+
+Right: $\int_0^1 x^2\,dx = \frac{1}{3}$
+
+An integral splits over sums and pulls out constant factors, and it does not split over products or quotients.
+
+Taught in [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md#edge-cases-and-common-mistakes).
+
+### Applying the fundamental theorem across a discontinuity
+
+Wrong: $\int_{-1}^{1}\frac{1}{x^2}\,dx = \left[-\frac{1}{x}\right]_{-1}^{1} = -1 - 1 = -2$
+
+Right: the integrand is not continuous at 0, the integral is improper, and it diverges
+
+A positive function cannot have a negative area. Before subtracting antiderivative values, scan the interval for a division by zero, the logarithm of 0 or the tangent at $\frac{\pi}{2}$.
+
+Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md#edge-cases-and-common-mistakes).
+
+### Using the power rule for $\frac{1}{x}$
+
+Wrong: $\int \frac{1}{x}\,dx = \frac{x^0}{0}$
+
+Right: $\int \frac{1}{x}\,dx = \ln\lvert x \rvert + C$
+
+The formula $\frac{x^{n+1}}{n+1}$ divides by 0 when $n = -1$. For the other powers, raise the power by 1 and divide by the new power: $\int x^3\,dx = \frac{x^4}{4} + C$, not $4x^4$. Keep the absolute value, since the answer is wrong for $x < 0$ without it.
+
+Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md#edge-cases-and-common-mistakes).
+
+### Dropping the inner derivative when differentiating an integral
+
+Wrong: $\frac{d}{dx}\int_0^{x^2}\cos\left(t^2\right)dt = \cos\left(x^4\right)$
+
+Right: $\frac{d}{dx}\int_0^{x^2}\cos\left(t^2\right)dt = \cos\left(x^4\right) \cdot 2x$
+
+The upper limit is a function of $x$, so the chain rule applies. Test the rule with $f = 1$: the integral $\int_0^{x^2}1\,dt$ is $x^2$, whose derivative is $2x$.
+
+Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md#edge-cases-and-common-mistakes).
+
+### Leaving an $x$ behind in a substitution
+
+Wrong: with $u = x^2$, write $\int x\,e^{x^2}\,dx = \int x\,e^u\,du$
+
+Right: $du = 2x\,dx$, so $x\,dx = \frac{1}{2}\,du$ and the integral is $\frac{1}{2}\int e^u\,du = \frac{1}{2}e^{x^2} + C$
+
+Every part of the integrand, including $dx$, must be rewritten in $u$. A constant factor can come out of an integral, but a variable one cannot, which is why $\int e^{x^2}\,dx$ cannot be done this way.
+
+Taught in [u-substitution](../05-university-core/04-integrals/03-u-substitution.md#edge-cases-and-common-mistakes).
+
+### Keeping the old limits after a substitution
+
+Wrong: $\int_0^2 x\left(1 + x^2\right)^3\,dx = \int_0^2 \tfrac{1}{2}u^3\,du$ with $u = 1 + x^2$
+
+Right: the limits become $u = 1$ and $u = 5$, so the integral is $\frac{1}{2}\int_1^5 u^3\,du = \frac{5^4 - 1}{8} = 78$
+
+The limits belong to the variable. Either change them with the substitution, or go back to $x$ before putting them in.
+
+Taught in [u-substitution](../05-university-core/04-integrals/03-u-substitution.md#edge-cases-and-common-mistakes).
+
+### Using integration by parts when a substitution works
+
+Wrong: for $\int x\,e^{x^2}\,dx$, take $u = x$ and $dv = e^{x^2}\,dx$
+
+Right: use $u = x^2$ in a substitution, since $dv = e^{x^2}\,dx$ cannot be integrated in closed form
+
+Parts needs a $dv$ that can be integrated. Try substitution first, and use parts when the integrand is a product of different kinds of function. Check the answer by differentiating.
+
+Taught in [integration by parts and trig integrals](../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md#edge-cases-and-common-mistakes).
+
+### Getting the sign wrong in integration by parts
+
+Wrong: $\int x\,e^x\,dx = x\,e^x + \int e^x\,dx = x\,e^x + e^x + C$
+
+Right: $\int x\,e^x\,dx = x\,e^x - \int e^x\,dx = x\,e^x - e^x + C$
+
+The formula is $\int u\,dv = uv - \int v\,du$. The wrong answer has derivative $xe^x + 2e^x$, which is not the integrand. For a definite integral, the term $\bigl[uv\bigr]_a^b$ is evaluated at both limits.
+
+Taught in [integration by parts and trig integrals](../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md#edge-cases-and-common-mistakes).
+
+### Integrating a squared sine as if it were the inside of a power
+
+Wrong: $\int \sin^2 x\,dx = \frac{\sin^3 x}{3} + C$
+
+Right: use $\sin^2 x = \frac{1 - \cos 2x}{2}$, which gives $\frac{x}{2} - \frac{\sin 2x}{4} + C$
+
+The power rule works only if the derivative of the inside is also a factor of the integrand, as in $\int \sin^2 x \cos x\,dx$. Differentiating the wrong answer gives $\sin^2 x \cos x$.
+
+Taught in [integration by parts and trig integrals](../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md#edge-cases-and-common-mistakes).
+
+### Decomposing an improper fraction
+
+Wrong: $\frac{x^2 + 1}{x^2 - 1} = \frac{A}{x - 1} + \frac{B}{x + 1}$
+
+Right: divide first, $\frac{x^2 + 1}{x^2 - 1} = 1 + \frac{2}{x^2 - 1}$, and then decompose the remainder
+
+For large $x$ the wrong form tends to 0 while the fraction tends to 1. Partial fractions apply only when the degree of the top is less than the degree of the bottom.
+
+Taught in [partial fractions and improper integrals](../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md#edge-cases-and-common-mistakes).
+
+### Writing one term for a repeated factor
+
+Wrong: $\frac{3x + 1}{(x - 1)^2} = \frac{A}{(x - 1)^2}$
+
+Right: $\frac{A}{x - 1} + \frac{B}{(x - 1)^2}$, and a quadratic factor needs a linear numerator, $Bx + C$
+
+Every power of a repeated factor gets its own term. With too few terms, the system for the unknown constants has no solution.
+
+Taught in [partial fractions and improper integrals](../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md#edge-cases-and-common-mistakes).
+
+### Substituting infinity into an antiderivative
+
+Wrong: $\int_1^\infty \frac{1}{x^2}\,dx = \left[-\frac{1}{x}\right]_1^{\infty} = -\frac{1}{\infty} + 1$
+
+Right: $\lim_{b \to \infty}\left(-\frac{1}{b} + 1\right) = 1$
+
+Write the limit. The step matters most when the answer is a difference of two terms that each tend to infinity.
+
+Taught in [partial fractions and improper integrals](../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md#edge-cases-and-common-mistakes).
+
+### Assuming that an integrand tending to 0 gives a convergent integral
+
+Wrong: $\frac{1}{x} \to 0$, so $\int_1^\infty \frac{1}{x}\,dx$ converges
+
+Right: it diverges. The integral $\int_1^\infty \frac{1}{x^p}\,dx$ converges exactly when $p > 1$
+
+The integrand must go to 0 faster than $\frac{1}{x}$. The test for a singularity at 0 goes the other way: $\int_0^1 \frac{1}{x^p}\,dx$ converges exactly when $p < 1$.
+
+Taught in [partial fractions and improper integrals](../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md#edge-cases-and-common-mistakes).
+
+### Subtracting the curves in the wrong order
+
+Wrong: area $= \int_a^b (g - f)\,dx$ with $f$ above $g$, or $\int_0^{2\pi}(\sin x - \cos x)\,dx$ across a crossing
+
+Right: top minus bottom, split at each crossing, or integrate $\lvert f - g \rvert$
+
+Subtracting the other way gives a negative area. Across a crossing, the part where the other curve is on top counts as negative and cancels some of the area.
+
+Taught in [applications of integrals](../05-university-core/04-integrals/06-applications-of-integrals.md#edge-cases-and-common-mistakes).
+
+### Squaring after integrating in the disc method
+
+Wrong: $V = \pi\left(\int_0^4 \sqrt{x}\,dx\right)^2 = \pi\left(\frac{16}{3}\right)^2$
+
+Right: $V = \pi\int_0^4 x\,dx = 8\pi$
+
+Square the radius first and integrate afterwards. In the washer method, square each radius separately.
+
+Taught in [applications of integrals](../05-university-core/04-integrals/06-applications-of-integrals.md#edge-cases-and-common-mistakes).
+
+## Convergence, series and Taylor polynomials
+
+### Solving $L = g(L)$ before proving that the limit exists
+
+Wrong: $a_{n+1} = 2a_n$ with $a_1 = 1$ has a limit $L$ with $L = 2L$, so $L = 0$
+
+Right: first show that the sequence is bounded and monotone, and only then solve $L = g(L)$. This sequence is $1, 2, 4, 8, \dots$ and it diverges
+
+The equation $L = g(L)$ describes any limit that exists. It cannot show that one exists.
+
+Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#edge-cases-and-common-mistakes).
+
+### Thinking that terms getting closer together force convergence
+
+Wrong: $a_{n+1} - a_n \to 0$, so the sequence converges
+
+Right: not enough. The sequence $\sqrt{n}$ has $\sqrt{n+1} - \sqrt{n} \to 0$ and still goes to infinity
+
+Closeness of neighbouring terms does not stop the whole sequence from drifting off.
+
+Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#edge-cases-and-common-mistakes).
+
+### Using only one of bounded and monotone
+
+Wrong: the sequence is bounded, so it converges. Or: it is monotone, so it converges
+
+Right: the monotone convergence theorem needs both. The sequence $(-1)^n$ is bounded and does not converge, and $n$ is monotone and does not converge
+
+A bounded monotone sequence cannot wander, and it cannot escape, so it must settle.
+
+Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#edge-cases-and-common-mistakes).
+
+### Concluding that a series converges because its terms tend to 0
+
+Wrong: $\frac{1}{k} \to 0$, so $\sum \frac{1}{k}$ converges
+
+Right: the harmonic series diverges. The $n$-th term test only works in one direction: terms that do not tend to 0 prove divergence
+
+Grouping the terms $\frac{1}{3} + \frac{1}{4}$, then the next four, and so on, shows that $H_{2^m} \ge 1 + \frac{m}{2}$.
+
+Taught in [infinite series basics](../05-university-core/05-sequences-and-series/02-infinite-series-basics.md#edge-cases-and-common-mistakes).
+
+### Starting the geometric series at the wrong index
+
+Wrong: $\sum_{k=1}^{\infty}\left(\frac{1}{2}\right)^k = \frac{1}{1 - \frac{1}{2}} = 2$
+
+Right: $\frac{a}{1 - r}$ uses the first term, which here is $a = \frac{1}{2}$, so the sum is 1
+
+The formula $\frac{1}{1 - r}$ is for a series that starts at $k = 0$. The sum from $k = 1$ is that minus the first term, 1.
+
+Taught in [infinite series basics](../05-university-core/05-sequences-and-series/02-infinite-series-basics.md#edge-cases-and-common-mistakes).
+
+### Reading the ratio test as decisive when $L = 1$
+
+Wrong: the limit of $\left\lvert \frac{a_{k+1}}{a_k} \right\rvert$ is 1, so the series diverges (or converges)
+
+Right: the test gives no information. Both $\sum \frac{1}{k}$ and $\sum \frac{1}{k^2}$ give $L = 1$, and one diverges while the other converges
+
+When $L = 1$, switch to another test, such as the integral test or a comparison.
+
+Taught in [convergence tests](../05-university-core/05-sequences-and-series/03-convergence-tests.md#edge-cases-and-common-mistakes).
+
+### Comparing in the wrong direction
+
+Wrong: $\frac{1}{k^2} \le \frac{1}{k}$ and $\sum \frac{1}{k}$ diverges, so $\sum \frac{1}{k^2}$ diverges
+
+Right: a series smaller than a divergent one proves nothing. Only "smaller than a convergent series converges" and "bigger than a divergent series diverges" are valid
+
+For $\sum \frac{1}{k^2}$, compare with the convergent $\sum \frac{1}{k(k - 1)}$ from $k = 2$ on, or use the $p$-series test.
+
+Taught in [convergence tests](../05-university-core/05-sequences-and-series/03-convergence-tests.md#edge-cases-and-common-mistakes).
+
+### Using the integral test without checking the conditions
+
+Wrong: apply $\int_1^\infty f(x)\,dx$ to any $f$ that matches the terms
+
+Right: $f$ must be positive, continuous and decreasing. The function $\sin^2(\pi x)$ is not decreasing: its series $\sum \sin^2(\pi k)$ is all zeros and converges, while its integral diverges
+
+The integral and the series converge or diverge together only under the three conditions.
+
+Taught in [convergence tests](../05-university-core/05-sequences-and-series/03-convergence-tests.md#edge-cases-and-common-mistakes).
+
+### Taking the sum of the series to be the value of the integral
+
+Wrong: $\int_1^\infty \frac{1}{x^2}\,dx = 1$, so $\sum_{k=1}^\infty \frac{1}{k^2} = 1$
+
+Right: the integral test says only that both converge. The sum is about 1.645, which is between 1 and 2
+
+The remainder after $n$ terms is bounded by $\int_{n+1}^\infty f \le R_n \le \int_n^\infty f$.
+
+Taught in [convergence tests](../05-university-core/05-sequences-and-series/03-convergence-tests.md#edge-cases-and-common-mistakes).
+
+### Trusting a Taylor polynomial far from its centre
+
+Wrong: the degree-4 Taylor polynomial of $e^x$ at 0 gives $e^{-3} \approx 1.375$
+
+Right: $e^{-3} = 0.0498$. The polynomial is accurate only near the centre
+
+Increase the degree or move the centre. For $e^x$, a standard trick is to write $x = m\ln 2 + r$ with $r$ small.
+
+Taught in [power series and Taylor series](../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md#edge-cases-and-common-mistakes).
+
+### Assuming that the Taylor series always equals the function
+
+Wrong: a function whose Taylor series converges everywhere equals its series
+
+Right: it equals the series only where the remainder $R_n \to 0$. The function $e^{-1/x^2}$ (with value 0 at 0) has Taylor series 0 at 0, and it is not 0 anywhere else
+
+Convergence of the series is not enough.
+
+Taught in [power series and Taylor series](../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md#edge-cases-and-common-mistakes).
+
+### Forgetting the factorial in the Taylor coefficients
+
+Wrong: the coefficient of $(x - a)^k$ is $f^{(k)}(a)$
+
+Right: it is $\frac{f^{(k)}(a)}{k!}$
+
+Without the $k!$ the series of $e^x$ at 0 would be $1 + x + x^2 + \cdots$, the geometric series.
+
+Taught in [power series and Taylor series](../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md#edge-cases-and-common-mistakes).
+
+### Forgetting the endpoints of an interval of convergence
+
+Wrong: $\sum \frac{x^k}{k}$ has radius 1, so it converges exactly on $(-1, 1)$
+
+Right: the ratio test finds only the radius. Check each endpoint separately: at $x = -1$ the series converges, at $x = 1$ it is the harmonic series and diverges, so the interval is $[-1, 1)$
+
+The ratio test is silent at the endpoints, because it gives $L = 1$ there. The series for $\ln(1 + x)$ also stops at $x = 1$ and cannot be used at $x = 2$, even though $\ln 3$ exists.
+
+Taught in [power series and Taylor series](../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md#edge-cases-and-common-mistakes).
+
+## Linear algebra
+
+### Keeping the order in the inverse or transpose of a product
+
+Wrong: $(AB)^{-1} = A^{-1}B^{-1}$ and $(AB)^T = A^TB^T$
+
+Right: $(AB)^{-1} = B^{-1}A^{-1}$ and $(AB)^T = B^TA^T$
+
+To undo "first $B$, then $A$", undo $A$ first and then $B$. For transposes, the sizes force the order: $A^TB^T$ is often not even defined when $B^TA^T$ is.
+
+Taught in [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
+
+### Taking the inverse to be the matrix of reciprocals
+
+Wrong: the inverse of $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ is $\begin{pmatrix} 1 & \frac{1}{2} \\ \frac{1}{3} & \frac{1}{4} \end{pmatrix}$
+
+Right: use the row reduction of $[A \mid I]$, or for a $2 \times 2$ matrix $\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
+
+Only a diagonal matrix has an inverse made of reciprocals of the entries.
+
+Taught in [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
+
+### Adding a multiple of a row to itself
+
+Wrong: $R_2 \to R_2 + cR_2$ is a row operation
+
+Right: it scales the row by $1 + c$, which is 0 when $c = -1$ and destroys information. Add a multiple of a different row
+
+An elementary row operation must be reversible, and this one is not always.
+
+Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#edge-cases-and-common-mistakes).
+
+### Expecting infinitely many solutions when there are more unknowns than equations
+
+Wrong: a system with more unknowns than equations always has infinitely many solutions
+
+Right: only if it is consistent. The system $x + y + z = 1$, $x + y + z = 2$ has no solution
+
+A row $[0\ 0\ 0 \mid 1]$ in the reduced matrix means no solution. A homogeneous system with more unknowns than equations always has a nontrivial solution, because it is always consistent.
+
+Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#edge-cases-and-common-mistakes).
+
+### Treating every zero row as a contradiction
+
+Wrong: a row of zeros in the augmented matrix means there is no solution
+
+Right: only a row $[0\ \cdots\ 0 \mid c]$ with $c \ne 0$ is a contradiction. A row $[0\ \cdots\ 0 \mid 0]$ says $0 = 0$, and it just drops out
+
+A zero row means one equation was redundant, and it often means a free variable.
+
+Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#edge-cases-and-common-mistakes).
+
+### Taking pairwise independence to be independence
+
+Wrong: no two of $(1, 0)$, $(0, 1)$ and $(1, 1)$ are multiples of each other, so the list is independent
+
+Right: $(1, 1) = (1, 0) + (0, 1)$, so the list is dependent
+
+A list is independent only if no vector is a combination of the others, which includes combinations of three or more. Row reduce the matrix of the vectors and look for a pivot in every column.
+
+Taught in [linear independence, basis and dimension](../05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md#edge-cases-and-common-mistakes).
+
+### Taking the basis of the column space from the reduced matrix
+
+Wrong: the pivot columns of the RREF form a basis of $\operatorname{col}(A)$
+
+Right: take the pivot columns of $A$ itself, in the positions where the RREF has pivots
+
+Row operations change the column space. They keep the dependencies among the columns, which is why the pivot positions are right.
+
+Taught in [linear independence, basis and dimension](../05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md#edge-cases-and-common-mistakes).
+
+### Cancelling a vector from a dot product
+
+Wrong: $\mathbf{u} \cdot \mathbf{v} = \mathbf{u} \cdot \mathbf{w}$, so $\mathbf{v} = \mathbf{w}$
+
+Right: $\mathbf{u} \cdot (\mathbf{v} - \mathbf{w}) = 0$, which says only that $\mathbf{v} - \mathbf{w}$ is perpendicular to $\mathbf{u}$
+
+With $\mathbf{u} = (1, 0)$, the vectors $(2, 5)$ and $(2, -7)$ have the same dot product with $\mathbf{u}$ and are different.
+
+Taught in [vectors, dot product and span](../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md#edge-cases-and-common-mistakes).
+
+### Computing the nullity from the wrong count
+
+Wrong: a $4 \times 6$ matrix of rank 3 has nullity $4 - 3 = 1$
+
+Right: rank-nullity counts columns, so the nullity is $6 - 3 = 3$
+
+The kernel lives in the domain, which has as many entries as the matrix has columns. The image lives in the codomain.
+
+Taught in [linear transformations, kernel and image](../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md#edge-cases-and-common-mistakes).
+
+### Reading a composition from left to right
+
+Wrong: $BA$ means "apply $B$, then $A$"
+
+Right: $BA$ means apply $A$ first, then $B$, since $(BA)\mathbf{x} = B(A\mathbf{x})$
+
+Read the product of matrices as a composition from the right to the left. Rotating about a point is $TRT^{-1}$, which translates the point to the origin first.
+
+Taught in [linear transformations, kernel and image](../05-university-core/06-linear-algebra/05-linear-transformations-kernel-and-image.md#edge-cases-and-common-mistakes).
+
+### Treating the determinant of a sum as a sum of determinants
+
+Wrong: $\det(A + B) = \det A + \det B$
+
+Right: $\det(AB) = \det A \cdot \det B$, and there is no such rule for sums
+
+The determinant respects products and does not respect sums. With $A = I$ and $B = I$ in $2 \times 2$, $\det(A + B) = 4$ and $\det A + \det B = 2$.
+
+Taught in [determinants](../05-university-core/06-linear-algebra/06-determinants.md#edge-cases-and-common-mistakes).
+
+### Forgetting that scaling a matrix scales the determinant by $c^n$
+
+Wrong: $\det(cA) = c\det A$
+
+Right: for an $n \times n$ matrix, $\det(cA) = c^n \det A$
+
+Every row is multiplied by $c$, and each row contributes one factor of $c$.
+
+Taught in [determinants](../05-university-core/06-linear-algebra/06-determinants.md#edge-cases-and-common-mistakes).
+
+### Multiplying the diagonal of a matrix that is not triangular
+
+Wrong: $\det\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = 1 \cdot 4 = 4$
+
+Right: the diagonal product works for a triangular matrix only. This determinant is $4 - 6 = -2$. Row reduce first, keeping track of swaps and scalings
+
+Sarrus's rule for a $3 \times 3$ matrix does not extend to $4 \times 4$ either. Use cofactors or elimination.
+
+Taught in [determinants](../05-university-core/06-linear-algebra/06-determinants.md#edge-cases-and-common-mistakes).
+
+### Adding projections onto a basis that is not orthogonal
+
+Wrong: project $\mathbf{y}$ onto each of $\mathbf{u}_1$ and $\mathbf{u}_2$ separately and add, when $\mathbf{u}_1 \cdot \mathbf{u}_2 \ne 0$
+
+Right: first apply Gram-Schmidt to get an orthogonal basis, or solve the normal equations
+
+The shadows on non-perpendicular directions overlap, so adding them counts some of the vector twice.
+
+Taught in [orthogonality, projections and least squares](../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md#edge-cases-and-common-mistakes).
+
+### Calling a matrix with orthogonal columns an orthogonal matrix
+
+Wrong: the columns $(1, 1)$ and $(1, -1)$ are orthogonal, so the matrix is orthogonal and $Q^{-1} = Q^T$
+
+Right: an orthogonal matrix has orthonormal columns. Here $Q^TQ = 2I$, so the columns must be divided by their length $\sqrt{2}$
+
+Orthogonal columns of any length are not enough. The columns must also have length 1.
+
+Taught in [orthogonality, projections and least squares](../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md#edge-cases-and-common-mistakes).
+
+### Fitting a line without a column of ones
+
+Wrong: fit $y = a + bx$ using only the column of $x$ values in $A$
+
+Right: include a column of ones for the intercept $a$
+
+Without it the fit is a line through the origin, the slope changes, and the residuals need not add to 0. With the column of ones, the residuals add to 0 and the line passes through $(\bar{x}, \bar{y})$.
+
+Taught in [orthogonality, projections and least squares](../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md#edge-cases-and-common-mistakes).
+
+### Accepting the zero vector as an eigenvector
+
+Wrong: $A\mathbf{0} = \lambda\mathbf{0}$, so $\mathbf{0}$ is an eigenvector for every $\lambda$
+
+Right: an eigenvector must be nonzero. An eigenvalue is a number $\lambda$ for which some nonzero $\mathbf{v}$ has $A\mathbf{v} = \lambda\mathbf{v}$
+
+If $\mathbf{0}$ were allowed, every number would be an eigenvalue of every matrix.
+
+Taught in [eigenvalues and eigenvectors](../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md#edge-cases-and-common-mistakes).
+
+### Reading eigenvalues off a row-reduced matrix
+
+Wrong: row reduce $A$ to a triangular matrix and read the eigenvalues from its diagonal
+
+Right: that works only if $A$ is triangular to begin with. Row operations change the eigenvalues, so solve $\det(A - \lambda I) = 0$
+
+For a triangular matrix, the eigenvalues are the diagonal entries as it stands.
+
+Taught in [eigenvalues and eigenvectors](../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md#edge-cases-and-common-mistakes).
+
+### Assuming that a repeated eigenvalue gives a diagonalizable matrix
+
+Wrong: $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has eigenvalue 1 twice, so it has two eigenvectors and is diagonalizable
+
+Right: it has only one independent eigenvector, so it is not diagonalizable
+
+A matrix is diagonalizable exactly when it has $n$ independent eigenvectors. Count them for each eigenvalue.
+
+Taught in [eigenvalues and eigenvectors](../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md#edge-cases-and-common-mistakes).
+
+## Probability
+
+### Believing that probability 0 means impossible
+
+Wrong: a point chosen uniformly from a square has probability 0 of hitting any given location, so it cannot hit it
+
+Right: probability 0 means impossible only for the empty event. Every single point of a continuous sample space has probability 0, and some point is hit anyway
+
+Probabilities for continuous outcomes are areas. A set of zero area has probability 0 without being empty.
+
+Taught in [sample spaces, events and axioms](../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md#edge-cases-and-common-mistakes).
+
+### Leaving out the denominator in Bayes' theorem
+
+Wrong: a test with 90% sensitivity and a 1% base rate gives a posterior of $0.9 \times 0.01 = 0.9\%$, or the posterior is 90%
+
+Right: divide by $P(E)$. With a 5% false positive rate, $P(E) = 0.9(0.01) + 0.05(0.99) = 0.0585$ and the posterior is $\frac{0.009}{0.0585} \approx 0.154$
+
+The denominator includes the false positives from the large group without the condition. Skipping it gives a number that is not a probability, and ignoring the base rate gives 90%, which is the base rate fallacy.
+
+Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md#edge-cases-and-common-mistakes).
+
+### Answering the Monty Hall problem with one half
+
+Wrong: two doors are left, so each has probability $\frac{1}{2}$
+
+Right: switching wins with probability $\frac{2}{3}$ when the host knows where the car is and always opens a goat door
+
+The host's choice depends on the car's position, so it carries information. If the host opens a door at random and happens to show a goat, the probability is $\frac{1}{2}$. Simulating the game settles it.
+
+Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md#example-3-the-monty-hall-problem).
+
+### Taking the expected square to be the square of the expected value
+
+Wrong: $E[X^2] = (E[X])^2$
+
+Right: $E[X^2] = \operatorname{Var}(X) + (E[X])^2$
+
+The two are equal only when the variance is 0. For a fair die, $E[X^2] = \frac{91}{6} \approx 15.17$ and $(E[X])^2 = 12.25$.
+
+Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md#edge-cases-and-common-mistakes).
+
+### Reading a density value as a probability
+
+Wrong: the density of a uniform variable on $[0, 0.5]$ is 2, so the probability of a value is 2
+
+Right: only areas under the density are probabilities. A density value can exceed 1
+
+The probability of an interval is the area over it. The density is the probability per unit length.
+
+Taught in [continuous random variables and the normal distribution](../05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md#edge-cases-and-common-mistakes).
+
+### Passing the variance where software wants the standard deviation
+
+Wrong: `NormalDist(100, 225)` for a mean of 100 and a variance of 225
+
+Right: `NormalDist(100, 15)`, since the second argument is $\sigma$
+
+The notation $N(\mu, \sigma^2)$ writes the variance, and most software takes the standard deviation. Check which one the function expects.
+
+Taught in [continuous random variables and the normal distribution](../05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md#edge-cases-and-common-mistakes).
+
+### Using the table's left-hand area for "above"
+
+Wrong: $P(Z > 1.5) = \Phi(1.5) = 0.933$
+
+Right: $P(Z > 1.5) = 1 - \Phi(1.5) = 0.067$
+
+The standard normal table and `cdf` give the area to the left of $z$, so $P(Z \le z)$. For an upper tail, subtract from 1.
+
+Taught in [continuous random variables and the normal distribution](../05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md#edge-cases-and-common-mistakes).
+
+### Subtracting variances for a difference
+
+Wrong: $\operatorname{Var}(X - Y) = \operatorname{Var}(X) - \operatorname{Var}(Y)$
+
+Right: for independent variables, $\operatorname{Var}(X - Y) = \operatorname{Var}(X) + \operatorname{Var}(Y)$
+
+Both sources of noise feed into the difference. A variance cannot be negative, and the wrong formula can make it so.
+
+Taught in [joint distributions, covariance and sums](../05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md#edge-cases-and-common-mistakes).
+
+### Adding standard deviations of independent variables
+
+Wrong: standard deviations 4 and 3 combine to give $4 + 3 = 7$
+
+Right: variances add, so the standard deviation is $\sqrt{16 + 9} = 5$
+
+Independent errors partly cancel, so the total is smaller than the sum of the standard deviations.
+
+Taught in [joint distributions, covariance and sums](../05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md#edge-cases-and-common-mistakes).
+
+### Concluding independence from zero covariance
+
+Wrong: $\operatorname{Cov}(X, Y) = 0$, so $X$ and $Y$ are independent
+
+Right: independent variables have zero covariance, and the converse is false. If $X$ is $-1$, $0$ or $1$ with equal probability, then $Y = X^2$ is fully determined by $X$ and still has $\operatorname{Cov}(X, Y) = 0$
+
+Covariance measures only the linear part of the dependence.
+
+Taught in [joint distributions, covariance and sums](../05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md#edge-cases-and-common-mistakes).
+
+### Expecting the law of large numbers to even out the counts
+
+Wrong: after a run of heads, the number of tails will catch up, so the count of heads minus tails shrinks
+
+Right: the average converges, and the difference between the counts typically grows like $\sqrt{n}$
+
+The proportion approaches $\frac{1}{2}$ because the total grows faster than the difference does. The early run is diluted, not corrected.
+
+Taught in [the law of large numbers and the CLT](../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md#edge-cases-and-common-mistakes).
+
+### Thinking that the central limit theorem makes the data normal
+
+Wrong: with 1000 observations, the data are approximately normal
+
+Right: the average (or sum) of many i.i.d. values is approximately normal, and the data keep their own shape
+
+A histogram of skewed data stays skewed however many points there are. The theorem is about the sampling distribution of the mean.
+
+Taught in [the law of large numbers and the CLT](../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md#edge-cases-and-common-mistakes).
+
+### Applying the central limit theorem to a distribution with no variance
+
+Wrong: the average of Cauchy variables is approximately normal for large $n$
+
+Right: the theorem needs a finite variance. The average of $n$ standard Cauchy variables is again standard Cauchy
+
+Averaging does not help here, because extreme values are too common. The law of large numbers fails for the same reason.
+
+Taught in [the law of large numbers and the CLT](../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md#edge-cases-and-common-mistakes).
+
+## Inference and regression
+
+### Dividing by $n$ for a sample variance
+
+Wrong: $s^2 = \frac{1}{n}\sum (x_i - \bar{x})^2$ for a sample
+
+Right: $s^2 = \frac{1}{n - 1}\sum (x_i - \bar{x})^2$
+
+The sample mean is closer to the data than the population mean is, so the squares come out too small on average. Dividing by $n - 1$ corrects it exactly, which is what makes $s^2$ unbiased.
+
+Taught in [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md#edge-cases-and-common-mistakes).
+
+### Flagging outliers with $\lvert z \rvert > 3$ in a small sample
+
+Wrong: no point in a sample of 10 has $\lvert z \rvert > 3$, so there are no outliers
+
+Right: use the IQR fences. In a sample of $n$, $\lvert z \rvert$ can never exceed $\frac{n - 1}{\sqrt{n}}$, which is 2.85 for $n = 10$
+
+The outlier itself inflates $s$, so it hides from the rule. A boxplot and the IQR fences do not have this problem.
+
+Taught in [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md#edge-cases-and-common-mistakes).
+
+### Believing that a bigger sample fixes a biased one
+
+Wrong: the survey reached 2.4 million people, so it must be accurate
+
+Right: more data shrinks random error and leaves bias where it was
+
+A flaw in who is chosen, or in who answers, affects every response in the same direction. Random sampling is what protects against it.
+
+Taught in [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md#edge-cases-and-common-mistakes).
+
+### Reading a 95% interval as a 95% probability
+
+Wrong: there is a 95% probability that the true mean is in $(48.2, 51.8)$
+
+Right: 95% of intervals built this way capture the true mean. This particular interval either does or does not
+
+The parameter is fixed and the interval is random. After the data are in, the probability statement no longer applies.
+
+Taught in [confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#edge-cases-and-common-mistakes).
+
+### Reading an interval for the mean as a range for individual values
+
+Wrong: the 95% interval for the mean is $(48.2, 51.8)$, so 95% of people fall in that range
+
+Right: the interval is for the mean. Individual values spread out by about $s$, and the interval's width shrinks like $\frac{1}{\sqrt{n}}$
+
+The standard error shrinks with more data, but the spread of individuals does not.
+
+Taught in [confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#edge-cases-and-common-mistakes).
+
+### Using the normal critical value with a small sample and an estimated spread
+
+Wrong: for $n = 8$ and an estimated $s$, use $z^* = 1.96$
+
+Right: use $t^*$ with $n - 1 = 7$ degrees of freedom, which is 2.365 for 95%
+
+Replacing $\sigma$ by $s$ adds uncertainty, so the tails are heavier. The $t$ value approaches 1.96 as $n$ grows.
+
+Taught in [confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#edge-cases-and-common-mistakes).
+
+### Concluding that there is no difference because two intervals overlap
+
+Wrong: the intervals for the two means overlap, so the difference is not significant
+
+Right: build one interval for the difference. Its standard error is $\sqrt{\text{SE}_1^2 + \text{SE}_2^2}$, which is less than $\text{SE}_1 + \text{SE}_2$
+
+Two intervals can overlap a little while the interval for the difference excludes 0.
+
+Taught in [confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#edge-cases-and-common-mistakes).
+
+### Reading the p-value as the probability that the null hypothesis is true
+
+Wrong: $p = 0.03$ means a 3% chance that $H_0$ is true
+
+Right: $p$ is the probability of data this extreme if $H_0$ were true, so $P(\text{data} \mid H_0)$
+
+The probability of $H_0$ given the data is a different quantity, and it needs a prior, as Bayes' theorem does.
+
+Taught in [hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#what-a-p-value-is-not).
+
+### Treating "fail to reject" as proof of no effect
+
+Wrong: $p = 0.2$, so there is no effect
+
+Right: the data do not rule out an effect. A low-power test misses real effects
+
+Report the interval for the effect size too. A wide interval around 0 says that the study was uninformative.
+
+Taught in [hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#edge-cases-and-common-mistakes).
+
+### Using the one-tail area as a two-sided p-value
+
+Wrong: the statistic $z = 2.1$ has a one-tail area of 0.018, so $p = 0.018$
+
+Right: for a two-sided alternative, double it: $p = 0.036$
+
+Both tails count when the alternative is "different from".
+
+Taught in [hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#edge-cases-and-common-mistakes).
+
+### Running many tests and reporting the significant one
+
+Wrong: test 20 outcomes at the 0.05 level and report the one with $p = 0.03$
+
+Right: correct for multiple testing with Bonferroni or Holm, or state the single test before looking at the data
+
+If all 20 nulls are true, the chance of at least one false positive is $1 - 0.95^{20} \approx 0.64$.
+
+Taught in [hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#edge-cases-and-common-mistakes).
+
+### Taking a tiny p-value to mean a big effect
+
+Wrong: $p < 0.0001$, so the effect is important
+
+Right: report the effect size with an interval. With a huge $n$, a tiny difference is significant
+
+The p-value answers whether an effect is distinguishable from 0, not how large it is.
+
+Taught in [hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#edge-cases-and-common-mistakes).
+
+### Trusting $r$ or $R^2$ without a plot
+
+Wrong: $r = 0.82$, so a straight line describes the data
+
+Right: plot the data and the residuals first. Anscombe's quartet has four very different data sets with the same $r$ and the same line
+
+A curved pattern, a single influential point or two clusters can all give a high $r$. A U-shape in the residuals shows that a line is the wrong model.
+
+Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
+
+### Ignoring a high-leverage point
+
+Wrong: report the fitted line without checking which points control it
+
+Right: fit with and without the point, and report both if the slope changes much
+
+A point whose $x$ is far from $\bar{x}$ pulls the line toward itself. One such point can change the slope a lot.
+
+Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
+
+### Inverting the line of $y$ on $x$ to predict $x$
+
+Wrong: the line $\hat{y} = 3 + 2x$ gives $x = \frac{y - 3}{2}$ as the prediction of $x$ from $y$
+
+Right: regress $x$ on $y$ to get a different line
+
+The slope of $y$ on $x$ is $r\frac{s_y}{s_x}$ and the slope of $x$ on $y$ is $r\frac{s_x}{s_y}$, and the two slopes multiply to $r^2$, not 1.
+
+Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
+
+### Reading a drop after an extreme score as a real change
+
+Wrong: the class with the lowest scores improved after the new method, so the method works
+
+Right: part of an extreme score is luck, and luck does not repeat, so scores move toward the average anyway (regression to the mean)
+
+Compare with a control group that did not get the method.
+
+Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
+
+## Multivariable calculus
+
+### Taking the angle in polar coordinates from the arctangent alone
+
+Wrong: for the point $(-1, 1)$, $\theta = \arctan\frac{y}{x} = -45^\circ$
+
+Right: the point is in the second quadrant, so $\theta = 135^\circ$. Pick the quadrant, or use `atan2(y, x)`
+
+The arctangent returns angles between $-90^\circ$ and $90^\circ$ only.
+
+Taught in [parametric, polar and 3D coordinates](../05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md#edge-cases-and-common-mistakes).
+
+### Reading the derivative with respect to time as the slope
+
+Wrong: for a parametric curve, the slope is $\frac{dy}{dt}$
+
+Right: the slope is $\frac{dy}{dx} = \frac{dy/dt}{dx/dt}$
+
+The quantity $\frac{dy}{dt}$ is the vertical speed, and the two have different units.
+
+Taught in [parametric, polar and 3D coordinates](../05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md#edge-cases-and-common-mistakes).
+
+### Leaving out the one half in a polar area
+
+Wrong: the area of the circle $r = 2$ is $\int_0^{2\pi} r^2\,d\theta = 8\pi$
+
+Right: area $= \frac{1}{2}\int_0^{2\pi} r^2\,d\theta = 4\pi$
+
+A thin sector is a triangle with area $\frac{1}{2}r^2\,d\theta$, not a rectangle.
+
+Taught in [parametric, polar and 3D coordinates](../05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md#edge-cases-and-common-mistakes).
+
+### Assuming that existing partial derivatives mean continuity
+
+Wrong: $f_x$ and $f_y$ exist at the origin, so $f$ is continuous there
+
+Right: not implied. The function $\frac{xy}{x^2 + y^2}$, with value 0 at the origin, has both partials 0 there and is not continuous: along $y = x$ it equals $\frac{1}{2}$
+
+Partial derivatives look only along the axes.
+
+Taught in [partial derivatives and the gradient](../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md#edge-cases-and-common-mistakes).
+
+### Using a direction vector that is not a unit vector
+
+Wrong: for $f = x^2y$ at $(1, 2)$ in the direction $(3, 4)$, the directional derivative is $\nabla f \cdot (3, 4) = (4, 1) \cdot (3, 4) = 16$
+
+Right: divide by the length 5 first: $(4, 1) \cdot (0.6, 0.8) = 3.2$
+
+The directional derivative is a rate per unit distance, so the direction must have length 1. The wrong answer is too large by the length of the vector.
+
+Taught in [partial derivatives and the gradient](../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md#edge-cases-and-common-mistakes).
+
+### Taking the slope of a level curve to be $\frac{f_x}{f_y}$
+
+Wrong: the slope of $x^2 + y^2 = c$ is $\frac{f_x}{f_y} = \frac{x}{y}$
+
+Right: the slope is $-\frac{f_x}{f_y} = -\frac{x}{y}$
+
+Differentiating $f(x, y) = c$ implicitly gives $f_x + f_y\frac{dy}{dx} = 0$. The sign matters: the tangent to a circle is perpendicular to the radius.
+
+Taught in [partial derivatives and the gradient](../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md#edge-cases-and-common-mistakes).
+
+### Reading $D = 0$ as a saddle point
+
+Wrong: the Hessian determinant is 0, so the critical point is a saddle
+
+Right: the test gives no information. Both $x^4 + y^4$ (a minimum) and $x^3 + y^3$ (a saddle) have $D = 0$ at the origin
+
+When $D = 0$, look at the function near the point directly.
+
+Taught in [multivariable optimization and Lagrange multipliers](../05-university-core/09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md#edge-cases-and-common-mistakes).
+
+### Missing the points where the constraint's gradient is zero
+
+Wrong: solve $\nabla f = \lambda\nabla g$ and $g = c$, and list the solutions as all the candidates
+
+Right: also check the points of the constraint where $\nabla g = \mathbf{0}$. To minimize $f = x$ on $y^2 = x^3$, the minimum is at the origin, where $\nabla g = (0, 0)$, and the Lagrange equations have no solution there
+
+At those points the condition $\nabla f = \lambda\nabla g$ cannot hold unless $\nabla f$ is also zero.
+
+Taught in [multivariable optimization and Lagrange multipliers](../05-university-core/09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md#edge-cases-and-common-mistakes).
+
+### Forgetting the factor $r$ in a polar double integral
+
+Wrong: $\iint f\,dA = \iint f\,dr\,d\theta$
+
+Right: $\iint f\,r\,dr\,d\theta$
+
+A small polar patch has width $dr$ and length $r\,d\theta$, so its area is $r\,dr\,d\theta$.
+
+Taught in [double integrals](../05-university-core/09-multivariable-calculus-light/04-double-integrals.md#edge-cases-and-common-mistakes).
+
+### Swapping the order of integration without a sketch
+
+Wrong: swap the limits of $\int_0^1\int_0^x f\,dy\,dx$ to $\int_0^1\int_0^x f\,dx\,dy$
+
+Right: sketch the region (here $0 \le y \le x \le 1$) and read off the new limits: $\int_0^1\int_y^1 f\,dx\,dy$
+
+The limits come from the region. Swapping the symbols does not change the region.
+
+Taught in [double integrals](../05-university-core/09-multivariable-calculus-light/04-double-integrals.md#edge-cases-and-common-mistakes).
+
+## Differential equations
+
+### Separating an equation that is not separable
+
+Wrong: separate $y' = t + y$ into $\frac{dy}{dt} = t + y$ and integrate each side with respect to its own variable
+
+Right: it is first-order linear. Use an integrating factor to get $y = Ce^t - t - 1$
+
+An equation is separable only if the right side is a product $g(t)h(y)$, not a sum.
+
+Taught in [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#edge-cases-and-common-mistakes).
+
+### Losing a constant solution by dividing by $y$
+
+Wrong: separate $y' = y(1 - y)$ by dividing by $y(1 - y)$, and say the answer is the family found
+
+Right: list the constant solutions $y = 0$ and $y = 1$ first. Dividing by $y$ removes $y = 0$ from consideration
+
+The family found by integrating may not include the equilibria.
+
+Taught in [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#edge-cases-and-common-mistakes).
+
+### Taking an Euler step that is too large
+
+Wrong: use $h = 1$ for $y' = -3y$ because the step is easy to compute
+
+Right: the method needs $h < \frac{2}{\lambda} = 0.67$ here. With $h = 1$ each step multiplies $y$ by $-2$, and the numbers blow up with alternating sign
+
+This is the same limit as the learning rate in gradient descent.
+
+Taught in [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#edge-cases-and-common-mistakes).
+
+### Writing $(C_1 + C_2)e^{rt}$ for a double root
+
+Wrong: the characteristic equation has a double root $r$, so the general solution is $(C_1 + C_2)e^{rt}$
+
+Right: $(C_1 + C_2t)e^{rt}$
+
+The sum $C_1 + C_2$ is one constant in disguise, and one constant cannot fit two initial conditions.
+
+Taught in [second-order linear equations](../05-university-core/10-differential-equations-light/02-second-order-linear-equations.md#edge-cases-and-common-mistakes).
+
+### Dropping the growth factor for complex roots
+
+Wrong: roots $-1 \pm 2i$ give $y = C_1\cos 2t + C_2\sin 2t$
+
+Right: $y = e^{-t}\left(C_1\cos 2t + C_2\sin 2t\right)$
+
+The real part of the root gives the factor $e^{\alpha t}$. Without it the oscillation never fades.
+
+Taught in [second-order linear equations](../05-university-core/10-differential-equations-light/02-second-order-linear-equations.md#edge-cases-and-common-mistakes).
 
 ## Number bases
 
