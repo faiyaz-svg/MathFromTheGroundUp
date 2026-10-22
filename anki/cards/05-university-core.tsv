@@ -1,0 +1,262 @@
+id	front	back	tags
+# Limits and continuity
+uc-limit-meaning	In words, what does $\lim_{x \to a} f(x) = L$ say, and does it depend on $f(a)$?	$f(x)$ gets as close to $L$ as you like when $x$ is close enough to $a$ and $x \ne a$. It ignores $f(a)$.	limits definitions
+uc-limit-one-sided	When does a two-sided limit exist in terms of one-sided limits?	Exactly when both one-sided limits exist and are equal.	limits definitions
+uc-limit-fail-ways	Name the three ways a limit can fail to exist at a point.	A jump (one-sided limits differ), a blow-up to $\pm\infty$, and oscillation such as $\sin\frac{1}{x}$ at 0.	limits
+uc-limit-zero-over-zero	What does the form $\frac{0}{0}$ tell you about a limit?	Nothing yet: more work is needed. Factor and cancel, multiply by the conjugate, or use a common denominator.	limits common-mistake
+uc-limit-sinx-over-x	State $\lim_{x \to 0} \frac{\sin x}{x}$ and $\lim_{x \to 0} \frac{1 - \cos x}{x}$, and the unit they need.	The first is 1 and the second is 0. Both need $x$ in radians.	limits trig
+uc-limit-squeeze	State the squeeze theorem.	If $g(x) \le f(x) \le h(x)$ near $a$ and $g$ and $h$ both tend to $L$, then $f(x) \to L$.	limits theorems
+uc-limit-hole-vs-value	What are $\lim_{x \to 1}\frac{x^2 - 1}{x - 1}$ and the value at 1?	The limit is 2 and there is no value at 1, since $f(1)$ is undefined. A limit is not a value.	limits common-mistake
+uc-limit-infinity-rational	How do you find $\lim_{x \to \pm\infty}$ of a rational function?	Divide top and bottom by the highest power of $x$ in the denominator.	limits asymptotes
+uc-asymptote-def	Define a horizontal and a vertical asymptote with limits.	Horizontal $y = L$: $\lim_{x \to \pm\infty} f(x) = L$ at one end or both. Vertical $x = a$: an infinite one-sided limit at $a$.	limits asymptotes definitions
+uc-epsilon-delta	State the epsilon-delta definition of $\lim_{x \to a} f(x) = L$.	For every $\varepsilon > 0$ there is a $\delta > 0$ such that $0 < \lvert x - a \rvert < \delta$ implies $\lvert f(x) - L \rvert < \varepsilon$.	limits definitions epsilon-delta
+uc-epsilon-delta-roles	In the epsilon-delta game, who picks $\varepsilon$, who picks $\delta$, and what may $\delta$ depend on?	The challenger picks $\varepsilon$, you answer with $\delta$. Then $\delta$ may depend on $\varepsilon$ but never on $x$.	limits epsilon-delta
+uc-epsilon-delta-linear	For $\lim_{x \to a}(mx + b) = ma + b$, what $\delta$ works?	$\delta = \frac{\varepsilon}{\lvert m \rvert}$, since $\lvert f(x) - L \rvert = \lvert m \rvert \lvert x - a \rvert$.	limits epsilon-delta
+uc-epsilon-delta-min	Why does an epsilon-delta proof for $\lim_{x \to 3} x^2 = 9$ take $\delta = \min\left(1, \frac{\varepsilon}{7}\right)$?	$\lvert x^2 - 9 \rvert = \lvert x - 3 \rvert \lvert x + 3 \rvert$. With $\delta \le 1$, $x + 3 < 7$, so $\delta \le \frac{\varepsilon}{7}$ finishes it.	limits epsilon-delta
+uc-epsilon-delta-negation	Negate the epsilon-delta statement to show a limit is not $L$.	There is an $\varepsilon$ such that for every $\delta$ some $x$ has $0 < \lvert x - a \rvert < \delta$ and $\lvert f(x) - L \rvert \ge \varepsilon$. Flip every quantifier.	limits epsilon-delta
+uc-continuity-def	Define "$f$ is continuous at $a$" with limits.	$f(a)$ is defined, $\lim_{x \to a} f(x)$ exists, and the two are equal.	continuity definitions
+uc-continuity-types	Name the three kinds of discontinuity and which can be repaired.	Removable (finite limit, value missing or different; redefine $f(a)$), jump (two different finite one-sided limits) and infinite (vertical asymptote). Only the removable one can be repaired.	continuity
+uc-continuity-composition	If $\lim g(x) = b$ and $f$ is continuous at $b$, what is $\lim f(g(x))$?	It is $f(b)$.	continuity theorems
+uc-ivt	State the intermediate value theorem.	If $f$ is continuous on $[a, b]$ and $N$ is strictly between $f(a)$ and $f(b)$, then $f(c) = N$ for some $c$ in $(a, b)$.	continuity theorems ivt
+uc-ivt-misuse	Why does the IVT fail for $\frac{1}{x}$ on $[-1, 1]$, and what is it not saying?	$\frac{1}{x}$ is not continuous on all of $[-1, 1]$. The IVT also does not say the solution is unique, and taking every value does not make a function continuous.	continuity theorems common-mistake
+uc-evt	State the extreme value theorem and its hypothesis that is often forgotten.	A continuous function on a closed interval $[a, b]$ has a maximum and a minimum. The interval must be closed and bounded.	continuity theorems
+
+# Derivatives
+uc-derivative-def	Define $f'(a)$ as a limit, in both forms.	$f'(a) = \lim_{h \to 0}\frac{f(a + h) - f(a)}{h} = \lim_{x \to a}\frac{f(x) - f(a)}{x - a}$.	derivatives definitions
+uc-tangent-line	Write the tangent line to $f$ at $x = a$.	$y = f(a) + f'(a)(x - a)$.	derivatives
+uc-derivative-meaning	What is $f'(a)$ as a rate, and what are its units?	The instantaneous rate of change of $f$ at $a$, in units of $f$ per unit of $x$.	derivatives
+uc-derivative-fails	List the ways a derivative can fail to exist at a point.	A corner (different one-sided slopes, like $\lvert x \rvert$ at 0), a cusp, a vertical tangent, or a discontinuity.	derivatives common-mistake
+uc-differentiable-continuous	How do differentiable and continuous relate?	Differentiable implies continuous. The converse is false: $\lvert x \rvert$ is continuous at 0 but not differentiable there.	derivatives theorems common-mistake
+uc-power-rule	State the power rule and where it holds.	$(x^n)' = nx^{n-1}$ for every real $n$, with $x > 0$ if $n$ is not an integer.	derivatives rules
+uc-product-rule	State the product rule, and show $(fg)' = f'g'$ is wrong.	$(fg)' = f'g + fg'$. For $x \cdot x$ the wrong rule gives 1, not $2x$.	derivatives rules common-mistake
+uc-quotient-rule	State the quotient rule.	$\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}$. The numerator order matters.	derivatives rules
+uc-chain-rule	State the chain rule in both notations.	$(f \circ g)'(x) = f'(g(x))\,g'(x)$, or $\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx}$.	derivatives rules
+uc-chain-forgot-inner	What is $\frac{d}{dx}\sin(x^2)$?	$2x\cos(x^2)$. Forgetting the inner factor $2x$ is the usual slip.	derivatives rules common-mistake
+uc-deriv-sin-cos	Give the derivatives of $\sin x$, $\cos x$ and $\tan x$.	$\cos x$, $-\sin x$ and $\sec^2 x$. The first two hold only in radians.	derivatives table trig
+uc-deriv-exp-log	Give the derivatives of $e^x$, $b^x$, $\ln x$ and $\log_b x$.	$e^x$, $b^x \ln b$, $\frac{1}{x}$ and $\frac{1}{x \ln b}$.	derivatives table
+uc-deriv-inverse-trig	Give the derivatives of $\arcsin x$, $\arccos x$ and $\arctan x$.	$\frac{1}{\sqrt{1 - x^2}}$, $-\frac{1}{\sqrt{1 - x^2}}$ and $\frac{1}{1 + x^2}$.	derivatives table trig
+uc-deriv-bx-vs-xb	How do the derivatives of $b^x$ and $x^b$ differ?	$\frac{d}{dx}b^x = b^x \ln b$ (variable in the exponent), $\frac{d}{dx}x^b = bx^{b-1}$ (variable in the base). Do not mix the rules.	derivatives rules common-mistake
+uc-implicit-diff	What are the steps of implicit differentiation, and what is $\frac{dy}{dx}$ on $x^2 + y^2 = 25$?	Differentiate both sides in $x$, attach $\frac{dy}{dx}$ to every $y$ term, solve. Here $\frac{dy}{dx} = -\frac{x}{y}$.	derivatives implicit
+uc-inverse-derivative	State the formula for $(f^{-1})'(b)$.	$\frac{1}{f'(a)}$ where $f(a) = b$ and $f'(a) \ne 0$. Use the slope at $a$, not at $b$.	derivatives inverse common-mistake
+
+# Applications of derivatives
+uc-marginal-cost	What is marginal cost, and how does it relate to $C(q + 1) - C(q)$?	$C'(q)$, the cost of the next unit. It approximates $C(q + 1) - C(q)$.	applications economics
+uc-marginal-revenue	If $R = q\,p(q)$, what is marginal revenue?	$R'(q) = p + q\,p'(q)$.	applications economics
+uc-profit-max	What is the first-order condition for maximum profit, and what else must you check?	$R'(q) = C'(q)$, plus $P''(q) < 0$ so that it is a maximum.	applications economics optimization
+uc-average-vs-marginal	When does average cost fall, rise, and reach a minimum?	Since $A' = \frac{C' - A}{q}$: it falls while $C' < A$, rises while $C' > A$, and at an interior minimum $C' = A$.	applications economics
+uc-elasticity	Define elasticity of demand and say when a price rise raises revenue.	$E = \frac{dq}{dp}\cdot\frac{p}{q}$, and $\frac{dR}{dp} = q(1 + E)$. A price rise raises revenue when $-1 < E < 0$.	applications economics
+uc-linearization	Write the linearization of $f$ at $a$ and the differential.	$L(x) = f(a) + f'(a)(x - a)$ and $dy = f'(x)\,dx$, with $\Delta y \approx dy$.	applications approximation
+uc-linearization-error	Where does the tangent line under- or overestimate?	Underestimates where $f'' > 0$ and overestimates where $f'' < 0$. The error is at most $\frac{M}{2}(x - a)^2$ when $\lvert f'' \rvert \le M$.	applications approximation
+uc-newton	Write Newton's method and say how fast it converges.	$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$. Near a simple root the correct digits roughly double each step.	applications numerical
+uc-newton-fails	Name ways Newton's method fails.	$f'(x_n) = 0$, a cycle (as for $x^3 - 2x + 2$ from 0), divergence (as for $\sqrt[3]{x}$), or landing on an unexpected root.	applications numerical common-mistake
+uc-lhopital	State L'Hopital's rule with its hypotheses.	If $\frac{f}{g}$ has the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$ and $\frac{f'}{g'}$ has a limit (finite or $\pm\infty$), the two limits agree. Differentiate top and bottom separately.	applications limits theorems
+uc-lhopital-misuse	Name two ways to misuse L'Hopital's rule.	Using it when the form is not indeterminate, and using the quotient rule instead of differentiating top and bottom. Also, no limit of $\frac{f'}{g'}$ does not mean no limit of $\frac{f}{g}$ (try $\frac{x + \sin x}{x}$).	applications limits common-mistake
+uc-indeterminate-forms	How do you handle $0 \cdot \infty$, $\infty - \infty$ and $1^\infty$?	Write $0 \cdot \infty$ as a quotient, combine $\infty - \infty$ into one fraction, and for $1^\infty$, $0^0$ and $\infty^0$ take $\ln$, find that limit, then exponentiate.	applications limits
+uc-growth-orders	Order $\ln x$, $x^p$ and $b^x$ for large $x$ ($p > 0$, $b > 1$).	$\ln x \ll x^p \ll b^x$, but only eventually.	applications limits
+uc-critical-point	Define a critical point.	A point $c$ in the domain where $f'(c) = 0$ or $f'(c)$ does not exist.	applications definitions
+uc-fermat	State Fermat's theorem on local extrema.	A local extremum at an interior point where $f'$ exists has $f'(c) = 0$. The converse fails: $x^3$ at 0.	applications theorems
+uc-rolle	State Rolle's theorem.	If $f$ is continuous on $[a, b]$, differentiable on $(a, b)$ and $f(a) = f(b)$, then $f'(c) = 0$ for some $c$ in $(a, b)$.	applications theorems
+uc-mvt	State the mean value theorem with its hypotheses.	If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$, then $f'(c) = \frac{f(b) - f(a)}{b - a}$ for some $c$ in $(a, b)$.	applications theorems
+uc-mvt-consequences	Give three consequences of the mean value theorem.	$f' = 0$ on an interval means $f$ is constant; $f' > 0$ means increasing; equal derivatives mean the functions differ by a constant.	applications theorems
+uc-concavity	How does the sign of $f''$ give concavity and inflection points?	$f'' > 0$ is concave up (a cup), $f'' < 0$ is concave down (a cap), and an inflection point is where $f''$ changes sign.	applications concavity
+uc-second-derivative-test	State the second derivative test for $f'(c) = 0$, including the case $f''(c) = 0$.	$f''(c) > 0$ gives a local minimum and $f''(c) < 0$ a local maximum. If $f''(c) = 0$ the test gives no information.	applications concavity common-mistake
+uc-first-derivative-test	How does the sign of $f'$ detect a local maximum or minimum?	$f'$ going $+$ to $-$ at $c$ is a local maximum, and $-$ to $+$ is a local minimum.	applications concavity
+uc-inflection-x4	Is every zero of $f''$ an inflection point?	No. For $x^4$, $f''(0) = 0$ but $f''$ does not change sign.	applications concavity common-mistake
+uc-convex-critical	If $f'' \ge 0$ on an interval, what do you know about the graph and critical points?	The graph lies above every tangent line, the chords lie above the graph, and any critical point is an absolute minimum.	applications concavity
+uc-gradient-descent-1d	Write one-variable gradient descent and the condition for convergence on $a(w - w^*)^2 + k$.	$w_{n+1} = w_n - \eta f'(w_n)$. The distance to $w^*$ is multiplied by $1 - 2a\eta$, so it converges exactly when $0 < \eta < \frac{1}{a}$.	applications optimization ml
+# Integrals
+uc-riemann-sum	Define the definite integral as a limit of Riemann sums.	With $\Delta x = \frac{b - a}{n}$, $\int_a^b f(x)\,dx = \lim_{n \to \infty}\sum_{k=1}^{n} f(x_k^*)\,\Delta x$.	integrals definitions
+uc-riemann-rules	How fast do the errors of left, right, midpoint and trapezoid rules shrink?	Left and right like $\frac{1}{n}$. Midpoint and trapezoid like $\frac{1}{n^2}$.	integrals numerical
+uc-signed-area	What does a definite integral measure, and what is $\int_0^{2\pi}\sin x\,dx$?	Signed area: above the axis counts positive, below counts negative. That integral is 0.	integrals common-mistake
+uc-integral-properties	Give the integral properties for reversed limits and for splitting an interval.	$\int_b^a f = -\int_a^b f$ and $\int_a^c f = \int_a^b f + \int_b^c f$.	integrals
+uc-integral-product	Is $\int fg$ equal to $\int f \cdot \int g$?	No. The integral of a product is not the product of the integrals.	integrals common-mistake
+uc-ftc1	State part 1 of the fundamental theorem of calculus.	If $f$ is continuous and $F(x) = \int_a^x f(t)\,dt$, then $F'(x) = f(x)$. With an upper limit $g(x)$ the derivative is $f(g(x))\,g'(x)$.	integrals theorems ftc
+uc-ftc2	State part 2 of the fundamental theorem of calculus.	If $F' = f$ on $[a, b]$ with $f$ continuous, then $\int_a^b f(x)\,dx = F(b) - F(a)$.	integrals theorems ftc
+uc-net-change	What does the integral of a rate give?	A net change: $\int_a^b Q'(x)\,dx = Q(b) - Q(a)$. Marginal cost integrates to extra cost.	integrals applications
+uc-ftc-break	Why is $\int_{-1}^{1}\frac{dx}{x^2} = -2$ wrong?	The integrand is not continuous at 0, so the theorem does not apply. The integral actually diverges.	integrals ftc common-mistake
+uc-antiderivative-power	Give $\int x^n\,dx$ and the case where it fails.	$\frac{x^{n+1}}{n+1} + C$ for $n \ne -1$. For $n = -1$ the answer is $\ln \lvert x \rvert + C$.	integrals table
+uc-antiderivative-trig	Give $\int \tan x\,dx$, $\int \sec x\,dx$ and $\int \cot x\,dx$.	$-\ln\lvert\cos x\rvert + C$, $\ln\lvert\sec x + \tan x\rvert + C$ and $\ln\lvert\sin x\rvert + C$.	integrals table trig
+uc-antiderivative-arctan	Give $\int \frac{dx}{1 + x^2}$, $\int \frac{dx}{x^2 + a^2}$ and $\int \frac{dx}{\sqrt{1 - x^2}}$.	$\arctan x + C$, $\frac{1}{a}\arctan\frac{x}{a} + C$ and $\arcsin x + C$.	integrals table
+uc-u-sub	State u-substitution for a definite integral.	$\int_a^b f(g(x))\,g'(x)\,dx = \int_{g(a)}^{g(b)} f(u)\,du$. The limits change to $u$-values.	integrals techniques
+uc-by-parts	State integration by parts.	$\int u\,dv = uv - \int v\,du$, the product rule backward. For limits, $\int_a^b u\,v'\,dx = [uv]_a^b - \int_a^b u'\,v\,dx$.	integrals techniques
+uc-liate	What is LIATE?	The order for choosing $u$ in parts: Logarithmic, Inverse trig, Algebraic, Trig, Exponential.	integrals techniques
+uc-parts-loop	How do you handle $\int e^x\sin x\,dx$?	Do parts twice until the integral returns to itself, then solve for it: $\frac{e^x(\sin x - \cos x)}{2} + C$.	integrals techniques
+uc-trig-odd-power	How do you integrate $\sin^m x\cos^n x$ when one power is odd?	Peel off one factor of the odd-power function, rewrite the rest with $\sin^2 + \cos^2 = 1$, and substitute $u$ for the other function.	integrals techniques trig
+uc-trig-sub	What substitution handles $\sqrt{a^2 - x^2}$?	$x = a\sin\theta$, which turns the root into $a\cos\theta$.	integrals techniques trig
+uc-partial-fractions-terms	What term do you write for a repeated linear factor and for an irreducible quadratic factor?	Repeated $(x - a)^2$: $\frac{A_1}{x - a} + \frac{A_2}{(x - a)^2}$. Irreducible quadratic: $\frac{Bx + C}{x^2 + bx + c}$.	integrals techniques
+uc-improper-def	Define the two kinds of improper integral as limits.	$\int_a^\infty f = \lim_{b \to \infty}\int_a^b f$ and, for an unbounded integrand at $b$, $\lim_{t \to b^-}\int_a^t f$. Split at an interior trouble point.	integrals improper definitions
+uc-p-test-integral	When do $\int_1^\infty x^{-p}\,dx$ and $\int_0^1 x^{-p}\,dx$ converge?	The first converges when $p > 1$ (value $\frac{1}{p - 1}$), the second when $p < 1$ (value $\frac{1}{1 - p}$).	integrals improper
+uc-improper-comparison	State comparison for improper integrals.	If $0 \le f \le g$ and $\int g$ converges, then $\int f$ converges.	integrals improper theorems
+uc-integrand-zero	If the integrand tends to 0, must the improper integral converge?	No. $\frac{1}{x}$ tends to 0 but $\int_1^\infty \frac{dx}{x}$ diverges.	integrals improper common-mistake
+uc-area-between	Give the area between curves and the average value of $f$ on $[a, b]$.	$\int_a^b (\text{top} - \text{bottom})\,dx$ and $\frac{1}{b - a}\int_a^b f\,dx$. Split where the curves cross.	integrals applications
+uc-disc-washer	Give the disc and washer volume formulas about the $x$-axis.	Disc: $\pi\int f^2\,dx$. Washer: $\pi\int (f^2 - g^2)\,dx$, not $(f - g)^2$.	integrals applications
+uc-surplus	Give consumer and producer surplus as integrals.	Consumer: $\int_0^{q^*}(D(q) - p^*)\,dq$. Producer: $\int_0^{q^*}(p^* - S(q))\,dq$.	integrals applications economics
+uc-pv-stream	Give the present value of a continuous income stream and of a perpetuity.	$\int_0^T R(t)e^{-rt}\,dt$, and $\frac{R}{r}$ for a perpetuity. Use $r = \ln(1 + i)$ for a yearly rate $i$.	integrals applications finance
+
+# Sequences and series
+uc-sequence-limit	State the formal definition of $a_n \to L$.	For every $\varepsilon > 0$ there is an $N$ such that $\lvert a_n - L \rvert < \varepsilon$ for every $n \ge N$.	sequences definitions
+uc-sequence-bounded	Is a convergent sequence bounded? Is a bounded sequence convergent?	Convergent implies bounded, but not the reverse: $(-1)^n$ is bounded and diverges.	sequences theorems common-mistake
+uc-monotone-convergence	State the monotone convergence theorem, and what it depends on.	A bounded monotone sequence converges. It depends on the completeness of $\mathbb{R}$ and fails over the rationals.	sequences theorems
+uc-recursive-limit	How do you find the limit of $a_{n+1} = g(a_n)$?	Prove the sequence is bounded and monotone by induction, then solve $L = g(L)$ and discard roots the bounds forbid. Solving first, without the proof, is the mistake.	sequences
+uc-sequence-vs-series	What is the difference between a convergent sequence and a convergent series?	The sequence $(a_k)$ converges when its terms tend to a limit. The series $\sum a_k$ converges when the partial sums $S_n$ tend to a limit. Terms tending to 0 is not enough.	series definitions common-mistake
+uc-series-def	Define $\sum a_k = S$.	The partial sums $S_n = a_1 + \cdots + a_n$ tend to $S$.	series definitions
+uc-geometric-series	State when a geometric series converges and its sum.	$\sum_{k=0}^{\infty} ar^k$ converges exactly when $\lvert r \rvert < 1$, to $\frac{a}{1 - r}$ (first term over one minus ratio).	series
+uc-telescoping	What is the sum of a telescoping series $\sum (b_k - b_{k+1})$?	$b_1 - B$ when $b_k \to B$.	series
+uc-harmonic	Does $\sum \frac{1}{k}$ converge?	No, it diverges, though its terms tend to 0. $H_{2^m} \ge 1 + \frac{m}{2}$.	series common-mistake
+uc-nth-term-test	State the $n$-th term test and say whether the converse holds.	If $a_k \not\to 0$ the series diverges. The converse is false (harmonic series).	series tests
+uc-absolute-vs-conditional	Define absolutely and conditionally convergent.	Absolute: $\sum \lvert a_k \rvert$ converges (and then $\sum a_k$ does). Conditional: $\sum a_k$ converges but $\sum \lvert a_k \rvert$ does not.	series definitions
+uc-rearrangement	What happens if you rearrange a conditionally convergent series?	By Riemann's theorem the sum can be changed to any value. Rearrange only absolutely convergent series.	series theorems
+uc-p-series	When does $\sum k^{-p}$ converge?	Exactly when $p > 1$.	series tests
+uc-comparison-test	State the comparison test for series.	For $0 \le a_k \le b_k$: if $\sum b_k$ converges so does $\sum a_k$; if $\sum a_k$ diverges so does $\sum b_k$.	series tests
+uc-comparison-direction	Which comparisons tell you nothing?	A smaller series that diverges, or a bigger series that converges, says nothing.	series tests common-mistake
+uc-limit-comparison	State the limit comparison test.	If $\frac{a_k}{b_k} \to c$ with $0 < c < \infty$ (positive terms), the two series converge or diverge together.	series tests
+uc-integral-test	State the integral test with its hypotheses.	If $f$ is positive and decreasing with $a_k = f(k)$, then $\sum a_k$ and $\int_1^\infty f$ converge or diverge together.	series tests
+uc-ratio-test	State the ratio test and what happens at $L = 1$.	If $\lvert a_{k+1}/a_k \rvert \to L$: $L < 1$ converges, $L > 1$ diverges, $L = 1$ gives no information.	series tests common-mistake
+uc-root-test	State the root test.	If $\lvert a_k \rvert^{1/k} \to L$: $L < 1$ converges, $L > 1$ diverges, $L = 1$ gives no information.	series tests
+uc-alternating-test	State the alternating series test and its error bound.	If $b_k$ decreases to 0, $\sum (-1)^{k-1}b_k$ converges, and the error after $n$ terms is at most $b_{n+1}$.	series tests
+uc-power-series-radius	What is the radius of convergence of $\sum c_k(x - a)^k$ and how do you find it?	Converges absolutely for $\lvert x - a \rvert < R$, diverges for $\lvert x - a \rvert > R$. If $\lvert c_{k+1}/c_k \rvert \to \rho$ then $R = \frac{1}{\rho}$. Check endpoints separately.	series taylor
+uc-taylor-poly	Write the Taylor polynomial of degree $n$ at $a$.	$T_n(x) = \sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x - a)^k$. $T_1$ is the linearization.	series taylor definitions
+uc-lagrange-remainder	State the Lagrange remainder.	$R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x - a)^{n+1}$ for some $c$ between $a$ and $x$. So $\lvert R_n \rvert \le \frac{M\lvert x - a \rvert^{n+1}}{(n+1)!}$.	series taylor theorems
+uc-taylor-exp	Give the Maclaurin series of $e^x$ and its interval.	$\sum_{k=0}^\infty \frac{x^k}{k!}$, for all $x$.	series taylor
+uc-taylor-sin-cos	Give the Maclaurin series of $\sin x$ and $\cos x$.	$\sin x = \sum \frac{(-1)^k x^{2k+1}}{(2k+1)!}$ and $\cos x = \sum \frac{(-1)^k x^{2k}}{(2k)!}$, for all $x$.	series taylor trig
+uc-taylor-geometric	Give the series of $\frac{1}{1 - x}$ and its interval.	$\sum x^k$ for $-1 < x < 1$.	series taylor
+uc-taylor-ln	Give the series of $\ln(1 + x)$ and its interval.	$\sum_{k \ge 1}\frac{(-1)^{k-1}x^k}{k}$ on $(-1, 1]$. It cannot give $\ln 3$ at $x = 2$.	series taylor common-mistake
+uc-term-by-term	Can a power series be differentiated and integrated term by term?	Yes, inside its radius of convergence, and the radius stays the same.	series taylor theorems
+uc-taylor-equals-function	When does a convergent Taylor series equal the function?	Only when $R_n(x) \to 0$. Convergence alone is not enough.	series taylor common-mistake
+# Linear algebra
+uc-la-dot-product	Define the dot product, norm and angle formula for vectors in $\mathbb{R}^n$.	$\mathbf{u} \cdot \mathbf{v} = \sum u_iv_i$ (a number), $\lVert \mathbf{v} \rVert = \sqrt{\mathbf{v} \cdot \mathbf{v}}$, and $\cos\theta = \frac{\mathbf{u} \cdot \mathbf{v}}{\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert}$.	linear-algebra definitions
+uc-la-orthogonal	When are two vectors orthogonal?	When $\mathbf{u} \cdot \mathbf{v} = 0$.	linear-algebra definitions
+uc-la-cauchy-schwarz	State the Cauchy-Schwarz inequality and its equality case.	$\lvert \mathbf{u} \cdot \mathbf{v} \rvert \le \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$, with equality exactly when one vector is a scalar multiple of the other.	linear-algebra theorems
+uc-la-triangle-pythagoras	State the triangle inequality and the Pythagorean identity for vectors.	$\lVert \mathbf{u} + \mathbf{v} \rVert \le \lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert$. And $\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$ exactly when $\mathbf{u} \perp \mathbf{v}$.	linear-algebra theorems
+uc-la-span	Define the span of vectors.	The set of all linear combinations $c_1\mathbf{v}_1 + \cdots + c_k\mathbf{v}_k$. It always contains $\mathbf{0}$.	linear-algebra definitions
+uc-la-dot-cancel	Does $\mathbf{u} \cdot \mathbf{v} = \mathbf{u} \cdot \mathbf{w}$ imply $\mathbf{v} = \mathbf{w}$?	No. It only says $\mathbf{v} - \mathbf{w}$ is orthogonal to $\mathbf{u}$.	linear-algebra common-mistake
+uc-la-row-ops	List the three row operations.	Swap two rows, multiply a row by $c \ne 0$, add a multiple of another row to a row. They do not change the solution set.	linear-algebra elimination
+uc-la-ref-rref	Distinguish REF from RREF.	REF: zero rows last, leading entries step right and down. RREF also has every pivot equal to 1 with zeros above and below, and is unique.	linear-algebra elimination definitions
+uc-la-solution-count	From the RREF of $[A \mid \mathbf{b}]$, when are there no, one or infinitely many solutions?	None: a row $(0 \cdots 0 \mid 1)$. One: a pivot in every column of $A$ and no such row. Infinitely many: a free variable and no such row.	linear-algebra elimination
+uc-la-particular-plus-null	Describe the solutions of $A\mathbf{x} = \mathbf{b}$ in terms of $A\mathbf{x} = \mathbf{0}$.	One particular solution plus every solution of $A\mathbf{x} = \mathbf{0}$.	linear-algebra elimination
+uc-la-matrix-product	Define the entries of $AB$ and when it is defined.	$(AB)_{ij} = \sum_k a_{ik}b_{kj}$, defined when the number of columns of $A$ equals the number of rows of $B$.	linear-algebra matrices definitions
+uc-la-matrix-fails	Which familiar rules fail for matrix multiplication?	Commutativity ($AB \ne BA$ in general), cancellation, and "a zero product has a zero factor". Associativity and distributivity hold.	linear-algebra matrices common-mistake
+uc-la-transpose-inverse-product	Give $(AB)^T$ and $(AB)^{-1}$.	$B^TA^T$ and $B^{-1}A^{-1}$. The order reverses.	linear-algebra matrices common-mistake
+uc-la-inverse-2x2	Give the inverse of $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$.	$\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$, when $ad - bc \ne 0$.	linear-algebra matrices
+uc-la-imt	List some equivalent conditions for an $n \times n$ matrix $A$ to be invertible.	RREF is $I$; $n$ pivots; $A\mathbf{x} = \mathbf{0}$ has only the trivial solution; $A\mathbf{x} = \mathbf{b}$ is solvable for every $\mathbf{b}$; columns independent; columns span; $\det A \ne 0$.	linear-algebra theorems
+uc-la-independence	Define linear independence.	$c_1\mathbf{v}_1 + \cdots + c_k\mathbf{v}_k = \mathbf{0}$ only with all $c_i = 0$. The columns of $A$ are independent exactly when every column is a pivot column.	linear-algebra definitions
+uc-la-subspace	Define a subspace.	A set that contains $\mathbf{0}$ and is closed under addition and scalar multiples.	linear-algebra definitions
+uc-la-null-col	Define $N(A)$ and $\operatorname{col}(A)$ and the space each lives in.	$N(A) = \{\mathbf{x} : A\mathbf{x} = \mathbf{0}\}$ in $\mathbb{R}^n$. $\operatorname{col}(A)$ is the span of the columns, in $\mathbb{R}^m$.	linear-algebra definitions
+uc-la-basis-dim	Define basis and dimension.	A basis is an independent spanning list, giving unique coordinates. The dimension is the size of any basis.	linear-algebra definitions
+uc-la-rank-vs-nullity	Define rank and nullity, and state the rank-nullity theorem.	Rank is $\dim\operatorname{col}(A)$ and nullity is $\dim N(A)$. Rank plus nullity equals $n$, the number of columns.	linear-algebra theorems
+uc-la-pivot-columns	Which matrix gives the basis of $\operatorname{col}(A)$, the RREF or $A$?	Take the pivot columns of $A$ itself, not of the RREF. A basis of $N(A)$ has one vector per free variable.	linear-algebra common-mistake
+uc-la-linear-map	Define a linear map and find its matrix.	$T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$ and $T(c\mathbf{v}) = cT(\mathbf{v})$. Column $j$ of $A$ is $T(\mathbf{e}_j)$.	linear-algebra transformations
+uc-la-translation	Is a translation $\mathbf{x} \mapsto \mathbf{x} + \mathbf{b}$ linear?	No, since $T(\mathbf{0}) = \mathbf{b} \ne \mathbf{0}$. Writing $(x, y, 1)$ turns it into a matrix.	linear-algebra transformations
+uc-la-rotation-matrix	Give the matrix of rotation by $\theta$ in the plane.	$\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$.	linear-algebra transformations
+uc-la-kernel-image	Define kernel and image, and when a map is injective or surjective.	$\ker T = \{\mathbf{x} \mid T(\mathbf{x}) = \mathbf{0}\}$ and $\operatorname{im} T$ is the set of outputs. Injective exactly when $\ker T = \{\mathbf{0}\}$, surjective exactly when the rank is $m$.	linear-algebra transformations definitions
+uc-la-det-meaning	What does the determinant measure?	The signed factor by which the matrix scales area (2D) or volume (3D). The sign says whether orientation is kept.	linear-algebra determinants
+uc-la-det-rowops	How do the row operations change the determinant?	Swap: multiplies by $-1$. Scale a row by $c$: multiplies by $c$. Add a multiple of one row to another: no change.	linear-algebra determinants
+uc-la-det-properties	Give $\det(AB)$, $\det(A^T)$, $\det(A^{-1})$ and $\det(cA)$.	$\det A\det B$, $\det A$, $\frac{1}{\det A}$ and $c^n\det A$.	linear-algebra determinants
+uc-la-det-sum	Is $\det(A + B) = \det A + \det B$?	No. The determinant is not additive.	linear-algebra determinants common-mistake
+uc-la-cramer	State Cramer's rule.	$x_i = \frac{\det A_i}{\det A}$, where $A_i$ is $A$ with column $i$ replaced by $\mathbf{b}$.	linear-algebra determinants
+uc-la-projection	Give the projection of $\mathbf{v}$ onto $\mathbf{u}$.	$\operatorname{proj}_{\mathbf{u}}\mathbf{v} = \frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}\mathbf{u}$.	linear-algebra orthogonality
+uc-la-closest-point	What does the orthogonal projection $\hat{\mathbf{y}}$ onto $W$ give?	$\mathbf{y} = \hat{\mathbf{y}} + \mathbf{z}$ in exactly one way, with $\hat{\mathbf{y}}$ in $W$ and $\mathbf{z}$ in $W^\perp$, and $\hat{\mathbf{y}}$ is the closest point of $W$ to $\mathbf{y}$.	linear-algebra orthogonality
+uc-la-gram-schmidt	State the Gram-Schmidt step.	$\mathbf{u}_1 = \mathbf{v}_1$ and $\mathbf{u}_j = \mathbf{v}_j - \sum_{i<j}\operatorname{proj}_{\mathbf{u}_i}\mathbf{v}_j$. Divide by lengths for an orthonormal basis.	linear-algebra orthogonality
+uc-la-normal-equations	Give the normal equations for least squares.	$A^TA\hat{\mathbf{x}} = A^T\mathbf{b}$. They say the residual is perpendicular to every column of $A$.	linear-algebra least-squares
+uc-la-eigen-def	Define an eigenvector and eigenvalue.	$A\mathbf{v} = \lambda\mathbf{v}$ with $\mathbf{v} \ne \mathbf{0}$. The zero vector is never an eigenvector.	linear-algebra eigen definitions
+uc-la-char-poly	How do you find eigenvalues, and what is the $2 \times 2$ characteristic equation?	Solve $\det(A - \lambda I) = 0$. For $2 \times 2$: $\lambda^2 - (\operatorname{tr}A)\lambda + \det A = 0$.	linear-algebra eigen
+uc-la-trace-det-eigen	What do the eigenvalues add and multiply to?	They add to the trace and multiply to the determinant. $0$ is an eigenvalue exactly when $A$ is not invertible.	linear-algebra eigen
+uc-la-diagonalizable	When is $A$ diagonalizable, and what is $A^k$ then?	Exactly when it has $n$ independent eigenvectors. Then $A = PDP^{-1}$ and $A^k = PD^kP^{-1}$.	linear-algebra eigen
+
+# Probability
+uc-pr-axioms	State the three axioms of probability.	$P(A) \ge 0$, $P(\Omega) = 1$, and $P\left(\bigcup A_i\right) = \sum P(A_i)$ for pairwise disjoint events.	probability axioms
+uc-pr-complement-union	Give the complement rule and the rule for $P(A \cup B)$.	$P(A^c) = 1 - P(A)$ and $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.	probability axioms
+uc-pr-conditional	Define $P(A \mid B)$ and give the multiplication rule.	$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$ and $P(A \cap B) = P(A \mid B)P(B)$.	probability conditional definitions
+uc-pr-total-prob	State the law of total probability.	For a partition $B_1, \dots, B_k$: $P(A) = \sum_i P(A \mid B_i)P(B_i)$.	probability conditional
+uc-pr-bayes	State Bayes' theorem.	$P(H \mid E) = \frac{P(E \mid H)P(H)}{P(E \mid H)P(H) + P(E \mid H^c)P(H^c)}$. Posterior odds equal prior odds times the likelihood ratio.	probability conditional bayes
+uc-pr-a-given-b	Is $P(A \mid B)$ the same as $P(B \mid A)$?	No. They are linked by Bayes' theorem and differ by the ratio $\frac{P(A)}{P(B)}$. Ignoring the base rate is the usual mistake.	probability conditional bayes common-mistake
+uc-pr-independent	Define independent events, and compare with disjoint events.	$P(A \cap B) = P(A)P(B)$. Disjoint events with positive probability are dependent, because knowing one occurred rules out the other.	probability independence definitions common-mistake
+uc-pr-random-var	Define a random variable, its PMF and its CDF.	A function $X \colon \Omega \to \mathbb{R}$. PMF $p_X(x) = P(X = x)$ and CDF $F_X(x) = P(X \le x)$.	probability random-variables definitions
+uc-pr-expectation	Define $E[X]$ and $E[g(X)]$ for discrete $X$.	$E[X] = \sum_x x\,p_X(x)$ and $E[g(X)] = \sum_x g(x)\,p_X(x)$.	probability random-variables definitions
+uc-pr-variance	Give two formulas for the variance.	$\operatorname{Var}(X) = E[(X - \mu)^2] = E[X^2] - \mu^2$, and $\sigma = \sqrt{\operatorname{Var}(X)}$.	probability random-variables definitions
+uc-pr-linearity	State linearity of expectation and whether it needs independence.	$E[aX + bY] = aE[X] + bE[Y]$ always, with no independence needed.	probability random-variables theorems
+uc-pr-ex2	Is $E[X^2] = (E[X])^2$?	No. $E[X^2] \ge (E[X])^2$, and the gap is the variance.	probability random-variables common-mistake
+uc-pr-density	What is a probability density, and what is $P(X = x)$?	A function $f \ge 0$ with total area 1 and $P(a \le X \le b) = \int_a^b f$. Every single value has probability 0, and $f(x)$ can exceed 1.	probability continuous definitions
+uc-pr-standardize	How do you standardize a normal variable?	$Z = \frac{X - \mu}{\sigma}$ is standard normal, and $P(X \le x) = \Phi\left(\frac{x - \mu}{\sigma}\right)$.	probability continuous normal
+uc-pr-normal-rule	Give the 68-95-99.7 rule and the key $z$ values for 90, 95 and 99%.	Within 1, 2 and 3 standard deviations: 68.3%, 95.4%, 99.7%. Two-sided critical values $z^* = 1.645, 1.960, 2.576$.	probability continuous normal
+uc-pr-exp-memoryless	State the memoryless property of the exponential.	$P(X > s + t \mid X > s) = P(X > t)$, with $P(X > t) = e^{-\lambda t}$.	probability continuous
+uc-pr-covariance	Define covariance and correlation.	$\operatorname{Cov}(X, Y) = E[XY] - E[X]E[Y]$ and $\rho = \frac{\operatorname{Cov}(X, Y)}{\sigma_X\sigma_Y}$, which lies in $[-1, 1]$.	probability joint definitions
+uc-pr-var-sum	Give $\operatorname{Var}(X + Y)$ and the independent case.	$\operatorname{Var}(X) + \operatorname{Var}(Y) + 2\operatorname{Cov}(X, Y)$. For independent variables the variances add, also for a difference. Standard deviations do not add.	probability joint theorems
+uc-pr-uncorrelated	Does zero covariance imply independence?	No. If $X$ is equally likely to be $-1$, 0 or 1, then $Y = X^2$ has covariance 0 with $X$ and is fully dependent on it.	probability joint common-mistake
+uc-pr-sample-mean	Give the mean, variance and standard error of $\bar{X}_n$ for i.i.d. data.	$E[\bar{X}_n] = \mu$, $\operatorname{Var}(\bar{X}_n) = \frac{\sigma^2}{n}$, and the standard error is $\frac{\sigma}{\sqrt{n}}$.	probability lln clt
+uc-pr-markov-chebyshev	State Markov's and Chebyshev's inequalities.	Markov ($X \ge 0$): $P(X \ge a) \le \frac{E[X]}{a}$. Chebyshev: $P(\lvert X - \mu \rvert \ge k\sigma) \le \frac{1}{k^2}$.	probability lln theorems
+uc-pr-lln	State the weak law of large numbers.	For every $\varepsilon > 0$, $P(\lvert \bar{X}_n - \mu \rvert \ge \varepsilon) \to 0$ as $n \to \infty$.	probability lln theorems
+uc-pr-clt	State the central limit theorem.	For i.i.d. data with mean $\mu$ and variance $\sigma^2$, $\frac{\bar{X}_n - \mu}{\sigma/\sqrt{n}}$ is approximately $N(0, 1)$ for large $n$. Only the average becomes normal, not the data.	probability lln clt theorems
+uc-pr-gamblers	After a run of heads, is tails more likely? And what does the law of large numbers say about counts?	No, the next flip is still fair. The average settles, but the gap between the count and its expected value grows like $\sqrt{n}$.	probability lln common-mistake
+uc-pr-binomial-normal	Give the normal approximation to $\text{Bin}(n, p)$.	$N(np, npq)$ with a continuity correction of $\frac{1}{2}$.	probability clt normal
+uc-pr-dist-binomial	Give the mean and variance of Bernoulli($p$) and Binomial($n$, $p$).	Bernoulli: $p$ and $pq$. Binomial: $np$ and $npq$, with $q = 1 - p$.	probability distributions
+uc-pr-dist-geometric	Give the mean and variance of Geometric($p$), and what it counts.	Trials until the first success: mean $\frac{1}{p}$, variance $\frac{q}{p^2}$.	probability distributions
+uc-pr-dist-poisson	Give the mean and variance of Poisson($\lambda$) and where it comes from.	Both equal $\lambda$. It is the limit of $\text{Bin}(n, \frac{\lambda}{n})$ and counts rare events.	probability distributions
+uc-pr-dist-uniform	Give the mean and variance of Uniform($a$, $b$).	Mean $\frac{a + b}{2}$ and variance $\frac{(b - a)^2}{12}$.	probability distributions
+uc-pr-dist-exponential	Give the mean and variance of Exponential($\lambda$).	Mean $\frac{1}{\lambda}$ and variance $\frac{1}{\lambda^2}$. It is the waiting time between Poisson events.	probability distributions
+# Statistics
+uc-st-parameter-statistic	Distinguish a parameter from a statistic.	A parameter describes a population ($\mu$, $\sigma$, $p$). A statistic describes a sample ($\bar{x}$, $s$, $\hat{p}$).	statistics definitions
+uc-st-sample-variance	Write the sample variance and say why it divides by $n - 1$.	$s^2 = \frac{1}{n - 1}\sum (x_i - \bar{x})^2$. The deviations from $\bar{x}$ add to 0, and $\bar{x}$ sits closer to the data than $\mu$ does, so dividing by $n$ would be too small. Then $E[s^2] = \sigma^2$.	statistics descriptive
+uc-st-robust	Which summaries are robust to outliers?	The median (breakdown point $\frac{1}{2}$) and IQR ($\frac{1}{4}$). The mean and standard deviation are not (breakdown point 0).	statistics descriptive
+uc-st-zscore	Define the z-score of a data value.	$z = \frac{x - \bar{x}}{s}$, the number of standard deviations above the mean.	statistics descriptive
+uc-st-random-sampling-assignment	What does random sampling allow, and what does random assignment allow?	Random sampling lets you generalize to the population. Random assignment lets you claim a cause.	statistics study-design
+uc-st-confounder	Define a confounder.	A variable tied to both the group and the outcome, so an observational study cannot separate the treatment from it.	statistics study-design definitions
+uc-st-simpson	What is Simpson's paradox and what is the fix?	A combined rate can reverse the within-group comparison when groups have different mixes. Compare within groups.	statistics study-design common-mistake
+uc-st-se-def	What is a standard error, and how does it differ from a standard deviation?	The standard error is the standard deviation of an estimate over repeated samples, and it shrinks like $\frac{1}{\sqrt{n}}$. A standard deviation describes the spread of individual values.	statistics inference definitions common-mistake
+uc-st-ci-form	Give the general form of a confidence interval.	Estimate $\pm$ critical value $\times$ SE.	statistics confidence-intervals
+uc-st-ci-mean	Give the interval for a mean when $\sigma$ is unknown.	$\bar{x} \pm t^*\frac{s}{\sqrt{n}}$ with $n - 1$ degrees of freedom.	statistics confidence-intervals
+uc-st-ci-proportion	Give the standard error and interval for a proportion.	$\text{SE} = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}$ and the interval is $\hat{p} \pm z^* \cdot \text{SE}$.	statistics confidence-intervals
+uc-st-ci-diff-means	Give the standard error for a difference of two means.	$\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$, with $t^*$ on the Welch degrees of freedom.	statistics confidence-intervals
+uc-st-ci-interpret	How do you interpret a 95% confidence interval?	The 95% describes the method: about 95% of intervals built this way capture the true value. It is not a 95% probability for this one interval, and not a range for individual values.	statistics confidence-intervals common-mistake
+uc-st-ci-sample-size	Give the sample size for margin $E$ for a mean and for a proportion.	$n = \left(\frac{z^*\sigma}{E}\right)^2$ and $n = \left(\frac{z^*}{E}\right)^2 p(1 - p)$, with $p = 0.5$ as the worst case. Halving the margin takes four times the sample.	statistics confidence-intervals
+uc-st-bootstrap	Describe the bootstrap interval.	Resample the data with replacement many times, compute the statistic each time, and take the 2.5th and 97.5th percentiles for a 95% interval.	statistics confidence-intervals
+uc-st-pvalue	Define the p-value.	The probability, assuming $H_0$ is true, of a result at least as extreme as the one observed. Reject when $p \le \alpha$.	statistics hypothesis-testing definitions
+uc-st-pvalue-misread	Is the p-value the probability that $H_0$ is true?	No. It is $P(\text{data this extreme} \mid H_0)$, not $P(H_0 \mid \text{data})$.	statistics hypothesis-testing common-mistake
+uc-st-type-errors	Define type I and type II error and power.	Type I: reject a true $H_0$, probability $\alpha$. Type II: fail to reject a false $H_0$, probability $\beta$. Power is $1 - \beta$.	statistics hypothesis-testing definitions
+uc-st-fail-to-reject	Does "fail to reject $H_0$" mean there is no effect?	No. The test may have low power.	statistics hypothesis-testing common-mistake
+uc-st-t-stat-one-mean	Give the one-mean $t$ statistic and its distribution.	$t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$, $t$ with $n - 1$ degrees of freedom under $H_0$.	statistics hypothesis-testing
+uc-st-z-stat-one-prop	Give the one-proportion $z$ statistic.	$z = \frac{\hat{p} - p_0}{\sqrt{p_0(1 - p_0)/n}}$. It uses $p_0$ in the standard error, unlike the interval.	statistics hypothesis-testing
+uc-st-test-ci-duality	How does a two-sided test relate to a confidence interval?	A two-sided test at level $\alpha$ rejects $\theta_0$ exactly when $\theta_0$ is outside the $(1 - \alpha)$ interval.	statistics hypothesis-testing
+uc-st-multiple-tests	What is the false positive chance among $m$ independent true-null tests, and the fix?	$1 - (1 - \alpha)^m$. Use Bonferroni ($\frac{\alpha}{m}$) or Holm.	statistics hypothesis-testing
+uc-st-correlation	Define the correlation $r$ in terms of sums of squares and geometry.	$r = \frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}}$, the cosine of the angle between the centred data vectors.	statistics regression definitions
+uc-st-regression-line	Give the slope and intercept of the least squares line.	$b = \frac{S_{xy}}{S_{xx}} = r\frac{s_y}{s_x}$ and $a = \bar{y} - b\bar{x}$. The line passes through $(\bar{x}, \bar{y})$.	statistics regression
+uc-st-r2	Give two formulas for $R^2$.	$R^2 = r^2 = 1 - \frac{\text{SSE}}{\text{SST}}$.	statistics regression
+uc-st-slope-se	Give the standard error of the slope and its $t$ statistic.	$\text{SE}(b) = \frac{s_e}{s_x\sqrt{n - 1}}$ and $t = \frac{b}{\text{SE}(b)}$ with $n - 2$ degrees of freedom, where $s_e = \sqrt{\frac{\text{SSE}}{n - 2}}$.	statistics regression
+uc-st-correlation-causation	What can a slope or correlation not tell you?	Neither is a causal effect. A slope is a difference in $y$ per unit difference in $x$ among the individuals studied.	statistics regression common-mistake
+uc-st-regression-to-mean	What is regression to the mean?	In z-scores the line is $\hat{z}_y = r\,z_x$, so an extreme score is followed by a less extreme one. A drop after an extreme score is not a real change.	statistics regression
+
+# Multivariable calculus (light)
+uc-mv-parametric-slope	Give the slope and speed of a parametric curve.	$\frac{dy}{dx} = \frac{y'(t)}{x'(t)}$ when $x'(t) \ne 0$, and speed $\sqrt{x'^2 + y'^2}$. Arc length is $\int_a^b\sqrt{x'^2 + y'^2}\,dt$.	multivariable parametric
+uc-mv-polar	Give the conversions between polar and Cartesian coordinates.	$x = r\cos\theta$, $y = r\sin\theta$, $r = \sqrt{x^2 + y^2}$. Pick $\theta$ in the right quadrant, with `atan2(y, x)`.	multivariable polar
+uc-mv-polar-area	Give the area in polar form.	$A = \frac{1}{2}\int_\alpha^\beta r^2\,d\theta$. Do not forget the $\frac{1}{2}$.	multivariable polar
+uc-mv-partial	Define the partial derivative $f_x$ and the gradient.	$f_x$ is the derivative in $x$ with $y$ held constant. The gradient is $\nabla f = (f_x, f_y)$, a vector in the input plane.	multivariable gradient definitions
+uc-mv-tangent-plane	Write the tangent plane at $(a, b)$.	$z = f(a, b) + f_x(a, b)(x - a) + f_y(a, b)(y - b)$.	multivariable gradient
+uc-mv-directional	Give the directional derivative, the steepest ascent direction and rate.	$D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u}$ for a unit vector $\mathbf{u}$. Steepest ascent is along $\nabla f$ with rate $\lVert \nabla f \rVert$.	multivariable gradient
+uc-mv-gradient-level	How does the gradient relate to level curves?	$\nabla f$ is perpendicular to them, and the slope of a level curve is $-\frac{f_x}{f_y}$.	multivariable gradient
+uc-mv-gradient-descent	Write gradient descent in several variables.	$\mathbf{w} \leftarrow \mathbf{w} - \eta\,\nabla f(\mathbf{w})$. The minus sign moves downhill.	multivariable gradient ml
+uc-mv-clairaut	State Clairaut's theorem.	$f_{xy} = f_{yx}$ when the second partials are continuous.	multivariable gradient theorems
+uc-mv-partials-continuity	Do existing partial derivatives imply continuity?	No. For $\frac{xy}{x^2 + y^2}$ both partials exist at the origin but the limit does not. A two-variable limit must agree along every route.	multivariable gradient common-mistake
+uc-mv-hessian-test	State the second derivative test in two variables.	At a critical point, with $D = f_{xx}f_{yy} - f_{xy}^2$: $D > 0$ and $f_{xx} > 0$ is a minimum, $D > 0$ and $f_{xx} < 0$ a maximum, $D < 0$ a saddle, $D = 0$ no information.	multivariable optimization
+uc-mv-lagrange	State the Lagrange multiplier condition.	At an extremum of $f$ on $g = c$ with $\nabla g \ne \mathbf{0}$: $\nabla f = \lambda\nabla g$ with $g = c$. Then compare the values of $f$ at all candidates.	multivariable optimization
+uc-mv-utility-condition	What condition characterizes utility maximization under a budget?	$\frac{U_x}{p_x} = \frac{U_y}{p_y} = \lambda$ and $p_xx + p_yy = m$. Here $\lambda$ is the marginal utility of income.	multivariable optimization economics
+uc-mv-cobb-douglas-share	How much income does a Cobb-Douglas consumer with $U = x^ay^{1 - a}$ spend on $x$?	The share $a$: $p_xx = am$.	multivariable optimization economics
+uc-mv-fubini	State Fubini's theorem for a rectangle.	$\int_a^b\int_c^d f\,dy\,dx = \int_c^d\int_a^b f\,dx\,dy$ for continuous $f$.	multivariable double-integrals theorems
+uc-mv-double-regions	Distinguish type I and type II regions.	Type I: $a \le x \le b$, $g_1(x) \le y \le g_2(x)$, inner integral in $dy$. Type II: $c \le y \le d$, $h_1(y) \le x \le h_2(y)$, inner in $dx$.	multivariable double-integrals
+uc-mv-polar-integral	Write a double integral in polar coordinates.	$\iint f\,dA = \iint f(r\cos\theta, r\sin\theta)\,r\,dr\,d\theta$. Forgetting the factor $r$ is the usual mistake.	multivariable double-integrals polar common-mistake
+uc-mv-jacobian	State the change of variables for a double integral.	$dA = \lvert \det J \rvert\,du\,dv$. For polar coordinates $\det J = r$.	multivariable double-integrals
+uc-mv-gaussian	What is $\int_{-\infty}^\infty e^{-x^2}\,dx$ and how is it found?	$\sqrt{\pi}$. Square it, switch to polar coordinates and get $\int_0^{2\pi}\int_0^\infty e^{-r^2}r\,dr\,d\theta = \pi$.	multivariable double-integrals
+
+# Differential equations (light)
+uc-de-growth	Solve $y' = ky$ and give the doubling time and half-life.	$y = y_0e^{kt}$. Doubling time $\frac{\ln 2}{k}$ if $k > 0$, half-life $\frac{\ln 2}{\lvert k \rvert}$ if $k < 0$.	differential-equations first-order
+uc-de-cooling	Solve $y' = -k(y - c)$.	$y = c + (y_0 - c)e^{-kt}$, approaching $c$ exponentially.	differential-equations first-order
+uc-de-separable	How do you solve a separable equation $y' = g(t)h(y)$?	$\int\frac{dy}{h(y)} = \int g\,dt + C$. Keep the equilibria where $h(y) = 0$, since dividing loses them.	differential-equations first-order
+uc-de-linear-first	Solve $y' + p(t)y = q(t)$.	Multiply by the integrating factor $\mu = e^{\int p\,dt}$, giving $(\mu y)' = \mu q$.	differential-equations first-order
+uc-de-logistic	Give the logistic equation and its solution.	$P' = rP\left(1 - \frac{P}{K}\right)$ and $P = \frac{K}{1 + Ae^{-rt}}$ with $A = \frac{K - P_0}{P_0}$.	differential-equations first-order
+uc-de-equilibrium	Define an equilibrium of $y' = f(y)$ and its stability test.	A constant solution where $f = 0$. It is stable if $f' < 0$ there and unstable if $f' > 0$.	differential-equations first-order definitions
+uc-de-existence	State the existence and uniqueness theorem.	If $f$ and $\frac{\partial f}{\partial y}$ are continuous near $(t_0, y_0)$, the initial value problem has exactly one solution nearby.	differential-equations first-order theorems
+uc-de-euler	Write Euler's method and its error order.	$y_{n+1} = y_n + h\,f(t_n, y_n)$, with error proportional to $h$. On $y' = -\lambda y$ it needs $h < \frac{2}{\lambda}$.	differential-equations numerical
+uc-de-char-eq	What is the characteristic equation of $y'' + by' + cy = 0$?	$r^2 + br + c = 0$, from trying $y = e^{rt}$.	differential-equations second-order
+uc-de-roots-cases	Give the general solution for distinct real, repeated and complex roots.	Distinct: $C_1e^{r_1t} + C_2e^{r_2t}$. Repeated: $(C_1 + C_2t)e^{rt}$. Complex $\alpha \pm i\beta$: $e^{\alpha t}(C_1\cos\beta t + C_2\sin\beta t)$.	differential-equations second-order
+uc-de-damping	Classify the damping of $mx'' + \gamma x' + kx = 0$.	Underdamped if $\gamma^2 < 4mk$ (oscillates), critically damped if $\gamma^2 = 4mk$, overdamped if $\gamma^2 > 4mk$.	differential-equations second-order
+uc-de-forced	How do you solve a forced equation $y'' + by' + cy = g(t)$?	Find a particular solution and add the homogeneous solution, then fit the initial conditions. Forcing at the natural frequency of an undamped system gives resonance.	differential-equations second-order
+uc-de-system-stability	Classify the behaviour of $\mathbf{x}' = A\mathbf{x}$ by eigenvalues.	Both real negative: decay. Both real positive: growth. Opposite signs: saddle. Complex with real part $< 0$: spiral in; $> 0$: spiral out; $= 0$: closed loops.	differential-equations systems eigen
