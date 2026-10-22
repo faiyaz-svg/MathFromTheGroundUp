@@ -354,6 +354,13 @@ nav:
           - "The binomial theorem and combinatorial proofs": 06-cs-math/03-counting-and-discrete-probability/03-binomial-theorem-and-combinatorial-proofs.md
           - "Inclusion-exclusion and the pigeonhole principle": 06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md
           - "Discrete probability": 06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md
+      - "Sums, recurrences and algorithms":
+          - 06-cs-math/04-sums-recurrences-and-algorithms/index.md
+          - "Sums and closed forms": 06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md
+          - "Recurrences": 06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md
+          - "Invariants and algorithm correctness": 06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md
+          - "Asymptotic notation": 06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md
+          - "Divide and conquer and the master theorem": 06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md
       - "Graphs":
           - 06-cs-math/05-graphs/index.md
           - "Graph basics": 06-cs-math/05-graphs/01-graph-basics.md

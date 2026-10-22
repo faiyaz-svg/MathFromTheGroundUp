@@ -35,13 +35,13 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. [Inclusion-exclusion and the pigeonhole principle](03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md)
 5. [Discrete probability](03-counting-and-discrete-probability/05-discrete-probability.md)
 
-### 4. Sums, recurrences and algorithms
+### 4. [Sums, recurrences and algorithms](04-sums-recurrences-and-algorithms/index.md)
 
-1. Sums and closed forms (not written yet)
-2. Recurrences (not written yet)
-3. Invariants and algorithm correctness (not written yet)
-4. Asymptotic notation (not written yet)
-5. Divide and conquer and the master theorem (not written yet)
+1. [Sums and closed forms](04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md)
+2. [Recurrences](04-sums-recurrences-and-algorithms/02-recurrences.md)
+3. [Invariants and algorithm correctness](04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md)
+4. [Asymptotic notation](04-sums-recurrences-and-algorithms/04-asymptotic-notation.md)
+5. [Divide and conquer and the master theorem](04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md)
 
 ### 5. [Graphs](05-graphs/index.md)
 

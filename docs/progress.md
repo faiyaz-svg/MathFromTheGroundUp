@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 175 of 247. New lessons appear here as they are added.
+Lessons written so far: 180 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -299,6 +299,14 @@ Lessons written so far: 175 of 247. New lessons appear here as they are added.
 - [ ] [The binomial theorem and combinatorial proofs](06-cs-math/03-counting-and-discrete-probability/03-binomial-theorem-and-combinatorial-proofs.md)
 - [ ] [Inclusion-exclusion and the pigeonhole principle](06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md)
 - [ ] [Discrete probability](06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md)
+
+### Sums, recurrences and algorithms
+
+- [ ] [Sums and closed forms](06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md)
+- [ ] [Recurrences](06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md)
+- [ ] [Invariants and algorithm correctness](06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md)
+- [ ] [Asymptotic notation](06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md)
+- [ ] [Divide and conquer and the master theorem](06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md)
 
 ### Graphs
 
