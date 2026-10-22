@@ -133,7 +133,7 @@ Step 1 and 2: the claim says "some box has at least 12". Its negation is "every 
 
 *Proof.* Suppose, for contradiction, that every box contains at most 11 balls. Then the total number of balls is at most $9 \times 11 = 99$. But there are 100 balls. This is a contradiction, so some box contains at least 12 balls. $\blacksquare$
 
-Look back: the proof finds no box. It shows that one exists, which is all the claim asks. The same argument shows that $n$ items in $k$ boxes force a box with at least $\lceil \frac{n}{k} \rceil$ items, the pigeonhole principle, taught in inclusion-exclusion and the pigeonhole principle<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md -->. Check: $9 \times 11 = 99 < 100$, and with 99 balls the claim would fail (11 in each box).
+Look back: the proof finds no box. It shows that one exists, which is all the claim asks. The same argument shows that $n$ items in $k$ boxes force a box with at least $\lceil \frac{n}{k} \rceil$ items, the pigeonhole principle, taught in [inclusion-exclusion and the pigeonhole principle](../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md). Check: $9 \times 11 = 99 < 100$, and with 99 balls the claim would fail (11 in each box).
 
 </div>
 

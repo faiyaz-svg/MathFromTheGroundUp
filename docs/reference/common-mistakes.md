@@ -2058,7 +2058,7 @@ Right: there are $10 - 3 + 1 = 8$
 
 Subtracting counts the gaps between the numbers, and there is one more number than there are gaps, just as a fence with 7 gaps needs 8 posts. In general there are $b - a + 1$ integers from $a$ to $b$, inclusive. Python's `range(3, 11)` has 8 elements because it leaves out its upper end.
 
-Taught in counting rules<!-- link: ../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md -->.
+Taught in [counting rules](../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md).
 
 ### Counting a case twice in an "at least one" count
 

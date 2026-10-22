@@ -37,7 +37,7 @@ $$
 \lvert A_1 \cup A_2 \cup \cdots \cup A_m \rvert = \lvert A_1 \rvert + \lvert A_2 \rvert + \cdots + \lvert A_m \rvert.
 $$
 
-In plain words, if a task can be done in one of several ways, and no outcome comes from two of the ways, add the counts. A student who picks one elective from 6 CS courses or from 4 economics courses has $6 + 4 = 10$ choices, as long as no course is on both lists. If the lists overlap, the overlap is counted twice and has to be subtracted, which is the subject of inclusion-exclusion and the pigeonhole principle<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md -->.
+In plain words, if a task can be done in one of several ways, and no outcome comes from two of the ways, add the counts. A student who picks one elective from 6 CS courses or from 4 economics courses has $6 + 4 = 10$ choices, as long as no course is on both lists. If the lists overlap, the overlap is counted twice and has to be subtracted, which is the subject of [inclusion-exclusion and the pigeonhole principle](../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md).
 
 **The product rule.** Suppose a procedure has $k$ stages, and stage $i$ can be done in $n_i$ ways, whatever happened at the earlier stages. Then the whole procedure can be done in
 
@@ -79,7 +79,7 @@ A **combination** of $k$ items chosen from $n$ different items is a subset with 
 | no | no | $\binom{n}{k} = \frac{n!}{k!\,(n-k)!}$ | committees, lottery tickets |
 | no | yes | $\binom{n+k-1}{k}$ | scoops of ice cream |
 
-The fourth row is stated without proof here; it is the "stars and bars" count of counting rules<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md -->. For example, 3 scoops chosen from 5 flavours, repeats allowed and order ignored, can be done in $\binom{7}{3} = 35$ ways.
+The fourth row is stated without proof here; it is the "stars and bars" count of [counting rules](../../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md). For example, 3 scoops chosen from 5 flavours, repeats allowed and order ignored, can be done in $\binom{7}{3} = 35$ ways.
 
 ### Permutations
 
@@ -451,6 +451,6 @@ Check with $n = 7$ and $k = 3$: $3\binom{7}{3} = 3 \cdot 35 = 105$ and $7\binom{
 
 ## Where this shows up
 
-- The next lesson, the [binomial theorem](04-binomial-theorem.md), shows that $\binom{n}{k}$ is also the coefficient of $a^{n-k}b^k$ in $(a+b)^n$. Counting and discrete probability in the CS math folder (counting rules<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md -->, inclusion-exclusion and the pigeonhole principle<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md -->) extends these rules, and discrete probability<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md --> uses them to find probabilities.
+- The next lesson, the [binomial theorem](04-binomial-theorem.md), shows that $\binom{n}{k}$ is also the coefficient of $a^{n-k}b^k$ in $(a+b)^n$. Counting and discrete probability in the CS math folder ([counting rules](../../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md), [inclusion-exclusion and the pigeonhole principle](../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md)) extends these rules, and [discrete probability](../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md) uses them to find probabilities.
 - In computing, $2^n$ counts bit strings and subsets, $n!$ counts the orderings a brute-force search must try (the number of possible tours in the travelling-salesman problem on $n$ cities grows like $n!$), and $\binom{n}{k}$ counts the ways to pick $k$ items, which is why the cost of checking all subsets of a given size grows so fast.
 - In probability courses, the binomial distribution (met in [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md)) counts the ways to get $k$ successes in $n$ trials. In finance, the number of paths that lead to each node of a binomial price tree is a binomial coefficient.

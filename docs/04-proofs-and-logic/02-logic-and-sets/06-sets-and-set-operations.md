@@ -80,7 +80,7 @@ $$
 \lvert A \cup B \cup C \rvert = \lvert A \rvert + \lvert B \rvert + \lvert C \rvert - \lvert A \cap B \rvert - \lvert A \cap C \rvert - \lvert B \cap C \rvert + \lvert A \cap B \cap C \rvert.
 $$
 
-In the figure, $\lvert A \rvert = 6$, $\lvert B \rvert = 4$, $\lvert C \rvert = 6$, the pairwise intersections have $2$, $3$ and $2$ elements, and $\lvert A \cap B \cap C \rvert = 1$, so the union has $6 + 4 + 6 - 2 - 3 - 2 + 1 = 10$ elements, which is all of $U$ except 7 and 11. The general rule is inclusion-exclusion and the pigeonhole principle<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md -->.
+In the figure, $\lvert A \rvert = 6$, $\lvert B \rvert = 4$, $\lvert C \rvert = 6$, the pairwise intersections have $2$, $3$ and $2$ elements, and $\lvert A \cap B \cap C \rvert = 1$, so the union has $6 + 4 + 6 - 2 - 3 - 2 + 1 = 10$ elements, which is all of $U$ except 7 and 11. The general rule is [inclusion-exclusion and the pigeonhole principle](../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md).
 
 ### Power sets
 

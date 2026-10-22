@@ -88,7 +88,7 @@ Paste your whole working, so the mistake can be found at the line where it happe
 1. Read [how to read math](how-to-read-math.md) and the [problem-solving playbook](problem-solving-playbook.md). Skim [how to study](how-to-study.md) and set up Anki.
 2. Take the diagnostics for [01-elementary](../01-elementary/diagnostic.md), [02-middle-school](../02-middle-school/diagnostic.md) and [03-high-school](../03-high-school/diagnostic.md). Do only the lessons you miss, and use each lesson's quick check to skip what you know.
 3. Do [04-proofs-and-logic](../04-proofs-and-logic/index.md) in full, in order. Discrete math, algorithms, theory of computation and linear algebra all ask you to read and write proofs, and this is the folder that teaches it. Its [diagnostic](../04-proofs-and-logic/diagnostic.md) shows which lessons you can skim.
-4. Take the diagnostics for 05-university-core<!-- link: ../05-university-core/diagnostic.md --> and 06-cs-math<!-- link: ../06-cs-math/diagnostic.md -->, and do the lessons you miss, starting with the chapters your current courses use.
+4. Take the diagnostics for [05-university-core](../05-university-core/diagnostic.md) and 06-cs-math<!-- link: ../06-cs-math/diagnostic.md -->, and do the lessons you miss, starting with the chapters your current courses use.
 5. Use 07-economics-math and 08-financial-math when an economics course or a money decision (a car loan, a mortgage, a TFSA) needs them.
 
 When a course needs a topic you haven't reached, go straight to that lesson. Its quick check and prerequisite links show which earlier gaps to fill first.

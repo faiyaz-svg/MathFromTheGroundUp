@@ -317,5 +317,5 @@ Check by adding back: $53 + 187 = 240$. The answer is also close to the estimate
 ## Where this shows up
 
 - [Multi-digit multiplication](05-multi-digit-multiplication.md) breaks every product into table facts and multiplications by 10, and [division facts and remainders](06-division-facts-and-remainders.md) reads the table backwards. Simplifying $\frac{42}{56}$ to $\frac{3}{4}$ in [fractions and equivalent fractions](09-fractions-and-equivalent-fractions.md) means seeing $42 = 6 \times 7$ and $56 = 8 \times 7$.
-- The array picture is the product rule for counting: 4 shirts and 6 pairs of pants make $4 \times 6 = 24$ outfits (counting rules<!-- link: ../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md -->). In code, a grid with 12 rows and 9 columns has 108 cells, and a loop over it runs $12 \times 9$ times.
+- The array picture is the product rule for counting: 4 shirts and 6 pairs of pants make $4 \times 6 = 24$ outfits ([counting rules](../06-cs-math/03-counting-and-discrete-probability/01-counting-rules.md)). In code, a grid with 12 rows and 9 columns has 108 cells, and a loop over it runs $12 \times 9$ times.
 - The area model comes back in [geometry basics: area, perimeter and volume](16-geometry-basics-area-perimeter-volume.md), where a rectangle's area is its length times its width.

@@ -65,7 +65,7 @@ Three arguments give existence with no explicit witness. Each is short, and each
 
 Contradiction. Suppose no such object exists, and derive something false. This is the form of the proof in Example 2.
 
-Counting, or the pigeonhole principle. If more than $k$ objects are placed into $k$ boxes, then some box holds at least two of them. The proof is the contrapositive: if every box held at most one object, there would be at most $k$ objects. The principle says that some box is crowded but not which one. The lesson on inclusion-exclusion and the pigeonhole principle<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md --> develops it. Here is a first use.
+Counting, or the pigeonhole principle. If more than $k$ objects are placed into $k$ boxes, then some box holds at least two of them. The proof is the contrapositive: if every box held at most one object, there would be at most $k$ objects. The principle says that some box is crowded but not which one. The lesson on [inclusion-exclusion and the pigeonhole principle](../../06-cs-math/03-counting-and-discrete-probability/04-inclusion-exclusion-and-pigeonhole.md) develops it. Here is a first use.
 
 *Proposition 1.* Among any five integers, there are two whose difference is divisible by 4.
 

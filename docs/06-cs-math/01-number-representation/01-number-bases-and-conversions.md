@@ -193,7 +193,7 @@ The picture fails at the left end: an odometer has a fixed number of wheels and 
 
 We know each position holds 0 or 1, and we want the number of strings and their values. The plan: count the strings, find the largest value, then match strings to numbers.
 
-*Proof.* Each of the $n$ positions has 2 choices, whatever the others hold, so there are $2 \cdot 2 \cdots 2 = 2^n$ strings (the product rule from counting rules<!-- link: ../03-counting-and-discrete-probability/01-counting-rules.md -->). The all-zeros string is 0. The all-ones string plus 1 is a 1 followed by $n$ zeros, which is $2^n$, so the largest value is $2^n - 1$. Different strings give different numbers, since representations are unique once leading zeros are dropped. So $2^n$ strings give $2^n$ different values in a range of exactly $2^n$ integers, and each integer is used once.
+*Proof.* Each of the $n$ positions has 2 choices, whatever the others hold, so there are $2 \cdot 2 \cdots 2 = 2^n$ strings (the product rule from [counting rules](../03-counting-and-discrete-probability/01-counting-rules.md)). The all-zeros string is 0. The all-ones string plus 1 is a 1 followed by $n$ zeros, which is $2^n$, so the largest value is $2^n - 1$. Different strings give different numbers, since representations are unique once leading zeros are dropped. So $2^n$ strings give $2^n$ different values in a range of exactly $2^n$ integers, and each integer is used once.
 
 Look back: three decimal digits hold $10^3$ values, 000 to 999, and in general $n$ digits in base $b$ hold $b^n$ values, from 0 to $b^n - 1$. A byte (8 bits) holds 256 values, from 0 to $255 = \mathrm{FF}_{16}$.
 
