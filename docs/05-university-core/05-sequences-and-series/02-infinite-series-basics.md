@@ -208,7 +208,7 @@ $$
 \sum_{k=0}^{\infty} 1000\,(0.9)^k = \frac{1000}{1 - 0.9} = \$10{,}000.
 $$
 
-The multiplier is $\frac{1}{\rho} = 10$. This is a simplified textbook model with hypothetical numbers, and multipliers and the AD-AS model<!-- link: ../../07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md --> discusses what it leaves out. Time-value formulas for loans and savings use finite versions of the same series (annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->, present value, NPV and bond prices<!-- link: ../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md -->).
+The multiplier is $\frac{1}{\rho} = 10$. This is a simplified textbook model with hypothetical numbers, and [multipliers and the AD-AS model](../../07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md) discusses what it leaves out. Time-value formulas for loans and savings use finite versions of the same series (annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->, [present value, NPV and bond prices](../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md)).
 
 Check: the first 3,000 terms of the perpetuity sum to \$2,000.00, and the first 500 terms of the multiplier sum to \$10,000.00.
 
@@ -443,4 +443,4 @@ Check: $S_1 = 1$, $S_2 = 1 - 1 = 0$, $S_3 = 1$, matching $\frac{1 - (-1)^n}{2}$.
 
 - The next lesson gives tests for deciding convergence without a formula for the partial sums ([convergence tests](03-convergence-tests.md)), and the lesson after it turns series into functions ([power series and Taylor series](04-power-series-and-taylor-series.md)).
 - In CS, closed forms for sums are the working tool of algorithm analysis ([sums and closed forms](../../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md)), and the geometric series $\sum (1 - p)^k = \frac{1}{p}$ is the expected cost of every "retry until success" loop ([discrete random variables](../07-probability/03-discrete-random-variables.md)).
-- In economics and finance, perpetuities, bond prices and the multiplier are geometric series (present value, NPV and bond prices<!-- link: ../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md -->, annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->).
+- In economics and finance, perpetuities, bond prices and the multiplier are geometric series ([present value, NPV and bond prices](../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md), annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->).
