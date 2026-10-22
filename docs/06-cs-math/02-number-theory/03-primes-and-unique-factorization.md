@@ -156,7 +156,7 @@ in the sense that the ratio of the two sides gets closer to 1. It was proved ind
 | $10^6$ | 78,498 | 72,382 | 1.08 |
 | $10^7$ | 664,579 | 620,421 | 1.07 |
 
-In plain words, a random number near $x$ is prime with probability about $\frac{1}{\ln x}$. For a 1024-bit number that is about $\frac{1}{710}$, or about $\frac{1}{355}$ if you only try odd numbers. That is why RSA<!-- link: 06-rsa-cryptography.md --> can find a large prime by picking random odd numbers and testing each one: it expects to try a few hundred.
+In plain words, a random number near $x$ is prime with probability about $\frac{1}{\ln x}$. For a 1024-bit number that is about $\frac{1}{710}$, or about $\frac{1}{355}$ if you only try odd numbers. That is why [RSA](06-rsa-cryptography.md) can find a large prime by picking random odd numbers and testing each one: it expects to try a few hundred.
 
 ## Worked examples
 
@@ -300,7 +300,7 @@ It is a different property. The definition says a prime has no divisors but 1 an
 
 ### If factoring is so hard, why is testing for primality easy?
 
-Because primality can be certified without finding a factor, using facts like Fermat's little theorem<!-- link: 05-fermat-euler-and-fast-exponentiation.md -->. There are fast randomized primality tests, and in 2002 Agrawal, Kayal and Saxena gave a deterministic polynomial-time test. For factoring, no polynomial-time algorithm is known for an ordinary computer.
+Because primality can be certified without finding a factor, using facts like [Fermat's little theorem](05-fermat-euler-and-fast-exponentiation.md). There are fast randomized primality tests, and in 2002 Agrawal, Kayal and Saxena gave a deterministic polynomial-time test. For factoring, no polynomial-time algorithm is known for an ordinary computer.
 
 ### Do the primes follow any pattern?
 
@@ -422,4 +422,4 @@ Check: $6 \cdot 10 = 60$ and $2 \cdot 30 = 60$.
 
 - The next lesson, [modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md), uses coprimality and the prime factorization of the modulus, and Euler's phi function in [Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md) is computed from the factorization.
 - [RSA cryptography](06-rsa-cryptography.md) rests on the gap between the two halves of this lesson: finding large primes is easy (the density from the prime number theorem and fast primality tests), while recovering the two primes from their product is not known to be.
-- Hash table sizes are often chosen prime so that `key % size` spreads keys evenly, and prime factorization shows up in counting divisors and in the counting lessons<!-- link: ../03-counting-and-discrete-probability/01-counting-rules.md -->.
+- Hash table sizes are often chosen prime so that `key % size` spreads keys evenly, and prime factorization shows up in counting divisors and in the [counting lessons](../03-counting-and-discrete-probability/01-counting-rules.md).
