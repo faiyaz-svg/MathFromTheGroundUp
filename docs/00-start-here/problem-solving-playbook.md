@@ -204,7 +204,7 @@ Check on a smaller board: with $1$, $2$ and $3$ the total is $6$, which is even,
 
 </div>
 
-Algorithms courses use the same idea to prove that a loop is correct: a loop invariant<!-- link: ../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md --> is a statement that is true before the loop starts and stays true after every pass.
+Algorithms courses use the same idea to prove that a loop is correct: a [loop invariant](../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md) is a statement that is true before the loop starts and stays true after every pass.
 
 ### Check units and size
 
