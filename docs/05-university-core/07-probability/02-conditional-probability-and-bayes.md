@@ -170,6 +170,10 @@ Step 5: take 10,000 people. About 100 have the condition, and 90 of them test po
 
 The picture shows why. The false positives come from the huge healthy group, and a 5% error rate on 9,900 people produces more positives than a 90% hit rate on 100 people. A negative result is much more informative: $P(H \mid E^c) = \frac{0.001}{0.9405 + 0.001} \approx 0.0011$, about 0.1%.
 
+The answer moves a lot with the prevalence and with the false positive rate. The next figure plots $P(H \mid E)$ against the prevalence for three tests that all have sensitivity 90%. At 1% prevalence, raising the specificity from 95% to 99% lifts the answer from 0.154 to about 0.476, and 99.9% lifts it to about 0.901.
+
+![P of sick given a positive test against prevalence on a logarithmic axis from 0.1 percent to 50 percent, for three tests with sensitivity 90 percent and specificity 95, 99 and 99.9 percent. All three curves rise from low values toward 1. A dashed line at 1 percent prevalence marks the point 0.154 on the 95 percent curve.](../../assets/figures/05-university-core/conditional-probability-and-bayes-prevalence.svg)
+
 </div>
 
 <div class="example" markdown>
