@@ -508,11 +508,13 @@ Check: $y'$ changes from positive to negative at $x = 0$ (a peak) and from negat
 <summary>Solution</summary>
 
 (a) The quotient rule gives
+
 $$
 f'(x) = \frac{\cos x(1 + \cos x) - \sin x(-\sin x)}{(1 + \cos x)^2} = \frac{\cos x + \cos^2 x + \sin^2 x}{(1 + \cos x)^2} = \frac{\cos x + 1}{(1 + \cos x)^2} = \frac{1}{1 + \cos x}.
 $$
 
 (b) Write $\cot x = \frac{\cos x}{\sin x}$. Then
+
 $$
 \frac{d}{dx}\cot x = \frac{-\sin x \cdot \sin x - \cos x \cdot \cos x}{\sin^2 x} = \frac{-(\sin^2 x + \cos^2 x)}{\sin^2 x} = -\frac{1}{\sin^2 x} = -\csc^2 x.
 $$
