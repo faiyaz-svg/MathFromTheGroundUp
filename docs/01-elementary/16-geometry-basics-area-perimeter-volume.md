@@ -331,4 +331,4 @@ Check: the empty 5 cm at the top is $60 \times 30 \times 5 = 9{,}000\ \text{cm}^
 
 - Middle school geometry continues with [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md), [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md) and [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md).
 - In calculus, the area under a curve is found by adding up the areas of thin rectangles, each one base times height: [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md).
-- On a supply and demand graph, a firm's revenue (price times quantity) is the area of a rectangle, and consumer surplus is the area of a triangle: surplus and market interventions<!-- link: ../07-economics-math/02-markets/04-surplus-and-market-interventions.md -->.
+- On a supply and demand graph, a firm's revenue (price times quantity) is the area of a rectangle, and consumer surplus is the area of a triangle: [surplus and market interventions](../07-economics-math/02-markets/04-surplus-and-market-interventions.md).

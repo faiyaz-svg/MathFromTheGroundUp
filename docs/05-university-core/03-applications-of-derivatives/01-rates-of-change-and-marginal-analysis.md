@@ -53,7 +53,7 @@ $$
 E = \frac{dq}{dp} \cdot \frac{p}{q}.
 $$
 
-In plain words, it is approximately the percent change in quantity for a 1% rise in price. It is a preview here, and the full treatment is in elasticity<!-- link: ../../07-economics-math/02-markets/05-elasticity.md -->.
+In plain words, it is approximately the percent change in quantity for a 1% rise in price. It is a preview here, and the full treatment is in [elasticity](../../07-economics-math/02-markets/05-elasticity.md).
 
 ## How to do it
 
@@ -455,5 +455,5 @@ Check: $R = pq = 200p - 4p^2$ has $R'(p) = 200 - 8p = 40$ at $p = 20$. Directly,
 ## Where this shows up
 
 - The next lesson, [linear approximation and L'Hopital's rule](02-linear-approximation-and-lhopitals-rule.md), turns "the next unit costs about $C'(q)$" into the approximation $\Delta y \approx f'(x)\,\Delta x$, with an error estimate. [Optimization](05-optimization.md) uses marginal revenue equals marginal cost to find the best output, and [the mean value theorem and extrema](03-mean-value-theorem-and-extrema.md) says why the critical points found there are the right places to look.
-- In economics, marginal cost, marginal revenue, average cost and elasticity are the first tools of a microeconomics course (marginal analysis with derivatives<!-- link: ../../07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md -->, production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->, elasticity<!-- link: ../../07-economics-math/02-markets/05-elasticity.md -->).
+- In economics, marginal cost, marginal revenue, average cost and elasticity are the first tools of a microeconomics course (marginal analysis with derivatives<!-- link: ../../07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md -->, production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->, [elasticity](../../07-economics-math/02-markets/05-elasticity.md)).
 - In CS, a derivative is a sensitivity: how fast a model's loss changes when one parameter changes, or how fast the running time of a program changes as the input grows. Related rates reappear in simulations, where several quantities are updated together at each time step.

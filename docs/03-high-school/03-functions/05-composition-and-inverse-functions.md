@@ -273,7 +273,7 @@ print(all(decode(encode(w)) == w for w in ["ABC", "XYZ", "ZEBRA"]))   # True
 print(len("cat") == len("dog"))                         # True
 ```
 
-The first lines match the receipt arithmetic. The `sqrt` line shows that the square root returns 3 for both $-3$ and $3$ squared, so it recovers $3$ and not $-3$: it undoes squaring only on non-negative inputs. The Caesar shift moves each letter 3 places forward, wrapping around after Z with the remainder operator `%`. Decoding is the shift by $-3$, so `decode` is the inverse of `encode` on strings of capital letters, and the test is evidence for this. The last line is a function that has no inverse: `len` sends "cat" and "dog" to the same number, so the word can't be recovered from the length. Divisibility and modular arithmetic<!-- link: ../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md --> explains why the wrap-around works.
+The first lines match the receipt arithmetic. The `sqrt` line shows that the square root returns 3 for both $-3$ and $3$ squared, so it recovers $3$ and not $-3$: it undoes squaring only on non-negative inputs. The Caesar shift moves each letter 3 places forward, wrapping around after Z with the remainder operator `%`. Decoding is the shift by $-3$, so `decode` is the inverse of `encode` on strings of capital letters, and the test is evidence for this. The last line is a function that has no inverse: `len` sends "cat" and "dog" to the same number, so the word can't be recovered from the length. [Divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md) explains why the wrap-around works.
 
 </details>
 

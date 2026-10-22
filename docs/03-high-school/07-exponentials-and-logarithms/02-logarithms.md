@@ -329,7 +329,7 @@ By the change of base formula, $\log_2 n = \frac{\ln n}{\ln 2}$, which is the na
 
 ### Why is base 2 so common in computer science?
 
-Computers store bits, which have two values, and many algorithms (binary search, merge sort, balanced trees) split a problem in half at each step. Halving $n$ down to 1 takes $\log_2 n$ steps, and writing $n$ in binary takes about $\log_2 n$ bits. Both are the question "$2$ to what power gives $n$?" (bits and information<!-- link: ../../06-cs-math/01-number-representation/02-bits-and-information.md -->).
+Computers store bits, which have two values, and many algorithms (binary search, merge sort, balanced trees) split a problem in half at each step. Halving $n$ down to 1 takes $\log_2 n$ steps, and writing $n$ in binary takes about $\log_2 n$ bits. Both are the question "$2$ to what power gives $n$?" ([bits and information](../../06-cs-math/01-number-representation/02-bits-and-information.md)).
 
 ## Practice
 

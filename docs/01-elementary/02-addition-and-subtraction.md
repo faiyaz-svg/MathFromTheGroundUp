@@ -339,5 +339,5 @@ Check: $1{,}902 + 2{,}549 = 4{,}451$.
 ## Where this shows up
 
 - [Multiplication and times tables](03-multiplication-and-times-tables.md) starts from repeated addition, and carrying comes back in [multi-digit multiplication](05-multi-digit-multiplication.md). The subtract step of [long division](07-long-division.md) is the column subtraction from this lesson.
-- Binary addition carries when a column reaches 2 instead of 10, and computers subtract by adding (binary arithmetic and two's complement<!-- link: ../06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md -->).
+- Binary addition carries when a column reaches 2 instead of 10, and computers subtract by adding ([binary arithmetic and two's complement](../06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md)).
 - A bank balance is a running sum of deposits minus withdrawals, and checking a statement against your own records is the add-back check on a larger scale.

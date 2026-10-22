@@ -106,7 +106,7 @@ Step 5. Consider $k + 1$. If $k + 1$ is prime, it is a product of one prime. Oth
 
 Step 6. By strong induction, every integer $n \ge 2$ is a product of primes. $\blacksquare$
 
-Look back: the proof says that factorizations exist, and nothing about their uniqueness. Uniqueness is a separate theorem, proved in primes and unique factorization<!-- link: ../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->. Check: $60 = 6 \cdot 10$, then $6 = 2 \cdot 3$ and $10 = 2 \cdot 5$, so $60 = 2 \cdot 3 \cdot 2 \cdot 5$. The proof's recursion on the factors is exactly how a factoring program works.
+Look back: the proof says that factorizations exist, and nothing about their uniqueness. Uniqueness is a separate theorem, proved in [primes and unique factorization](../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md). Check: $60 = 6 \cdot 10$, then $6 = 2 \cdot 3$ and $10 = 2 \cdot 5$, so $60 = 2 \cdot 3 \cdot 2 \cdot 5$. The proof's recursion on the factors is exactly how a factoring program works.
 
 </div>
 
@@ -455,5 +455,5 @@ Check: $45 = 32 + 13 = 32 + 8 + 5 = 32 + 8 + 4 + 1$, the binary number $101101$.
 ## Where this shows up
 
 - The next lesson, [recursive definitions and structural induction](03-recursive-definitions-and-structural-induction.md), proves facts about trees and strings by an induction built from their definitions. After the induction chapter, [relations and their properties](../06-relations-and-functions/01-relations-and-their-properties.md) starts the next topic.
-- Recursive algorithms, from `fast_pow` to merge sort and Euclid's algorithm (GCD and Euclid's algorithm<!-- link: ../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md -->), are proved correct by strong induction on the size of the input, as in [invariants and algorithm correctness](../../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).
-- The well-ordering principle is behind the division algorithm of Practice problem 4, which underlies divisibility and modular arithmetic<!-- link: ../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+- Recursive algorithms, from `fast_pow` to merge sort and Euclid's algorithm ([GCD and Euclid's algorithm](../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md)), are proved correct by strong induction on the size of the input, as in [invariants and algorithm correctness](../../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).
+- The well-ordering principle is behind the division algorithm of Practice problem 4, which underlies [divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md).

@@ -266,7 +266,7 @@ Conclusion: at the end $b = 0$, and the invariant says $\gcd(a, 0) = \gcd(a_0, b
 
 Check: for $(252, 105)$ the pairs are $(252, 105) \to (105, 42) \to (42, 21) \to (21, 0)$, and the answer is 21. The gcd is 21 at every stage: $\gcd(105, 42) = 21$ and $\gcd(42, 21) = 21$.
 
-How many passes? If $a \ge b > 0$, then $a \bmod b < \frac{a}{2}$: either $b \le \frac{a}{2}$, and then the remainder is below $b$, or $b > \frac{a}{2}$, and then the remainder is $a - b < \frac{a}{2}$. After two passes the larger number has fallen below half of what it was, so the loop runs at most about $2\lg a$ times. The worst case is consecutive Fibonacci numbers: $\gcd(F_{20}, F_{19})$ takes 18 passes. The lesson on GCD and Euclid's algorithm<!-- link: ../02-number-theory/02-gcd-and-euclids-algorithm.md --> goes further.
+How many passes? If $a \ge b > 0$, then $a \bmod b < \frac{a}{2}$: either $b \le \frac{a}{2}$, and then the remainder is below $b$, or $b > \frac{a}{2}$, and then the remainder is $a - b < \frac{a}{2}$. After two passes the larger number has fallen below half of what it was, so the loop runs at most about $2\lg a$ times. The worst case is consecutive Fibonacci numbers: $\gcd(F_{20}, F_{19})$ takes 18 passes. The lesson on [GCD and Euclid's algorithm](../02-number-theory/02-gcd-and-euclids-algorithm.md) goes further.
 
 </div>
 
@@ -318,7 +318,7 @@ Conclusion: the loop stops with $e = 0$ (the guard is false and $e \ge 0$). The 
 
 Trace for $x = 3$, $n = 13$ (binary $1101$), listing (result, base, e) at each test: $(1, 3, 13)$, $(3, 9, 6)$, $(3, 81, 3)$, $(243, 6561, 1)$, and after the last pass `result` is $243 \cdot 6561 = 1{,}594{,}323$ with $e = 0$.
 
-Check: each triple satisfies the invariant, for example $243 \cdot 6561^1 = 1{,}594{,}323 = 3^{13}$ and $3 \cdot 81^3 = 3 \cdot 531441 = 1{,}594{,}323$. The loop ran 4 times, once for each bit of 13, which is why this method takes about $\lg n$ multiplications. It is the first step of Fermat, Euler and Fermat, Euler and fast exponentiation<!-- link: ../02-number-theory/05-fermat-euler-and-fast-exponentiation.md -->.
+Check: each triple satisfies the invariant, for example $243 \cdot 6561^1 = 1{,}594{,}323 = 3^{13}$ and $3 \cdot 81^3 = 3 \cdot 531441 = 1{,}594{,}323$. The loop ran 4 times, once for each bit of 13, which is why this method takes about $\lg n$ multiplications. It is the first step of Fermat, Euler and [Fermat, Euler and fast exponentiation](../02-number-theory/05-fermat-euler-and-fast-exponentiation.md).
 
 </details>
 
@@ -651,5 +651,5 @@ Check: for $n = 50$ the pairs (lo, hi) at the tests are $(0, 51)$, $(0, 25)$, $(
 ## Where this shows up
 
 - Every algorithms course proves its greedy and graph algorithms with invariants, and the data structures themselves are defined by them: the heap property, the binary search tree property and the balance conditions of a red-black tree are invariants that every operation must preserve. The next lesson, [asymptotic notation](04-asymptotic-notation.md), asks how many passes a loop makes, and this lesson's variants are the first step.
-- Number theory uses the same two algorithms as above: GCD and Euclid's algorithm<!-- link: ../02-number-theory/02-gcd-and-euclids-algorithm.md --> extends the proof, and Fermat, Euler and fast exponentiation<!-- link: ../02-number-theory/05-fermat-euler-and-fast-exponentiation.md --> is Example 6 with a remainder at each step.
+- Number theory uses the same two algorithms as above: [GCD and Euclid's algorithm](../02-number-theory/02-gcd-and-euclids-algorithm.md) extends the proof, and [Fermat, Euler and fast exponentiation](../02-number-theory/05-fermat-euler-and-fast-exponentiation.md) is Example 6 with a remainder at each step.
 - State machines return in the lesson Finite automata: DFA and NFA<!-- link: ../06-theory-of-computation/01-finite-automata-dfa-and-nfa.md -->, where an invariant on the states proves what a machine accepts. Formal verification tools check invariants like these automatically for real programs.

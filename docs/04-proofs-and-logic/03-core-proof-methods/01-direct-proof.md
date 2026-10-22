@@ -175,7 +175,7 @@ What we know: $a = bq + r$, and the linear combination theorem (Theorem 3 of [de
 
 (ii) Suppose $d \mid b$ and $d \mid r$. Then $a = b \cdot q + r \cdot 1$ is a linear combination of $b$ and $r$, so $d \mid a$. $\blacksquare$
 
-Look back: every common divisor of $a$ and $b$ is a common divisor of $b$ and $r$ by (i), and the other way round by (ii). So the two lists of common divisors are the same list, and the greatest on the list is the same. The proof is two lines because the real work was in the linear combination theorem. The statement is the first step of the correctness proof of the algorithm, developed in GCD and Euclid's algorithm<!-- link: ../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md -->.
+Look back: every common divisor of $a$ and $b$ is a common divisor of $b$ and $r$ by (i), and the other way round by (ii). So the two lists of common divisors are the same list, and the greatest on the list is the same. The proof is two lines because the real work was in the linear combination theorem. The statement is the first step of the correctness proof of the algorithm, developed in [GCD and Euclid's algorithm](../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md).
 
 Check: $a = 252$, $b = 105$, $q = 2$, $r = 42$. The common divisors of 252 and 105 are 1, 3, 7, 21, and the common divisors of 105 and 42 are also 1, 3, 7, 21.
 

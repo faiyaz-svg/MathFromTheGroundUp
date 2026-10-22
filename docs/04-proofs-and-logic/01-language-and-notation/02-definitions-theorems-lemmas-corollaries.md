@@ -316,7 +316,7 @@ A definition is a decision about how to use a word, not a claim about the world,
 
 ### Why is 1 not prime?
 
-Because of what primes are used for. Every integer greater than 1 factors into primes in exactly one way (apart from the order), and this fact, covered in primes and unique factorization<!-- link: ../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->, is used constantly. If 1 were prime, then $6 = 2 \times 3 = 1 \times 2 \times 3 = 1 \times 1 \times 2 \times 3$ would be different factorizations, and every theorem would need the extra words "other than 1". Mathematicians chose a definition that avoids that.
+Because of what primes are used for. Every integer greater than 1 factors into primes in exactly one way (apart from the order), and this fact, covered in [primes and unique factorization](../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md), is used constantly. If 1 were prime, then $6 = 2 \times 3 = 1 \times 2 \times 3 = 1 \times 1 \times 2 \times 3$ would be different factorizations, and every theorem would need the extra words "other than 1". Mathematicians chose a definition that avoids that.
 
 ### What if two books define a word differently?
 
@@ -398,7 +398,7 @@ Check: $n = 7$ has $k = 3$, $l = 2 \cdot 9 + 6 = 24$, and $2 \times 24 + 1 = 49 
 
 The proof is correct up to "$ab \mid c^2$". The last step, "therefore $ab \mid c$", doesn't follow: knowing that a number divides $c^2$ does not mean it divides $c$. For example, $4 \mid 36 = 6^2$, but $4 \nmid 6$.
 
-The claim itself is false. Take $a = 2$, $b = 4$ and $c = 12$. Then $2 \mid 12$ and $4 \mid 12$, but $ab = 8$ and $8 \nmid 12$, since $12 = 8 \times 1 + 4$. The statement does hold when $a$ and $b$ have no common factor other than 1, but that needs more tools than these definitions, and it is proved in GCD and Euclid's algorithm<!-- link: ../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md -->.
+The claim itself is false. Take $a = 2$, $b = 4$ and $c = 12$. Then $2 \mid 12$ and $4 \mid 12$, but $ab = 8$ and $8 \nmid 12$, since $12 = 8 \times 1 + 4$. The statement does hold when $a$ and $b$ have no common factor other than 1, but that needs more tools than these definitions, and it is proved in [GCD and Euclid's algorithm](../../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md).
 
 Check: $12 \div 2 = 6$, $12 \div 4 = 3$, and $12 \div 8 = 1.5$, which is not an integer.
 
@@ -451,6 +451,6 @@ Check: the even numbers 4, 6, 8, 10 are all composite ($4 = 2 \times 2$, $6 = 2 
 
 ## Where this shows up
 
-- The next lesson, [proof language: let, suppose, WLOG](03-proof-language-let-suppose-wlog.md), lists the phrases that connect these definitions and results in a written proof. Divisibility returns in divisibility and modular arithmetic<!-- link: ../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->, where Theorem 3 above is the first tool.
+- The next lesson, [proof language: let, suppose, WLOG](03-proof-language-let-suppose-wlog.md), lists the phrases that connect these definitions and results in a written proof. Divisibility returns in [divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md), where Theorem 3 above is the first tool.
 - Every CS theory course begins with definitions that work like the ones here. A DFA, a language, a Turing machine and the class P are all defined with a list of conditions, and proofs about them start by unpacking the definition (finite automata: DFA and NFA<!-- link: ../../06-cs-math/06-theory-of-computation/01-finite-automata-dfa-and-nfa.md -->).
 - In economics, the assumptions on a consumer's preferences, such as completeness and transitivity, play the part of axioms, and the results about demand are theorems proved from them (utility and indifference curves<!-- link: ../../07-economics-math/03-firms-and-consumers/04-utility-and-indifference-curves.md -->).

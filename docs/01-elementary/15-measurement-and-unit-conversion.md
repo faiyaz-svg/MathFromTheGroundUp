@@ -350,6 +350,6 @@ Check: at 12.06 km/h, 3.5 h covers $12.06 \times 3.5 = 42.21$ km, close to 42.19
 
 ## Where this shows up
 
-- A rate such as km/h is a ratio of two quantities with different units, the subject of [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md). Grocery shelf labels give prices per 100 g, a rate in dollars per gram, and comparing them is the subject of unit price and comparison shopping<!-- link: ../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md -->.
+- A rate such as km/h is a ratio of two quantities with different units, the subject of [ratios and unit rates](../02-middle-school/02-ratios-rates-percents/01-ratios-and-unit-rates.md). Grocery shelf labels give prices per 100 g, a rate in dollars per gram, and comparing them is the subject of [unit price and comparison shopping](../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md).
 - In computing, data sizes and speeds mix bits, bytes and prefixes, and dimensional analysis keeps them straight: a byte is 8 bits, so 100 Mbit/s is 12.5 MB/s.
-- An elasticity in economics is a ratio of two percent changes, so its units cancel completely. That is why it can compare markets measured in litres, kilograms or hours (elasticity<!-- link: ../07-economics-math/02-markets/05-elasticity.md -->).
+- An elasticity in economics is a ratio of two percent changes, so its units cancel completely. That is why it can compare markets measured in litres, kilograms or hours ([elasticity](../07-economics-math/02-markets/05-elasticity.md)).

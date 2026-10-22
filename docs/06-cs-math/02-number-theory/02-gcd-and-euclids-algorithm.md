@@ -85,7 +85,7 @@ Look back: nothing was assumed about the size of $q$, so the same proof shows $\
 
 *Proof.* The successive remainders form a strictly decreasing sequence of nonnegative integers, $b > r_1 > r_2 > \dots \ge 0$, so by well-ordering the sequence reaches 0 after at most $b$ divisions. At every step Theorem 1 says the gcd of the current pair equals the gcd of the previous pair. This is the invariant: "$\gcd(a, b)$ of the current pair equals the gcd of the original pair". It holds at the start and after each step. When the pair is $(g, 0)$, the invariant says the original gcd is $\gcd(g, 0) = g$. $\blacksquare$
 
-The same argument, phrased as a loop invariant, is the model for the proofs in invariants and algorithm correctness<!-- link: ../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md -->.
+The same argument, phrased as a loop invariant, is the model for the proofs in [invariants and algorithm correctness](../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).
 
 ### How fast it is
 
@@ -101,7 +101,7 @@ What we know: $r_i = q\, r_{i+1} + r_{i+2}$ with $q \ge 1$ and $0 \le r_{i+2} < 
 
 *Proof.* Suppose the algorithm makes $k$ divisions, so the remainders $r_1, \dots, r_k$ are all at least 1 and $r_{k+1} = 0$. Applying Theorem 3 over and over gives $r_{1+2j} < b / 2^j$ whenever $j \ge 1$ and $1 + 2j \le k$. Let $m = 1 + 2j$ be the largest odd index with $m \le k$, so $k \le m + 1$. Since $r_m \ge 1$, either $j = 0$ or $1 \le r_m < b/2^j$; in both cases $2^j \le b$, so $j \le \log_2 b$. Therefore $k \le m + 1 = 2j + 2 \le 2 \log_2 b + 2$. $\blacksquare$
 
-The count is in terms of $\log_2 b$, which is about the number of bits of $b$. So the work grows in proportion to the number of digits, not to the size of the number. In big O terms (asymptotic notation<!-- link: ../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->), it is $O(\log b)$ divisions. Trial division for the same job takes about $\sqrt{b}$ steps, and for a 100-digit $b$ that is $10^{50}$.
+The count is in terms of $\log_2 b$, which is about the number of bits of $b$. So the work grows in proportion to the number of digits, not to the size of the number. In big O terms ([asymptotic notation](../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md)), it is $O(\log b)$ divisions. Trial division for the same job takes about $\sqrt{b}$ steps, and for a 100-digit $b$ that is $10^{50}$.
 
 A sharper statement says what the worst case looks like. Recall the Fibonacci numbers $F_1 = F_2 = 1$ and $F_{n+2} = F_{n+1} + F_n$ ([sequences and recursion](../../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md)).
 
@@ -378,11 +378,11 @@ Each remainder is smaller than the one before and none is negative, so the seque
 
 ### Why is Euclid's algorithm fast when factoring is slow?
 
-Each division at least halves the size every two steps (Theorem 3), so the number of steps is proportional to the number of digits. Factoring has no known method with that property. The gap between the two problems is what RSA cryptography<!-- link: 06-rsa-cryptography.md --> relies on.
+Each division at least halves the size every two steps (Theorem 3), so the number of steps is proportional to the number of digits. Factoring has no known method with that property. The gap between the two problems is what [RSA cryptography](06-rsa-cryptography.md) relies on.
 
 ### Why would I want the numbers $x$ and $y$?
 
-Because they give inverses. If $\gcd(a, n) = 1$ and $ax + ny = 1$, then reducing mod $n$ gives $ax \equiv 1 \pmod n$, so $x$ is a multiplicative inverse of $a$ mod $n$. Computing inverses is the main use of the extended algorithm (modular inverses and the Chinese remainder theorem<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->), and it is how an RSA private key is found.
+Because they give inverses. If $\gcd(a, n) = 1$ and $ax + ny = 1$, then reducing mod $n$ gives $ax \equiv 1 \pmod n$, so $x$ is a multiplicative inverse of $a$ mod $n$. Computing inverses is the main use of the extended algorithm ([modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md)), and it is how an RSA private key is found.
 
 ### Does the order of the two inputs matter?
 
@@ -517,6 +517,6 @@ Check: $13 \cdot 84 = 1092$ and $3 \cdot 360 = 1080$, and $1092 - 1080 = 12$.
 
 ## Where this shows up
 
-- The next lesson, primes and unique factorization<!-- link: 03-primes-and-unique-factorization.md -->, proves Euclid's lemma from Bezout's identity and uses it to show factorization is unique.
-- Modular inverses, the Chinese remainder theorem and every RSA private key rely on the extended algorithm (modular inverses and the Chinese remainder theorem<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->).
-- The analysis of Euclid's algorithm is a standard example of running time in terms of the number of digits, in asymptotic notation<!-- link: ../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->, and a standard loop invariant in invariants and algorithm correctness<!-- link: ../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md -->.
+- The next lesson, [primes and unique factorization](03-primes-and-unique-factorization.md), proves Euclid's lemma from Bezout's identity and uses it to show factorization is unique.
+- Modular inverses, the Chinese remainder theorem and every RSA private key rely on the extended algorithm ([modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md)).
+- The analysis of Euclid's algorithm is a standard example of running time in terms of the number of digits, in [asymptotic notation](../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md), and a standard loop invariant in [invariants and algorithm correctness](../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).

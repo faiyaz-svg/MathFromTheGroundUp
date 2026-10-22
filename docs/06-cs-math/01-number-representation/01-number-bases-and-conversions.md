@@ -310,7 +310,7 @@ In hex, a remainder from 10 to 15 is one digit, written as a letter. Converting 
 
 <div class="note" markdown>
 
-Negative numbers get a minus sign, as in decimal: $-13 = -1101_2$. Inside a computer they are stored with two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, the lesson after next. Digits after the point have place values $b^{-1}, b^{-2}, \dots$, so $0.1_2 = \frac{1}{2}$, but a decimal fraction as plain as 0.1 never ends in binary, which is where floating point basics<!-- link: 04-floating-point-basics.md --> starts.
+Negative numbers get a minus sign, as in decimal: $-13 = -1101_2$. Inside a computer they are stored with two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, the lesson after next. Digits after the point have place values $b^{-1}, b^{-2}, \dots$, so $0.1_2 = \frac{1}{2}$, but a decimal fraction as plain as 0.1 never ends in binary, which is where [floating point basics](04-floating-point-basics.md) starts.
 
 </div>
 
@@ -319,7 +319,7 @@ Negative numbers get a minus sign, as in decimal: $-13 = -1101_2$. Inside a comp
 - To turn a hex digit into bits, split its value into 8, 4, 2 and 1: B is $11 = 8 + 2 + 1$, so B is 1011.
 - Estimate with $2^{10} \approx 10^3$: $2^{32} = 2^2 \cdot 2^{30} \approx 4 \times 10^9$ (exactly 4,294,967,296). It also means about 10 bits per 3 decimal digits, so a 3-digit number needs at most 10 bits. If yours has 14, recheck.
 - A binary number is odd exactly when its last bit is 1, because every other place value is even.
-- Writing a 0 on the right multiplies by the base: $101_2 = 5$ and $1010_2 = 10$. Dropping the last bit halves the number and throws away the remainder. These are the shifts of bitwise operations and masks<!-- link: 05-bitwise-operations-and-masks.md -->.
+- Writing a 0 on the right multiplies by the base: $101_2 = 5$ and $1010_2 = 10$. Dropping the last bit halves the number and throws away the remainder. These are the shifts of [bitwise operations and masks](05-bitwise-operations-and-masks.md).
 - A string of $n$ ones is $2^n - 1$: $1111_2 = 15 = \mathrm{F}_{16}$.
 
 ## In code
@@ -365,7 +365,7 @@ print(format(45, 'b'), format(5, '08b'))   # 101101 00000101
 
 ### Why do computers use binary?
 
-Each digit is stored as a physical state, such as a voltage on a wire. Telling two states apart (high or low) is far more reliable under electrical noise than telling ten levels apart. Binary also matches logic, with 1 and 0 for true and false, which boolean algebra and logic gates<!-- link: 06-boolean-algebra-and-logic-gates.md --> builds on.
+Each digit is stored as a physical state, such as a voltage on a wire. Telling two states apart (high or low) is far more reliable under electrical noise than telling ten levels apart. Binary also matches logic, with 1 and 0 for true and false, which [boolean algebra and logic gates](06-boolean-algebra-and-logic-gates.md) builds on.
 
 ### Why do programmers write hex instead of binary?
 
@@ -511,5 +511,5 @@ Check: the place values in base 7 are 1, 7, 49, 343 and 2,401, and $2{,}401 + 0 
 ## Where this shows up
 
 - Programmers read raw data in hex: memory addresses, bytes in a file, and web colours, where #FF8800 is red 255, green 136 and blue 0 (orange). Octal lives on in Unix permissions such as `chmod 755`.
-- The next lesson, bits and information<!-- link: 02-bits-and-information.md -->, measures information in bits. Later in this chapter binary is the base for two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, floating point<!-- link: 04-floating-point-basics.md --> and bit masks<!-- link: 05-bitwise-operations-and-masks.md -->.
+- The next lesson, [bits and information](02-bits-and-information.md), measures information in bits. Later in this chapter binary is the base for two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, floating point<!-- link: 04-floating-point-basics.md --> and bit masks<!-- link: 05-bitwise-operations-and-masks.md -->.
 - Questions like Practice 6 are base-2 logarithms in disguise, and [logarithms](../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md) turns the table lookup into a formula.

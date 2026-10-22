@@ -242,7 +242,7 @@ The number 1 is not prime, and that is not a convention of taste: if 1 were prim
 ## Tricks and shortcuts
 
 - After testing 2 and 3, a prime must be of the form $6k \pm 1$ (Practice 6), so trial division can skip multiples of 2 and 3 and test only 5, 7, 11, 13, 17, 19, 23, ... That removes two thirds of the divisions.
-- A number whose digit sum is a multiple of 3, or that ends in an even digit or in 5, is quickly ruled out. These are the [divisibility rules](../../01-elementary/06-division-facts-and-remainders.md#divisibility-rules), now proved by the congruence rules of divisibility and modular arithmetic<!-- link: 01-divisibility-and-modular-arithmetic.md -->.
+- A number whose digit sum is a multiple of 3, or that ends in an even digit or in 5, is quickly ruled out. These are the [divisibility rules](../../01-elementary/06-division-facts-and-remainders.md#divisibility-rules), now proved by the congruence rules of [divisibility and modular arithmetic](01-divisibility-and-modular-arithmetic.md).
 - To check that two numbers are coprime you do not need their factorizations: use Euclid's algorithm. To factor, you do.
 - To estimate how many primes a range holds, use $\frac{1}{\ln x}$ per number. Between $10^6$ and $2 \times 10^6$ the estimate is about $10^6 / \ln(1.5 \times 10^6) \approx 70{,}000$; the true count is 70,435.
 
@@ -420,6 +420,6 @@ Check: $6 \cdot 10 = 60$ and $2 \cdot 30 = 60$.
 
 ## Where this shows up
 
-- The next lesson, modular inverses and the Chinese remainder theorem<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->, uses coprimality and the prime factorization of the modulus, and Euler's phi function in Fermat, Euler and fast exponentiation<!-- link: 05-fermat-euler-and-fast-exponentiation.md --> is computed from the factorization.
-- RSA cryptography<!-- link: 06-rsa-cryptography.md --> rests on the gap between the two halves of this lesson: finding large primes is easy (the density from the prime number theorem and fast primality tests), while recovering the two primes from their product is not known to be.
+- The next lesson, [modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md), uses coprimality and the prime factorization of the modulus, and Euler's phi function in [Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md) is computed from the factorization.
+- [RSA cryptography](06-rsa-cryptography.md) rests on the gap between the two halves of this lesson: finding large primes is easy (the density from the prime number theorem and fast primality tests), while recovering the two primes from their product is not known to be.
 - Hash table sizes are often chosen prime so that `key % size` spreads keys evenly, and prime factorization shows up in counting divisors and in the counting lessons<!-- link: ../03-counting-and-discrete-probability/01-counting-rules.md -->.

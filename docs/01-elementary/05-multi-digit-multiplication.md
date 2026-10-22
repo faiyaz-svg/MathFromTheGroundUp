@@ -218,7 +218,7 @@ The **digit sum** of a whole number is the sum of its digits: the digit sum of 7
 | $4 \times 4 = 16$ | $1 + 6 = 7$ | 7 |
 | $44{,}602$ | $4 + 4 + 6 + 0 + 2 = 16$, then $1 + 6 = 7$ | 7 |
 
-The digits match, so 44,602 passes. The reason is the distributive property again. Write each factor as a multiple of 9 plus its remainder, $769 = 9 \times 85 + 4$ and $58 = 9 \times 6 + 4$, and multiply out. Every partial product except $4 \times 4$ has a factor of 9, so the product is a multiple of 9 plus 16, and it leaves the same remainder as 16, which is 7. The general argument is in divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+The digits match, so 44,602 passes. The reason is the distributive property again. Write each factor as a multiple of 9 plus its remainder, $769 = 9 \times 85 + 4$ and $58 = 9 \times 6 + 4$, and multiply out. Every partial product except $4 \times 4$ has a factor of 9, so the product is a multiple of 9 plus 16, and it leaves the same remainder as 16, which is 7. The general argument is in [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md).
 
 <div class="warning" markdown>
 
@@ -343,4 +343,4 @@ Check with a third way, the distributive property: $125 \times 48 = 125 \times 5
 
 - [Multiplying and dividing decimals](13-multiplying-and-dividing-decimals.md) uses the same column method and then places the decimal point.
 - Multiplying polynomials is the area model with $x$ in place of 10. In algebra, $(4x + 7)(3x + 6) = 12x^2 + 45x + 42$, and putting in $x = 10$ gives $1{,}200 + 450 + 42 = 1{,}692$, which is $47 \times 36$ ([polynomial arithmetic](../03-high-school/04-radicals-and-polynomials/02-polynomial-arithmetic.md)).
-- Computers multiply binary numbers with the same shifted rows, where each shift is one bit instead of one decimal place (binary arithmetic and two's complement<!-- link: ../06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md -->). The column method takes about $n^2$ one-digit products for two $n$-digit numbers. Karatsuba's algorithm needs fewer by splitting each number in half, a divide-and-conquer method ([divide and conquer and the master theorem](../06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md)).
+- Computers multiply binary numbers with the same shifted rows, where each shift is one bit instead of one decimal place ([binary arithmetic and two's complement](../06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md)). The column method takes about $n^2$ one-digit products for two $n$-digit numbers. Karatsuba's algorithm needs fewer by splitting each number in half, a divide-and-conquer method ([divide and conquer and the master theorem](../06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md)).

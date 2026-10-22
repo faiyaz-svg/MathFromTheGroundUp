@@ -35,7 +35,7 @@ Every whole number above 1 breaks down into primes by multiplication, as in $12 
 
 In this lesson every number is a whole number, and "factor" means a positive factor.
 
-A whole number $a$ is a **factor** of a whole number $b$ when $b = ka$ for some whole number $k$. In the same situation, $b$ is a **multiple** of $a$. University courses also say that $a$ divides $b$, or that $a$ is a divisor of $b$, and write $a \mid b$ (divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->).
+A whole number $a$ is a **factor** of a whole number $b$ when $b = ka$ for some whole number $k$. In the same situation, $b$ is a **multiple** of $a$. University courses also say that $a$ divides $b$, or that $a$ is a divisor of $b$, and write $a \mid b$ ([divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md)).
 
 In plain words, a nonzero $a$ is a factor of $b$ when $b \div a$ leaves remainder 0. A few facts follow straight from the definition. The number 1 is a factor of every number, since $b = b \times 1$. Every number is a factor of itself and also a multiple of itself, since $b = 1 \times b$. And 0 is a multiple of every number, since $0 = 0 \times a$.
 
@@ -49,7 +49,7 @@ $$
 360 = 2^3 \times 3^2 \times 5.
 $$
 
-The theorem behind this is the **fundamental theorem of arithmetic**: every whole number greater than 1 can be written as a product of primes in exactly one way, apart from the order of the factors. (A prime on its own counts as a product of one prime.) Its proof is in primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->.
+The theorem behind this is the **fundamental theorem of arithmetic**: every whole number greater than 1 can be written as a product of primes in exactly one way, apart from the order of the factors. (A prime on its own counts as a product of one prime.) Its proof is in [primes and unique factorization](../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md).
 
 The theorem is the reason 1 is not called prime. If it were, then $2 \times 3$, $1 \times 2 \times 3$ and $1 \times 1 \times 2 \times 3$ would be three different prime factorizations of 6, and "exactly one way" would be false. Leaving 1 out keeps the theorem true as stated, and nothing is lost, because multiplying by 1 changes nothing.
 
@@ -292,7 +292,7 @@ Watch out for swapping the GCF and the LCM. The GCF is at most the smaller numbe
 
 When one number divides the other, the GCF is the smaller number and the LCM is the larger. For 12 and 36, $\gcd(12, 36) = 12$ and $\operatorname{lcm}(12, 36) = 36$.
 
-Zero is a special case. Every number is a factor of 0, since $0 = 0 \times a$, so 0 has no largest factor and isn't prime or composite. This lesson keeps the GCF and LCM to positive numbers; divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md --> handles 0 and negative numbers.
+Zero is a special case. Every number is a factor of 0, since $0 = 0 \times a$, so 0 has no largest factor and isn't prime or composite. This lesson keeps the GCF and LCM to positive numbers; [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md) handles 0 and negative numbers.
 
 ## Tricks and shortcuts
 
@@ -310,7 +310,7 @@ $$
 \end{aligned}
 $$
 
-So $\gcd(360, 84) = 12$, as in Example 2. GCD and Euclid's algorithm<!-- link: ../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md --> proves that each step keeps the GCF the same, and shows why the method is fast even for numbers hundreds of digits long.
+So $\gcd(360, 84) = 12$, as in Example 2. [GCD and Euclid's algorithm](../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md) proves that each step keeps the GCF the same, and shows why the method is fast even for numbers hundreds of digits long.
 
 ## In code
 
@@ -432,5 +432,5 @@ Check: $13 \times 17 = 130 + 91 = 221$.
 ## Where this shows up
 
 - The next two lessons use both tools: [fractions and equivalent fractions](09-fractions-and-equivalent-fractions.md) divides by the GCF to put a fraction in simplest form, and [adding and subtracting fractions](10-adding-and-subtracting-fractions.md) uses the LCM of the denominators.
-- In CS math, GCD and Euclid's algorithm<!-- link: ../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md --> and primes and unique factorization<!-- link: ../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md --> prove the facts used here. RSA cryptography<!-- link: ../06-cs-math/02-number-theory/06-rsa-cryptography.md --> rests on a gap: multiplying two large primes is fast, but no fast method is known for factoring the product.
+- In CS math, [GCD and Euclid's algorithm](../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md) and [primes and unique factorization](../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md) prove the facts used here. [RSA cryptography](../06-cs-math/02-number-theory/06-rsa-cryptography.md) rests on a gap: multiplying two large primes is fast, but no fast method is known for factoring the product.
 - Scheduling uses the LCM: two loops or timers with periods 18 and 24 line up every 72 steps, as in Example 4.

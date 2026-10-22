@@ -260,7 +260,7 @@ The expression `n // 1000` divides and drops the remainder, as in [long division
 
 ### Why does 5 round up when the number is exactly halfway?
 
-It is a convention. The number 2,450 is 50 from 2,400 and 50 from 2,500, so neither is nearer, and a rule has to pick one. Rounding halves up is easy to apply, since you look at one digit. Its cost is a small upward drift: if many amounts end in exactly 50, rounding them all up makes their total too big. Python's `round` uses **round half to even** instead, also called banker's rounding, in which an exact half goes to the neighbour whose rounding digit is even. So 2,450 rounds to 2,400 and 2,550 rounds to 2,600, and over many numbers half the halves go up and half go down. It is also the default rule in floating-point arithmetic (floating point basics<!-- link: ../06-cs-math/01-number-representation/04-floating-point-basics.md -->).
+It is a convention. The number 2,450 is 50 from 2,400 and 50 from 2,500, so neither is nearer, and a rule has to pick one. Rounding halves up is easy to apply, since you look at one digit. Its cost is a small upward drift: if many amounts end in exactly 50, rounding them all up makes their total too big. Python's `round` uses **round half to even** instead, also called banker's rounding, in which an exact half goes to the neighbour whose rounding digit is even. So 2,450 rounds to 2,400 and 2,550 rounds to 2,600, and over many numbers half the halves go up and half go down. It is also the default rule in floating-point arithmetic ([floating point basics](../06-cs-math/01-number-representation/04-floating-point-basics.md)).
 
 ### Should I round before or after I calculate?
 
@@ -363,4 +363,4 @@ Check the ends and their neighbours. The number 2,500 rounds to 2,500 and to 3,0
 
 - Carrying in [addition and subtraction](02-addition-and-subtraction.md) and the bring-down step of [long division](07-long-division.md) both rest on the fact from this lesson that ten of one place make one of the next.
 - Decimals add places to the right of the ones, worth tenths, hundredths and so on, and rounding money to the cent follows the same rule as here: see [decimals: place value, adding and subtracting](12-decimals-place-value-and-adding.md). [Estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md) builds on estimating with rounded numbers.
-- In code, rounding and truncating are different functions: `round(x)` rounds and `int(x)` truncates toward zero. Floating point basics<!-- link: ../06-cs-math/01-number-representation/04-floating-point-basics.md --> shows why a computer has to round almost every decimal it stores.
+- In code, rounding and truncating are different functions: `round(x)` rounds and `int(x)` truncates toward zero. [Floating point basics](../06-cs-math/01-number-representation/04-floating-point-basics.md) shows why a computer has to round almost every decimal it stores.

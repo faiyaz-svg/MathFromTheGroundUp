@@ -244,7 +244,7 @@ print(math.isclose(0.1 + 0.2, 0.3))   # True
 print(Decimal("0.1") + Decimal("0.2") == Decimal("0.3"))  # True
 ```
 
-The third line prints `0.1000000000000000055511151231257827021181583404541015625`. The rule for terminating decimals explains it, with 2 in place of 10. A float is a fraction whose denominator is a power of 2, and $\frac{1}{10}$ has a factor 5 in its denominator, so in binary it repeats forever, $0.000110011001100\ldots_2$, the way $\frac{1}{3}$ repeats in decimal. The computer keeps about 53 binary digits and rounds, so the stored 0.1, 0.2 and 0.3 are all slightly off, and the errors don't cancel. Compare floats with `math.isclose`, and use `Decimal` for money. Floating point basics<!-- link: ../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains the format.
+The third line prints `0.1000000000000000055511151231257827021181583404541015625`. The rule for terminating decimals explains it, with 2 in place of 10. A float is a fraction whose denominator is a power of 2, and $\frac{1}{10}$ has a factor 5 in its denominator, so in binary it repeats forever, $0.000110011001100\ldots_2$, the way $\frac{1}{3}$ repeats in decimal. The computer keeps about 53 binary digits and rounds, so the stored 0.1, 0.2 and 0.3 are all slightly off, and the errors don't cancel. Compare floats with `math.isclose`, and use `Decimal` for money. [Floating point basics](../06-cs-math/01-number-representation/04-floating-point-basics.md) explains the format.
 
 </details>
 

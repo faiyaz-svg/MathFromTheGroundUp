@@ -208,7 +208,7 @@ Count the rows before you start: $n$ atomic statements give $2^n$ rows. A table 
 
 Remember the two lopsided rows. A conjunction is true in only one row (all parts true), so it is false as soon as one part is false. A disjunction is false in only one row (all parts false), so it is true as soon as one part is true. Most evaluations finish in one glance using these two facts.
 
-If you think of T as 1 and F as 0, then $P \wedge Q$ is the product $P \cdot Q$, $P \vee Q$ is the larger of the two, $\neg P$ is $1 - P$, and $P \oplus Q$ is the sum $P + Q$ with a result of 2 counted as 0, which is $(P + Q) \bmod 2$. The XOR case is why $\oplus$ shows up in bit operations: bitwise operations and masks<!-- link: ../../06-cs-math/01-number-representation/05-bitwise-operations-and-masks.md --> uses it on whole numbers, bit by bit.
+If you think of T as 1 and F as 0, then $P \wedge Q$ is the product $P \cdot Q$, $P \vee Q$ is the larger of the two, $\neg P$ is $1 - P$, and $P \oplus Q$ is the sum $P + Q$ with a result of 2 counted as 0, which is $(P + Q) \bmod 2$. The XOR case is why $\oplus$ shows up in bit operations: [bitwise operations and masks](../../06-cs-math/01-number-representation/05-bitwise-operations-and-masks.md) uses it on whole numbers, bit by bit.
 
 ## In code
 
@@ -395,5 +395,5 @@ Check with three test values. At $x = -1$ the original is false (since $-1 > -1$
 ## Where this shows up
 
 - The next lesson, [conditionals and biconditionals](02-conditionals-and-biconditionals.md), adds "if ... then" to this list, and [truth tables and logical equivalence](03-truth-tables-and-logical-equivalence.md) shows how to tell when two compound statements say the same thing.
-- Every `if`, `while` and filter in a program is a compound statement. Boolean algebra and logic gates<!-- link: ../../06-cs-math/01-number-representation/06-boolean-algebra-and-logic-gates.md --> turns $\wedge$, $\vee$, $\neg$ and $\oplus$ into circuits, and satisfiability, which asks whether a compound statement can be made true, is the starting point of P, NP and NP-completeness<!-- link: ../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md -->.
+- Every `if`, `while` and filter in a program is a compound statement. [Boolean algebra and logic gates](../../06-cs-math/01-number-representation/06-boolean-algebra-and-logic-gates.md) turns $\wedge$, $\vee$, $\neg$ and $\oplus$ into circuits, and satisfiability, which asks whether a compound statement can be made true, is the starting point of P, NP and NP-completeness<!-- link: ../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md -->.
 - In economics and finance, conditions like "income above the threshold and the account is open" decide eligibility rules, and a carefully parsed "and" or "or" is the difference between two different tax rules.

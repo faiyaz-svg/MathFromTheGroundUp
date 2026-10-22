@@ -68,7 +68,7 @@ Here is why the theorem holds when $n$ is a whole number. We want a pair $q$ and
 
 *Proof.* List the multiples $0, d, 2d, 3d, \dots$ and stop at the largest one that is not bigger than $n$. Call it $qd$ and set $r = n - qd$, so $n = qd + r$ and $r \ge 0$. The next multiple, $qd + d$, is bigger than $n$, so $d > n - qd = r$. No other $q$ works: a smaller one leaves a remainder of at least $r + d$, which is too big, and a bigger one makes $qd$ bigger than $n$, which leaves a negative remainder.
 
-Look back: the condition $0 \le r < d$ is what makes the pair unique. Without it, $47 = 8 \times 5 + 7$ would count too, even though a leftover of 7 still holds another 5. The proof for negative $n$ is in divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+Look back: the condition $0 \le r < d$ is what makes the pair unique. Without it, $47 = 8 \times 5 + 7$ would count too, even though a leftover of 7 still holds another 5. The proof for negative $n$ is in [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md).
 
 Despite its name, the division algorithm is a theorem: it says that $q$ and $r$ exist and are unique, but not how to find them. **Long division** is a pencil-and-paper method that finds them, one digit of the quotient at a time. In this lesson $n$ is never negative, so $q$ and $r$ are whole numbers too.
 

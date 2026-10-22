@@ -407,7 +407,7 @@ for n in (10, 100, 1000):
 
 </details>
 
-The first run divides by $10^{-20}$, which magnifies rounding error until the information in $x$ is lost, and the row swap (partial pivoting) avoids it by always dividing by the largest available entry. Library routines such as `numpy.linalg.solve` use this idea, and a later lesson on floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains why rounding works this way.
+The first run divides by $10^{-20}$, which magnifies rounding error until the information in $x$ is lost, and the row swap (partial pivoting) avoids it by always dividing by the largest available entry. Library routines such as `numpy.linalg.solve` use this idea, and a later lesson on [floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains why rounding works this way.
 
 ## FAQ
 

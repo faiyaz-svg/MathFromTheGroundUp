@@ -391,5 +391,5 @@ Check: $R(2) = 53.33$ and $R(4) = 4(40 - 26.67) = 53.33$, both below $R(3) = 60$
 ## Where this shows up
 
 - The next lesson, [elasticity](05-elasticity.md), shows that the tax shares are the elasticities of supply and demand, and why a tax on a good with few substitutes raises more revenue per unit of lost trade.
-- Later, [profit maximization and market structure](../03-firms-and-consumers/03-profit-maximization-and-market-structure.md) uses the same surplus triangles to compare market structures, and the HST on a purchase is a percent tax that you can compute in tips, discounts and HST<!-- link: ../../08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md -->.
+- Later, [profit maximization and market structure](../03-firms-and-consumers/03-profit-maximization-and-market-structure.md) uses the same surplus triangles to compare market structures, and the HST on a purchase is a percent tax that you can compute in [tips, discounts and HST](../../08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md).
 - In CS, a rate limit or a cap on a shared resource, such as a fixed number of API calls, is a ceiling on the price in effect, and the shortage shows up as a queue or as rejected requests.

@@ -378,7 +378,7 @@ print([interior_angle_sum(n) / n for n in (3, 4, 5, 6, 8)])  # [60.0, 90.0, 108.
 print(is_triangle(0.1 + 0.2, 0.3, 0.6))  # True, but 0.3 + 0.3 = 0.6 is flat
 ```
 
-In floating point, `0.1 + 0.2` is `0.30000000000000004`, a little more than 0.3, so the flat triangle 0.3, 0.3, 0.6 passes the test. Geometry code usually compares with a small tolerance, such as `a + b > c + 1e-9`, for this reason. Floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains where the extra digits come from.
+In floating point, `0.1 + 0.2` is `0.30000000000000004`, a little more than 0.3, so the flat triangle 0.3, 0.3, 0.6 passes the test. Geometry code usually compares with a small tolerance, such as `a + b > c + 1e-9`, for this reason. [Floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains where the extra digits come from.
 
 </details>
 

@@ -245,7 +245,7 @@ A congruence $ax \equiv b$ with $g > 1$ and $g \mid b$ has several solutions, an
 - Special inverses: $1^{-1} = 1$, $(-1)^{-1} = -1$, and $2^{-1} = \frac{n+1}{2}$ for odd $n$ (check: $2 \cdot \frac{n+1}{2} = n + 1 \equiv 1$).
 - For two congruences, the shortcut $x = a_1 + m_1 \cdot \big((a_2 - a_1)\, m_1^{-1} \bmod m_2\big)$ needs only one inverse. For $x \equiv 3 \pmod 8$ and $x \equiv 5 \pmod{11}$: $(5 - 3)\cdot 7 = 14 \equiv 3$, so $x = 3 + 8 \cdot 3 = 27$.
 - With three or more moduli, merge two at a time: solve the first two to get one congruence mod $m_1 m_2$, then merge that with the third.
-- Mod a prime $p$, Fermat's little theorem gives the inverse as $a^{p-2}$ (Fermat, Euler and fast exponentiation<!-- link: 05-fermat-euler-and-fast-exponentiation.md -->), which is simplest to code when $p$ is known to be prime.
+- Mod a prime $p$, Fermat's little theorem gives the inverse as $a^{p-2}$ ([Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md)), which is simplest to code when $p$ is known to be prime.
 
 ## In code
 
@@ -323,7 +323,7 @@ Coprimality is used twice: to get the inverses $y_i$ in the existence proof (Lem
 
 ### Why is this useful when I can just compute with the big number?
 
-Because the small pieces are cheaper and can run independently. Multiplication takes more than twice as long when the numbers are twice as long, so two multiplications with half-size moduli cost less than one with the full-size modulus. RSA decryption uses exactly this split (RSA cryptography<!-- link: 06-rsa-cryptography.md -->).
+Because the small pieces are cheaper and can run independently. Multiplication takes more than twice as long when the numbers are twice as long, so two multiplications with half-size moduli cost less than one with the full-size modulus. RSA decryption uses exactly this split ([RSA cryptography](06-rsa-cryptography.md)).
 
 ## Practice
 
@@ -448,6 +448,6 @@ Check: this is the same condition as in Theorem 1, and why table sizes are often
 
 ## Where this shows up
 
-- The next lesson, Fermat, Euler and fast exponentiation<!-- link: 05-fermat-euler-and-fast-exponentiation.md -->, counts the units mod $n$ (Euler's phi) and uses the cancellation rule to prove Fermat's little theorem.
-- In RSA cryptography<!-- link: 06-rsa-cryptography.md -->, the private key is an inverse (Practice 4 computes one), and decryption can be speeded up with the Chinese remainder theorem.
+- The next lesson, [Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md), counts the units mod $n$ (Euler's phi) and uses the cancellation rule to prove Fermat's little theorem.
+- In [RSA cryptography](06-rsa-cryptography.md), the private key is an inverse (Practice 4 computes one), and decryption can be speeded up with the Chinese remainder theorem.
 - Units mod 26 are what make the affine cipher $x \mapsto ax + b$ reversible, and in [matrix algebra and inverses](../../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md) the same question returns for matrices: an inverse exists exactly when one number (the determinant) is nonzero for real matrices, or a unit for matrices mod $n$.

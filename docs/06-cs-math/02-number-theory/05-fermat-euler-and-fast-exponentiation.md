@@ -81,7 +81,7 @@ $$
 \varphi(n) = \prod_{i=1}^{k} p_i^{e_i - 1}(p_i - 1) = n \prod_{i=1}^{k} \left(1 - \frac{1}{p_i}\right).
 $$
 
-Examples: $\varphi(360) = \varphi(2^3)\varphi(3^2)\varphi(5) = 4 \cdot 6 \cdot 4 = 96$, and for two distinct primes $\varphi(pq) = (p - 1)(q - 1)$. For example $\varphi(77) = 6 \cdot 10 = 60$. Note that computing $\varphi(n)$ takes the factorization of $n$, and with $n = pq$ it is no easier than factoring (see RSA cryptography<!-- link: 06-rsa-cryptography.md -->).
+Examples: $\varphi(360) = \varphi(2^3)\varphi(3^2)\varphi(5) = 4 \cdot 6 \cdot 4 = 96$, and for two distinct primes $\varphi(pq) = (p - 1)(q - 1)$. For example $\varphi(77) = 6 \cdot 10 = 60$. Note that computing $\varphi(n)$ takes the factorization of $n$, and with $n = pq$ it is no easier than factoring (see [RSA cryptography](06-rsa-cryptography.md)).
 
 ### Euler's theorem
 
@@ -136,7 +136,7 @@ $$
 
 The loop runs once per bit, $L$ times, and each round has at most one multiplication into `result` and one squaring. So at most $2L$ multiplications. $\blacksquare$
 
-Look back: a second way to see correctness is the invariant "`result` $\cdot$ `base`$^{e} \equiv a^{e_0}$", where $e_0$ is the original exponent and $e$ the current one. It holds at the start (`result` $= 1$, `base` $= a$). If $e$ is odd, `result`$\cdot$`base` times (`base`$^2$)$^{(e-1)/2}$ is the same product, and if $e$ is even, `result` times (`base`$^2$)$^{e/2}$ is. When $e = 0$ the invariant says `result` $\equiv a^{e_0}$. This is the proof style of invariants and algorithm correctness<!-- link: ../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md -->.
+Look back: a second way to see correctness is the invariant "`result` $\cdot$ `base`$^{e} \equiv a^{e_0}$", where $e_0$ is the original exponent and $e$ the current one. It holds at the start (`result` $= 1$, `base` $= a$). If $e$ is odd, `result`$\cdot$`base` times (`base`$^2$)$^{(e-1)/2}$ is the same product, and if $e$ is even, `result` times (`base`$^2$)$^{e/2}$ is. When $e = 0$ the invariant says `result` $\equiv a^{e_0}$. This is the proof style of [invariants and algorithm correctness](../04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).
 
 A sample count: $e = 10^6$ has 20 bits, since $2^{19} = 524{,}288 \le 10^6 < 2^{20}$, so at most 40 multiplications instead of 999,999. For a 2048-bit exponent, at most 4096.
 
@@ -441,6 +441,6 @@ Check: Python finds no coprime base $a < 1105$ with $a^{1104} \not\equiv 1$. The
 
 ## Where this shows up
 
-- The next lesson, RSA cryptography<!-- link: 06-rsa-cryptography.md -->, is Euler's theorem plus fast exponentiation: encryption and decryption are $m^e \bmod n$ and $c^d \bmod n$, and they work because $ed \equiv 1 \pmod{\varphi(n)}$.
+- The next lesson, [RSA cryptography](06-rsa-cryptography.md), is Euler's theorem plus fast exponentiation: encryption and decryption are $m^e \bmod n$ and $c^d \bmod n$, and they work because $ed \equiv 1 \pmod{\varphi(n)}$.
 - Hash functions, pseudorandom generators and Diffie-Hellman key exchange all compute $g^x \bmod p$ with square-and-multiply. The same repeated-squaring idea computes Fibonacci numbers through matrix powers, and the recursion `fast_pow` in the [strong induction lesson](../../04-proofs-and-logic/05-induction/02-strong-induction-and-well-ordering.md) is this algorithm written recursively.
-- The shape "work proportional to $\log e$" is the first example of an exponential speed-up from repeated halving, the same pattern as binary search in asymptotic notation<!-- link: ../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->.
+- The shape "work proportional to $\log e$" is the first example of an exponential speed-up from repeated halving, the same pattern as binary search in [asymptotic notation](../04-sums-recurrences-and-algorithms/04-asymptotic-notation.md).

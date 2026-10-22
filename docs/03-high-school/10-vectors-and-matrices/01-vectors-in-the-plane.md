@@ -357,7 +357,7 @@ doc2 = [1, 1, 1, 0, 0]
 print(dot(doc1, doc2) / (length(doc1) * length(doc2)))  # 0.7071067811865476
 ```
 
-The `max(-1, min(1, c))` guards against a rounding error: for two parallel vectors, $c$ can come out as $1.0000000000000002$, and `math.acos` raises an error for any value above 1. The last lines show the idea behind many search and recommendation systems: turn each document into a vector of word counts and measure the angle between the vectors. The number $\cos\theta$ is the cosine similarity, and it is 1 for the same direction and 0 for no words in common. The same code works for vectors with any number of components, not just two. Floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains the rounding.
+The `max(-1, min(1, c))` guards against a rounding error: for two parallel vectors, $c$ can come out as $1.0000000000000002$, and `math.acos` raises an error for any value above 1. The last lines show the idea behind many search and recommendation systems: turn each document into a vector of word counts and measure the angle between the vectors. The number $\cos\theta$ is the cosine similarity, and it is 1 for the same direction and 0 for no words in common. The same code works for vectors with any number of components, not just two. [Floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains the rounding.
 
 </details>
 

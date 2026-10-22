@@ -402,5 +402,5 @@ Check: the sugar becomes $\frac{3}{4} \times \frac{5}{3} = \frac{5}{4}$ cups, an
 ## Where this shows up
 
 - The next lesson, [proportional relationships](02-proportional-relationships.md), sets two ratios equal and solves for a missing term. A percent is a ratio written per hundred ([percents](03-percents.md)).
-- Shelf-label unit prices come back in unit price and comparison shopping<!-- link: ../../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md -->. In economics every price is a rate, in dollars per unit, and an opportunity cost is a ratio of what you give up to what you get (opportunity cost and the PPC<!-- link: ../../07-economics-math/02-markets/01-opportunity-cost-and-the-ppc.md -->).
+- Shelf-label unit prices come back in [unit price and comparison shopping](../../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md). In economics every price is a rate, in dollars per unit, and an opportunity cost is a ratio of what you give up to what you get ([opportunity cost and the PPC](../../07-economics-math/02-markets/01-opportunity-cost-and-the-ppc.md)).
 - Computing is full of rates and ratios: throughput in requests per second, bandwidth in megabits per second, and the aspect ratio of a screen or image, which an image editor keeps fixed when it resizes a photo.

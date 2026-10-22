@@ -300,7 +300,7 @@ print(math.sin(math.pi))                    # 1.2246467991473532e-16, not 0
 print(math.isclose(math.sin(math.pi), 0, abs_tol=1e-12))  # True
 ```
 
-The value of `math.sin(math.pi)` is about $10^{-16}$ and not 0, because `math.pi` is a float that is a tiny bit off from $\pi$, and floats have limited precision. So compare floats with `math.isclose` and a tolerance, as explained in floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->.
+The value of `math.sin(math.pi)` is about $10^{-16}$ and not 0, because `math.pi` is a float that is a tiny bit off from $\pi$, and floats have limited precision. So compare floats with `math.isclose` and a tolerance, as explained in [floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md).
 
 </details>
 

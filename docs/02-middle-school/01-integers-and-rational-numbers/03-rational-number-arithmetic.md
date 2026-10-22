@@ -257,7 +257,7 @@ print(Fraction(36, 99), float(Fraction(4, 11)))  # 4/11 0.36363636363636365
 print(Fraction("0.1"), Fraction(0.1))            # 1/10 3602879701896397/36028797018963968
 ```
 
-The last line shows why floats are inexact. `Fraction("0.1")` reads the text 0.1 exactly, but `Fraction(0.1)` converts the float 0.1, which is stored as a fraction whose denominator is $2^{55} = 36{,}028{,}797{,}018{,}963{,}968$. In binary, the terminating rule allows only the prime 2 in the denominator, and $\frac{1}{10}$ has a 5, so the computer stores the nearest fraction it can. Floating point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains the format.
+The last line shows why floats are inexact. `Fraction("0.1")` reads the text 0.1 exactly, but `Fraction(0.1)` converts the float 0.1, which is stored as a fraction whose denominator is $2^{55} = 36{,}028{,}797{,}018{,}963{,}968$. In binary, the terminating rule allows only the prime 2 in the denominator, and $\frac{1}{10}$ has a 5, so the computer stores the nearest fraction it can. [Floating point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains the format.
 
 </details>
 

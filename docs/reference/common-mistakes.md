@@ -216,7 +216,7 @@ Right: $-17 = 5 \times (-4) + 3$, so the quotient is $-4$ and the remainder is 3
 
 The division algorithm asks for $0 \le r < d$, so the remainder is never negative. Take the largest multiple of 5 that is not bigger than $-17$, which is $-20$. Python agrees, since `divmod(-17, 5)` is `(-4, 3)`. C, C++ and Java round the quotient toward 0 instead, so their `-17 % 5` is `-2`.
 
-Taught in [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#challenge), [existence and uniqueness proofs](../04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md#edge-cases-and-common-mistakes) and divisibility and modular arithmetic<!-- link: ../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+Taught in [integer arithmetic and sign rules](../02-middle-school/01-integers-and-rational-numbers/02-integer-arithmetic-and-sign-rules.md#challenge), [existence and uniqueness proofs](../04-proofs-and-logic/04-more-proof-methods/02-existence-and-uniqueness-proofs.md#edge-cases-and-common-mistakes) and [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md).
 
 ## Fractions, decimals and percents
 

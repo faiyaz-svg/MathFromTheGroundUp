@@ -27,7 +27,7 @@ A clock shows 9. Five hours later it shows 2, not 14. On a clock face, 14 and 2 
 
 Computers are full of this wrapping. A 32-bit counter that passes $2^{32} - 1$ starts again at 0. A hash table with 8 buckets sends a key to bucket `h % 8`. A credit card number carries a last digit chosen so that a weighted sum of all the digits leaves remainder 0 when divided by 10, which catches most typing mistakes.
 
-This lesson makes the wrapping exact. We first prove the facts about "divides" that everything else uses, then prove the division algorithm for every integer, including negative ones, which the [long division](../../01-elementary/07-long-division.md) lesson left for here. Then we define congruence and show that you can add, subtract and multiply while reducing at any point you like. Division is the one operation that does not carry over so easily; that is the subject of modular inverses and the Chinese remainder theorem<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->.
+This lesson makes the wrapping exact. We first prove the facts about "divides" that everything else uses, then prove the division algorithm for every integer, including negative ones, which the [long division](../../01-elementary/07-long-division.md) lesson left for here. Then we define congruence and show that you can add, subtract and multiply while reducing at any point you like. Division is the one operation that does not carry over so easily; that is the subject of [modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md).
 
 ## Definitions
 
@@ -157,7 +157,7 @@ In plain words, you may reduce at any stage. Theorem 6 is also the reason arithm
 3. Reduce the result to the range 0 to $n - 1$.
 4. Check by working one piece a different way, or by comparing with the full-size computation if it is small enough to do.
 
-Only the base of a power is reduced. The exponent follows different rules, which come in Fermat, Euler and fast exponentiation<!-- link: 05-fermat-euler-and-fast-exponentiation.md -->.
+Only the base of a power is reduced. The exponent follows different rules, which come in [Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md).
 
 <div class="warning" markdown>
 
@@ -207,7 +207,7 @@ $$
 
 and $130 = 11 \cdot 11 + 9$, so $d_{10} \equiv -9 \equiv 2 \pmod{11}$. The ISBN is 0-306-40615-2. The full sum with $d_{10}$ is $132 = 12 \cdot 11$.
 
-Why does the rule catch an error in one digit? If $d_i$ is replaced by a different digit, the sum changes by $w \cdot e$, where $w$ is the weight (from 1 to 10) and $e$ is the change (nonzero, at most 10 in absolute value). The new sum is a multiple of 11 only if $11 \mid we$. Since 11 is prime, $11 \mid we$ would force $11 \mid w$ or $11 \mid e$ (Euclid's lemma, proved in primes and unique factorization<!-- link: 03-primes-and-unique-factorization.md -->), and neither is possible. That is why the modulus is 11, not 10: with a modulus like 10, a weight of 2 or 5 can hide an error.
+Why does the rule catch an error in one digit? If $d_i$ is replaced by a different digit, the sum changes by $w \cdot e$, where $w$ is the weight (from 1 to 10) and $e$ is the change (nonzero, at most 10 in absolute value). The new sum is a multiple of 11 only if $11 \mid we$. Since 11 is prime, $11 \mid we$ would force $11 \mid w$ or $11 \mid e$ (Euclid's lemma, proved in [primes and unique factorization](03-primes-and-unique-factorization.md)), and neither is possible. That is why the modulus is 11, not 10: with a modulus like 10, a weight of 2 or 5 can hide an error.
 
 The **Luhn algorithm** protects credit card numbers, and many other identification numbers, and uses modulus 10. Starting from the rightmost digit, double every second digit (the second from the right, the fourth, and so on); if doubling gives a number above 9, subtract 9. Add everything. The number is valid when the total is a multiple of 10. For 79927398713, the doubled digits are $1 \to 2$, $8 \to 16 \to 7$, $3 \to 6$, $2 \to 4$ and $9 \to 18 \to 9$, and the total is $70$, so the number is valid. Luhn catches every single-digit error and most swaps of two neighbouring digits, but not the swap 09 and 90.
 
@@ -306,8 +306,8 @@ The modulus must be at least 1. Modulo 1, every two integers are congruent, sinc
 
 - Look for $\pm 1$. In arithmetic mod 7, $6 \equiv -1$, $8 \equiv 1$ and $13 \equiv -1$, so $6^{99} \equiv -1$ and $8^{1000} \equiv 1$. In mod 9 and mod 11, the digit rules of Theorem 8 are the same idea.
 - The last digit of a number is its remainder mod 10, and the last two digits are its remainder mod 100. Since $4 \mid 100$, a number is divisible by 4 exactly when its last two digits are: $n = 100m + t$ with $t$ the last two digits, and $4 \mid 100m$.
-- For a power of 2 as the modulus, the remainder is the low bits: $n \bmod 2^k$ is `n & (2**k - 1)`, the bit masks of bitwise operations and masks<!-- link: ../01-number-representation/05-bitwise-operations-and-masks.md -->.
-- Powers cycle. The powers of 2 mod 7 are $1, 2, 4, 1, 2, 4, \dots$, with period 3, and the powers of 10 mod 11 alternate $1, -1, 1, -1, \dots$. Find the cycle, then reduce the exponent by its length. Why a cycle exists, and how long it can be, is the subject of Fermat, Euler and fast exponentiation<!-- link: 05-fermat-euler-and-fast-exponentiation.md -->.
+- For a power of 2 as the modulus, the remainder is the low bits: $n \bmod 2^k$ is `n & (2**k - 1)`, the bit masks of [bitwise operations and masks](../01-number-representation/05-bitwise-operations-and-masks.md).
+- Powers cycle. The powers of 2 mod 7 are $1, 2, 4, 1, 2, 4, \dots$, with period 3, and the powers of 10 mod 11 alternate $1, -1, 1, -1, \dots$. Find the cycle, then reduce the exponent by its length. Why a cycle exists, and how long it can be, is the subject of [Fermat, Euler and fast exponentiation](05-fermat-euler-and-fast-exponentiation.md).
 
 ## In code
 
@@ -376,7 +376,7 @@ Equal numbers are the same number. Congruent numbers are different numbers that 
 
 ### Why can't I divide a congruence by a number?
 
-Division would need a number to multiply by that undoes the first multiplication, an inverse. Mod 12 the product $6 \cdot 2$ and $6 \cdot 4$ are both 0, so dividing by 6 would turn $0 \equiv 0$ into $2 \equiv 4$. Some numbers do have inverses mod $n$ (mod 7, $3 \cdot 5 \equiv 1$), and exactly which ones is answered in modular inverses and the Chinese remainder theorem<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->.
+Division would need a number to multiply by that undoes the first multiplication, an inverse. Mod 12 the product $6 \cdot 2$ and $6 \cdot 4$ are both 0, so dividing by 6 would turn $0 \equiv 0$ into $2 \equiv 4$. Some numbers do have inverses mod $n$ (mod 7, $3 \cdot 5 \equiv 1$), and exactly which ones is answered in [modular inverses and the Chinese remainder theorem](04-modular-inverses-and-chinese-remainder-theorem.md).
 
 ### Do I need to know both versions of `%`?
 
@@ -504,6 +504,6 @@ Check: $-209 \cdot 13 = -2{,}717$, and $-2{,}717 + 12 = -2{,}705$. Also $2{,}705
 
 ## Where this shows up
 
-- The next lesson, GCD and Euclid's algorithm<!-- link: 02-gcd-and-euclids-algorithm.md -->, runs the division algorithm repeatedly, and the rest of the chapter builds arithmetic mod $n$ into RSA cryptography<!-- link: 06-rsa-cryptography.md -->.
+- The next lesson, [GCD and Euclid's algorithm](02-gcd-and-euclids-algorithm.md), runs the division algorithm repeatedly, and the rest of the chapter builds arithmetic mod $n$ into [RSA cryptography](06-rsa-cryptography.md).
 - Wrap-around arithmetic is how fixed-width integers behave: two's complement<!-- link: ../01-number-representation/03-binary-arithmetic-and-twos-complement.md --> computes mod $2^{32}$ or $2^{64}$, and hash tables, circular buffers, calendars and cron schedules all reduce mod something.
 - Congruence is the main example of an equivalence relation in [equivalence relations and partitions](../../04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md), and the first step to the abstract algebra courses that follow discrete math.

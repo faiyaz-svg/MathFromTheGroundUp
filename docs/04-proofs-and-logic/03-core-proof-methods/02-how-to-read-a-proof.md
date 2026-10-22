@@ -148,7 +148,7 @@ Here is a plausible proof. *Claim:* if $a \mid bc$, then $a \mid b$ or $a \mid c
 
 Each sentence reads fine. Apply question 6 and push numbers through. Take $a = 6$, $b = 2$ and $c = 3$. Then $bc = 6 = 6 \times 1$, so $a \mid bc$ holds, and the proof's lines go through. But $6 \nmid 2$ and $6 \nmid 3$, so the conclusion fails. The claim is false, and the last sentence of the "proof" is where it breaks: "divides the product, so divides one of the factors" was written down with no reason.
 
-Question 4 would have flagged the same line: no tag fits it. It is not a hypothesis, a definition, an earlier line or algebra. What is true is the same statement for a prime $a$ (Euclid's lemma), proved in primes and unique factorization<!-- link: ../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md -->. For composite $a$ it fails exactly when $a$ splits across the factors, as 6 does across 2 and 3.
+Question 4 would have flagged the same line: no tag fits it. It is not a hypothesis, a definition, an earlier line or algebra. What is true is the same statement for a prime $a$ (Euclid's lemma), proved in [primes and unique factorization](../../06-cs-math/02-number-theory/03-primes-and-unique-factorization.md). For composite $a$ it fails exactly when $a$ splits across the factors, as 6 does across 2 and 3.
 
 Check: $6 \mid 6$, $6 \nmid 2$ and $6 \nmid 3$. For a prime, $a = 5$, $b = 10$ and $c = 7$: $5 \mid 70$ and $5 \mid 10$, as the true statement predicts.
 

@@ -219,7 +219,7 @@ When a Fermi quantity could be anywhere between a low and a high value that are 
 
 Check the last digit of a product. The last digit of $387 \times 52$ must be the last digit of $7 \times 2 = 14$, so it ends in 4. An answer of 20,125 is wrong without any more work; the exact value is 20,124.
 
-The nines check catches most slips in long multiplication. Add the digits of each number, and keep adding until you have one digit (a 9 counts as 0). For $387 \times 52 = 20{,}124$: the digits of 387 give $3 + 8 + 7 = 18$, then $1 + 8 = 9$, which counts as 0; the digits of 52 give 7; and $0 \times 7 = 0$. The answer's digits give $2 + 0 + 1 + 2 + 4 = 9$, which counts as 0, so it passes. A wrong answer such as 20,134 gives 1 and fails. The check can't catch two swapped digits (20,214 passes too), and why it works is modular arithmetic: divisibility and modular arithmetic<!-- link: ../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->.
+The nines check catches most slips in long multiplication. Add the digits of each number, and keep adding until you have one digit (a 9 counts as 0). For $387 \times 52 = 20{,}124$: the digits of 387 give $3 + 8 + 7 = 18$, then $1 + 8 = 9$, which counts as 0; the digits of 52 give 7; and $0 \times 7 = 0$. The answer's digits give $2 + 0 + 1 + 2 + 4 = 9$, which counts as 0, so it passes. A wrong answer such as 20,134 gives 1 and fails. The check can't catch two swapped digits (20,214 passes too), and why it works is modular arithmetic: [divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md).
 
 ## In code
 

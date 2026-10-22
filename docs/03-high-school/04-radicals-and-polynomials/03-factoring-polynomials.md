@@ -53,7 +53,7 @@ $$
 
 By the associative property, the left side is $\left(\frac{1}{a} \cdot a\right) b = 1 \cdot b = b$. So $b = 0$. $\blacksquare$
 
-Look back: the proof used a reciprocal, so it needs a number system where nonzero numbers can be divided. It can fail elsewhere. In arithmetic mod 6, $2 \cdot 3 = 6 \equiv 0$ although neither factor is 0 (divisibility and modular arithmetic<!-- link: ../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md -->). The theorem extends to any number of factors: a product of real numbers is zero if and only if at least one factor is zero. Taking the other side, a product of nonzero numbers is never zero, which is the fact that [polynomial arithmetic](02-polynomial-arithmetic.md#definitions) used to show that the leading coefficient of a product can't vanish.
+Look back: the proof used a reciprocal, so it needs a number system where nonzero numbers can be divided. It can fail elsewhere. In arithmetic mod 6, $2 \cdot 3 = 6 \equiv 0$ although neither factor is 0 ([divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md)). The theorem extends to any number of factors: a product of real numbers is zero if and only if at least one factor is zero. Taking the other side, a product of nonzero numbers is never zero, which is the fact that [polynomial arithmetic](02-polynomial-arithmetic.md#definitions) used to show that the leading coefficient of a product can't vanish.
 
 ### The factoring identities
 
