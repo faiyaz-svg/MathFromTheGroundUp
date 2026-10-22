@@ -343,7 +343,7 @@ There are several accepted ways to define quartiles, and they differ in how they
 
 ### Why use absolute values for spread, and not squares?
 
-Both work, and both stop the deviations from cancelling. The MAD is easier to compute and to read. University statistics mostly uses the standard deviation, which squares the deviations, averages them, and takes a square root at the end, because squares behave better in the algebra that comes later. You meet it in descriptive statistics and study design<!-- link: ../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
+Both work, and both stop the deviations from cancelling. The MAD is easier to compute and to read. University statistics mostly uses the standard deviation, which squares the deviations, averages them, and takes a square root at the end, because squares behave better in the algebra that comes later. You meet it in [descriptive statistics and study design](../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md).
 
 ### Should I just delete outliers?
 
@@ -487,6 +487,6 @@ Check: after both changes the lowest salary is $1.04 \times 48{,}000 + 2000 = 51
 
 ## Where this shows up
 
-- Descriptive statistics and study design<!-- link: ../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md --> adds the standard deviation, and [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md) defines the expected value, which is a weighted mean with probabilities as weights. Scatter plots, in [scatter plots and two-way tables](03-scatter-plots-and-two-way-tables.md), describe two variables at once.
+- [Descriptive statistics and study design](../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md) adds the standard deviation, and [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md) defines the expected value, which is a weighted mean with probabilities as weights. Scatter plots, in [scatter plots and two-way tables](03-scatter-plots-and-two-way-tables.md), describe two variables at once.
 - In CS, performance is reported with medians and percentiles: a "p50 latency" is the median response time and "p99" is the time that 99% of requests beat, because a few slow requests make the mean misleading. Comparing algorithms on many inputs uses the same summaries.
 - Economics and finance are full of weighted means: the consumer price index weights prices by how much households spend on each item (index numbers<!-- link: ../../07-economics-math/01-measuring-the-economy/04-index-numbers.md -->), and a portfolio's return is the mean of its investments' returns weighted by the money in each (investing returns and risk<!-- link: ../../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md -->).

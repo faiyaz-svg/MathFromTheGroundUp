@@ -1129,7 +1129,7 @@ A statement "if P, then Q" is **vacuously true** when P is false, because there 
 
 A **variable** is a symbol, usually a letter, that stands for a number. The number may be one unknown value that we want to find, or it may range over a set of values. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md#definitions).
 
-The **variance** measures how spread out values are: it is the average squared distance from the mean. For a random variable, $\operatorname{Var}(X) = E[(X - \mu)^2]$, and its square root is the standard deviation. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md) and descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
+The **variance** measures how spread out values are: it is the average squared distance from the mean. For a random variable, $\operatorname{Var}(X) = E[(X - \mu)^2]$, and its square root is the standard deviation. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md) and [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md).
 
 A **vector** is a quantity with a size and a direction, written as a list of numbers such as $(3, 4)$. The numbers in the list are its components. In linear algebra the word covers every element of a vector space. Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md).
 

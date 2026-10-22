@@ -162,7 +162,7 @@ To fit $y = a + bx$ to data points $(x_1, y_1), \dots, (x_m, y_m)$:
 3. Solve the $2 \times 2$ system $A^TA\hat{\mathbf{x}} = A^T\mathbf{b}$ (for example with Cramer's rule from [determinants](06-determinants.md)).
 4. Check: compute the residuals $y_i - (a + bx_i)$. They should add to 0 (because of the column of ones) and have $\sum x_i r_i = 0$.
 
-Solving with Cramer's rule gives the familiar slope $b = \dfrac{m\sum x_iy_i - \sum x_i\sum y_i}{m\sum x_i^2 - \left(\sum x_i\right)^2}$ and intercept $a = \bar{y} - b\bar{x}$, where $\bar{x}$ and $\bar{y}$ are the means. The statistics lesson correlation and linear regression<!-- link: ../08-statistics/04-correlation-and-linear-regression.md --> reaches the same line from the side of correlation.
+Solving with Cramer's rule gives the familiar slope $b = \dfrac{m\sum x_iy_i - \sum x_i\sum y_i}{m\sum x_i^2 - \left(\sum x_i\right)^2}$ and intercept $a = \bar{y} - b\bar{x}$, where $\bar{x}$ and $\bar{y}$ are the means. The statistics lesson [correlation and linear regression](../08-statistics/04-correlation-and-linear-regression.md) reaches the same line from the side of correlation.
 
 ## Worked examples
 
@@ -506,5 +506,5 @@ Check: the residuals are $2 - \frac{23}{14} = \frac{5}{14}$, $3 - \frac{46}{14} 
 ## Where this shows up
 
 - In the next lesson, [eigenvalues and eigenvectors](08-eigenvalues-and-eigenvectors.md), the symmetric matrices have an orthonormal basis of eigenvectors, so every vector is written with the coordinates of Theorem 1.
-- In statistics and economics, a regression is a least-squares fit. The next steps are correlation and linear regression<!-- link: ../08-statistics/04-correlation-and-linear-regression.md --> and regression and econometrics intuition<!-- link: ../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md -->, where the normal equations $A^TA\hat{\mathbf{x}} = A^T\mathbf{b}$ become the formula for the coefficients.
+- In statistics and economics, a regression is a least-squares fit. The next steps are [correlation and linear regression](../08-statistics/04-correlation-and-linear-regression.md) and regression and econometrics intuition<!-- link: ../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md -->, where the normal equations $A^TA\hat{\mathbf{x}} = A^T\mathbf{b}$ become the formula for the coefficients.
 - In CS, fitting a linear model to data is least squares, and training it by gradient descent (the one-variable case is in [optimization](../03-applications-of-derivatives/05-optimization.md)) approaches the same solution. QR factorization, built from Gram-Schmidt, is how numerical libraries solve least-squares problems.

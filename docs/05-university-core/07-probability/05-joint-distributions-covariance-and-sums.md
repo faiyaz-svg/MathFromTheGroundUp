@@ -349,7 +349,7 @@ The product $(X - \mu_X)(Y - \mu_Y)$ is positive when both deviations have the s
 
 ### Is a correlation of 0.5 "half as strong" as 1?
 
-No, correlation is not a proportion. A better reading is $\rho^2$, the share of the variance of one variable that a straight-line fit on the other accounts for. For $\rho = 0.5$ this is 25%. For $\rho = 0.9$ it is 81%. The lesson on correlation and linear regression<!-- link: ../08-statistics/04-correlation-and-linear-regression.md --> develops this.
+No, correlation is not a proportion. A better reading is $\rho^2$, the share of the variance of one variable that a straight-line fit on the other accounts for. For $\rho = 0.5$ this is 25%. For $\rho = 0.9$ it is 81%. The lesson on [correlation and linear regression](../08-statistics/04-correlation-and-linear-regression.md) develops this.
 
 ### Why does diversification not remove all the risk?
 
@@ -475,6 +475,6 @@ Check with $n = 4$, where the distribution of $X$ is 0, 1, 2, 4 with probabiliti
 
 ## Where this shows up
 
-- The next lesson, [the law of large numbers and the CLT](06-law-of-large-numbers-and-clt.md), uses the variance of a sum of independent variables to show that an average of $n$ of them has variance $\frac{\sigma^2}{n}$. Correlation and the line of best fit are developed in correlation and linear regression<!-- link: ../08-statistics/04-correlation-and-linear-regression.md -->, and in regression and econometrics intuition<!-- link: ../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md -->, where the confounding warning above becomes the main practical problem.
+- The next lesson, [the law of large numbers and the CLT](06-law-of-large-numbers-and-clt.md), uses the variance of a sum of independent variables to show that an average of $n$ of them has variance $\frac{\sigma^2}{n}$. Correlation and the line of best fit are developed in [correlation and linear regression](../08-statistics/04-correlation-and-linear-regression.md), and in regression and econometrics intuition<!-- link: ../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md -->, where the confounding warning above becomes the main practical problem.
 - In CS and data science, the covariance matrix of many variables is a symmetric matrix whose eigenvectors give the directions of greatest variance, the basis of principal component analysis ([eigenvalues and eigenvectors](../06-linear-algebra/08-eigenvalues-and-eigenvectors.md)). Independence of random bits and hash values is the assumption behind most randomized algorithms (discrete probability<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md -->).
 - In finance, the variance-of-a-sum formula with covariances is the mathematics of diversification and of the mean-variance model of portfolios (investing returns and risk<!-- link: ../../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md -->). Insurance works because the claims of many unrelated policyholders have low covariance (insurance and expected value<!-- link: ../../08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md -->).

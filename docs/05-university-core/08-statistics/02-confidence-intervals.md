@@ -85,7 +85,7 @@ We know that $Z = \frac{\bar{X} - \mu}{\text{SE}}$ is standard normal, by [stand
 
 *Proof.* The event $\bar{X} - z^*\text{SE} \le \mu \le \bar{X} + z^*\text{SE}$ is the same as $-z^*\text{SE} \le \bar{X} - \mu \le z^*\text{SE}$, which divides to $-z^* \le Z \le z^*$. By the definition of $z^*$ this has probability $C$. $\blacksquare$
 
-Look back: the randomness is in $\bar{X}$, so it is the interval that moves from sample to sample while $\mu$ stays fixed. The event "within $z^*$ standard errors" is symmetric, and that symmetry is why the interval is $\bar{x} \pm$ margin. Real data differ from this ideal in two ways. If the population is not normal, the central limit theorem (the law of large numbers and the CLT<!-- link: ../07-probability/06-law-of-large-numbers-and-clt.md -->) makes $\bar{X}$ nearly normal when $n$ is large enough. And if $\sigma$ is replaced by $s$, the ratio is a t variable rather than a normal one, so $z^*$ is replaced by $t^*$.
+Look back: the randomness is in $\bar{X}$, so it is the interval that moves from sample to sample while $\mu$ stays fixed. The event "within $z^*$ standard errors" is symmetric, and that symmetry is why the interval is $\bar{x} \pm$ margin. Real data differ from this ideal in two ways. If the population is not normal, the central limit theorem ([the law of large numbers and the CLT](../07-probability/06-law-of-large-numbers-and-clt.md)) makes $\bar{X}$ nearly normal when $n$ is large enough. And if $\sigma$ is replaced by $s$, the ratio is a t variable rather than a normal one, so $z^*$ is replaced by $t^*$.
 
 ### A confidence interval for a mean
 

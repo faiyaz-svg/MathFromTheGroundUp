@@ -240,7 +240,7 @@ Watch out: row and column percents answer different questions. In Example 2, "wh
 
 An outlier can tilt a line of best fit, especially if it sits at the far left or right. If one point is far off the pattern, draw the line through the rest, and mention the outlier separately.
 
-With very few points, a pattern can appear by chance. Three points almost always look like some kind of trend. Twelve points, as in Example 1, are more convincing, and university statistics measures how convincing in correlation and linear regression<!-- link: ../../05-university-core/08-statistics/04-correlation-and-linear-regression.md -->.
+With very few points, a pattern can appear by chance. Three points almost always look like some kind of trend. Twelve points, as in Example 1, are more convincing, and university statistics measures how convincing in [correlation and linear regression](../../05-university-core/08-statistics/04-correlation-and-linear-regression.md).
 
 ## Tricks and shortcuts
 
@@ -290,7 +290,7 @@ The least-squares line, $y \approx 5.05x + 46.92$, is close to the line by eye, 
 
 ### How do I know if my line by eye is right?
 
-There is no single right line by eye; two people will draw slightly different ones, and both are fine if they follow the trend and split the points. The standard choice is the least-squares line, which makes the total of the squared vertical distances from the points to the line as small as possible. You compute it in correlation and linear regression<!-- link: ../../05-university-core/08-statistics/04-correlation-and-linear-regression.md -->, and a spreadsheet's "trendline" option draws it.
+There is no single right line by eye; two people will draw slightly different ones, and both are fine if they follow the trend and split the points. The standard choice is the least-squares line, which makes the total of the squared vertical distances from the points to the line as small as possible. You compute it in [correlation and linear regression](../../05-university-core/08-statistics/04-correlation-and-linear-regression.md), and a spreadsheet's "trendline" option draws it.
 
 ### What is the correlation coefficient?
 
@@ -298,7 +298,7 @@ It is a number $r$ from $-1$ to 1 that measures the direction and strength of a 
 
 ### If association doesn't prove causation, how does anyone show a cause?
 
-With a randomized experiment: assign the explanatory variable at random, so that confounders such as motivation or population even out between the groups. If the groups then differ in the response, the explanatory variable is the likely cause. When an experiment is impossible or unethical, as with smoking, researchers combine many studies and control for known confounders. Study design is in descriptive statistics and study design<!-- link: ../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
+With a randomized experiment: assign the explanatory variable at random, so that confounders such as motivation or population even out between the groups. If the groups then differ in the response, the explanatory variable is the likely cause. When an experiment is impossible or unethical, as with smoking, researchers combine many studies and control for known confounders. Study design is in [descriptive statistics and study design](../../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md).
 
 ### Should the groups go in the rows or the columns?
 
@@ -462,6 +462,6 @@ Check: the second point fits, since $5 \times 10 + 35 = 85$.
 
 ## Where this shows up
 
-- Correlation and linear regression<!-- link: ../../05-university-core/08-statistics/04-correlation-and-linear-regression.md --> computes the correlation coefficient and the least-squares line, and [orthogonality, projections and least squares](../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md) shows why that line is the best. Two-way tables lead to [conditional probability and Bayes' theorem](../../05-university-core/07-probability/02-conditional-probability-and-bayes.md), where a row percent becomes a probability "given" the row.
+- [Correlation and linear regression](../../05-university-core/08-statistics/04-correlation-and-linear-regression.md) computes the correlation coefficient and the least-squares line, and [orthogonality, projections and least squares](../../05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md) shows why that line is the best. Two-way tables lead to [conditional probability and Bayes' theorem](../../05-university-core/07-probability/02-conditional-probability-and-bayes.md), where a row percent becomes a probability "given" the row.
 - In CS, a fitted line is the simplest machine-learning model, and A/B tests compare two versions of a page with a two-way table of version against outcome (clicked or not).
 - Economics estimates relationships such as demand against price, and spends much of its effort on confounders, in regression and econometrics intuition<!-- link: ../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md -->.
