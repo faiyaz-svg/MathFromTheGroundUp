@@ -186,7 +186,7 @@ $$
 
 For $p = \frac{1}{6}$ the expected number of rolls is $6$. The series converges because the ratio $1 - p$ has absolute value below 1.
 
-Check: the direct sum $\sum k\,p(1 - p)^{k-1}$ with $p = \frac{1}{6}$, computed to 2000 terms, equals 6.0000, in agreement. The same series prices a retry loop in code: if a randomized step succeeds with probability $p$, you expect to run it $\frac{1}{p}$ times. A hash-table probe in open addressing at load factor $\alpha$ fails with probability $\alpha$ on each try, so the expected number of probes in a standard model (uniform hashing, as in Cormen et al., *Introduction to Algorithms*) is at most $\frac{1}{1 - \alpha}$, which is 10 at $\alpha = 0.9$. The expected value is treated fully in discrete random variables<!-- link: ../07-probability/03-discrete-random-variables.md -->.
+Check: the direct sum $\sum k\,p(1 - p)^{k-1}$ with $p = \frac{1}{6}$, computed to 2000 terms, equals 6.0000, in agreement. The same series prices a retry loop in code: if a randomized step succeeds with probability $p$, you expect to run it $\frac{1}{p}$ times. A hash-table probe in open addressing at load factor $\alpha$ fails with probability $\alpha$ on each try, so the expected number of probes in a standard model (uniform hashing, as in Cormen et al., *Introduction to Algorithms*) is at most $\frac{1}{1 - \alpha}$, which is 10 at $\alpha = 0.9$. The expected value is treated fully in [discrete random variables](../07-probability/03-discrete-random-variables.md).
 
 </div>
 
@@ -442,5 +442,5 @@ Check: $S_1 = 1$, $S_2 = 1 - 1 = 0$, $S_3 = 1$, matching $\frac{1 - (-1)^n}{2}$.
 ## Where this shows up
 
 - The next lesson gives tests for deciding convergence without a formula for the partial sums ([convergence tests](03-convergence-tests.md)), and the lesson after it turns series into functions ([power series and Taylor series](04-power-series-and-taylor-series.md)).
-- In CS, closed forms for sums are the working tool of algorithm analysis (sums and closed forms<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md -->), and the geometric series $\sum (1 - p)^k = \frac{1}{p}$ is the expected cost of every "retry until success" loop (discrete random variables<!-- link: ../07-probability/03-discrete-random-variables.md -->).
+- In CS, closed forms for sums are the working tool of algorithm analysis (sums and closed forms<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md -->), and the geometric series $\sum (1 - p)^k = \frac{1}{p}$ is the expected cost of every "retry until success" loop ([discrete random variables](../07-probability/03-discrete-random-variables.md)).
 - In economics and finance, perpetuities, bond prices and the multiplier are geometric series (present value, NPV and bond prices<!-- link: ../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md -->, annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->).

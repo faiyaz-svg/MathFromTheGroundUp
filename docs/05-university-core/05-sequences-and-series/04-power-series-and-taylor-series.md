@@ -230,7 +230,7 @@ Check: $\sin 0.1 = 0.0998334166\ldots$, and the difference from $T_3(0.1)$ is $8
 
 ### Example 5: an integral with no elementary antiderivative
 
-Estimate $\displaystyle\int_0^1 e^{-x^2}\,dx$ (the area under the bell curve, which matters for continuous random variables and the normal distribution<!-- link: ../07-probability/04-continuous-random-variables-and-the-normal.md -->).
+Estimate $\displaystyle\int_0^1 e^{-x^2}\,dx$ (the area under the bell curve, which matters for [continuous random variables and the normal distribution](../07-probability/04-continuous-random-variables-and-the-normal.md)).
 
 Substitute $t = -x^2$ in the series for $e^t$: $e^{-x^2} = \sum_{k=0}^{\infty}\frac{(-1)^kx^{2k}}{k!} = 1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6} + \cdots$, valid for all $x$. Integrate term by term from 0 to 1 (Theorem 4):
 

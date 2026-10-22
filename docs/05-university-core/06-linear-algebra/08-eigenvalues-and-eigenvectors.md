@@ -108,7 +108,7 @@ Look back: diagonalization is a change of basis. Multiplying by $P^{-1}$ writes 
 
 ### A Markov chain
 
-A weather model: if today is sunny, tomorrow is sunny with probability $0.8$ and rainy with probability $0.2$. If today is rainy, tomorrow is sunny with probability $0.4$ and rainy with probability $0.6$. (The numbers are made up.) Let $\mathbf{x}_k = (s_k, r_k)$ be the probabilities of sun and rain on day $k$. The transition probabilities are conditional probabilities (see conditional probability and Bayes' theorem<!-- link: ../07-probability/02-conditional-probability-and-bayes.md -->), and the law of total probability gives
+A weather model: if today is sunny, tomorrow is sunny with probability $0.8$ and rainy with probability $0.2$. If today is rainy, tomorrow is sunny with probability $0.4$ and rainy with probability $0.6$. (The numbers are made up.) Let $\mathbf{x}_k = (s_k, r_k)$ be the probabilities of sun and rain on day $k$. The transition probabilities are conditional probabilities (see [conditional probability and Bayes' theorem](../07-probability/02-conditional-probability-and-bayes.md)), and the law of total probability gives
 
 $$
 \begin{pmatrix} s_{k+1} \\ r_{k+1} \end{pmatrix} = \begin{pmatrix} 0.8 & 0.4 \\ 0.2 & 0.6 \end{pmatrix}\begin{pmatrix} s_k \\ r_k \end{pmatrix}, \qquad \mathbf{x}_{k+1} = M\mathbf{x}_k, \qquad \mathbf{x}_k = M^k\mathbf{x}_0.
@@ -182,7 +182,7 @@ We know $A^T = A$, so $(A\mathbf{v}) \cdot \mathbf{w} = \mathbf{v}^TA^T\mathbf{w
 
 *Proof.* Let $A\mathbf{v} = \lambda\mathbf{v}$ and $A\mathbf{w} = \mu\mathbf{w}$ with $\lambda \ne \mu$. Then $\lambda(\mathbf{v} \cdot \mathbf{w}) = (A\mathbf{v}) \cdot \mathbf{w} = \mathbf{v} \cdot (A\mathbf{w}) = \mu(\mathbf{v} \cdot \mathbf{w})$. So $(\lambda - \mu)(\mathbf{v} \cdot \mathbf{w}) = 0$, and since $\lambda - \mu \ne 0$, $\mathbf{v} \cdot \mathbf{w} = 0$. $\blacksquare$
 
-The rest of the story is a theorem that this book states without proof. *Spectral theorem:* a real symmetric matrix has only real eigenvalues, and $\mathbb{R}^n$ has an orthonormal basis of eigenvectors, so $A = QDQ^T$ with $Q$ an orthogonal matrix, $Q^{-1} = Q^T$. Symmetric matrices are always diagonalizable, and the eigenvectors are perpendicular axes, as in the ellipse picture, where the axes of the ellipse $(1, 1)$ and $(1, -1)$ are orthogonal. The same fact is behind principal component analysis, which finds the axes of a cloud of data as the eigenvectors of its covariance matrix (see joint distributions, covariance and sums<!-- link: ../07-probability/05-joint-distributions-covariance-and-sums.md -->).
+The rest of the story is a theorem that this book states without proof. *Spectral theorem:* a real symmetric matrix has only real eigenvalues, and $\mathbb{R}^n$ has an orthonormal basis of eigenvectors, so $A = QDQ^T$ with $Q$ an orthogonal matrix, $Q^{-1} = Q^T$. Symmetric matrices are always diagonalizable, and the eigenvectors are perpendicular axes, as in the ellipse picture, where the axes of the ellipse $(1, 1)$ and $(1, -1)$ are orthogonal. The same fact is behind principal component analysis, which finds the axes of a cloud of data as the eigenvectors of its covariance matrix (see [joint distributions, covariance and sums](../07-probability/05-joint-distributions-covariance-and-sums.md)).
 
 ## Worked examples
 

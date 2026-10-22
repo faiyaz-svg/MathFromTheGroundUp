@@ -256,7 +256,7 @@ Watch out: adding the probabilities of events that overlap. A card is a heart wi
 
 <div class="warning" markdown>
 
-Watch out: multiplying when the events are not independent. A bag holds 2 red and 3 blue marbles, and you draw two without putting the first back. The answer is not $\frac{2}{5} \times \frac{2}{5}$, because after a red is drawn only 1 red is left. Count instead: there are $5 \times 4 = 20$ equally likely ordered pairs of different marbles, and only 2 of them (red 1 then red 2, or red 2 then red 1) are both red, so the probability is $\frac{2}{20} = \frac{1}{10}$. The tool for draws that change the odds is conditional probability, in conditional probability and Bayes' theorem<!-- link: ../../05-university-core/07-probability/02-conditional-probability-and-bayes.md -->.
+Watch out: multiplying when the events are not independent. A bag holds 2 red and 3 blue marbles, and you draw two without putting the first back. The answer is not $\frac{2}{5} \times \frac{2}{5}$, because after a red is drawn only 1 red is left. Count instead: there are $5 \times 4 = 20$ equally likely ordered pairs of different marbles, and only 2 of them (red 1 then red 2, or red 2 then red 1) are both red, so the probability is $\frac{2}{20} = \frac{1}{10}$. The tool for draws that change the odds is conditional probability, in [conditional probability and Bayes' theorem](../../05-university-core/07-probability/02-conditional-probability-and-bayes.md).
 
 </div>
 
@@ -330,7 +330,7 @@ Probably not. A probability of $\frac{1}{2}$ predicts the long-run share, not th
 
 ![The share of heads in 2,000 simulated coin flips, swinging widely over the first 20 flips and then settling close to 0.5](../../assets/figures/02-middle-school/basic-probability-running-proportion.svg)
 
-More trials help because the swings shrink as a share of the total. After 1,000 flips this run had 530 heads, 30 more than half, and after 2,000 it had 1,026, only 26 more than half. The gap stayed about the same size while the total doubled, so the share moved closer to 0.5. The precise statement is the law of large numbers, in the law of large numbers and the CLT<!-- link: ../../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md -->.
+More trials help because the swings shrink as a share of the total. After 1,000 flips this run had 530 heads, 30 more than half, and after 2,000 it had 1,026, only 26 more than half. The gap stayed about the same size while the total doubled, so the share moved closer to 0.5. The precise statement is the law of large numbers, in [the law of large numbers and the CLT](../../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md).
 
 ### Why are there four outcomes for two coins and not three?
 
@@ -338,7 +338,7 @@ Because "one head and one tail" can happen two ways: heads then tails, or tails 
 
 ### What if the outcomes are not equally likely?
 
-Then the counting formula doesn't apply directly. You either split the outcomes into smaller ones that are equally likely (as the 36 cells do for the sums of two dice), or you give each outcome its own probability and add the probabilities of the outcomes in the event, as the tree in Example 2 does. University probability starts from that second view, in sample spaces, events and axioms<!-- link: ../../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md -->.
+Then the counting formula doesn't apply directly. You either split the outcomes into smaller ones that are equally likely (as the 36 cells do for the sums of two dice), or you give each outcome its own probability and add the probabilities of the outcomes in the event, as the tree in Example 2 does. University probability starts from that second view, in [sample spaces, events and axioms](../../05-university-core/07-probability/01-sample-spaces-events-and-axioms.md).
 
 ## Practice
 
@@ -484,6 +484,6 @@ Check: going back from each ratio, $\frac{1}{1 + 4} = 0.2$ and $\frac{1}{1 + 5} 
 
 ## Where this shows up
 
-- Conditional probability and Bayes' theorem<!-- link: ../../05-university-core/07-probability/02-conditional-probability-and-bayes.md --> handles events that are not independent, such as draws without replacement and medical tests. Counting large sample spaces uses [counting: permutations and combinations](../../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md), and the averages from [describing data](01-describing-data.md) return as expected values in discrete random variables<!-- link: ../../05-university-core/07-probability/03-discrete-random-variables.md -->.
+- [Conditional probability and Bayes' theorem](../../05-university-core/07-probability/02-conditional-probability-and-bayes.md) handles events that are not independent, such as draws without replacement and medical tests. Counting large sample spaces uses [counting: permutations and combinations](../../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md), and the averages from [describing data](01-describing-data.md) return as expected values in [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md).
 - In CS, the "at least one" calculation measures system reliability, the chance of a hash collision and the success rate of a randomized algorithm repeated several times (discrete probability<!-- link: ../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md -->). Simulations like the one in [In code](#in-code) are how many such probabilities are estimated in practice.
 - Insurance prices and lottery tickets are probability times money, in insurance and expected value<!-- link: ../../08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md -->.

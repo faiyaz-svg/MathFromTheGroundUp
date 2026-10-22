@@ -365,7 +365,7 @@ To **expand** a product is to multiply it out into a sum of terms with the distr
 
 The **expanded form** of a number writes it as the sum of the values of its digits: $4{,}072 = 4{,}000 + 70 + 2$. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 
-The **expected value** $E[X]$ of a random variable is its long-run average: each value weighted by its probability, $\sum x \, P(X = x)$. One roll of a fair die has expected value 3.5, even though no roll shows 3.5. Taught in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->.
+The **expected value** $E[X]$ of a random variable is its long-run average: each value weighted by its probability, $\sum x \, P(X = x)$. One roll of a fair die has expected value 3.5, even though no roll shows 3.5. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md).
 
 An **explicit formula**, or closed form, gives the $n$-th term of a sequence directly from $n$, such as $a_n = 100 \cdot 1.02^n$. Taught in [sequences and recursion](../03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md#definitions).
 
@@ -847,7 +847,7 @@ A **radian** is the angle at the centre of a circle that cuts off an arc equal i
 
 A **radical equation** is an equation with the unknown under a root. Isolate the radical, raise both sides to the index, and check every answer in the original equation. Taught in [rational and radical equations](../03-high-school/06-rational-expressions-and-equations/03-rational-and-radical-equations.md#definitions).
 
-A **random variable** is a number whose value depends on the outcome of a random experiment, such as the total of two dice. Formally it is a function from the sample space to $\mathbb{R}$; the details are in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md -->.
+A **random variable** is a number whose value depends on the outcome of a random experiment, such as the total of two dice. Formally it is a function from the sample space to $\mathbb{R}$; the details are in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md).
 
 The **range** of a function is the set of outputs that actually occur, $\{f(a) : a \in A\}$, also called the image. Some books use "range" to mean the codomain, so check which one is meant. In statistics, the range of a data set is its largest value minus its smallest. Taught in [introduction to functions](../02-middle-school/05-linear-relationships-and-functions/03-intro-to-functions.md#definitions), [what is a function](../03-high-school/03-functions/01-what-is-a-function.md#definitions) and [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md#functions-as-sets-of-pairs).
 
@@ -1129,7 +1129,7 @@ A statement "if P, then Q" is **vacuously true** when P is false, because there 
 
 A **variable** is a symbol, usually a letter, that stands for a number. The number may be one unknown value that we want to find, or it may range over a set of values. Taught in [variables and expressions](../02-middle-school/03-expressions-equations-inequalities/01-variables-and-expressions.md#definitions).
 
-The **variance** measures how spread out values are: it is the average squared distance from the mean. For a random variable, $\operatorname{Var}(X) = E[(X - \mu)^2]$, and its square root is the standard deviation. Taught in discrete random variables<!-- link: ../05-university-core/07-probability/03-discrete-random-variables.md --> and descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
+The **variance** measures how spread out values are: it is the average squared distance from the mean. For a random variable, $\operatorname{Var}(X) = E[(X - \mu)^2]$, and its square root is the standard deviation. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md) and descriptive statistics and study design<!-- link: ../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md -->.
 
 A **vector** is a quantity with a size and a direction, written as a list of numbers such as $(3, 4)$. The numbers in the list are its components. In linear algebra the word covers every element of a vector space. Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md).
 

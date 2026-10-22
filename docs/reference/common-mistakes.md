@@ -2028,7 +2028,7 @@ Right: $P(A \cap B) = P(A)\,P(B \mid A)$ always, and $P(A \cap B) = P(A)\,P(B)$ 
 
 Roll one die, and let $A$ be "even" and $B$ be "at least 4". Then $A \cap B = \{4, 6\}$, so $P(A \cap B) = \frac{2}{6} = \frac{1}{3}$, while $P(A)\,P(B) = \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$. Knowing the roll is even makes "at least 4" more likely ($\frac{2}{3}$ instead of $\frac{1}{2}$), so the events are not independent.
 
-Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) andconditional probability and Bayes' theorem<!-- link: ../05-university-core/07-probability/02-conditional-probability-and-bayes.md -->.
+Taught in [basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#edge-cases-and-common-mistakes) and[conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md).
 
 ### Swapping the two sides of a conditional probability
 
@@ -2038,7 +2038,7 @@ Right: $P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)}$, which is Bayes' theorem, 
 
 Draw one card from a standard deck. The probability that it is a king, given that it is a face card, is $\frac{4}{12} = \frac{1}{3}$; the probability that it is a face card, given that it is a king, is $1$. The same mistake misleads people about medical tests: a test that catches most sick people can still give mostly false alarms when the disease is rare.
 
-Taught in conditional probability and Bayes' theorem<!-- link: ../05-university-core/07-probability/02-conditional-probability-and-bayes.md -->.
+Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md).
 
 ### Counting ordered choices when order doesn't matter
 

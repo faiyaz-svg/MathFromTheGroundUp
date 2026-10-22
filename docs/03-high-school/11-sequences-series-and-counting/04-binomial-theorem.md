@@ -170,7 +170,7 @@ $$
 P(\text{exactly } k \text{ heads in } n \text{ flips}) = \frac{\binom{n}{k}}{2^n}.
 $$
 
-The row-sum theorem says these probabilities, for $k = 0, \dots, n$, add up to $\frac{2^n}{2^n} = 1$, as they must. For a coin that lands heads with probability $p$, each sequence with $k$ heads has probability $p^k(1-p)^{n-k}$, so the probability of exactly $k$ heads is $\binom{n}{k}p^k(1-p)^{n-k}$, and the binomial theorem with $a = 1 - p$ and $b = p$ shows these add to $(1 - p + p)^n = 1$. These are the probabilities of the binomial distribution (see discrete random variables<!-- link: ../../05-university-core/07-probability/03-discrete-random-variables.md -->).
+The row-sum theorem says these probabilities, for $k = 0, \dots, n$, add up to $\frac{2^n}{2^n} = 1$, as they must. For a coin that lands heads with probability $p$, each sequence with $k$ heads has probability $p^k(1-p)^{n-k}$, so the probability of exactly $k$ heads is $\binom{n}{k}p^k(1-p)^{n-k}$, and the binomial theorem with $a = 1 - p$ and $b = p$ shows these add to $(1 - p + p)^n = 1$. These are the probabilities of the binomial distribution (see [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md)).
 
 ## Worked examples
 
