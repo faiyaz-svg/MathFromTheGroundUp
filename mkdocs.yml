@@ -277,6 +277,7 @@ nav:
           - "Mixed proof practice": 04-proofs-and-logic/07-putting-it-together/02-mixed-proof-practice.md
   - "University":
       - 05-university-core/index.md
+      - Diagnostic: 05-university-core/diagnostic.md
       - "Limits and continuity":
           - 05-university-core/01-limits-and-continuity/index.md
           - "Limits, intuition and limit laws": 05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md
