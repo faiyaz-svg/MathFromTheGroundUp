@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 151 of 247. New lessons appear here as they are added.
+Lessons written so far: 157 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -257,6 +257,15 @@ Lessons written so far: 151 of 247. New lessons appear here as they are added.
 - [ ] [Determinants](05-university-core/06-linear-algebra/06-determinants.md)
 - [ ] [Orthogonality, projections and least squares](05-university-core/06-linear-algebra/07-orthogonality-projections-and-least-squares.md)
 - [ ] [Eigenvalues and eigenvectors](05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md)
+
+### Probability
+
+- [ ] [Sample spaces, events and axioms](05-university-core/07-probability/01-sample-spaces-events-and-axioms.md)
+- [ ] [Conditional probability and Bayes' theorem](05-university-core/07-probability/02-conditional-probability-and-bayes.md)
+- [ ] [Discrete random variables](05-university-core/07-probability/03-discrete-random-variables.md)
+- [ ] [Continuous random variables and the normal distribution](05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md)
+- [ ] [Joint distributions, covariance and sums](05-university-core/07-probability/05-joint-distributions-covariance-and-sums.md)
+- [ ] [The law of large numbers and the CLT](05-university-core/07-probability/06-law-of-large-numbers-and-clt.md)
 
 ## CS math
 

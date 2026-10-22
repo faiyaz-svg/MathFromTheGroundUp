@@ -56,14 +56,14 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 7. [Orthogonality, projections and least squares](06-linear-algebra/07-orthogonality-projections-and-least-squares.md)
 8. [Eigenvalues and eigenvectors](06-linear-algebra/08-eigenvalues-and-eigenvectors.md)
 
-### 7. Probability
+### 7. [Probability](07-probability/index.md)
 
-1. Sample spaces, events and axioms (not written yet)
-2. Conditional probability and Bayes' theorem (not written yet)
-3. Discrete random variables (not written yet)
-4. Continuous random variables and the normal distribution (not written yet)
-5. Joint distributions, covariance and sums (not written yet)
-6. The law of large numbers and the CLT (not written yet)
+1. [Sample spaces, events and axioms](07-probability/01-sample-spaces-events-and-axioms.md)
+2. [Conditional probability and Bayes' theorem](07-probability/02-conditional-probability-and-bayes.md)
+3. [Discrete random variables](07-probability/03-discrete-random-variables.md)
+4. [Continuous random variables and the normal distribution](07-probability/04-continuous-random-variables-and-the-normal.md)
+5. [Joint distributions, covariance and sums](07-probability/05-joint-distributions-covariance-and-sums.md)
+6. [The law of large numbers and the CLT](07-probability/06-law-of-large-numbers-and-clt.md)
 
 ### 8. Statistics
 
