@@ -360,7 +360,7 @@ folders:
         lessons:
           - [graph-basics, "Graph basics"]
           - [paths-connectivity-and-trees, "Paths, connectivity and trees"]
-          - [bipartite-coloring-and-planar-graphs, "Bipartite graphs, coloring and planar graphs"]
+          - [bipartite-coloring-and-planar-graphs, "Bipartite graphs, colouring and planar graphs"]
       - slug: theory-of-computation
         title: Theory of computation
         lessons:
