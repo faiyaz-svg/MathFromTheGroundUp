@@ -36,11 +36,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. Utility and indifference curves (not written yet)
 5. Lagrange multipliers, utility and cost minimization (not written yet)
 
-### 4. More tools
+### 4. [More tools](04-more-tools/index.md)
 
-1. Present value, NPV and bond prices (not written yet)
-2. Multipliers and the AD-AS model (not written yet)
-3. Regression and econometrics intuition (not written yet)
-4. Game theory and Nash equilibrium (not written yet)
+1. [Present value, NPV and bond prices](04-more-tools/01-present-value-npv-and-bond-prices.md)
+2. [Multipliers and the AD-AS model](04-more-tools/02-multipliers-and-the-ad-as-model.md)
+3. [Regression and econometrics intuition](04-more-tools/03-regression-and-econometrics-intuition.md)
+4. [Game theory and Nash equilibrium](04-more-tools/04-game-theory-and-nash-equilibrium.md)
 
 <!-- lessons:end -->

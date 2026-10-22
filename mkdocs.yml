@@ -368,6 +368,12 @@ nav:
           - "Bipartite graphs, colouring and planar graphs": 06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md
   - "Economics":
       - 07-economics-math/index.md
+      - "More tools":
+          - 07-economics-math/04-more-tools/index.md
+          - "Present value, NPV and bond prices": 07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md
+          - "Multipliers and the AD-AS model": 07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md
+          - "Regression and econometrics intuition": 07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md
+          - "Game theory and Nash equilibrium": 07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md
   - "Finance":
       - 08-financial-math/index.md
   - Reference:

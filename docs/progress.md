@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 180 of 247. New lessons appear here as they are added.
+Lessons written so far: 184 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -313,3 +313,12 @@ Lessons written so far: 180 of 247. New lessons appear here as they are added.
 - [ ] [Graph basics](06-cs-math/05-graphs/01-graph-basics.md)
 - [ ] [Paths, connectivity and trees](06-cs-math/05-graphs/02-paths-connectivity-and-trees.md)
 - [ ] [Bipartite graphs, colouring and planar graphs](06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md)
+
+## Economics math
+
+### More tools
+
+- [ ] [Present value, NPV and bond prices](07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md)
+- [ ] [Multipliers and the AD-AS model](07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md)
+- [ ] [Regression and econometrics intuition](07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md)
+- [ ] [Game theory and Nash equilibrium](07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md)
