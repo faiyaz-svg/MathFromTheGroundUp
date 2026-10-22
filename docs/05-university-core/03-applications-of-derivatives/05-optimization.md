@@ -84,7 +84,7 @@ For a firm that sells at a price $p$ that it can't change, $R(q) = pq$ and $R' =
 
 ### Gradient descent in one variable
 
-Gradient descent doesn't need $f'(w) = 0$ to be solvable. It only needs $f'$ to be computed, which is why it is how models with millions of parameters are trained (with a gradient in place of the slope, see partial derivatives and the gradient<!-- link: ../09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md -->).
+Gradient descent doesn't need $f'(w) = 0$ to be solvable. It only needs $f'$ to be computed, which is why it is how models with millions of parameters are trained (with a gradient in place of the slope, see [partial derivatives and the gradient](../09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md)).
 
 For a bowl-shaped $f(w) = (w - 3)^2 + 1$ the slope is $f'(w) = 2(w - 3)$, so the update is $w_{n+1} = w_n - 2\eta(w_n - 3)$. Subtract 3 from both sides:
 
@@ -453,6 +453,6 @@ Check: with $a = 1$, $b = -6$ (so $w^* = 3$), this is the example above, where t
 
 ## Where this shows up
 
-- Later in this book, optimization of several variables uses the same method with the gradient in place of the derivative (multivariable optimization and Lagrange multipliers<!-- link: ../09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md -->). The next chapter starts with [Riemann sums and the definite integral](../04-integrals/01-riemann-sums-and-the-definite-integral.md), which reverses the question of this chapter: from a rate of change back to the total change.
+- Later in this book, optimization of several variables uses the same method with the gradient in place of the derivative ([multivariable optimization and Lagrange multipliers](../09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md)). The next chapter starts with [Riemann sums and the definite integral](../04-integrals/01-riemann-sums-and-the-definite-integral.md), which reverses the question of this chapter: from a rate of change back to the total change.
 - In economics, profit maximization, cost minimization and utility maximization are all optimization problems (profit maximization and market structure<!-- link: ../../07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md -->, Lagrange multipliers, utility and cost minimization<!-- link: ../../07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md -->).
 - In CS, gradient descent trains machine-learning models, the order-size problem is the economic order quantity of operations research, and choosing a block size or a cache size to balance two costs is the same calculation as the can and the order size.

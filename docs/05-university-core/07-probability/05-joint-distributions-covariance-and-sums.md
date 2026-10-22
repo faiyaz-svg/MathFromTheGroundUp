@@ -51,7 +51,7 @@ $$
 p(x, y) = p_X(x)\,p_Y(y).
 $$
 
-In plain words, the joint table is the product of its margins, so knowing the value of one variable gives no information about the other. If a single cell fails the test, they are dependent. For continuous variables the same idea uses a joint density $f(x, y)$, probabilities are double integrals over regions, the marginals are integrals of $f$ over the other variable, and independence means $f(x, y) = f_X(x)f_Y(y)$ (double integrals<!-- link: ../09-multivariable-calculus-light/04-double-integrals.md -->). The rest of this lesson is written for discrete variables, but the formulas for covariance and variance hold for both.
+In plain words, the joint table is the product of its margins, so knowing the value of one variable gives no information about the other. If a single cell fails the test, they are dependent. For continuous variables the same idea uses a joint density $f(x, y)$, probabilities are double integrals over regions, the marginals are integrals of $f$ over the other variable, and independence means $f(x, y) = f_X(x)f_Y(y)$ ([double integrals](../09-multivariable-calculus-light/04-double-integrals.md)). The rest of this lesson is written for discrete variables, but the formulas for covariance and variance hold for both.
 
 The **covariance** of $X$ and $Y$ is
 
