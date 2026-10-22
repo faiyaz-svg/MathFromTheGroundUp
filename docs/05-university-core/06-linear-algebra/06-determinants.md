@@ -157,7 +157,7 @@ Elimination makes the matrix triangular and then multiplies the diagonal. To cle
 
 ![The number of operations against the size n of the matrix on a log scale. The red curve for cofactor expansion, about n factorial, climbs to 2.4 times 10 to the 18 at n = 20, and the green curve for elimination, about n cubed, reaches 8000.](../../assets/figures/05-university-core/determinants-cost.svg)
 
-At a billion multiplications per second, a $20 \times 20$ determinant by cofactors would take about 130 years. By elimination it takes a few microseconds. Numerical libraries compute a determinant by an elimination method (an LU factorization), and for a large matrix they usually avoid the determinant altogether and solve the system directly. See Asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md --> for how $n!$, $n^3$ and other growth rates are compared.
+At a billion multiplications per second, a $20 \times 20$ determinant by cofactors would take about 130 years. By elimination it takes a few microseconds. Numerical libraries compute a determinant by an elimination method (an LU factorization), and for a large matrix they usually avoid the determinant altogether and solve the system directly. See [Asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md) for how $n!$, $n^3$ and other growth rates are compared.
 
 ## Worked examples
 

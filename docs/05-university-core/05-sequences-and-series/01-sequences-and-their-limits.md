@@ -211,7 +211,7 @@ The following table shows what "eventually much smaller" looks like in numbers. 
 
 ![Four sequences plotted for n from 1 to 20 on a logarithmic vertical axis. The natural log of n in green stays below 3. The curve n squared in blue rises slowly. The curve 2 to the n in orange rises steeply to about a million. The factorial n! in red rises fastest, reaching about 2 times 10 to the 18 at n equal to 20.](../../assets/figures/05-university-core/sequences-and-their-limits-growth.svg)
 
-On a logarithmic axis, $n^p$ bends toward flat, $b^n$ is a straight line (because $\ln b^n = n\ln b$) and $n!$ bends upward. This ranking is the working vocabulary of asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->. An algorithm that takes $2^n$ steps is hopeless for large $n$ and one that takes $n^2$ steps is not, and the ranking says that no choice of constants can reverse the order for large enough $n$.
+On a logarithmic axis, $n^p$ bends toward flat, $b^n$ is a straight line (because $\ln b^n = n\ln b$) and $n!$ bends upward. This ranking is the working vocabulary of [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md). An algorithm that takes $2^n$ steps is hopeless for large $n$ and one that takes $n^2$ steps is not, and the ranking says that no choice of constants can reverse the order for large enough $n$.
 
 ## Worked examples
 
@@ -542,5 +542,5 @@ Check with the fixed-point equation: $L = 0.9L + 50$ gives $0.1L = 50$ and $L = 
 ## Where this shows up
 
 - The infinite series in the next lesson are limits of one particular sequence, the partial sums ([infinite series basics](02-infinite-series-basics.md)).
-- In CS, the ranking $\ln n \ll n^p \ll b^n \ll n!$ is the base of asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md --> and of recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md -->. Iterations such as Newton's method, gradient descent and fixed-point solvers are recursive sequences, and their analysis is the question of this lesson: does it converge, and how fast?
+- In CS, the ranking $\ln n \ll n^p \ll b^n \ll n!$ is the base of [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md) and of [recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md). Iterations such as Newton's method, gradient descent and fixed-point solvers are recursive sequences, and their analysis is the question of this lesson: does it converge, and how fast?
 - In economics, an adjustment process such as a price that moves toward equilibrium each period is a recursive sequence $p_{n+1} = g(p_n)$, and its equilibrium is a fixed point (multipliers and the AD-AS model<!-- link: ../../07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md -->).

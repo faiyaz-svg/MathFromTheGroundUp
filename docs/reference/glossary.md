@@ -27,7 +27,7 @@ The **additive inverse** of a number $a$ is its opposite $-a$, the number that a
 
 The **algebraic multiplicity** of an eigenvalue is its multiplicity as a root of the characteristic polynomial, and its **geometric multiplicity** is the dimension of its eigenspace. The geometric multiplicity is at most the algebraic one, and a matrix is diagonalizable exactly when they are equal for every eigenvalue. The shear $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has algebraic multiplicity 2 and geometric multiplicity 1. Taught in [eigenvalues and eigenvectors](../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md#definitions).
 
-An **algorithm** is a finite list of exact steps that solves a problem and always stops with an answer. Long division is the first algorithm in this book. Taught in [long division](../01-elementary/07-long-division.md) and invariants and algorithm correctness<!-- link: ../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md -->.
+An **algorithm** is a finite list of exact steps that solves a problem and always stops with an answer. Long division is the first algorithm in this book. Taught in [long division](../01-elementary/07-long-division.md) and [invariants and algorithm correctness](../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md).
 
 **Alternate interior angles** lie between two lines on opposite sides of a transversal. When the lines are parallel, they are equal. Taught in [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md#a-line-crossing-two-lines).
 
@@ -609,7 +609,7 @@ The **greatest common factor** (GCF) of two whole numbers is the largest number 
 
 The **growth factor** of an exponential function is its base $b$ when $b > 1$: each step of 1 in $x$ multiplies the output by $b$. A 5% yearly increase has growth factor 1.05. Taught in [exponential functions and growth](../03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md#definitions).
 
-The **growth order** ranking of common sequences is $\ln n \ll n^p \ll b^n \ll n! \ll n^n$ for $p > 0$ and $b > 1$, where $a_n \ll b_n$ means $\frac{a_n}{b_n} \to 0$. Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#growth-orders), and in asymptotic notation<!-- link: ../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->.
+The **growth order** ranking of common sequences is $\ln n \ll n^p \ll b^n \ll n! \ll n^n$ for $p > 0$ and $b > 1$, where $a_n \ll b_n$ means $\frac{a_n}{b_n} \to 0$. Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#growth-orders), and in [asymptotic notation](../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md).
 
 ## H
 
@@ -741,7 +741,7 @@ An **interval** is the set of all real numbers between two endpoints, with each 
 
 The **interval of convergence** of a power series is the set of $x$ where it converges. It is centred at $a$ with half-width equal to the radius of convergence, and the endpoints must be checked separately. Taught in [power series and Taylor series](../05-university-core/05-sequences-and-series/04-power-series-and-taylor-series.md#the-radius-of-convergence).
 
-An **invariant** is a property that stays true at every step of a process, such as every pass through a loop. It is the standard tool for proving an algorithm correct: show it holds at the start, show each step keeps it true, and see what it says when the process stops. A loop invariant is proved by induction on the number of passes. Taught in invariants and algorithm correctness<!-- link: ../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md --> and [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#in-code).
+An **invariant** is a property that stays true at every step of a process, such as every pass through a loop. It is the standard tool for proving an algorithm correct: show it holds at the start, show each step keeps it true, and see what it says when the process stops. A loop invariant is proved by induction on the number of passes. Taught in [invariants and algorithm correctness](../06-cs-math/04-sums-recurrences-and-algorithms/03-invariants-and-algorithm-correctness.md) and [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#in-code).
 
 The **inverse** of a function $f$ is the function $g$ with $g(f(x)) = x$ for every $x$ in the domain of $f$ and $f(g(y)) = y$ for every $y$ in the domain of $g$, written $f^{-1}$. It undoes $f$, and it is not the reciprocal $\frac{1}{f}$. In logic, the inverse of "if $P$, then $Q$" is "if not $P$, then not $Q$", which is equivalent to the converse and not to the original. Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#definitions), [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md#proving-bijective-and-the-inverse) and [conditionals and biconditionals](../04-proofs-and-logic/02-logic-and-sets/02-conditionals-and-biconditionals.md#converse-inverse-and-contrapositive).
 

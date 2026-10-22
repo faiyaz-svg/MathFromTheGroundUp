@@ -319,7 +319,7 @@ It makes the formulas shorter: $a_0 + nd$ and $a_0 r^n$ instead of $a_1 + (n-1)d
 
 ### Does every recurrence have an explicit formula?
 
-For many it does. The Fibonacci numbers have one, which involves the golden ratio and a square root, and Recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md --> gives a method for the common kind that adds up earlier terms with constant multipliers. Other recurrences have no formula anyone can write, and the recurrence is the best description available. It is still a complete definition, and a loop computes the terms.
+For many it does. The Fibonacci numbers have one, which involves the golden ratio and a square root, and [Recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) gives a method for the common kind that adds up earlier terms with constant multipliers. Other recurrences have no formula anyone can write, and the recurrence is the best description available. It is still a complete definition, and a loop computes the terms.
 
 ### If the recursive function is so slow, why use recursion at all?
 
@@ -469,5 +469,5 @@ Check: with PMT $= 26$, $B_1 = 5025 - 26 = 4999 < 5000$. With PMT $= 25$, $B_1 =
 ## Where this shows up
 
 - The next lesson, [summation notation and series](02-summation-notation-and-series.md), adds up the terms of arithmetic and geometric sequences, which gives the closed form of the loan balance above. The finance folder uses it in compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> and annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->.
-- Algorithms are described by recurrences: the cost of a recursive function, such as binary search or merge sort, satisfies one. Recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md --> solves them, and [recursive definitions and structural induction](../../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md) proves facts about them.
+- Algorithms are described by recurrences: the cost of a recursive function, such as binary search or merge sort, satisfies one. [Recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) solves them, and [recursive definitions and structural induction](../../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md) proves facts about them.
 - In calculus, [sequences and their limits](../../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md) asks what happens to $a_n$ as $n$ grows, which is how the infinite sums of the next lesson get their meaning.

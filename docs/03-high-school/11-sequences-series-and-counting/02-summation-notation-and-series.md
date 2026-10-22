@@ -265,7 +265,7 @@ Loop A is the example from the start of the lesson. The inner loop runs $i$ time
 
 In loop B the inner loop runs for $j = i+1, \dots, n-1$, which is $n - 1 - i$ times. As $i$ goes from 0 to $n - 1$, this takes the values $n - 1, n - 2, \dots, 0$. The total is $(n-1) + (n-2) + \cdots + 0 = \sum_{k=0}^{n-1} k = \frac{(n-1)n}{2}$ (the previous theorem, with $n - 1$ in place of $n$). For $n = 1000$ that is 499,500, which is the number of pairs of distinct items in a list of 1000, the work done by a loop that compares every pair.
 
-Both counts equal $\frac{n^2}{2}$ plus a term that grows only like $n$. So doubling $n$ from 1000 to 2000 raises loop A from 500,500 to 2,001,000, about four times as many. This is the sense in which these loops are $O(n^2)$: the growth rate is quadratic, whatever the constant $\frac{1}{2}$. Asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md --> makes that precise.
+Both counts equal $\frac{n^2}{2}$ plus a term that grows only like $n$. So doubling $n$ from 1000 to 2000 raises loop A from 500,500 to 2,001,000, about four times as many. This is the sense in which these loops are $O(n^2)$: the growth rate is quadratic, whatever the constant $\frac{1}{2}$. [Asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md) makes that precise.
 
 Check: for $n = 4$, loop A runs $1 + 2 + 3 + 4 = 10$ times and $\frac{4 \cdot 5}{2} = 10$. Loop B runs $3 + 2 + 1 + 0 = 6$ times, and $\frac{3 \cdot 4}{2} = 6$.
 
@@ -573,5 +573,5 @@ Check with $n = 4$: $1 + 8 + 27 + 64 = 100$, and $\left(\frac{4 \cdot 5}{2}\righ
 ## Where this shows up
 
 - The next two lessons use sums to count: [permutations and combinations](03-counting-permutations-combinations.md) adds up cases, and the [binomial theorem](04-binomial-theorem.md) is a sum with a count in every term. Proofs of formulas like the ones here are practice for [mathematical induction](../../04-proofs-and-logic/05-induction/01-mathematical-induction.md).
-- Algorithm analysis is mostly sums: counting loop steps (sums and closed forms<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md -->), the cost of a divide-and-conquer algorithm and the amortized cost of a dynamic array are all arithmetic or geometric series.
+- Algorithm analysis is mostly sums: counting loop steps ([sums and closed forms](../../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md)), the cost of a divide-and-conquer algorithm and the amortized cost of a dynamic array are all arithmetic or geometric series.
 - In finance, the future value of regular deposits is a geometric series, and so are the present value of an annuity and the balance of a loan (annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->). In economics, the spending multiplier is an infinite geometric series with ratio equal to the share of income that gets spent again (multipliers and the AD-AS model<!-- link: ../../07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md -->).

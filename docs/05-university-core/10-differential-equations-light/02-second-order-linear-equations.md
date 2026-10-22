@@ -110,7 +110,7 @@ $$
 
 The characteristic polynomial of $A$ is $\det(A - \lambda I) = \lambda(\lambda + b) + c = \lambda^2 + b\lambda + c$, the same polynomial. The roots of the characteristic equation are the eigenvalues of this matrix. This is the idea of the next section, and the reason the eigenvalue lesson mentioned this one.
 
-The same polynomial appears for recurrences. The recurrence $a_{n+2} + ba_{n+1} + ca_n = 0$ has the solutions $a_n = r^n$, where $r^2 + br + c = 0$, and the same three cases. Recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md --> solves the Fibonacci numbers this way, and Binet's formula of the eigenvalue lesson is the same answer. The differential equation uses $e^{rt}$ where the recurrence uses $r^n$: continuous time against steps.
+The same polynomial appears for recurrences. The recurrence $a_{n+2} + ba_{n+1} + ca_n = 0$ has the solutions $a_n = r^n$, where $r^2 + br + c = 0$, and the same three cases. [Recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) solves the Fibonacci numbers this way, and Binet's formula of the eigenvalue lesson is the same answer. The differential equation uses $e^{rt}$ where the recurrence uses $r^n$: continuous time against steps.
 
 ### Forcing
 
@@ -495,6 +495,6 @@ Check: $y(0) = 1$ and $y'(0) = -2 + 2 = 0$.
 
 ## Where this shows up
 
-- In the rest of the book, the characteristic equation returns in recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md -->, where $a_n = r^n$ replaces $e^{rt}$. The stability table is the same condition on eigenvalues that decides whether an iteration $\mathbf{x}_{k+1} = A\mathbf{x}_k$ converges, in the [eigenvalue lesson](../06-linear-algebra/08-eigenvalues-and-eigenvectors.md).
+- In the rest of the book, the characteristic equation returns in [recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md), where $a_n = r^n$ replaces $e^{rt}$. The stability table is the same condition on eigenvalues that decides whether an iteration $\mathbf{x}_{k+1} = A\mathbf{x}_k$ converges, in the [eigenvalue lesson](../06-linear-algebra/08-eigenvalues-and-eigenvectors.md).
 - In CS, second-order systems model control loops (a thermostat, a drone, a PID controller), signal filters and the physics in games and simulations. Momentum in gradient descent behaves like a heavy ball rolling with friction, which is a damped oscillator.
 - In economics, second-order differential equations model business-cycle oscillations and adjustment with overshoot, and linear systems $\mathbf{x}' = A\mathbf{x}$ model several interacting markets. A saddle is the shape of the stable path in growth models such as Ramsey's.

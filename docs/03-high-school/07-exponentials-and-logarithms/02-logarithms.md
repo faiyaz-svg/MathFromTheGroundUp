@@ -135,7 +135,7 @@ If a list has $n$ items, a binary search compares the target with the middle ite
 | 1,000,000 | 19.93 | 20 |
 | 1,000,000,000 | 29.90 | 30 |
 
-A search through a billion sorted items takes about 30 comparisons, against up to a billion for scanning one by one. That is why $O(\log n)$ algorithms are so fast, and why the binary logarithm is the one that appears most in computer science (asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->).
+A search through a billion sorted items takes about 30 comparisons, against up to a billion for scanning one by one. That is why $O(\log n)$ algorithms are so fast, and why the binary logarithm is the one that appears most in computer science ([asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md)).
 
 The same logarithm counts bits. A bit has two values, so $k$ bits can represent $2^k$ different values ([number bases and conversions](../../06-cs-math/01-number-representation/01-number-bases-and-conversions.md)). To label $n$ distinct things you need the smallest $k$ with $2^k \ge n$, which is $\lceil \log_2 n \rceil$ bits. A million distinct IDs need $\lceil 19.93 \rceil = 20$ bits, and 1,000 IDs need 10. A memory address space of $2^{32}$ bytes needs exactly $\log_2 2^{32} = 32$ bits.
 
@@ -455,5 +455,5 @@ Check: $10^{0.7796} = 6.02$, and $23.7796$ has whole part 23, the exponent in th
 ## Where this shows up
 
 - The next lesson, [logarithm properties](03-logarithm-properties.md), gives the rules that turn products into sums. After it, [exponential and logarithmic equations](04-exponential-and-logarithmic-equations.md) uses logarithms to solve for an exponent.
-- In algorithm analysis, $\log_2 n$ counts the levels of a balanced tree, the halving steps of binary search, and the levels of recursion in merge sort (divide and conquer and the master theorem<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md -->). In information theory, $\log_2$ measures information in bits.
+- In algorithm analysis, $\log_2 n$ counts the levels of a balanced tree, the halving steps of binary search, and the levels of recursion in merge sort ([divide and conquer and the master theorem](../../06-cs-math/04-sums-recurrences-and-algorithms/05-divide-and-conquer-and-master-theorem.md)). In information theory, $\log_2$ measures information in bits.
 - In calculus, $\ln x$ is the antiderivative of $\frac{1}{x}$, and in economics and finance, growth rates are often computed as differences of logarithms (growth rates and CAGR<!-- link: ../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md -->).

@@ -349,7 +349,7 @@ For the second algorithm, estimate $\log_2 10^5$. Since $2^{16} = 65{,}536$ and 
 
 Check the units: operations divided by operations per second leaves seconds, in both parts.
 
-Moves used: check units and size, and estimate. This is the reason asymptotic notation<!-- link: ../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md --> matters in an algorithms course.
+Moves used: check units and size, and estimate. This is the reason [asymptotic notation](../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md) matters in an algorithms course.
 
 </details>
 

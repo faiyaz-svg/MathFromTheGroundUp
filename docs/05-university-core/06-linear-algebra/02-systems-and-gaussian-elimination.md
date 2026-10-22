@@ -160,7 +160,7 @@ Look back: the solution set of $A\mathbf{x} = \mathbf{b}$ is the solution set of
 
 ### What elimination costs
 
-Count the multiplications and divisions for $n$ equations in $n$ unknowns. In forward elimination, when you clear below the $k$-th pivot there are $n - k$ rows below it. Each one needs one division (for the multiplier) and then one multiplication for each of the $n - k + 1$ entries to the right of the pivot, counting the right-hand side. Adding $(n - k)(n - k + 2)$ over $k = 1, \dots, n - 1$ gives $\frac{n(n-1)(2n+5)}{6}$ operations, which is about $\frac{n^3}{3}$ for large $n$. Back substitution adds $\frac{n(n+1)}{2}$, which is much less. In the notation of a later lesson on asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->, elimination costs $\Theta(n^3)$.
+Count the multiplications and divisions for $n$ equations in $n$ unknowns. In forward elimination, when you clear below the $k$-th pivot there are $n - k$ rows below it. Each one needs one division (for the multiplier) and then one multiplication for each of the $n - k + 1$ entries to the right of the pivot, counting the right-hand side. Adding $(n - k)(n - k + 2)$ over $k = 1, \dots, n - 1$ gives $\frac{n(n-1)(2n+5)}{6}$ operations, which is about $\frac{n^3}{3}$ for large $n$. Back substitution adds $\frac{n(n+1)}{2}$, which is much less. In the notation of a later lesson on [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md), elimination costs $\Theta(n^3)$.
 
 | $n$ | forward elimination | back substitution | total |
 |---|---|---|---|

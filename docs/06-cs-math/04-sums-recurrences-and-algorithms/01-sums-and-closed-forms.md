@@ -253,7 +253,7 @@ $$
 \sum_{m=0}^{n-1} \frac{m(m-1)}{2} = \frac{1}{2}\sum_{m=1}^{n-1} (m-1)m = \frac{1}{2} \cdot \frac{(n-2)(n-1)n}{3} = \frac{n(n-1)(n-2)}{6}.
 $$
 
-This used $\sum_{m=1}^{N}(m-1)m = \frac{(N-1)N(N+1)}{3}$ with $N = n - 1$, from the telescoping above. It is the number of ways to choose 3 of $n$ positions in increasing order, which the lesson on permutations and combinations<!-- link: ../03-counting-and-discrete-probability/02-permutations-and-combinations.md --> writes $\binom{n}{3}$. For $n = 5$ the loops visit $(i, j, k)$ = (0,1,2), (0,1,3), (0,1,4), (0,2,3), (0,2,4), (0,3,4), (1,2,3), (1,2,4), (1,3,4), (2,3,4): 10 triples, and $\frac{5 \cdot 4 \cdot 3}{6} = 10$.
+This used $\sum_{m=1}^{N}(m-1)m = \frac{(N-1)N(N+1)}{3}$ with $N = n - 1$, from the telescoping above. It is the number of ways to choose 3 of $n$ positions in increasing order, which the lesson on [permutations and combinations](../03-counting-and-discrete-probability/02-permutations-and-combinations.md) writes $\binom{n}{3}$. For $n = 5$ the loops visit $(i, j, k)$ = (0,1,2), (0,1,3), (0,1,4), (0,2,3), (0,2,4), (0,3,4), (1,2,3), (1,2,4), (1,3,4), (2,3,4): 10 triples, and $\frac{5 \cdot 4 \cdot 3}{6} = 10$.
 
 For loop B, $i$ takes the values $n, \lfloor n/2 \rfloor, \lfloor n/4 \rfloor, \dots, 1$ and the inner loop runs $i$ times. If $n = 2^t$ the total is the geometric sum $2^t + 2^{t-1} + \cdots + 1 = 2^{t+1} - 1 = 2n - 1$. For $n = 1024$ that is 2,047. For other $n$ each term is rounded down, so the total is at most $n \sum_{s \ge 0} 2^{-s} = 2n$. The loop is linear, not $n \lg n$: the number of passes is $\lg n$, but most of the work is in the first pass.
 
@@ -304,7 +304,7 @@ $$
 
 For $n = 10$, $\ln 10! = 15.104$ and the bounds are $14.026$ and $16.377$. For $n = 100$ the value is $363.74$ and the bounds are $361.52$ and $366.13$. So $\ln n! \sim n \ln n$.
 
-This is the counting argument for sorting. To pick the right one of the $n!$ orderings of $n$ items by yes-or-no comparisons, you need at least $\lceil \lg n! \rceil$ questions, and $\lg n! = \frac{\ln n!}{\ln 2}$ grows like $n \lg n$. For $n = 10$ that is $\lceil 21.79 \rceil = 22$ comparisons at least. Asymptotic notation<!-- link: 04-asymptotic-notation.md --> uses this bound.
+This is the counting argument for sorting. To pick the right one of the $n!$ orderings of $n$ items by yes-or-no comparisons, you need at least $\lceil \lg n! \rceil$ questions, and $\lg n! = \frac{\ln n!}{\ln 2}$ grows like $n \lg n$. For $n = 10$ that is $\lceil 21.79 \rceil = 22$ comparisons at least. [Asymptotic notation](04-asymptotic-notation.md) uses this bound.
 
 Check: $10! = 3{,}628{,}800$ and $\ln 3{,}628{,}800 = 15.104$.
 

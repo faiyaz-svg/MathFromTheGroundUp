@@ -73,7 +73,7 @@ $$
 \lim_{x \to \infty} \frac{f(x)}{g(x)} = 0.
 $$
 
-In plain words, $g$ eventually dwarfs $f$: the ratio shrinks to nothing. The CS version of this is the little-$o$ of asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->.
+In plain words, $g$ eventually dwarfs $f$: the ratio shrinks to nothing. The CS version of this is the little-$o$ of [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md).
 
 ## How to do it
 
@@ -566,5 +566,5 @@ Check: the values $1628.89$, $1647.01$, $1648.66$ rise towards $1648.72$ and nev
 ## Where this shows up
 
 - The next lesson, [the mean value theorem and extrema](03-mean-value-theorem-and-extrema.md), proves the error bound for linear approximation and the $\frac{0}{0}$ case of L'Hopital's rule. [Optimization](05-optimization.md) mentions Newton's method for finding a critical point, since $f'(x) = 0$ is itself an equation.
-- In CS, Newton's method is a standard way to compute square roots and reciprocals, and its multi-variable version is used to solve systems of equations and in optimizers. The comparison $\ln x \ll x^p \ll b^x$ is why logarithmic algorithms beat polynomial ones and polynomial ones beat exponential ones (asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->). Linear approximation is also the first term of the Taylor series ([power series and Taylor series](../05-sequences-and-series/04-power-series-and-taylor-series.md)).
+- In CS, Newton's method is a standard way to compute square roots and reciprocals, and its multi-variable version is used to solve systems of equations and in optimizers. The comparison $\ln x \ll x^p \ll b^x$ is why logarithmic algorithms beat polynomial ones and polynomial ones beat exponential ones ([asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md)). Linear approximation is also the first term of the Taylor series ([power series and Taylor series](../05-sequences-and-series/04-power-series-and-taylor-series.md)).
 - In economics and finance, the percent change in a quantity is approximately the change in its logarithm, which is $\ln(1 + x) \approx x$ in disguise (growth rates and CAGR<!-- link: ../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md -->). The change in a bond's price after a small change in its interest rate is estimated with a linearization (present value, NPV and bond prices<!-- link: ../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md -->).

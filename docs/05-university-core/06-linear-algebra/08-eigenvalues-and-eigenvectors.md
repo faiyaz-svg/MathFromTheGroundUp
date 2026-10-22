@@ -148,7 +148,7 @@ $$
 F_n = \frac{\varphi^n - \psi^n}{\sqrt{5}}.
 $$
 
-This is Binet's formula. For $n = 10$: $\varphi^{10} \approx 122.9919$ and $\psi^{10} \approx 0.0081$, so $F_{10} = \frac{122.9919 - 0.0081}{2.2361} = 55$. Because $\lvert \psi \rvert < 1$, the term $\psi^n$ vanishes, so $F_n$ is the nearest integer to $\frac{\varphi^n}{\sqrt{5}}$, and the ratio $\frac{F_{n+1}}{F_n}$ tends to $\varphi$. The eigenvalue $\varphi$ is the growth rate. See Recurrences<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md --> for the same formula by the characteristic equation of a recurrence.
+This is Binet's formula. For $n = 10$: $\varphi^{10} \approx 122.9919$ and $\psi^{10} \approx 0.0081$, so $F_{10} = \frac{122.9919 - 0.0081}{2.2361} = 55$. Because $\lvert \psi \rvert < 1$, the term $\psi^n$ vanishes, so $F_n$ is the nearest integer to $\frac{\varphi^n}{\sqrt{5}}$, and the ratio $\frac{F_{n+1}}{F_n}$ tends to $\varphi$. The eigenvalue $\varphi$ is the growth rate. See [Recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) for the same formula by the characteristic equation of a recurrence.
 
 ### Complex eigenvalues: a rotation
 
