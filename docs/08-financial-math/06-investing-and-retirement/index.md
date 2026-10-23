@@ -65,7 +65,7 @@ Main mistakes:
 These are 2026 figures, and they change every year; the lesson links the CRA pages.
 
 - TFSA withdrawals are added back to room on January 1 of the next year. Over-contributions are taxed at 1% a month. RRSP deduction deadline for a tax year: 60 days after year end (March 2, 2026 for 2025). The RRSP over-contribution cushion is \$2,000.
-- Same rate at contribution and withdrawal: TFSA $= P(1 - t)(1 + r)^n = $ RRSP. Different rates: RRSP divided by TFSA is $\frac{1 - t_w}{1 - t_c}$. Higher rate now favours the RRSP, higher rate later favours the TFSA.
+- Same rate at contribution and withdrawal: the TFSA and the RRSP both end at $P(1 - t)(1 + r)^n$. Different rates: RRSP divided by TFSA is $\frac{1 - t_w}{1 - t_c}$. Higher rate now favours the RRSP, higher rate later favours the TFSA.
 - An employer match of $m$ is an immediate return of $m$. A 50% match is a 50% return on the day it is paid.
 - 4% rule (a rule of thumb from US studies, no guarantee): the portfolio needed is $\frac{\text{spending}}{0.04} = 25 \times \text{spending}$. A level real withdrawal fraction over $n$ years is $\frac{r}{1 - (1 + r)^{-n}}$, which is 4% over 30 years at a real return of about 1.22%.
 - CPP: 0.6% less per month before 65 (36% at 60), 0.7% more per month after 65 (42% at 70). Break-even age (no interest): $T = \frac{b_2a_2 - b_1a_1}{b_2 - b_1}$, about 73.9 for 60 against 65 and 81.9 for 65 against 70 in the lesson's example.
