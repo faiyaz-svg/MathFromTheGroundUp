@@ -381,7 +381,7 @@ Yes. Every integer $b \ge 2$ works, given $b$ digit symbols. Base 36 uses 0 to 9
 
 ### Is there a base 1?
 
-Not as positional notation: the only digit would be 0, and every place value would be $1^i = 1$. What people call base 1, or unary, is a tally, where 5 is written 11111 and each mark is worth 1 wherever it sits. It shows up as an input format for Turing machines<!-- link: ../06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md -->.
+Not as positional notation: the only digit would be 0, and every place value would be $1^i = 1$. What people call base 1, or unary, is a tally, where 5 is written 11111 and each mark is worth 1 wherever it sits. It shows up as an input format for [Turing machines](../06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md).
 
 ## Practice
 
