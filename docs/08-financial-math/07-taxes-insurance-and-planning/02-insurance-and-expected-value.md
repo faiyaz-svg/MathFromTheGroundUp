@@ -400,5 +400,5 @@ Check: the probabilities add up, $\frac{1}{6} + \frac{5}{6} = 1$, and the expect
 ## Where this shows up
 
 - The capstone in [spreadsheet finance functions and a capstone plan](03-spreadsheet-finance-functions-and-capstone.md) uses an emergency fund as self-insurance. The previous lesson, [income tax brackets: marginal vs effective](01-income-tax-brackets-marginal-vs-effective.md), is where the "compare after tax" habit comes from.
-- Economics: adverse selection, moral hazard and risk aversion are core topics in microeconomics and in Game theory and Nash equilibrium<!-- link: ../../07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md -->.
+- Economics: adverse selection, moral hazard and risk aversion are core topics in microeconomics and in [Game theory and Nash equilibrium](../../07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md).
 - Computing: expected value drives algorithm analysis, and the same "pay a small known cost against a rare large one" trade-off appears in backups, redundancy and fault tolerance. Actuarial science is a whole field built on the loading and loss-ratio ideas here.

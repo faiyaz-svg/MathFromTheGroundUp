@@ -148,7 +148,7 @@ A letter of exactly 30 g costs \$1.00, and one of 30.1 g costs \$1.50. The price
 3. For income inside a bracket, the tax is the tax at the start plus the bracket's rate times the part of the income above the start.
 4. State the formula for each bracket, with conditions, and note that the slopes are the rates.
 
-Here is an example. The brackets are hypothetical, chosen to make the arithmetic clean; they are not the real federal or Ontario brackets, which are in income tax brackets: marginal vs effective<!-- link: ../../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md -->.
+Here is an example. The brackets are hypothetical, chosen to make the arithmetic clean; they are not the real federal or Ontario brackets, which are in [income tax brackets: marginal vs effective](../../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md).
 
 | Income | Rate |
 |---|---|
@@ -559,4 +559,4 @@ Check: $C(9) = 30 + 8 \times 4 = 62$, and $C(8.01) = 30 + 8 \times \lceil 3.01 \
 
 - The next lesson, [transformations of functions](04-transformations-of-functions.md), moves and stretches the graphs of $\lvert x \rvert$ and other functions. In calculus, piecewise functions are the standard source of examples for continuity and differentiability: $\lvert x \rvert$ is continuous at 0 but has a corner there, and step functions have jumps ([continuity, asymptotes and the IVT](../../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md)).
 - In CS, floor division and remainders power hashing, array indexing, pagination and binary search (the midpoint of $[lo, hi]$ is $\lfloor (lo + hi)/2 \rfloor$), and the ceiling shows up when counting blocks, pages or machines. [Divisibility and modular arithmetic](../../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md) builds on the quotient and remainder pair.
-- Taxes, tariffs and tiered prices are piecewise: the real Canadian and Ontario brackets are worked out in income tax brackets: marginal vs effective<!-- link: ../../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md -->. In economics, a kinked budget line or a price with a quantity discount is a piecewise function, and its kinks are where the interesting decisions happen.
+- Taxes, tariffs and tiered prices are piecewise: the real Canadian and Ontario brackets are worked out in [income tax brackets: marginal vs effective](../../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md). In economics, a kinked budget line or a price with a quantity discount is a piecewise function, and its kinks are where the interesting decisions happen.
