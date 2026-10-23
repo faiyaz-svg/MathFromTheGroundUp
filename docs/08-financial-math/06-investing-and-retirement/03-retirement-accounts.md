@@ -247,7 +247,7 @@ Watch out: the 4% rule is a rule of thumb from historical data. It isn't a guara
 
 </div>
 
-Contribution room depends on earned income, so a student with little or no earned income gets little or no new RRSP room, and a deduction at a low marginal rate is worth little. Unused RRSP room carries forward, and a contribution that you don't deduct right away can be deducted in a later year, so some people contribute now and deduct when their rate is higher. (the [CRA](https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html) calls these unused contributions from a previous year).
+Contribution room depends on earned income, so a student with little or no earned income gets little or no new RRSP room, and a deduction at a low marginal rate is worth little. Unused RRSP room carries forward, and a contribution that you don't deduct right away can be deducted in a later year, so some people contribute now and deduct when their rate is higher (the [CRA](https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html) calls these unused contributions from a previous year).
 
 The comparison in Theorem 3 uses marginal rates and a single tax rate at withdrawal, and real retirements have more going on: RRSP and RRIF withdrawals can reduce income-tested benefits, TFSA withdrawals don't count as income, and your rate in retirement depends on other income. The algebra tells you which rate comparison matters, and your own numbers fill it in.
 
