@@ -293,7 +293,7 @@ Edge cases in the formulas. If $r = 0$ there is no discounting, and the present 
 
 ## Tricks and shortcuts
 
-Use the rule of 72 to feel the discount factor: money doubles in about $\frac{72}{r}$ years at $r$ percent, so a payment $\frac{72}{r}$ years away is worth about half its face value today. At 6%, a payment 12 years out is worth about half. See doubling time and the rule of 72<!-- link: ../../08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md -->.
+Use the rule of 72 to feel the discount factor: money doubles in about $\frac{72}{r}$ years at $r$ percent, so a payment $\frac{72}{r}$ years away is worth about half its face value today. At 6%, a payment 12 years out is worth about half. See [doubling time and the rule of 72](../../08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md).
 
 Bond prices in your head. A bond priced at par has yield equal to its coupon rate. If the price is below par, the yield is above the coupon rate, and the other way round. For a rough price, a bond with $n$ years left moves about $n$ percent for each percentage point of yield when $n$ is small (Example 2: 5 years, about 4.5%). For long bonds the move is less than $n$ percent, because of convexity. For the 10-year 4% bond in the figure, 1 point up costs 7.7% and 1 point down gains 8.5%.
 

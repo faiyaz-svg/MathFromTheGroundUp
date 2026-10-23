@@ -142,7 +142,7 @@ $$
 \text{FV} = \text{PV}\,(1 + r)^n, \qquad \text{so} \qquad \text{PV} = \frac{\text{FV}}{(1 + r)^n}
 $$
 
-At 6% a year compounded monthly for 5 years, $r = \frac{0.06}{12} = 0.005$ and $n = 60$, so \$1,000 grows to about \$1,348.85. With continuous compounding at an annual rate $r$ for $t$ years, $\text{FV} = \text{PV}\,e^{rt}$. Ontario high school textbooks often write the first formula as $A = P(1 + i)^n$. Taught in [compound interest](../08-financial-math/02-interest-and-growth/02-compound-interest.md), [continuous compounding and e](../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md) and [present and future value](../08-financial-math/03-time-value-of-money/01-present-and-future-value.md); collected in the interest and growth cheat sheet<!-- link: ../08-financial-math/02-interest-and-growth/index.md -->.
+At 6% a year compounded monthly for 5 years, $r = \frac{0.06}{12} = 0.005$ and $n = 60$, so \$1,000 grows to about \$1,348.85. With continuous compounding at an annual rate $r$ for $t$ years, $\text{FV} = \text{PV}\,e^{rt}$. Ontario high school textbooks often write the first formula as $A = P(1 + i)^n$. Taught in [compound interest](../08-financial-math/02-interest-and-growth/02-compound-interest.md), [continuous compounding and e](../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md) and [present and future value](../08-financial-math/03-time-value-of-money/01-present-and-future-value.md); collected in the [interest and growth cheat sheet](../08-financial-math/02-interest-and-growth/index.md).
 
 ### Loan payment
 
