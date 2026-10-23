@@ -397,5 +397,5 @@ Check: the 20% rise has multiplier 1.20 and the 5% fall has multiplier 0.95, and
 ## Where this shows up
 
 - The next lesson, [percent change vs percentage points](02-percent-change-vs-percentage-points.md), starts from the "level and rate" distinction here. [Supply and demand equilibrium algebra](../02-markets/03-supply-and-demand-equilibrium-algebra.md) uses the (quantity, price) graph and shifts, and [elasticity](../02-markets/05-elasticity.md) is the ratio of percent changes from Problem 8.
-- In computer science, plotting running times on log-log axes is standard, and a straight line on a log axis is the picture of exponential growth in asymptotic notation<!-- link: ../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md -->. A/B tests are exactly the "ceteris paribus by experiment" idea.
+- In computer science, plotting running times on log-log axes is standard, and a straight line on a log axis is the picture of exponential growth in [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md). A/B tests are exactly the "ceteris paribus by experiment" idea.
 - Finance uses the same stock-and-flow accounting for balances and payments (compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md -->).

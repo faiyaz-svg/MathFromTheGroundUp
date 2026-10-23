@@ -305,7 +305,7 @@ Watch out: bound the derivative on the whole interval between $a$ and $x$, not a
 
 New series come from old ones. Substituting $x \to -x^2$ in $e^x$ gives the series for $e^{-x^2}$ (Example 5), substituting $x \to 2x$ in $\sin x$ gives $\sin 2x = 2x - \frac{8x^3}{6} + \cdots$, and multiplying $e^x$ by $x$ shifts every power up by one. Always check that the new variable stays inside the radius.
 
-Four values worth knowing near 0: $e^x \approx 1 + x$, $\sin x \approx x$, $\cos x \approx 1 - \frac{x^2}{2}$ and $\ln(1 + x) \approx x - \frac{x^2}{2}$. In economics, $\ln(1 + g) \approx g$ means a log difference is approximately a percent change, so $\ln 1.05 = 0.04879$ is close to 0.05, and one more term gives $0.05 - \frac{0.0025}{2} = 0.04875$ (growth rates and CAGR<!-- link: ../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md -->).
+Four values worth knowing near 0: $e^x \approx 1 + x$, $\sin x \approx x$, $\cos x \approx 1 - \frac{x^2}{2}$ and $\ln(1 + x) \approx x - \frac{x^2}{2}$. In economics, $\ln(1 + g) \approx g$ means a log difference is approximately a percent change, so $\ln 1.05 = 0.04879$ is close to 0.05, and one more term gives $0.05 - \frac{0.0025}{2} = 0.04875$ ([growth rates and CAGR](../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md)).
 
 The binomial series generalizes the binomial theorem to any exponent $\alpha$: $(1 + x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!}x^2 + \cdots$ for $\lvert x \rvert < 1$. For $\alpha = \frac{1}{2}$ it gives $\sqrt{1 + x} \approx 1 + \frac{x}{2} - \frac{x^2}{8}$, so $\sqrt{1.04} \approx 1 + 0.02 - 0.0002 = 1.0198$, and the true value is $1.019804$.
 

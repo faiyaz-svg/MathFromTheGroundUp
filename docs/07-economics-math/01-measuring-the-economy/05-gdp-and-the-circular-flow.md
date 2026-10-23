@@ -428,4 +428,4 @@ Check: $1.0440^{16.1} = 2.0$. This is a nominal figure, and a doubling of nomina
 
 - [Nominal vs real GDP and the deflator](06-nominal-vs-real-gdp-and-the-deflator.md) removes price changes from the GDP figures here, and [CPI and inflation](07-cpi-and-inflation.md) measures the price side. [Multipliers and the AD-AS model](../04-more-tools/02-multipliers-and-the-ad-as-model.md) uses $Y = C + I + G + NX$ as its starting equation.
 - In macroeconomics courses, saving, investment and the trade balance are linked by identities from the circular flow: private saving plus government saving plus net foreign borrowing equals investment.
-- Present value, NPV and bond prices<!-- link: ../04-more-tools/01-present-value-npv-and-bond-prices.md --> and the finance chapters treat investment as spending today for income later, which is why $I$ is the volatile part of GDP.
+- [Present value, NPV and bond prices](../04-more-tools/01-present-value-npv-and-bond-prices.md) and the finance chapters treat investment as spending today for income later, which is why $I$ is the volatile part of GDP.

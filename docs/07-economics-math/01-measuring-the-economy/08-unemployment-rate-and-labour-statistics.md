@@ -412,6 +412,6 @@ Check: $7.9 \times (1 - 0.114) = 7.0$.
 
 ## Where this shows up
 
-- This lesson ends the chapter on measuring the economy. The next chapter starts with opportunity cost and the PPC<!-- link: ../02-markets/01-opportunity-cost-and-the-ppc.md -->, and [regression and econometrics intuition](../04-more-tools/03-regression-and-econometrics-intuition.md) uses labour statistics as examples of data where causes are hard to separate.
+- This lesson ends the chapter on measuring the economy. The next chapter starts with [opportunity cost and the PPC](../02-markets/01-opportunity-cost-and-the-ppc.md), and [regression and econometrics intuition](../04-more-tools/03-regression-and-econometrics-intuition.md) uses labour statistics as examples of data where causes are hard to separate.
 - In macroeconomics, the unemployment rate and the inflation rate (from [CPI and inflation](07-cpi-and-inflation.md)) are the two numbers most often watched together, in the Phillips curve and in central bank decisions.
 - In data work, the lesson of Example 2 is general: a rate has a numerator and a denominator, and the rate can change because either part changed. The first step with any ratio statistic is to ask what moved.

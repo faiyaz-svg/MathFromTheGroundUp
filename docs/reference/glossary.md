@@ -1061,7 +1061,7 @@ A **percent** is a ratio written per hundred: $x\%$ means $\frac{x}{100}$. So 35
 
 The **percent change** from an old value to a new one is $\frac{\text{new} - \text{old}}{\text{old}} \times 100\%$, the change measured against where you started. From \$1,600 to \$1,720 it is $\frac{120}{1600} = 7.5\%$. Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md#definitions).
 
-A **percentage point** is the unit for the plain difference between two percents. A rate that goes from 4% to 5% has risen by 1 percentage point, which is a percent change of 25%. Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md#percent-change-or-percentage-points) and percent change vs percentage points<!-- link: ../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md -->.
+A **percentage point** is the unit for the plain difference between two percents. A rate that goes from 4% to 5% has risen by 1 percentage point, which is a percent change of 25%. Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md#percent-change-or-percentage-points) and [percent change vs percentage points](../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md).
 
 A **perfect-square trinomial** has the form $a^2 \pm 2ab + b^2$ and factors as $(a \pm b)^2$. Taught in [factoring polynomials](../03-high-school/04-radicals-and-polynomials/03-factoring-polynomials.md#the-factoring-identities).
 
