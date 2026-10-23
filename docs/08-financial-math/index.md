@@ -15,14 +15,14 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Unit price and comparison shopping](01-everyday-money/02-unit-price-and-comparison-shopping.md)
 3. [Paycheques and budgeting](01-everyday-money/03-paycheques-and-budgeting.md)
 
-### 2. Interest and growth
+### 2. [Interest and growth](02-interest-and-growth/index.md)
 
-1. Simple interest (not written yet)
-2. Compound interest (not written yet)
-3. APR, APY and the effective annual rate (not written yet)
-4. Continuous compounding and e (not written yet)
-5. Doubling time, the rule of 72 and logs (not written yet)
-6. Inflation and real returns (not written yet)
+1. [Simple interest](02-interest-and-growth/01-simple-interest.md)
+2. [Compound interest](02-interest-and-growth/02-compound-interest.md)
+3. [APR, APY and the effective annual rate](02-interest-and-growth/03-apr-apy-and-effective-annual-rate.md)
+4. [Continuous compounding and e](02-interest-and-growth/04-continuous-compounding-and-e.md)
+5. [Doubling time, the rule of 72 and logs](02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md)
+6. [Inflation and real returns](02-interest-and-growth/06-inflation-and-real-returns.md)
 
 ### 3. [Time value of money](03-time-value-of-money/index.md)
 

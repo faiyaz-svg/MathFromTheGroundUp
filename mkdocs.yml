@@ -419,6 +419,14 @@ nav:
           - "Tips, discounts and HST": 08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md
           - "Unit price and comparison shopping": 08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md
           - "Paycheques and budgeting": 08-financial-math/01-everyday-money/03-paycheques-and-budgeting.md
+      - "Interest and growth":
+          - 08-financial-math/02-interest-and-growth/index.md
+          - "Simple interest": 08-financial-math/02-interest-and-growth/01-simple-interest.md
+          - "Compound interest": 08-financial-math/02-interest-and-growth/02-compound-interest.md
+          - "APR, APY and the effective annual rate": 08-financial-math/02-interest-and-growth/03-apr-apy-and-effective-annual-rate.md
+          - "Continuous compounding and e": 08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md
+          - "Doubling time, the rule of 72 and logs": 08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md
+          - "Inflation and real returns": 08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md
       - "Time value of money":
           - 08-financial-math/03-time-value-of-money/index.md
           - "Present and future value": 08-financial-math/03-time-value-of-money/01-present-and-future-value.md

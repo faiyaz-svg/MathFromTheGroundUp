@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 228 of 247. New lessons appear here as they are added.
+Lessons written so far: 234 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -371,6 +371,15 @@ Lessons written so far: 228 of 247. New lessons appear here as they are added.
 - [ ] [Tips, discounts and HST](08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md)
 - [ ] [Unit price and comparison shopping](08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md)
 - [ ] [Paycheques and budgeting](08-financial-math/01-everyday-money/03-paycheques-and-budgeting.md)
+
+### Interest and growth
+
+- [ ] [Simple interest](08-financial-math/02-interest-and-growth/01-simple-interest.md)
+- [ ] [Compound interest](08-financial-math/02-interest-and-growth/02-compound-interest.md)
+- [ ] [APR, APY and the effective annual rate](08-financial-math/02-interest-and-growth/03-apr-apy-and-effective-annual-rate.md)
+- [ ] [Continuous compounding and e](08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md)
+- [ ] [Doubling time, the rule of 72 and logs](08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md)
+- [ ] [Inflation and real returns](08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md)
 
 ### Time value of money
 
