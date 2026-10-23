@@ -51,10 +51,10 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Index funds, fees and dollar-cost averaging](06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md)
 3. [Retirement accounts: RRSP, TFSA and FHSA](06-investing-and-retirement/03-retirement-accounts.md)
 
-### 7. Taxes, insurance and planning
+### 7. [Taxes, insurance and planning](07-taxes-insurance-and-planning/index.md)
 
-1. Income tax brackets: marginal vs effective (not written yet)
-2. Insurance and expected value (not written yet)
-3. Spreadsheet finance functions and a capstone plan (not written yet)
+1. [Income tax brackets: marginal vs effective](07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md)
+2. [Insurance and expected value](07-taxes-insurance-and-planning/02-insurance-and-expected-value.md)
+3. [Spreadsheet finance functions and a capstone plan](07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md)
 
 <!-- lessons:end -->

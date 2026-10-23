@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 237 of 247. New lessons appear here as they are added.
+Lessons written so far: 240 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -407,3 +407,9 @@ Lessons written so far: 237 of 247. New lessons appear here as they are added.
 - [ ] [Investing returns and risk](08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md)
 - [ ] [Index funds, fees and dollar-cost averaging](08-financial-math/06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md)
 - [ ] [Retirement accounts: RRSP, TFSA and FHSA](08-financial-math/06-investing-and-retirement/03-retirement-accounts.md)
+
+### Taxes, insurance and planning
+
+- [ ] [Income tax brackets: marginal vs effective](08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md)
+- [ ] [Insurance and expected value](08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md)
+- [ ] [Spreadsheet finance functions and a capstone plan](08-financial-math/07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md)

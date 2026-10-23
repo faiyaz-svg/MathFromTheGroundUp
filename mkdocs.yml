@@ -450,6 +450,11 @@ nav:
           - "Investing returns and risk": 08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md
           - "Index funds, fees and dollar-cost averaging": 08-financial-math/06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md
           - "Retirement accounts: RRSP, TFSA and FHSA": 08-financial-math/06-investing-and-retirement/03-retirement-accounts.md
+      - "Taxes, insurance and planning":
+          - 08-financial-math/07-taxes-insurance-and-planning/index.md
+          - "Income tax brackets: marginal vs effective": 08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md
+          - "Insurance and expected value": 08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md
+          - "Spreadsheet finance functions and a capstone plan": 08-financial-math/07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md
   - Reference:
       - reference/index.md
       - "Glossary": reference/glossary.md
