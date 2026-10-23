@@ -299,7 +299,7 @@ Bond prices in your head. A bond priced at par has yield equal to its coupon rat
 
 Test any perpetuity answer by multiplying back: the value times the rate should equal the payment. For Example 3(a), $2000 \times (0.07 - 0.02) = 100$.
 
-To convert a monthly or semiannual payment into a present value, use the periodic rate and the number of periods: a 5-year bond with semiannual coupons has $n = 10$ periods and $y = $ the annual yield divided by 2.
+To convert a monthly or semiannual payment into a present value, use the periodic rate and the number of periods: a 5-year bond with semiannual coupons has $n = 10$ periods, and $y$ is the annual yield divided by 2.
 
 ## In code
 
