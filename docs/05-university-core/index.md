@@ -18,7 +18,7 @@ If you are short on time, these lessons carry the most weight in the later folde
 |---|---|
 | [The derivative definition](02-derivatives/01-the-derivative-definition.md) | marginal analysis in economics, and the gradient in machine learning |
 | [Chain rule, implicit and inverse derivatives](02-derivatives/03-chain-rule-implicit-and-inverse-derivatives.md) | backpropagation, which is the chain rule applied layer by layer |
-| [Optimization](03-applications-of-derivatives/05-optimization.md) | training a model, and profit maximization and market structure<!-- link: ../07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md --> |
+| [Optimization](03-applications-of-derivatives/05-optimization.md) | training a model, and [profit maximization and market structure](../07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md) |
 | [The fundamental theorem of calculus](04-integrals/02-fundamental-theorem-of-calculus.md) | probabilities from densities, and consumer surplus |
 | [Infinite series basics](05-sequences-and-series/02-infinite-series-basics.md) | the geometric series in [sums and closed forms](../06-cs-math/04-sums-recurrences-and-algorithms/01-sums-and-closed-forms.md), and annuities and geometric series<!-- link: ../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md --> |
 | [Vectors, dot product and span](06-linear-algebra/01-vectors-dot-product-and-span.md) | embeddings, cosine similarity and every model that takes a feature vector |
@@ -35,7 +35,7 @@ If you are short on time, these lessons carry the most weight in the later folde
 | [Hypothesis testing](08-statistics/03-hypothesis-testing.md) | A/B tests, and reading the p-values in a regression table |
 | [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md) | econometrics, and the first model of machine learning |
 | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) | gradient descent, and marginal utility in economics |
-| [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) | the best bundle and the cheapest inputs, in Lagrange multipliers, utility and cost minimization<!-- link: ../07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md --> |
+| [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) | the best bundle and the cheapest inputs, in [Lagrange multipliers, utility and cost minimization](../07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md) |
 
 The lessons not in the table can wait. Skim the first chapter on limits if you remember the basics from high school, since later chapters mostly use the ideas and not the epsilon-delta proofs. Come back to the convergence tests when you meet the integral test or the ratio test in a course, to determinants before eigenvalues, to the integration techniques when a density needs them, and to the differential equations chapter when you reach growth models in economics or the link between Euler's method and gradient descent.
 

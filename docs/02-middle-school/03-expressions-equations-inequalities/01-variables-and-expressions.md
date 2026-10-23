@@ -422,5 +422,5 @@ Check with decimals: $0.5 \div 3 \approx 0.1667$ and $-0.6667 \div 4 \approx -0.
 ## Where this shows up
 
 - The next lesson, [equivalent expressions](02-equivalent-expressions.md), rewrites an expression without changing its value for any number, and [one- and two-step equations](03-one-and-two-step-equations.md) finds the value of an unknown.
-- Economics writes costs the same way as the car-share fare: a fixed part plus a part per unit. A firm with \$500 of fixed costs and \$12 of cost per unit has total cost $500 + 12n$ for $n$ units (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->).
+- Economics writes costs the same way as the car-share fare: a fixed part plus a part per unit. A firm with \$500 of fixed costs and \$12 of cost per unit has total cost $500 + 12n$ for $n$ units ([production and cost functions](../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md)).
 - In code, a function parameter is a variable in the "varies" sense: `def cost(t): return 5 + 0.40 * t` is the car-share expression with a name. Substituting an expression for a variable, brackets and all, comes back in function notation such as $f(x + h)$ ([introduction to functions](../05-linear-relationships-and-functions/03-intro-to-functions.md)).

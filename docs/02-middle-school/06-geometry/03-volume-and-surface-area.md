@@ -429,5 +429,5 @@ Check: $\pi \times 318.3 \approx 999.97$, close to 1000. Each centimetre of pipe
 ## Where this shows up
 
 - [The Pythagorean theorem](04-pythagorean-theorem.md) finds slant heights and the longest rod that fits in a box, and [transformations, congruence and similarity](05-transformations-congruence-similarity.md) proves the $k^2$ and $k^3$ scaling rules for similar shapes. [Applications of integrals](../../05-university-core/04-integrals/06-applications-of-integrals.md) proves the cone and sphere formulas by adding up slices.
-- In economics, the FAQ's reasoning is one source of economies of scale: when the cost of a tank, pipe or warehouse follows its surface area and its capacity follows its volume, bigger ones cost less per unit stored (production and cost functions<!-- link: ../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md -->).
+- In economics, the FAQ's reasoning is one source of economies of scale: when the cost of a tank, pipe or warehouse follows its surface area and its capacity follows its volume, bigger ones cost less per unit stored ([production and cost functions](../../07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md)).
 - 3D graphics, games and 3D printing all compute volumes and surface areas from triangle meshes, and physics engines use a solid's volume to get its mass.
