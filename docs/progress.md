@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 234 of 247. New lessons appear here as they are added.
+Lessons written so far: 237 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -401,3 +401,9 @@ Lessons written so far: 234 of 247. New lessons appear here as they are added.
 - [ ] [Mortgage basics](08-financial-math/05-housing/02-mortgage-basics.md)
 - [ ] [Mortgage amortization schedules](08-financial-math/05-housing/03-mortgage-amortization-schedules.md)
 - [ ] [Canadian mortgage compounding](08-financial-math/05-housing/04-canadian-mortgage-compounding.md)
+
+### Investing and retirement
+
+- [ ] [Investing returns and risk](08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md)
+- [ ] [Index funds, fees and dollar-cost averaging](08-financial-math/06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md)
+- [ ] [Retirement accounts: RRSP, TFSA and FHSA](08-financial-math/06-investing-and-retirement/03-retirement-accounts.md)

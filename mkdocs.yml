@@ -445,6 +445,11 @@ nav:
           - "Mortgage basics": 08-financial-math/05-housing/02-mortgage-basics.md
           - "Mortgage amortization schedules": 08-financial-math/05-housing/03-mortgage-amortization-schedules.md
           - "Canadian mortgage compounding": 08-financial-math/05-housing/04-canadian-mortgage-compounding.md
+      - "Investing and retirement":
+          - 08-financial-math/06-investing-and-retirement/index.md
+          - "Investing returns and risk": 08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md
+          - "Index funds, fees and dollar-cost averaging": 08-financial-math/06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md
+          - "Retirement accounts: RRSP, TFSA and FHSA": 08-financial-math/06-investing-and-retirement/03-retirement-accounts.md
   - Reference:
       - reference/index.md
       - "Glossary": reference/glossary.md

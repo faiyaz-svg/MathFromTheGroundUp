@@ -45,11 +45,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 3. [Mortgage amortization schedules](05-housing/03-mortgage-amortization-schedules.md)
 4. [Canadian mortgage compounding](05-housing/04-canadian-mortgage-compounding.md)
 
-### 6. Investing and retirement
+### 6. [Investing and retirement](06-investing-and-retirement/index.md)
 
-1. Investing returns and risk (not written yet)
-2. Index funds, fees and dollar-cost averaging (not written yet)
-3. Retirement accounts: RRSP, TFSA and FHSA (not written yet)
+1. [Investing returns and risk](06-investing-and-retirement/01-investing-returns-and-risk.md)
+2. [Index funds, fees and dollar-cost averaging](06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md)
+3. [Retirement accounts: RRSP, TFSA and FHSA](06-investing-and-retirement/03-retirement-accounts.md)
 
 ### 7. Taxes, insurance and planning
 
