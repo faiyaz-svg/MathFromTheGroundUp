@@ -410,5 +410,5 @@ Check: $1.05 \times 0.95 = 0.9975$.
 ## Where this shows up
 
 - [GDP and the circular flow](05-gdp-and-the-circular-flow.md) and [nominal vs real GDP and the deflator](06-nominal-vs-real-gdp-and-the-deflator.md) apply Laspeyres, Paasche and chain-linking to output, and [CPI and inflation](07-cpi-and-inflation.md) builds the CPI as a fixed-basket index and discusses its substitution bias.
-- Finance: the S&P/TSX Composite and other stock indexes are weighted averages of prices, and inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md --> uses the real-versus-nominal formula from this lesson.
+- Finance: the S&P/TSX Composite and other stock indexes are weighted averages of prices, and [inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md) uses the real-versus-nominal formula from this lesson.
 - In data work, normalizing a series to its first value (so it starts at 1 or 100) is an index, and it is the standard way to put differently scaled series on one chart.

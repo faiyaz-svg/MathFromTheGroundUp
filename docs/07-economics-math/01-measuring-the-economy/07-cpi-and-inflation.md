@@ -87,7 +87,7 @@ Headline inflation moves with prices that jump around for reasons unrelated to t
 
 ### The Bank of Canada's target
 
-The Bank aims to keep inflation at the 2% midpoint of a 1% to 3% control range, measured as the year-over-year increase in the total CPI. Its main tool is the target for the overnight rate, which stood at 2.25% in October 2026 (Bank of Canada Valet series V39079, daily value on October 20, 2026; the last change was a 25 basis point cut on October 29, 2025, according to the Bank's [key interest rate](https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/) page). A policy rate set above inflation makes borrowing more costly in real terms. The real rate is approximately the nominal rate minus inflation, $2.25\% - 3.1\% = -0.85$ points on the September 2026 figure, an ex-post number that looks backward (the finance lesson on inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md --> gives the exact formula).
+The Bank aims to keep inflation at the 2% midpoint of a 1% to 3% control range, measured as the year-over-year increase in the total CPI. Its main tool is the target for the overnight rate, which stood at 2.25% in October 2026 (Bank of Canada Valet series V39079, daily value on October 20, 2026; the last change was a 25 basis point cut on October 29, 2025, according to the Bank's [key interest rate](https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/) page). A policy rate set above inflation makes borrowing more costly in real terms. The real rate is approximately the nominal rate minus inflation, $2.25\% - 3.1\% = -0.85$ points on the September 2026 figure, an ex-post number that looks backward (the finance lesson on [inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md) gives the exact formula).
 
 ### Why the CPI can misstate the cost of living
 
@@ -411,6 +411,6 @@ Check: $3.1 \times (1 - 0.419) = 1.8$. A headline "CPI-trim fell 42%" and "fell 
 
 ## Where this shows up
 
-- [Unemployment rate and labour statistics](08-unemployment-rate-and-labour-statistics.md) is the other number in the central bank's dual view of the economy. Inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md --> uses the CPI to turn nominal returns into real ones, and [multipliers and the AD-AS model](../04-more-tools/02-multipliers-and-the-ad-as-model.md) puts the price level on a graph.
+- [Unemployment rate and labour statistics](08-unemployment-rate-and-labour-statistics.md) is the other number in the central bank's dual view of the economy. [Inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md) uses the CPI to turn nominal returns into real ones, and [multipliers and the AD-AS model](../04-more-tools/02-multipliers-and-the-ad-as-model.md) puts the price level on a graph.
 - In personal finance, tax brackets, the Canada Pension Plan and many contracts are indexed to the CPI, so a few tenths of a percent matter to a large amount of money.
 - In data work, adjusting any series in dollars (salaries, revenue, house prices) for inflation is one multiplication by a ratio of index values.

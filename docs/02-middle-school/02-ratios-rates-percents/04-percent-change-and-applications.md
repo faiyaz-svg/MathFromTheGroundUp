@@ -131,7 +131,7 @@ $$
 I = 2000 \times 0.04 \times 3 = 240
 $$
 
-dollars, and the balance is \$2,240. Simple interest adds the same \$80 every year. If instead the account added 4% of each new balance, the multipliers would multiply, as in the section on several changes, and the balance after 3 years would be $2000 \times 1.04^3 = 2249.728$, about \$2,249.73. That is compound interest, and the two methods get full lessons in simple interest<!-- link: ../../08-financial-math/02-interest-and-growth/01-simple-interest.md --> and compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md -->.
+dollars, and the balance is \$2,240. Simple interest adds the same \$80 every year. If instead the account added 4% of each new balance, the multipliers would multiply, as in the section on several changes, and the balance after 3 years would be $2000 \times 1.04^3 = 2249.728$, about \$2,249.73. That is compound interest, and the two methods get full lessons in [simple interest](../../08-financial-math/02-interest-and-growth/01-simple-interest.md) and [compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md).
 
 ## Worked examples
 
@@ -447,6 +447,6 @@ Check with multipliers: the price multiplier is $5.99 \div 6.49 \approx 0.923$ a
 
 ## Where this shows up
 
-- In finance, compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> is a percent change repeated with the same multiplier, and [tips, discounts and HST](../../08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md) and inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md --> use the multipliers from this lesson.
+- In finance, [compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md) is a percent change repeated with the same multiplier, and [tips, discounts and HST](../../08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md) and [inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md) use the multipliers from this lesson.
 - Economics reports almost everything as a percent change, and the units matter: see [percent change vs percentage points](../../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md), [growth rates and CAGR](../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md) and [CPI and inflation](../../07-economics-math/01-measuring-the-economy/07-cpi-and-inflation.md). An elasticity is a ratio of two percent changes ([elasticity](../../07-economics-math/02-markets/05-elasticity.md)).
 - In software, an A/B test that raises a sign-up rate from 2% to 3% is a gain of 1 percentage point and a 50% relative lift, and reports quote whichever sounds bigger. A program whose run time drops from 50 s to 40 s takes 20% less time but runs 1.25 times as fast, since $50 \div 40 = 1.25$.

@@ -395,5 +395,5 @@ Check: $5.0 \times 0.80 = 4.0$ and $4.0 \times 1.25 = 5.0$.
 ## Where this shows up
 
 - [Growth rates and CAGR](03-growth-rates-and-cagr.md) replaces the plain average of this lesson with the geometric mean. [CPI and inflation](07-cpi-and-inflation.md) and the [unemployment rate](08-unemployment-rate-and-labour-statistics.md) are the two rates where the headline problem appears most.
-- In finance, mortgage and bond quotes use basis points, and a rate change times a balance gives the dollar effect (compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md -->).
+- In finance, mortgage and bond quotes use basis points, and a rate change times a balance gives the dollar effect ([compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md)).
 - In software, an A/B test that raises a conversion rate from 2.0% to 2.5% is a 0.5-point gain and a 25% relative lift, and a report that says only "up 25%" hides the size of the effect.

@@ -98,7 +98,7 @@ This table shows the time for money to double at 4% a year under the three kinds
 | monthly ($m = 12$) | $\dfrac{\ln 2}{12\ln\left(1 + 0.04/12\right)} = 17.36$ |
 | continuously | $\dfrac{\ln 2}{0.04} = 17.33$ |
 
-The finance chapter uses the same method in doubling time, the rule of 72 and logs<!-- link: ../../08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md -->.
+The finance chapter uses the same method in [doubling time, the rule of 72 and logs](../../08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md).
 
 ### The rule of 72
 
@@ -471,6 +471,6 @@ Check: for $x = \ln 2$, $e^{2x} = 4$ and $e^x = 2$, so $4 - 10 + 6 = 0$. For $x 
 
 ## Where this shows up
 
-- In finance, "how long until my investment reaches a goal?" and "what rate do I need?" are these equations. The finance chapter builds on them in compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> and inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md -->.
+- In finance, "how long until my investment reaches a goal?" and "what rate do I need?" are these equations. The finance chapter builds on them in [compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md) and [inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md).
 - In algorithm analysis, "how large an input can I handle in a budget of steps?" is an equation such as $2^n = 10^9$, with answer $n = \log_2 10^9 \approx 29.9$. Counting the levels of a recursion with [recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) also uses logarithms.
 - In calculus, the same methods solve for the point where an exponential model reaches a value ([the derivative definition](../../05-university-core/02-derivatives/01-the-derivative-definition.md)), and in statistics, maximum-likelihood equations are solved after taking logarithms.

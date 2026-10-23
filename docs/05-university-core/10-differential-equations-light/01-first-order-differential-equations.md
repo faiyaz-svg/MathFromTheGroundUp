@@ -81,7 +81,7 @@ Look back: the proof also shows that there is no other solution, which a "divide
 
 Three standard uses:
 
-- *Continuous compounding.* A balance with interest rate $r$ compounded continuously satisfies $A' = rA$, so $A(t) = A_0e^{rt}$. It doubles after $\frac{\ln 2}{r}$ years. Continuous compounding and e<!-- link: ../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md --> compares it with yearly and monthly compounding.
+- *Continuous compounding.* A balance with interest rate $r$ compounded continuously satisfies $A' = rA$, so $A(t) = A_0e^{rt}$. It doubles after $\frac{\ln 2}{r}$ years. [Continuous compounding and e](../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md) compares it with yearly and monthly compounding.
 - *Radioactive decay.* A sample decays at a rate proportional to the amount present, $N' = -kN$, so $N(t) = N_0e^{-kt}$. The **half-life** is the time for half to decay, $t_{1/2} = \frac{\ln 2}{k}$, the same at every starting amount.
 - *Newton's law of cooling.* An object at temperature $T$ in a room at $T_r$ changes at a rate proportional to the difference: $T' = -k(T - T_r)$ with $k > 0$. Put $u = T - T_r$. Then $u' = T' = -ku$, so $u = u_0e^{-kt}$ and $T(t) = T_r + (T_0 - T_r)e^{-kt}$. The temperature moves toward the room's temperature, fast at first and then more slowly.
 

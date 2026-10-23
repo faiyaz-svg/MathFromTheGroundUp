@@ -137,7 +137,7 @@ $$
 \text{FV} = \text{PV}(1 + r)^n.
 $$
 
-This is an exponential function of $n$ with initial value $\text{PV}$ and growth factor $1 + r$. For \$1,000 at 5% a year for 10 years, $\text{FV} = 1000 \cdot 1.05^{10} = 1628.89$, about \$1,628.89. The finance chapter develops this fully (compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md -->); here it is the main everyday example of an exponential function.
+This is an exponential function of $n$ with initial value $\text{PV}$ and growth factor $1 + r$. For \$1,000 at 5% a year for 10 years, $\text{FV} = 1000 \cdot 1.05^{10} = 1628.89$, about \$1,628.89. The finance chapter develops this fully ([compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md)); here it is the main everyday example of an exponential function.
 
 What if the 5% a year is paid in $m$ equal parts, with $\frac{r}{m}$ added $m$ times a year? Then each of the $mt$ periods multiplies the balance by $1 + \frac{r}{m}$, and
 
@@ -168,7 +168,7 @@ $$
 
 In plain words, $e$ is what \$1 grows to in one year at 100% interest when the interest is added continuously. Proving that the limit exists needs calculus, so here it is accepted from the table. The number $e$ is irrational, like $\pi$.
 
-The same limit gives the general rule. Compounding continuously at the rate $r$ for $t$ years turns $\text{PV}$ into $\text{PV} \cdot e^{rt}$. For \$1,000 at 5% for 10 years, that is $1000 \cdot e^{0.5} = 1648.72$, only \$1.71 above monthly compounding. The finance chapter picks this up in continuous compounding and e<!-- link: ../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md -->.
+The same limit gives the general rule. Compounding continuously at the rate $r$ for $t$ years turns $\text{PV}$ into $\text{PV} \cdot e^{rt}$. For \$1,000 at 5% for 10 years, that is $1000 \cdot e^{0.5} = 1648.72$, only \$1.71 above monthly compounding. The finance chapter picks this up in [continuous compounding and e](../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md).
 
 The function $f(x) = e^x$ is the **natural exponential function**, and more generally
 
@@ -508,5 +508,5 @@ Check: $1.024988^2 = 1.0506$. Taking the plain average 2.5% would give $1.025^2 
 ## Where this shows up
 
 - The next lesson, [logarithms](02-logarithms.md), is the inverse of the exponential function and lets you solve for the exponent: "how long until it doubles?"
-- Finance is built on $\text{FV} = \text{PV}(1 + r)^n$. See compound interest<!-- link: ../../08-financial-math/02-interest-and-growth/02-compound-interest.md --> and, for the economics side, [growth rates and CAGR](../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md).
+- Finance is built on $\text{FV} = \text{PV}(1 + r)^n$. See [compound interest](../../08-financial-math/02-interest-and-growth/02-compound-interest.md) and, for the economics side, [growth rates and CAGR](../../07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md).
 - In computer science, an algorithm that tries every subset of $n$ items takes about $2^n$ steps, and that is exponential time: [asymptotic notation](../../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md) shows why such algorithms stop being usable at $n$ around 50. [Recurrences](../../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md) often have exponential solutions.

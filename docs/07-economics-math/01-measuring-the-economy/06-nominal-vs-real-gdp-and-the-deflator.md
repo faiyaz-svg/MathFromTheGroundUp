@@ -393,5 +393,5 @@ Check: both equal 105.77.
 ## Where this shows up
 
 - [CPI and inflation](07-cpi-and-inflation.md) measures the price side from a household basket, and [unemployment rate and labour statistics](08-unemployment-rate-and-labour-statistics.md) finishes the chapter. [Multipliers and the AD-AS model](../04-more-tools/02-multipliers-and-the-ad-as-model.md) uses real GDP on one axis and the price level on the other.
-- In finance, real returns are nominal returns divided by the inflation factor, the same identity: inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md -->.
+- In finance, real returns are nominal returns divided by the inflation factor, the same identity: [inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md).
 - Any time you compare money across years, whether salaries, tuition or a dataset's revenue column, you are choosing a deflator.

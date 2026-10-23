@@ -309,7 +309,7 @@ Four values worth knowing near 0: $e^x \approx 1 + x$, $\sin x \approx x$, $\cos
 
 The binomial series generalizes the binomial theorem to any exponent $\alpha$: $(1 + x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!}x^2 + \cdots$ for $\lvert x \rvert < 1$. For $\alpha = \frac{1}{2}$ it gives $\sqrt{1 + x} \approx 1 + \frac{x}{2} - \frac{x^2}{8}$, so $\sqrt{1.04} \approx 1 + 0.02 - 0.0002 = 1.0198$, and the true value is $1.019804$.
 
-The series for $e^x$ with $x = r$ also explains continuous compounding: $\left(1 + \frac{r}{n}\right)^n \to e^r$ as $n \to \infty$ (continuous compounding and e<!-- link: ../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md -->).
+The series for $e^x$ with $x = r$ also explains continuous compounding: $\left(1 + \frac{r}{n}\right)^n \to e^r$ as $n \to \infty$ ([continuous compounding and e](../../08-financial-math/02-interest-and-growth/04-continuous-compounding-and-e.md)).
 
 ## In code
 

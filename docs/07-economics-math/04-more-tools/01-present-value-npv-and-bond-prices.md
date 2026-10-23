@@ -267,7 +267,7 @@ Check: $\frac{50}{1.06092} + \frac{1050}{1.06092^2} = 47.13 + 932.87 = 980.00$.
 
 <div class="warning" markdown>
 
-Watch out for mixing nominal and real rates. If the cash flows are in future dollars, which include inflation, use a nominal discount rate. If they are in today's purchasing power, use a real one. Discounting nominal payments at a real rate overstates the value. Inflation and real returns<!-- link: ../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md --> covers the link between the two.
+Watch out for mixing nominal and real rates. If the cash flows are in future dollars, which include inflation, use a nominal discount rate. If they are in today's purchasing power, use a real one. Discounting nominal payments at a real rate overstates the value. [Inflation and real returns](../../08-financial-math/02-interest-and-growth/06-inflation-and-real-returns.md) covers the link between the two.
 
 </div>
 
