@@ -505,5 +505,5 @@ Check: $-209 \cdot 13 = -2{,}717$, and $-2{,}717 + 12 = -2{,}705$. Also $2{,}705
 ## Where this shows up
 
 - The next lesson, [GCD and Euclid's algorithm](02-gcd-and-euclids-algorithm.md), runs the division algorithm repeatedly, and the rest of the chapter builds arithmetic mod $n$ into [RSA cryptography](06-rsa-cryptography.md).
-- Wrap-around arithmetic is how fixed-width integers behave: two's complement<!-- link: ../01-number-representation/03-binary-arithmetic-and-twos-complement.md --> computes mod $2^{32}$ or $2^{64}$, and hash tables, circular buffers, calendars and cron schedules all reduce mod something.
+- Wrap-around arithmetic is how fixed-width integers behave: [two's complement](../01-number-representation/03-binary-arithmetic-and-twos-complement.md) computes mod $2^{32}$ or $2^{64}$, and hash tables, circular buffers, calendars and cron schedules all reduce mod something.
 - Congruence is the main example of an equivalence relation in [equivalence relations and partitions](../../04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md), and the first step to the abstract algebra courses that follow discrete math.

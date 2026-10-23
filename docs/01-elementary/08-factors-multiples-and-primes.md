@@ -116,7 +116,7 @@ We want to show that no finite list contains every prime. Euclid's argument is a
 
 Watch out: the argument doesn't say that $N$ is prime. For the list 2, 3, 5, 7, 11, 13 it gives $N = 30{,}031 = 59 \times 509$, and both of those are primes missing from the list.
 
-Euclid's name is also on Euclid's algorithm<!-- link: ../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md -->, a fast way to find a GCF, previewed in [Tricks and shortcuts](#tricks-and-shortcuts).
+Euclid's name is also on [Euclid's algorithm](../06-cs-math/02-number-theory/02-gcd-and-euclids-algorithm.md), a fast way to find a GCF, previewed in [Tricks and shortcuts](#tricks-and-shortcuts).
 
 </div>
 

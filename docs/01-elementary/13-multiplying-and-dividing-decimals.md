@@ -336,6 +336,6 @@ Check: $\frac{4}{5} = 0.8$, so the two answers agree, and $4.8 \times 0.125 = 0.
 
 ## Where this shows up
 
-- The [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) lesson multiplies by 1.13 to add HST and divides by 1.13 to take it off. Unit prices<!-- link: ../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md --> are the division from Practice 3.
+- The [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) lesson multiplies by 1.13 to add HST and divides by 1.13 to take it off. [Unit prices](../08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md) are the division from Practice 3.
 - In [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md), counting decimal places becomes adding exponents, the $10^{m+n}$ from step 3.
 - Every fraction gives a terminating or repeating decimal. Decimals that do neither, such as the digits of $\sqrt{2}$, are the irrational numbers in [roots, irrational numbers and types of numbers](../02-middle-school/04-powers-roots-and-real-numbers/03-roots-irrationals-and-types-of-numbers.md).

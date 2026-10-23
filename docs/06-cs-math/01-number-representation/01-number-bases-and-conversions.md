@@ -310,7 +310,7 @@ In hex, a remainder from 10 to 15 is one digit, written as a letter. Converting 
 
 <div class="note" markdown>
 
-Negative numbers get a minus sign, as in decimal: $-13 = -1101_2$. Inside a computer they are stored with two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, the lesson after next. Digits after the point have place values $b^{-1}, b^{-2}, \dots$, so $0.1_2 = \frac{1}{2}$, but a decimal fraction as plain as 0.1 never ends in binary, which is where [floating point basics](04-floating-point-basics.md) starts.
+Negative numbers get a minus sign, as in decimal: $-13 = -1101_2$. Inside a computer they are stored with [two's complement](03-binary-arithmetic-and-twos-complement.md), the lesson after next. Digits after the point have place values $b^{-1}, b^{-2}, \dots$, so $0.1_2 = \frac{1}{2}$, but a decimal fraction as plain as 0.1 never ends in binary, which is where [floating point basics](04-floating-point-basics.md) starts.
 
 </div>
 
@@ -511,5 +511,5 @@ Check: the place values in base 7 are 1, 7, 49, 343 and 2,401, and $2{,}401 + 0 
 ## Where this shows up
 
 - Programmers read raw data in hex: memory addresses, bytes in a file, and web colours, where #FF8800 is red 255, green 136 and blue 0 (orange). Octal lives on in Unix permissions such as `chmod 755`.
-- The next lesson, [bits and information](02-bits-and-information.md), measures information in bits. Later in this chapter binary is the base for two's complement<!-- link: 03-binary-arithmetic-and-twos-complement.md -->, floating point<!-- link: 04-floating-point-basics.md --> and bit masks<!-- link: 05-bitwise-operations-and-masks.md -->.
+- The next lesson, [bits and information](02-bits-and-information.md), measures information in bits. Later in this chapter binary is the base for [two's complement](03-binary-arithmetic-and-twos-complement.md), [floating point](04-floating-point-basics.md) and [bit masks](05-bitwise-operations-and-masks.md).
 - Questions like Practice 6 are base-2 logarithms in disguise, and [logarithms](../../03-high-school/07-exponentials-and-logarithms/02-logarithms.md) turns the table lookup into a formula.

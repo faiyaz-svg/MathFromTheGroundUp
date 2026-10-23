@@ -306,7 +306,7 @@ because the $k$ terms cancel: $k\frac{ab}{g} - k\frac{ab}{g} = 0$. For 1071 and 
 
 <div class="warning" markdown>
 
-Watch out for reading Bezout as "any target can be reached". The combinations $ax + by$ are exactly the multiples of $g$. For $119x + 35y$ the values 7, 14 and $-21$ are reachable and 10 is not. The equation $ax + by = c$ has integer solutions if and only if $\gcd(a, b) \mid c$, which is the test used for linear congruences<!-- link: 04-modular-inverses-and-chinese-remainder-theorem.md -->.
+Watch out for reading Bezout as "any target can be reached". The combinations $ax + by$ are exactly the multiples of $g$. For $119x + 35y$ the values 7, 14 and $-21$ are reachable and 10 is not. The equation $ax + by = c$ has integer solutions if and only if $\gcd(a, b) \mid c$, which is the test used for [linear congruences](04-modular-inverses-and-chinese-remainder-theorem.md).
 
 </div>
 

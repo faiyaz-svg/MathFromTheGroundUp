@@ -261,7 +261,7 @@ print(constant_of_proportionality(["0.1", "0.3"], ["0.3", "0.9"]))              
 print(0.3 / 0.1, 0.9 / 0.3)   # 2.9999999999999996 3.0
 ```
 
-The last line shows the problem the function avoids. With floats, $0.3 \div 0.1$ and $0.9 \div 0.3$ come out different, so a float version would wrongly report the third table as not proportional. Passing the values as strings lets `Fraction` store 0.1 exactly as $\frac{1}{10}$. Floating-point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains why floats can't.
+The last line shows the problem the function avoids. With floats, $0.3 \div 0.1$ and $0.9 \div 0.3$ come out different, so a float version would wrongly report the third table as not proportional. Passing the values as strings lets `Fraction` store 0.1 exactly as $\frac{1}{10}$. [Floating-point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains why floats can't.
 
 </details>
 

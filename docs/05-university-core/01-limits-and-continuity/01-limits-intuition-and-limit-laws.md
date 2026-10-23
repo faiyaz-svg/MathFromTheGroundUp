@@ -407,7 +407,7 @@ for k in range(1, 10):
 # 1e-09  0.0000000000  0.5000000000
 ```
 
-Both columns head for 0.5 at first. Then the first column goes wrong: for tiny $x$, `math.cos(x)` is so close to 1 that it rounds to exactly 1.0, the subtraction gives 0, and the result is 0.0. This is cancellation, the same effect as in floating-point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md -->. The second column uses $1 - \cos x = 2\sin^2\frac{x}{2}$, which avoids subtracting two nearly equal numbers. The math says the limit exists and equals $\frac{1}{2}$; the machine's table, taken further than it can support, says 0. Algebra is the cure, which is also why Step 4 of the method is worth doing even when a calculator is at hand.
+Both columns head for 0.5 at first. Then the first column goes wrong: for tiny $x$, `math.cos(x)` is so close to 1 that it rounds to exactly 1.0, the subtraction gives 0, and the result is 0.0. This is cancellation, the same effect as in [floating-point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md). The second column uses $1 - \cos x = 2\sin^2\frac{x}{2}$, which avoids subtracting two nearly equal numbers. The math says the limit exists and equals $\frac{1}{2}$; the machine's table, taken further than it can support, says 0. Algebra is the cure, which is also why Step 4 of the method is worth doing even when a calculator is at hand.
 
 </details>
 

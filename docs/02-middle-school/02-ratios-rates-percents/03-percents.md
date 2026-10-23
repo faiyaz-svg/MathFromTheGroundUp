@@ -307,7 +307,7 @@ tax = Decimal("0.13") * Decimal("24.99")
 print(tax, tax.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))  # 3.2487 3.25
 ```
 
-Python's `round` works on binary floats, which can't store most cent amounts exactly, so a value that looks like an exact half cent may round down. The `decimal` module stores `24.99` exactly and lets you pick the rounding rule; `ROUND_HALF_UP` rounds half a cent up. Floating-point basics<!-- link: ../../06-cs-math/01-number-representation/04-floating-point-basics.md --> explains why floats behave this way.
+Python's `round` works on binary floats, which can't store most cent amounts exactly, so a value that looks like an exact half cent may round down. The `decimal` module stores `24.99` exactly and lets you pick the rounding rule; `ROUND_HALF_UP` rounds half a cent up. [Floating-point basics](../../06-cs-math/01-number-representation/04-floating-point-basics.md) explains why floats behave this way.
 
 </details>
 
