@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 208 of 247. New lessons appear here as they are added.
+Lessons written so far: 211 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -360,3 +360,9 @@ Lessons written so far: 208 of 247. New lessons appear here as they are added.
 - [ ] [Tips, discounts and HST](08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md)
 - [ ] [Unit price and comparison shopping](08-financial-math/01-everyday-money/02-unit-price-and-comparison-shopping.md)
 - [ ] [Paycheques and budgeting](08-financial-math/01-everyday-money/03-paycheques-and-budgeting.md)
+
+### Time value of money
+
+- [ ] [Present and future value](08-financial-math/03-time-value-of-money/01-present-and-future-value.md)
+- [ ] [Annuities and geometric series](08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md)
+- [ ] [The loan amortization formula](08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md)

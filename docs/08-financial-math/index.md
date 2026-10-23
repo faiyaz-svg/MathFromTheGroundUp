@@ -24,11 +24,11 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 5. Doubling time, the rule of 72 and logs (not written yet)
 6. Inflation and real returns (not written yet)
 
-### 3. Time value of money
+### 3. [Time value of money](03-time-value-of-money/index.md)
 
-1. Present and future value (not written yet)
-2. Annuities and geometric series (not written yet)
-3. The loan amortization formula (not written yet)
+1. [Present and future value](03-time-value-of-money/01-present-and-future-value.md)
+2. [Annuities and geometric series](03-time-value-of-money/02-annuities-and-geometric-series.md)
+3. [The loan amortization formula](03-time-value-of-money/03-loan-amortization-formula.md)
 
 ### 4. Borrowing
 
