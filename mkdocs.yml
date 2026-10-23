@@ -389,6 +389,13 @@ nav:
           - "Supply and demand equilibrium algebra": 07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md
           - "Surplus and market interventions": 07-economics-math/02-markets/04-surplus-and-market-interventions.md
           - "Elasticity": 07-economics-math/02-markets/05-elasticity.md
+      - "Firms and consumers":
+          - 07-economics-math/03-firms-and-consumers/index.md
+          - "Marginal analysis with derivatives": 07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md
+          - "Production and cost functions": 07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md
+          - "Profit maximization and market structure": 07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md
+          - "Utility and indifference curves": 07-economics-math/03-firms-and-consumers/04-utility-and-indifference-curves.md
+          - "Lagrange multipliers, utility and cost minimization": 07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md
       - "More tools":
           - 07-economics-math/04-more-tools/index.md
           - "Present value, NPV and bond prices": 07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md

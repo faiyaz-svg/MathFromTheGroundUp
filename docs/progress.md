@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 203 of 247. New lessons appear here as they are added.
+Lessons written so far: 208 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -337,6 +337,14 @@ Lessons written so far: 203 of 247. New lessons appear here as they are added.
 - [ ] [Supply and demand equilibrium algebra](07-economics-math/02-markets/03-supply-and-demand-equilibrium-algebra.md)
 - [ ] [Surplus and market interventions](07-economics-math/02-markets/04-surplus-and-market-interventions.md)
 - [ ] [Elasticity](07-economics-math/02-markets/05-elasticity.md)
+
+### Firms and consumers
+
+- [ ] [Marginal analysis with derivatives](07-economics-math/03-firms-and-consumers/01-marginal-analysis-with-derivatives.md)
+- [ ] [Production and cost functions](07-economics-math/03-firms-and-consumers/02-production-and-cost-functions.md)
+- [ ] [Profit maximization and market structure](07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md)
+- [ ] [Utility and indifference curves](07-economics-math/03-firms-and-consumers/04-utility-and-indifference-curves.md)
+- [ ] [Lagrange multipliers, utility and cost minimization](07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md)
 
 ### More tools
 

@@ -28,13 +28,13 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 4. [Surplus and market interventions](02-markets/04-surplus-and-market-interventions.md)
 5. [Elasticity](02-markets/05-elasticity.md)
 
-### 3. Firms and consumers
+### 3. [Firms and consumers](03-firms-and-consumers/index.md)
 
-1. Marginal analysis with derivatives (not written yet)
-2. Production and cost functions (not written yet)
-3. Profit maximization and market structure (not written yet)
-4. Utility and indifference curves (not written yet)
-5. Lagrange multipliers, utility and cost minimization (not written yet)
+1. [Marginal analysis with derivatives](03-firms-and-consumers/01-marginal-analysis-with-derivatives.md)
+2. [Production and cost functions](03-firms-and-consumers/02-production-and-cost-functions.md)
+3. [Profit maximization and market structure](03-firms-and-consumers/03-profit-maximization-and-market-structure.md)
+4. [Utility and indifference curves](03-firms-and-consumers/04-utility-and-indifference-curves.md)
+5. [Lagrange multipliers, utility and cost minimization](03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md)
 
 ### 4. [More tools](04-more-tools/index.md)
 
