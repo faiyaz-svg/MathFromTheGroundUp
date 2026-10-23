@@ -90,7 +90,7 @@ What is known about the difficulty of factoring, plainly stated:
 
 - The best algorithm known for large general numbers is the general number field sieve, which takes sub-exponential time: far faster than trial division, but not polynomial in the number of digits. No polynomial-time factoring algorithm is known for an ordinary computer, and nobody has proved that none exists.
 - In 2020 a team factored the 829-bit number RSA-250, using about 2,700 core-years of computing ([integer factoring records](https://members.loria.fr/PZimmermann/records/factor.html), by Paul Zimmermann; check the page for newer records). Key sizes in use are far larger: NIST's guidance (Special Publication 800-131A, Revision 2) requires RSA moduli of at least 2048 bits.
-- Factoring is not known to be NP-complete (P, NP and NP-completeness<!-- link: ../06-theory-of-computation/07-p-np-and-np-completeness.md -->), so a proof that $\mathrm{P} \ne \mathrm{NP}$ would not by itself show that factoring is hard.
+- Factoring is not known to be NP-complete ([P, NP and NP-completeness](../06-theory-of-computation/07-p-np-and-np-completeness.md)), so a proof that $\mathrm{P} \ne \mathrm{NP}$ would not by itself show that factoring is hard.
 - Shor's algorithm (1994) factors in polynomial time on a quantum computer. No quantum computer large enough to break real RSA keys is known to exist, and NIST has standardized post-quantum replacements for the public-key schemes that Shor's algorithm would break.
 - Nobody has proved that breaking RSA requires factoring. The claim that RSA is secure is an assumption (the RSA problem is hard), and nothing here is a proof of it.
 
@@ -429,5 +429,5 @@ Check: Theorem 5 of the last lesson bounds the count by $2L$ with $L = 17$ and $
 ## Where this shows up
 
 - Secure web traffic, signed software updates and SSH keys all use RSA or the related discrete-logarithm schemes, with the key sizes and padding described above. The same number theory (primes, inverses, exponentiation mod $n$) is behind Diffie-Hellman key exchange.
-- The hardness assumption connects to P, NP and NP-completeness<!-- link: ../06-theory-of-computation/07-p-np-and-np-completeness.md -->: RSA is secure only if factoring has no fast algorithm, and that question is open.
+- The hardness assumption connects to [P, NP and NP-completeness](../06-theory-of-computation/07-p-np-and-np-completeness.md): RSA is secure only if factoring has no fast algorithm, and that question is open.
 - Within this chapter, every lesson is used: divisibility and congruences for the arithmetic, Euclid's algorithm for $d$, primes for key generation and the hardness assumption, the Chinese remainder theorem for the proof and for fast decryption, and Fermat and Euler for correctness.

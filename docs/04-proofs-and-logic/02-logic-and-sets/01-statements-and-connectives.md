@@ -254,7 +254,7 @@ Because it makes the rules simpler. With the inclusive meaning, "$P$ or $Q$" is 
 
 ### Is "This sentence is false" a statement?
 
-No. If it were true, it would say that it is false, and if it were false, then what it says would be true. It has no consistent truth value, so it is not a statement. Self-reference of this kind is why logicians are careful about what counts as a statement, and a version of it is behind the proof that no program can solve the halting problem (see decidability and the halting problem<!-- link: ../../06-cs-math/06-theory-of-computation/05-decidability-and-the-halting-problem.md -->).
+No. If it were true, it would say that it is false, and if it were false, then what it says would be true. It has no consistent truth value, so it is not a statement. Self-reference of this kind is why logicians are careful about what counts as a statement, and a version of it is behind the proof that no program can solve the halting problem (see [decidability and the halting problem](../../06-cs-math/06-theory-of-computation/05-decidability-and-the-halting-problem.md)).
 
 ### If "$x > 2$" is not a statement, how can a theorem about it be true?
 
@@ -395,5 +395,5 @@ Check with three test values. At $x = -1$ the original is false (since $-1 > -1$
 ## Where this shows up
 
 - The next lesson, [conditionals and biconditionals](02-conditionals-and-biconditionals.md), adds "if ... then" to this list, and [truth tables and logical equivalence](03-truth-tables-and-logical-equivalence.md) shows how to tell when two compound statements say the same thing.
-- Every `if`, `while` and filter in a program is a compound statement. [Boolean algebra and logic gates](../../06-cs-math/01-number-representation/06-boolean-algebra-and-logic-gates.md) turns $\wedge$, $\vee$, $\neg$ and $\oplus$ into circuits, and satisfiability, which asks whether a compound statement can be made true, is the starting point of P, NP and NP-completeness<!-- link: ../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md -->.
+- Every `if`, `while` and filter in a program is a compound statement. [Boolean algebra and logic gates](../../06-cs-math/01-number-representation/06-boolean-algebra-and-logic-gates.md) turns $\wedge$, $\vee$, $\neg$ and $\oplus$ into circuits, and satisfiability, which asks whether a compound statement can be made true, is the starting point of [P, NP and NP-completeness](../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md).
 - In economics and finance, conditions like "income above the threshold and the account is open" decide eligibility rules, and a carefully parsed "and" or "or" is the difference between two different tax rules.

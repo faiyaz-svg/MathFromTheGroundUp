@@ -295,7 +295,7 @@ print(expand((x**2 + 2) - 3*x))                           # x**2 - 3*x + 2: not 
 print([(x**2 + 2 - 3*x).subs(x, v) for v in [1, 2, 3]])   # [0, 0, 2]
 ```
 
-The last line finds the counterexample $x = 3$ from [The idea](#the-idea). For polynomials, `expand` puts every expression into one standard form, so comparing standard forms settles equivalence. Once functions such as sine and exponentials are allowed, no algorithm can decide equivalence in every case; that is Richardson's theorem (1968), and it is why sympy's `simplify` can fail to reduce an expression that equals 0 (decidability and the halting problem<!-- link: ../../06-cs-math/06-theory-of-computation/05-decidability-and-the-halting-problem.md -->).
+The last line finds the counterexample $x = 3$ from [The idea](#the-idea). For polynomials, `expand` puts every expression into one standard form, so comparing standard forms settles equivalence. Once functions such as sine and exponentials are allowed, no algorithm can decide equivalence in every case; that is Richardson's theorem (1968), and it is why sympy's `simplify` can fail to reduce an expression that equals 0 ([decidability and the halting problem](../../06-cs-math/06-theory-of-computation/05-decidability-and-the-halting-problem.md)).
 
 </details>
 

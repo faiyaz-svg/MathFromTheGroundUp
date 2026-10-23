@@ -464,6 +464,6 @@ Check: $H_{1000} = 7.485$ and $\ln 1000 = 6.908$, between $\ln n$ and $2\ln n$. 
 
 ## Where this shows up
 
-- The next lesson, [divide and conquer and the master theorem](05-divide-and-conquer-and-master-theorem.md), solves recurrences in this notation. Every algorithms course uses it for running times and space, and complexity theory builds on it: P, NP and NP-completeness<!-- link: ../06-theory-of-computation/07-p-np-and-np-completeness.md --> is about polynomial against exponential growth, the gap in the hierarchy above.
+- The next lesson, [divide and conquer and the master theorem](05-divide-and-conquer-and-master-theorem.md), solves recurrences in this notation. Every algorithms course uses it for running times and space, and complexity theory builds on it: [P, NP and NP-completeness](../06-theory-of-computation/07-p-np-and-np-completeness.md) is about polynomial against exponential growth, the gap in the hierarchy above.
 - In calculus, the same comparisons are limits at infinity, and [L'Hopital's rule](../../05-university-core/03-applications-of-derivatives/02-linear-approximation-and-lhopitals-rule.md) is the tool for them. Taylor series use a close relative of big-O, "error of order $h^2$".
 - In economics and finance, growth rates play the same role: a quantity growing exponentially eventually beats every polynomial, which is why compound interest on a long horizon dominates linear saving.

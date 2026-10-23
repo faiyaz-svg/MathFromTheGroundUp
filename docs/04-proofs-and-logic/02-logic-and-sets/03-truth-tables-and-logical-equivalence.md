@@ -152,7 +152,7 @@ Look back: part (a) says a conditional fails exactly when the hypothesis holds a
 
 A compound statement is **satisfiable** if at least one row of its truth table makes it true. Tautologies are satisfiable. Contradictions are not. A statement $A$ is a tautology exactly when $\neg A$ is not satisfiable, because "true in every row" is "the negation is true in no row".
 
-To decide satisfiability, the truth table method tries every row. With 3 statements that is 8 rows. With 20 it is $2^{20} = 1{,}048{,}576$ rows, and with 30 it is $2^{30} = 1{,}073{,}741{,}824$. The question "is this statement satisfiable?", called SAT, is the first problem proved to be NP-complete: no one knows a method that is fast in the worst case for every statement, although real-world solvers handle enormous instances. Chapters of the CS math folder return to it in P, NP and NP-completeness<!-- link: ../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md -->.
+To decide satisfiability, the truth table method tries every row. With 3 statements that is 8 rows. With 20 it is $2^{20} = 1{,}048{,}576$ rows, and with 30 it is $2^{30} = 1{,}073{,}741{,}824$. The question "is this statement satisfiable?", called SAT, is the first problem proved to be NP-complete: no one knows a method that is fast in the worst case for every statement, although real-world solvers handle enormous instances. Chapters of the CS math folder return to it in [P, NP and NP-completeness](../../06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md).
 
 ## Worked examples
 
