@@ -9,16 +9,16 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 <!-- lessons:start -->
 ## Lessons
 
-### 1. Measuring the economy
+### 1. [Measuring the economy](01-measuring-the-economy/index.md)
 
-1. How economists use math and graphs (not written yet)
-2. Percent change vs percentage points (not written yet)
-3. Growth rates and CAGR (not written yet)
-4. Index numbers (not written yet)
-5. GDP and the circular flow (not written yet)
-6. Nominal vs real GDP and the deflator (not written yet)
-7. CPI and inflation (not written yet)
-8. Unemployment rate and labour statistics (not written yet)
+1. [How economists use math and graphs](01-measuring-the-economy/01-how-economists-use-math-and-graphs.md)
+2. [Percent change vs percentage points](01-measuring-the-economy/02-percent-change-vs-percentage-points.md)
+3. [Growth rates and CAGR](01-measuring-the-economy/03-growth-rates-and-cagr.md)
+4. [Index numbers](01-measuring-the-economy/04-index-numbers.md)
+5. [GDP and the circular flow](01-measuring-the-economy/05-gdp-and-the-circular-flow.md)
+6. [Nominal vs real GDP and the deflator](01-measuring-the-economy/06-nominal-vs-real-gdp-and-the-deflator.md)
+7. [CPI and inflation](01-measuring-the-economy/07-cpi-and-inflation.md)
+8. [Unemployment rate and labour statistics](01-measuring-the-economy/08-unemployment-rate-and-labour-statistics.md)
 
 ### 2. [Markets](02-markets/index.md)
 

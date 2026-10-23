@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 211 of 247. New lessons appear here as they are added.
+Lessons written so far: 228 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -330,6 +330,17 @@ Lessons written so far: 211 of 247. New lessons appear here as they are added.
 
 ## Economics math
 
+### Measuring the economy
+
+- [ ] [How economists use math and graphs](07-economics-math/01-measuring-the-economy/01-how-economists-use-math-and-graphs.md)
+- [ ] [Percent change vs percentage points](07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md)
+- [ ] [Growth rates and CAGR](07-economics-math/01-measuring-the-economy/03-growth-rates-and-cagr.md)
+- [ ] [Index numbers](07-economics-math/01-measuring-the-economy/04-index-numbers.md)
+- [ ] [GDP and the circular flow](07-economics-math/01-measuring-the-economy/05-gdp-and-the-circular-flow.md)
+- [ ] [Nominal vs real GDP and the deflator](07-economics-math/01-measuring-the-economy/06-nominal-vs-real-gdp-and-the-deflator.md)
+- [ ] [CPI and inflation](07-economics-math/01-measuring-the-economy/07-cpi-and-inflation.md)
+- [ ] [Unemployment rate and labour statistics](07-economics-math/01-measuring-the-economy/08-unemployment-rate-and-labour-statistics.md)
+
 ### Markets
 
 - [ ] [Opportunity cost and the PPC](07-economics-math/02-markets/01-opportunity-cost-and-the-ppc.md)
@@ -366,3 +377,18 @@ Lessons written so far: 211 of 247. New lessons appear here as they are added.
 - [ ] [Present and future value](08-financial-math/03-time-value-of-money/01-present-and-future-value.md)
 - [ ] [Annuities and geometric series](08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md)
 - [ ] [The loan amortization formula](08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md)
+
+### Borrowing
+
+- [ ] [Student loans](08-financial-math/04-borrowing/01-student-loans.md)
+- [ ] [Car loans and total cost](08-financial-math/04-borrowing/02-car-loans-and-total-cost.md)
+- [ ] [Lease vs buy a car](08-financial-math/04-borrowing/03-lease-vs-buy-a-car.md)
+- [ ] [Credit cards and the minimum payment trap](08-financial-math/04-borrowing/04-credit-cards-and-the-minimum-payment-trap.md)
+- [ ] [Credit scores and paying off debt](08-financial-math/04-borrowing/05-credit-scores-and-paying-off-debt.md)
+
+### Housing
+
+- [ ] [Renting vs buying a home](08-financial-math/05-housing/01-renting-vs-buying-a-home.md)
+- [ ] [Mortgage basics](08-financial-math/05-housing/02-mortgage-basics.md)
+- [ ] [Mortgage amortization schedules](08-financial-math/05-housing/03-mortgage-amortization-schedules.md)
+- [ ] [Canadian mortgage compounding](08-financial-math/05-housing/04-canadian-mortgage-compounding.md)

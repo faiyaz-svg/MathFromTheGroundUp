@@ -30,20 +30,20 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Annuities and geometric series](03-time-value-of-money/02-annuities-and-geometric-series.md)
 3. [The loan amortization formula](03-time-value-of-money/03-loan-amortization-formula.md)
 
-### 4. Borrowing
+### 4. [Borrowing](04-borrowing/index.md)
 
-1. Student loans (not written yet)
-2. Car loans and total cost (not written yet)
-3. Lease vs buy a car (not written yet)
-4. Credit cards and the minimum payment trap (not written yet)
-5. Credit scores and paying off debt (not written yet)
+1. [Student loans](04-borrowing/01-student-loans.md)
+2. [Car loans and total cost](04-borrowing/02-car-loans-and-total-cost.md)
+3. [Lease vs buy a car](04-borrowing/03-lease-vs-buy-a-car.md)
+4. [Credit cards and the minimum payment trap](04-borrowing/04-credit-cards-and-the-minimum-payment-trap.md)
+5. [Credit scores and paying off debt](04-borrowing/05-credit-scores-and-paying-off-debt.md)
 
-### 5. Housing
+### 5. [Housing](05-housing/index.md)
 
-1. Renting vs buying a home (not written yet)
-2. Mortgage basics (not written yet)
-3. Mortgage amortization schedules (not written yet)
-4. Canadian mortgage compounding (not written yet)
+1. [Renting vs buying a home](05-housing/01-renting-vs-buying-a-home.md)
+2. [Mortgage basics](05-housing/02-mortgage-basics.md)
+3. [Mortgage amortization schedules](05-housing/03-mortgage-amortization-schedules.md)
+4. [Canadian mortgage compounding](05-housing/04-canadian-mortgage-compounding.md)
 
 ### 6. Investing and retirement
 
