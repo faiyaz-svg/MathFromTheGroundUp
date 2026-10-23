@@ -595,4 +595,4 @@ Check: $n = 3$ gives $1 + 4 + 18 = 23$, and $4! - 1 = 23$.
 
 - The next lesson, [recurrences](02-recurrences.md), solves a recurrence by unrolling it, and the result is always a sum like the ones here. [Asymptotic notation](04-asymptotic-notation.md) gives the language for saying "this sum grows like $n \ln n$" without the exact formula.
 - Algorithm analysis: the average number of comparisons in quicksort and the cost of a simple sieve of Eratosthenes each contain $H_n$. In probability, the coupon collector problem (how many random draws to see all $n$ kinds) has expected value $n H_n$; see [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md) for expected values.
-- The geometric sum is the engine of finance: annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md --> is the same sum with an interest rate in the ratio.
+- The geometric sum is the engine of finance: [annuities and geometric series](../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md) is the same sum with an interest rate in the ratio.

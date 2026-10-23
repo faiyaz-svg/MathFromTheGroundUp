@@ -237,7 +237,7 @@ $$
 
 At $t = 10$, $A = 150{,}000(e^{0.4} - 1) \approx \$73{,}773.70$. The deposits alone total \$60,000, so the interest is about \$13,774.
 
-Check: (a) $y' = 6e^{-2t}$ and $2y = 6 - 6e^{-2t}$, which add to 6. (b) $A' = 6000e^{0.04t}$ and $0.04A + 6000 = 6000(e^{0.04t} - 1) + 6000 = 6000e^{0.04t}$. Annual deposits with annual compounding would be the geometric series of annuities and geometric series<!-- link: ../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md -->, and continuous deposits are its limit.
+Check: (a) $y' = 6e^{-2t}$ and $2y = 6 - 6e^{-2t}$, which add to 6. (b) $A' = 6000e^{0.04t}$ and $0.04A + 6000 = 6000(e^{0.04t} - 1) + 6000 = 6000e^{0.04t}$. Annual deposits with annual compounding would be the geometric series of [annuities and geometric series](../../08-financial-math/03-time-value-of-money/02-annuities-and-geometric-series.md), and continuous deposits are its limit.
 
 </div>
 

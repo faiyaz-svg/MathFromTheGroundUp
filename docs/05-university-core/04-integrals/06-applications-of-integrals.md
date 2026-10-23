@@ -364,7 +364,7 @@ Take the buyers in order of how much they would pay. The first unit goes to the 
 
 ### Is a continuous income stream realistic?
 
-It is an approximation that gives clean formulas. A salary paid every two weeks is close to continuous compared with a 10-year horizon, and the formula $\frac{R}{r}\left(1 - e^{-rT}\right)$ agrees closely with the sum of the discrete payments. For a few large payments, the discrete formulas of the finance chapters (present and future value<!-- link: ../../08-financial-math/03-time-value-of-money/01-present-and-future-value.md -->) are better. The two are linked: the sum of a geometric series becomes an integral of an exponential as the payments get more frequent.
+It is an approximation that gives clean formulas. A salary paid every two weeks is close to continuous compared with a 10-year horizon, and the formula $\frac{R}{r}\left(1 - e^{-rT}\right)$ agrees closely with the sum of the discrete payments. For a few large payments, the discrete formulas of the finance chapters ([present and future value](../../08-financial-math/03-time-value-of-money/01-present-and-future-value.md)) are better. The two are linked: the sum of a geometric series becomes an integral of an exponential as the payments get more frequent.
 
 ### What does the Gini coefficient measure, and what does it hide?
 

@@ -241,7 +241,7 @@ Watch out: a relative tolerance can't compare with 0. `math.isclose(1e-10, 0.0)`
 
 <div class="warning" markdown>
 
-Watch out for money. Prices such as \$19.99 are not stored exactly, and the errors add up over many transactions. Store whole cents in integers, or use Python's `decimal.Decimal` or `fractions.Fraction`, which do exact decimal and rational arithmetic. Interest calculations in the finance chapter, such as the loan amortization formula<!-- link: ../../08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md -->, round to cents on purpose and at stated steps.
+Watch out for money. Prices such as \$19.99 are not stored exactly, and the errors add up over many transactions. Store whole cents in integers, or use Python's `decimal.Decimal` or `fractions.Fraction`, which do exact decimal and rational arithmetic. Interest calculations in the finance chapter, such as [the loan amortization formula](../../08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md), round to cents on purpose and at stated steps.
 
 </div>
 
