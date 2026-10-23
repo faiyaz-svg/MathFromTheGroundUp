@@ -152,7 +152,7 @@ $$
 \text{PMT} = \frac{\text{PV} \cdot r}{1 - (1 + r)^{-n}}
 $$
 
-A \$20,000 car loan at 6% a year, paid monthly over 5 years, has $r = 0.005$ and $n = 60$, so the payment is about \$386.66 a month. Canadian mortgages compound differently, and the mortgage lessons adjust $r$ for that. Taught in [the loan amortization formula](../08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md); collected in the time value of money cheat sheet<!-- link: ../08-financial-math/03-time-value-of-money/index.md -->.
+A \$20,000 car loan at 6% a year, paid monthly over 5 years, has $r = 0.005$ and $n = 60$, so the payment is about \$386.66 a month. Canadian mortgages compound differently, and the mortgage lessons adjust $r$ for that. Taught in [the loan amortization formula](../08-financial-math/03-time-value-of-money/03-loan-amortization-formula.md); collected in the [time value of money cheat sheet](../08-financial-math/03-time-value-of-money/index.md).
 
 ### Derivative rules
 
