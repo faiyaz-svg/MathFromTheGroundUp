@@ -49,14 +49,14 @@ The diagnostic quiz and the cheat sheet for this folder are written together wit
 2. [Paths, connectivity and trees](05-graphs/02-paths-connectivity-and-trees.md)
 3. [Bipartite graphs, colouring and planar graphs](05-graphs/03-bipartite-coloring-and-planar-graphs.md)
 
-### 6. Theory of computation
+### 6. [Theory of computation](06-theory-of-computation/index.md)
 
-1. Finite automata: DFA and NFA (not written yet)
-2. Regular expressions and the pumping lemma (not written yet)
-3. Context-free grammars and pushdown automata (not written yet)
-4. Turing machines and the Church-Turing thesis (not written yet)
-5. Decidability and the halting problem (not written yet)
-6. Reductions and undecidability (not written yet)
-7. P, NP and NP-completeness (not written yet)
+1. [Finite automata: DFA and NFA](06-theory-of-computation/01-finite-automata-dfa-and-nfa.md)
+2. [Regular expressions and the pumping lemma](06-theory-of-computation/02-regular-expressions-and-pumping-lemma.md)
+3. [Context-free grammars and pushdown automata](06-theory-of-computation/03-context-free-grammars-and-pushdown-automata.md)
+4. [Turing machines and the Church-Turing thesis](06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md)
+5. [Decidability and the halting problem](06-theory-of-computation/05-decidability-and-the-halting-problem.md)
+6. [Reductions and undecidability](06-theory-of-computation/06-reductions-and-undecidability.md)
+7. [P, NP and NP-completeness](06-theory-of-computation/07-p-np-and-np-completeness.md)
 
 <!-- lessons:end -->

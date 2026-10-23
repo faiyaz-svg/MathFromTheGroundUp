@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 240 of 247. New lessons appear here as they are added.
+Lessons written so far: 247 of 247. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -327,6 +327,16 @@ Lessons written so far: 240 of 247. New lessons appear here as they are added.
 - [ ] [Graph basics](06-cs-math/05-graphs/01-graph-basics.md)
 - [ ] [Paths, connectivity and trees](06-cs-math/05-graphs/02-paths-connectivity-and-trees.md)
 - [ ] [Bipartite graphs, colouring and planar graphs](06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md)
+
+### Theory of computation
+
+- [ ] [Finite automata: DFA and NFA](06-cs-math/06-theory-of-computation/01-finite-automata-dfa-and-nfa.md)
+- [ ] [Regular expressions and the pumping lemma](06-cs-math/06-theory-of-computation/02-regular-expressions-and-pumping-lemma.md)
+- [ ] [Context-free grammars and pushdown automata](06-cs-math/06-theory-of-computation/03-context-free-grammars-and-pushdown-automata.md)
+- [ ] [Turing machines and the Church-Turing thesis](06-cs-math/06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md)
+- [ ] [Decidability and the halting problem](06-cs-math/06-theory-of-computation/05-decidability-and-the-halting-problem.md)
+- [ ] [Reductions and undecidability](06-cs-math/06-theory-of-computation/06-reductions-and-undecidability.md)
+- [ ] [P, NP and NP-completeness](06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md)
 
 ## Economics math
 
