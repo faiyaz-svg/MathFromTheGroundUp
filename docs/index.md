@@ -4,6 +4,8 @@ A self-study math textbook that starts at grade 1 arithmetic and ends at univers
 
 If you are new here, read [How to use this book](00-start-here/index.md) first. It explains the quick checks, the diagnostic quizzes and how to skip what you already know.
 
+The companion book [CS From the Ground Up](https://faiyaz-svg.github.io/CSFromTheGroundUp/) covers computers, programming, data, the cloud and AI-assisted development in the same style.
+
 ## Contents
 
 | Folder | What it covers | Lessons |
