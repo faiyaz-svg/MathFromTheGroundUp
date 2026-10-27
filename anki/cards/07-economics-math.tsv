@@ -1,0 +1,58 @@
+id	front	back	tags
+# Measuring the economy
+ec-pct-vs-points	A rate goes from 2.50% to 2.25%. Give the change in percentage points and the relative change.	$-0.25$ points ($-25$ basis points), and $\frac{2.25 - 2.50}{2.50} = -10\%$ relative.	measuring percent
+ec-pct-successive	Up 10% then down 10%: what is the net change, and why?	$1.10 \times 0.90 = 0.99$, so down 1%. Percent changes multiply, they do not add.	measuring percent
+ec-growth-rate	Give the growth rate and the CAGR formulas.	$g = \frac{x_t}{x_{t-1}} - 1$, and $\text{CAGR} = \left(\frac{x_n}{x_0}\right)^{1/n} - 1$ with $n$ the number of years.	measuring growth
+ec-annualize	How do you annualize a monthly growth rate $g$ by compounding?	$(1 + g)^{12} - 1$. Use an exponent of 4 for a quarterly rate.	measuring growth
+ec-doubling-time	What is the doubling time at growth rate $g$, and the shortcut?	$\frac{\ln 2}{\ln(1 + g)}$, about $\frac{70}{R}$ at $R\%$ per period (72 near 8%).	measuring growth
+ec-log-diff	Why do economists use $\ln x_t - \ln x_{t-1}$ as a growth rate?	It equals $\ln(1 + g)$, close to $g$ for small $g$, and log differences add exactly over time.	measuring growth
+ec-index-rebase	How do you rebase an index to a new base period?	Divide by the new base value and multiply by 100. Ratios between periods do not change.	measuring index
+ec-laspeyres-paasche	Compare the Laspeyres and Paasche price indexes.	Laspeyres uses base-period quantities, $100 \times \frac{\sum p_1 q_0}{\sum p_0 q_0}$. Paasche uses current quantities, $100 \times \frac{\sum p_1 q_1}{\sum p_0 q_1}$. The Fisher index is the geometric mean of the two.	measuring index
+ec-gdp-expenditure	State the expenditure approach to GDP.	$Y = C + I + G + (X - M)$. Transfers are not in $G$, and imports are subtracted.	measuring gdp
+ec-gdp-value-added	What is value added, and why does summing it avoid double counting?	Sales minus intermediate purchases. The sum over firms telescopes to the value of final sales.	measuring gdp
+ec-deflator	Define the GDP deflator and the link between nominal and real growth.	Deflator $= 100 \times \frac{\text{nominal}}{\text{real}}$, and $1 + g_N = (1 + g_R)(1 + \pi)$, so $g_R \approx g_N - \pi$.	measuring gdp inflation
+ec-cpi-inflation	How do you compute year-over-year inflation from the CPI, and restate an old amount in today's dollars?	$\frac{\text{CPI}_t}{\text{CPI}_{t-12}} - 1$. Multiply the old amount by $\frac{\text{CPI}_{\text{now}}}{\text{CPI}_{\text{then}}}$.	measuring inflation
+ec-cpi-points	Is a CPI of 170.0 an inflation rate of 170%?	No. It is an index level. Inflation is the percent change in the index between two dates.	measuring inflation
+ec-labour-stats	Define the unemployment rate, participation rate and employment rate.	$u = \frac{U}{L}$, $p = \frac{L}{N}$, $e = \frac{E}{N}$, with $L = E + U$ and $N$ the population aged 15 and over. Also $e = p(1 - u)$.	measuring labour
+ec-unemp-steady	What is the steady-state unemployment rate with separation rate $s$ and job-finding rate $f$?	$u^* = \frac{s}{s + f}$.	measuring labour
+# Markets
+ec-opp-cost	What is the opportunity cost of one more unit of $X$ on a straight PPC with intercepts $X_{\max}$ and $Y_{\max}$?	$\frac{Y_{\max}}{X_{\max}}$ units of $Y$, constant. The opportunity cost of $Y$ is the reciprocal.	markets ppc
+ec-ppc-curved	What is the opportunity cost along a curved PPC $y = f(x)$, and what does a bowed-out PPC mean?	$-f'(x)$. Bowed out means $f'' < 0$, so the cost of $x$ rises as you make more of it.	markets ppc
+ec-comp-adv	Comparative advantage versus absolute advantage.	Absolute advantage is more output per input. Comparative advantage is a lower opportunity cost. A producer can have the first in both goods, never the second.	markets trade
+ec-trade-range	If the opportunity cost of $X$ is $a$ for one side and $b$ for the other with $a < b$, which prices in units of $Y$ per $X$ help both sides?	Exactly $a < p < b$. The gain per unit is $b - a$, shared as $p - a$ and $b - p$.	markets trade
+ec-equilibrium	Solve $Q_d = d_0 - d_1P$ and $Q_s = s_0 + s_1P$ for $P^*$ and $Q^*$.	$P^* = \frac{d_0 - s_0}{d_1 + s_1}$ and $Q^* = \frac{d_0 s_1 + d_1 s_0}{d_1 + s_1}$.	markets equilibrium
+ec-shift-vs-move	A shift of a demand curve versus a move along it.	A change in the good's own price is a move along the curve (a change in quantity demanded). Income, related prices, tastes or expectations shift the curve (a change in demand).	markets equilibrium
+ec-surplus	Give consumer and producer surplus for straight-line curves at quantity $Q$ and price $P$.	$\text{CS} = \frac{1}{2}Q(P_d(0) - P)$ and $\text{PS} = \frac{1}{2}Q(P - P_s(0))$. For curves, integrate $P_d - P$ and $P - P_s$ from 0 to $Q$.	markets surplus
+ec-tax-incidence	Who bears a per-unit tax, and in what shares?	Buyers bear $\frac{s_1}{d_1 + s_1}$ and sellers $\frac{d_1}{d_1 + s_1}$, whoever the law taxes. In elasticities the buyers' share is $\frac{E_s}{E_s + \lvert E_d \rvert}$.	markets surplus
+ec-tax-dwl	Deadweight loss of a per-unit tax $t$ with linear curves.	$\frac{1}{2}t(Q^* - Q) = \frac{d_1 s_1}{2(d_1 + s_1)}t^2$. It grows with the square of the tax.	markets surplus
+ec-controls	When is a price ceiling or floor binding, and what results?	A ceiling is binding below $P^*$ and causes a shortage. A floor is binding above $P^*$ and causes unsold goods. The quantity traded is $\min(Q_d, Q_s)$.	markets surplus
+ec-elasticity	Give the point elasticity of demand and the three cases for $\lvert E \rvert$.	$E = \frac{dQ}{dP}\cdot\frac{P}{Q}$. Above 1 is elastic (a price rise lowers revenue), 1 is unit elastic (revenue peaks), below 1 is inelastic (revenue rises).	markets elasticity
+ec-elasticity-mr	How are revenue, marginal revenue and elasticity linked?	$\frac{dR}{dP} = Q(1 + E)$ and $\text{MR} = P\left(1 + \frac{1}{E}\right)$. $\text{MR} > 0$ exactly when demand is elastic.	markets elasticity
+# Firms and consumers
+ec-best-quantity	What is the rule for the best quantity, and what second condition is needed?	$MB = MC$, with marginal cost rising at that quantity ($B'' < C''$).	firms marginal
+ec-mr-linear	For inverse demand $p = a - bq$, what are revenue and marginal revenue?	$R = aq - bq^2$ and $MR = a - 2bq$: the same intercept and twice the slope.	firms marginal
+ec-ac-mc	Where does marginal cost cross average cost?	At the minimum of $AC$, where $MC = AC$ and $MC$ is rising. $MC$ is below $AC$ when $AC$ is falling.	firms cost
+ec-cobb-douglas-prod	For $Q = AK^aL^b$ give $MP_L$, the MRTS and the returns to scale.	$MP_L = b\frac{Q}{L}$, $MRTS = \frac{b}{a}\frac{K}{L}$, and scaling both inputs by $s$ scales output by $s^{a+b}$ (increasing if $a + b > 1$).	firms cost
+ec-mc-from-mp	How are $MC$ and $AVC$ related to $MP_L$ and $AP_L$ in the short run?	$MC = \frac{w}{MP_L}$ and $AVC = \frac{w}{AP_L}$.	firms cost
+ec-competitive	State the output rule and shutdown rule for a price taker.	Produce where $p = MC$ with $MC$ rising. Shut down if $p < AVC$ and lose only fixed cost. Long-run free entry gives $p = AC_{\min}$ and zero profit.	firms profit
+ec-monopoly	State the monopoly rule and the markup formula.	$MR = MC$, and $\frac{p - MC}{p} = \frac{1}{\lvert E \rvert}$, with $\lvert E \rvert > 1$.	firms profit
+ec-cournot	Cournot duopoly with $P = a - bQ$ and cost $c$: quantities and price?	$q_i = \frac{a - c}{3b}$ each and $P = \frac{a + 2c}{3}$. With $n$ firms, each makes $\frac{a - c}{(n + 1)b}$.	firms profit
+ec-mrs	Define the MRS and its value for $U = x^ay^b$.	$MRS = -\frac{dy}{dx} = \frac{U_x}{U_y}$, which is $\frac{a}{b}\frac{y}{x}$ for Cobb-Douglas. It does not change when utility is relabelled by an increasing function.	firms utility
+ec-consumer-optimum	State the interior consumer optimum and the budget line.	$MRS = \frac{p_x}{p_y}$ and $p_xx + p_yy = m$. The budget line has slope $-\frac{p_x}{p_y}$.	firms utility
+ec-cd-demand	Cobb-Douglas demand for $U = x^ay^b$ with income $m$.	$x = \frac{a}{a + b}\frac{m}{p_x}$ and $y = \frac{b}{a + b}\frac{m}{p_y}$.	firms utility lagrange
+ec-lambda	What does the Lagrange multiplier mean in utility maximization?	The marginal utility of income, $\lambda = \frac{\partial V}{\partial m} = \frac{U_x}{p_x}$. It depends on how utility is labelled, and demand does not.	firms lagrange
+ec-slutsky	State the Slutsky equation.	$\frac{\partial x}{\partial p_x} = \frac{\partial h_x}{\partial p_x} - x\frac{\partial x}{\partial m}$: total effect = substitution effect + income effect.	firms lagrange
+ec-marshall-hicks	Marshallian versus Hicksian demand.	Marshallian demand maximizes utility given income and prices. Hicksian demand minimizes expenditure to reach a fixed utility level.	firms lagrange
+# More tools
+ec-pv	Present value of $C$ received $t$ periods from now at rate $r$, and the NPV rule.	$\frac{C}{(1 + r)^t}$. NPV $= \sum_{t=0}^{n}\frac{C_t}{(1 + r)^t}$. Do a project if its NPV is positive, and among exclusive projects take the highest NPV.	tools pv
+ec-perpetuity	Value of a perpetuity and of a growing perpetuity.	$\frac{C}{r}$, and $\frac{C}{r - g}$ for $g < r$. Both value the stream one period before the first payment.	tools pv
+ec-bond	How does a bond's price move with its yield?	Price $= C\frac{1 - (1 + y)^{-n}}{y} + \frac{F}{(1 + y)^n}$, falling as the yield rises. It equals face value when the yield equals the coupon rate, and long bonds move more than short ones.	tools pv bonds
+ec-irr	What is the IRR, and when does it disagree with NPV?	The rate at which NPV is 0. With several sign changes it can be non-unique, and for exclusive projects the higher IRR may have the lower NPV. Choose by NPV.	tools pv
+ec-multiplier	Give the Keynesian cross multiplier for spending and for a lump-sum tax, with marginal propensity to consume $b$.	$\frac{1}{1 - b}$ for spending and $-\frac{b}{1 - b}$ for a lump-sum tax. A balanced budget increase gives a multiplier of 1.	tools macro
+ec-multiplier-leak	With tax rate $\tau$ and imports $mY$, what is the multiplier?	$\frac{1}{1 - b(1 - \tau) + m}$, which is 1 over the leakage rate.	tools macro
+ec-log-readings	How do you read the slope in level-level, log-linear and log-log regressions?	Level-level: $b_1$ units of $y$ per unit of $x$. Log-linear: about $100\,b_1$ percent per unit of $x$ (exactly $e^{b_1} - 1$). Log-log: an elasticity, $b_1$ percent per 1%.	tools regression
+ec-ovb	State omitted variable bias.	Leaving out $x_2$ gives a short slope $\tilde{b}_1 = b_1 + b_2\delta_1$, so the bias is $\beta_2\delta_1$, where $\delta_1$ is the slope of $x_2$ on $x_1$.	tools regression
+ec-tstat	How do you read a coefficient in a regression table?	$t = \frac{b}{\text{SE}}$, significant at 5% if $\lvert t \rvert$ exceeds about 2, with a 95% interval $b \pm 1.96\,\text{SE}$. Significance is not importance.	tools regression
+ec-nash	Define a Nash equilibrium and how to find a pure one.	Strategies where each is a best response to the others. Mark each player's best responses, and a cell with both marked is an equilibrium.	tools games
+ec-mixed	How do you find a mixed strategy equilibrium in a 2 by 2 game?	Pick each player's probabilities so that the other player is indifferent between their strategies. Equate the opponent's payoffs, not your own.	tools games
+ec-grim	Condition for cooperation to hold under a grim trigger.	$\delta \ge \frac{\text{cheat} - \text{cooperate}}{\text{cheat} - \text{punish}}$, from a geometric series of future payoffs.	tools games
