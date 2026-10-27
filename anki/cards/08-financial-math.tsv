@@ -1,0 +1,65 @@
+id	front	back	tags
+# Everyday money
+fi-hst-add	How do you add Ontario HST to a pre-tax price, and what is the rate made of?	Multiply by 1.13. HST is 13%, made of 5% federal and 8% provincial.	hst everyday-money
+fi-hst-remove	How do you remove HST from a total?	Divide by 1.13. Taking 13% off the total is wrong.	hst everyday-money
+fi-two-discounts	What single discount equals discounts $a$ then $b$?	$a + b - ab$, so 20% then 10% is 28% off, not 30%.	discounts everyday-money
+fi-coupon-order	Why does the order of a dollar coupon and tax matter, but not the order of percent discounts and tax?	Percent discounts and tax are multipliers, which commute. A dollar coupon taken off before tax also saves 13% of its value.	hst discounts everyday-money
+fi-unit-price	How do you compare two products by unit price?	Divide price by quantity in one common unit. The lower unit price is cheaper per unit.	unit-price everyday-money
+fi-bogo	Buy $n$ get $m$ free is what percent discount?	$\frac{m}{n+m}$, so buy 2 get 1 free is 33.3% off.	unit-price everyday-money
+fi-fulltime-hours	How many hours is a full-time year, and what is the hourly wage for \$62,400 a year?	$40 \times 52 = 2080$ hours, so \$30.00 an hour.	paycheque everyday-money
+# Interest and growth
+fi-simple-interest	State the simple interest formulas for $I$ and $A$.	$I = Prt$ and $A = P(1 + rt)$, with $r$ a decimal and $t$ in years.	simple-interest interest
+fi-simple-vs-compound	How does the graph of $A(t)$ differ for simple and compound interest?	Simple interest gives a line with intercept $P$ and slope $Pr$. Compound interest gives an exponential curve.	interest
+fi-compound-formula	State the compound interest formula and what $n$ means.	$A = P\left(1 + \frac{r}{n}\right)^{nt}$, with $n$ compounding periods a year.	compound-interest interest
+fi-compound-time	Solve $A = P(1 + r/n)^{nt}$ for $t$. What does the log ratio give on its own?	$t = \frac{\ln(A/P)}{n\ln(1 + r/n)}$. Without the factor $n$ the ratio counts periods, not years.	compound-interest interest
+fi-ear	What is the effective annual rate for nominal rate $r$ compounded $n$ times a year?	$r_{\text{eff}} = \left(1 + \frac{r}{n}\right)^n - 1$. APY is the deposit name for the same number.	ear interest
+fi-ear-compare	Why compare loans and deposits by EAR rather than nominal rate?	Nominal rates with different compounding frequencies are not comparable. EAR puts them on a one-year basis.	ear interest
+fi-continuous	State the continuous compounding formula and the limit behind it.	$A = Pe^{rt}$, from $\lim_{n \to \infty}(1 + r/n)^n = e^r$.	continuous interest
+fi-continuous-ear	Convert between a continuous rate $\delta$ and the EAR.	$r_{\text{eff}} = e^{\delta} - 1$ and $\delta = \ln(1 + r_{\text{eff}})$.	continuous interest
+fi-doubling	Give the exact doubling time and the rule of 72.	$T_d = \frac{\ln 2}{\ln(1 + r)}$ years. The rule of 72 says about $72 \div R$ for a rate of $R$ percent (use $R = 6$, not $0.06$).	doubling interest
+fi-real-return	How are the nominal rate $i$, inflation $\pi$ and real return $\rho$ related?	$1 + i = (1 + \rho)(1 + \pi)$, so $\rho = \frac{1 + i}{1 + \pi} - 1 \approx i - \pi$.	inflation interest
+# Time value of money
+fi-fv-pv	State the future value and present value formulas for $n$ periods at rate $i$.	$\text{FV} = \text{PV}(1 + i)^n$ and $\text{PV} = \text{FV}(1 + i)^{-n}$.	tvm
+fi-same-date	How do you compare cash flows from different dates?	Move every one to the same date with $(1 + i)^{\text{difference}}$, then add or compare.	tvm
+fi-annuity-fv	Future value of an ordinary annuity of $\text{PMT}$ for $n$ periods?	$\text{PMT}\,\frac{(1 + i)^n - 1}{i}$, valued at the last payment.	annuity tvm
+fi-annuity-pv	Present value of an ordinary annuity?	$\text{PMT}\,\frac{1 - (1 + i)^{-n}}{i}$, valued one period before the first payment.	annuity tvm
+fi-annuity-due	How does an annuity due differ from an ordinary annuity?	Payments are at the start of each period, so both the future and present values are multiplied by $(1 + i)$.	annuity tvm
+fi-perpetuity	Present value of a perpetuity paying $\text{PMT}$ per period at rate $i > 0$?	$\frac{\text{PMT}}{i}$, the limit of the annuity present value as $n \to \infty$.	annuity tvm
+fi-loan-payment	State the loan payment formula.	$\text{PMT} = \frac{\text{PV}\cdot i}{1 - (1 + i)^{-n}}$, with $i$ the rate per payment period.	amortization tvm
+fi-loan-balance	How do you get the balance after $k$ payments without a schedule?	It is the present value of the payments left: $\text{PMT}\,\frac{1 - (1 + i)^{-(n-k)}}{i}$.	amortization tvm
+fi-loan-interest-split	In payment $k$ of a loan, what are the interest and principal parts?	Interest $I_k = iB_{k-1}$ and principal $P_k = \text{PMT} - I_k$. Principal grows by a factor $1 + i$ each payment.	amortization tvm
+fi-total-interest	How much interest does a loan cost in total?	$n\,\text{PMT} - \text{PV}$.	amortization tvm
+# Borrowing
+fi-osap-rate	How is the Ontario part of OSAP charged interest, and when does it start?	Prime plus 1%, and interest is charged during the six months after studies end (as of 2026).	student-loans borrowing 2026
+fi-car-financed	How do you find the amount financed on a car loan in Ontario?	Price times 1.13 for HST, minus the down payment and trade-in.	car-loan borrowing
+fi-depreciation	Model a car's value after $t$ years with yearly depreciation $d$.	$V_t = V_0(1 - d)^t$.	car-loan borrowing
+fi-term-tradeoff	What happens to the payment and total interest as a loan term gets longer?	The payment falls and the total interest rises.	car-loan borrowing
+fi-lease-payment	What are the two parts of a lease payment?	Depreciation charge $\frac{C - R}{n}$ plus rent charge $(C + R)\,m$, where $m = \frac{\text{rate in percent}}{2400}$.	lease borrowing
+fi-card-interest	How is credit card interest calculated in a billing cycle?	Daily rate (annual rate divided by 365) times the sum of the daily balances.	credit-card borrowing
+fi-min-payment	Why does a payment of a fixed percent of the balance never pay a card off by itself?	The balance follows $B_0(1 + r - p)^k$, which shrinks geometrically but never reaches zero. Only a dollar floor ends it.	credit-card borrowing
+# Housing
+fi-term-amort	What is the difference between a mortgage term and its amortization?	The term is how long the contract and rate last (often 5 years). The amortization is how long payments would take to pay the loan off (often 25 years).	mortgage housing
+fi-unrecoverable	What are unrecoverable costs when comparing renting and owning?	Money you never get back: rent and renter's insurance for a renter; interest, property tax, maintenance, insurance and buying and selling fees for an owner. Add the opportunity cost of the down payment.	rent-vs-buy housing
+fi-canadian-compounding	How do you get the per-payment rate for a Canadian fixed-rate mortgage quoted at $j$ with $p$ payments a year?	$i_p = \left(1 + \frac{j}{2}\right)^{2/p} - 1$, because the quoted rate compounds semi-annually (Interest Act s. 6). It is not $j/12$.	mortgage housing
+fi-stress-test	In words, what is the mortgage stress test?	You must qualify, within the GDS and TDS limits, at a higher rate than your contract rate (the greater of the contract rate plus 2% and 5.25%, as of 2026).	mortgage housing 2026
+fi-gds-tds	What do GDS and TDS measure?	GDS is housing costs over gross income. TDS adds all other debt payments to the housing costs. Both use the payment at the qualifying rate.	mortgage housing
+fi-high-ratio	What makes a mortgage high-ratio, and what follows?	A down payment under 20%. It needs mortgage loan insurance, and the premium is added to the loan.	mortgage housing
+fi-biweekly	Why does an accelerated biweekly payment pay a mortgage off sooner?	It is half the monthly payment paid 26 times a year, which is 13 monthly payments a year instead of 12.	mortgage housing
+# Investing and retirement
+fi-hpr	Holding-period return with start value $V_0$, end value $V_1$ and income $I$?	$R = \frac{V_1 - V_0 + I}{V_0}$.	investing
+fi-geometric-mean	Give the geometric mean return and how it compares with the arithmetic mean.	$g = \left[\prod (1 + r_i)\right]^{1/n} - 1$, and $g \le \bar{r}$ with equality only if all returns are equal (AM-GM).	investing
+fi-loss-recovery	What gain is needed to recover from a loss of $x$?	$\frac{x}{1 - x}$, so after $-20\%$ you need $+25\%$.	investing
+fi-vol-drag	Approximate the volatility drag on the growth rate.	$g \approx \bar{r} - \frac{\sigma^2}{2}$.	investing
+fi-two-asset-var	Variance of a two-asset portfolio with weight $w$ in A?	$w^2\sigma_A^2 + (1 - w)^2\sigma_B^2 + 2w(1 - w)\rho\sigma_A\sigma_B$. Lower correlation $\rho$ gives lower volatility.	investing
+fi-mer	What is a MER, and how does it affect the balance?	The yearly fund cost as a percent of assets, already out of the return. The balance is about $V_0(1 + g - m)^n$.	fees investing
+fi-dca-harmonic	At what average price does dollar-cost averaging buy?	The harmonic mean of the prices, $H = \frac{n}{\sum 1/p_i}$, which is at most the plain average.	dca investing
+fi-tfsa-vs-rrsp	Compare the tax treatment of a TFSA and an RRSP.	TFSA: no deduction, growth and withdrawals tax-free. RRSP: deduction now, withdrawals taxed.	accounts retirement
+# Taxes, insurance and planning
+fi-marginal-effective	Distinguish marginal and effective tax rate.	Marginal is the rate on the next dollar of taxable income. Effective is total tax divided by income.	tax
+fi-tax-formula	Write the bracket tax formula for taxable income $x$.	$T(x) = \sum r_k \max(0, \min(x, b_k) - b_{k-1})$, continuous and piecewise linear, so after-tax income always rises with $x$.	tax
+fi-deduction-credit	What does a deduction of $d$ save, versus a non-refundable credit?	A deduction saves the bracket rates over the slices it removes, $r\,d$ in one bracket. A credit saves its amount times the lowest rate.	tax
+fi-expected-loss	Define expected loss, loading and loss ratio for insurance.	$E[L] = \sum \ell\,p(\ell)$, loading $\lambda = \frac{P - E}{E}$, loss ratio $\frac{E}{P}$.	insurance
+fi-insurance-why	Why can buying insurance be rational with negative expected value?	A risk-averse person (concave utility) values removing a large loss more than the loading. Small losses are not worth insuring.	insurance
+fi-insurer-risk	How does an insurer's risk per policy change with $n$ independent policies?	The standard deviation is $s\sqrt{n}$ and the mean profit is $n(P - E)$, so risk per policy shrinks like $\frac{1}{\sqrt{n}}$.	insurance
+fi-sheet-signs	What is the sign convention for spreadsheet finance functions?	Money you receive is positive and money you pay is negative.	spreadsheet
+fi-npv-irr	What do NPV and IRR compute?	NPV is the present value of the flows at a given rate. IRR is the rate that makes NPV zero.	spreadsheet
