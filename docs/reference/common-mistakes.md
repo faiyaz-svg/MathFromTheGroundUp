@@ -3565,3 +3565,239 @@ Right: $1101_2 = 2^3 + 2^2 + 2^0 = 13$
 The rightmost place is $2^0 = 1$, so the exponent of each place is its position counted from $0$ at the right. A size check catches the slip: four bits hold at most $1111_2 = 15$, so 26 is too big.
 
 Taught in [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md).
+
+## CS math
+
+### Negating in two's complement by flipping the bits only
+
+Wrong: in 8 bits, $-5$ is $5 = 00000101$ with every bit flipped, $11111010$.
+
+Right: flip the bits and add 1, so $-5$ is $11111011$.
+
+Flipping alone gives the one's complement, which is one too small.
+
+Taught in [binary arithmetic and two's complement](../06-cs-math/01-number-representation/03-binary-arithmetic-and-twos-complement.md#edge-cases-and-common-mistakes).
+
+### Cancelling a common factor in a congruence
+
+Wrong: Cancelling a common factor in a congruence, $6 \cdot 2 \equiv 6 \cdot 4$ so $2 \equiv 4 \pmod{12}$
+
+Right: Divide the modulus too: $2 \equiv 4 \pmod{2}$
+
+The factor and the modulus share a divisor, so it is not invertible.
+
+Taught in [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md#edge-cases-and-common-mistakes).
+
+### Reducing the exponent mod $n$
+
+Wrong: Computing $a^e \bmod n$ by reducing the exponent mod $n$
+
+Right: Reduce the base mod $n$, and the exponent only mod $\varphi(n)$ when $\gcd(a, n) = 1$
+
+The exponent counts multiplications, not residues.
+
+Taught in [Fermat, Euler and fast exponentiation](../06-cs-math/02-number-theory/05-fermat-euler-and-fast-exponentiation.md#edge-cases-and-common-mistakes).
+
+### Using the wrong sign in the characteristic equation
+
+Wrong: Using the characteristic equation $r^2 + c_1 r + c_2 = 0$ for $a_n = c_1 a_{n-1} + c_2 a_{n-2}$
+
+Right: $r^2 - c_1 r - c_2 = 0$
+
+Substituting $a_n = r^n$ and dividing by $r^{n-2}$ gives $r^2 = c_1 r + c_2$
+
+Taught in [recurrences](../06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences.md#edge-cases-and-common-mistakes).
+
+### Treating any graph with $n - 1$ edges as a tree
+
+Wrong: Believing any graph with $n - 1$ edges is a tree.
+
+Right: Check connected with $n - 1$ edges, or acyclic with $n - 1$ edges.
+
+A triangle plus an isolated vertex has 3 edges on 4 vertices and is not a tree.
+
+Taught in [paths, connectivity and trees](../06-cs-math/05-graphs/02-paths-connectivity-and-trees.md#edge-cases-and-common-mistakes).
+
+### Using $E \le 3V - 6$ to prove a graph is planar
+
+Wrong: Using $E \le 3V - 6$ to prove a graph is planar.
+
+Right: Use it only to prove a graph is not planar.
+
+The bound is necessary, not sufficient.
+
+Taught in [bipartite graphs, colouring and planar graphs](../06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md#edge-cases-and-common-mistakes).
+
+### Confusing "does not accept" with "rejects"
+
+Wrong: Treating "the machine does not accept" as "the machine rejects".
+
+Right: A recognizer may loop, and only a decider always halts.
+
+Looping is a third outcome besides accept and reject.
+
+Taught in [turing machines and the Church-Turing thesis](../06-cs-math/06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md#edge-cases-and-common-mistakes).
+
+### Reducing in the wrong direction to prove undecidability
+
+Wrong: Reducing $B$ to a known undecidable $A$ to prove $B$ undecidable.
+
+Right: Reduce the known undecidable $A$ to $B$
+
+A reduction transfers decidability from $B$ to $A$, so it must start at the known hard problem.
+
+Taught in [reductions and undecidability](../06-cs-math/06-theory-of-computation/06-reductions-and-undecidability.md#edge-cases-and-common-mistakes).
+
+### Using the pumping lemma to show a language is regular
+
+Wrong: Using the pumping lemma to show a language is regular.
+
+Right: Use it only to show a language is not regular.
+
+The lemma is necessary, not sufficient.
+
+Taught in [regular expressions and the pumping lemma](../06-cs-math/06-theory-of-computation/02-regular-expressions-and-pumping-lemma.md#edge-cases-and-common-mistakes).
+
+## Economics math
+
+### Calling a percentage point change a percent change
+
+Wrong: A rate rising from 4% to 5% is "up 1%".
+
+Right: Up 1 percentage point, or up 25% relative.
+
+Points are a difference of rates, percent is a ratio.
+
+Taught in [percent change vs percentage points](../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md#edge-cases-and-common-mistakes).
+
+### Reading a CPI level as an inflation rate
+
+Wrong: A CPI of 170.0 means 170% inflation.
+
+Right: Inflation is the percent change in the CPI between two dates.
+
+The index level depends on the base period.
+
+Taught in [CPI and inflation](../07-economics-math/01-measuring-the-economy/07-cpi-and-inflation.md#edge-cases-and-common-mistakes).
+
+### Confusing absolute and comparative advantage
+
+Wrong: A producer who needs fewer hours for both goods has the comparative advantage in both.
+
+Right: Compare opportunity costs, and nobody has it in both.
+
+Fewer hours is absolute advantage.
+
+Taught in [comparative advantage and gains from trade](../07-economics-math/02-markets/02-comparative-advantage-and-gains-from-trade.md#edge-cases-and-common-mistakes).
+
+### Thinking the taxed side pays the tax
+
+Wrong: The person the law taxes pays the tax.
+
+Right: The burden splits by the slopes (or elasticities) of supply and demand.
+
+Price adjusts so both sides share it.
+
+Taught in [surplus and market interventions](../07-economics-math/02-markets/04-surplus-and-market-interventions.md#edge-cases-and-common-mistakes).
+
+### Setting price equal to marginal cost for a monopolist
+
+Wrong: A monopolist sets p = MC.
+
+Right: A monopolist sets MR = MC, and price is read off the demand curve.
+
+Selling one more unit lowers the price on every unit, so MR is below p.
+
+Taught in [profit maximization and market structure](../07-economics-math/03-firms-and-consumers/03-profit-maximization-and-market-structure.md#edge-cases-and-common-mistakes).
+
+### Using the spending multiplier for a tax change
+
+Wrong: The tax multiplier is 1/(1 - b).
+
+Right: -b/(1 - b) for a lump-sum tax.
+
+Part of a tax change comes out of saving, so the effect is smaller than a spending change by the factor b.
+
+Taught in [multipliers and the AD-AS model](../07-economics-math/04-more-tools/02-multipliers-and-the-ad-as-model.md#edge-cases-and-common-mistakes).
+
+### Treating a significant coefficient as causal
+
+Wrong: A significant regression coefficient is a causal effect.
+
+Right: It is causal only if the error is unrelated to x, and omitted variables bias it by beta_2 times delta_1.
+
+Significance measures noise, not confounding.
+
+Taught in [regression and econometrics intuition](../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md#edge-cases-and-common-mistakes).
+
+## Financial math
+
+### Adding discounts
+
+Wrong: 20% off then 10% off is 30% off.
+
+Right: It is $0.8 \times 0.9 = 0.72$, so 28% off.
+
+Each discount applies to the already reduced price, so they multiply.
+
+Taught in [tips, discounts and HST](../08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md#edge-cases-and-common-mistakes).
+
+### Comparing nominal rates
+
+Wrong: 5% compounded monthly and 5% compounded annually are the same rate.
+
+Right: Compare effective annual rates, 5.1162% against 5%.
+
+More frequent compounding earns interest on interest sooner.
+
+Taught in [APR, APY and the effective annual rate](../08-financial-math/02-interest-and-growth/03-apr-apy-and-effective-annual-rate.md#edge-cases-and-common-mistakes).
+
+### Annual rate with monthly periods
+
+Wrong: Use $i = 0.048$ with $n = 36$ months.
+
+Right: Use $i = 0.004$ with $n = 36$, or $i = 0.048$ with $n = 3$ years.
+
+The rate and the number of periods must use the same unit.
+
+Taught in [present and future value](../08-financial-math/03-time-value-of-money/01-present-and-future-value.md#edge-cases-and-common-mistakes).
+
+### Dividing a Canadian mortgage rate by 12
+
+Wrong: Monthly rate is the quoted fixed rate divided by 12.
+
+Right: $i = (1 + j/2)^{1/6} - 1$, because fixed rates compound semi-annually.
+
+Interest Act section 6 and market practice quote fixed rates with semi-annual compounding.
+
+Taught in [canadian mortgage compounding](../08-financial-math/05-housing/04-canadian-mortgage-compounding.md#edge-cases-and-common-mistakes).
+
+### Average return as growth rate
+
+Wrong: Gains of +30% and -10% average 10%, so money grows 10% a year.
+
+Right: The growth rate is the geometric mean, about 8.17% a year.
+
+Returns multiply, and the arithmetic mean is at least the geometric mean.
+
+Taught in [investing returns and risk](../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md#edge-cases-and-common-mistakes).
+
+### Taxing all income at the top rate
+
+Wrong: The marginal rate applies to your whole income.
+
+Right: Each rate applies only to the slice of income inside its bracket.
+
+Tax is piecewise linear, so a raise never lowers take-home pay.
+
+Taught in [income tax brackets: marginal vs effective](../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md#edge-cases-and-common-mistakes).
+
+### Treating the minimum payment as a plan
+
+Wrong: Paying the minimum clears the card in reasonable time.
+
+Right: \$2,000 at 18% with the higher of \$10 or 3% takes 166 months and \$1,798.88 interest.
+
+The payment shrinks with the balance, so the balance decays only slowly.
+
+Taught in [credit cards and the minimum payment trap](../08-financial-math/04-borrowing/04-credit-cards-and-the-minimum-payment-trap.md#edge-cases-and-common-mistakes).
