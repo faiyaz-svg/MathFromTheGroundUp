@@ -345,6 +345,7 @@ nav:
           - "Second-order linear equations": 05-university-core/10-differential-equations-light/02-second-order-linear-equations.md
   - "CS math":
       - 06-cs-math/index.md
+      - Diagnostic: 06-cs-math/diagnostic.md
       - "Number representation":
           - 06-cs-math/01-number-representation/index.md
           - "Number bases and conversions": 06-cs-math/01-number-representation/01-number-bases-and-conversions.md
@@ -391,6 +392,7 @@ nav:
           - "P, NP and NP-completeness": 06-cs-math/06-theory-of-computation/07-p-np-and-np-completeness.md
   - "Economics":
       - 07-economics-math/index.md
+      - Diagnostic: 07-economics-math/diagnostic.md
       - "Measuring the economy":
           - 07-economics-math/01-measuring-the-economy/index.md
           - "How economists use math and graphs": 07-economics-math/01-measuring-the-economy/01-how-economists-use-math-and-graphs.md
@@ -423,6 +425,7 @@ nav:
           - "Game theory and Nash equilibrium": 07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md
   - "Finance":
       - 08-financial-math/index.md
+      - Diagnostic: 08-financial-math/diagnostic.md
       - "Everyday money":
           - 08-financial-math/01-everyday-money/index.md
           - "Tips, discounts and HST": 08-financial-math/01-everyday-money/01-tips-discounts-and-hst.md

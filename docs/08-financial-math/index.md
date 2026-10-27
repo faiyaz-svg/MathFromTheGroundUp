@@ -7,6 +7,8 @@ Before this folder: Middle school percents and high school exponentials and loga
 
 ## How to use this folder
 
+Take the [diagnostic](diagnostic.md) first, with a calculator but without notes. It asks two questions on each of the 27 lessons, 54 in all, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest.
+
 Read the chapter cheat sheets first: [everyday money](01-everyday-money/index.md), [interest and growth](02-interest-and-growth/index.md), [time value of money](03-time-value-of-money/index.md), [borrowing](04-borrowing/index.md), [housing](05-housing/index.md), [investing and retirement](06-investing-and-retirement/index.md) and [taxes, insurance and planning](07-taxes-insurance-and-planning/index.md). Each lesson starts with a quick check, so you can test yourself and skip what you already know. Chapters 2 and 3 carry the formulas that every later chapter reuses, so do them in order.
 
 Dollar limits, tax rates and premiums in this folder are the 2026 figures from the sources linked in each lesson. They change, usually every year, so check the linked page before you act on a number. The rates in the examples are made up. The formulas do not go out of date.
