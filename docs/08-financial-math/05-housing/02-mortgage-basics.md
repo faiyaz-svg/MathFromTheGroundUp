@@ -99,7 +99,7 @@ When the down payment is under 20% of the price, the loan is high-ratio and has 
 
 CMHC's table has one more row, for the 90% to 95% range when the down payment is not from traditional sources, at 4.50%. The premium is usually added to the loan, so you pay interest on it for the whole amortization. The LTV that sets the premium rate is the one before the premium is added.
 
-CMHC's page also says that premiums in Quebec, Ontario and Saskatchewan are subject to provincial sales tax, and that this tax cannot be added to the loan amount. The page does not give the rate, so this lesson does not either. In Ontario the sales tax on the premium is paid in cash at closing, which belongs in your closing-cost budget.
+CMHC's page also says that premiums in Quebec, Ontario and Saskatchewan are subject to provincial sales tax, and that this tax cannot be added to the loan amount. In Ontario the tax is the 8% retail sales tax on insurance premiums (as of 2026, [Ontario retail sales tax on insurance](https://www.ontario.ca/document/retail-sales-tax/insurance-and-benefits-plans)). It is paid in cash at closing, so it belongs in your closing-cost budget: on a \$12,400 premium it is \$992.
 
 The steps are:
 
