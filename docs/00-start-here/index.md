@@ -46,7 +46,7 @@ Each lesson opens with a one-line goal ("After this lesson you can ...") and lin
 | How to do it | The method as numbered steps, or a theorem with its proof. |
 | Worked examples | Example 1 explained at every step; later ones lighter; one leaves its last step for you. |
 | Edge cases and common mistakes | Zero, negatives, empty cases, and each mistake at the step where it happens. |
-| Tricks and shortcuts | Mental math and memory aids, where real ones exist. |
+| Tricks and shortcuts | Mental math and memory aids, where real ones exist. The [tricks page](../reference/tricks-and-shortcuts.md) lists them all. |
 | In code, FAQ | In some lessons: short Python, and "why" and "what if" questions. |
 | Practice | About eight problems in three tiers: warm-up, standard, challenge. One challenge problem reviews an earlier lesson. |
 | Where this shows up | Where the idea comes back: later lessons, CS, economics, money. |

@@ -53,6 +53,7 @@ REFERENCE = [
     ("Glossary", "reference/glossary.md"),
     ("Symbols and notation", "reference/symbols-and-notation.md"),
     ("Common mistakes", "reference/common-mistakes.md"),
+    ("Tricks and shortcuts", "reference/tricks-and-shortcuts.md"),
     ("Formula index", "reference/formula-index.md"),
 ]
 

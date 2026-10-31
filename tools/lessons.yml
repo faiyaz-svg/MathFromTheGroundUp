@@ -88,6 +88,12 @@ folders:
           - [describing-data, "Describing data"]
           - [basic-probability, "Basic probability"]
           - [scatter-plots-and-two-way-tables, "Scatter plots and two-way tables"]
+      - slug: mental-math
+        title: Mental math
+        lessons:
+          - [mental-addition-and-subtraction, "Mental addition and subtraction"]
+          - [mental-multiplication-and-division, "Mental multiplication and division"]
+          - [percents-fractions-and-money-in-your-head, "Percents, fractions and money in your head"]
 
   - folder: 03-high-school
     title: High school
@@ -165,6 +171,8 @@ folders:
         lessons:
           - [vectors-in-the-plane, "Vectors in the plane"]
           - [matrix-basics, "Matrix basics"]
+          - [vectors-in-3d-and-the-cross-product, "Vectors in 3D and the cross product"]
+          - [lines-and-planes-in-3d, "Lines and planes in 3D"]
       - slug: sequences-series-and-counting
         title: Sequences, series and counting
         lessons:
@@ -302,6 +310,9 @@ folders:
           - [confidence-intervals, "Confidence intervals"]
           - [hypothesis-testing, "Hypothesis testing"]
           - [correlation-and-linear-regression, "Correlation and linear regression"]
+          - [chi-square-tests, "Chi-square tests"]
+          - [bootstrap-and-permutation-tests, "The bootstrap and permutation tests"]
+          - [multiple-testing-and-p-hacking, "Multiple testing and p-hacking"]
       - slug: multivariable-calculus-light
         title: Multivariable calculus (light)
         lessons:
@@ -467,3 +478,9 @@ folders:
           - [income-tax-brackets-marginal-vs-effective, "Income tax brackets: marginal vs effective"]
           - [insurance-and-expected-value, "Insurance and expected value"]
           - [spreadsheet-finance-functions-and-capstone, "Spreadsheet finance functions and a capstone plan"]
+      - slug: starting-your-career
+        title: Starting your career
+        lessons:
+          - [comparing-job-offers, "Comparing job offers"]
+          - [taxes-on-investment-income, "Taxes on investment income"]
+          - [side-gigs-and-self-employment, "Side gigs and self-employment"]
