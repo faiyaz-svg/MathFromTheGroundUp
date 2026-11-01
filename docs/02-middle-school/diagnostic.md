@@ -1,6 +1,6 @@
 # Middle school diagnostic
 
-This quiz covers the 29 lessons of the middle school folder, with two questions on each. Take it without notes and without a calculator, and write every answer down before you look at the answers. Most questions take a minute or two, and the whole quiz is best done in two or three sittings.
+This quiz covers the 32 lessons of the middle school folder, with two questions on each, 64 questions in all. Take it without notes and without a calculator, and write every answer down before you look at the answers. Most questions take a minute or two, and the whole quiz is best done in two or three sittings.
 
 Mark each answer right, wrong or guessed. A guess counts as wrong, even when it turns out right. Then do only the lessons behind the questions you marked wrong or guessed; the answer table names the lesson for each question.
 
@@ -139,6 +139,20 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 | CS student | 30 | 20 |
 | Not CS | 10 | 140 |
 
+## Mental math
+
+59\. Add $3{,}847 + 2{,}586$ left to right, saying each running total.
+
+60\. Find the change from a \$100 bill for a \$63.82 purchase by counting up. Then work out $1{,}000 - 640$.
+
+61\. Work out $36 \times 25$, $87 \times 11$ and $2{,}350 \div 25$.
+
+62\. Work out $47 \times 53$ and $96^2$.
+
+63\. A restaurant total is \$101.70, including 13% HST. Find the price before tax. Then find the single discount that equals 20% off followed by an extra 10% off.
+
+64\. Write $\frac{5}{6}$ and $\frac{1}{7}$ as percents. Then use the rule of 72 to estimate how long money takes to double at 9% a year.
+
 ## Answers
 
 <details class="solution" markdown>
@@ -204,6 +218,12 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 | 56 | $\frac{1}{10}$ | The second draw has changed: $\frac{2}{5} \times \frac{1}{4}$, not $\left(\frac{2}{5}\right)^2$. | [Basic probability](07-statistics-and-probability/02-basic-probability.md) |
 | 57 | $y = 5x + 45$; 5 points per hour | $m = \frac{20}{4}$, and $55 = 5(2) + b$. At $x = 20$ it predicts 145 out of 100, an extrapolation far outside the data. | [Scatter plots and two-way tables](07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md) |
 | 58 | 60% and 75% | Divide by different totals: $\frac{30}{50}$ by the CS row, and $\frac{30}{40}$ by the Linux column. | [Scatter plots and two-way tables](07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md) |
+| 59 | 6,433 | $3{,}847 + 2{,}000 = 5{,}847$, then $+ 500 = 6{,}347$, then $+ 80 = 6{,}427$, then $+ 6 = 6{,}433$. The last digits give $7 + 6 = 13$, so the sum ends in 3. | [Mental addition and subtraction](08-mental-math/01-mental-addition-and-subtraction.md) |
+| 60 | \$36.18 and 360 | Count up from \$63.82: 18 cents to \$64, then \$36 to \$100. For the second, take the last nonzero digit from 10 and the others from 9, and the zero stays: $9 - 6 = 3$, $10 - 4 = 6$. | [Mental addition and subtraction](08-mental-math/01-mental-addition-and-subtraction.md) |
+| 61 | 900, 957 and 94 | $25 = 100 \div 4$, so $3{,}600 \div 4$. Then $870 + 87$. For the division, multiply by 4 to get 9,400 and divide by 100. | [Mental multiplication and division](08-mental-math/02-mental-multiplication-and-division.md) |
+| 62 | 2,491 and 9,216 | The numbers are 3 below and above 50, so $50^2 - 3^2 = 2{,}500 - 9$. For the square, $100 \times 92 + 4^2$, with $d = -4$ from 100. | [Mental multiplication and division](08-mental-math/02-mental-multiplication-and-division.md) |
+| 63 | \$90.00 and 28% | Divide by 1.13, or take off about 11.5% of the total. The multipliers are $0.8 \times 0.9 = 0.72$, so the discount is 28%, not 30%. | [Percents, fractions and money in your head](08-mental-math/03-percents-fractions-and-money-in-your-head.md) |
+| 64 | 83.3%, 14.3% and about 8 years | $\frac{5}{6} = 1 - \frac{1}{6}$, and the digits 142857 repeat in $\frac{1}{7}$. The rule gives $72 \div 9 = 8$. | [Percents, fractions and money in your head](08-mental-math/03-percents-fractions-and-money-in-your-head.md) |
 
 </details>
 

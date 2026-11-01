@@ -6,7 +6,9 @@ Before this folder: Elementary.
 
 ## How to use this folder
 
-Take the [diagnostic](diagnostic.md) first, without notes or a calculator. It asks two questions on each of the 29 lessons, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
+Take the [diagnostic](diagnostic.md) first, without notes or a calculator. It asks two questions on each of the 32 lessons, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
+
+The last chapter, mental math, adds no new topics. Its three lessons collect the shortcuts from the earlier chapters, extend them to four-digit sums, near squares, reverse percents and doubling times, and end each lesson with a drill of 20 questions to do in your head. Do it after the chapters on percents and estimation.
 
 The [Anki deck for this folder](../downloads/anki/02-middle-school.apkg) holds the facts and rules that are easy to mix up, such as the sign rules, the order of operations, the exponent rules, the percent change multipliers, the slope formula and the area and volume formulas. In Anki desktop choose File, then Import, and [Anki decks](../00-start-here/index.md#anki-decks) covers phones.
 
@@ -43,6 +45,7 @@ Each chapter has a cheat sheet with the rules, tables and common mistakes of its
 - [Linear relationships and functions](05-linear-relationships-and-functions/index.md#cheat-sheet) covers the coordinate plane, slope and intercepts, function notation, and systems of equations.
 - [Geometry](06-geometry/index.md#cheat-sheet) covers angle facts, area, volume, the Pythagorean theorem, and transformations, congruence and similarity.
 - [Statistics and probability](07-statistics-and-probability/index.md#cheat-sheet) covers mean, median and spread, probability rules, scatter plots and two-way tables.
+- [Mental math](08-mental-math/index.md#cheat-sheet) covers left-to-right addition, counting up, friendly factors, the difference of squares, reverse percents, round trips, fraction benchmarks and the rule of 72.
 
 <!-- lessons:start -->
 ## Lessons
@@ -96,5 +99,11 @@ Each chapter has a cheat sheet with the rules, tables and common mistakes of its
 1. [Describing data](07-statistics-and-probability/01-describing-data.md)
 2. [Basic probability](07-statistics-and-probability/02-basic-probability.md)
 3. [Scatter plots and two-way tables](07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md)
+
+### 8. [Mental math](08-mental-math/index.md)
+
+1. [Mental addition and subtraction](08-mental-math/01-mental-addition-and-subtraction.md)
+2. [Mental multiplication and division](08-mental-math/02-mental-multiplication-and-division.md)
+3. [Percents, fractions and money in your head](08-mental-math/03-percents-fractions-and-money-in-your-head.md)
 
 <!-- lessons:end -->
