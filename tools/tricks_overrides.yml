@@ -63,3 +63,8 @@
 08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md: 'Estimate the drag as half the squared volatility, and find the gain needed after a loss $x$ with $\frac{x}{1 - x}$.'
 08-financial-math/06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md: 'Judge a fee by dividing it by the gross return you expect, and rebalance without selling by directing contributions to the part below target.'
 08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md: 'For a quick effective rate, compute the tax on the top bracket only, and remember the earlier brackets average lower.'
+02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md: 'Near doubles and bridging move an amount from one number to the other, which keeps the sum the same: $a + b = (a + c) + (b - c)$.'
+02-middle-school/08-mental-math/02-mental-multiplication-and-division.md: 'Know the squares from 11 to 25. They give the $d^2$ in the difference of squares when $d$ is bigger than 9, as in $38 \times 62$.'
+03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md: 'Go around the cycle: component 1 uses entries 2 and 3, component 2 uses 3 and 1, component 3 uses 1 and 2. Then check with two dot products.'
+08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md: 'For an Ontario earner around \$65,000, a dollar of eligible dividends keeps about 94 cents, a capital gain about 85 cents and interest about 70 cents.'
+08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md: 'For a first guess, set aside about a third of each payment if you also have a salary, and about a fifth if your income is low.'

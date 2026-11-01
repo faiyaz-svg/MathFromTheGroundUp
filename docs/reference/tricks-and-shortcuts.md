@@ -1,6 +1,6 @@
 # Tricks and shortcuts
 
-Every lesson has a section called "Tricks and shortcuts": mental math, memory aids and quick checks that save time once you understand the method. This page lists them in reading order, one line per lesson, and each line links to the full section. To practise calculating in your head, start with the Mental math chapter.
+Every lesson has a section called "Tricks and shortcuts": mental math, memory aids and quick checks that save time once you understand the method. This page lists them in reading order, one line per lesson, and each line links to the full section. To practise calculating in your head, start with the [Mental math](../02-middle-school/08-mental-math/index.md) chapter.
 
 ## Elementary
 
@@ -73,6 +73,12 @@ Every lesson has a section called "Tricks and shortcuts": mental math, memory ai
 - [Basic probability](../02-middle-school/07-statistics-and-probability/02-basic-probability.md#tricks-and-shortcuts): Read "and" as multiply and "or" as add, then check the condition: multiply only for independent events, and add only for mutually exclusive ones.
 - [Scatter plots and two-way tables](../02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md#tricks-and-shortcuts): Choose the two points for the slope where the line crosses grid lines, so both coordinates are round numbers, and as far apart as the plot allows.
 
+### Mental math
+
+- [Mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#tricks-and-shortcuts): Near doubles and bridging move an amount from one number to the other, which keeps the sum the same: $a + b = (a + c) + (b - c)$.
+- [Mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#tricks-and-shortcuts): Know the squares from 11 to 25. They give the $d^2$ in the difference of squares when $d$ is bigger than 9, as in $38 \times 62$.
+- [Percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#tricks-and-shortcuts): The HST rate of 13% is a hair over an eighth, which is 12.5%.
+
 ## High school
 
 ### Algebra foundations
@@ -144,6 +150,8 @@ Every lesson has a section called "Tricks and shortcuts": mental math, memory ai
 
 - [Vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#tricks-and-shortcuts): To get a vector perpendicular to $(a, b)$, swap the components and negate one: $(-b, a)$ or $(b, -a)$.
 - [Matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#tricks-and-shortcuts): Check sizes before computing anything: write $(2 \times 3)(3 \times 2)$ and see that the inner numbers match and the outer numbers are the size of the answer.
+- [Vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#tricks-and-shortcuts): Go around the cycle: component 1 uses entries 2 and 3, component 2 uses 3 and 1, component 3 uses 1 and 2. Then check with two dot products.
+- [Lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#tricks-and-shortcuts): To go from three points to the plane, you can skip the cross product when the points are on the axes.
 
 ### Sequences, series and counting
 
@@ -270,6 +278,9 @@ Every lesson has a section called "Tricks and shortcuts": mental math, memory ai
 - [Confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#tricks-and-shortcuts): For a quick 95% interval, "estimate plus or minus 2 standard errors" is within a few percent of the exact z interval.
 - [Hypothesis testing](../05-university-core/08-statistics/03-hypothesis-testing.md#tricks-and-shortcuts): A statistic beyond about $\pm 2$, $\pm 2.6$ or $\pm 3.3$ is significant at the 5%, 1% or 0.1% level for large samples.
 - [Correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#tricks-and-shortcuts): To find the line without the full sums, use the summary statistics: $b = r\frac{s_y}{s_x}$, and then $a = \bar{y} - b\bar{x}$.
+- [Chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#tricks-and-shortcuts): To find an expected count, multiply the row total by the column total and divide by $n$.
+- [The bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#tricks-and-shortcuts): Build all the resamples at once: `data[rng.integers(0, n, size=(B, n))]` is a $B$ by $n$ array, and `.mean(axis=1)` or `np.median(..., axis=1)` gives all the replicates.
+- [Multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#tricks-and-shortcuts): The expected number of false positives among $m$ true nulls is $m\alpha$, and this needs no independence, because expectations add.
 
 ### Multivariable calculus (light)
 
@@ -420,3 +431,9 @@ Every lesson has a section called "Tricks and shortcuts": mental math, memory ai
 - [Income tax brackets: marginal vs effective](../08-financial-math/07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md#tricks-and-shortcuts): For a quick effective rate, compute the tax on the top bracket only, and remember the earlier brackets average lower.
 - [Insurance and expected value](../08-financial-math/07-taxes-insurance-and-planning/02-insurance-and-expected-value.md#tricks-and-shortcuts): For any policy, loss ratio and loading are two views of one number: loading $= \frac{1}{\text{loss ratio}} - 1$.
 - [Spreadsheet finance functions and a capstone plan](../08-financial-math/07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md#tricks-and-shortcuts): Check any `PMT` result by multiplying by $n$: the total paid is the loan plus the interest.
+
+### Starting your career
+
+- [Comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#tricks-and-shortcuts): What an extra \$1,000 of pay leaves depends on where you start, and it is never your average rate.
+- [Taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#tricks-and-shortcuts): For an Ontario earner around \$65,000, a dollar of eligible dividends keeps about 94 cents, a capital gain about 85 cents and interest about 70 cents.
+- [Side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#tricks-and-shortcuts): For a first guess, set aside about a third of each payment if you also have a salary, and about a fifth if your income is low.
