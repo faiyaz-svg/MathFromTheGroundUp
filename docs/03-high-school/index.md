@@ -6,7 +6,7 @@ Before this folder: Middle school.
 
 ## How to use this folder
 
-Take the [diagnostic](diagnostic.md) first, without notes or a calculator. It asks two questions on each of the 42 core lessons and one on each of the 2 optional ones, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
+Take the [diagnostic](diagnostic.md) first, without notes or a calculator. It asks two questions on each of the 44 core lessons and one on each of the 2 optional ones, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. The vectors chapter goes on to three dimensions, with the cross product and the equations of lines and planes in space, the vector geometry of the Ontario Grade 12 course Calculus and Vectors (MCV4U). Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
 
 The [Anki deck for this folder](../downloads/anki/03-high-school.apkg) holds the formulas, definitions and theorems that are easy to mix up, such as the quadratic formula, the transformation rules, the logarithm rules, the congruence tests, the unit circle values, the matrix rules and the counting formulas. In Anki desktop choose File, then Import, and [Anki decks](../00-start-here/index.md#anki-decks) covers phones.
 
@@ -35,6 +35,8 @@ If you are short on time, these lessons carry the most weight in the later proof
 | [Radians and the unit circle](09-trigonometry/02-radians-and-the-unit-circle.md) | calculus with trig functions, rotations and graphics |
 | [Vectors in the plane](10-vectors-and-matrices/01-vectors-in-the-plane.md) | the dot product and length in linear algebra and machine learning |
 | [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md) | the whole of linear algebra, and transformations in graphics |
+| [Vectors in 3D and the cross product](10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md) | surface normals, culling and lighting in graphics, and the volume idea behind determinants |
+| [Lines and planes in 3D](10-vectors-and-matrices/04-lines-and-planes-in-3d.md) | ray and plane intersection in graphics, and the three cases of a linear system in linear algebra |
 | [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) | recurrences, induction proofs and the analysis of recursive code |
 | [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) | counting loop steps, geometric series in finance and in calculus |
 | [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) | discrete math, probability and the size of a search space |
@@ -55,7 +57,7 @@ Each chapter has a cheat sheet with the rules, tables and common mistakes of its
 - [Exponentials and logarithms](07-exponentials-and-logarithms/index.md#cheat-sheet) covers growth and decay, the logarithm rules, and solving for an exponent.
 - [Geometry and proof](08-geometry-and-proof/index.md#cheat-sheet) covers postulates and proof form, congruence and similarity tests, coordinate geometry, circles and conics.
 - [Trigonometry](09-trigonometry/index.md#cheat-sheet) covers right triangles, radians and the unit circle, sine and cosine graphs, identities and inverse trig.
-- [Vectors and matrices](10-vectors-and-matrices/index.md#cheat-sheet) covers vector operations, the dot product, matrix products, determinants and inverses.
+- [Vectors and matrices](10-vectors-and-matrices/index.md#cheat-sheet) covers vector operations, the dot product, matrix products, determinants and inverses, and in three dimensions the cross product and the equations of lines and planes.
 - [Sequences, series and counting](11-sequences-series-and-counting/index.md#cheat-sheet) covers arithmetic and geometric sequences, sums, permutations and combinations, and the binomial theorem.
 
 <!-- lessons:start -->
@@ -130,6 +132,8 @@ Each chapter has a cheat sheet with the rules, tables and common mistakes of its
 
 1. [Vectors in the plane](10-vectors-and-matrices/01-vectors-in-the-plane.md)
 2. [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md)
+3. [Vectors in 3D and the cross product](10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md)
+4. [Lines and planes in 3D](10-vectors-and-matrices/04-lines-and-planes-in-3d.md)
 
 ### 11. [Sequences, series and counting](11-sequences-series-and-counting/index.md)
 

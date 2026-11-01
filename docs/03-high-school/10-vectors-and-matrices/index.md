@@ -4,6 +4,8 @@ Quantities with a direction, and tables of numbers that combine and transform th
 
 1. [Vectors in the plane](01-vectors-in-the-plane.md)
 2. [Matrix basics](02-matrix-basics.md)
+3. [Vectors in 3D and the cross product](03-vectors-in-3d-and-the-cross-product.md)
+4. [Lines and planes in 3D](04-lines-and-planes-in-3d.md)
 
 ## Cheat sheet
 
@@ -75,3 +77,58 @@ Main mistakes:
 - Taking the inverse entry by entry, as the reciprocals of the entries.
 - Multiplying by the inverse on the wrong side when solving $A\mathbf{x} = \mathbf{b}$.
 - Swapping the order in a composition: for "reflect, then rotate" the matrix is $RF$, with the reflection written next to the point.
+
+### Vectors in 3D and the cross product
+
+Points and vectors in space have three components, and the axes are right-handed: $\mathbf{i} \times \mathbf{j} = \mathbf{k}$. Length, unit vector and dot product get a third term.
+
+| Item | Formula | Example |
+|---|---|---|
+| length | $\lVert \mathbf{v} \rVert = \sqrt{a^2 + b^2 + c^2}$ | $\lVert (3, 4, 2) \rVert = \sqrt{29}$ |
+| dot product and angle | $\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2 + u_3 v_3 = \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert \cos\theta$ | $(1, 2, 2)$ and $(2, 3, 6)$: $\cos\theta = \frac{20}{21}$ |
+| cross product | $(u_2 v_3 - u_3 v_2,\; u_3 v_1 - u_1 v_3,\; u_1 v_2 - u_2 v_1)$ | $(1, 2, 3) \times (4, 5, 6) = (-3, 6, -3)$ |
+| parallelogram area | $\lVert \mathbf{u} \times \mathbf{v} \rVert = \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert \sin\theta$ | triangle: half of it |
+| triple product | $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$, the $3 \times 3$ determinant of the rows | box volume $\lvert \cdot \rvert$, tetrahedron one sixth |
+
+- Cover-a-column pattern: cover column 1 for the first component, column 2 (and change the sign) for the second, column 3 for the third, taking the $2 \times 2$ determinant of what is left. Check by dotting the result with both factors: both must be 0.
+- $\mathbf{u} \times \mathbf{v}$ is perpendicular to both vectors, and the right-hand rule gives its direction. $\mathbf{v} \times \mathbf{u} = -(\mathbf{u} \times \mathbf{v})$, $\mathbf{u} \times \mathbf{u} = \mathbf{0}$, and $\mathbf{u} \times \mathbf{v} = \mathbf{0}$ exactly when the vectors are parallel (or one is zero). It distributes over addition.
+- $\mathbf{i} \times \mathbf{j} = \mathbf{k}$, $\mathbf{j} \times \mathbf{k} = \mathbf{i}$, $\mathbf{k} \times \mathbf{i} = \mathbf{j}$; the reverse order gives a minus sign.
+- Three points are collinear when $\overrightarrow{AB} \times \overrightarrow{AC} = \mathbf{0}$, and four points are coplanar when the triple product is 0.
+- Graphics: the normal of triangle $ABC$ is $\overrightarrow{AB} \times \overrightarrow{AC}$. It faces a camera at $E$ when $\mathbf{n} \cdot \overrightarrow{AE} > 0$ (back-face culling needs only the sign), and its diffuse brightness is $\max(0, \hat{\mathbf{n}} \cdot \hat{\mathbf{l}})$ with unit vectors.
+- Whole-number lengths: $(1, 2, 2)$ has length 3, $(2, 3, 6)$ has length 7, $(2, 6, 9)$ has length 11.
+
+Main mistakes:
+
+- Swapping the order, or the sign of the middle component, which should be $u_3 v_1 - u_1 v_3$.
+- Mixing the products: the dot product is a number (0 for perpendicular), the cross product is a vector ($\mathbf{0}$ for parallel).
+- Assuming the cross product is associative or can be cancelled: $\mathbf{u} \times \mathbf{v} = \mathbf{u} \times \mathbf{w}$ does not give $\mathbf{v} = \mathbf{w}$.
+- Using it on two-component vectors without a third component 0.
+
+### Lines and planes in 3D
+
+| Object | Forms |
+|---|---|
+| line through $P_0$ with direction $\mathbf{m} = (a, b, c)$ | vector $\mathbf{r} = \mathbf{r}_0 + t\mathbf{m}$; parametric $x = x_0 + at$, and so on; symmetric $\frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}$ (no zero components) |
+| plane through $P_0$ with normal $\mathbf{n} = (a, b, c)$ | scalar $ax + by + cz = d$ with $d = \mathbf{n} \cdot \mathbf{r}_0$; vector $\mathbf{r} = \mathbf{r}_0 + s\mathbf{u} + t\mathbf{v}$ with $\mathbf{n} = \mathbf{u} \times \mathbf{v}$ |
+| plane through three points | $\mathbf{n} = \overrightarrow{AB} \times \overrightarrow{AC}$, then $d = \mathbf{n} \cdot A$ |
+
+| Question | Test |
+|---|---|
+| two lines | parallel if $\mathbf{m}_1 \times \mathbf{m}_2 = \mathbf{0}$. Otherwise they meet if $(\mathbf{r}_2 - \mathbf{r}_1) \cdot (\mathbf{m}_1 \times \mathbf{m}_2) = 0$ and are skew if not. Use two parameters, $s$ and $t$ |
+| line and plane | $t = \frac{d - \mathbf{n} \cdot \mathbf{r}_0}{\mathbf{n} \cdot \mathbf{m}}$ if $\mathbf{n} \cdot \mathbf{m} \ne 0$ (one point). If $\mathbf{n} \cdot \mathbf{m} = 0$: in the plane when $\mathbf{n} \cdot \mathbf{r}_0 = d$, else no point |
+| two planes | parallel if $\mathbf{n}_1 \times \mathbf{n}_2 = \mathbf{0}$. Otherwise a line with direction $\mathbf{n}_1 \times \mathbf{n}_2$ |
+| three planes | triple product of the normals not 0: one point. If 0: a line (consistent) or none (inconsistent) |
+| point $Q$ to plane | $\frac{\lvert \mathbf{n} \cdot Q - d \rvert}{\lVert \mathbf{n} \rVert}$ |
+| skew lines | $\frac{\lvert (\mathbf{r}_2 - \mathbf{r}_1) \cdot (\mathbf{m}_1 \times \mathbf{m}_2) \rvert}{\lVert \mathbf{m}_1 \times \mathbf{m}_2 \rVert}$ |
+
+- One linear equation in space is a plane. A line needs two equations or a parameter.
+- The angle between planes is the angle between the normals: $\cos\theta = \frac{\lvert \mathbf{n}_1 \cdot \mathbf{n}_2 \rvert}{\lVert \mathbf{n}_1 \rVert \lVert \mathbf{n}_2 \rVert}$. A line is parallel to a plane when $\mathbf{m} \cdot \mathbf{n} = 0$ and perpendicular to it when $\mathbf{m}$ is a multiple of $\mathbf{n}$.
+- The plane through $(p, 0, 0)$, $(0, q, 0)$ and $(0, 0, r)$ is $\frac{x}{p} + \frac{y}{q} + \frac{z}{r} = 1$.
+
+Main mistakes:
+
+- Using one parameter for both lines, which tests a collision and not a crossing.
+- Thinking two non-parallel lines in space must meet. They can be skew.
+- Writing $x + y = 3$ as a line in space. It is a plane.
+- Getting the sign of $d$ wrong, or leaving out the absolute value in the distance formula.
+- Mixing up parallel to a plane ($\mathbf{m} \cdot \mathbf{n} = 0$) and perpendicular to it.

@@ -1,6 +1,6 @@
 # High school diagnostic
 
-This quiz covers the 44 lessons of the high school folder: two questions on each of the 42 core lessons and one on each of the 2 optional lessons (conic sections, and the law of sines and cosines), 86 questions in all. Take it without notes and without a calculator, and write every answer down before you look at the answers. Most questions take a minute or two, so plan on four or five sittings rather than one.
+This quiz covers the 46 lessons of the high school folder: two questions on each of the 44 core lessons and one on each of the 2 optional lessons (conic sections, and the law of sines and cosines), 90 questions in all. Take it without notes and without a calculator, and write every answer down before you look at the answers. Most questions take a minute or two, so plan on four or five sittings rather than one.
 
 Mark each answer right, wrong or guessed. A guess counts as wrong, even when it turns out right. Then do only the lessons behind the questions you marked wrong or guessed; the answer table names the lesson for each question. If you skip the two optional lessons, nothing later depends on them.
 
@@ -180,23 +180,31 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 
 78\. The matrix $A$ has rows $(3, 1)$ and $(5, 2)$. Find $\det A$ and $A^{-1}$, then solve $3x + y = 5$, $5x + 2y = 9$.
 
+79\. For $\mathbf{u} = (2, 3, 6)$ and $\mathbf{v} = (3, 4, 12)$, find $\lVert \mathbf{u} \rVert$, $\lVert \mathbf{v} \rVert$ and $\cos\theta$ for the angle between them.
+
+80\. Compute $(2, 1, 0) \times (0, 2, 2)$. What does the length of the answer measure, and what is $(0, 2, 2) \times (2, 1, 0)$?
+
+81\. Write the plane through $(1, 2, 3)$ with normal vector $(2, -1, 4)$ as $ax + by + cz = d$. Is the point $(4, 0, 1)$ on it?
+
+82\. Where does the line $x = 1 + t$, $y = 2t$, $z = 3 - t$ meet the plane $2x + y + z = 8$? How far is the origin from the plane $2x + 3y + 6z = 14$?
+
 ## Sequences, series and counting
 
-79\. An arithmetic sequence (indexed from 0) has $a_3 = 11$ and $a_7 = 23$. Find the common difference and a formula for $a_n$.
+83\. An arithmetic sequence (indexed from 0) has $a_3 = 11$ and $a_7 = 23$. Find the common difference and a formula for $a_n$.
 
-80\. Let $h_0 = 0$ and $h_{n+1} = 2h_n + 1$. Find $h_1$ to $h_5$, guess a formula, and say what is needed to be sure it is right.
+84\. Let $h_0 = 0$ and $h_{n+1} = 2h_n + 1$. Find $h_1$ to $h_5$, guess a formula, and say what is needed to be sure it is right.
 
-81\. Work out $\sum_{k=1}^{100} k$ and $\sum_{k=3}^{10} (2k + 1)$.
+85\. Work out $\sum_{k=1}^{100} k$ and $\sum_{k=3}^{10} (2k + 1)$.
 
-82\. Work out $\sum_{k=0}^{9} 3 \cdot 2^k$, and write $0.\overline{36}$ as a fraction in lowest terms.
+86\. Work out $\sum_{k=0}^{9} 3 \cdot 2^k$, and write $0.\overline{36}$ as a fraction in lowest terms.
 
-83\. How many 4-digit PINs use no digit twice? How many committees of 3 can be chosen from 8 people?
+87\. How many 4-digit PINs use no digit twice? How many committees of 3 can be chosen from 8 people?
 
-84\. How many distinct arrangements of the letters of BANANA are there? How many bit strings of length 6 contain at least one 1?
+88\. How many distinct arrangements of the letters of BANANA are there? How many bit strings of length 6 contain at least one 1?
 
-85\. Expand $(2x - 1)^4$.
+89\. Expand $(2x - 1)^4$.
 
-86\. Find the coefficient of $x^3$ in $(x + 2)^6$, and the sum of all entries in row 10 of Pascal's triangle.
+90\. Find the coefficient of $x^3$ in $(x + 2)^6$, and the sum of all entries in row 10 of Pascal's triangle.
 
 ## Answers
 
@@ -283,14 +291,18 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 | 76 | 0, so the vectors are perpendicular; 5 | $4 - 4 = 0$. The sum is $(3, 4)$ with length 5, not $3 + 4$. | [Vectors in the plane](10-vectors-and-matrices/01-vectors-in-the-plane.md) |
 | 77 | $AB$ has rows $(6, -2)$ and $(11, -6)$; $BA$ has rows $(2, 1)$ and $(10, -2)$ | Each entry is a row of the first matrix dotted with a column of the second. The products differ, so $AB \ne BA$. | [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md) |
 | 78 | $\det A = 1$; $A^{-1}$ has rows $(2, -1)$ and $(-5, 3)$; $(x, y) = (1, 2)$ | $\det A = 6 - 5$. Swap the diagonal, negate the others and divide by 1. Then $A^{-1}$ times $(5, 9)$ on the left gives $(10 - 9, -25 + 27)$. | [Matrix basics](10-vectors-and-matrices/02-matrix-basics.md) |
-| 79 | $d = 3$; $a_n = 2 + 3n$ | $d = \frac{23 - 11}{7 - 3}$, and $a_0 = 11 - 9$. Check: $a_7 = 2 + 21$. | [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) |
-| 80 | 1, 3, 7, 15, 31; $h_n = 2^n - 1$; a proof by induction | A pattern from a few terms is not a proof. Check the start, then show the formula for $n$ gives it for $n + 1$. | [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) |
-| 81 | 5050 and 112 | $\frac{100 \cdot 101}{2}$. The second has $10 - 3 + 1 = 8$ terms: $2 \cdot (55 - 3) + 8$. | [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) |
-| 82 | 3069; $\frac{4}{11}$ | There are 10 terms, so $3 \cdot \frac{2^{10} - 1}{2 - 1}$. And $\frac{36}{99}$ reduces by 9. | [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) |
-| 83 | 5040; 56 | Order matters for a PIN: $10 \cdot 9 \cdot 8 \cdot 7$. It does not for a committee: $\frac{8 \cdot 7 \cdot 6}{3!}$. | [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) |
-| 84 | 60; 63 | $\frac{6!}{3!\,2!}$ divides out the repeated letters. "At least one" is the total minus none: $2^6 - 1$. | [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) |
-| 85 | $16x^4 - 32x^3 + 24x^2 - 8x + 1$ | Use $a = 2x$ and $b = -1$, so the coefficient is raised too and the signs alternate. At $x = 1$ both sides are 1. | [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md) |
-| 86 | 160; 1024 | The $x^3$ term is $\binom{6}{3} x^3 \cdot 2^3 = 20 \cdot 8$. The row sum is $2^{10}$. | [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md) |
+| 79 | 7, 13, $\frac{90}{91}$ | The dot product is $6 + 12 + 72 = 90$, and the lengths are $\sqrt{4 + 9 + 36}$ and $\sqrt{9 + 16 + 144}$. | [Vectors in 3D and the cross product](10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md) |
+| 80 | $(2, -4, 4)$; the area of the parallelogram on the two vectors, which is 6; $(-2, 4, -4)$ | First component $1 \cdot 2 - 0 \cdot 2$, second $0 \cdot 0 - 2 \cdot 2$, third $2 \cdot 2 - 1 \cdot 0$. Swapping the order changes every sign. | [Vectors in 3D and the cross product](10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md) |
+| 81 | $2x - y + 4z = 12$; yes | The coefficients are the normal and $d = 2 - 2 + 12$. For $(4, 0, 1)$, $8 - 0 + 4 = 12$. | [Lines and planes in 3D](10-vectors-and-matrices/04-lines-and-planes-in-3d.md) |
+| 82 | $(2, 2, 2)$; 2 | Substitute: $2(1 + t) + 2t + (3 - t) = 5 + 3t = 8$, so $t = 1$. The distance is $\frac{14}{\sqrt{4 + 9 + 36}} = \frac{14}{7}$. | [Lines and planes in 3D](10-vectors-and-matrices/04-lines-and-planes-in-3d.md) |
+| 83 | $d = 3$; $a_n = 2 + 3n$ | $d = \frac{23 - 11}{7 - 3}$, and $a_0 = 11 - 9$. Check: $a_7 = 2 + 21$. | [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) |
+| 84 | 1, 3, 7, 15, 31; $h_n = 2^n - 1$; a proof by induction | A pattern from a few terms is not a proof. Check the start, then show the formula for $n$ gives it for $n + 1$. | [Sequences and recursion](11-sequences-series-and-counting/01-sequences-and-recursion.md) |
+| 85 | 5050 and 112 | $\frac{100 \cdot 101}{2}$. The second has $10 - 3 + 1 = 8$ terms: $2 \cdot (55 - 3) + 8$. | [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) |
+| 86 | 3069; $\frac{4}{11}$ | There are 10 terms, so $3 \cdot \frac{2^{10} - 1}{2 - 1}$. And $\frac{36}{99}$ reduces by 9. | [Summation notation and series](11-sequences-series-and-counting/02-summation-notation-and-series.md) |
+| 87 | 5040; 56 | Order matters for a PIN: $10 \cdot 9 \cdot 8 \cdot 7$. It does not for a committee: $\frac{8 \cdot 7 \cdot 6}{3!}$. | [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) |
+| 88 | 60; 63 | $\frac{6!}{3!\,2!}$ divides out the repeated letters. "At least one" is the total minus none: $2^6 - 1$. | [Counting: permutations and combinations](11-sequences-series-and-counting/03-counting-permutations-combinations.md) |
+| 89 | $16x^4 - 32x^3 + 24x^2 - 8x + 1$ | Use $a = 2x$ and $b = -1$, so the coefficient is raised too and the signs alternate. At $x = 1$ both sides are 1. | [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md) |
+| 90 | 160; 1024 | The $x^3$ term is $\binom{6}{3} x^3 \cdot 2^3 = 20 \cdot 8$. The row sum is $2^{10}$. | [The binomial theorem](11-sequences-series-and-counting/04-binomial-theorem.md) |
 
 </details>
 
