@@ -388,6 +388,6 @@ Check: tax takes 29.65% of the nominal return and about two thirds of the real r
 
 ## Where this shows up
 
-- The side income of a freelancer or a gig worker is taxed in yet another way: see Side gigs and self-employment<!-- link: 03-side-gigs-and-self-employment.md -->.
+- The side income of a freelancer or a gig worker is taxed in yet another way: see [Side gigs and self-employment](03-side-gigs-and-self-employment.md).
 - The tax calculator in [income tax brackets: marginal vs effective](../07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md) takes these three kinds of income as extra inputs, and the account rules are in [retirement accounts: RRSP, TFSA and FHSA](../06-investing-and-retirement/03-retirement-accounts.md).
 - Computing: the ACB is a running average that updates on each purchase, and the superficial loss rule is a sliding window over a transaction log.

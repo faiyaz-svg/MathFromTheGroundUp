@@ -452,6 +452,6 @@ Check: the full calculator leaves \$3,230.51 (extra income tax \$1,408.42, extra
 
 ## Where this shows up
 
-- Selling shares that came from an RSU, and the tax on dividends and gains from investments, is in [Taxes on investment income](02-taxes-on-investment-income.md). The tax and CPP on income from a side gig are in Side gigs and self-employment<!-- link: 03-side-gigs-and-self-employment.md -->.
+- Selling shares that came from an RSU, and the tax on dividends and gains from investments, is in [Taxes on investment income](02-taxes-on-investment-income.md). The tax and CPP on income from a side gig are in [Side gigs and self-employment](03-side-gigs-and-self-employment.md).
 - Computing: an offer is a small decision tree with probabilities, which is the setting of [discrete random variables](../../05-university-core/07-probability/03-discrete-random-variables.md), and the break-even price is a root-finding problem like the one in [spreadsheet finance functions and a capstone plan](../07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md).
 - Economics: discounting a stream of pay is the present value idea of [present value, NPV and bond prices](../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md).
