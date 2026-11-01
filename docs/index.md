@@ -12,14 +12,14 @@ The companion book [CS From the Ground Up](https://faiyaz-svg.github.io/CSFromTh
 |---|---|---|
 | [Start here](00-start-here/index.md) | How the book works, how to read math, how to study, and a problem-solving playbook | 4 pages |
 | [Elementary](01-elementary/index.md) | Place value, the four operations, times tables, long division, fractions, decimals, measurement | 16 |
-| [Middle school](02-middle-school/index.md) | Negative numbers, ratios and percents, equations, exponents and roots, functions, geometry, first statistics | 29 |
-| [High school](03-high-school/index.md) | Algebra, functions, polynomials, logarithms, geometry proofs, trigonometry, sequences, series and counting | 44 |
+| [Middle school](02-middle-school/index.md) | Negative numbers, ratios and percents, equations, exponents and roots, functions, geometry, first statistics, mental math | 32 |
+| [High school](03-high-school/index.md) | Algebra, functions, polynomials, logarithms, geometry proofs, trigonometry, vectors in 3D, sequences, series and counting | 46 |
 | [Proofs and logic](04-proofs-and-logic/index.md) | The language of math, logic, sets, proof methods, induction, relations and functions | 32 |
-| [University core](05-university-core/index.md) | Calculus, linear algebra, probability and statistics | 45 |
+| [University core](05-university-core/index.md) | Calculus, linear algebra, probability and statistics | 48 |
 | [CS math](06-cs-math/index.md) | Binary and number representation, number theory, counting, recurrences, graphs, theory of computation | 32 |
 | [Economics math](07-economics-math/index.md) | GDP, inflation, supply and demand, elasticity, marginal analysis, present value, game theory | 22 |
-| [Financial math](08-financial-math/index.md) | Interest, loans, mortgages, investing, RRSP, TFSA and FHSA, income tax (Ontario) | 27 |
-| [Reference](reference/index.md) | Glossary, symbols and notation, common mistakes, formula index | 4 pages |
+| [Financial math](08-financial-math/index.md) | Interest, loans, mortgages, investing, RRSP, TFSA and FHSA, income tax (Ontario), job offers and side gigs | 30 |
+| [Reference](reference/index.md) | Glossary, symbols and notation, common mistakes, tricks and shortcuts, formula index | 5 pages |
 
 The folders are in reading order. Each one lists its lessons on its first page, and lessons appear as they are written. Track what you have finished on the [progress page](progress.md).
 

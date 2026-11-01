@@ -17,14 +17,14 @@ Proofs come right after high school because every later folder uses them.
 | Folder | What it covers |
 |---|---|
 | [01-elementary](../01-elementary/index.md) | Place value, the four operations, long division, primes, fractions, decimals, units, area. Short lessons. |
-| [02-middle-school](../02-middle-school/index.md) | Integers, ratios and percents, equations and inequalities, exponents, linear functions, geometry, basic probability. |
-| [03-high-school](../03-high-school/index.md) | Set notation, functions, polynomials, logarithms, geometry proofs, trigonometry, sequences, sums and counting. |
+| [02-middle-school](../02-middle-school/index.md) | Integers, ratios and percents, equations and inequalities, exponents, linear functions, geometry, basic probability, mental math. |
+| [03-high-school](../03-high-school/index.md) | Set notation, functions, polynomials, logarithms, geometry proofs, trigonometry, vectors in 3D, sequences, sums and counting. |
 | [04-proofs-and-logic](../04-proofs-and-logic/index.md) | Proof language, logic and sets, proof methods, induction, relations and functions, countability. |
 | [05-university-core](../05-university-core/index.md) | Calculus, series, linear algebra, probability, statistics, and a little multivariable calculus and differential equations. |
 | [06-cs-math](../06-cs-math/index.md) | Number bases and bits, number theory, counting, recurrences and asymptotics, graphs, theory of computation. |
 | [07-economics-math](../07-economics-math/index.md) | GDP, inflation and growth rates, supply and demand, marginal analysis, present value, game theory. |
-| [08-financial-math](../08-financial-math/index.md) | Interest, loans, mortgages, investing, RRSP, TFSA and FHSA, income tax, with Ontario rules. |
-| [reference](../reference/index.md) | Glossary, symbols and notation, common mistakes, formula index. |
+| [08-financial-math](../08-financial-math/index.md) | Interest, loans, mortgages, investing, RRSP, TFSA and FHSA, income tax, job offers and side gigs, with Ontario rules. |
+| [reference](../reference/index.md) | Glossary, symbols and notation, common mistakes, tricks and shortcuts, formula index. |
 
 ## How each folder works
 
