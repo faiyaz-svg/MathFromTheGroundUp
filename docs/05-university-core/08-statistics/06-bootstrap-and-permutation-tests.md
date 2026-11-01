@@ -129,7 +129,7 @@ The same two builds, but now compare medians, which the 290 ms request can't dis
 
 The permutation test needs no new idea. Reuse the same 10,000 shuffles and compute the difference of medians on each. Of them, 485 are at least as extreme as 19.5, and the Monte Carlo p-value is $\frac{1 + 485}{10001} = 0.0486$. Going through all 184,756 splits gives the exact p-value 0.0458.
 
-Both are under 0.05, only just. The result for the means was clearer (0.0263), because comparing medians throws away information about how far the values are from the middle. Choose the statistic before looking at the data. Trying both and reporting whichever is smaller is the kind of choice that Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md --> is about.
+Both are under 0.05, only just. The result for the means was clearer (0.0263), because comparing medians throws away information about how far the values are from the middle. Choose the statistic before looking at the data. Trying both and reporting whichever is smaller is the kind of choice that [Multiple testing and p-hacking](07-multiple-testing-and-p-hacking.md) is about.
 
 Check: the two p-values, 0.0486 and 0.0458, differ by 0.003, which is about what the Monte Carlo standard error $\sqrt{\frac{0.0486 \times 0.9514}{10000}} = 0.0022$ allows.
 
@@ -467,6 +467,6 @@ Check: $122.3 - 35.7 = 86.6$ and $122.3 + 35.7 = 158.0$, matching $(86.6, 157.9)
 
 ## Where this shows up
 
-- In this chapter, [Chi-square tests](05-chi-square-tests.md) need a simulation when the expected counts are too small, and a permutation test is that simulation. The next lesson, Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md -->, is about what happens when you run many of these tests, or the same one many ways.
+- In this chapter, [Chi-square tests](05-chi-square-tests.md) need a simulation when the expected counts are too small, and a permutation test is that simulation. The next lesson, [Multiple testing and p-hacking](07-multiple-testing-and-p-hacking.md), is about what happens when you run many of these tests, or the same one many ways.
 - In CS, a bootstrap interval for a test-set accuracy or a latency percentile is a standard way to say how far a model or a benchmark result can be trusted. Bagging and random forests train each tree on a bootstrap sample, so each tree sees about 63% of the distinct rows and the rest, about 37%, give a free error estimate. Permutation feature importance shuffles one column and measures how much the score drops. A/B platforms use bootstrap and permutation methods for metrics that have no tidy formula, such as revenue per user.
 - In economics and finance, standard errors for regression estimates are often bootstrapped, and returns are dependent over time, so the block bootstrap is the version used ([regression and econometrics intuition](../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md), [investing returns and risk](../../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md)).

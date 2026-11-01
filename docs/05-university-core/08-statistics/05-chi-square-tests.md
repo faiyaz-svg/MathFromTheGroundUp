@@ -211,7 +211,7 @@ $$
 
 There are $(3 - 1)(2 - 1) = 2$ degrees of freedom, so the p-value is $P(\chi^2_2 \ge 11.95) \approx 0.0025$, and we reject: the three rates are not all equal.
 
-That is all the test says. It doesn't say which version differs. A and B alone gave $p = 0.0538$. Pairwise z tests (which by Theorem 2 are chi-square tests on 2 by 2 tables) give $p = 0.0538$ for A against B, $p = 0.00055$ for A against C and $p = 0.126$ for B against C. With three comparisons, Bonferroni's cutoff is $\frac{0.05}{3} = 0.0167$, and only A against C passes. The follow-up comparisons are a multiple-testing problem of their own, the subject of Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md -->.
+That is all the test says. It doesn't say which version differs. A and B alone gave $p = 0.0538$. Pairwise z tests (which by Theorem 2 are chi-square tests on 2 by 2 tables) give $p = 0.0538$ for A against B, $p = 0.00055$ for A against C and $p = 0.126$ for B against C. With three comparisons, Bonferroni's cutoff is $\frac{0.05}{3} = 0.0167$, and only A against C passes. The follow-up comparisons are a multiple-testing problem of their own, the subject of [Multiple testing and p-hacking](07-multiple-testing-and-p-hacking.md).
 
 The result is also small. The 95% interval for C minus A is $0.011 \pm 1.96 \times 0.00318$, about 0.5 to 1.7 percentage points. The test is significant because $n = 30{,}000$ is large, not because the difference is big.
 
@@ -508,6 +508,6 @@ Check: $2 \times 2.449 = 4.899$, and $4.899^2 = 24.0$.
 
 ## Where this shows up
 
-- In this chapter, [The bootstrap and permutation tests](06-bootstrap-and-permutation-tests.md) give a way to test a table when the expected counts are too small for the chi-square curve, and Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md --> covers what to do with the pairwise follow-ups after an A/B/C test.
+- In this chapter, [The bootstrap and permutation tests](06-bootstrap-and-permutation-tests.md) give a way to test a table when the expected counts are too small for the chi-square curve, and [Multiple testing and p-hacking](07-multiple-testing-and-p-hacking.md) covers what to do with the pairwise follow-ups after an A/B/C test.
 - In CS, checking that a hash function or a random number generator spreads values evenly over buckets is a goodness-of-fit test, as in Example 5. A/B/C and multi-variant tests on conversion counts use the test of homogeneity, and scikit-learn's `feature_selection.chi2` scores count features against class labels with the chi-square statistic. The probability behind the distribution is in [the law of large numbers and the CLT](../07-probability/06-law-of-large-numbers-and-clt.md) and [discrete probability](../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md).
 - In economics, survey tables, such as employment status by education level, are the data a test of independence is built for ([unemployment rate and labour statistics](../../07-economics-math/01-measuring-the-economy/08-unemployment-rate-and-labour-statistics.md)), and association alone never settles cause ([regression and econometrics intuition](../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md)).
