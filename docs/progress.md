@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 252 of 258. New lessons appear here as they are added.
+Lessons written so far: 253 of 258. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -281,6 +281,7 @@ Lessons written so far: 252 of 258. New lessons appear here as they are added.
 - [ ] [Confidence intervals](05-university-core/08-statistics/02-confidence-intervals.md)
 - [ ] [Hypothesis testing](05-university-core/08-statistics/03-hypothesis-testing.md)
 - [ ] [Correlation and linear regression](05-university-core/08-statistics/04-correlation-and-linear-regression.md)
+- [ ] [Chi-square tests](05-university-core/08-statistics/05-chi-square-tests.md)
 
 ### Multivariable calculus (light)
 
