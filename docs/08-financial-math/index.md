@@ -7,9 +7,9 @@ Before this folder: Middle school percents and high school exponentials and loga
 
 ## How to use this folder
 
-Take the [diagnostic](diagnostic.md) first, with a calculator but without notes. It asks two questions on each of the 27 lessons, 54 in all, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest.
+Take the [diagnostic](diagnostic.md) first, with a calculator but without notes. It asks two questions on each of the 30 lessons, 60 in all, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest.
 
-Read the chapter cheat sheets first: [everyday money](01-everyday-money/index.md), [interest and growth](02-interest-and-growth/index.md), [time value of money](03-time-value-of-money/index.md), [borrowing](04-borrowing/index.md), [housing](05-housing/index.md), [investing and retirement](06-investing-and-retirement/index.md) and [taxes, insurance and planning](07-taxes-insurance-and-planning/index.md). Each lesson starts with a quick check, so you can test yourself and skip what you already know. Chapters 2 and 3 carry the formulas that every later chapter reuses, so do them in order.
+Read the chapter cheat sheets first: [everyday money](01-everyday-money/index.md), [interest and growth](02-interest-and-growth/index.md), [time value of money](03-time-value-of-money/index.md), [borrowing](04-borrowing/index.md), [housing](05-housing/index.md), [investing and retirement](06-investing-and-retirement/index.md), [taxes, insurance and planning](07-taxes-insurance-and-planning/index.md) and [starting your career](08-starting-your-career/index.md), which compares job offers, taxes investment income and covers side gigs. Each lesson starts with a quick check, so you can test yourself and skip what you already know. Chapters 2 and 3 carry the formulas that every later chapter reuses, so do them in order.
 
 Dollar limits, tax rates and premiums in this folder are the 2026 figures from the sources linked in each lesson. They change, usually every year, so check the linked page before you act on a number. The rates in the examples are made up. The formulas do not go out of date.
 
@@ -34,6 +34,7 @@ If you are a new grad starting work in Ontario, these lessons matter most for yo
 | [Retirement accounts: RRSP, TFSA and FHSA](06-investing-and-retirement/03-retirement-accounts.md) | where to put your first savings |
 | [Index funds, fees and dollar-cost averaging](06-investing-and-retirement/02-index-funds-fees-and-dollar-cost-averaging.md) | what to buy inside those accounts, and what fees cost |
 | [Income tax brackets: marginal vs effective](07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md) | what a raise or an RRSP deduction does to your tax |
+| [Comparing job offers](08-starting-your-career/01-comparing-job-offers.md) | bonuses, RSUs and a match on one after-tax footing |
 
 ## Cheat sheet
 
@@ -57,6 +58,8 @@ The formulas below are explained in the chapter cheat sheets linked above. Here 
 | geometric mean return | $g = \left[\prod (1 + r_i)\right]^{1/n} - 1$, and $g \le \bar{r}$ |
 | net of fees | balance $V_0(1 + g - m)^n$ |
 | marginal tax | $T(x) = \sum r_k \max(0, \min(x, b_k) - b_{k-1})$ |
+| eligible dividend tax, combined bracket rate $r$ | $1.38(r - 0.250198)X$, against $rX$ for interest and $0.5rX$ for a gain |
+| self-employed CPP | $0.119 \times (\text{net income} - 3500)$ up to \$74,600, plus 8% of the part from \$74,600 to \$85,000 |
 | expected loss and loading | $E[L] = \sum \ell\,p(\ell)$, $\lambda = \frac{P - E}{E}$ |
 
 Key Canadian figures, as stated in the chapter cheat sheets:
@@ -69,6 +72,7 @@ Key Canadian figures, as stated in the chapter cheat sheets:
 - Ontario land transfer tax: 0.5% to \$55,000; 1.0% from \$55,000 to \$250,000; 1.5% from \$250,000 to \$400,000; 2.0% above \$400,000. First-time buyers get a refund of up to \$4,000 (2026 values).
 - 2026 account figures: TFSA limit \$7,000; RRSP 18% of last year's earned income, up to \$33,810; FHSA \$8,000 a year and \$40,000 lifetime.
 - 2026 payroll deductions: CPP is 5.95% of earnings from \$3,500 to \$74,600; second CPP is 4% from \$74,600 to \$85,000; EI is 1.63% up to \$68,900.
+- Investment income and side gigs: gross-up 38% for eligible dividends, capital gains inclusion rate 50%; self-employed CPP 11.9% (maximum \$8,460.90) plus 8% CPP2 (maximum \$832.00); GST/HST small-supplier limit \$30,000; instalments when net tax owing is over \$3,000 (2026 values).
 - Credit cards: a criminal interest rate is more than 35% APR (Criminal Code s. 347).
 
 <!-- lessons:start -->
@@ -121,5 +125,11 @@ Key Canadian figures, as stated in the chapter cheat sheets:
 1. [Income tax brackets: marginal vs effective](07-taxes-insurance-and-planning/01-income-tax-brackets-marginal-vs-effective.md)
 2. [Insurance and expected value](07-taxes-insurance-and-planning/02-insurance-and-expected-value.md)
 3. [Spreadsheet finance functions and a capstone plan](07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md)
+
+### 8. [Starting your career](08-starting-your-career/index.md)
+
+1. [Comparing job offers](08-starting-your-career/01-comparing-job-offers.md)
+2. [Taxes on investment income](08-starting-your-career/02-taxes-on-investment-income.md)
+3. [Side gigs and self-employment](08-starting-your-career/03-side-gigs-and-self-employment.md)
 
 <!-- lessons:end -->

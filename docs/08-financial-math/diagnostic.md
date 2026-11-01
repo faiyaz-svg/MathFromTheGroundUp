@@ -1,6 +1,6 @@
 # Financial math diagnostic
 
-This quiz covers the 27 lessons of the financial math folder, with two questions on each, 54 questions in all. Take it without notes, and write every answer down before you look at the answers. A calculator is allowed, and you should use it where a question asks for a decimal. Most questions take one to three minutes, so plan on three or four sittings rather than one. Every question here is a small version of something its lesson teaches. Where a question needs a Canadian tax, savings or mortgage figure, it uses the 2026 value from the lessons and says "as of 2026". All names, prices, rates and balances in the questions are made up (hypothetical).
+This quiz covers the 30 lessons of the financial math folder, with two questions on each, 60 questions in all. Take it without notes, and write every answer down before you look at the answers. A calculator is allowed, and you should use it where a question asks for a decimal. Most questions take one to three minutes, so plan on three or four sittings rather than one. Every question here is a small version of something its lesson teaches. Where a question needs a Canadian tax, savings or mortgage figure, it uses the 2026 value from the lessons and says "as of 2026". All names, prices, rates and balances in the questions are made up (hypothetical).
 
 Mark each answer right, wrong or guessed. A guess counts as wrong, even when it turns out right. Then do only the lessons behind the questions you marked wrong or guessed; the answer table names the lesson for each one. Several questions ask for a reason or a yes-or-no choice, and an answer without its reason counts as wrong. Money answers should be right to the cent, so keep every digit of a rate until the last step.
 
@@ -126,6 +126,20 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 
 54\. Cash flows are $-1000$ today and 400, 500 and 600 at the end of years 1 to 3. Write the formula for the NPV at 8% and give its value. Is the IRR above or below 8%? Also give the value of `=FV(0.04/12,60,-200)`.
 
+## Starting your career
+
+55\. A bonus is targeted at 10% of a \$90,000 salary. It pays 0% of the target with probability 0.2, 100% with probability 0.5 and 150% with probability 0.3. Find the expected bonus. Separately, a \$10,000 signing bonus is repaid in proportion to the months left in the first 12, and you leave after 8 months. How much do you repay?
+
+56\. An RSU grant of 1,920 units vests over four years with a one-year cliff, then $\frac{1}{48}$ of the grant each month. How many units have vested after 11 months and after 18 months? What is the 18-month amount worth at \$25 a unit, and is the half deduction for stock options available on RSUs, and why?
+
+57\. You receive a \$1,500 eligible dividend in cash. Your combined bracket rates are 20.5% federal and 9.15% Ontario. Find the grossed-up amount and the tax after the federal credit (15.0198%) and the Ontario credit (10%), both on the grossed-up amount (as of 2026).
+
+58\. You buy 100 shares at \$50 and later 50 shares of the same company at \$62. Find the ACB per share. You then sell 80 shares at \$70: find the capital gain and the taxable capital gain (inclusion rate 50%, as of 2026). If you had sold other shares at a loss on June 1 and bought the same shares back on June 20, would that loss be deductible?
+
+59\. A freelancer with no other job has revenue of \$24,000 and deductible expenses of \$2,400. Find the 2026 self-employed CPP (11.9% above the \$3,500 exemption). A client pays \$1,130 including 13% HST on an invoice: how much of it is HST?
+
+60\. A freelancer's revenue in four consecutive quarters is \$6,000, \$7,000, \$8,000 and \$9,500. Must they register for GST/HST, and why? Separately, their net tax owing is \$3,800 in 2026 and \$1,900 in both 2025 and 2024: are instalments required for 2026?
+
 ## Answers
 
 <details class="solution" markdown>
@@ -187,9 +201,15 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 | 52 | (a) \$160; 30%; (b) \$341,208.11 | (a) $0.20 \times 800 = 160$, and the break-even chance is $\frac{240}{800}$. (b) The present value of an annuity: $40000 \times \frac{1 - 1.03^{-10}}{0.03}$. | [Insurance and expected value](07-taxes-insurance-and-planning/02-insurance-and-expected-value.md) |
 | 53 | `=PMT(0.06/12,48,20000)` returns $-469.70$ | The rate is per month and the count is in months. Money you receive (the loan) is positive and payments you make are negative, so the result is negative. | [Spreadsheet finance functions and a capstone plan](07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md) |
 | 54 | `=C0+NPV(0.08,C1:C3)` is \$275.34; the IRR is about 21.6%, above 8%; the FV is \$13,259.80 | `NPV` discounts its first value one period, so today's cash flow stays outside it. A positive NPV at 8% means the IRR is higher than 8%. The FV is $200 \times \frac{(1 + 0.04/12)^{60} - 1}{0.04/12}$. | [Spreadsheet finance functions and a capstone plan](07-taxes-insurance-and-planning/03-spreadsheet-finance-functions-and-capstone.md) |
+| 55 | \$8,550; \$3,333.33 | The expected factor is $0.2(0) + 0.5(1) + 0.3(1.5) = 0.95$, and $0.95 \times 9000$. Four of the 12 months are left, so $\frac{4}{12} \times 10000$. | [Comparing job offers](08-starting-your-career/01-comparing-job-offers.md) |
+| 56 | 0 units and 720 units; \$18,000; no | Nothing vests before month 12. At month 12, 480 units vest, then 40 a month, so $480 + 6 \times 40 = 720$ and $720 \times 25$. The deduction needs a price at least equal to the fair market value when the agreement was made, and an RSU costs \$0. | [Comparing job offers](08-starting-your-career/01-comparing-job-offers.md) |
+| 57 | \$2,070.00; \$95.85 | $1.38 \times 1500 = 2070$. The tax before credits is $0.205 \times 2070 + 0.0915 \times 2070$, and the credits are $0.150198 \times 2070 + 0.10 \times 2070$. | [Taxes on investment income](08-starting-your-career/02-taxes-on-investment-income.md) |
+| 58 | \$54.00; gain \$1,280, taxable \$640; no | The total cost is $5000 + 3100 = 8100$ for 150 shares, and $80 \times (70 - 54) = 1280$. A repurchase within 30 days after the sale makes the loss superficial, so it is added to the ACB of the new shares. | [Taxes on investment income](08-starting-your-career/02-taxes-on-investment-income.md) |
+| 59 | CPP \$2,153.90; HST \$130.00 | The net business income is $24000 - 2400 = 21600$, and $0.119 \times (21600 - 3500)$. The HST is $1130 - \frac{1130}{1.13}$. | [Side gigs and self-employment](08-starting-your-career/03-side-gigs-and-self-employment.md) |
+| 60 | Yes; no | The four quarters add to \$30,500, which is over \$30,000. For instalments, 2026 is over \$3,000 but neither 2025 nor 2024 is, and both tests must hold. | [Side gigs and self-employment](08-starting-your-career/03-side-gigs-and-self-employment.md) |
 
 </details>
 
 ## What to do next
 
-List the lessons behind every question you marked wrong or guessed, and do them in order, since later lessons build on earlier ones. Start each lesson with its quick check: if you get all of it right, go straight to its practice problems. Use the chapter cheat sheets to review, such as [borrowing](04-borrowing/index.md#cheat-sheet), [housing](05-housing/index.md#cheat-sheet) or [taxes, insurance and planning](07-taxes-insurance-and-planning/index.md#cheat-sheet), and take this diagnostic again a few weeks after you finish the lessons, as [how to study](../00-start-here/how-to-study.md#use-the-diagnostics-well) recommends. If you missed nothing, or when you finish, you have reached the end of the book; the [reference section](../reference/index.md) holds the glossary and formula index.
+List the lessons behind every question you marked wrong or guessed, and do them in order, since later lessons build on earlier ones. Start each lesson with its quick check: if you get all of it right, go straight to its practice problems. Use the chapter cheat sheets to review, such as [borrowing](04-borrowing/index.md#cheat-sheet), [housing](05-housing/index.md#cheat-sheet), [taxes, insurance and planning](07-taxes-insurance-and-planning/index.md#cheat-sheet) or [starting your career](08-starting-your-career/index.md#cheat-sheet), and take this diagnostic again a few weeks after you finish the lessons, as [how to study](../00-start-here/how-to-study.md#use-the-diagnostics-well) recommends. If you missed nothing, you are ready for the last chapter of the folder, [starting your career](08-starting-your-career/index.md#cheat-sheet), and for the [reference section](../reference/index.md), which holds the glossary and formula index. When you finish, you have reached the end of the book.

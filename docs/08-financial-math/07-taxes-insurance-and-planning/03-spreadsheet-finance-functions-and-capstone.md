@@ -522,6 +522,6 @@ Check: the interest earned is \$2,792.14, which is about 35% of the deposit; six
 
 ## Where this shows up
 
-- This is the last lesson of the chapter and of the book. The [financial math cheat sheet](../index.md) collects the formulas of the whole folder, and the other chapters give the rules behind each step of the capstone.
+- This is the last lesson of the chapter. The book ends with [starting your career](../08-starting-your-career/index.md): job offers, taxes on investment income and side gigs. The [financial math cheat sheet](../index.md) collects the formulas of the whole folder, and the other chapters give the rules behind each step of the capstone.
 - Economics: NPV and IRR are how firms and governments compare projects ([present value, NPV and bond prices](../../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md)).
 - Computing: `rate` and `irr` are root-finding by bisection, the same algorithm used to search a sorted array.
