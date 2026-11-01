@@ -6,6 +6,9 @@ Summarizing data, saying how far a sample can be trusted, testing claims, and fi
 2. [Confidence intervals](02-confidence-intervals.md)
 3. [Hypothesis testing](03-hypothesis-testing.md)
 4. [Correlation and linear regression](04-correlation-and-linear-regression.md)
+5. [Chi-square tests](05-chi-square-tests.md)
+6. [The bootstrap and permutation tests](06-bootstrap-and-permutation-tests.md)
+7. [Multiple testing and p-hacking](07-multiple-testing-and-p-hacking.md)
 
 ## Cheat sheet
 
@@ -105,3 +108,66 @@ Main mistakes:
 - Ignoring a high-leverage point that holds the line in place.
 - Inverting the line of $y$ on $x$ to predict $x$ (the slopes multiply to $r^2$, not 1).
 - Calling a drop after an extreme score a real change, when it is regression to the mean.
+
+### Chi-square tests
+
+The chi-square distribution with $\nu$ degrees of freedom is the distribution of $Z_1^2 + \dots + Z_\nu^2$ for independent standard normals, with mean $\nu$ and variance $2\nu$. The statistic compares observed counts $O$ with expected counts $E$, and only the upper tail counts:
+
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}.
+$$
+
+| Test | Expected count | Degrees of freedom |
+|---|---|---|
+| goodness of fit, $k$ categories | $E_i = np_i$ | $k - 1$ |
+| independence or homogeneity, $r \times c$ table | $\frac{(\text{row total})(\text{column total})}{n}$ | $(r - 1)(c - 1)$ |
+
+The 5% critical values are 3.841, 5.991, 7.815, 9.488 and 11.070 for 1 to 5 degrees of freedom. Conditions: counts of independent individuals, each counted once, and every expected count at least 5. With 1 degree of freedom, $\chi^2 = z^2$ for the pooled two-proportion test, and for a 2 by 2 table $\chi^2 = \frac{N(ad - bc)^2}{(a + b)(c + d)(a + c)(b + d)}$. After a rejection, look at each cell's share $\frac{(O - E)^2}{E}$ and at Cramér's V, $\sqrt{\frac{\chi^2}{n(\min(r, c) - 1)}}$, for the strength.
+
+Main mistakes:
+
+- Using percentages instead of counts.
+- Ignoring expected counts below 5 (merge categories or use Fisher's exact test).
+- Reading "significant" as "strong" or as "caused by".
+- Counting one individual many times.
+- Doubling the p-value, as for a two-sided z test.
+
+### The bootstrap and permutation tests
+
+Bootstrap: draw $n$ values with replacement from the data, recompute the statistic, repeat $B$ times, and take the 2.5th and 97.5th percentiles for a 95% interval. The bootstrap standard error of a mean is exactly $\frac{\hat{\sigma}}{\sqrt{n}}$, with $\hat{\sigma}^2$ the variance divided by $n$. Permutation test: shuffle the group labels, recompute the statistic, and use
+
+$$
+p = \frac{1 + k}{B + 1},
+$$
+
+where $k$ is the number of shuffles at least as extreme as the real split. With groups of sizes $n_1$ and $n_2$ there are $\binom{n_1 + n_2}{n_1}$ splits, which can all be listed when they are few. The p-value is valid when the splits are equally likely under $H_0$, as with random assignment. Bootstrap intervals say how big an effect is, and permutation tests say whether groups differ at all.
+
+A resample leaves out a given value with probability $\left(1 - \frac{1}{n}\right)^n \to e^{-1} \approx 0.368$.
+
+Main mistakes:
+
+- Trusting the bootstrap for a maximum, a minimum or a high percentile (the resample can't go beyond the sample).
+- Resampling single values from dependent data or clusters (use blocks, or resample users).
+- Expecting it to rescue a tiny or biased sample.
+- Reading a permutation test of means as a test of equal means when the spreads differ.
+- Reporting a p-value of 0.
+
+### Multiple testing and p-hacking
+
+With $m$ independent true nulls at level $\alpha$, the chance of at least one false positive is $1 - (1 - \alpha)^m$ and the expected number is $m\alpha$.
+
+| Procedure | Rule | Controls |
+|---|---|---|
+| Bonferroni | reject $p_i \le \frac{\alpha}{m}$ | family-wise error rate, any dependence |
+| Holm | sorted; reject while $p_{(i)} \le \frac{\alpha}{m - i + 1}$, stop at the first failure | family-wise error rate |
+| Benjamini-Hochberg | sorted; find the largest $k$ with $p_{(k)} \le \frac{k}{m}q$, reject ranks $1, \dots, k$ | false discovery rate, $E\left[\frac{V}{\max(R, 1)}\right] \le q$ |
+
+BH never rejects fewer than Holm at $q = \alpha$, and Holm never rejects fewer than Bonferroni. Peeking at a running test and stopping at the first $p < 0.05$ inflates the false-positive rate (about 22% for 14 daily looks of an A/A test). Fix the sample size in advance, or use group sequential or always-valid methods. The family is everything you could have reported: outcomes, subgroups, analyses, looks and models scored on the test set. Preregistration and sample splitting reduce the number of forks.
+
+Main mistakes:
+
+- Counting only the tests you reported.
+- Stopping at the first failure in BH.
+- Reading an FDR of 5% as a 5% chance for each discovery.
+- Choosing the family after the result.
+- Reusing the test set to pick a model.

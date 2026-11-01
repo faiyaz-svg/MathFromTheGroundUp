@@ -1,6 +1,6 @@
 # University core diagnostic
 
-This quiz covers the 45 lessons of the university core folder: two questions on each of the 42 core lessons and one on each of the 3 optional lessons (parametric, polar and 3D coordinates; double integrals; second-order linear equations), 87 questions in all. Take it without notes, and write every answer down before you look at the answers. A calculator is allowed, and you should use it where a question asks for a decimal. Most questions take one to three minutes, so plan on five or six sittings rather than one. Every question here is a small version of something its lesson teaches, and none asks for a full proof.
+This quiz covers the 48 lessons of the university core folder: two questions on each of the 45 core lessons and one on each of the 3 optional lessons (parametric, polar and 3D coordinates; double integrals; second-order linear equations), 93 questions in all. Take it without notes, and write every answer down before you look at the answers. A calculator is allowed, and you should use it where a question asks for a decimal. Most questions take one to three minutes, so plan on five or six sittings rather than one. Every question here is a small version of something its lesson teaches, and none asks for a full proof.
 
 Mark each answer right, wrong or guessed. A guess counts as wrong, even when it turns out right. Then do only the lessons behind the questions you marked wrong or guessed; the answer table names the lesson for each one. Several questions ask for a reason, and an answer without its reason counts as wrong. If you skip the three optional lessons, nothing later depends on them. All data in the questions are made up (hypothetical).
 
@@ -176,27 +176,39 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 
 78\. Two measurements have correlation $r = 0.6$, with standard deviations $s_x = 5$ and $s_y = 10$. Find the slope of the regression line of $y$ on $x$, and $R^2$. A person 2 standard deviations above the mean in $x$ is predicted to be how many standard deviations above the mean in $y$?
 
+79\. A site shows three layouts to 100 visitors each, and 120, 100 and 80 click (hypothetical). Test at the 5% level whether the three click rates are equal, using the chi-square statistic. The critical value for 2 degrees of freedom is 5.991.
+
+80\. Of 200 users of app A, 60 cancelled, and of 100 users of app B, 15 cancelled (hypothetical). Find the expected count of cancellations for each app if cancelling is independent of the app, the chi-square statistic, and the z statistic of the pooled two-proportion test.
+
+81\. A bootstrap resample is drawn from 6 data values. How is it drawn, and how large is it? Find the probability that a particular data value is missing from the resample. Name a statistic for which the bootstrap fails.
+
+82\. A permutation test compares a group of 3 values with a group of 4. How many ways are there to split the 7 values into groups of those sizes, and what is the smallest possible two-sided p-value? Can the test reach $p < 0.05$?
+
+83\. Fifteen independent metrics of two identical versions are each tested at the 5% level. Find the probability that at least one is significant, and the Bonferroni cutoff for each metric.
+
+84\. The four sorted p-values 0.002, 0.018, 0.03 and 0.2 come from one experiment. Which does the Benjamini-Hochberg procedure reject at $q = 0.05$, and which does the Bonferroni correction reject at $\alpha = 0.05$?
+
 ## Multivariable calculus (light)
 
-79\. Convert the Cartesian point $(-1, \sqrt{3})$ to polar coordinates $(r, \theta)$ with $r > 0$.
+85\. Convert the Cartesian point $(-1, \sqrt{3})$ to polar coordinates $(r, \theta)$ with $r > 0$.
 
-80\. For $f(x, y) = x^2 y^3$, find $f_x$ and $f_y$ at $(2, 1)$, then use the tangent plane to estimate $f(2.1, 0.9)$.
+86\. For $f(x, y) = x^2 y^3$, find $f_x$ and $f_y$ at $(2, 1)$, then use the tangent plane to estimate $f(2.1, 0.9)$.
 
-81\. For $f(x, y) = x^2 y$ at $(1, 2)$, find the gradient, the unit vector in which $f$ increases fastest and how fast it increases that way. Give a direction in which $f$ does not change at first order.
+87\. For $f(x, y) = x^2 y$ at $(1, 2)$, find the gradient, the unit vector in which $f$ increases fastest and how fast it increases that way. Give a direction in which $f$ does not change at first order.
 
-82\. Find and classify the critical points of $f(x, y) = x^3 - 3x + y^2$.
+88\. Find and classify the critical points of $f(x, y) = x^3 - 3x + y^2$.
 
-83\. Use Lagrange multipliers to minimize $x^2 + y^2$ subject to $x + 2y = 5$. What does the multiplier tell you about raising the 5?
+89\. Use Lagrange multipliers to minimize $x^2 + y^2$ subject to $x + 2y = 5$. What does the multiplier tell you about raising the 5?
 
-84\. Evaluate $\displaystyle\int_0^1 \int_x^1 e^{y^2}\,dy\,dx$ by changing the order of integration.
+90\. Evaluate $\displaystyle\int_0^1 \int_x^1 e^{y^2}\,dy\,dx$ by changing the order of integration.
 
 ## Differential equations (light)
 
-85\. A cup of coffee at 90 degrees Celsius sits in a 20 degree room and cools by Newton's law with $T' = -0.1\,(T - 20)$, time in minutes (hypothetical). Solve for $T(t)$ and find when it reaches 50 degrees.
+91\. A cup of coffee at 90 degrees Celsius sits in a 20 degree room and cools by Newton's law with $T' = -0.1\,(T - 20)$, time in minutes (hypothetical). Solve for $T(t)$ and find when it reaches 50 degrees.
 
-86\. Use Euler's method with step $h = 0.5$ to estimate $y(1)$ for $y' = y$, $y(0) = 1$. Compare with the exact value and say which way the error goes.
+92\. Use Euler's method with step $h = 0.5$ to estimate $y(1)$ for $y' = y$, $y(0) = 1$. Compare with the exact value and say which way the error goes.
 
-87\. Solve $y'' - y' - 6y = 0$ with $y(0) = 1$ and $y'(0) = 8$. Does the solution stay bounded as $t \to \infty$?
+93\. Solve $y'' - y' - 6y = 0$ with $y(0) = 1$ and $y'(0) = 8$. Does the solution stay bounded as $t \to \infty$?
 
 ## Answers
 
@@ -283,15 +295,21 @@ Mark each answer right, wrong or guessed. A guess counts as wrong, even when it 
 | 76 | Rejecting a true null hypothesis; 1; about 0.64 | The expected count is $20 \cdot 0.05$. The chance of at least one is $1 - 0.95^{20}$. | [Hypothesis testing](08-statistics/03-hypothesis-testing.md) |
 | 77 | $y = 1.5 + 1.4x$; $R^2 = 0.7$ | $S_{xy} = 7$, $S_{xx} = 5$ and $S_{yy} = 14$, so the slope is $\frac{7}{5}$ and the intercept is $5 - 1.4 \cdot 2.5$. Then $r^2 = \frac{49}{70}$. | [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md) |
 | 78 | Slope 1.2; $R^2 = 0.36$; 1.2 | The slope is $r\frac{s_y}{s_x} = 0.6 \cdot 2$. In standard units the prediction is $r \cdot 2 = 1.2$ standard deviations, which is regression to the mean. | [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md) |
-| 79 | $\left(2, \frac{2\pi}{3}\right)$ | $r = \sqrt{1 + 3} = 2$. The point is in the second quadrant, with $\tan\theta = -\sqrt{3}$, so $\theta = \frac{2\pi}{3}$, not $-\frac{\pi}{3}$. | [Parametric, polar and 3D coordinates](09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md) |
-| 80 | $f_x = 4$, $f_y = 12$; estimate 3.2 | $f(2, 1) = 4$, and $dx = 0.1$, $dy = -0.1$ give $4 + 4(0.1) + 12(-0.1)$. The exact value is 3.215. | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) |
-| 81 | $\nabla f = (4, 1)$; direction $\frac{(4, 1)}{\sqrt{17}}$; rate $\sqrt{17} \approx 4.12$; e.g. $\frac{(1, -4)}{\sqrt{17}}$ | The gradient points uphill and its length is the steepest rate. A direction perpendicular to it, along the level curve, has dot product $4 - 4 = 0$ with it. | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) |
-| 82 | $(1, 0)$ is a local minimum; $(-1, 0)$ is a saddle | $f_x = 3x^2 - 3 = 0$ and $f_y = 2y = 0$. The Hessian determinant is $12x$: it is 12 with $f_{xx} = 6 > 0$ at $(1, 0)$, and $-12$ at $(-1, 0)$. | [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) |
-| 83 | Minimum 5 at $(1, 2)$, with $\lambda = 2$; raising the 5 by a small amount $\Delta$ raises the minimum by about $2\Delta$ | $2x = \lambda$ and $2y = 2\lambda$ give $y = 2x$, then $5x = 5$. For a right side $c$ the minimum is $\frac{c^2}{5}$, whose slope $\frac{2c}{5}$ is 2 at $c = 5$, the value of $\lambda$. | [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) |
-| 84 | $\frac{e - 1}{2} \approx 0.859$ | The region is $0 \le x \le y \le 1$. Swap the order: $\int_0^1 \int_0^y e^{y^2}\,dx\,dy = \int_0^1 y e^{y^2}\,dy$. | [Double integrals](09-multivariable-calculus-light/04-double-integrals.md) |
-| 85 | $T = 20 + 70e^{-0.1t}$; $10\ln\frac{7}{3} \approx 8.47$ minutes | The difference $T - 20$ decays at rate 0.1 from 70. Solve $70e^{-0.1t} = 30$. Check: $T(8.47) \approx 50$. | [First-order differential equations](10-differential-equations-light/01-first-order-differential-equations.md) |
-| 86 | 2.25; the exact value is $e \approx 2.718$, so Euler underestimates | $y_1 = 1 + 0.5(1) = 1.5$ and $y_2 = 1.5 + 0.5(1.5) = 2.25$. The curve bends upward, so each tangent step falls short. | [First-order differential equations](10-differential-equations-light/01-first-order-differential-equations.md) |
-| 87 | $y = 2e^{3t} - e^{-2t}$; no | The roots of $r^2 - r - 6 = 0$ are 3 and $-2$. Then $C_1 + C_2 = 1$ and $3C_1 - 2C_2 = 8$ give $C_1 = 2$, $C_2 = -1$. The $e^{3t}$ term grows. | [Second-order linear equations](10-differential-equations-light/02-second-order-linear-equations.md) |
+| 79 | $\chi^2 = 8.0$; reject | Each layout expects 100 clicks, so $\chi^2 = \frac{20^2 + 0^2 + 20^2}{100} = 8.0$ with $3 - 1 = 2$ degrees of freedom. Since $8.0 > 5.991$ (the p-value is about 0.018), the click rates are not all equal. | [Chi-square tests](08-statistics/05-chi-square-tests.md) |
+| 80 | Expected 50 for A and 25 for B; $\chi^2 = 8.0$; $z = 2.83$ | The 75 cancellations among 300 users give a rate of 0.25, so A expects $200 \times 0.25 = 50$ and B expects 25. Every gap is 10, so $\chi^2 = 100\left(\frac{1}{50} + \frac{1}{150} + \frac{1}{25} + \frac{1}{75}\right) = 8.0$, and $\sqrt{8} = 2.83$. | [Chi-square tests](08-statistics/05-chi-square-tests.md) |
+| 81 | $n$ draws with replacement, so 6 values; $\left(\frac{5}{6}\right)^6 \approx 0.335$; the maximum | Each draw misses a given value with probability $\frac{5}{6}$, and the six draws are independent. A resample can never exceed the sample maximum, so the maximum, minimum and extreme percentiles fail. | [The bootstrap and permutation tests](08-statistics/06-bootstrap-and-permutation-tests.md) |
+| 82 | 35 splits; $\frac{2}{35} \approx 0.057$; no | $\binom{7}{3} = 35$. Even a complete separation of the groups has only itself and its mirror image as extreme splits, so $\frac{2}{35}$ is above 0.05. | [The bootstrap and permutation tests](08-statistics/06-bootstrap-and-permutation-tests.md) |
+| 83 | About 0.537; 0.0033 | $1 - 0.95^{15} = 0.537$, and the Bonferroni cutoff is $\frac{0.05}{15} = 0.00333$. | [Multiple testing and p-hacking](08-statistics/07-multiple-testing-and-p-hacking.md) |
+| 84 | BH rejects 0.002, 0.018 and 0.03; Bonferroni rejects only 0.002 | The BH cutoffs are $0.0125, 0.025, 0.0375, 0.05$, and 0.03 passes its own while 0.2 fails, so the largest passing rank is 3. Bonferroni's cutoff is $\frac{0.05}{4} = 0.0125$. | [Multiple testing and p-hacking](08-statistics/07-multiple-testing-and-p-hacking.md) |
+| 85 | $\left(2, \frac{2\pi}{3}\right)$ | $r = \sqrt{1 + 3} = 2$. The point is in the second quadrant, with $\tan\theta = -\sqrt{3}$, so $\theta = \frac{2\pi}{3}$, not $-\frac{\pi}{3}$. | [Parametric, polar and 3D coordinates](09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md) |
+| 86 | $f_x = 4$, $f_y = 12$; estimate 3.2 | $f(2, 1) = 4$, and $dx = 0.1$, $dy = -0.1$ give $4 + 4(0.1) + 12(-0.1)$. The exact value is 3.215. | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) |
+| 87 | $\nabla f = (4, 1)$; direction $\frac{(4, 1)}{\sqrt{17}}$; rate $\sqrt{17} \approx 4.12$; e.g. $\frac{(1, -4)}{\sqrt{17}}$ | The gradient points uphill and its length is the steepest rate. A direction perpendicular to it, along the level curve, has dot product $4 - 4 = 0$ with it. | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) |
+| 88 | $(1, 0)$ is a local minimum; $(-1, 0)$ is a saddle | $f_x = 3x^2 - 3 = 0$ and $f_y = 2y = 0$. The Hessian determinant is $12x$: it is 12 with $f_{xx} = 6 > 0$ at $(1, 0)$, and $-12$ at $(-1, 0)$. | [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) |
+| 89 | Minimum 5 at $(1, 2)$, with $\lambda = 2$; raising the 5 by a small amount $\Delta$ raises the minimum by about $2\Delta$ | $2x = \lambda$ and $2y = 2\lambda$ give $y = 2x$, then $5x = 5$. For a right side $c$ the minimum is $\frac{c^2}{5}$, whose slope $\frac{2c}{5}$ is 2 at $c = 5$, the value of $\lambda$. | [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) |
+| 90 | $\frac{e - 1}{2} \approx 0.859$ | The region is $0 \le x \le y \le 1$. Swap the order: $\int_0^1 \int_0^y e^{y^2}\,dx\,dy = \int_0^1 y e^{y^2}\,dy$. | [Double integrals](09-multivariable-calculus-light/04-double-integrals.md) |
+| 91 | $T = 20 + 70e^{-0.1t}$; $10\ln\frac{7}{3} \approx 8.47$ minutes | The difference $T - 20$ decays at rate 0.1 from 70. Solve $70e^{-0.1t} = 30$. Check: $T(8.47) \approx 50$. | [First-order differential equations](10-differential-equations-light/01-first-order-differential-equations.md) |
+| 92 | 2.25; the exact value is $e \approx 2.718$, so Euler underestimates | $y_1 = 1 + 0.5(1) = 1.5$ and $y_2 = 1.5 + 0.5(1.5) = 2.25$. The curve bends upward, so each tangent step falls short. | [First-order differential equations](10-differential-equations-light/01-first-order-differential-equations.md) |
+| 93 | $y = 2e^{3t} - e^{-2t}$; no | The roots of $r^2 - r - 6 = 0$ are 3 and $-2$. Then $C_1 + C_2 = 1$ and $3C_1 - 2C_2 = 8$ give $C_1 = 2$, $C_2 = -1$. The $e^{3t}$ term grows. | [Second-order linear equations](10-differential-equations-light/02-second-order-linear-equations.md) |
 
 </details>
 

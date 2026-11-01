@@ -6,7 +6,7 @@ Before this folder: High school, and the proofs and logic folder for the proof-b
 
 ## How to use this folder
 
-Take the [diagnostic](diagnostic.md) first, with a calculator but without notes. It asks two questions on each of the 42 core lessons and one on each of the 3 optional ones, 87 in all, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. The optional lessons are 09/01 (parametric, polar and 3D coordinates), 09/04 (double integrals) and 10/02 (second-order linear equations). Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
+Take the [diagnostic](diagnostic.md) first, with a calculator but without notes. It asks two questions on each of the 45 core lessons and one on each of the 3 optional ones, 93 in all, and its answer table names the lesson to study for each one you miss, so you can do only those lessons and skip the rest. The optional lessons are 09/01 (parametric, polar and 3D coordinates), 09/04 (double integrals) and 10/02 (second-order linear equations). Each chapter has its own cheat sheet (the links are below), and each lesson starts with a quick check, so you can test yourself before reading it.
 
 The [Anki deck for this folder](../downloads/anki/05-university-core.apkg) holds the definitions, theorem statements with their hypotheses, derivative and integral rules, convergence tests, Taylor series, the standard distributions, the test statistics and the pairs that are easy to confuse, such as a convergent sequence and a convergent series, rank and nullity, $P(A \mid B)$ and $P(B \mid A)$, and a standard deviation and a standard error. In Anki desktop choose File, then Import, and [Anki decks](../00-start-here/index.md#anki-decks) covers phones.
 
@@ -34,6 +34,8 @@ If you are short on time, these lessons carry the most weight in the later folde
 | [Confidence intervals](08-statistics/02-confidence-intervals.md) | reporting an estimate with its uncertainty, in econometrics and in model evaluation |
 | [Hypothesis testing](08-statistics/03-hypothesis-testing.md) | A/B tests, and reading the p-values in a regression table |
 | [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md) | econometrics, and the first model of machine learning |
+| [The bootstrap and permutation tests](08-statistics/06-bootstrap-and-permutation-tests.md) | confidence intervals for model accuracy and latency, bagging, and tests without a formula |
+| [Multiple testing and p-hacking](08-statistics/07-multiple-testing-and-p-hacking.md) | A/B test dashboards, peeking at a running test, and choosing a model on the test set |
 | [Partial derivatives and the gradient](09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md) | gradient descent, and marginal utility in economics |
 | [Multivariable optimization and Lagrange multipliers](09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md) | the best bundle and the cheapest inputs, in [Lagrange multipliers, utility and cost minimization](../07-economics-math/03-firms-and-consumers/05-lagrange-multipliers-utility-and-cost-minimization.md) |
 
@@ -50,7 +52,7 @@ Each chapter has a cheat sheet with the rules, tables and common mistakes of its
 - [Sequences and series](05-sequences-and-series/index.md#cheat-sheet) covers limits of sequences, geometric and telescoping series, the convergence tests, and power and Taylor series.
 - [Linear algebra](06-linear-algebra/index.md#cheat-sheet) covers dot products, elimination, matrix algebra, bases and dimension, kernel and image, determinants, least squares and eigenvalues.
 - [Probability](07-probability/index.md#cheat-sheet) covers the axioms, Bayes' theorem, random variables, the normal distribution, covariance, the law of large numbers and the table of standard distributions.
-- [Statistics](08-statistics/index.md#cheat-sheet) covers parameters and statistics, study design, confidence intervals, tests and their errors, and correlation and regression.
+- [Statistics](08-statistics/index.md#cheat-sheet) covers parameters and statistics, study design, confidence intervals, tests and their errors, correlation and regression, chi-square tests, the bootstrap and permutation tests, and multiple testing.
 - [Multivariable calculus (light)](09-multivariable-calculus-light/index.md#cheat-sheet) covers parametric and polar curves, the gradient, the second derivative test, Lagrange multipliers and double integrals.
 - [Differential equations (light)](10-differential-equations-light/index.md#cheat-sheet) covers separable, linear and logistic equations, Euler's method, and second-order equations with systems.
 
@@ -133,6 +135,9 @@ The results used most often in later folders are below in short form.
 2. [Confidence intervals](08-statistics/02-confidence-intervals.md)
 3. [Hypothesis testing](08-statistics/03-hypothesis-testing.md)
 4. [Correlation and linear regression](08-statistics/04-correlation-and-linear-regression.md)
+5. [Chi-square tests](08-statistics/05-chi-square-tests.md)
+6. [The bootstrap and permutation tests](08-statistics/06-bootstrap-and-permutation-tests.md)
+7. [Multiple testing and p-hacking](08-statistics/07-multiple-testing-and-p-hacking.md)
 
 ### 9. [Multivariable calculus (light)](09-multivariable-calculus-light/index.md)
 
