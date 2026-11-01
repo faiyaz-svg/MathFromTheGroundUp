@@ -341,6 +341,7 @@ nav:
           - "Hypothesis testing": 05-university-core/08-statistics/03-hypothesis-testing.md
           - "Correlation and linear regression": 05-university-core/08-statistics/04-correlation-and-linear-regression.md
           - "Chi-square tests": 05-university-core/08-statistics/05-chi-square-tests.md
+          - "The bootstrap and permutation tests": 05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md
       - "Multivariable calculus (light)":
           - 05-university-core/09-multivariable-calculus-light/index.md
           - "Parametric, polar and 3D coordinates": 05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md

@@ -266,7 +266,7 @@ Watch out: use counts, not percentages or proportions. The formula needs the rea
 
 <div class="warning" markdown>
 
-Watch out: expected counts below 5. The chi-square curve is an approximation, and it is poor when cells are small, as Example 4 showed. Merge categories that make sense together (a rare category with its nearest neighbour), use Fisher's exact test for a 2 by 2 table, or use a simulation, which is the idea of the next lesson, The bootstrap and permutation tests<!-- link: 06-bootstrap-and-permutation-tests.md -->. Check the expected counts, not the observed ones. A table can have large observed counts and still have small expected ones.
+Watch out: expected counts below 5. The chi-square curve is an approximation, and it is poor when cells are small, as Example 4 showed. Merge categories that make sense together (a rare category with its nearest neighbour), use Fisher's exact test for a 2 by 2 table, or use a simulation, which is the idea of the next lesson, [The bootstrap and permutation tests](06-bootstrap-and-permutation-tests.md). Check the expected counts, not the observed ones. A table can have large observed counts and still have small expected ones.
 
 </div>
 
@@ -508,6 +508,6 @@ Check: $2 \times 2.449 = 4.899$, and $4.899^2 = 24.0$.
 
 ## Where this shows up
 
-- In this chapter, The bootstrap and permutation tests<!-- link: 06-bootstrap-and-permutation-tests.md --> give a way to test a table when the expected counts are too small for the chi-square curve, and Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md --> covers what to do with the pairwise follow-ups after an A/B/C test.
+- In this chapter, [The bootstrap and permutation tests](06-bootstrap-and-permutation-tests.md) give a way to test a table when the expected counts are too small for the chi-square curve, and Multiple testing and p-hacking<!-- link: 07-multiple-testing-and-p-hacking.md --> covers what to do with the pairwise follow-ups after an A/B/C test.
 - In CS, checking that a hash function or a random number generator spreads values evenly over buckets is a goodness-of-fit test, as in Example 5. A/B/C and multi-variant tests on conversion counts use the test of homogeneity, and scikit-learn's `feature_selection.chi2` scores count features against class labels with the chi-square statistic. The probability behind the distribution is in [the law of large numbers and the CLT](../07-probability/06-law-of-large-numbers-and-clt.md) and [discrete probability](../../06-cs-math/03-counting-and-discrete-probability/05-discrete-probability.md).
 - In economics, survey tables, such as employment status by education level, are the data a test of independence is built for ([unemployment rate and labour statistics](../../07-economics-math/01-measuring-the-economy/08-unemployment-rate-and-labour-statistics.md)), and association alone never settles cause ([regression and econometrics intuition](../../07-economics-math/04-more-tools/03-regression-and-econometrics-intuition.md)).
