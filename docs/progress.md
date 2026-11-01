@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 249 of 258. New lessons appear here as they are added.
+Lessons written so far: 250 of 258. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -79,6 +79,7 @@ Lessons written so far: 249 of 258. New lessons appear here as they are added.
 
 - [ ] [Mental addition and subtraction](02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md)
 - [ ] [Mental multiplication and division](02-middle-school/08-mental-math/02-mental-multiplication-and-division.md)
+- [ ] [Percents, fractions and money in your head](02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md)
 
 ## High school
 
