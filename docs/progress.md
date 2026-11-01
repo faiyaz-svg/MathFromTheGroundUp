@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 247 of 247. New lessons appear here as they are added.
+Lessons written so far: 248 of 258. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -74,6 +74,10 @@ Lessons written so far: 247 of 247. New lessons appear here as they are added.
 - [ ] [Describing data](02-middle-school/07-statistics-and-probability/01-describing-data.md)
 - [ ] [Basic probability](02-middle-school/07-statistics-and-probability/02-basic-probability.md)
 - [ ] [Scatter plots and two-way tables](02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md)
+
+### Mental math
+
+- [ ] [Mental addition and subtraction](02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md)
 
 ## High school
 

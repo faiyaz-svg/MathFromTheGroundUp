@@ -157,6 +157,8 @@ nav:
           - "Describing data": 02-middle-school/07-statistics-and-probability/01-describing-data.md
           - "Basic probability": 02-middle-school/07-statistics-and-probability/02-basic-probability.md
           - "Scatter plots and two-way tables": 02-middle-school/07-statistics-and-probability/03-scatter-plots-and-two-way-tables.md
+      - "Mental math":
+          - "Mental addition and subtraction": 02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md
   - "High school":
       - 03-high-school/index.md
       - Diagnostic: 03-high-school/diagnostic.md
