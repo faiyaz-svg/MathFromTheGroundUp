@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 256 of 258. New lessons appear here as they are added.
+Lessons written so far: 257 of 258. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -438,3 +438,4 @@ Lessons written so far: 256 of 258. New lessons appear here as they are added.
 ### Starting your career
 
 - [ ] [Comparing job offers](08-financial-math/08-starting-your-career/01-comparing-job-offers.md)
+- [ ] [Taxes on investment income](08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md)
