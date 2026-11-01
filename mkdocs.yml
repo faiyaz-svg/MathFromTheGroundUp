@@ -225,6 +225,7 @@ nav:
           - 03-high-school/10-vectors-and-matrices/index.md
           - "Vectors in the plane": 03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md
           - "Matrix basics": 03-high-school/10-vectors-and-matrices/02-matrix-basics.md
+          - "Vectors in 3D and the cross product": 03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md
       - "Sequences, series and counting":
           - 03-high-school/11-sequences-series-and-counting/index.md
           - "Sequences and recursion": 03-high-school/11-sequences-series-and-counting/01-sequences-and-recursion.md

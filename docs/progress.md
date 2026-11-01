@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 250 of 258. New lessons appear here as they are added.
+Lessons written so far: 251 of 258. New lessons appear here as they are added.
 
 ## Elementary
 
@@ -152,6 +152,7 @@ Lessons written so far: 250 of 258. New lessons appear here as they are added.
 
 - [ ] [Vectors in the plane](03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md)
 - [ ] [Matrix basics](03-high-school/10-vectors-and-matrices/02-matrix-basics.md)
+- [ ] [Vectors in 3D and the cross product](03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md)
 
 ### Sequences, series and counting
 
