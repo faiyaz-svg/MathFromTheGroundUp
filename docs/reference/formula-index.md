@@ -7,13 +7,13 @@ Each chapter's `index.md` page is its cheat sheet: the rules, formulas and trick
 | Folder | What its cheat sheets cover |
 |---|---|
 | [Elementary](../01-elementary/index.md) | Times tables, divisibility rules, long division, fractions, decimals, unit conversion, area and volume |
-| [Middle school](../02-middle-school/index.md) | Sign rules, order of operations, percents, solving equations, exponent rules, slope, geometry formulas, mean, median and mode |
-| [High school](../03-high-school/index.md) | Interval notation, function transformations, factoring, the quadratic formula, logarithm rules, trigonometry, series and counting |
+| [Middle school](../02-middle-school/index.md) | Sign rules, order of operations, percents, solving equations, exponent rules, slope, geometry formulas, mean, median and mode, mental math shortcuts |
+| [High school](../03-high-school/index.md) | Interval notation, function transformations, factoring, the quadratic formula, logarithm rules, trigonometry, vectors and planes in 3D, series and counting |
 | [Proofs and logic](../04-proofs-and-logic/index.md) | Which proof method fits which shape of statement, negation rules, logical equivalences, induction |
 | [University core](../05-university-core/index.md) | Limit laws, derivative and integral rules, series tests, matrix facts, probability rules, statistics formulas |
 | [CS math](../06-cs-math/index.md) | Base conversion, two's complement, modular arithmetic, counting formulas, sums and recurrences, asymptotic notation |
 | [Economics math](../07-economics-math/index.md) | Growth rates, index numbers, GDP and inflation, elasticity, marginal analysis, present value |
-| [Financial math](../08-financial-math/index.md) | Interest, present and future value, annuities and loan payments, mortgage compounding, tax brackets |
+| [Financial math](../08-financial-math/index.md) | Interest, present and future value, annuities and loan payments, mortgage compounding, tax brackets, investment income tax, self-employed CPP |
 
 Each folder page links to its chapters, and a chapter's cheat sheet is the first page of that chapter.
 
@@ -53,6 +53,16 @@ $$
 $$
 
 Write the percent as a decimal first, so 15% of 80 is $0.15 \times 80 = 12$. A price with 13% HST added is $1.13 \times \text{price}$. Taught in [percents](../02-middle-school/02-ratios-rates-percents/03-percents.md) and [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md); collected in the [ratios, rates and percents cheat sheet](../02-middle-school/02-ratios-rates-percents/index.md).
+
+In your head, a price with 13% HST included is undone by taking off about 11.5% of the total, and a rise of $\frac{1}{n}$ is undone by a fall of $\frac{1}{n+1}$. Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md); collected in the [mental math cheat sheet](../02-middle-school/08-mental-math/index.md).
+
+### Mental arithmetic identities
+
+$$
+(m - d)(m + d) = m^2 - d^2, \qquad n^2 = (n - d)(n + d) + d^2, \qquad ab = \frac{a}{2} \times 2b
+$$
+
+Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md); collected in the [mental math cheat sheet](../02-middle-school/08-mental-math/index.md).
 
 ### Exponent rules
 
@@ -179,3 +189,35 @@ E[X] &= \sum_x x \, P(X = x) & \operatorname{Var}(X) &= E[X^2] - (E[X])^2
 $$
 
 When the data are a whole population rather than a sample, divide by $n$ instead of $n - 1$. The standard deviation is the square root of the variance. For the data 2, 4 and 9, $\bar{x} = 5$ and $s^2 = \frac{9 + 1 + 16}{2} = 13$. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md), [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md) and [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md); collected in the [probability](../05-university-core/07-probability/index.md) and [statistics](../05-university-core/08-statistics/index.md) cheat sheets.
+
+### Chi-square, resampling and multiple testing
+
+For observed counts $O$ and expected counts $E$, the chi-square statistic is
+
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}.
+$$
+
+For a goodness-of-fit test, $E_i = np_i$ with $k - 1$ degrees of freedom. For an $r \times c$ table, $E_{ij} = \frac{(\text{row } i)(\text{column } j)}{n}$ with $(r - 1)(c - 1)$ degrees of freedom. For a 2 by 2 table with cells $a, b, c, d$, $\chi^2 = \frac{N(ad - bc)^2}{(a + b)(c + d)(a + c)(b + d)}$, which equals $z^2$ for the pooled two-proportion test. Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md).
+
+The bootstrap standard error of a mean is $\frac{\hat{\sigma}}{\sqrt{n}}$ with $\hat{\sigma}^2 = \frac{1}{n}\sum (x_i - \bar{x})^2$. The Monte Carlo permutation p-value is $p = \frac{1 + k}{B + 1}$, and a resample leaves out a given value with probability $\left(1 - \frac{1}{n}\right)^n \to e^{-1}$. Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md).
+
+Among $m$ independent true nulls, $P(\text{at least one false positive}) = 1 - (1 - \alpha)^m$. Bonferroni rejects $p_i \le \frac{\alpha}{m}$, Holm rejects $p_{(i)} \le \frac{\alpha}{m - i + 1}$ in order until the first failure, and Benjamini-Hochberg rejects ranks $1, \dots, k$ for the largest $k$ with $p_{(k)} \le \frac{k}{m}q$. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md).
+
+### Tax on investment income
+
+With combined bracket rate $r$ and no Ontario surtax, an extra cash amount $X$ adds:
+
+$$
+T_{\text{interest}} = rX, \qquad T_{\text{dividend}} = 1.38\,(r - 0.250198)\,X, \qquad T_{\text{gain}} = 0.5\,rX
+$$
+
+At 29.65% (\$65,000 salary) the tax on \$1,000 is \$296.50, \$63.90 and \$148.25. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md); collected in the [starting your career cheat sheet](../08-financial-math/08-starting-your-career/index.md).
+
+### Self-employed CPP (2026)
+
+$$
+\text{CPP} = 0.119 \times (\min(N, 74600) - 3500) + 0.08 \times \max(0, \min(N, 85000) - 74600)
+$$
+
+For net business income $N$ with no other job; with a salary the room already used is subtracted. Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md).

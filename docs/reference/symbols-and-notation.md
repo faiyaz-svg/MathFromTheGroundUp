@@ -135,6 +135,9 @@ A sum with no terms, such as one whose upper bound is below its lower bound, equ
 | $A^{-1}$ | `A^{-1}` | A inverse | The matrix with $AA^{-1} = A^{-1}A = I$. It exists only for a square matrix with $\det(A) \ne 0$. | $(2I)^{-1} = \frac{1}{2}I$ | [Matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md) |
 | $\det(A)$ | `\det(A)` | the determinant of A | A number computed from a square matrix. It is $0$ exactly when $A$ has no inverse. Also written $\lvert A \rvert$. | If $A$ has rows $(a, b)$ and $(c, d)$, then $\det(A) = ad - bc$ | [Determinants](../05-university-core/06-linear-algebra/06-determinants.md) |
 | $\operatorname{rank}(A)$ | `\operatorname{rank}(A)` | the rank of A | The number of linearly independent columns, which always equals the number of linearly independent rows | $\operatorname{rank}(I_3) = 3$ | [Linear independence, basis and dimension](../05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md) |
+| $\mathbf{u} \times \mathbf{v}$ | `\mathbf{u} \times \mathbf{v}` | u cross v | The cross product of two vectors in space: a vector perpendicular to both, with length equal to the area of their parallelogram | $\mathbf{i} \times \mathbf{j} = \mathbf{k}$ | [Vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md) |
+| $\mathbf{n}$, $\mathbf{m}$ | `\mathbf{n}`, `\mathbf{m}` | normal vector, direction vector | $\mathbf{n}$ is perpendicular to a plane and $\mathbf{m}$ is parallel to a line, in $ax + by + cz = d$ and $\mathbf{r} = \mathbf{r}_0 + t\mathbf{m}$ | The plane $6x + 3y + 2z = 6$ has $\mathbf{n} = (6, 3, 2)$ | [Lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md) |
+| $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ | `\mathbf{i}`, `\mathbf{j}`, `\mathbf{k}` | i, j, k | The unit vectors along the $x$-, $y$- and $z$-axes | $(3, 4, 2) = 3\mathbf{i} + 4\mathbf{j} + 2\mathbf{k}$ | [Vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md) |
 
 ## Probability and statistics
 
@@ -148,6 +151,10 @@ A sum with no terms, such as one whose upper bound is below its lower bound, equ
 | $\mu$ | `\mu` | mu | The mean of a population or of a random variable, so $\mu = E[X]$ | For one roll of a fair die, $\mu = 3.5$ | [Descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md) |
 | $\bar{x}$ | `\bar{x}` | x bar | The sample mean $\frac{x_1 + \dots + x_n}{n}$ | For the data $2, 4, 9$, the mean is $\bar{x} = 5$ | [Describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md) |
 | $\binom{n}{k}$ | `\binom{n}{k}` | n choose k | The number of ways to choose $k$ items from $n$ when order doesn't matter, $\frac{n!}{k!(n-k)!}$. Also written $C(n, k)$ or ${}_nC_k$. | $\binom{5}{2} = 10$ | [Counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md) |
+| $\chi^2$ | `\chi^2` | chi squared | The chi-square statistic $\sum \frac{(O - E)^2}{E}$, and the name of its distribution $\chi^2_\nu$ with $\nu$ degrees of freedom | For $O = 132, 104, 88, 90, 86$ and $E = 100$, $\chi^2 = 14.8$ | [Chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md) |
+| $O$, $E$ | `O`, `E` | observed, expected | An observed count and the count expected under $H_0$ in a category or cell of a table | $O = 132$ against $E = 100$ | [Chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md) |
+| $B$ | `B` | B | In resampling, the number of resamples or shuffles, such as $B = 10{,}000$ | $p = \frac{1 + k}{B + 1}$ | [The bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md) |
+| $\hat{\sigma}$ | `\hat{\sigma}` | sigma hat | The standard deviation of the data with divisor $n$, as in the bootstrap standard error $\frac{\hat{\sigma}}{\sqrt{n}}$ | For 4, 6, 8, 10, 12, $\hat{\sigma}^2 = 8$ | [The bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md) |
 
 ## CS notation
 
@@ -213,7 +220,7 @@ Each letter below has a default meaning across the book. Some letters also have 
 | $P$, $Q$, $R$ | Statements, which are true or false, as in $P \Rightarrow Q$; $P(x)$ is a statement about $x$ | $P(A)$ is the probability of the event $A$ |
 | $p$ | A prime number | The probability of success in one trial; a $p$-value in statistics |
 | $e$ | Euler's number, $e \approx 2.71828$; never a variable | $E$ is an edge set in graphs, and $E[X]$ an expected value |
-| $\mathbf{u}$, $\mathbf{v}$, $\mathbf{w}$ | Vectors | |
+| $\mathbf{u}$, $\mathbf{v}$, $\mathbf{w}$ | Vectors. Bold $\mathbf{n}$ is a normal vector, bold $\mathbf{m}$ a direction vector and bold $\mathbf{r}$ a position vector. | |
 | $X$, $Y$ | Random variables, with lowercase $x$ and $y$ for the values they take | |
 | $\mu$, $\sigma$ | Mean and standard deviation | |
 | $\varepsilon$, $\delta$ | Small positive numbers in limit definitions | $\varepsilon$ is the empty string and $\delta$ the transition function in theory of computation |

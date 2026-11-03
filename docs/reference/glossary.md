@@ -104,6 +104,8 @@ The **axis of symmetry** of a parabola is the vertical line through its vertex, 
 
 ## B
 
+The **back-face culling** step skips triangles that face away from the camera. It is found from the sign of $\mathbf{n} \cdot \overrightarrow{AE}$, where $\mathbf{n}$ is the triangle's normal and $E$ is the camera. Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#normals-hidden-faces-and-light).
+
 The **base** has three meanings. In a power $b^n$, the base is the number being multiplied, $b$; a logarithm $\log_b x$ has a base in the same sense. In a number system, the base is the number of digits and the factor between neighbouring places: base 10 for decimal, base 2 for binary. In a triangle or a parallelogram, the base is the side you choose to measure the height from, usually the one drawn at the bottom. Taught in [powers of ten](../01-elementary/14-powers-of-ten.md#definitions), [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md), [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md) and [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#base-and-height).
 
 The **base case** of an induction proof is the check that the statement is true for the first value, usually $n = 0$ or $n = 1$. It is the push that starts the chain, and a correct inductive step proves nothing without it. Taught in [mathematical induction](../04-proofs-and-logic/05-induction/01-mathematical-induction.md#definitions).
@@ -115,6 +117,10 @@ A **basis** of a vector space is a set of vectors that are linearly independent 
 A **basis point** is one hundredth of a percentage point. Taught in [percent change vs percentage points](../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md#definitions).
 
 **Bayes' theorem** says that $P(H \mid E) = \frac{P(E \mid H)\,P(H)}{P(E)}$, with $P(E)$ found from the law of total probability. The **prior** $P(H)$ is the probability before the evidence, the **likelihood** $P(E \mid H)$ is how probable the evidence is if $H$ is true, and the **posterior** $P(H \mid E)$ is the updated probability. Taught in [conditional probability and Bayes' theorem](../05-university-core/07-probability/02-conditional-probability-and-bayes.md#a-bayes-problem).
+
+A **benchmark fraction** is a fraction whose decimal and percent forms you know by heart, such as $\frac{1}{8} = 12.5\%$ or $\frac{1}{7} \approx 14.3\%$, used to estimate nearby values. Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#definitions).
+
+The **Benjamini-Hochberg procedure** sorts the p-values, finds the largest rank $k$ with $p_{(k)} \le \frac{k}{m}q$, and rejects ranks 1 to $k$. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#the-false-discovery-rate-and-benjamini-hochberg).
 
 A **Bernoulli** random variable takes the value 1 with probability $p$ and 0 with probability $1 - p$, so it is the indicator of one trial that succeeds or fails. Its mean is $p$ and its variance is $p(1 - p)$. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md#named-distributions).
 
@@ -143,6 +149,8 @@ The **bisection method** finds a zero of a continuous function by halving an int
 A **bit** is a binary digit, 0 or 1. It is the smallest unit of information, the answer to one yes-or-no question. Taught in [number bases and conversions](../06-cs-math/01-number-representation/01-number-bases-and-conversions.md) and [bits and information](../06-cs-math/01-number-representation/02-bits-and-information.md).
 
 A **block** of a partition is one of the non-empty subsets that the set is cut into, so that every element lies in exactly one block. The blocks of the integers under "same remainder mod 3" are the three remainder classes. Taught in [equivalence relations and partitions](../04-proofs-and-logic/06-relations-and-functions/02-equivalence-relations-and-partitions.md#partitions).
+
+The **block bootstrap** resamples runs of consecutive values instead of single values, so that the dependence inside each run is kept. It is used for time series. Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#edge-cases-and-common-mistakes).
 
 The **bootstrap** estimates the sampling variation of a statistic by resampling the data with replacement many times and recomputing the statistic each time. The spread of the results approximates the standard error. Taught in [confidence intervals](../05-university-core/08-statistics/02-confidence-intervals.md#the-bootstrap).
 
@@ -190,6 +198,10 @@ The **characteristic polynomial** of a square matrix $A$ is $\det(A - \lambda I)
 
 **Chebyshev's inequality** says that $P(\lvert X - \mu \rvert \ge k\sigma) \le \frac{1}{k^2}$ for any random variable with a finite variance. It holds for every distribution, so it is loose for a normal one. Taught in [the law of large numbers and the CLT](../05-university-core/07-probability/06-law-of-large-numbers-and-clt.md#definitions).
 
+The **chi-square distribution** with $\nu$ degrees of freedom is the distribution of $Z_1^2 + \dots + Z_\nu^2$ for independent standard normal variables. It is never negative and skewed to the right, with mean $\nu$ and variance $2\nu$. Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#definitions).
+
+The **chi-square statistic** is $\chi^2 = \sum \frac{(O - E)^2}{E}$, the sum over categories or table cells of the squared gap between the observed and expected counts, divided by the expected count. Only its upper tail counts as evidence. Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#definitions).
+
 **Chromatic number** is the fewest colours that colour the vertices so that adjacent vertices differ. Taught in [bipartite graphs, colouring and planar graphs](../06-cs-math/05-graphs/03-bipartite-coloring-and-planar-graphs.md#vertex-colouring).
 
 **Church-Turing thesis** is the claim that anything computable by an algorithm is computable by a Turing machine. Taught in [turing machines and the Church-Turing thesis](../06-cs-math/06-theory-of-computation/04-turing-machines-and-church-turing-thesis.md#the-church-turing-thesis).
@@ -200,7 +212,11 @@ A **circle** is the set of all points in a plane at a fixed distance, the radius
 
 The **circumference** of a circle is the distance once around it, $C = 2\pi r = \pi d$. Taught in [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md#circles).
 
+A **clawback** is a rule that makes you repay part of a signing bonus if you leave early, usually in proportion to the months left. Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#definitions).
+
 **Clearing fractions** means multiplying both sides of an equation by a common denominator of all its fractions, usually the least common denominator, so that no fractions remain. Every term gets multiplied, including the ones with no fraction. Taught in [multi-step equations](../02-middle-school/03-expressions-equations-inequalities/04-multi-step-equations.md#definitions).
+
+A **cliff** is a period at the start of a vesting schedule in which nothing vests; the first block then vests all at once. Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#definitions).
 
 The **closure clause** of a recursive definition says that nothing else is in the set: its elements are exactly those obtained from the basis by finitely many uses of the recursive clauses. Without it, "$0 \in E$, and if $x \in E$ then $x + 2 \in E$" would not rule out odd numbers in $E$. Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#definitions).
 
@@ -324,6 +340,8 @@ A **coordinate proof** proves a geometric statement by placing the figure on the
 
 The **coordinates** of a vector $\mathbf{v}$ relative to a basis $\mathcal{B}$ are the unique weights $[\mathbf{v}]_{\mathcal{B}}$ in the combination of basis vectors that gives $\mathbf{v}$. Taught in [linear independence, basis and dimension](../05-university-core/06-linear-algebra/04-linear-independence-basis-and-dimension.md#basis-and-coordinates).
 
+**Coplanar** means lying in one plane. Two lines are coplanar exactly when the triple product $(\mathbf{r}_2 - \mathbf{r}_1) \cdot (\mathbf{m}_1 \times \mathbf{m}_2)$ is 0. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
+
 A **corner** of a graph is a point where the two one-sided slopes are different finite numbers, as for $\lvert x \rvert$ at 0. The derivative does not exist there. Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#where-a-derivative-does-not-exist).
 
 A **corner point** of a feasible region is a crossing of two boundary lines that satisfies every other constraint too. Not every crossing of two boundary lines is a corner. Taught in [two-variable inequalities and feasible regions](../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md#definitions).
@@ -338,6 +356,8 @@ The **cosine** of an acute angle in a right triangle is the adjacent side divide
 
 **Cosine similarity** of two vectors is $\frac{\mathbf{u} \cdot \mathbf{v}}{\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert}$, the cosine of the angle between them. It ignores length, so a document pasted twice has similarity 1 with the original. Taught in [vectors, dot product and span](../05-university-core/06-linear-algebra/01-vectors-dot-product-and-span.md#vectors-as-data).
 
+To **count up** from $b$ to $a$ is to find $a - b$ as a sum of gaps through round stopping points, $a - b = (m - b) + (a - m)$ for $b \le m \le a$. It is how a cashier counts change. Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#definitions).
+
 A set is **countable** when its elements can be listed in a sequence $a_0, a_1, a_2, \dots$, which may be finite. The integers and the rational numbers are countable, and the real numbers are not. Some books use "countable" only for infinite sets; the formal definition is in [cardinality and countability](../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md).
 
 A set is **countably infinite** when it can be paired off with $\mathbb{N}$ by a bijection. A set that is finite or countably infinite is countable. Taught in [cardinality and countability](../04-proofs-and-logic/06-relations-and-functions/06-cardinality-and-countability.md#finite-infinite-countable).
@@ -350,9 +370,13 @@ A **counterexample** is one case that makes a statement about every case false. 
 
 **Cramer's rule** gives the solution of $A\mathbf{x} = \mathbf{b}$ for an invertible $A$ as $x_i = \frac{\det A_i}{\det A}$, where $A_i$ is $A$ with column $i$ replaced by $\mathbf{b}$. It is a formula for small cases, not a way to compute with large systems. Taught in [determinants](../05-university-core/06-linear-algebra/06-determinants.md#cramers-rule).
 
+**Cramér's V** is $\sqrt{\frac{\chi^2}{n(\min(r, c) - 1)}}$, a measure from 0 to 1 of how strong an association in a table is. For a 2 by 2 table it is the absolute value of the correlation of the two variables coded 0 and 1. Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#tricks-and-shortcuts).
+
 A **critical number** of a polynomial or rational inequality is a zero of the numerator or of the denominator after everything is combined into one factored fraction. The critical numbers cut the number line into the intervals on which the sign is constant. Taught in [polynomial and rational inequalities](../03-high-school/06-rational-expressions-and-equations/04-polynomial-and-rational-inequalities.md#definitions).
 
 A **critical point** of $f$ is a number $c$ in the domain where $f'(c) = 0$ or $f'(c)$ does not exist. Every local extremum in the interior of the domain is a critical point, and not every critical point is an extremum: $x^3$ has one at 0 and rises straight through it. For a function of several variables, a critical point is a point where the gradient is $\mathbf{0}$ (or does not exist). Taught in [the mean value theorem and extrema](../05-university-core/03-applications-of-derivatives/03-mean-value-theorem-and-extrema.md#definitions) and [multivariable optimization and Lagrange multipliers](../05-university-core/09-multivariable-calculus-light/03-multivariable-optimization-and-lagrange-multipliers.md#definitions).
+
+The **cross product** of two vectors in space is the vector $\mathbf{u} \times \mathbf{v} = (u_2 v_3 - u_3 v_2,\; u_3 v_1 - u_1 v_3,\; u_1 v_2 - u_2 v_1)$. It is perpendicular to both vectors, points by the right-hand rule, and has length $\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert \sin\theta$, the area of the parallelogram on them. It is zero exactly when the vectors are parallel. Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#definitions).
 
 The **cube** of a number $b$ is $b^3 = b \times b \times b$, read "$b$ cubed", after the volume of a cube. A perfect cube is the cube of an integer, and unlike a perfect square it can be negative: $(-2)^3 = -8$. Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#definitions).
 
@@ -424,6 +448,8 @@ A **direct proof** of "if $P$, then $Q$" assumes $P$ and derives $Q$ through a c
 
 **Direct substitution** finds a limit by putting $x = a$ into the formula. It works for a polynomial, and for a rational function whose denominator is not 0 at $a$. Taught in [limits, intuition and limit laws](../05-university-core/01-limits-and-continuity/01-limits-intuition-and-limit-laws.md#definitions).
 
+A **direction vector** is a nonzero vector parallel to a line. The line through $P_0$ with direction $\mathbf{m}$ is $\mathbf{r} = \mathbf{r}_0 + t\mathbf{m}$. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
+
 A **discontinuity** of a function is a point where it is not continuous. It is removable if the limit exists but the value is missing or different, a jump if the one-sided limits exist and differ, and infinite if a one-sided limit is $\infty$ or $-\infty$. Taught in [continuity, asymptotes and the IVT](../05-university-core/01-limits-and-continuity/03-continuity-asymptotes-and-ivt.md#definitions).
 
 The **discriminant** of $ax^2 + bx + c$ is $D = b^2 - 4ac$, the number under the root in the quadratic formula. If $D > 0$ there are two real solutions, if $D = 0$ there is one, and if $D < 0$ there are none. The single solution when $D = 0$ is a repeated root: the graph touches the $x$-axis there and turns back. Taught in [solving quadratic equations](../03-high-school/05-quadratics-and-complex-numbers/02-solving-quadratic-equations.md#definitions).
@@ -441,6 +467,8 @@ The **distributive property** says that $a \times (b + c) = a \times b + a \time
 A sequence **diverges to infinity** when its terms pass every ceiling and stay above it for good. A sequence that oscillates, such as $(-1)^n$, diverges without going to infinity. Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#divergence).
 
 The **dividend** is the number being divided: in $n \div d$, it is $n$. Taught in [division facts and remainders](../01-elementary/06-division-facts-and-remainders.md#definitions) and [long division](../01-elementary/07-long-division.md).
+
+The **dividend tax credit** is a non-refundable credit on the grossed-up amount of a dividend. For eligible dividends in 2026 it is 15.0198% federally and 10% in Ontario. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#definitions).
 
 **Divides** is $a \mid b$ means $b = ak$ for some integer $k$. Taught in [divisibility and modular arithmetic](../06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic.md#divides).
 
@@ -480,9 +508,13 @@ An **elementary matrix** is the identity matrix with one row operation applied. 
 
 The **elementary row operations** are swapping two rows, multiplying a row by a nonzero number, and adding a multiple of one row to a different row. Each can be undone by an operation of the same type, so they do not change the solution set. Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#definitions).
 
+An **eligible dividend** is a dividend a corporation pays from income taxed at the general corporate rate, grossed up by 38% before it is taxed. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#definitions).
+
 **Elimination** solves a system by adding multiples of the equations to cancel one unknown. Each step keeps the solutions, so the answer to the last equation is the answer to the original system. Taught in [systems of linear equations](../02-middle-school/05-linear-relationships-and-functions/04-systems-of-linear-equations.md#solving-by-elimination).
 
 An **ellipse** is the set of points for which the distances to two fixed points, the foci, add to a constant. A circle is the case where the two foci coincide. Taught in [conic sections](../03-high-school/08-geometry-and-proof/05-conic-sections.md#definitions).
+
+The **empirical distribution** of a sample puts probability $\frac{1}{n}$ on each observed value. A bootstrap resample is $n$ draws from it, which is $n$ draws with replacement from the data. Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#definitions).
 
 The **empty set**, written $\emptyset$, is the set with no elements. It is a subset of every set, and its cardinality is 0. Taught in [real numbers, axioms and set notation](../03-high-school/01-algebra-foundations/01-real-numbers-axioms-and-set-notation.md#sets-and-set-notation) and [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md).
 
@@ -536,6 +568,10 @@ To **expand** a product is to multiply it out into a sum of terms with the distr
 
 The **expanded form** of a number writes it as the sum of the values of its digits: $4{,}072 = 4{,}000 + 70 + 2$. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 
+The **expected bonus** is a target bonus times the expected payout factor, the average bonus over many years. Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#definitions).
+
+**Expected count** is the number of individuals a category or cell would hold on average if the null hypothesis were true. It needn't be a whole number, and the chi-square test wants every one at least 5. Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#definitions).
+
 The **expected value** $E[X]$ of a random variable is its long-run average: each value weighted by its probability, $\sum x \, P(X = x)$. One roll of a fair die has expected value 3.5, even though no roll shows 3.5. Taught in [discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md). For a continuous variable it is $\int x f(x)\,dx$, taught in [continuous random variables and the normal distribution](../05-university-core/07-probability/04-continuous-random-variables-and-the-normal.md#definitions), and it is linear: $E[aX + bY] = aE[X] + bE[Y]$ ([discrete random variables](../05-university-core/07-probability/03-discrete-random-variables.md#linearity-of-expectation)).
 
 An **experiment** applies a treatment on purpose and records the response, in contrast to an observational study, which records data without changing anything. Only a randomized experiment can support a causal conclusion without extra assumptions. Taught in [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md#judge-a-study).
@@ -570,7 +606,11 @@ The **factor theorem** says that $x - c$ is a factor of $p(x)$ exactly when $p(c
 
 The **factorial** of a whole number $n \ge 1$ is $n! = n(n-1)\cdots 2 \cdot 1$, and $0! = 1$. It is the number of ways to line up $n$ different things. Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md#definitions).
 
+The **false discovery rate** (FDR) is the expected share of false rejections among all rejections, $E\left[\frac{V}{\max(R, 1)}\right]$. The Benjamini-Hochberg procedure controls it. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#definitions).
+
 A **family of sets** $\{A_i : i \in I\}$ has one set $A_i$ for each index $i$ in an index set $I$. Its union is the set of elements that lie in at least one $A_i$, and its intersection is the set of elements that lie in every $A_i$. Taught in [sets and set operations](../04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations.md#indexed-families).
+
+The **family-wise error rate** (FWER) is the probability of at least one false rejection among a family of tests. The Bonferroni and Holm procedures control it. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#definitions).
 
 The **feasible region** of a system of linear inequalities is the set of points that satisfy every constraint. It can be bounded (it fits inside a circle), unbounded, or empty, in which case the problem is infeasible. Taught in [two-variable inequalities and feasible regions](../03-high-school/02-linear-functions-and-systems/03-two-variable-inequalities-and-feasible-regions.md#definitions).
 
@@ -606,6 +646,8 @@ For whole numbers $a$ and $b$ with $b \ne 0$, the **fraction** $\frac{a}{b}$ is 
 
 A **free variable** is a letter whose meaning comes from outside the expression, such as $n$ in $\sum_{i=1}^{n} i$. A sentence with a free variable, such as "$x > 3$", is not a statement until $x$ is given a value or a quantifier. Taught in [reading math symbols](../04-proofs-and-logic/01-language-and-notation/04-reading-math-symbols.md#definitions) and [quantifiers](../04-proofs-and-logic/02-logic-and-sets/04-quantifiers.md#the-two-quantifiers). In a linear system, a free variable is one whose column has no pivot, so it can take any value and the other variables are given in terms of it; see [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#definitions).
 
+A **friendly factor** is a factor whose product with $n$ comes quickly from $n$ times a power of ten: 5, 25 and 125 divide a power of ten, and 9, 11 and 99 are one away from 10 or 100. Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#definitions).
+
 **Fubini's theorem** says that a double integral of a continuous function over a rectangle can be computed as an iterated integral in either order. For other regions the limits of the inner integral depend on the outer variable, and a sketch of the region is needed to change the order. Taught in [double integrals](../05-university-core/09-multivariable-calculus-light/04-double-integrals.md#iterated-integrals-and-fubinis-theorem).
 
 A **full binary tree** is defined recursively: a single node, called a leaf, is one, and a new node (the root) with two full binary trees as its left and right subtrees is one. Every node has 0 or 2 children, and a node with children is internal. Taught in [recursive definitions and structural induction](../04-proofs-and-logic/05-induction/03-recursive-definitions-and-structural-induction.md#definitions).
@@ -621,6 +663,8 @@ The **fundamental theorem of calculus** has two parts. Part 1 says that if $f$ i
 ## G
 
 A **gap** in a proof is a step whose justification is not on the page and that the reader cannot fill in at once. Routine gaps are filled in silently by the audience, but a gap that hides the whole difficulty means the proof is not yet a proof. Taught in [how to read a proof](../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md#definitions).
+
+The **garden of forking paths** is the set of analysis choices made after seeing the data. The number of tests that count is the number of analyses that might have been run, so the p-value of the reported one is too small. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#forking-paths-and-preregistration).
 
 **Gaussian elimination** solves a linear system by row operations that bring the augmented matrix to row echelon form, then back-substituting (or continuing to reduced form). Its cost is about $\frac{n^3}{3}$ operations, and in floating point it swaps rows to get a large pivot. Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#the-algorithm).
 
@@ -660,6 +704,8 @@ The **greatest common factor** (GCF) of two whole numbers is the largest number 
 
 A **gross domestic product (GDP)** is the market value of final goods and services produced within a country's borders in a period. Taught in [GDP and the circular flow](../07-economics-math/01-measuring-the-economy/05-gdp-and-the-circular-flow.md#definitions).
 
+The **gross-up** is the amount added to a cash dividend before it is taxed, 38% for eligible dividends. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#definitions).
+
 The **growth factor** of an exponential function is its base $b$ when $b > 1$: each step of 1 in $x$ multiplies the output by $b$. A 5% yearly increase has growth factor 1.05. Taught in [exponential functions and growth](../03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md#definitions).
 
 The **growth order** ranking of common sequences is $\ln n \ll n^p \ll b^n \ll n! \ll n^n$ for $p > 0$ and $b > 1$, where $a_n \ll b_n$ means $\frac{a_n}{b_n} \to 0$. Taught in [sequences and their limits](../05-university-core/05-sequences-and-series/01-sequences-and-their-limits.md#growth-orders), and in [asymptotic notation](../06-cs-math/04-sums-recurrences-and-algorithms/04-asymptotic-notation.md).
@@ -669,6 +715,8 @@ The **growth order** ranking of common sequences is $\ln n \ll n^p \ll b^n \ll n
 The **half-angle identities** are $\sin^2 x = \frac{1 - \cos 2x}{2}$ and $\cos^2 x = \frac{1 + \cos 2x}{2}$. They turn a squared sine or cosine into a plain cosine of twice the angle, which can be integrated. Taught in [integration by parts and trig integrals](../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md#definitions).
 
 The **half-life** of a decaying quantity is the time it takes to halve, so the quantity is $A_0 \left(\frac{1}{2}\right)^{t/T}$ for a half-life $T$. Taught in [exponential functions and growth](../03-high-school/07-exponentials-and-logarithms/01-exponential-functions-and-growth.md#doubling-time-and-half-life) and [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#exponential-growth-and-decay).
+
+To **halve and double** is to replace a product $ab$ by $\frac{a}{2} \times 2b$, which has the same value. Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#halving-and-doubling).
 
 **Handshake lemma** is the degrees of a graph add up to twice the number of edges. Taught in [graph basics](../06-cs-math/05-graphs/01-graph-basics.md#degree).
 
@@ -736,6 +784,8 @@ An **improper fraction** has a numerator at least as big as its denominator, so 
 
 An **improper integral** is an integral over an unbounded interval, or of a function that is unbounded near an endpoint, defined as a limit of ordinary integrals. It converges if the limit is a finite number and diverges otherwise. For example, $\int_1^\infty \frac{1}{x^2}\,dx = 1$ but $\int_1^\infty \frac{1}{x}\,dx$ diverges, and $\int_1^\infty \frac{1}{x^p}\,dx$ converges exactly when $p > 1$. Taught in [partial fractions and improper integrals](../05-university-core/04-integrals/05-partial-fractions-and-improper-integrals.md#improper-integrals).
 
+The **inclusion rate** is the fraction of a capital gain that is taxable, 50% as of 2026. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#definitions).
+
 The **inclusive or** is the ordinary "or" of mathematics: "$P$ or $Q$" is true when at least one of them is true, and also when both are. Taught in [statements and connectives](../04-proofs-and-logic/02-logic-and-sets/01-statements-and-connectives.md#the-connectives).
 
 A function is **increasing** on an interval when larger inputs in the interval give larger outputs, and **decreasing** when larger inputs give smaller outputs. Intervals are stated in terms of $x$, not of heights. Taught in [reading function graphs](../03-high-school/03-functions/02-reading-function-graphs.md#definitions).
@@ -769,6 +819,8 @@ An **inflection point** is a point on the graph where the function is continuous
 An **influential point** is one whose removal changes the fitted line a lot. A point with high **leverage** (an $x$ far from $\bar{x}$) is the likely cause, so fit with and without it. Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#definitions).
 
 A function is **injective**, or one-to-one, when different inputs always give different outputs: $f(a_1) = f(a_2)$ implies $a_1 = a_2$. The squaring function on $\mathbb{R}$ is not injective, since $(-2)^2 = 2^2$. Taught in [composition and inverse functions](../03-high-school/03-functions/05-composition-and-inverse-functions.md#definitions) (as one-to-one) and [injective, surjective and bijective](../04-proofs-and-logic/06-relations-and-functions/05-injective-surjective-bijective.md).
+
+An **instalment** (tax) is a payment toward this year's tax made during the year, required when net tax owing is over \$3,000 now and in one of the two previous years. Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#income-tax-instalments-and-deadlines).
 
 The **instantaneous rate of change** of $f$ at $a$ is the derivative $f'(a)$, in units of $f(x)$ per unit of $x$. If $s(t)$ is a position in metres and $t$ is in seconds, then $s'(t)$ is a velocity in metres per second. Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#definitions).
 
@@ -1028,6 +1080,8 @@ Two events are **mutually exclusive** when they can't both happen. For such even
 
 **Nash equilibrium** is a combination of strategies in which each player's strategy is a best response to the others. Taught in [game theory and Nash equilibrium](../07-economics-math/04-more-tools/04-game-theory-and-nash-equilibrium.md#definitions).
 
+**Net business income** is revenue minus deductible expenses, the amount of self-employment income that is taxed. Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#definitions).
+
 **Net change** of a quantity $Q$ over $[a, b]$ is $Q(b) - Q(a)$, with increases and decreases counted with their signs. By the fundamental theorem it equals $\int_a^b Q'(x)\,dx$. Taught in [the fundamental theorem of calculus](../05-university-core/04-integrals/02-fundamental-theorem-of-calculus.md#rates-and-totals).
 
 A **net present value (NPV)** is the sum of a project's cash flows, each discounted back to today. Taught in [present value, NPV and bond prices](../07-economics-math/04-more-tools/01-present-value-npv-and-bond-prices.md#definitions).
@@ -1100,6 +1154,8 @@ The **opposite** of a number $a$, written $-a$, is the number at the same distan
 
 An **optimization problem** asks for the largest or smallest value of an objective function over the points allowed by the constraints. The answer is at a critical point, at an endpoint of the feasible interval, or at a point where the derivative does not exist. Taught in [optimization](../05-university-core/03-applications-of-derivatives/05-optimization.md#a-method-for-word-problems).
 
+**Optional stopping**, or peeking, is deciding when to stop collecting data by looking at the results so far. Stopping at the first $p < 0.05$ makes the false-positive rate much larger than 5%. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#peeking-at-a-running-test).
+
 The **order of magnitude** of a number is the power of ten in its scientific notation, so 93,000,000 is of order $10^7$. Comparing orders of magnitude tells you roughly how many times bigger one quantity is than another. Taught in [scientific notation](../02-middle-school/04-powers-roots-and-real-numbers/02-scientific-notation.md#definitions).
 
 The **order of operations** is the convention for which operation comes first: grouping symbols, then exponents, then multiplication and division from left to right, then addition and subtraction from left to right. The memory aid is BEDMAS in Canada and PEMDAS in the United States, and in both the two letters of a pair have equal rank. Taught in [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#definitions).
@@ -1126,11 +1182,15 @@ A **parabola** is the graph of a quadratic function, a smooth U-shaped curve tha
 
 Two lines are **parallel** when they lie in the same flat surface and never meet. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#points-lines-and-angles), [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md#a-line-crossing-two-lines) and [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md#definitions).
 
+A **parallelepiped** is a slanted box whose six faces are parallelograms, with edges given by three vectors from one corner. Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#volume-and-the-triple-scalar-product).
+
 A **parallelogram** is a four-sided shape with two pairs of parallel sides, like a rectangle pushed over sideways. Every square is a rectangle, and every rectangle is a parallelogram. Its area is base times height. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#polygons).
 
 A **parameter** is a number that describes a population, such as the mean $\mu$, and a **statistic** is a number computed from a sample, such as $\bar{x}$. Taught in [descriptive statistics and study design](../05-university-core/08-statistics/01-descriptive-statistics-and-study-design.md#definitions).
 
 A **parametric curve** is a pair $(x(t), y(t))$ of functions of a parameter $t$. Its velocity is $(x'(t), y'(t))$, its speed is the length of that vector, and its slope is $\frac{dy}{dx} = \frac{dy/dt}{dx/dt}$. Taught in [parametric, polar and 3D coordinates](../05-university-core/09-multivariable-calculus-light/01-parametric-polar-and-3d-coordinates.md#slope-and-velocity-of-a-parametric-curve).
+
+The **parametric equations** of a line in space give one equation for each coordinate, $x = x_0 + at$, $y = y_0 + bt$, $z = z_0 + ct$, with the parameter $t$ free. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
 
 A **parametric vector form** writes a solution set as $\mathbf{p} + s\mathbf{u} + t\mathbf{w}$, a particular solution plus a free combination of vectors, one parameter per free variable. Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#reading-the-solutions).
 
@@ -1167,6 +1227,8 @@ The **perimeter** of a polygon is the total length of its sides, the distance on
 A function is **periodic** when $f(x + p) = f(x)$ for every $x$, and the smallest such positive $p$ is its period. The period of $\sin(Bx)$ is $\frac{2\pi}{B}$. Taught in [graphs of trig functions](../03-high-school/09-trigonometry/03-graphs-of-trig-functions.md#definitions).
 
 A **permutation** of $k$ items chosen from $n$ different items is an ordered list of $k$ of them, and there are $P(n, k) = \frac{n!}{(n-k)!}$ of them. Order matters, as in the gold, silver and bronze places of a race. Taught in [counting: permutations and combinations](../03-high-school/11-sequences-series-and-counting/03-counting-permutations-combinations.md#definitions).
+
+A **permutation test** compares groups by shuffling the group labels, recomputing the statistic for each shuffle, and taking the fraction of shuffles at least as extreme as the real split as the p-value, counting the real split itself, so $p = \frac{1 + k}{B + 1}$. Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#definitions).
 
 Two lines are **perpendicular** when they meet at a right angle, $90^\circ$. In the coordinate plane, two non-vertical lines are perpendicular exactly when their slopes multiply to $-1$. Taught in [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#points-lines-and-angles) and [forms of linear equations](../03-high-school/02-linear-functions-and-systems/01-forms-of-linear-equations.md#definitions).
 
@@ -1215,6 +1277,8 @@ The **power set** $\mathcal{P}(A)$ of a set $A$ is the set of all subsets of $A$
 The **preimage** of a set $T \subseteq B$ under a function $f \colon A \to B$ is the set of inputs whose output lands in $T$. It always exists, even when $f$ has no inverse function: for $f(x) = x^2$ on $\mathbb{R}$, the preimage of $\{4\}$ is $\{-2, 2\}$. Taught in [functions and well-definedness](../04-proofs-and-logic/06-relations-and-functions/04-functions-and-well-definedness.md#image-and-preimage-of-a-set).
 
 A **preorder** is a relation that is reflexive and transitive but not necessarily antisymmetric, so two different elements can each be below the other, as with "grows at most as fast as" for functions. Taught in [partial orders](../04-proofs-and-logic/06-relations-and-functions/03-partial-orders.md#what-if-the-relation-is-reflexive-and-transitive-but-not-antisymmetric).
+
+**Preregistration** is writing down the hypothesis, outcomes, exclusion rules, analysis and stopping rule before collecting data. Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#forking-paths-and-preregistration).
 
 **Present value** is what a future sum is worth today at a given rate. Taught in [present and future value](../08-financial-math/03-time-value-of-money/01-present-and-future-value.md#definitions).
 
@@ -1382,9 +1446,13 @@ A **residual** is the difference between an observed value and the fitted one: $
 
 **Resonance** occurs when an oscillator is forced at its natural frequency $\omega_0$: the response grows like $t\sin\omega_0t$ instead of staying bounded. Taught in [second-order linear equations](../05-university-core/10-differential-equations-light/02-second-order-linear-equations.md#forcing).
 
+A **reverse percent** problem gives the result of a percent change and asks for the original amount: $\text{old} = \frac{\text{new}}{1 + r}$. Divide by the multiplier. Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#definitions).
+
 A step in a calculation is **reversible** when the new line implies the old line as well as the other way round. A chain of reversible steps proves an if-and-only-if statement, and squaring both sides is not reversible. Taught in [if and only if proofs](../04-proofs-and-logic/04-more-proof-methods/01-if-and-only-if-proofs.md#definitions) and [scratch work and proof strategies](../04-proofs-and-logic/03-core-proof-methods/03-scratch-work-and-proof-strategies.md#definitions).
 
 The **Riemann sum** $S_n = \sum_{k=1}^{n} f(x_k^*)\,\Delta x$ adds the areas of $n$ rectangles of width $\Delta x = \frac{b - a}{n}$ and height $f(x_k^*)$ at a sample point of each subinterval. The left, right and midpoint sums use the left end, right end and middle of each subinterval. Taught in [Riemann sums and the definite integral](../05-university-core/04-integrals/01-riemann-sums-and-the-definite-integral.md#definitions).
+
+The **right-hand rule** says to point the fingers of the right hand along $\mathbf{u}$, curl them toward $\mathbf{v}$, and the thumb points along $\mathbf{u} \times \mathbf{v}$. Axes are right-handed when the same rule takes $x$ toward $y$ with the thumb along $z$. Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#definitions).
 
 A **rigid motion**, or isometry, is a transformation that preserves distances and angles: a translation, a rotation, a reflection, or a combination of them. Taught in [transformations, congruence and similarity](../02-middle-school/06-geometry/05-transformations-congruence-similarity.md#definitions).
 
@@ -1396,11 +1464,19 @@ A **rotation** turns every point through the same angle about a fixed point. A $
 
 To **round** a number to a given place is to replace it with the nearest number that has only zeros to the right of that place, so 2,436 rounded to the nearest hundred is 2,400. This book rounds an exact half up. Python's `round` uses round half to even instead, also called banker's rounding, so it sends 2,450 to 2,400 and 2,550 to 2,600. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 
+To **round and adjust** (also called compensation) is to replace a number by a nearby round one, calculate, and correct by the amount you moved: $a + b = (a + c) + b - c$. If you added too much, take it back. Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#definitions).
+
+A **round trip** is a change followed by a second change that returns to the start, which happens when $(1 + r)(1 + s) = 1$. A rise of $\frac{1}{n}$ is undone by a fall of $\frac{1}{n+1}$. Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#definitions).
+
 A matrix is in **row echelon form** when its zero rows are last and each leading entry is to the right of the one above it, giving a staircase. In **reduced row echelon form** (RREF) the leading entries are also 1 with zeros above and below them, and the reduced form of a matrix is unique. Taught in [systems and Gaussian elimination](../05-university-core/06-linear-algebra/02-systems-and-gaussian-elimination.md#definitions).
 
 **RRSP** is the Registered Retirement Savings Plan, with a deduction now and taxable withdrawals. Taught in [retirement accounts: RRSP, TFSA and FHSA](../08-financial-math/06-investing-and-retirement/03-retirement-accounts.md#definitions).
 
+**RSU** is a restricted stock unit, a promise of one share per unit once vesting conditions are met. Its value at delivery is employment income. Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#definitions).
+
 The **rule of 72** says that a quantity growing at $R$ percent per period doubles in about $\frac{72}{R}$ periods. At 6% per year, money doubles in about 12 years. Taught in [exponential and logarithmic equations](../03-high-school/07-exponentials-and-logarithms/04-exponential-and-logarithmic-equations.md#the-rule-of-72) and [doubling time, the rule of 72 and logs](../08-financial-math/02-interest-and-growth/05-doubling-time-rule-of-72-and-logs.md).
+
+The **running total** of a calculation done in several steps is the sum so far. Each step adds the next piece and replaces the old total, so you only hold one number. Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#definitions).
 
 ## S
 
@@ -1421,6 +1497,8 @@ A **sanity check** is a quick test of whether an answer is plausible, by looking
 A compound statement is **satisfiable** if at least one row of its truth table makes it true. Tautologies are satisfiable, and contradictions are not. Taught in [truth tables and logical equivalence](../04-proofs-and-logic/02-logic-and-sets/03-truth-tables-and-logical-equivalence.md#satisfiability-briefly).
 
 A **scalar** is a plain number, used to scale a vector or a matrix. The scalar multiple $c\mathbf{v}$ of $\mathbf{v} = (a, b)$ is $(ca, cb)$, which points the same way when $c > 0$ and the opposite way when $c < 0$. Taught in [vectors in the plane](../03-high-school/10-vectors-and-matrices/01-vectors-in-the-plane.md#definitions).
+
+The **scalar equation of a plane** is $ax + by + cz = d$, where $(a, b, c)$ is a normal vector and $d = \mathbf{n} \cdot \mathbf{r}_0$ for a point $\mathbf{r}_0$ of the plane. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
 
 A **scale drawing** is a drawing in which every length is the same multiple of the matching real length, and its scale is the ratio of a length in the drawing to the real length. A map scale of $1:50{,}000$ means that 1 cm on the map stands for 50,000 cm, or 0.5 km, on the ground. Taught in [proportional relationships](../02-middle-school/02-ratios-rates-percents/02-proportional-relationships.md#definitions).
 
@@ -1443,6 +1521,8 @@ A **second-order linear equation** with constant coefficients $y'' + by' + cy = 
 The **second partial derivatives** $f_{xx}$, $f_{xy}$, $f_{yx}$ and $f_{yy}$ are the partial derivatives of the partial derivatives. For a function with continuous second partials, $f_{xy} = f_{yx}$ (Clairaut's theorem). Taught in [partial derivatives and the gradient](../05-university-core/09-multivariable-calculus-light/02-partial-derivatives-and-the-gradient.md#computing-partial-derivatives).
 
 A **sector** is the region of a circle between two radii and the arc they cut off. Its area is $\frac{\theta}{360} \cdot \pi r^2$. Taught in [area and circles](../02-middle-school/06-geometry/02-area-and-circles.md#arcs-and-sectors).
+
+**Self-employed CPP** is CPP on net business income, paying both the employee and employer shares: 11.9% plus 8% CPP2 above the year's maximum pensionable earnings. Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#definitions).
 
 A **separable** first-order equation has the form $y' = g(t)h(y)$, solved by moving all the $y$ terms to one side and integrating: $\int \frac{dy}{h(y)} = \int g(t)\,dt$. Divide only after listing the constant solutions, where $h(y) = 0$, or they are lost. Taught in [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#separable-equations).
 
@@ -1490,6 +1570,8 @@ A **sinusoidal function** is a sine or cosine curve that has been shifted and st
 
 The **skeleton** of a proof is its claim, its method, its assumptions and its final line, with the middle left out. For Euclid's proof it is "assume the opposite, build a number $N$, show $N$ has a prime divisor, derive that it divides 1". Taught in [how to read a proof](../04-proofs-and-logic/03-core-proof-methods/02-how-to-read-a-proof.md#definitions).
 
+**Skew lines** are two lines in space that are not parallel and never meet. They are exactly the pairs of lines that do not lie in one plane. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
+
 A data set is **skewed** right when it has a long tail of large values, as incomes do, and skewed left when the long tail is on the small side. In a right-skewed set the mean is usually larger than the median. Taught in [describing data](../02-middle-school/07-statistics-and-probability/01-describing-data.md#definitions).
 
 A **slant asymptote** is a line $y = mx + b$ with $m \ne 0$ that a graph approaches. A rational function has one when the numerator's degree is exactly one more than the denominator's, and polynomial division finds it. Taught in [rational functions and asymptotes](../03-high-school/06-rational-expressions-and-equations/02-rational-functions-and-asymptotes.md#definitions).
@@ -1501,6 +1583,8 @@ The **slope** of a line through $(x_1, y_1)$ and $(x_2, y_2)$ is $\frac{y_2 - y_
 A **slope field** draws a short segment of slope $f(t, y)$ at many points of the plane for the equation $y' = f(t, y)$. Solutions follow the segments, and constant solutions (equilibria) are the horizontal lines where $f = 0$. Taught in [first-order differential equations](../05-university-core/10-differential-equations-light/01-first-order-differential-equations.md#reading-a-slope-field-and-finding-equilibria).
 
 The **slope-intercept form** of a line is $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept. Taught in [slope and linear equations](../02-middle-school/05-linear-relationships-and-functions/02-slope-and-linear-equations.md#definitions).
+
+A **small supplier** is a person whose revenue is \$30,000 or less in a single quarter and in the last four consecutive quarters, and who need not register for GST/HST. Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#definitions).
 
 A **smallest counterexample** argument uses the well-ordering principle: suppose some $n$ makes $P(n)$ false, take the least such $m$, and show that $m$ cannot exist. Taught in [strong induction and well-ordering](../04-proofs-and-logic/05-induction/02-strong-induction-and-well-ordering.md#definitions).
 
@@ -1517,6 +1601,8 @@ The **special products** are the identities $(a + b)^2 = a^2 + 2ab + b^2$, $(a -
 The **spectral theorem** for symmetric matrices says that a real symmetric matrix has real eigenvalues, eigenvectors for different eigenvalues are orthogonal, and $A = QDQ^T$ with $Q$ orthogonal and $D$ diagonal. Taught in [eigenvalues and eigenvectors](../05-university-core/06-linear-algebra/08-eigenvalues-and-eigenvectors.md#symmetric-matrices).
 
 A **sphere** is the set of all points in space at a fixed distance $r$ from a centre. Its volume is $\frac{4}{3}\pi r^3$ and its surface area is $4\pi r^2$. Taught in [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md#definitions).
+
+To **split by place value** is to write a number as the sum of its nonzero digits times powers of ten, such as $356 = 300 + 50 + 6$. Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#definitions).
 
 The **square** of a number $b$ is $b^2 = b \times b$, read "$b$ squared", after the area of a square. A perfect square, or square number, is the square of an integer, such as $49 = 7^2$, and it is never negative. As a shape, a square is a rectangle whose four sides are all the same length. Taught in [multiplication and times tables](../01-elementary/03-multiplication-and-times-tables.md#definitions), [exponents and order of operations](../02-middle-school/01-integers-and-rational-numbers/04-exponents-and-order-of-operations.md#definitions) and [geometry basics: area, perimeter and volume](../01-elementary/16-geometry-basics-area-perimeter-volume.md#polygons).
 
@@ -1566,6 +1652,8 @@ The **sum rule** says that if a task can be done in one of several ways and no o
 
 **Summation** notation writes a long sum compactly: $\sum_{i=1}^{n} a_i$ means $a_1 + a_2 + \dots + a_n$. Also called sigma notation. Taught in [summation notation and series](../03-high-school/11-sequences-series-and-counting/02-summation-notation-and-series.md#definitions).
 
+A **superficial loss** is a capital loss denied because identical property was bought from 30 days before to 30 days after the sale and still held; it is added to the ACB of the new shares. Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#definitions).
+
 Two angles are **supplementary** when their measures add to $180^\circ$. Taught in [angles and triangles](../02-middle-school/06-geometry/01-angles-and-triangles.md#pairs-of-angles).
 
 The **surface area** of a solid is the total area of its outer faces, measured in square units. Taught in [volume and surface area](../02-middle-school/06-geometry/03-volume-and-surface-area.md#definitions).
@@ -1575,6 +1663,8 @@ A function $f \colon A \to B$ is **surjective**, or onto, when every element of 
 **Symbol soup** is a string of formulas joined by arrows or equals signs, with few or no words, so that the reader must guess how each formula follows from the last. The arrow $\Rightarrow$ means "implies", not "and then". Taught in [how to write a proof](../04-proofs-and-logic/03-core-proof-methods/07-how-to-write-a-proof.md#definitions).
 
 A relation is **symmetric** if $b \mathrel{R} a$ whenever $a \mathrel{R} b$, so every arrow of its digraph has an arrow coming back. A statement about $a$ and $b$ is also called symmetric in $a$ and $b$ when swapping the names gives the same statement, which is what WLOG needs. Taught in [relations and their properties](../04-proofs-and-logic/06-relations-and-functions/01-relations-and-their-properties.md#the-four-properties) and [proof by cases and WLOG](../04-proofs-and-logic/03-core-proof-methods/04-proof-by-cases-and-wlog.md#definitions).
+
+The **symmetric equations** of a line are $\frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}$, valid when $a$, $b$ and $c$ are all nonzero. Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#definitions).
 
 A **symmetric matrix** is a square matrix with $A^T = A$. Taught in [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#the-transpose).
 
@@ -1643,6 +1733,8 @@ The **triangle inequality** says that each side of a triangle is less than the s
 A **triangular matrix** has only zeros below the diagonal (upper triangular) or above it (lower triangular). Its determinant and its eigenvalues are given by the diagonal entries. Taught in [determinants](../05-university-core/06-linear-algebra/06-determinants.md#computing-a-determinant).
 
 **Trigonometric substitution** replaces $x$ by $a\sin\theta$, $a\tan\theta$ or $a\sec\theta$ to turn the square root of a quadratic into a trig function. It handles $\sqrt{a^2 - x^2}$, $\sqrt{a^2 + x^2}$ and $\sqrt{x^2 - a^2}$. Taught in [integration by parts and trig integrals](../05-university-core/04-integrals/04-integration-by-parts-and-trig-integrals.md#trigonometric-substitution).
+
+The **triple scalar product** $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$ is a number: the $3 \times 3$ determinant of the three vectors as rows. Its absolute value is the volume of the parallelepiped on them, and it is 0 exactly when they lie in one plane. Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#volume-and-the-triple-scalar-product).
 
 To **truncate** a number at a given place is to replace every digit to the right of that place with 0, without looking at what those digits are. Truncating 2,996 to the tens gives 2,990, while rounding gives 3,000. For a whole number this is the same as always rounding down. Taught in [place value and rounding](../01-elementary/01-place-value-and-rounding.md#definitions).
 
@@ -1727,6 +1819,8 @@ The **vertical line test** says that a graph is the graph of a function of $x$ e
 A **vertical stretch** replaces $f(x)$ with $a f(x)$ for $a > 1$, pulling the graph away from the $x$-axis by the factor $a$. When $0 < a < 1$ it is a compression. Replacing $x$ by $bx$ stretches or compresses horizontally by the factor $\frac{1}{b}$. Taught in [transformations of functions](../03-high-school/03-functions/04-transformations-of-functions.md#definitions).
 
 A **vertical tangent** is a point where the curve is smooth but the tangent line is vertical, as the $y$-axis is for $x^{1/3}$ at 0. The derivative does not exist there, because the difference quotient tends to $\infty$. Taught in [the derivative definition](../05-university-core/02-derivatives/01-the-derivative-definition.md#where-a-derivative-does-not-exist).
+
+The **vesting schedule** is the timetable on which RSUs or options become yours. Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#definitions).
 
 **Volatility** is the standard deviation of an investment's returns. Taught in [investing returns and risk](../08-financial-math/06-investing-and-retirement/01-investing-returns-and-risk.md#definitions).
 

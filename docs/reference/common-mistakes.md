@@ -104,6 +104,56 @@ The 100 is in kilometres per hour and the 3 is in seconds, so the product has no
 
 Taught in [estimation and sanity checks](../02-middle-school/04-powers-roots-and-real-numbers/04-estimation-and-sanity-checks.md#worked-examples).
 
+### Adjusting in the wrong direction
+
+Wrong: $1{,}203 - 998 = 1{,}203 - 1{,}000 - 2 = 201$
+
+Right: $1{,}203 - 1{,}000 + 2 = 205$
+
+Subtracting 1,000 takes away 2 too many, so give 2 back. Check by adding back: $205 + 998 = 1{,}203$.
+
+Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#edge-cases-and-common-mistakes).
+
+### Using "all from 9" on a number with trailing zeros
+
+Wrong: $1{,}000 - 640 = 359$
+
+Right: $1{,}000 - 640 = 360$
+
+The "from 10" belongs to the last nonzero digit, here the 4, and the zeros stay. Taking every digit from 9 gives $999 - 640$.
+
+Taught in [mental addition and subtraction](../02-middle-school/08-mental-math/01-mental-addition-and-subtraction.md#edge-cases-and-common-mistakes).
+
+### Keeping two of four partial products
+
+Wrong: $47 \times 68 = 40 \times 60 + 7 \times 8 = 2{,}456$
+
+Right: $47 \times 68 = 2{,}400 + 320 + 420 + 56 = 3{,}196$
+
+Every piece of the first factor meets every piece of the second, so two two-digit numbers give four partial products. A size check ($70 \times 45 = 3{,}150$) catches it.
+
+Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#edge-cases-and-common-mistakes).
+
+### Using the difference of squares on numbers that are not symmetric
+
+Wrong: $47 \times 54 = 50^2 - 3^2 = 2{,}491$, or reading $m^2 - d^2$ as $(m - d)^2$
+
+Right: $47 \times 54 = 47 \times 53 + 47 = 2{,}538$
+
+The two numbers must be the same distance $d$ from $m$, one below and one above.
+
+Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#edge-cases-and-common-mistakes).
+
+### Dropping the carry when multiplying by 11
+
+Wrong: $68 \times 11 = 6148$
+
+Right: $68 \times 11 = 748$
+
+The middle digit sum $6 + 8 = 14$ has two digits, and its 1 carries into the 6.
+
+Taught in [mental multiplication and division](../02-middle-school/08-mental-math/02-mental-multiplication-and-division.md#edge-cases-and-common-mistakes).
+
 ## Negative numbers
 
 ### Ordering negative numbers by their digits
@@ -369,6 +419,36 @@ Right: it has gone up by 1 percentage point, which is a 25% increase, since $\fr
 A percentage point is the plain difference between two percents. A percent change compares that difference to the starting value. News reports and economics papers use both, so check which one a sentence means.
 
 Taught in [percent change and applications](../02-middle-school/02-ratios-rates-percents/04-percent-change-and-applications.md#percent-change-or-percentage-points) and [percent change vs percentage points](../07-economics-math/01-measuring-the-economy/02-percent-change-vs-percentage-points.md).
+
+### Undoing a rise with the same percent
+
+Wrong: after a 25% rise, a 25% fall returns to the start ($1.25 \times 0.75 = 0.9375$)
+
+Right: a rise of $\frac{1}{4}$ is undone by a fall of $\frac{1}{5}$, which is 20%
+
+The fall is measured against the larger new amount. In general a rise of $\frac{1}{n}$ is undone by a fall of $\frac{1}{n+1}$.
+
+Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#changes-in-a-row).
+
+### Converting currency in the wrong direction
+
+Wrong: CAD 49 at 1.40 CAD per USD is $49 \times 1.4 = 68.6$ USD
+
+Right: CAD 49 is USD 35
+
+A US dollar is worth more, so the same price is a smaller number in US dollars. Divide by the rate.
+
+Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#edge-cases-and-common-mistakes).
+
+### Putting a percent rate into the rule of 72 as a decimal
+
+Wrong: at 6%, $\frac{72}{0.06} = 1{,}200$ years
+
+Right: $\frac{72}{6} = 12$ years
+
+The rule takes the rate as a number of percent. It also loses accuracy above about 15%.
+
+Taught in [percents, fractions and money in your head](../02-middle-school/08-mental-math/03-percents-fractions-and-money-in-your-head.md#edge-cases-and-common-mistakes).
 
 ## Ratios and proportions
 
@@ -2194,6 +2274,56 @@ For example, $\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}\begin{pmatrix} 0 & 0 
 
 Taught in [matrix basics](../03-high-school/10-vectors-and-matrices/02-matrix-basics.md#edge-cases-and-common-mistakes) and [matrix algebra and inverses](../05-university-core/06-linear-algebra/03-matrix-algebra-and-inverses.md#edge-cases-and-common-mistakes).
 
+### Getting the sign or order of a cross product wrong
+
+Wrong: $(1, 2, 3) \times (4, 5, 6) = (-3, -6, -3)$, or $\mathbf{v} \times \mathbf{u} = \mathbf{u} \times \mathbf{v}$
+
+Right: $(1, 2, 3) \times (4, 5, 6) = (-3, 6, -3)$, and $\mathbf{v} \times \mathbf{u} = -(\mathbf{u} \times \mathbf{v})$
+
+The middle component is $u_3 v_1 - u_1 v_3$, with the order reversed from the other two, and swapping the factors changes every sign. Dot the answer with both vectors to check: both results must be 0.
+
+Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#edge-cases-and-common-mistakes).
+
+### Treating the cross product like ordinary multiplication
+
+Wrong: $\mathbf{u} \times (\mathbf{v} \times \mathbf{w}) = (\mathbf{u} \times \mathbf{v}) \times \mathbf{w}$, or $\mathbf{u} \times \mathbf{v} = \mathbf{u} \times \mathbf{w}$ so $\mathbf{v} = \mathbf{w}$
+
+Right: the cross product is not associative and can't be cancelled
+
+Here $\mathbf{i} \times (\mathbf{i} \times \mathbf{j}) = -\mathbf{j}$, but $(\mathbf{i} \times \mathbf{i}) \times \mathbf{j} = \mathbf{0}$. And $(1, 0, 0)$ crossed with either $(0, 1, 0)$ or $(3, 1, 0)$ gives $(0, 0, 1)$.
+
+Taught in [vectors in 3D and the cross product](../03-high-school/10-vectors-and-matrices/03-vectors-in-3d-and-the-cross-product.md#edge-cases-and-common-mistakes).
+
+### Using the same parameter for two lines in space
+
+Wrong: to find where $\mathbf{r}_1 + t\mathbf{m}_1$ and $\mathbf{r}_2 + t\mathbf{m}_2$ meet, solve with one $t$
+
+Right: use two parameters, $s$ and $t$
+
+One parameter tests whether two moving points arrive together, not whether the paths cross. Lines in space can also be skew: not parallel and never meeting.
+
+Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#edge-cases-and-common-mistakes).
+
+### Reading one equation in space as a line
+
+Wrong: $x + y = 3$ is a line in space
+
+Right: it is a plane, the vertical wall through the line $x + y = 3$ of the $xy$-plane
+
+One linear equation in three unknowns leaves two free directions. A line needs two equations, or a parametric form.
+
+Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#edge-cases-and-common-mistakes).
+
+### Mixing up parallel and perpendicular for a line and a plane
+
+Wrong: a line is perpendicular to a plane when $\mathbf{m} \cdot \mathbf{n} = 0$
+
+Right: $\mathbf{m} \cdot \mathbf{n} = 0$ means the line is parallel to the plane. It is perpendicular when $\mathbf{m}$ is a multiple of $\mathbf{n}$.
+
+The normal is perpendicular to the plane, so a direction perpendicular to the normal lies along the plane.
+
+Taught in [lines and planes in 3D](../03-high-school/10-vectors-and-matrices/04-lines-and-planes-in-3d.md#edge-cases-and-common-mistakes).
+
 ## Limits and continuity
 
 ### Reading the limit as the value at the point
@@ -3390,6 +3520,96 @@ Compare with a control group that did not get the method.
 
 Taught in [correlation and linear regression](../05-university-core/08-statistics/04-correlation-and-linear-regression.md#edge-cases-and-common-mistakes).
 
+### Running a chi-square test on percentages
+
+Wrong: the ticket shares 26.4%, 20.8%, 17.6%, 18.0% and 17.2% against an expected 20% give $\chi^2 = 2.96$ and $p = 0.56$
+
+Right: use the counts, 132, 104, 88, 90 and 86 against 100, which give $\chi^2 = 14.8$ and $p = 0.0051$
+
+The statistic grows with the sample size, and percentages throw the size away.
+
+Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#edge-cases-and-common-mistakes).
+
+### Using a chi-square test when expected counts are below 5
+
+Wrong: 2 rollbacks of 20 against 6 of 20 gives $\chi^2 = 2.5$ and $p = 0.114$
+
+Right: the expected count is 4, below 5, so use Fisher's exact test ($p = 0.235$)
+
+The chi-square curve is only an approximation, and it is poor for small cells. Check the expected counts, not the observed ones.
+
+Taught in [chi-square tests](../05-university-core/08-statistics/05-chi-square-tests.md#example-4-when-the-expected-counts-are-too-small).
+
+### Resampling the maximum
+
+Wrong: the 95% bootstrap interval for the population maximum is $(78.8, 95.0)$
+
+Right: the interval can't reach above the sample maximum, so it misses the true maximum every time
+
+A bootstrap resample has no value beyond the sample, so it can't see the unobserved part of the distribution. The same holds for the minimum and for extreme percentiles.
+
+Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#example-4-when-the-bootstrap-fails-the-maximum).
+
+### Bootstrapping dependent data one value at a time
+
+Wrong: resample the 200 values of a time series as if they were independent
+
+Right: resample blocks of consecutive values, or whole users when the data are clustered
+
+Single-value resampling destroys the dependence, and the standard error comes out too small (0.098 against a true 0.231 in the lesson's simulation).
+
+Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#edge-cases-and-common-mistakes).
+
+### Reporting a permutation p-value of 0
+
+Wrong: none of the 10,000 shuffles was as extreme, so $p = 0$
+
+Right: $p = \frac{1 + 0}{10000 + 1}$, at least $\frac{1}{B + 1}$
+
+The real split is one of the possible splits, so it is always counted.
+
+Taught in [the bootstrap and permutation tests](../05-university-core/08-statistics/06-bootstrap-and-permutation-tests.md#definitions).
+
+### Stopping at the first failure in Benjamini-Hochberg
+
+Wrong: rank 4 missed its cutoff, so reject ranks 1 to 3
+
+Right: find the largest rank that passes its cutoff and reject everything up to it. If rank 5 passes, reject ranks 1 to 5
+
+BH is a step-up procedure. Stopping at the first failure is Holm's rule.
+
+Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#example-5-benjamini-hochberg-with-a-surprise-finish-it-yourself).
+
+### Peeking at a running test
+
+Wrong: check the A/B test every day and stop at the first $p < 0.05$, which has a 5% false-positive rate
+
+Right: the rate is about 22% for 14 daily looks. Fix the sample size in advance, or use cutoffs built for repeated looks
+
+Each look is another chance for a fluke.
+
+Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#example-2-peeking-at-an-aa-test).
+
+### Reporting the best of many models on the test set
+
+Wrong: the best of 100 models scores 54% on the test set, so the model has skill
+
+Right: if all 100 models are coin flips, the best scores about 54% anyway. Choose on a validation set and use the test set once
+
+Selecting the maximum of many noisy scores is a multiple-testing problem.
+
+Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#example-4-choosing-the-best-model-on-the-test-set).
+
+### Counting only the tests you reported
+
+Wrong: the paper shows one p-value, so no correction is needed
+
+Right: the family is every analysis you could have reported, such as other outcomes, subgroups, exclusion rules and looks
+
+If the analysis was chosen after seeing the data, the p-value doesn't account for the paths not taken.
+
+Taught in [multiple testing and p-hacking](../05-university-core/08-statistics/07-multiple-testing-and-p-hacking.md#edge-cases-and-common-mistakes).
+
 ## Multivariable calculus
 
 ### Taking the angle in polar coordinates from the arctangent alone
@@ -3801,3 +4021,53 @@ Right: \$2,000 at 18% with the higher of \$10 or 3% takes 166 months and \$1,798
 The payment shrinks with the balance, so the balance decays only slowly.
 
 Taught in [credit cards and the minimum payment trap](../08-financial-math/04-borrowing/04-credit-cards-and-the-minimum-payment-trap.md#edge-cases-and-common-mistakes).
+
+### Counting a target bonus as pay
+
+Wrong: A 10% target bonus on \$90,000 is \$9,000 a year.
+
+Right: Use the expected value, \$8,550 for the example payout distribution, and look at the spread.
+
+The target is the payout at a factor of 1, and the factor can be 0.
+
+Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#edge-cases-and-common-mistakes).
+
+### Treating an RSU grant as yearly pay
+
+Wrong: A \$48,000 RSU grant is \$48,000 a year.
+
+Right: It is \$12,000 a year over a four-year vest, and nothing before the cliff.
+
+Put each vest in the year it arrives, and count only what has vested.
+
+Taught in [comparing job offers](../08-financial-math/08-starting-your-career/01-comparing-job-offers.md#edge-cases-and-common-mistakes).
+
+### Taxing the cash dividend
+
+Wrong: Tax and credits are worked out on the \$1,000 you received.
+
+Right: Work them out on the grossed-up \$1,380.
+
+Using \$1,000 for both gives \$46.30 of tax instead of \$63.90.
+
+Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#edge-cases-and-common-mistakes).
+
+### First-in first-out for identical shares
+
+Wrong: A sale uses the cost of the oldest lot.
+
+Right: The ACB is the average cost of the whole pool of identical shares.
+
+A sale does not change the average cost of the shares left.
+
+Taught in [taxes on investment income](../08-financial-math/08-starting-your-career/02-taxes-on-investment-income.md#edge-cases-and-common-mistakes).
+
+### Treating revenue as income
+
+Wrong: A freelancer with \$24,000 of revenue is taxed on \$24,000.
+
+Right: Tax and CPP are on net business income, revenue minus deductible expenses.
+
+Spending the HST collected is a second version of the same mistake: it belongs to the CRA.
+
+Taught in [side gigs and self-employment](../08-financial-math/08-starting-your-career/03-side-gigs-and-self-employment.md#edge-cases-and-common-mistakes).
