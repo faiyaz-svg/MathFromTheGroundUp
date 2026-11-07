@@ -4,7 +4,7 @@ A self-study math textbook that starts at grade 1 arithmetic and ends at univers
 
 If you are new here, read [How to use this book](00-start-here/index.md) first. It explains the quick checks, the diagnostic quizzes and how to skip what you already know.
 
-The companion book [CS From the Ground Up](https://faiyaz-svg.github.io/CSFromTheGroundUp/) covers computers, programming, data, the cloud and AI-assisted development in the same style.
+The companion book [CS From the Ground Up](https://faiyaz-svg.github.io/CSFromTheGroundUp/) covers computers, programming, data, the cloud and AI-assisted development in the same style. A third book, [Music From the Ground Up](https://faiyaz-svg.github.io/MusicFromTheGroundUp/), teaches piano and guitar from the first note.
 
 ## Contents
 
