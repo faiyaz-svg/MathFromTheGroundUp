@@ -1,6 +1,6 @@
 # Reference
 
-These pages are for looking things up: in the middle of a lesson, while reading a proof in a course, or when a symbol or word on a problem set stops you. Each entry links back to the lesson that teaches it. Lessons that are not written yet appear as plain names and become links as they are written.
+These pages are for looking things up: in the middle of a lesson, while reading a proof in a course, or when a symbol or word on a problem set stops you. Each entry links back to the lesson that teaches it.
 
 | Page | What it holds |
 |---|---|
